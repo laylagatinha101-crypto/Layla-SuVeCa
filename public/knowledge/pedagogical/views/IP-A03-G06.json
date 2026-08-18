@@ -1,0 +1,2178 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A03-G06",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.962Z"
+  },
+  "unit": {
+    "unitId": "IP-A03-G06",
+    "lessonId": "A03",
+    "groupId": "G06",
+    "title": "Pronomes Relativos - Regência e Reescrita",
+    "variant": "development",
+    "canonicalTopicId": "pt:a03:pronomes-relativos-regencia-e-reescrita",
+    "learningObjectives": [
+      "OBJ-IP-A03-G06-001",
+      "OBJ-IP-A03-G06-002",
+      "OBJ-IP-A03-G06-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Regência e reescrita de relativos são resolvidas pela dupla ligação: função dentro da subordinada e retomada do antecedente no período.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Distinção entre classes gramaticais (Substantivo, Pronome Demonstrativo, Numeral, Adjetivo, Verbo, Preposição);",
+            "Noções de transitividade verbal (Verbo Transitivo Direto - VTD, Verbo Transitivo Indireto - VTI, Verbo Intransitivo - VI, Verbo de Ligação - VL);",
+            "Conceito de Regência Verbal e Regência Nominal (termos regentes e termos regidos);",
+            "Noção estrutural de Oração Principal e Oração Subordinada Adjetiva."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A03-G06-REGENCIA-REESCRITA-RELATIVOS ├── FUNDAMENTOS DO PRONOME RELATIVO │ ├── Função Textual: Anáfora / Substituição (KB-001) │ └── Natureza do Antecedente: Obrigatoriamente Substantiva (KB-002) │ ├── Substantivo (Comum / Próprio) │ ├── Pronome Substantivo Demonstrativo (o, a, os, as = aquilo, aquele, aquela) │ └── Numeral Substantivo ├── INVENTÁRIO E EMPREGO DOS RELATIVOS │ ├── Coringas: QUE / O QUAL (Pessoas e Coisas; flexões preposicionadas) (KB-003) │ ├── Pessoal Preposicionado: QUEM (Exige pessoa + preposição obrigatória) (KB-004) │ │ └── Gera Objeto Direto Preposicionado com VTD │ ├── Circunstanciais: COMO (Modo), QUANTO (Quantidade), QUANDO (Tempo) (KB-005) │ ├── Espaciais Estritos: ONDE / AONDE / DONDE (KB-006) │ │ ├── ONDE: Permanência / Preposição EM │ │ ├── AONDE: Movimento / Preposição A │ │ └── DONDE: Origem / Preposição DE │ └── Possessivo Insubstituível: CUJO (KB-007) │ ├── Vincula dois substantivos em relação de posse (Subst.2 + de + Subst.1) │ ├── Internaliza a preposição \"de\" │ └── Acopla preposição externa regida pelo verbo antes de si (com cujo, de cujo) ├── PROCEDIMENTOS OPERACIONAIS DE REGÊNCIA │ ├── Método Algorítmico em 4 Passos (PROC-001) │ │ ├── Passo 1: Isolar a Oração Adjetiva │ │ ├── Passo 2: Localizar o Verbo/Regente │ │ ├── Passo 3: Identificar o Sujeito │ │ └── Passo 4: Ordem Direta + Completar com Antecedente (\"Olho no peixe, olho no gato\") │ └── Regência de Verbos de Movimento: A vs. PARA / Crase (KB-010) └── REESCRITA E ANÁLISE PRAGMÁTICA (PADRÃO CESPE/CEBRASPE) ├── Método de Julgamento em 5 Passos (PROC-002) ├── Fenômeno da Dupla Regência (VTI vs. VTD) (KB-009) ├── Correção Gramatical vs. Preservação de Sentido (WARN-005) └── Proibição de Onde/Aonde para Antecedentes Abstratos (WARN-006)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A03-G06-001",
+          "title": "Mapa de conexão — Pronomes Relativos - Regência e Reescrita",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a03:pronomes-relativos-regencia-e-reescrita",
+              "label": "Pronomes Relativos - Regência e Reescrita",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a03:pronomes-relativos-regencia-e-reescrita",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O pronome relativo é a classe de palavras que estabelece coesão textual ao desempenhar dupla função: conecta duas orações (introduzindo uma oração subordinada adjetiva) e substitui anaphoricamente um termo expresso na oração anterior, denominado antecedente ou referente (RETOMAR = SUBSTITUIR)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Textualmente, a função essencial do pronome relativo é evitar repetições vocabulares desnecessárias. Em uma sequência de orações coordenadas ou períodos simples repetitivos (ex.: \"Eu conheço o menino. O menino foi aprovado\"), o pronome relativo substitui a réplica do substantivo e integra os enunciados em um único período composto (\"Eu conheço o menino que foi aprovado\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para confirmar se uma palavra (notadamente o que) atua como pronome relativo:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Deve referir-se a um termo imediatamente ou proximamente antecedente;",
+            "Pode ser substituído, em regra, por outro pronome relativo canônico como o qual, a qual, os quais, as quais;",
+            "Inicia oração subordinada adjetiva (restritiva ou explicativa)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo 1: \"O livro que você ganhou é novo.\" (O pronome que substitui o antecedente livro).",
+            "Exemplo 2: \"O homem, que é mortal, tem alma imortal.\" (O pronome que substitui o antecedente homem)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui termo associado: TERM-A03-G06-001 (Antecedente / Referente).",
+            "Fundamenta: KB-A03-G06-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O referente (antecedente) de um pronome relativo deve possuir obrigatoriamente natureza substantiva. Um pronome relativo jamais retoma um adjetivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "As bancas de concurso frequentemente exploram a identificação sintática do antecedente. Na Língua Portuguesa padrão, o antecedente de valor substantivo manifesta-se em três formas canônicas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Substantivo (próprio ou comum): Termo nominal padrão da oração anterior;",
+            "Pronome Substantivo Demonstrativo: Representado comumente pelas formas oblíquas/demonstrativas o, a, os, as quando equivalentes a aquilo, aquele, aquela, aqueles, aquelas;",
+            "Numeral Substantivo: Numeral que assume a posição e o papel de um núcleo substantivo na oração."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ao isolar o pronome relativo, trace uma seta anafórica para identificar a qual núcleo ele se acopla.",
+            "Se o termo apontado for um adjetivo qualificador, a análise sintática está incorreta: o relativo estará apontando para o substantivo modificado por aquele adjetivo ou para um pronome demonstrativo elíptico."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Substantivo como antecedente: \"Conheço o aluno que foi aprovado.\" (que retoma o substantivo aluno).",
+            "Pronome Substantivo Demonstrativo: \"Conheço o que você comprou.\" (que retoma o, que equivale a aquilo -> \"Conheço aquilo que você comprou\").",
+            "Numeral Substantivo: \"Conheço milhões que foram aprovados.\" (que retoma o numeral com força substantiva milhões)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pegadinha de concurso: Questões que afirmam que o pronome relativo retoma adjetivo anterior estão formalmente incorretas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A03-G06-001, EX-A03-G06-002, EX-A03-G06-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os pronomes relativos Que e O qual (e suas flexões a qual, os quais, as quais) são considerados os coringas da gramática, sendo aptos a retomar antecedentes que representem tanto pessoas quanto coisas/conceitos."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Versatilidade e Limite: Podem substituir praticamente qualquer outro pronome relativo, com uma única restrição gramatical categórica: nunca podem substituir o pronome relativo possessivo cujo, pois cujo embuti valor genitivo/possessivo exclusivo.",
+            "Diferença de Estrutura Morfológica frente a Preposições:",
+            "Que: Não é precedido de artigo próprio. Quando exigida uma preposição, esta fica justaposta imediatamente antes dele (a que, de que, em que, com que, por que).",
+            "O qual / A qual / Os quais / As quais: Já trazem intrinsecamente o artigo definido (o, a, os, as). Quando uma preposição é exigida pelo regente da oração adjetiva, ocorre fusão morfológica obrigatória (contração ou combinação):",
+            "a + o qual = ao qual / a + a qual = à qual (com crase);",
+            "de + o qual = do qual / de + as quais = das quais;",
+            "em + o qual = no qual / em + a qual = na qual;",
+            "por + o qual = pelo qual / por + as quais = pelas quais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"O assunto a que me referi não foi este.\" (Preposição a + pronome que).",
+            "\"O assunto ao qual me referi não foi este.\" (Preposição a + artigo o + relativo qual).",
+            "\"O assunto que me referi...\" (Incorreto, pois omitiu a preposição a exigida por referir-se)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui macete: TIP-A03-G06-001.",
+            "Possui alerta: WARN-A03-G06-003.",
+            "Exemplificado por: EX-A03-G06-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome relativo Quem possui duas exigências sintático-semânticas cumulativas e obrigatórias:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Retomar exclusivamente antecedente que represente pessoa (ou ente personificado);",
+            "Vir obrigatoriamente antecedido de preposição na oração subordinada adjetiva."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Como pronome relativo, a forma quem nunca pode ser utilizada isolada (sem preposição). Quando o verbo da oração adjetiva é Transitivo Indireto (VTI), a preposição regida antecede naturalmente o relativo (ex.: a pessoa de quem falei, a mulher com quem conversei)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entretanto, quando o verbo da oração adjetiva é Transitivo Direto (VTD) — tipo verbal que não exige preposição —, a exigência intrínseca do pronome relativo quem forçará a inserção da preposição a. Nessa configuração específica, cria-se a figura sintática clássica do Objeto Direto Preposicionado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na frase: \"Aí está a pessoa  sempre respeitei.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbo respeitar é VTD (respeitar alguém -> respeitei a pessoa).",
+            "Análise das opções com referente pessoal:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "que: Correto (pronome coringa, sem preposição com VTD).",
+            "a qual: Correto (a letra a é apenas o artigo que integra o pronome).",
+            "quem (sem preposição): Incorreto (o relativo quem não pode vir desacompanhado de preposição).",
+            "a que: Incorreto (a letra a atuaria como preposição indevida diante do relativo neutro que com verbo VTD).",
+            "a quem: Correto (o a é preposição obrigatória pela presença do pronome quem, exercendo a função de Objeto Direto Preposicionado)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aí está a pessoa que sempre respeitei. (Correto — VTD sem preposição).",
+            "Aí está a pessoa a qual sempre respeitei. (Correto — a é artigo).",
+            "Aí está a pessoa a quem sempre respeitei. (Correto — a é preposição exigida pelo pronome quem; função: Objeto Direto Preposicionado).",
+            "Aí está a pessoa quem sempre respeitei. (Incorreto — ausência de preposição com quem)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui termo associado: TERM-A03-G06-002 (Objeto Direto Preposicionado).",
+            "Possui alerta: WARN-A03-G06-002.",
+            "Exemplificado por: EX-A03-G06-008."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os pronomes relativos Como, Quanto e Quando exigem antecedentes semânticos especializados que indiquem circunstâncias de modo, quantidade e tempo, respectivamente."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "COMO: Emprega-se estritamente quando o antecedente for uma palavra que denote modo, maneira ou forma (ex.: o modo como agiu, a maneira como falou, a forma como se vestiu).",
+            "QUANTO: Emprega-se quando o antecedente denotar ideia de quantidade, surgindo frequentemente associado aos pronomes indefinidos tudo, todo, todos, todas, tanto, tanta (ex.: Fez tudo quanto podia, Recolheu todos quantos chegaram).",
+            "QUANDO: Emprega-se quando o antecedente expressar ideia temporal (ex.: o momento quando cheguei, a época quando nos conhecemos). É comumente substituível pelas formas preposicionadas equivalentes em que e no qual / na qual."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo com Quando: \"No momento quando / em que / no qual sou homenageado fico triste.\" (Todas as três formas são corretas para o antecedente temporal momento)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A03-G06-007."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os pronomes/advérbios relativos espaciais Onde, Aonde e Donde referem-se exclusivamente a antecedentes que representem lugar físico e concreto. A diferenciação funcional entre eles é determinada estritamente pela preposição exigida pela regência do verbo da oração subordinada adjetiva."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ONDE (Preposição EM): Indica permanência, localização estática ou situação em que se está."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Equivalências: onde = em que = no qual / na qual / nos quais / nas quais.",
+            "Regência associada: Verbos como morar em, residir em, estar em, viver em.",
+            "Exemplo: \"Esta é a cidade onde / em que / na qual eu morei.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "AONDE (Preposição A): Fusão da preposição a com o pronome onde (a + onde), indicando movimento, destino ou deslocamento em direção a um ponto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Equivalências: aonde = a que = ao qual / à qual / aos quais / às quais.",
+            "Regência associada: Verbos de movimento como ir a, dirigir-se a, chegar a, vir a.",
+            "Exemplo: \"Esta é a cidade aonde / à qual gosto de ir.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "DONDE ou DE ONDE (Preposição DE): Fusão da preposição de com o pronome onde (de + onde), indicando ponto de partida, origem ou procedência."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Equivalências: donde = de onde = de que = do qual / da qual / dos quais / das quais.",
+            "Regência associada: Verbos como vir de, proceder de, sair de, originar-se de.",
+            "Exemplo: \"Esta é a cidade donde / de onde / da qual vêm os visitantes.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Inadequação com Antecedentes Abstratos: É gramaticalmente incorreto utilizar onde, aonde ou donde para retomar substantivos que não sejam lugares físicos (tais como empresas, leis, sociedade, palavras, projetos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui macete: TIP-A03-G06-002.",
+            "Possui alerta: WARN-A03-G06-006.",
+            "Exemplificado por: EX-A03-G06-010, EX-A03-G06-012, EX-A03-G06-015, EX-A03-G06-016."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome relativo Cujo (e suas flexões cuja, cujos, cujas) é o único pronome relativo com valor possessivo intrínseco. Ele vincula dois substantivos estabelecendo relação de posse (substantivo consequente + de + substantivo antecedente), concorda em gênero e número com a coisa possuída (termo posterior) e é absolutamente insubstituível por pronomes coringas (que ou o qual)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A arquitetura sintática do pronome cujo apresenta regras rígidas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Concordância: Concorda em gênero e número com o substantivo consequente (o bem possuído: cujo diretor, cuja casa, cujos relatórios, cujas propostas).",
+            "Proibição de Artigo: Jamais aceita artigo pós-posto. Expressões como cujo o, cuja a, cujos os, cujas as constituem erro gramatical grave.",
+            "Internalização da Preposição \"de\" (O Mantra do Cujo): O pronome cujo já embuti em seu significado a preposição de indicativa de posse.",
+            "Regência Externa Agregada (Dupla Preposição): Quando o verbo da oração adjetiva exige uma preposição, esta deve ser colocada imediatamente antes do pronome cujo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sem preposição verbal: \"A empresa cujo diretor é sério progride.\" (Verbo ser é de ligação; usa-se apenas cujo).",
+            "Verbo exige preposição com: \"A empresa com cujo diretor conversei...\" (conversei COM o diretor DA empresa).",
+            "Verbo exige preposição de: \"Chegou o diretor de cujo relatório ninguém gostou.\" (ninguém gostou DO relatório DO diretor -> o de da posse está no cujo, e o de da regência verbal de gostar vai para a frente do pronome)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A empresa cujo diretor é sério progride. (Correto).",
+            "A empresa cujo o diretor é sério... (Incorreto — uso proibido de artigo).",
+            "A empresa que o diretor é sério... (Incorreto — tentativa indevida de substituir cujo por que).",
+            "Chegou o diretor de cujo relatório gostei. (Correto — preposição de exigida por gostar)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui termo associado: TERM-A03-G06-003 (Pronome Relativo Possessivo Cujo).",
+            "Possui macete: TIP-A03-G06-004.",
+            "Possui alertas: WARN-A03-G06-001, WARN-A03-G06-004.",
+            "Exemplificado por: EX-A03-G06-005, EX-A03-G06-006, EX-A03-G06-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A preposição posicionada imediatamente antes de um pronome relativo não é determinada pelo termo antecedente, mas sim pela exigência sintática de regência do verbo (ou nome) localizado dentro da própria oração subordinada adjetiva (após o relativo)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como a oração adjetiva organiza-se naturalmente em ordem invertida (com o pronome relativo iniciando a oração subordinada na função de conectivo e complemento/adjunto antecipado), a determinação da preposição exige a reconstrução sintática da oração na ordem direta (Sujeito + Verbo + Preposição + Antecedente)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao transferir mentalmente o substantivo antecedente para a posição de complemento após o verbo da oração adjetiva, revela-se com clareza a preposição exigida pelo verbo. Essa mesma preposição deve ser deslocada para antes do pronome relativo."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Identifique o pronome relativo ou a lacuna a ser preenchida.",
+            "Isole a oração adjetiva subsequente.",
+            "Monte a estrutura: [Sujeito da adjetiva] + [Verbo da adjetiva] + [Preposição ?] + [Antecedente].",
+            "Se o verbo exigir preposição para conectar-se ao antecedente, transporte essa preposição para a frente do relativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Frase em análise: \"Esse é o livro  preciso.\"",
+            "Reordenação na ordem direta: Eu [sujeito] preciso [verbo] do livro [preposição + antecedente].",
+            "Regência: Quem precisa, precisa de algo.",
+            "Resultado obrigatório: \"Esse é o livro de que preciso.\" / \"Esse é o livro do qual preciso.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A03-G06-001.",
+            "Possui macete: TIP-A03-G06-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na reescritura de orações adjetivas (especialmente em questões no modelo Certo/Errado do CESPE/CEBRASPE), a remoção ou alteração de uma preposição antes do pronome relativo não implica necessariamente erro gramatical, caso o verbo possua dupla regência (VTI e VTD); contudo, a mudança de regência acarreta inevitavelmente alteração de sentido."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mecanismo da Dupla Regência: Determinados verbos da língua admitem mais de uma estrutura de complementação, com significados distintos. Por exemplo, o verbo entender:",
+            "Entender de algo (VTI com preposição de): Significa ter experiência, prática, vivência ou conhecimento técnico especializado sobre um assunto.",
+            "Entender algo (VTD sem preposição): Significa compreender o significado, assimilar intelectualmente um conceito ou informação.",
+            "A Armadilha do CESPE: O enunciado da banca propõe a troca de um relativo preposicionado (ex.: das quais) por um não preposicionado (ex.: que) e afirma que a substituição \"preservaria tanto o sentido quanto a correção gramatical do período\".",
+            "A correção gramatical é mantida porque a oração resultante com VTD é perfeita segundo a norma culta.",
+            "O sentido original, todavia, é modificado pela alteração semântica da regência do verbo.",
+            "Conclusão: Como a questão condicionou o acerto à manutenção de ambos os fatores, o item é categoricamente ERRADO."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Para julgar itens de reescritura com relativo:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Avalie a correção gramatical da nova estrutura proposta.",
+            "Avalie isoladamente se houve qualquer alteração na nuance semântica original.",
+            "Se o comando da questão exigir preservação simultânea de correção e sentido, e o sentido tiver mudado, julgue o item como Falso/Incorreto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Texto original: \"...coisas das quais não entende.\" (Ordem direta: não entende de coisas -> VTI).",
+            "Proposta de reescrita: \"...coisas que não entende.\" (Ordem direta: não entende as coisas -> VTD).",
+            "Análise: Ambas são gramaticalmente corretas, mas o sentido foi alterado de \"ter experiência prática\" para \"compreender intelectualmente\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A03-G06-002.",
+            "Possui alerta: WARN-A03-G06-005.",
+            "Exemplificado por: EX-A03-G06-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbos de movimento (como ir, dirigir-se) admitem regência com as preposições a ou para. Na conexão com pronomes relativos, a preposição a gera formas combinadas ou com crase obrigatória (aonde, à qual), enquanto a preposição para introduz distinção semântica de permanência definitiva (para a qual)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diferenciação Semântica (A vs. PARA):",
+            "Preposição A: Expressa movimento de ida e volta, permanência temporária ou deslocamento rápido (\"ir à cidade\").",
+            "Preposição PARA: Expressa deslocamento de longa duração, destino definitivo ou sem previsão de retorno (\"ir para a cidade\").",
+            "Atenção Crítica à Crase com a qual:",
+            "Na frase: \"Esta é a cidade  gosto de ir sempre.\"",
+            "Reordenação: Eu gosto de ir à cidade (a + a) ou Eu gosto de ir para a cidade (para + a).",
+            "Opções válidas: aonde (a + onde), para a qual, ou à qual (com sinal indicativo de crase).",
+            "Opção inválida: a qual sem crase está gramaticalmente incorreta, pois a letra a atuaria apenas como artigo, omitindo a preposição exigida pelo verbo ir."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Esta é a cidade aonde gosto de ir. (Correto).",
+            "Esta é a cidade para a qual gosto de ir. (Correto).",
+            "Esta é a cidade à qual gosto de ir. (Correto — com crase).",
+            "Esta é a cidade a qual gosto de ir. (Incorreto — erro por falta de crase / omissão da preposição regida)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A03-G06-003.",
+            "Exemplificado por: EX-A03-G06-011."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A03-G06-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A03-G06-001",
+              "table": {
+                "tableId": "TABLE-IP-A03-G06-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Elemento / Tópico",
+                  "Formulação Canônica Consolidada",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Pronome Relativo",
+                    "Classe que substitui um termo antecedente de valor substantivo e conecta orações subordinadas adjetivas (RETOMAR = SUBSTITUIR).",
+                    "KB-A03-G06-001"
+                  ],
+                  [
+                    "Antecedente Válido",
+                    "Termo de natureza substantiva obrigatória: Substantivo, Pronome Substantivo Demonstrativo (o, a, os, as = aquilo, aquele) ou Numeral Substantivo. Jamais adjetivo.",
+                    "KB-A03-G06-002"
+                  ],
+                  [
+                    "Relativos Coringas",
+                    "Que e O qual (retomam pessoas e coisas; aptos a receber preposições; só não substituem o relativo de posse cujo).",
+                    "KB-A03-G06-003"
+                  ],
+                  [
+                    "Pronome \"Quem\"",
+                    "Exige antecedente referente a pessoa e presença obrigatória de preposição; com VTD gera Objeto Direto Preposicionado (a quem).",
+                    "KB-A03-G06-004"
+                  ],
+                  [
+                    "Relativos Espaciais",
+                    "Onde (permanência / em), Aonde (movimento / a), Donde (origem / de). Exclusivos para lugares físicos concretos.",
+                    "KB-A03-G06-006"
+                  ],
+                  [
+                    "Pronome \"Cujo\"",
+                    "Expressa posse entre dois substantivos, concorda com o consequente, internaliza a preposiçãode, proíbe artigo e acopla preposição verbal antes de si.",
+                    "KB-A03-G06-007"
+                  ],
+                  [
+                    "Regência com Relativo",
+                    "A preposição antes do pronome relativo é regida pelo verbo/nome da oração adjetiva (após o relativo), revelada ao organizar a oração na ordem direta com o antecedente no final.",
+                    "KB-A03-G06-008"
+                  ],
+                  [
+                    "Dupla Regência em Reescrita",
+                    "Verbos com dupla transitividade (ex.:entender de [VTI] vs. entender [VTD]) mantêm a correção gramatical na troca do relativo, mas alteram o sentido.",
+                    "KB-A03-G06-009"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A03-G06-001",
+          "title": "Algoritmo Metodológico em 4 Passos para Regência com Pronomes Relativos",
+          "objective": "Executar o algoritmo decisório para Algoritmo Metodológico em 4 Passos para Regência com Pronomes Relativos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo Metodológico em 4 Passos para Regência com Pronomes Relativos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "explanation": "\"A empresa [ lacuna ] diretor conversei progride.\"",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (Isolar adjetiva)",
+              "explanation": "diretor conversei",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2 (Verbo)",
+              "explanation": "conversei",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3 (Sujeito)",
+              "explanation": "Eu (sujeito desinencial) -> Eu conversei...",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4 (Ordem direta com antecedente e posse)",
+              "explanation": "Eu conversei [com o diretor] [da empresa].",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Dedução sintática",
+              "explanation": "O verbo conversar rege a preposição com. A relação diretor da empresa expressa posse, exigindo o pronome cujo. Unindo a preposição ao relativo: com cujo.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo Metodológico em 4 Passos para Regência com Pronomes Relativos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo do Procedimento"
+            },
+            {
+              "type": "paragraph",
+              "text": "Determinar com precisão cartesiana qual pronome relativo e qual preposição devem preencher lacunas em orações subordinadas adjetivas, eliminando erros de intuição auditiva."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Algoritmo Sequencial (Os 4 Passos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "[Passo 1: Isolar a Oração Adjetiva] │ Desprezar a oração principal inicial. Focar na oração que vem APÓS o pronome relativo. ▼ [Passo 2: Localizar o Verbo/Regente] │ Identificar o verbo ou locução verbal da oração subordinada adjetiva. ▼ [Passo 3: Identificar o Sujeito] │ Perguntar ao verbo \"Quem é que...?\" para fixar o sujeito no início da frase. ▼ [Passo 4: Montar a Ordem Direta e Completar com o Antecedente (\"Olho no peixe, olho no gato\")] Reescrever mentalmente: [Sujeito] + [Verbo] + [Preposição ?] + [Antecedente]. A preposição que surgir na conexão do final da frase deve ser deslocada para ANTES do pronome relativo."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Demonstração Prática do Procedimento"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"A empresa [ lacuna ] diretor conversei progride.\"",
+                "Passo 1 (Isolar adjetiva): diretor conversei",
+                "Passo 2 (Verbo): conversei",
+                "Passo 3 (Sujeito): Eu (sujeito desinencial) -> Eu conversei...",
+                "Passo 4 (Ordem direta com antecedente e posse): Eu conversei [com o diretor] [da empresa].",
+                "Dedução sintática: O verbo conversar rege a preposição com. A relação diretor da empresa expressa posse, exigindo o pronome cujo. Unindo a preposição ao relativo: com cujo."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A03-G06-002",
+          "title": "Procedimento de Validação em 5 Passos para Questões de Reescritura (Padrão CESPE/CEBRASPE)",
+          "objective": "Executar o algoritmo decisório para Procedimento de Validação em 5 Passos para Questões de Reescritura (Padrão CESPE/CEBRASPE)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento de Validação em 5 Passos para Questões de Reescritura (Padrão CESPE/CEBRASPE)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Auditoria do Comando",
+              "explanation": "Verificar se a banca indaga sobre correção gramatical, sentido ou a conjunção de ambos;",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Desconstrução do Original",
+              "explanation": "Isolar a oração adjetiva e montar a ordem direta para identificar a regência e o sentido originais (ex.: VTI com preposição de indicando prática/vivência);",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Teste Gramatical da Reescrita",
+              "explanation": "Avaliar se a nova estrutura sem preposição (ou com outro relativo) é agramatical ou se configura outra regência aceita na norma culta (ex.: VTD indicando compreensão);",
+              "test": "Teste Gramatical da Reescrita: Avaliar se a nova estrutura sem preposição (ou com outro relativo) é agramatical ou se configura outra regência aceita na norma culta (ex.: VTD indicando compreensão);"
+            },
+            {
+              "order": 4,
+              "action": "Teste Semântico da Reescrita",
+              "explanation": "Comparar se o sentido original do texto permaneceu idêntico ou se foi sutilmente modificado pela nova regência;",
+              "test": "Teste Semântico da Reescrita: Comparar se o sentido original do texto permaneceu idêntico ou se foi sutilmente modificado pela nova regência;"
+            },
+            {
+              "order": 5,
+              "action": "Julgamento Lógico",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se o item afirmou manter correção E sentido, e o sentido mudou -> Marcar ERRADO.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Se o item afirmou que a troca prejudicaria a correção, e o verbo exige estritamente a preposição -> Marcar CERTO.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento de Validação em 5 Passos para Questões de Reescritura (Padrão CESPE/CEBRASPE)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Auditoria do Comando: Verificar se a banca indaga sobre correção gramatical, sentido ou a conjunção de ambos;",
+                "Desconstrução do Original: Isolar a oração adjetiva e montar a ordem direta para identificar a regência e o sentido originais (ex.: VTI com preposição de indicando prática/vivência);",
+                "Teste Gramatical da Reescrita: Avaliar se a nova estrutura sem preposição (ou com outro relativo) é agramatical ou se configura outra regência aceita na norma culta (ex.: VTD indicando compreensão);",
+                "Teste Semântico da Reescrita: Comparar se o sentido original do texto permaneceu idêntico ou se foi sutilmente modificado pela nova regência;",
+                "Julgamento Lógico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se o item afirmou manter correção E sentido, e o sentido mudou -> Marcar ERRADO.",
+                "Se o item afirmou que a troca prejudicaria a correção, e o verbo exige estritamente a preposição -> Marcar CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A03-G06-001",
+          "title": "Contrastes decisivos",
+          "contrastType": "mixed",
+          "conceptA": "Contrastes decisivos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A03-G06-002",
+              "table": {
+                "tableId": "TABLE-IP-A03-G06-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Par Comparativo",
+                  "Critério Decisivo",
+                  "Exemplo Correto",
+                  "Exemplo Incorreto / Pegadinha"
+                ],
+                "rows": [
+                  [
+                    "ONDE vs. AONDE vs. DONDE",
+                    "Preposição exigida pelo regente:onde (em), aonde (a), donde (de). Exclusivo para lugar físico.",
+                    "A cidade onde moro / aonde vou / donde venho.",
+                    "A lei onde diz... (Incorreto: termo abstrato) / A cidade aonde moro. (Incorreto: morar rege em)"
+                  ],
+                  [
+                    "QUE vs. CUJO",
+                    "Que é coringa e não indica posse; Cujo expressa posse e é insubstituível.",
+                    "O livro cujo autor foi premiado.",
+                    "O livro que o autor foi premiado. (Incorreto: não substitui cujo e coloca artigo)"
+                  ],
+                  [
+                    "A QUAL vs. À QUAL",
+                    "A qual traz apenas artigo definido; À qual funde preposição a + artigo a (crase).",
+                    "Esta é a cidade à qual me dirigi.",
+                    "Esta é a cidade a qual me dirigi. (Incorreto: omitiu crase/preposição)"
+                  ],
+                  [
+                    "QUEM vs. QUE com VTD",
+                    "Quem exige preposição a formando Objeto Direto Preposicionado; Que dispensa preposição.",
+                    "A pessoa a quem vi / que vi.",
+                    "A pessoa quem vi. (Incorreto: quem desacompanhado de preposição)"
+                  ],
+                  [
+                    "Correção Gramatical vs. Sentido",
+                    "Dupla regência verbal pode manter a correção gramatical da frase, mas alterar sua nuance semântica.",
+                    "Original:coisas das quais entende.Reescrita: coisas que entende (Gramática OK; Sentido alterado).",
+                    "Marcar \"Certo\" em item do CESPE que afirma mantersentido em verbos com dupla transitividade."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-001",
+          "title": "EX-A03-G06-001 — Antecedente Substantivo Comum",
+          "prompt": "Frase: \"Conheço o aluno que foi aprovado.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Conheço o aluno que foi aprovado.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O pronome relativo que retoma o antecedente substantivo aluno."
+            }
+          ],
+          "result": "Análise: O pronome relativo que retoma o antecedente substantivo aluno.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-001 — Antecedente Substantivo Comum sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-001 — Antecedente Substantivo Comum.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-001 — Antecedente Substantivo Comum.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Conheço o aluno que foi aprovado.\"",
+                "Análise: O pronome relativo que retoma o antecedente substantivo aluno."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-002",
+          "title": "EX-A03-G06-002 — Antecedente Pronome Demonstrativo",
+          "prompt": "Frase: \"Conheço o que você comprou.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Conheço o que você comprou.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O pronome relativo que retoma o, que atua como pronome substantivo demonstrativo (equivalente a aquilo -> \"Conheço aquilo que você comprou\")."
+            }
+          ],
+          "result": "Análise: O pronome relativo que retoma o, que atua como pronome substantivo demonstrativo (equivalente a aquilo -> \"Conheço aquilo que você comprou\").",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-002 — Antecedente Pronome Demonstrativo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-002 — Antecedente Pronome Demonstrativo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-002 — Antecedente Pronome Demonstrativo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Conheço o que você comprou.\"",
+                "Análise: O pronome relativo que retoma o, que atua como pronome substantivo demonstrativo (equivalente a aquilo -> \"Conheço aquilo que você comprou\")."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-003",
+          "title": "EX-A03-G06-003 — Antecedente Numeral Substantivo",
+          "prompt": "Frase: \"Conheço milhões que foram aprovados.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Conheço milhões que foram aprovados.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O pronome relativo que retoma o numeral de valor substantivo milhões."
+            }
+          ],
+          "result": "Análise: O pronome relativo que retoma o numeral de valor substantivo milhões.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-003 — Antecedente Numeral Substantivo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-003 — Antecedente Numeral Substantivo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-003 — Antecedente Numeral Substantivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Conheço milhões que foram aprovados.\"",
+                "Análise: O pronome relativo que retoma o numeral de valor substantivo milhões."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-004",
+          "title": "EX-A03-G06-004 — Exercício de Fixação - Item a (Verbo Pronominal / Preposição A)",
+          "prompt": "Enunciado: O assunto  me referi não foi este. (que – a que – ao qual – o qual – a quem)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "O assunto  me referi não foi este. (que – a que – ao qual – o qual – a quem)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu me referi ao assunto."
+            },
+            {
+              "order": 4,
+              "action": "Regência",
+              "rationale": "referir-se a (exige preposição a)."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "a que / ao qual."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: a que / ao qual.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-004 — Exercício de Fixação - Item a (Verbo Pronominal / Preposição A) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-004 — Exercício de Fixação - Item a (Verbo Pronominal / Preposição A).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-004 — Exercício de Fixação - Item a (Verbo Pronominal / Preposição A).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: O assunto  me referi não foi este. (que – a que – ao qual – o qual – a quem)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu me referi ao assunto.",
+                "Regência: referir-se a (exige preposição a).",
+                "Gabarito / Formas Válidas: a que / ao qual."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-005",
+          "title": "EX-A03-G06-005 — Exercício de Fixação - Item b (Posse sem Preposição Verbal)",
+          "prompt": "Enunciado: A empresa  diretor é sério progride. (onde – que – a qual – cujo – a que)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A empresa  diretor é sério progride. (onde – que – a qual – cujo – a que)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Relação de posse",
+              "rationale": "diretor da empresa."
+            },
+            {
+              "order": 4,
+              "action": "Verbo",
+              "rationale": "é (verbo de ligação, sem preposição)."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "cujo."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: cujo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-005 — Exercício de Fixação - Item b (Posse sem Preposição Verbal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-005 — Exercício de Fixação - Item b (Posse sem Preposição Verbal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-005 — Exercício de Fixação - Item b (Posse sem Preposição Verbal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A empresa  diretor é sério progride. (onde – que – a qual – cujo – a que)",
+                "Aplicação do Método:",
+                "Relação de posse: diretor da empresa.",
+                "Verbo: é (verbo de ligação, sem preposição).",
+                "Gabarito / Formas Válidas: cujo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-006",
+          "title": "EX-A03-G06-006 — Exercício de Fixação - Item c (Posse com Preposição \"Com\")",
+          "prompt": "Enunciado: A empresa  diretor conversei progride. (com que – com cujo – aonde – cujo – com a qual)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A empresa  diretor conversei progride. (com que – com cujo – aonde – cujo – com a qual)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu conversei com o diretor da empresa."
+            },
+            {
+              "order": 4,
+              "action": "Regência",
+              "rationale": "conversar com + posse (cujo)."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "com cujo."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: com cujo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-006 — Exercício de Fixação - Item c (Posse com Preposição \"Com\") sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-006 — Exercício de Fixação - Item c (Posse com Preposição \"Com\").",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-006 — Exercício de Fixação - Item c (Posse com Preposição \"Com\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A empresa  diretor conversei progride. (com que – com cujo – aonde – cujo – com a qual)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu conversei com o diretor da empresa.",
+                "Regência: conversar com + posse (cujo).",
+                "Gabarito / Formas Válidas: com cujo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-007",
+          "title": "EX-A03-G06-007 — Exercício de Fixação - Item d (Antecedente Temporal)",
+          "prompt": "Enunciado: No momento  sou homenageado fico triste. (quando – que – em que – no qual)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No momento  sou homenageado fico triste. (quando – que – em que – no qual)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu sou homenageado no momento."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "quando / em que / no qual."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: quando / em que / no qual.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-007 — Exercício de Fixação - Item d (Antecedente Temporal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-007 — Exercício de Fixação - Item d (Antecedente Temporal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-007 — Exercício de Fixação - Item d (Antecedente Temporal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No momento  sou homenageado fico triste. (quando – que – em que – no qual)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu sou homenageado no momento.",
+                "Gabarito / Formas Válidas: quando / em que / no qual."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-008",
+          "title": "EX-A03-G06-008 — Exercício de Fixação - Item e (VTD e Objeto Direto Preposicionado)",
+          "prompt": "Enunciado: Aí está a pessoa  sempre respeitei. (que – quem – a quem – a qual – a que)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Aí está a pessoa  sempre respeitei. (que – quem – a quem – a qual – a que)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu sempre respeitei a pessoa (VTD)."
+            },
+            {
+              "order": 4,
+              "action": "Com que",
+              "rationale": "que (sem preposição)."
+            },
+            {
+              "order": 5,
+              "action": "Com a qual",
+              "rationale": "a qual (a é artigo)."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: que / a qual / a quem.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-008 — Exercício de Fixação - Item e (VTD e Objeto Direto Preposicionado) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-008 — Exercício de Fixação - Item e (VTD e Objeto Direto Preposicionado).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-008 — Exercício de Fixação - Item e (VTD e Objeto Direto Preposicionado).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Aí está a pessoa  sempre respeitei. (que – quem – a quem – a qual – a que)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu sempre respeitei a pessoa (VTD).",
+                "Com que: que (sem preposição).",
+                "Com a qual: a qual (a é artigo).",
+                "Com quem: a quem (a é preposição obrigatória -> Objeto Direto Preposicionado).",
+                "Gabarito / Formas Válidas: que / a qual / a quem."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-009",
+          "title": "EX-A03-G06-009 — Exercício de Fixação - Item f (Posse com Preposição \"De\")",
+          "prompt": "Enunciado: Chegou o diretor  relatório ninguém gostou. (que – de que – cujo – o qual – de cujo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Chegou o diretor  relatório ninguém gostou. (que – de que – cujo – o qual – de cujo)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Ninguém gostou do relatório do diretor."
+            },
+            {
+              "order": 4,
+              "action": "Regência",
+              "rationale": "gostar de (preposição de antes de cujo)."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "de cujo."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: de cujo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-009 — Exercício de Fixação - Item f (Posse com Preposição \"De\") sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-009 — Exercício de Fixação - Item f (Posse com Preposição \"De\").",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-009 — Exercício de Fixação - Item f (Posse com Preposição \"De\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Chegou o diretor  relatório ninguém gostou. (que – de que – cujo – o qual – de cujo)",
+                "Aplicação do Método:",
+                "Ordem direta: Ninguém gostou do relatório do diretor.",
+                "Regência: gostar de (preposição de antes de cujo).",
+                "Gabarito / Formas Válidas: de cujo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-010",
+          "title": "EX-A03-G06-010 — Exercício de Fixação - Item g (Lugar Estático / Morar em)",
+          "prompt": "Enunciado: Esta é a cidade  eu morei. (onde – aonde – em que – na qual – donde)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Esta é a cidade  eu morei. (onde – aonde – em que – na qual – donde)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu morei na cidade (em + a)."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "onde / em que / na qual."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: onde / em que / na qual.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-010 — Exercício de Fixação - Item g (Lugar Estático / Morar em) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-010 — Exercício de Fixação - Item g (Lugar Estático / Morar em).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-010 — Exercício de Fixação - Item g (Lugar Estático / Morar em).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Esta é a cidade  eu morei. (onde – aonde – em que – na qual – donde)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu morei na cidade (em + a).",
+                "Gabarito / Formas Válidas: onde / em que / na qual."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-011",
+          "title": "EX-A03-G06-011 — Exercício de Fixação - Item h (Movimento / Ir a / Ir para / Crase)",
+          "prompt": "Enunciado: Esta é a cidade  gosto de ir sempre. (onde – aonde – a qual – para a qual – que)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Esta é a cidade  gosto de ir sempre. (onde – aonde – a qual – para a qual – que)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Ordem direta",
+              "rationale": "Eu gosto de ir à cidade / para a cidade."
+            },
+            {
+              "order": 4,
+              "action": "aonde = a + onde (Correto).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "para a qual = para + a qual (Correto).",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: aonde / para a qual (e seria válida a forma à qual).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-011 — Exercício de Fixação - Item h (Movimento / Ir a / Ir para / Crase) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-011 — Exercício de Fixação - Item h (Movimento / Ir a / Ir para / Crase).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-011 — Exercício de Fixação - Item h (Movimento / Ir a / Ir para / Crase).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Esta é a cidade  gosto de ir sempre. (onde – aonde – a qual – para a qual – que)",
+                "Aplicação do Método:",
+                "Ordem direta: Eu gosto de ir à cidade / para a cidade.",
+                "aonde = a + onde (Correto).",
+                "para a qual = para + a qual (Correto).",
+                "a qual sem crase (Incorreto; faltou acento grave).",
+                "Gabarito / Formas Válidas: aonde / para a qual (e seria válida a forma à qual)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-012",
+          "title": "EX-A03-G06-012 — Exercício de Fixação - Item i (Dupla Direção de Movimento / Vir a / Vir de)",
+          "prompt": "Enunciado: Esta é a cidade  vêm os visitantes. (onde – aonde – donde – em que – do qual)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Esta é a cidade  vêm os visitantes. (onde – aonde – donde – em que – do qual)"
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do Método",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Sentido de destino",
+              "rationale": "Os visitantes vêm à cidade -> aonde."
+            },
+            {
+              "order": 4,
+              "action": "Sentido de origem",
+              "rationale": "Os visitantes vêm da cidade -> donde."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito / Formas Válidas",
+              "rationale": "aonde (destino) / donde (origem)."
+            }
+          ],
+          "result": "Gabarito / Formas Válidas: aonde (destino) / donde (origem).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-012 — Exercício de Fixação - Item i (Dupla Direção de Movimento / Vir a / Vir de) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-012 — Exercício de Fixação - Item i (Dupla Direção de Movimento / Vir a / Vir de).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-012 — Exercício de Fixação - Item i (Dupla Direção de Movimento / Vir a / Vir de).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Esta é a cidade  vêm os visitantes. (onde – aonde – donde – em que – do qual)",
+                "Aplicação do Método:",
+                "Sentido de destino: Os visitantes vêm à cidade -> aonde.",
+                "Sentido de origem: Os visitantes vêm da cidade -> donde.",
+                "Gabarito / Formas Válidas: aonde (destino) / donde (origem)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-013",
+          "title": "EX-A03-G06-013 — Questão 46 (CESPE / SEFAZ-AL 2020 — Auditor de Finanças)",
+          "prompt": "Texto: \"...coisas de que não precisa, coisas das quais não entende.\" (l.19)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"...coisas de que não precisa, coisas das quais não entende.\" (l.19)"
+            },
+            {
+              "order": 2,
+              "action": "Item Proposto",
+              "rationale": "\"A substituição da expressão 'das quais' (l.19) por 'que' preservaria tanto o sentido quanto a correção gramatical do período.\""
+            },
+            {
+              "order": 3,
+              "action": "Desenvolvimento e Julgamento",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Original",
+              "rationale": "entende de coisas (VTI — ter experiência/prática)."
+            },
+            {
+              "order": 5,
+              "action": "Reescrita",
+              "rationale": "entende as coisas (VTD — compreender o significado)."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-013 — Questão 46 (CESPE / SEFAZ-AL 2020 — Auditor de Finanças) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-013 — Questão 46 (CESPE / SEFAZ-AL 2020 — Auditor de Finanças).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-013 — Questão 46 (CESPE / SEFAZ-AL 2020 — Auditor de Finanças).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"...coisas de que não precisa, coisas das quais não entende.\" (l.19)",
+                "Item Proposto: \"A substituição da expressão 'das quais' (l.19) por 'que' preservaria tanto o sentido quanto a correção gramatical do período.\"",
+                "Desenvolvimento e Julgamento:",
+                "Original: entende de coisas (VTI — ter experiência/prática).",
+                "Reescrita: entende as coisas (VTD — compreender o significado).",
+                "A correção gramatical é mantida, mas o sentido foi alterado. Como a banca exige a manutenção de ambos, a proposição é falsa.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-014",
+          "title": "EX-A03-G06-014 — Questão 47 (CESPE / MPE-PI 2018 — Técnico Ministerial)",
+          "prompt": "Texto: \"Sou forçado, pois, a limitar-me aos elementos de que disponho...\" (l.9-10)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"Sou forçado, pois, a limitar-me aos elementos de que disponho...\" (l.9-10)"
+            },
+            {
+              "order": 2,
+              "action": "Item Proposto",
+              "rationale": "\"A correção gramatical do texto seria prejudicada caso se substituísse, na linha 9, 'de que' por 'os quais'.\""
+            },
+            {
+              "order": 3,
+              "action": "Desenvolvimento e Julgamento",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "O verbo dispor é VTI e rege a preposição de (dispor de algo). A substituição por os quais sem preposição gera erro de regência (deveria ser dos quais). Logo, a correção seria prejudicada.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-014 — Questão 47 (CESPE / MPE-PI 2018 — Técnico Ministerial) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-014 — Questão 47 (CESPE / MPE-PI 2018 — Técnico Ministerial).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-014 — Questão 47 (CESPE / MPE-PI 2018 — Técnico Ministerial).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"Sou forçado, pois, a limitar-me aos elementos de que disponho...\" (l.9-10)",
+                "Item Proposto: \"A correção gramatical do texto seria prejudicada caso se substituísse, na linha 9, 'de que' por 'os quais'.\"",
+                "Desenvolvimento e Julgamento:",
+                "O verbo dispor é VTI e rege a preposição de (dispor de algo). A substituição por os quais sem preposição gera erro de regência (deveria ser dos quais). Logo, a correção seria prejudicada.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-015",
+          "title": "EX-A03-G06-015 — Questão 48 (CESPE / SEFAZ-DF 2020 — Auditor Fiscal)",
+          "prompt": "Texto: \"...das empresas nas quais investem\" (l.35-37)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"...das empresas nas quais investem\" (l.35-37)"
+            },
+            {
+              "order": 2,
+              "action": "Item Proposto",
+              "rationale": "\"a substituição de 'nas quais' por 'aonde' prejudicaria a correção gramatical do texto.\""
+            },
+            {
+              "order": 3,
+              "action": "Desenvolvimento e Julgamento",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Investir rege preposição em (e não a); ademais, empresas não constitui lugar físico. O uso de aonde incorre em duplo erro. A correção de fato seria prejudicada.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-015 — Questão 48 (CESPE / SEFAZ-DF 2020 — Auditor Fiscal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-015 — Questão 48 (CESPE / SEFAZ-DF 2020 — Auditor Fiscal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-015 — Questão 48 (CESPE / SEFAZ-DF 2020 — Auditor Fiscal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"...das empresas nas quais investem\" (l.35-37)",
+                "Item Proposto: \"a substituição de 'nas quais' por 'aonde' prejudicaria a correção gramatical do texto.\"",
+                "Desenvolvimento e Julgamento:",
+                "Investir rege preposição em (e não a); ademais, empresas não constitui lugar físico. O uso de aonde incorre em duplo erro. A correção de fato seria prejudicada.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-016",
+          "title": "EX-A03-G06-016 — Questão 49 (CESPE / Pref. São Cristóvão-SE 2019 — Professor)",
+          "prompt": "Texto: \"...as palavras a que falta a corporeidade do exemplo...\" (l.4-5)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"...as palavras a que falta a corporeidade do exemplo...\" (l.4-5)"
+            },
+            {
+              "order": 2,
+              "action": "Item Proposto",
+              "rationale": "\"A substituição de 'a que' (.5) por onde manteria a correção gramatical e os sentidos originais do texto.\""
+            },
+            {
+              "order": 3,
+              "action": "Desenvolvimento e Julgamento",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Ordem direta",
+              "rationale": "A corporeidade do exemplo [sujeito] falta [VTI] às palavras [objeto indireto]. O verbo faltar rege a preposição a. Onde indica lugar estático (em) e palavras é termo abstrato. A troca causaria erro gramatical."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-016 — Questão 49 (CESPE / Pref. São Cristóvão-SE 2019 — Professor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-016 — Questão 49 (CESPE / Pref. São Cristóvão-SE 2019 — Professor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-016 — Questão 49 (CESPE / Pref. São Cristóvão-SE 2019 — Professor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"...as palavras a que falta a corporeidade do exemplo...\" (l.4-5)",
+                "Item Proposto: \"A substituição de 'a que' (.5) por onde manteria a correção gramatical e os sentidos originais do texto.\"",
+                "Desenvolvimento e Julgamento:",
+                "Ordem direta: A corporeidade do exemplo [sujeito] falta [VTI] às palavras [objeto indireto]. O verbo faltar rege a preposição a. Onde indica lugar estático (em) e palavras é termo abstrato. A troca causaria erro gramatical.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A03-G06-017",
+          "title": "EX-A03-G06-017 — Questão 50 (CESPE / TCE-MG 2018 — Auditor)",
+          "prompt": "Texto: \"...no meio ambiente de que nossas vidas dependem.\" (l.13-14)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"...no meio ambiente de que nossas vidas dependem.\" (l.13-14)"
+            },
+            {
+              "order": 2,
+              "action": "Comando",
+              "rationale": "\"Na linha 14 do texto, o termo 'de que' poderia ser substituído, sem alteração da correção gramatical e dos sentidos do texto, por: A) no qual. B) pelo qual. C) cujas. D) dos quais. E) do qual.\""
+            },
+            {
+              "order": 3,
+              "action": "Desenvolvimento e Julgamento",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Ordem direta",
+              "rationale": "Nossas vidas dependem do meio ambiente (depender de)."
+            },
+            {
+              "order": 5,
+              "action": "Substituição",
+              "rationale": "de + o qual = do qual."
+            }
+          ],
+          "result": "Gabarito: Letra E (do qual).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A03-G06-017 — Questão 50 (CESPE / TCE-MG 2018 — Auditor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A03-G06-017 — Questão 50 (CESPE / TCE-MG 2018 — Auditor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A03-G06-017 — Questão 50 (CESPE / TCE-MG 2018 — Auditor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"...no meio ambiente de que nossas vidas dependem.\" (l.13-14)",
+                "Comando: \"Na linha 14 do texto, o termo 'de que' poderia ser substituído, sem alteração da correção gramatical e dos sentidos do texto, por: A) no qual. B) pelo qual. C) cujas. D) dos quais. E) do qual.\"",
+                "Desenvolvimento e Julgamento:",
+                "Ordem direta: Nossas vidas dependem do meio ambiente (depender de).",
+                "Substituição: de + o qual = do qual.",
+                "Gabarito: Letra E (do qual)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Em questões de concurso que indaguem sobre a possibilidade de substituir qualquer pronome relativo por que ou o qual (e flexões), a resposta será afirmativa, a menos que o pronome da frase original seja cujo. Como cujo possui valor possessivo intrínseco, ele é insubstituível."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "ONDE = Preposição EM (moro em -> onde moro);",
+            "AONDE = Preposição A (vou a -> aonde vou);",
+            "DONDE = Preposição DE (venho de -> donde venho)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Olho no Peixe: Foque no verbo da oração subordinada adjetiva (após a lacuna); ele determina a regência e a preposição;",
+            "Olho no Gato: Mantenha a atenção no antecedente (antes da lacuna); ele receberá a preposição no final da frase na ordem direta."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Tome o substantivo posterior à lacuna (Substantivo 2);",
+            "Intercale a preposição de (do, da);",
+            "Una ao substantivo anterior à lacuna (Substantivo 1);",
+            "Se o resultado formar uma relação lógica de pertencimento/posse (diretor da empresa, relatório do diretor), o pronome obrigatório é CUJO."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nunca analise a regência antes do pronome relativo lendo a frase linearmente da esquerda para a direita. Reconstrua sempre a estrutura: [Sujeito] + [Verbo] + [Preposição ?] + [Antecedente]. A preposição que emergir na conexão com o antecedente revelará a forma correta do relativo."
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A03-G06-001",
+          "title": "Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Insubstituibilidade e Proibição de Artigo com o Pronome \"Cujo\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Aceitar a substituição de cujo por que ou o qual, ou grafar artigo após cujo (\"a empresa cuja a diretoria...\").",
+                "Regra Inviolável: Cujo não aceita substituição por nenhum outro pronome relativo e jamais admite artigo posterior (cujo o, cuja a são erros graves)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A03-G06-002",
+          "title": "Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Obrigatoriedade de Preposição com o Pronome \"Quem\" (Objeto Direto Preposicionado).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Empregar quem sem preposição quando o verbo for Transitivo Direto (\"A pessoa quem conheci\").",
+                "Regra Inviolável: O relativo quem exige sempre preposição antecedente. Com verbos transitivos diretos, a inserção da preposição a cria obrigatoriamente um Objeto Direto Preposicionado (\"A pessoa a quem conheci\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A03-G06-003",
+          "title": "Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Distinção Crítica entre \"A qual\" (Artigo) e \"À qual\" (Crase).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pegadinha de Banca: Oferecer a opção a qual sem crase em frases onde o verbo da oração adjetiva rege a preposição a (como ir a).",
+                "Análise: A forma a qual sem acento grave contém apenas o artigo feminino. Se o verbo exigir a preposição a, a fusão a (prep) + a (art) obriga o uso do acento grave (à qual). A omissão da crase invalida a opção."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A03-G06-004",
+          "title": "A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Dupla Preposição \"DE\" na Estrutura do Pronome \"Cujo\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema Sintático: Em frases como \"Chegou o diretor de cujo relatório ninguém gostou\", surgem duas preposições de (gostou DO relatório DO diretor).",
+                "Esclarecimento: Uma preposição de é a posse já absorvida internamente pelo pronome cujo. A outra preposição de é a regência exigida pelo verbo gostar. Por isso, a regência verbal é escrita antes de cujo (de cujo). Não há erro de redundância."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A03-G06-005",
+          "title": "Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir \"Manutenção de Correção Gramatical\" com \"Preservação de Sentido\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pegadinha do CESPE: Em itens que afirmam que a troca do relativo preserva tanto o sentido quanto a correção gramatical, atente para verbos de dupla regência (entender de vs. entender). A gramática permanece correta, mas o sentido é alterado. O item deve ser julgado como ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A03-G06-006",
+          "title": "Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Uso Indevido de \"Onde\" e \"Aonde\" para Antecedentes Abstratos.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Empregar onde ou aonde para retomar substantivos abstratos (como empresas, leis, situações, palavras).",
+                "Correção: Onde/aonde são restritos a lugares físicos concretos. Para conceitos abstratos, use em que, no qual, a que, de que."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Aceitar a substituição de cujo por que ou o qual, ou grafar artigo após cujo (\"a empresa cuja a diretoria...\").",
+            "Regra Inviolável: Cujo não aceita substituição por nenhum outro pronome relativo e jamais admite artigo posterior (cujo o, cuja a são erros graves)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Empregar quem sem preposição quando o verbo for Transitivo Direto (\"A pessoa quem conheci\").",
+            "Regra Inviolável: O relativo quem exige sempre preposição antecedente. Com verbos transitivos diretos, a inserção da preposição a cria obrigatoriamente um Objeto Direto Preposicionado (\"A pessoa a quem conheci\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pegadinha de Banca: Oferecer a opção a qual sem crase em frases onde o verbo da oração adjetiva rege a preposição a (como ir a).",
+            "Análise: A forma a qual sem acento grave contém apenas o artigo feminino. Se o verbo exigir a preposição a, a fusão a (prep) + a (art) obriga o uso do acento grave (à qual). A omissão da crase invalida a opção."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema Sintático: Em frases como \"Chegou o diretor de cujo relatório ninguém gostou\", surgem duas preposições de (gostou DO relatório DO diretor).",
+            "Esclarecimento: Uma preposição de é a posse já absorvida internamente pelo pronome cujo. A outra preposição de é a regência exigida pelo verbo gostar. Por isso, a regência verbal é escrita antes de cujo (de cujo). Não há erro de redundância."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pegadinha do CESPE: Em itens que afirmam que a troca do relativo preserva tanto o sentido quanto a correção gramatical, atente para verbos de dupla regência (entender de vs. entender). A gramática permanece correta, mas o sentido é alterado. O item deve ser julgado como ERRADO."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Empregar onde ou aonde para retomar substantivos abstratos (como empresas, leis, situações, palavras).",
+            "Correção: Onde/aonde são restritos a lugares físicos concretos. Para conceitos abstratos, use em que, no qual, a que, de que."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Termo de natureza substantiva (substantivo, pronome substantivo demonstrativo ou numeral substantivo) situado na oração anterior que é retomado e substituído pelo pronome relativo para evitar repetições desnecessárias. Contexto no grupo: KB-A03-G06-001, KB-A03-G06-002."
+        },
+        {
+          "type": "paragraph",
+          "text": "Complemento de um verbo transitivo direto que vem introduzido por preposição não por regência verbal, mas por uma exigência gramatical do termo que atua como objeto (como o pronome relativo quem antecedido da preposição a). Contexto no grupo: KB-A03-G06-004, EX-A03-G06-008."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome relativo que vincula dois substantivos expressando ideia de posse (genitivo), concordando em gênero e número com o termo possuído subsequente, trazendo a preposição de internalizada e proibindo o uso de artigo posterior. Contexto no grupo: KB-A03-G06-007, WARN-A03-G06-001, WARN-A03-G06-004."
+        },
+        {
+          "type": "paragraph",
+          "text": "Oração introduzida por pronome relativo que exerce a função sintática de adjunto adnominal ou aposto explicativo em relação ao antecedente. É a oração de onde parte a regência para a preposição que antecede o relativo. Contexto no grupo: KB-A03-G06-008, PROC-A03-G06-001."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade de determinados verbos que admitem mais de uma estrutura sintática de complementação (direta e indireta) na norma culta, acarretando alteração semântica no texto. Contexto no grupo: KB-A03-G06-009, PROC-A03-G06-002."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático, o estudante terá dominado a articulação completa entre pronomes relativos, regência sintática e reescrita textual:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Identificação e Natureza: Sabe que o pronome relativo atua substituindo um termo de natureza substantiva (substantivo, pronome demonstrativo o/a/os/as ou numeral), nunca um adjetivo.",
+            "Restrições de Emprego: Reconhece as especificidades de cada pronome:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Que / O qual: Coringas para pessoas e coisas;",
+            "Quem: Apenas para pessoas e com preposição obrigatória;",
+            "Como / Quanto / Quando: Modo, quantidade e tempo;",
+            "Onde / Aonde / Donde: Apenas para lugares físicos (em, a, de);",
+            "Cujo: Posse entre dois substantivos, sem artigo posterior e insubstituível."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio Metodológico da Regência: Aplica o Método dos 4 Passos para resolver qualquer período com relativo: isola a oração adjetiva, localiza o verbo, identifica o sujeito e monta a ordem direta com o antecedente no final para extrair a preposição necessária.",
+            "Resolução de Casos Avançados: Domina a criação de Objeto Direto Preposicionado com quem, o acúmulo de preposições em de cujo / com cujo, as exigências de crase com à qual e a distinção de destino temporário (a) vs. definitivo (para).",
+            "Precisão em Provas do CESPE/CEBRASPE: Não confunde manutenção de correção gramatical com preservação de sentido em reescritas que envolvem verbos com dupla transitividade (entender de vs. entender)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula03.q0018",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEFAZ-DF",
+      "year": 2020,
+      "prompt": "Considerando os aspectos linguísticos do texto CG1A1-I, julgue o item a seguir. No trecho “os investidores reconhecem cada vez mais o impacto, para a sociedade, das empresas nas quais investem” (l. 35 a 37), a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "O pronome relativo \"aonde\" só deve ser utilizado quando o verbo indicar ideia de movimento e exigir a preposição \"a\". Exemplo: Aonde você vai? (Vejam que o verbo \"ir\" indica movimento e também exige a preposição \"a\" - ir a algum lugar). Este não é o caso do verbo \"investir\". Logo, a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto. Questão correta!",
+      "questionSha256": "7fe891ea9e5869d398c2703e41008b47f4a9533d4ed3722d846e4b2426026ab6",
+      "answerSha256": "cc0b418903c16f2c6d3ba0d3a0d1a2d3f65717f9ca4005662edceeae1610e921",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0080",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEFAZ-DF",
+      "year": 2020,
+      "prompt": "Considerando os aspectos linguísticos do texto CG1A1-I, julgue o item a seguir. No trecho “os investidores reconhecem cada vez mais o impacto, para a sociedade, das empresas nas quais investem” (l. 35 a 37), a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "d1ac313b1737c5457c994ca0bdc65c3ab87a538919a0ef408ea26ab559716649",
+      "answerSha256": "cf9f39e0fcba15001f24a6444d60e86ba9fed010ff7627ca48036adebd3e6683",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0087",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. DE SÃO CRISTÓVÃO (SE)",
+      "year": 2019,
+      "prompt": "Acerca das ideias, dos sentidos e das propriedades linguísticas do texto anterior, julgue o item a seguir. A substituição de “a que” (l.5) por onde manteria a correção gramatical e os sentidos originais do texto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "afc29f933f53014aef3aadca688232c61f5847aabf93aa1a438fa46ed63e38b8",
+      "answerSha256": "56aa870b3d845591b7ebd5a4a6d6bc71e3a165edc36963954cdf27ba3bdb8364",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0042",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "MPE TO",
+      "year": 2024,
+      "prompt": "Vivemos num tempo em que as questões legais se tornaram corriqueiras. No primeiro período do terceiro parágrafo, a forma pronominal “se” poderia ser corretamente deslocada para logo após a forma verbal “tornaram” — escrevendo-se tornaram-se.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Questão muito perigosa. O pronome relativo \"que\" atrai próclise, então a ênclise é proibida. A dúvida é: mesmo havendo o sujeito \"as questões\" entre a palavra atrativa e o verbo? Sim. Isso mesmo. A regra é usar a próclise em oração subordinada. Por isso as conjunções subordinativas e os pronomes relativos são palavras atrativas. O fato de haver um sujeito entre o \"que\" e a palavra atrativa não tira a obrigatoriedade da próclise. É o que a gramática chama de \"atração remota\". Questão incorreta.",
+      "questionSha256": "6da8e5758b05349c623b57fb29ae4daa71430da8eb0b11ecfb65b76fa67801a8",
+      "answerSha256": "619d83501fd8d3f4fba1bc53991c1a4b898dbfc4c034035faf79ec90ab6b5b66",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0056",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEFAZ-DF",
+      "year": 2020,
+      "prompt": "Considerando os aspectos linguísticos do texto CG1A1-I, julgue o item a seguir. No trecho “os investidores reconhecem cada vez mais o impacto, para a sociedade, das empresas nas quais investem” (l. 35 a 37), a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "O pronome relativo \"aonde\" só deve ser utilizado quando o verbo indicar ideia de movimento e exigir a preposição \"a\". Exemplo: Aonde você vai? (Vejam que o verbo \"ir\" indica movimento e também exige a preposição \"a\" - ir a algum lugar). Este não é o caso do verbo \"investir\". Logo, a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto. Questão correta!",
+      "questionSha256": "3d2083d33d71c98c47ab3c355dac7efc1a93f9f544448a7642c2b44d865af387",
+      "answerSha256": "29c1b9606e551062039bd9c88712e5fddd8f53ab205f6a709fa9a33f9cdda0e2",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0008",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "MPE TO",
+      "year": 2024,
+      "prompt": "Hoje, o aquecimento global e outros problemas ambientais são temas dominantes e urgentes. Todo ano, a organização americana Global Footprint Network calcula o chamado dia da sobrecarga da Terra, a data em que ultrapassamos a capacidade do planeta de reequilibrar seus sistemas ecológicos e regenerar recursos naturais. No segundo período do quarto parágrafo, “em que” poderia ser substituído por onde sem prejuízo da correção gramatical e da coerência do texto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "\"em que\" retoma \"data\", referente temporal; então seria possível trocar por \"na qual\" ou até pelo relativo \"quando\": dia da sobrecarga da Terra, a data em que/ na qual/ quando ultrapassamos Não caberia o uso do pronome relativo \"onde\", pois esse pronome deve ser usado para retomar ideia de lugar, não de tempo.\n\nQuestão incorreta.",
+      "questionSha256": "af836f23b881d0f89ee668654db2880b76cbdd622edfb7dc8fde43c67efc86d2",
+      "answerSha256": "09ec3ad2cbdb2eddbc240b2938266a0709105d8a439297b9d0f94c13604116d5",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0005",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PC PE",
+      "year": 2024,
+      "prompt": "“A violência letal, aquela que envolve, sob diferentes tipos jurídicos possíveis, situações em que uma pessoa mata a outra, manteve a tendência nacional de queda iniciada em 2018, mesmo que os números de 2022 indiquem uma curva de desaceleração.” Julgue o item a seguir. Estariam mantidas a correção gramatical do texto e sua coerência caso o vocábulo “aquela” fosse suprimido do período.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "No texto original, o pronome relativo \"que\" retoma o pronome \"aquela\", seu antecedente: A violência letal, aquela que envolve Se suprimirmos o \"aquela\", o \"que\" passa a retomar o substantivo \"violência\": A violência letal, que envolve Então, não haveria erro gramatical. Também não haveria qualquer incoerência (contradição, incompatibilidade, ausência de lógica), porque o \"aquela\" já se referia à violência letal no original. Então, o texto continuaria fazendo todo o sentido. Questão correta.",
+      "questionSha256": "071a57b10663dd2b10a92e5de3977378bcc060bb26ee96118e7497e9b40d1b65",
+      "answerSha256": "b21672c8fad831dc95d30eab77de2bc41f30bfd0ba97d9f43896f38ecf047890",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "correct",
+        "acceptedPedagogicalAnswers": [
+          "correct"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A03-G06-CONFLICT-001-25",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0136",
+      "questionType": "true_false",
+      "examBoard": "POLÍCIA CIVIL DO MARANHÃO",
+      "organization": "2018",
+      "year": 2018,
+      "prompt": "Em 2016, foram registrados 16 acidentes, com 303 vítimas fatais, e o último episódio, com um avião de passageiros de maiores proporções: a queda do Avro RJ85, operado pela empresa LaMia, próximo de Medellín, na Colômbia. O desastre, que completou um ano no último dia 28 de novembro, matou 71 pessoas, em sua maior parte atletas do time brasileiro da Chapecoense. Com relação a aspectos linguísticos do texto, JULGUE O ITEM. A substituição do termo “que” por o qual prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "O pronome relativo invariável “que” pode ser substituído pelos seus equivalentes variáveis, como “o qual, a qual, os quais, as quais”. No caso, usaríamos “o qual”, para concordar no masculino singular com “desastre”. Gabarito questão incorreta.\n\n4- O pronome “quem” se refere a pessoa ou ente personificado (visto como pessoa) e é precedido por preposição (monossilábica ou não).\n\nEx: A pessoa de quem falei chegou. (substituição possível: “de que falei”, “da qual falei”). A pessoa por quem intervim não mostrou gratidão.\n\nEm sentenças interrogativas, “quem” é pronome interrogativo: Quem gosta de acordar cedo?\n\nSegundo Bechara, os pronomes relativos quem e onde podem aparecer com emprego absoluto, sem referência a antecedentes, ou seja, sem “retomar ninguém”: “Quem tudo quer tudo perde.\" \"Dize-me com quem andas e eu te direi quem és.\" \"Quem com ferro fere com ferro será ferido.” \"Moro onde mais me agrada.”\n\n5- O pronome “cujo” tem como principais características: ✔ Indicar posse e sempre vir entre dois substantivos, possuidor e possuído; ✔ Não poder ser seguido nem precedido de artigo, mas poder ser antecedido por preposição; (Para lembrar: nada de cujo o, cuja a, cujo os, cuja as...) ✔ Não pode ser diretamente substituído por outro pronome relativo.\n\nPara achar o referente, pergunte ao termo seguinte: “de quem?”. Ex: Vi o filme cujo diretor ganhou o Oscar. (diretor de quem? Do filme!) Vi o rapaz a cujas pernas você se referiu. (pernas de quem? Do rapaz!)",
+      "questionSha256": "a0b974348d8b3eb33baf030431b3e5ee7d6fa2c5d188742e3ab3f1d7efa122e1",
+      "answerSha256": "51b00002e46355cecf8e2639ae1e4f98cf2beaba330ffe8cc268e43218c0ee9a",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de POLÍCIA CIVIL DO MARANHÃO; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A03-G06-CONFLICT-001-25",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0139",
+      "questionType": "true_false",
+      "examBoard": "CGE-CE",
+      "organization": "CONHECIMENTOS BÁSICOS",
+      "year": 2019,
+      "prompt": "Julgue a proposta de reescrita para o trecho “Ainda hoje, em muitos rincões do nosso país, são encontrados administradores públicos cujas ações em muito se assemelham às de Nabucodonosor, rei do império babilônico”. Muitos rincões do nosso país, ainda hoje, têm administradores públicos cujas as ações muito assemelham-se as ações do imperador babilônico Nabucodonosor.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Lembre-se que não há artigo após o pronome \"cujo\", ou seja, não é possível dizer cujas as ações. Por isso, Gabarito: questão incorreta.\n\n6- O pronome relativo “onde” deve ser usado quando o antecedente indicar lugar físico (ainda que virtual, figurativo), com sentido de “posicionamento em”. Como preposição “em” também indica uma referência locativa, podemos substituir “onde” por “em que” e por “no qual” e variações. Ex: A academia onde treino não tem aulas de MMA. A academia na qual/em que treino não tem aulas de MMA.\n\nVeja que é inadequado usar \"onde\" para outra referência que não seja lugar físico.\n\nEx: Essa é a hora onde o aluno se desespera. ✔ Ex: Essa é a hora em que/na qual o aluno se desespera.\n\nO pronome relativo “aonde” é usado nos casos em que o verbo pede a preposição “a”, com sentido de “em direção a”. Ex: Gosto da cidade aonde irei.\n\nO pronome relativo arcaico “donde”, que equivale a “de onde”, é usado nos casos em que o verbo pede a preposição “de”, com sentido de “procedência”. Ex: O lugar donde você voltou é distante.\n\n7- O pronome relativo “como” é usado quando o antecedente for palavra como forma, modo, maneira, jeito, ou outra, com sentido de “modo”. Ex: Não aceito o jeito como você fala comigo.\n\n8- O pronome relativo “quando” é usado nos casos em que antecedente tiver sentido de “tempo”. Ex: Sinto saudade da época quando eu não tinha preocupações.\n\n9- O pronome relativo “quanto” é usado nos casos em que antecedente tiver sentido de “quantidade”. Ex: Consegui tudo/tanto quanto queria, exceto tempo para desfrutar.\n\nReforçando: temos que ter atenção à preposição que o verbo/nome vai pedir, pois ela não deve ser suprimida e vai aparecer antes do pronome relativo.\n\nLembre-se: temos que enxergar sintaticamente o pronome relativo como se fosse o próprio termo a que se refere:\n\nEx: O menino a que me referi morreu. (referi-me “a” que => ao menino) O escritor de cujos poemas gosto morreu. (gosto “de” cujos => dos poemas)\n\nEsqueci o valor com quanto concordei. (concordei “com” quanto => com o valor).",
+      "questionSha256": "50b6cbb688202ff33dbe65b1ed8b1130cac7d223bac6d03874b8477cb2b47006",
+      "answerSha256": "d5c5f2a185a6e2aa8b4cf5664b603125ad048c7cbc6100118dcb2a3eecf90872",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CGE-CE; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A03-G06-CONFLICT-001-25",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula03.q0134",
+      "questionType": "multiple_choice",
+      "examBoard": "PGE-AM",
+      "organization": "2022",
+      "year": 2022,
+      "prompt": "Saberia Rubião que o nosso Quincas Borba trazia aquele grãozinho de sandice, que um médico supôs achar-lhe? (2º parágrafo). Os pronomes sublinhados referem-se, respectivamente, a (A) um médico e grãozinho de sandice. (B) Quincas Borba e Rubião. (C) Quincas Borba e grãozinho de sandice. (D) grãozinho de sandice e Rubião. (E) grãozinho de sandice e Quincas Borba",
+      "options": [
+        {
+          "label": "A",
+          "text": "um médico e grãozinho de sandice."
+        },
+        {
+          "label": "B",
+          "text": "Quincas Borba e Rubião."
+        },
+        {
+          "label": "C",
+          "text": "Quincas Borba e grãozinho de sandice."
+        },
+        {
+          "label": "D",
+          "text": "grãozinho de sandice e Rubião."
+        },
+        {
+          "label": "E",
+          "text": "grãozinho de sandice e Quincas Borba"
+        }
+      ],
+      "officialAnswer": "option_e",
+      "explanation": "O que o médico achou? Um grão de sandice. Em quem? No Quincas Borba. Então, podemos dizer que o pronome relativo \"que\" tem como antecedente o \"grãozinho de sandice\" e o \"lhe\" retoma \"Quincas Borba\". Gabarito letra E.",
+      "questionSha256": "55e8ef4e21aed8fca2d141ccc4b6e2482ad63fd7b0483449b077a92de352a71e",
+      "answerSha256": "7e81959078a0deab0ee8cb24d352d9261d13aaf26bb8deed3237f12c75ebe1d9",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de PGE-AM; 2. Identificar a regra central de Pronomes Relativos - Regência e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "option_e",
+        "acceptedPedagogicalAnswers": [
+          "option_e"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A03-G06-CONFLICT-001-25",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Pronomes Relativos - Regência e Reescrita."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Pronomes Relativos - Regência e Reescrita."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Pronomes Relativos - Regência e Reescrita."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Pronomes Relativos - Regência e Reescrita."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Pronomes Relativos - Regência e Reescrita."
+        }
+      ]
+    }
+  ]
+}

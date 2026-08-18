@@ -1,0 +1,1708 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A05-G12",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.024Z"
+  },
+  "unit": {
+    "unitId": "IP-A05-G12",
+    "lessonId": "A05",
+    "groupId": "G12",
+    "title": "Verbos Pronominais",
+    "variant": "development",
+    "canonicalTopicId": "pt:a05:verbos-pronominais",
+    "learningObjectives": [
+      "OBJ-IP-A05-G12-001",
+      "OBJ-IP-A05-G12-002",
+      "OBJ-IP-A05-G12-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Nos verbos pronominais, determine se o pronome integra o verbo, realiza complemento, marca voz ou produz outro efeito a partir da valência e do mapa contextual.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Transitividade verbal (diferença entre VTD, VTI, VTDI, VI e Verbo de Ligação).",
+            "Noções de Vozes Verbais (Voz Ativa, Voz Passiva Analítica e Voz Passiva Sintética).",
+            "Orações Subordinadas Substantivas (Funções sintáticas de objeto direto, completiva nominal, etc.).",
+            "Orações Subordinadas Adverbiais (Conceito de condição, causa e concessão)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "FUNÇÕES E VALORES DA PALAVRA \"SE\" │ ├── 1. VALORES CONJUNCIONAIS (Conjunções Subordinativas) │ ├── 1.1 Conjunção Integrante (C.I.) ──► Inicia oração substantiva ──► [Macete do ISSO / DISSO] │ ├── 1.2 Conjunção Condicional ───────► Expressa hipótese/condição ─► [Troca por CASO + Subjuntivo] │ ├── 1.3 Conjunção Causal ────────────► Causa de fato consumado ────► [Troca por JÁ QUE / Se... então] │ └── 1.4 Conjunção Concessiva ────────► Oposição / Ressalva ────────► [Troca por EMBORA / AINDA QUE] │ ├── 2. VALORES PRONOMINAIS / MORFOLÓGICOS COM VERBOS │ ├── 2.1 Parte Integrante do Verbo (PIV) │ │ ├── Essencialmente Pronominais (arrepender-se, queixar-se, suicidar-se, atrever-se...) │ │ └── Acidentalmente Pronominais (lembrar-se, enganar-se, tornar-se, sentir-se, render-se...) │ │ └── Propriedades: Varia com a pessoa (me/te/se/nos); SEM função sintática; não sai da frase. │ │ │ ├── 2.2 Pronome Reflexivo ───────────► Sujeito age sobre si mesmo ──► [Macete do MENINO / \"a si mesmo\"] │ ├── 2.3 Pronome Recíproco ───────────► Ação mútua (\"um ao outro\") ──► [Verbo OBRIGATORIAMENTE no plural] │ │ │ ├── 2.4 Pronome Apassivador (PA) │ │ ├── Verbos VTD ou VTDI + SE │ │ ├── Transposição obrigatória para Passiva Analítica (SER + Particípio) │ │ └── Termo subsequente = Sujeito Paciente (sem preposição / verbo concorda) │ │ │ └── 2.5 Partícula / Índice Indeterminador do Sujeito (PIS / IIS) │ ├── Verbos NÃO VTD (VTI, VI, VL) + SE │ ├── Sentido de agente indeterminado (\"alguém\", \"qualquer um\") │ └── Verbo FIXO na 3ª pessoa do singular (termo preposicionado é complemento) │ └── 3. VALOR ESTILÍSTICO └── 3.1 Partícula Expletiva / de Realce ──► Ênfase expressiva ──► [Pode ser SUPRIMIDA sem prejuízo]"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A05-G12-001",
+          "title": "Mapa de conexão — Verbos Pronominais",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a05:verbos-pronominais",
+              "label": "Verbos Pronominais",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a05:verbos-pronominais",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Verbos pronominais são verbos flexionados obrigatoriamente com um pronome oblíquo que atua como Parte Integrante do Verbo (PIV). Esse pronome integra o radical e a estrutura morfológica verbal, acompanha a conjugação em todas as pessoas do discurso, não pode ser suprimido na norma culta e não desempenha função sintática autônoma (não é sujeito, não é objeto direto, não é objeto indireto)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Flexão Pronominal Plena: A PIV não se restringe à partícula \"se\"; ela varia conforme a pessoa gramatical do sujeito (eu me queixo, tu te queixas, ele se queixa, nós nos queixamos, vós vos queixais, eles se queixam).",
+            "Inexistência de Função Sintática: A PIV é puramente um morfema integrante. Em \"Ele se arrependeu do fato\", o pronome \"se\" compõe o núcleo verbal transitivo indireto (arrependeu-se), cujo único complemento sintático é o objeto indireto (do fato).",
+            "Impossibilidade de Omissão Normativa: Omissões coloquiais contemporâneas (\"apaixonei\", \"arrependi\") descaracterizam a estrutura culta e constituem erro gramatical em provas de concursos públicos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Teste da Conjugação Dinâmica: Flexione o verbo nas 1ª e 2ª pessoas (Eu me..., tu te..., ele se...). Se o pronome acompanhar naturalmente o verbo sem indicar que o sujeito pratica ação sobre seu próprio corpo (\"a si mesmo\"), trata-se de PIV.",
+            "Inadmissibilidade de Passivação: Verbos com PIV não admitem conversão em voz passiva analítica (\"foi arrependido\" não existe)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Ele se arrependeu do ocorrido.\" (040 — ) $\\rightarrow$ Ele = Sujeito; se = PIV; arrependeu = VTI; do ocorrido = Objeto Indireto.",
+            "\"Eu me queixei de dor nas costas.\" (040 — ) $\\rightarrow$ Eu = Sujeito; me = PIV (1ª pessoa); queixei = VTI; de dor nas costas = Objeto Indireto.",
+            "\"A menina concentrava-se para realizar a prova.\" (041 — ) $\\rightarrow$ se = PIV (processo mental/foco)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Relacionado a: KB-A05-G12-002, KB-A05-G12-004.",
+            "Procedimento associado: PROC-A05-G12-003.",
+            "Alertas: WARN-A05-G12-001, WARN-A05-G12-002."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos Essencialmente Pronominais: Verbos que só existem na língua acompanhados da PIV em 100% dos contextos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rol exemplificativo da aula: arrepender-se, atrever-se, queixar-se, suicidar-se, dignar-se, refugiar-se, assemelhar-se, candidatar-se, esforçar-se, estreitar-se, zangar-se, apaixonar-se."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos Acidentalmente Pronominais: Verbos que existem no idioma na forma não pronominal plena e na forma pronominal, assumindo alteração de regência, transitividade ou nuance semântica quando conjugados com o pronome integrante."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rol exemplificativo da aula: enganar/enganar-se, lembrar/lembrar-se, esquecer/esquecer-se, tornar/tornar-se, referir/referir-se, render/render-se, transformar/transformar-se, sentir/sentir-se."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Não há regra fixa de transitividade para verbos pronominais:",
+            "Podem ser Transitivos Indiretos (VTI): arrepender-se de, queixar-se de.",
+            "Podem ser Intransitivos (VI): suicidar-se (não rege objeto indireto).",
+            "Podem ser Verbos de Ligação (VL): tornar-se (\"A profissão tornou-se uma tendência\" $\\rightarrow$ tornou-se = VL pronominal ligando sujeito a predicativo).",
+            "Regência paradigmática de Lembrar e Esquecer:",
+            "Forma Simples (Não pronominal): Transitivo Direto (VTD) $\\rightarrow$ Sem pronome e sem preposição (\"Lembrei o compromisso\" / \"Esqueci o nome\").",
+            "Forma Pronominal (Acidental): Transitivo Indireto (VTI) $\\rightarrow$ Com pronome (PIV) e com preposição de (\"Lembrei-me do compromisso\" / \"Esqueci-me do nome\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A05-G12-001.",
+            "Contrasta com: KB-A05-G12-003, KB-A05-G12-004.",
+            "Possui alerta: WARN-A05-G12-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A partícula \"SE\" funciona como Pronome Apassivador (PA) ou Partícula Apassivadora quando se junta a verbos transitivos diretos (VTD) ou transitivos diretos e indiretos (VTDI) para estruturar a voz passiva sintética. Nessa construção, o elemento que seria objeto direto na voz ativa passa a ocupar a função de Sujeito Paciente."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regra de Transitividade: Ocorre exclusivamente com verbos VTD ou VTDI.",
+            "Regra de Equivalência Analítica: A oração sintética é 100% conversível para a Voz Passiva Analítica (Verbo Ser + Particípio do verbo principal).",
+            "Regra do Sujeito Paciente: O substantivo posposto não recebe preposição e comanda a concordância verbal em número e pessoa (\"Destruiu-se a prova\" / \"Destruíram-se as provas\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Destruíram-se as provas do crime.\" (040 — ) $\\rightarrow$ As provas do crime foram destruídas. (PA).",
+            "\"Percebe-se o destaque dado à linguagem.\" (041 — ) $\\rightarrow$ O destaque dado à linguagem é percebido. (PA).",
+            "\"Não se exigiu do cronista a perfeição.\" (041 — ) $\\rightarrow$ A perfeição não foi exigida do cronista. (VTDI + PA; a perfeição = sujeito paciente).",
+            "\"Compra-se ouro...\" (042 — ) $\\rightarrow$ Ouro é comprado. (PA).",
+            "\"Encontrou-se um caminho...\" (042 — ) $\\rightarrow$ Um caminho foi encontrado. (PA).",
+            "\"Constata-se que é uma discussão...\" (042 — ) $\\rightarrow$ É constatado que é uma discussão... (PA com oração subordinada substantiva subjetiva)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta diretamente com: KB-A05-G12-004 (PIS/IIS).",
+            "Procedimentos: PROC-A05-G12-001, PROC-A05-G12-004.",
+            "Alertas: WARN-A05-G12-004, WARN-A05-G12-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A partícula \"SE\" funciona como Pronome Indeterminador do Sujeito (PIS) ou Índice de Indeterminação do Sujeito (IIS) quando se acopla a verbos que não admitem voz passiva, indicando que o sujeito da oração é genérico, desconhecido ou não identificado (\"alguém, não se sabe quem\")."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regra de Predicação: Acompanha verbos não VTD / não VTDI (ocorre tipicamente com Verbos Transitivos Indiretos — VTI, Intransitivos — VI ou de Ligação — VL).",
+            "Regra da Ausência de Sujeito Expresso: Não há sujeito paciente nem sujeito agente determinado na oração. O termo seguinte vem regido de preposição (objeto indireto) ou é um adjunto adverbial.",
+            "Regra da Inflexibilidade Verbal: O verbo permanece obrigatoriamente fixo na 3ª pessoa do singular, sendo proibida qualquer concordância no plural."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sinonímia Terminológica: As siglas PIS (Pronome Indeterminador do Sujeito) e IIS (Índice de Indeterminação do Sujeito) designam rigorosamente o mesmo fato morfossintático em diferentes bancas e regiões.",
+            "O falso pronominal tratar-se de: A construção \"Não se trata de combater...\" (042 — ) não é verbo pronominal reflexivo; é uma oração impessoal com VTI e sujeito indeterminado por PIS/IIS."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Precisa-se de voluntários.\" (040 — ) $\\rightarrow$ Precisa = VTI; se = PIS; de voluntários = Objeto Indireto plural; verbo fixo no singular.",
+            "\"Vive-se melhor nas montanhas.\" (041 — / 042 — ) $\\rightarrow$ Vive = VI; se = PIS/IIS; nas montanhas = Adjunto Adverbial; sentido de \"qualquer um / alguém vive\".",
+            "\"Não se trata de combater a tecnologia.\" (042 — ) $\\rightarrow$ trata = VTI; se = PIS/IIS."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A05-G12-003 (PA) e KB-A05-G12-001 (PIV).",
+            "Procedimento: PROC-A05-G12-001.",
+            "Alerta: WARN-A05-G12-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pronome Reflexivo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O sujeito é agente e paciente simultâneo da ação (\"a si mesmo\").",
+            "O verbo é transitivo pleno não pronominal; o pronome exerce função sintática autônoma de Objeto Direto ou Objeto Indireto.",
+            "Macete do Menino (Evanildo Bechara): Se a ação que o sujeito pratica sobre si mesmo puder ser transferida para um terceiro elemento (\"o menino\" / \"alguém\"), o pronome é categoricamente reflexivo (\"Pedi que se afastasse\" $\\rightarrow$ afastasse a si mesma / afastasse o menino)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pronome Recíproco:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expressa ação mútua, compartilhada e bilateral entre dois ou mais agentes (\"um ao outro\" / \"umas às outras\").",
+            "Requisito sintático obrigatório: A forma verbal deve estar imperativamente no plural."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ações mentais, cognitivas ou emotivas (concentrar-se, lembrar-se, queixar-se) não expressam força física aplicada sobre si mesmo nem admitem troca por terceiro (ninguém \"concentra o menino\" ou \"queixa o menino\"). Portanto, são PIV, e não pronomes reflexivos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reflexivo: \"A mulher feriu-se com a faca.\" (041 — ) $\\rightarrow$ Feriu a si mesma / Feriu o menino.",
+            "Reflexivo: \"Viu-se diante de um problema insolúvel.\" (042 — ) $\\rightarrow$ Viu a si mesmo.",
+            "Recíproco: \"Os amigos se abraçaram na despedida.\" (040 — ) $\\rightarrow$ Abraçaram um ao outro.",
+            "Recíproco: \"Os alunos se olharam surpresos...\" (041 — ) $\\rightarrow$ Olharam um ao outro.",
+            "Recíproco: \"As pessoas se repelem e se atraem...\" (042 — ) $\\rightarrow$ Repelem umas às outras.",
+            "Recíproco: \"Ao dividirem o palco, trataram-se com muita indiferença.\" (042 — ) $\\rightarrow$ Trataram um ao outro."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Macetes: TIP-A05-G12-001, TIP-A05-G12-003.",
+            "Alertas: WARN-A05-G12-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando a palavra \"SE\" não atua como pronome ligado a verbos, classifica-se como conjunção subordinativa:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunção Integrante (C.I.):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Introduz uma Oração Subordinada Substantiva (objetiva direta, subjetiva, completiva nominal, etc.).",
+            "Macete do ISSO: Toda a oração iniciada pelo \"se\" pode ser substituída pelo pronome demonstrativo neutro \"ISSO\" (ou \"DISSO\", \"NISSO\").",
+            "Exemplo: \"Não sei se irei à aula hoje.\" (040 — ) $\\rightarrow$ Não sei [ISSO].",
+            "Exemplo: \"O governo irá decidir se libera o pagamento.\" (041 — ) $\\rightarrow$ Decidir [ISSO].",
+            "Exemplo: \"Não sei se um dia seria censurado.\" (042 — ) $\\rightarrow$ Não sei [ISSO]."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunção Condicional:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Introduz uma Oração Subordinada Adverbial Condicional, indicando hipótese ou requisito.",
+            "Macete do CASO: Permutável diretamente pela conjunção \"caso\" (com ajuste verbal para o subjuntivo).",
+            "Exemplo: \"Se ela for, eu vou.\" (040 — ) $\\rightarrow$ Caso ela vá, eu vou.",
+            "Exemplo: \"Do que importa a vida se nela não houver risos...\" (041 — ) $\\rightarrow$ ...caso nela não haja risos..."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunção Causal:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Introduz uma Oração Subordinada Adverbial Causal, expressando motivo/causa motivadora de um fato consumado ou evidente (\"já que\", \"visto que\").",
+            "Estrutura Lógica (Se... então): Muito explorada em questões interdisciplinares de Raciocínio Lógico e Português (ex.: Banca FGV).",
+            "Exemplo: \"Se já chegamos, então vamos estudar.\" (041 — ) $\\rightarrow$ Já que já chegamos, vamos estudar."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunção Concessiva:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Introduz uma Oração Subordinada Adverbial Concessiva, indicando contraste, quebra de expectativa ou ressalva que não impede a oração principal.",
+            "Equivalência: Permutável por \"embora\" ou \"ainda que\".",
+            "Exemplo: \"Se gostou, não demonstrou.\" (041 — ) $\\rightarrow$ Embora tenha gostado, não demonstrou.",
+            "Exemplo: \"Se estava feliz, não parecia.\" (041 — ) $\\rightarrow$ Apesar de estar feliz / Embora estivesse feliz, não parecia."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Macetes: TIP-A05-G12-002, TIP-A05-G12-004.",
+            "Alertas: WARN-A05-G12-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A partícula expletiva (ou de realce) é um vocábulo acessório de valor puramente expressivo, enfático ou estilístico. Não desempenha nenhuma função sintática na oração e pode ser inteiramente suprimida sem provocar incorreção gramatical ou alteração no sentido nuclear da frase."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ocorre predominantemente associada a verbos intransitivos ou de movimento, em especial o verbo ir (ir-se).",
+            "Teste da Supressão Absoluta: Retire a palavra \"se\" da frase. Se a estrutura sintática permanecer perfeitamente íntegra e compreensível, o \"se\" é elemento de realce."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Eles se foram.\" $\\rightarrow$ \"Eles foram.\" (042 — )",
+            "\"Vão-se os anéis.\" $\\rightarrow$ \"Vão os anéis.\" (042 — )",
+            "\"Foram-se os dias em que as pessoas prestavam atenção...\" $\\rightarrow$ \"Os dias foram...\" (042 — )"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Não confundir a partícula expletiva com verbos acidentalmente pronominais. Em transformar-se ou sentir-se, a retirada do pronome altera a regência e o sentido semântico da oração; nesses casos, trata-se de PIV, e não de realce (WARN-A05-G12-006)."
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A05-G12-001",
+          "title": "Regras canônicas",
+          "statement": "Esta seção fornece uma síntese de consulta rápida com os critérios decisórios para cada uma das funções consolidadas:",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Esta seção fornece uma síntese de consulta rápida com os critérios decisórios para cada uma das funções consolidadas:"
+            },
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A05-G12-001",
+              "table": {
+                "tableId": "TABLE-IP-A05-G12-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Função / Valor do SE",
+                  "Natureza Gramatical",
+                  "Critério Decisório de Reconhecimento",
+                  "Comportamento do Verbo",
+                  "Teste Mnemônico",
+                  "Unidade Detalhada"
+                ],
+                "rows": [
+                  [
+                    "Parte Integrante do Verbo (PIV)",
+                    "Morfema verbal (sem função sintática)",
+                    "Integra verbos pronominais essenciais ou acidentais",
+                    "Flexiona com o sujeito (me, te, se, nos)",
+                    "Teste da conjugação dinâmica",
+                    "KB-A05-G12-001 KB-A05-G12-002"
+                  ],
+                  [
+                    "Pronome Apassivador (PA)",
+                    "Pronome morfossintático",
+                    "Liga-se a VTD/VTDI; sujeito paciente sem preposição",
+                    "Concorda com o sujeito paciente",
+                    "Conversão em Passiva Analítica (ser + particípio)",
+                    "KB-A05-G12-003"
+                  ],
+                  [
+                    "Partícula Indeterminadora (PIS/IIS)",
+                    "Índice morfossintático",
+                    "Liga-se a VTI/VI/VL com termo preposicionado/advérbio",
+                    "Fixo na 3ª pessoa do singular",
+                    "Sujeito genérico (\"alguém\")",
+                    "KB-A05-G12-004"
+                  ],
+                  [
+                    "Pronome Reflexivo",
+                    "Pronome oblíquo (Objeto Direto / Indireto)",
+                    "O sujeito pratica e recebe a ação sobre si mesmo",
+                    "Verbo transitivo pleno",
+                    "Macete do\"Menino\" / \"a si mesmo\"",
+                    "KB-A05-G12-005"
+                  ],
+                  [
+                    "Pronome Recíproco",
+                    "Pronome oblíquo (Objeto Direto / Indireto)",
+                    "Ação mútua entre dois ou mais sujeitos",
+                    "Verbo obrigatoriamente no plural",
+                    "Troca por\"um ao outro\"",
+                    "KB-A05-G12-005"
+                  ],
+                  [
+                    "Conjunção Integrante",
+                    "Conjunção subordinativa",
+                    "Introduz oração subordinada substantiva",
+                    "Rege oração completiva/subjetiva",
+                    "Macete do\"ISSO\" (\"DISSO\", \"NISSO\")",
+                    "KB-A05-G12-006"
+                  ],
+                  [
+                    "Conjunção Condicional",
+                    "Conjunção subordinativa",
+                    "Introduz oração adverbial de hipótese",
+                    "Modo subjuntivo",
+                    "Troca por\"CASO\"",
+                    "KB-A05-G12-006"
+                  ],
+                  [
+                    "Conjunção Causal",
+                    "Conjunção subordinativa",
+                    "Introduz a causa de fato consumado",
+                    "Relação de causa e efeito",
+                    "Troca por\"JÁ QUE\" (Se... então)",
+                    "KB-A05-G12-006"
+                  ],
+                  [
+                    "Conjunção Concessiva",
+                    "Conjunção subordinativa",
+                    "Introduz ressalva / oposição que não impede o fato",
+                    "Sentido de contraste",
+                    "Troca por\"EMBORA\" / \"AINDA QUE\"",
+                    "KB-A05-G12-006"
+                  ],
+                  [
+                    "Partícula de Realce / Expletiva",
+                    "Vocábulo de realce",
+                    "Elemento acessório de ênfase expressiva",
+                    "Verbos intransitivos/movimento",
+                    "Teste da supressão sem prejuízo",
+                    "KB-A05-G12-007"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A05-G12-001",
+          "title": "Algoritmo de Identificação Rápida e Excludente do \"SE\"",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Identificação Rápida e Excludente do \"SE\"",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Algoritmo de Identificação Rápida e Excludente do \"SE\"."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Classificar qualquer ocorrência da palavra \"SE\" em provas de concurso em menos de 30 segundos, eliminando distratores por testes de hipótese",
+              "explanation": "Procedimento operacional para Algoritmo de Identificação Rápida e Excludente do \"SE\".",
+              "test": "Classificar qualquer ocorrência da palavra \"SE\" em provas de concurso em menos de 30 segundos, eliminando distratores por testes de hipótese"
+            },
+            {
+              "order": 2,
+              "action": "text [ PALAVRA \"SE\" ] │ ┌────────────────────────────────┴────────────────────────────────┐ ▼ ▼ [ETAPA 1: TESTE DE CONJUNÇÃO] [ETAPA 2: TESTE DE REALCE] A palavra liga duas orações? Pode retirar o \"se\" sem qualquer alteração ├─ Troca a oração por \"ISSO\"? ──► CONJUNÇÃO INTEGRANTE estrutural ou semântica? (ex.: foram-se) ├─ Troca por \"CASO\"? ───────────► CONJUNÇÃO CONDICIONAL └─ Sim ──► PARTÍCULA DE REALCE / EXPLETIVA ├─ Troca por \"JÁ QUE\"? ─────────► CONJUNÇÃO CAUSAL └─ Troca por \"EMBORA\"? ─────────► CONJUNÇÃO CONCESSIVA │ (Se não for conjunção nem realce) ▼ [ETAPA 3: TESTE PRONOMINAL / SINTÁTICO] │ ┌───────────────────────────────────────┬────────────────────────┴──────────────┬────────────────────────────────────────┐ ▼ ▼ ▼ ▼ [TESTE DA PASSIVA (PA)] [TESTE DO SUJEITO (PIS)] [TESTE DO MENINO (REFLEX)] [TESTE DA CONJUGAÇÃO (PIV)] Verbo VTD/VTDI + termo sem Verbo VTI/VI/VL + termo com Ação sobre o próprio corpo; Verbo só existe com pronome ou preposição: converte em passiva preposição: verbo fixo no permite transferir a terceiro muda regência; conjuga em analítica (ser + particípio)",
+              "explanation": "Procedimento operacional para Algoritmo de Identificação Rápida e Excludente do \"SE\".",
+              "test": "text [ PALAVRA \"SE\" ] │ ┌────────────────────────────────┴────────────────────────────────┐ ▼ ▼ [ETAPA 1: TESTE DE CONJUNÇÃO] [ETAPA 2: TESTE DE REALCE] A palavra liga duas orações? Pode retirar o \"se\" sem qualquer alteração ├─ Troca a oração por \"ISSO\"? ──► CONJUNÇÃO INTEGRANTE estrutural ou semântica? (ex.: foram-se) ├─ Troca por \"CASO\"? ───────────► CONJUNÇÃO CONDICIONAL └─ Sim ──► PARTÍCULA DE REALCE / EXPLETIVA ├─ Troca por \"JÁ QUE\"? ─────────► CONJUNÇÃO CAUSAL └─ Troca por \"EMBORA\"? ─────────► CONJUNÇÃO CONCESSIVA │ (Se não for conjunção nem realce) ▼ [ETAPA 3: TESTE PRONOMINAL / SINTÁTICO] │ ┌───────────────────────────────────────┬────────────────────────┴──────────────┬────────────────────────────────────────┐ ▼ ▼ ▼ ▼ [TESTE DA PASSIVA (PA)] [TESTE DO SUJEITO (PIS)] [TESTE DO MENINO (REFLEX)] [TESTE DA CONJUGAÇÃO (PIV)] Verbo VTD/VTDI + termo sem Verbo VTI/VI/VL + termo com Ação sobre o próprio corpo; Verbo só existe com pronome ou preposição: converte em passiva preposição: verbo fixo no permite transferir a terceiro muda regência; conjuga em analítica (ser + particípio)"
+            },
+            {
+              "order": 3,
+              "action": "singular (\"alguém...\")",
+              "explanation": "Procedimento operacional para Algoritmo de Identificação Rápida e Excludente do \"SE\".",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "(\"olhou o menino\")",
+              "explanation": "Procedimento operacional para Algoritmo de Identificação Rápida e Excludente do \"SE\".",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Algoritmo de Identificação Rápida e Excludente do \"SE\"."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Classificar qualquer ocorrência da palavra \"SE\" em provas de concurso em menos de 30 segundos, eliminando distratores por testes de hipótese."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fluxograma Operacional"
+            },
+            {
+              "type": "paragraph",
+              "text": "text [ PALAVRA \"SE\" ] │ ┌────────────────────────────────┴────────────────────────────────┐ ▼ ▼ [ETAPA 1: TESTE DE CONJUNÇÃO] [ETAPA 2: TESTE DE REALCE] A palavra liga duas orações? Pode retirar o \"se\" sem qualquer alteração ├─ Troca a oração por \"ISSO\"? ──► CONJUNÇÃO INTEGRANTE estrutural ou semântica? (ex.: foram-se) ├─ Troca por \"CASO\"? ───────────► CONJUNÇÃO CONDICIONAL └─ Sim ──► PARTÍCULA DE REALCE / EXPLETIVA ├─ Troca por \"JÁ QUE\"? ─────────► CONJUNÇÃO CAUSAL └─ Troca por \"EMBORA\"? ─────────► CONJUNÇÃO CONCESSIVA │ (Se não for conjunção nem realce) ▼ [ETAPA 3: TESTE PRONOMINAL / SINTÁTICO] │ ┌───────────────────────────────────────┬────────────────────────┴──────────────┬────────────────────────────────────────┐ ▼ ▼ ▼ ▼ [TESTE DA PASSIVA (PA)] [TESTE DO SUJEITO (PIS)] [TESTE DO MENINO (REFLEX)] [TESTE DA CONJUGAÇÃO (PIV)] Verbo VTD/VTDI + termo sem Verbo VTI/VI/VL + termo com Ação sobre o próprio corpo; Verbo só existe com pronome ou preposição: converte em passiva preposição: verbo fixo no permite transferir a terceiro muda regência; conjuga em analítica (ser + particípio). singular (\"alguém...\"). (\"olhou o menino\"). todas as pessoas (me/te/se...). └─► PRONOME APASSIVADOR └─► ÍNDICE INDETERMINADOR └─► PRONOME REFLEXIVO └─► PARTE INTEGRANTE (PIV) (Se plural mútuo ─► RECÍPROCO)"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G12-002",
+          "title": "Método de Distinção Conclusiva entre PA e PIS/IIS",
+          "objective": "Executar o algoritmo decisório para Método de Distinção Conclusiva entre PA e PIS/IIS",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Distinção Conclusiva entre PA e PIS/IIS."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Predicação do verbo",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "É Transitivo Direto (VTD) ou Transitivo Direto e Indireto (VTDI)? $\\rightarrow$ Candidato a PA.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "É Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL)? $\\rightarrow$ Candidato a PIS.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 — Análise da preposição no termo subsequente",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "O termo posposto não tem preposição? $\\rightarrow$ Trata-se do Sujeito Paciente. O verbo deve concordar em número (\"Vendem-se casas\" $\\rightarrow$ Casas são vendidas). Confirma-se PA.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "O termo posposto vem regido por preposição obrigatória (de, em, a)? $\\rightarrow$ Trata-se de Objeto Indireto ou Adjunto. O verbo fica travado no singular (\"Precisa-se de empregados\" $\\rightarrow$ não existe \"empregados são precisados\"). Confirma-se PIS/IIS.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Passo 3 — Teste de Transposição Analítica",
+              "explanation": "",
+              "test": "Passo 3 — Teste de Transposição Analítica:"
+            },
+            {
+              "order": 8,
+              "action": "Se couber a conversão \"Sujeito + Ser + Particípio\", é rigorosamente PA.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Distinção Conclusiva entre PA e PIS/IIS."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Predicação do verbo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "É Transitivo Direto (VTD) ou Transitivo Direto e Indireto (VTDI)? $\\rightarrow$ Candidato a PA.",
+                "É Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL)? $\\rightarrow$ Candidato a PIS."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2 — Análise da preposição no termo subsequente:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O termo posposto não tem preposição? $\\rightarrow$ Trata-se do Sujeito Paciente. O verbo deve concordar em número (\"Vendem-se casas\" $\\rightarrow$ Casas são vendidas). Confirma-se PA.",
+                "O termo posposto vem regido por preposição obrigatória (de, em, a)? $\\rightarrow$ Trata-se de Objeto Indireto ou Adjunto. O verbo fica travado no singular (\"Precisa-se de empregados\" $\\rightarrow$ não existe \"empregados são precisados\"). Confirma-se PIS/IIS."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3 — Teste de Transposição Analítica:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se couber a conversão \"Sujeito + Ser + Particípio\", é rigorosamente PA."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G12-003",
+          "title": "Teste de Reconhecimento de PIV por Conjugação Dinâmica",
+          "objective": "Executar o algoritmo decisório para Teste de Reconhecimento de PIV por Conjugação Dinâmica",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Reconhecimento de PIV por Conjugação Dinâmica."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole a forma verbal acompanhada de pronome (ex.",
+              "explanation": "concentrava-se, arrependeu-se, rendeu-se).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Verifique se o sujeito é determinado (A menina, Ele, A população).",
+              "explanation": null,
+              "test": "Verifique se o sujeito é determinado (A menina, Ele, A população)."
+            },
+            {
+              "order": 3,
+              "action": "Execute mentalmente a flexão nas três primeiras pessoas do singular e do plural",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Eu me [arrependo / concentro / rendo / transformo]",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Tu te [arrependes / concentras / rendes / transformas]",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Ele se [arrepende / concentra / rende / transforma]",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Nós nos [arrependemos / concentramos / rendemos / transformamos]",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Verifique se o pronome é intrínseco à conjugação e desprovido de função de complemento externo.",
+              "explanation": null,
+              "test": "Verifique se o pronome é intrínseco à conjugação e desprovido de função de complemento externo."
+            },
+            {
+              "order": 9,
+              "action": "Resultado",
+              "explanation": "Classifica-se como Parte Integrante do Verbo (PIV).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Reconhecimento de PIV por Conjugação Dinâmica."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole a forma verbal acompanhada de pronome (ex.: concentrava-se, arrependeu-se, rendeu-se).",
+                "Verifique se o sujeito é determinado (A menina, Ele, A população).",
+                "Execute mentalmente a flexão nas três primeiras pessoas do singular e do plural:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Eu me [arrependo / concentro / rendo / transformo]",
+                "Tu te [arrependes / concentras / rendes / transformas]",
+                "Ele se [arrepende / concentra / rende / transforma]",
+                "Nós nos [arrependemos / concentramos / rendemos / transformamos]"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Verifique se o pronome é intrínseco à conjugação e desprovido de função de complemento externo.",
+                "Resultado: Classifica-se como Parte Integrante do Verbo (PIV)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A05-G12-001",
+          "title": "Matriz de Contrastes Estruturais",
+          "contrastType": "mixed",
+          "conceptA": "Matriz de Contrastes Estruturais",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A05-G12-002",
+              "table": {
+                "tableId": "TABLE-IP-A05-G12-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Par Comparativo",
+                  "Critério Decisivo de Diferenciação",
+                  "Exemplo Típico A",
+                  "Exemplo Típico B"
+                ],
+                "rows": [
+                  [
+                    "PA vs. PIS",
+                    "Transitividade e Preposição: PA exige VTD/VTDI sem preposição no sujeito paciente (verbo flexiona); PIS ocorre com VTI/VI/VL com preposição/advérbio (verbo fixo no singular).",
+                    "\"Destruíram-se as provas.\" (PA — VTD — as provas = sujeito paciente plural).",
+                    "\"Precisa-se de voluntários.\" (PIS — VTI — de voluntários = objeto indireto)."
+                  ],
+                  [
+                    "PIV vs. Reflexivo",
+                    "Transferência a Terceiro (Macete do Menino): No reflexivo, a ação recai sobre si mesmo e pode ser aplicada a um terceiro; na PIV, o verbo expressa processo interno, mental ou estado, não admitindo troca por terceiro.",
+                    "\"Ele se queixou de dor.\" (PIV — não existe \"queixar o menino\").",
+                    "\"Ele se feriu com a faca.\" (Reflexivo — equivale a \"feriu a si mesmo\" / \"feriu o menino\")."
+                  ],
+                  [
+                    "Reflexivo vs. Recíproco",
+                    "Número Verbal e Mutualidade: O reflexivo pode ocorrer no singular ou plural (ação individual sobre si); o recíproco exige plural obrigatório e expressa troca bilateral (\"um ao outro\").",
+                    "\"Ela se olhou no espelho.\" (Reflexivo — singular — olhou a si mesma).",
+                    "\"Eles se olharam surpresos.\" (Recíproco — plural — olharam um ao outro)."
+                  ],
+                  [
+                    "PIV vs. Realce",
+                    "Dependência Estrutural: O pronome de realce pode ser eliminado sem afetar o sentido ou a regência; a PIV é estruturalmente obrigatória na forma pronominal culta.",
+                    "\"A mulher se arrependeu.\" (PIV — incorreto dizer \"a mulher arrependeu\").",
+                    "\"Eles se foram embora.\" (Realce — perfeitamente válido dizer \"Eles foram embora\")."
+                  ],
+                  [
+                    "Conjunção Integrante vs. PA",
+                    "Hifenização e Natureza da Oração: A conjunção integrante introduz uma oração inteira (trocável por ISSO); o PA vem hifenizado ou ligado a verbo que passiva um substantivo.",
+                    "\"Não sei se ele virá.\" (Conjunção Integrante — Não sei [isso]).",
+                    "\"Percebe-se o erro.\" (PA — O erro é percebido)."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G12-001",
+          "title": "EX-A05-G12-001 — Caderno de Fixação: Classificação da Partícula SE (10 Itens Consolidados)",
+          "prompt": "Item (a): \"Do que importa a vida se nela não houver risos e lágrimas.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item (a)",
+              "rationale": "\"Do que importa a vida se nela não houver risos e lágrimas.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Permutável por \"caso nela não haja...\"."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Conjunção Subordinativa Condicional."
+            },
+            {
+              "order": 4,
+              "action": "Item (b)",
+              "rationale": "\"O governo ainda irá decidir se libera o pagamento dos funcionários.\""
+            },
+            {
+              "order": 5,
+              "action": "Análise",
+              "rationale": "Verbo decidir é VTD; a oração equivale a \"decidir [ISSO]\"."
+            }
+          ],
+          "result": "Classificação: Parte Integrante do Verbo (PIV).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G12-001 — Caderno de Fixação: Classificação da Partícula SE (10 Itens Consolidados) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G12-001 — Caderno de Fixação: Classificação da Partícula SE (10 Itens Consolidados).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G12-001 — Caderno de Fixação: Classificação da Partícula SE (10 Itens Consolidados).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item (a): \"Do que importa a vida se nela não houver risos e lágrimas.\"",
+                "Análise: Permutável por \"caso nela não haja...\".",
+                "Classificação: Conjunção Subordinativa Condicional.",
+                "Item (b): \"O governo ainda irá decidir se libera o pagamento dos funcionários.\"",
+                "Análise: Verbo decidir é VTD; a oração equivale a \"decidir [ISSO]\".",
+                "Classificação: Conjunção Subordinativa Integrante (C.I.).",
+                "Item (c): \"A menina concentrava-se para realizar a prova.\"",
+                "Análise: Processo mental; flexão pronominal (eu me concentro); não aceita \"a si mesma\".",
+                "Classificação: Parte Integrante do Verbo (PIV).",
+                "Item (d): \"Naquelas aulas, percebe-se o destaque dado à linguagem.\"",
+                "Análise: Verbo perceber é VTD; transposição analítica: \"o destaque dado é percebido\".",
+                "Classificação: Pronome Apassivador (PA).",
+                "Item (e): \"A profissão de dentista tornou-se uma tendência durante o século XX.\"",
+                "Análise: Verbo de ligação pronominal indicando mudança de estado (eu me torno); liga sujeito a predicativo.",
+                "Classificação: Parte Integrante do Verbo (PIV).",
+                "Item (f): \"A mulher feriu-se com a faca.\"",
+                "Análise: Ação transitiva executada e sofrida pelo agente (feriu a si mesma / feriu o menino).",
+                "Classificação: Pronome Reflexivo.",
+                "Item (g): \"Os alunos se olharam surpresos com a atitude do professor.\"",
+                "Análise: Sujeito e verbo no plural (Os alunos olharam); ação mútua (um ao outro).",
+                "Classificação: Pronome Recíproco.",
+                "Item (h): \"Não se exigiu do cronista a perfeição.\"",
+                "Análise: Verbo exigir é VTDI; conversão: \"A perfeição não foi exigida do cronista\".",
+                "Classificação: Pronome Apassivador (PA) (a perfeição = sujeito paciente).",
+                "Item (i): \"Vive-se melhor nas montanhas.\"",
+                "Análise: Verbo intransitivo na 3ª pessoa do singular acompanhado de adjunto adverbial; sujeito genérico (\"alguém vive\").",
+                "Classificação: Pronome / Índice de Indeterminação do Sujeito (PIS / IIS).",
+                "Item (j): \"Não se atreva a desafiar a autoridade.\"",
+                "Análise: Verbo essencialmente pronominal (eu me atrevo, tu te atreves, ele se atreve).",
+                "Classificação: Parte Integrante do Verbo (PIV)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G12-002",
+          "title": "EX-A05-G12-002 — Questão 01: VUNESP (2021) — Identificação de Reciprocidade",
+          "prompt": "Enunciado: Na frase – As pessoas se repelem e se atraem o tempo inteiro. –, o vocábulo se indica reciprocidade, como em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Na frase – As pessoas se repelem e se atraem o tempo inteiro. –, o vocábulo se indica reciprocidade, como em:"
+            },
+            {
+              "order": 2,
+              "action": "A) Quanto ao exposto, constata-se que é uma discussão filosófica. $\\rightarrow$ PA (é constatado que...).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) A população não se rendeu diante das imposições do governo. $\\rightarrow$ PIV (verbo acidental render-se).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Ao dividirem o palco, trataram-se com muita indiferença. $\\rightarrow$ Pronome Recíproco (GABARITO",
+              "rationale": "C — trataram um ao outro; verbo no plural)."
+            },
+            {
+              "order": 5,
+              "action": "D) Compra-se ouro nos centros das grandes cidades. $\\rightarrow$ PA (ouro é comprado).",
+              "rationale": null
+            }
+          ],
+          "result": "E) Foram-se os dias em que as pessoas prestavam atenção umas nas outras. $\\rightarrow$ Partícula de Realce / Expletiva (os dias foram...).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G12-002 — Questão 01: VUNESP (2021) — Identificação de Reciprocidade sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G12-002 — Questão 01: VUNESP (2021) — Identificação de Reciprocidade.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G12-002 — Questão 01: VUNESP (2021) — Identificação de Reciprocidade.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Na frase – As pessoas se repelem e se atraem o tempo inteiro. –, o vocábulo se indica reciprocidade, como em:",
+                "A) Quanto ao exposto, constata-se que é uma discussão filosófica. $\\rightarrow$ PA (é constatado que...).",
+                "B) A população não se rendeu diante das imposições do governo. $\\rightarrow$ PIV (verbo acidental render-se).",
+                "C) Ao dividirem o palco, trataram-se com muita indiferença. $\\rightarrow$ Pronome Recíproco (GABARITO: C — trataram um ao outro; verbo no plural).",
+                "D) Compra-se ouro nos centros das grandes cidades. $\\rightarrow$ PA (ouro é comprado).",
+                "E) Foram-se os dias em que as pessoas prestavam atenção umas nas outras. $\\rightarrow$ Partícula de Realce / Expletiva (os dias foram...)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G12-003",
+          "title": "EX-A05-G12-003 — Questão 02: Instituto AOCP (2020) — Partícula Apassivadora",
+          "prompt": "Enunciado: Assinale a alternativa em que a palavra \"se\" exerce a função de partícula apassivadora:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa em que a palavra \"se\" exerce a função de partícula apassivadora:"
+            },
+            {
+              "order": 2,
+              "action": "A) \"No trabalho, percebe-se facilmente o efeito negativo dos aparelhinhos...\" $\\rightarrow$ PA (GABARITO",
+              "rationale": "A — VTD + o efeito negativo é facilmente percebido)."
+            },
+            {
+              "order": 3,
+              "action": "B) \"De símbolo de status, transformaram-se rapidamente em bem de consumo...\" $\\rightarrow$ PIV (verbo acidental transformar-se).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) \"(...) e faz com que todos se sintam como bombeiros sem equipamentos...\" $\\rightarrow$ PIV (verbo acidental sentir-se).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) \"Não se trata de combater, tal qual luditas, a tecnologia.\" $\\rightarrow$ PIS / IIS (tratar-se de = VTI impessoal com sujeito indeterminado).",
+              "rationale": null
+            }
+          ],
+          "result": "D) \"Não se trata de combater, tal qual luditas, a tecnologia.\" $\\rightarrow$ PIS / IIS (tratar-se de = VTI impessoal com sujeito indeterminado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G12-003 — Questão 02: Instituto AOCP (2020) — Partícula Apassivadora sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G12-003 — Questão 02: Instituto AOCP (2020) — Partícula Apassivadora.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G12-003 — Questão 02: Instituto AOCP (2020) — Partícula Apassivadora.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa em que a palavra \"se\" exerce a função de partícula apassivadora:",
+                "A) \"No trabalho, percebe-se facilmente o efeito negativo dos aparelhinhos...\" $\\rightarrow$ PA (GABARITO: A — VTD + o efeito negativo é facilmente percebido).",
+                "B) \"De símbolo de status, transformaram-se rapidamente em bem de consumo...\" $\\rightarrow$ PIV (verbo acidental transformar-se).",
+                "C) \"(...) e faz com que todos se sintam como bombeiros sem equipamentos...\" $\\rightarrow$ PIV (verbo acidental sentir-se).",
+                "D) \"Não se trata de combater, tal qual luditas, a tecnologia.\" $\\rightarrow$ PIS / IIS (tratar-se de = VTI impessoal com sujeito indeterminado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G12-004",
+          "title": "EX-A05-G12-004 — Questão 03: CESGRANRIO — Parte Integrante do Verbo",
+          "prompt": "Enunciado: Em \"...de que você possa arrepender-se\" (título), o pronome destacado é parte integrante do verbo. Em qual das frases a seguir o \"se\" também é parte integrante do verbo?",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em \"...de que você possa arrepender-se\" (título), o pronome destacado é parte integrante do verbo. Em qual das frases a seguir o \"se\" também é parte integrante do verbo?"
+            },
+            {
+              "order": 2,
+              "action": "A) Ninguém se queixou de problemas maiores. $\\rightarrow$ PIV (GABARITO",
+              "rationale": "A — queixar-se é essencialmente pronominal)."
+            },
+            {
+              "order": 3,
+              "action": "B) Encontrou-se um caminho para um futuro ameno. $\\rightarrow$ PA (um caminho foi encontrado).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Não sei se um dia seria censurado. $\\rightarrow$ Conjunção Integrante (Não sei [isso]).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Vive-se melhor com a ajuda de um especialista. $\\rightarrow$ PIS / IIS (VI na 3ª pessoa do singular = alguém vive).",
+              "rationale": null
+            }
+          ],
+          "result": "E) Viu-se diante de um problema insolúvel. $\\rightarrow$ Pronome Reflexivo (viu a si mesmo).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G12-004 — Questão 03: CESGRANRIO — Parte Integrante do Verbo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G12-004 — Questão 03: CESGRANRIO — Parte Integrante do Verbo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G12-004 — Questão 03: CESGRANRIO — Parte Integrante do Verbo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em \"...de que você possa arrepender-se\" (título), o pronome destacado é parte integrante do verbo. Em qual das frases a seguir o \"se\" também é parte integrante do verbo?",
+                "A) Ninguém se queixou de problemas maiores. $\\rightarrow$ PIV (GABARITO: A — queixar-se é essencialmente pronominal).",
+                "B) Encontrou-se um caminho para um futuro ameno. $\\rightarrow$ PA (um caminho foi encontrado).",
+                "C) Não sei se um dia seria censurado. $\\rightarrow$ Conjunção Integrante (Não sei [isso]).",
+                "D) Vive-se melhor com a ajuda de um especialista. $\\rightarrow$ PIS / IIS (VI na 3ª pessoa do singular = alguém vive).",
+                "E) Viu-se diante de um problema insolúvel. $\\rightarrow$ Pronome Reflexivo (viu a si mesmo)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamentação: Desenvolvido a partir da lição gramatical de Evanildo Bechara: o pronome reflexivo denota uma ação transitiva que o sujeito poderia aplicar a um terceiro, mas que decide aplicar sobre si mesmo (040 — ).",
+            "Como aplicar: Substitua o \"se\" pela palavra \"o menino\" (ou \"alguém\"):",
+            "Se a oração mantiver sentido transitivo coerente (\"Ele se olhou\" $\\rightarrow$ \"Ele olhou o menino\"), o \"se\" é Pronome Reflexivo.",
+            "Se a substituição for agramatical (\"Ele se queixou\" $\\rightarrow$ \"Ele queixou o menino\"), o \"se\" é Parte Integrante do Verbo (PIV)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamentação: Como toda oração subordinada substantiva desempenha papel equivalente a um sintagma nominal, ela pode ser substituída integralmente pelo pronome demonstrativo neutro \"ISSO\" (ou pelas formas preposicionadas \"DISSO\", \"NISSO\") (040 —, 041 — ).",
+            "Como aplicar: \"Quero ver se você aprendeu\" $\\rightarrow$ \"Quero ver [ISSO]\" $\\rightarrow$ Conjunção Integrante."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Atalho de Prova: A reciprocidade pressupõe troca bilateral entre dois ou mais sujeitos. Ao buscar reciprocidade em alternativas de prova, elimine imediatamente todas as frases com verbos no singular (042 — )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Condicional: Troque por \"CASO\" (+ verbo no subjuntivo) (040 — ).",
+            "Causal: Troque por \"JÁ QUE\" / \"VISTO QUE\" (fórmula de causa evidente / Se... então) (041 — ).",
+            "Concessiva: Troque por \"EMBORA\" / \"AINDA QUE\" (fórmula de oposição) (041 — )."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A05-G12-001",
+          "title": "Omissão Coloquial de Pronomes Integrantes em Redes Sociais",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Omissão Coloquial de Pronomes Integrantes em Redes Sociais no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Omissão Coloquial de Pronomes Integrantes em Redes Sociais.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Omissão Coloquial de Pronomes Integrantes em Redes Sociais.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Omissão Coloquial de Pronomes Integrantes em Redes Sociais para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Omissão Coloquial de Pronomes Integrantes em Redes Sociais.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Omissão Coloquial de Pronomes Integrantes em Redes Sociais.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Armadilha: Normalizar construções informais que omitem o pronome em verbos essencialmente pronominais (\"apaixonei\", \"arrependi\", \"queixei\").",
+                "Correção Culta: Em concursos, esses verbos exigem obrigatoriamente a PIV correspondente (\"Eu me apaixonei\", \"Ela se arrependeu\", \"Nós nos queixamos\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G12-002",
+          "title": "Confundir Processo Psicológico / Mental com Ação Reflexiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Processo Psicológico / Mental com Ação Reflexiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Processo Psicológico / Mental com Ação Reflexiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Processo Psicológico / Mental com Ação Reflexiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Processo Psicológico / Mental com Ação Reflexiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Processo Psicológico / Mental com Ação Reflexiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Processo Psicológico / Mental com Ação Reflexiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Armadilha: Julgar que verbos como concentrar-se, lembrar-se e esquecer-se são reflexivos sob a justificativa psicológica de que o sujeito \"concentra a si mesmo\" (041 — ).",
+                "Critério Rígido: A mente e os sentimentos não são objetos físicos receptores de força transitiva. Ninguém \"concentra o menino\"; portanto, o pronome é estritamente PIV."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G12-003",
+          "title": "Regência Alternada de Lembrar / Esquecer",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Regência Alternada de Lembrar / Esquecer no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Regência Alternada de Lembrar / Esquecer.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Regência Alternada de Lembrar / Esquecer.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Regência Alternada de Lembrar / Esquecer para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Regência Alternada de Lembrar / Esquecer.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Regência Alternada de Lembrar / Esquecer.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Frequente: Misturar a regência não pronominal com a pronominal:",
+                "Incorreto: \"Esqueci do caderno\" (sem pronome, com preposição) ou \"Esqueci-me o caderno\" (com pronome, sem preposição).",
+                "Correto 1 (VTD simples): \"Esqueci o caderno.\"",
+                "Correto 2 (VTI pronominal): \"Esqueci-me do caderno.\""
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G12-004",
+          "title": "Concordância Verbal: PA versus PIS",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Concordância Verbal: PA versus PIS no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Concordância Verbal: PA versus PIS.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Concordância Verbal: PA versus PIS.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Concordância Verbal: PA versus PIS para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Concordância Verbal: PA versus PIS.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Concordância Verbal: PA versus PIS.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Armadilha Clássica: Flexionar o verbo no plural com PIS diante de objeto indireto no plural (040 — ).",
+                "Incorreto: \"Precisam-se de operários.\" (O termo de operários é objeto indireto; não há sujeito).",
+                "Correto: \"Precisa-se de operários.\" (Verbo rigorosamente na 3ª pessoa do singular).",
+                "Contraste com PA: \"Destruíram-se as provas.\" (As provas é sujeito paciente; verbo deve ir para o plural)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G12-005",
+          "title": "Uso Vicioso do Macete do \"ISSO\" em Orações Passivas",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Uso Vicioso do Macete do \"ISSO\" em Orações Passivas no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Uso Vicioso do Macete do \"ISSO\" em Orações Passivas.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Uso Vicioso do Macete do \"ISSO\" em Orações Passivas.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Uso Vicioso do Macete do \"ISSO\" em Orações Passivas para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Uso Vicioso do Macete do \"ISSO\" em Orações Passivas.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Uso Vicioso do Macete do \"ISSO\" em Orações Passivas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Armadilha: Tentar aplicar o macete do \"isso\" em orações com pronome apassivador hifenizado (\"Percebe-se o destaque\" $\\rightarrow$ \"Percebe isso\"), confundindo PA com Conjunção Integrante (041 — ).",
+                "Regra Excludente: Conjunções integrantes nunca vêm ligadas por hífen a verbos e introduzem orações subordinadas substantivas completas, enquanto o PA apassiva um termo substantivo paciente."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G12-006",
+          "title": "Classificação Errónea de Verbos Pronominais como Realce",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Classificação Errónea de Verbos Pronominais como Realce no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Classificação Errónea de Verbos Pronominais como Realce.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Classificação Errónea de Verbos Pronominais como Realce.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Classificação Errónea de Verbos Pronominais como Realce para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Classificação Errónea de Verbos Pronominais como Realce.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Classificação Errónea de Verbos Pronominais como Realce.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Armadilha: Tentar suprimir pronomes de verbos acidentalmente pronominais (transformar-se, sentir-se, render-se) alegando que são de \"realce\" (042 — ).",
+                "Correção: A supressão nesses verbos desconfigura a regência e o sentido contextualmente pretendido; portanto, são PIV. A partícula expletiva é restrita a casos em que a perda é puramente estilística (ir-se)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Armadilha: Normalizar construções informais que omitem o pronome em verbos essencialmente pronominais (\"apaixonei\", \"arrependi\", \"queixei\").",
+            "Correção Culta: Em concursos, esses verbos exigem obrigatoriamente a PIV correspondente (\"Eu me apaixonei\", \"Ela se arrependeu\", \"Nós nos queixamos\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Armadilha: Julgar que verbos como concentrar-se, lembrar-se e esquecer-se são reflexivos sob a justificativa psicológica de que o sujeito \"concentra a si mesmo\" (041 — ).",
+            "Critério Rígido: A mente e os sentimentos não são objetos físicos receptores de força transitiva. Ninguém \"concentra o menino\"; portanto, o pronome é estritamente PIV."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Frequente: Misturar a regência não pronominal com a pronominal:",
+            "Incorreto: \"Esqueci do caderno\" (sem pronome, com preposição) ou \"Esqueci-me o caderno\" (com pronome, sem preposição).",
+            "Correto 1 (VTD simples): \"Esqueci o caderno.\"",
+            "Correto 2 (VTI pronominal): \"Esqueci-me do caderno.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Armadilha Clássica: Flexionar o verbo no plural com PIS diante de objeto indireto no plural (040 — ).",
+            "Incorreto: \"Precisam-se de operários.\" (O termo de operários é objeto indireto; não há sujeito).",
+            "Correto: \"Precisa-se de operários.\" (Verbo rigorosamente na 3ª pessoa do singular).",
+            "Contraste com PA: \"Destruíram-se as provas.\" (As provas é sujeito paciente; verbo deve ir para o plural)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Armadilha: Tentar aplicar o macete do \"isso\" em orações com pronome apassivador hifenizado (\"Percebe-se o destaque\" $\\rightarrow$ \"Percebe isso\"), confundindo PA com Conjunção Integrante (041 — ).",
+            "Regra Excludente: Conjunções integrantes nunca vêm ligadas por hífen a verbos e introduzem orações subordinadas substantivas completas, enquanto o PA apassiva um termo substantivo paciente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Armadilha: Tentar suprimir pronomes de verbos acidentalmente pronominais (transformar-se, sentir-se, render-se) alegando que são de \"realce\" (042 — ).",
+            "Correção: A supressão nesses verbos desconfigura a regência e o sentido contextualmente pretendido; portanto, são PIV. A partícula expletiva é restrita a casos em que a perda é puramente estilística (ir-se)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pronome oblíquo átono (me, te, se, nos, vos) que integra lexical e morfologicamente verbos pronominais essenciais ou acidentais, desprovido de função sintática autônoma."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidades associadas: KB-A05-G12-001, KB-A05-G12-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo que só existe na língua conjugado juntamente com o pronome oblíquo (arrepender-se, queixar-se, suicidar-se, atrever-se)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo que possui emprego não pronominal pleno e emprego pronominal acompanhado de PIV, alterando transitividade, regência ou nuance de significado (lembrar/lembrar-se, enganar/enganar-se, tornar/tornar-se, sentir/sentir-se)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Partícula associada a verbos VTD ou VTDI na voz passiva sintética, que transforma o objeto direto em sujeito paciente desprovido de preposição."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Partícula associada a verbos intransitivos, transitivos indiretos ou de ligação na 3ª pessoa do singular, cuja função é indicar que o sujeito é indeterminado/genérico."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome que indica que a ação transitiva direta ou indireta é realizada e sofrida pela mesma entidade (sujeito agente e paciente simultâneo)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome que indica ação mútua e compartilhada entre dois ou mais sujeitos, com verbo obrigatoriamente flexionado no plural."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção subordinativa que introduz oração subordinada substantiva, permutável integralmente por \"ISSO\"."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Emprego do SE com valor semântico de \"já que\", introduzindo a causa motivadora de um fato consumado na oração principal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Emprego do SE com valor semântico de \"embora\", introduzindo oração adverbial que expressa ressalva ou oposição."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elemento acessório enfático cuja supressão não provoca alteração semântica nuclear nem agramaticalidade na oração."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade associada: KB-A05-G12-007."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo do Grupo G12, o estudante deve dominar os seguintes conhecimentos e habilidades operacionais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio dos Verbos Pronominais: Saber que a Parte Integrante do Verbo (PIV) não possui função sintática isolada, varia de acordo com a pessoa gramatical (me, te, se, nos, vos, se) e não pode ser suprimida na norma culta padrão.",
+            "Discriminação de Categorias Pronominais: Diferenciar verbos essencialmente pronominais (arrepender-se, queixar-se, suicidar-se) de acidentalmente pronominais (lembrar/lembrar-se, enganar/enganar-se, tornar/tornar-se), compreendendo que verbos pronominais podem ser VTI, VI ou Verbos de Ligação.",
+            "Mecanismo Infalível PA vs. PIS: Dominar a oposição binária entre voz passiva sintética (VTD/VTDI + sujeito paciente sem preposição + passivação analítica) e sujeito indeterminado (VTI/VI/VL + termo preposicionado + verbo travado na 3ª pessoa do singular).",
+            "Aplicação dos Testes Mnemônicos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Macete do Menino: Para comprovar o Pronome Reflexivo contra a PIV.",
+            "Macete do ISSO: Para validar Conjunções Integrantes.",
+            "Macete do CASO / JÁ QUE / EMBORA: Para discriminar as diferentes conjunções subordinativas adverbiais.",
+            "Teste da Supressão: Para isolar a Partícula Expletiva/de Realce."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Resolução de Provas de Alto Nível: Capacidade de analisar e justificar todas as alternativas em questões de bancas como VUNESP, Instituto AOCP e CESGRANRIO, evitando armadilhas clássicas como o falso pronominal impessoal (tratar-se de) e o erro de concordância em orações com PIS."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula05.q0002",
+      "questionType": "true_false_or_judgment",
+      "organization": "PREF. MATINHAS",
+      "year": 2024,
+      "prompt": "O emprego de verbos no subjuntivo em algumas frases (Talvez eu esteja somente distraído...\n/Talvez nós humanos sejamos...) significa que há uma correlação entre o advérbio e o modo\nverbal, que remetem a noção de incerteza.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "A correlação depende dos sentidos dos tempos e modos verbais. O advérbio “talvez” expressa\ndúvida; então, naturalmente, com ele é empregado o subjuntivo, modo que indica dúvida,\nhipótese:\nTalvez sejamos, Talvez possamos\nTalvez pudéssemos, Talvez viajássemos\nQuestão correta.",
+      "questionSha256": "4400af32bb03f61c4c31d26deaea9592e7a19302447620f5b904ec3d65df5feb",
+      "answerSha256": "a05b15c351bbd04d21c88ff862dc06db732115acfca97e76ac37b496ed688610",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0004",
+      "questionType": "multiple_choice",
+      "organization": "PREF. FLORIANÓPOLIS",
+      "year": 2016,
+      "prompt": "Assinale a alternativa em que o sentido expresso pela conjunção está colocado corretamente\nentre parênteses.\na) Quanto mais gritares, mais perderás a razão. (adição)\nb) O menino é tão malcriado que ninguém o tolera. (explicação)\nc) Como chovesse, não pudemos sair de casa. (causa)\nd) Não vi a novela nem o jogo de futebol. (contradição)\ne) Ele é um mestre, portanto conhece a matéria. (condição)",
+      "options": [
+        {
+          "label": "A",
+          "text": "Quanto mais gritares, mais perderás a razão. (adição)"
+        },
+        {
+          "label": "B",
+          "text": "O menino é tão malcriado que ninguém o tolera. (explicação)"
+        },
+        {
+          "label": "C",
+          "text": "Como chovesse, não pudemos sair de casa. (causa)"
+        },
+        {
+          "label": "D",
+          "text": "Não vi a novela nem o jogo de futebol. (contradição)"
+        },
+        {
+          "label": "E",
+          "text": "Ele é um mestre, portanto conhece a matéria. (condição)"
+        }
+      ],
+      "officialAnswer": "option_C",
+      "explanation": "A correlação verbal é assunto dependente das conjunções. Vejamos:\nNa letra a temos sentido de proporcionalidade.\nNa letra b temos sentido de consequência (Tão X Que Y)\nNa letra c temos relação de causa. Não saímos porque chovia. Essa forma “chovesse” nas\norações causais introduzidas por “como” é muito formal, mas é correta.\nNa letra d temos sentido de adição. Não vi isso nem aquilo.\nNa letra e temos sentido de conclusão. Gabarito letra C.",
+      "questionSha256": "c59ed3caf765fa5567cee2c09803260ea483995fc7c526c0008d4a341b06dfbc",
+      "answerSha256": "2df8c1aef1df89e05bacd912fa0a4d7fbbef949f2c3d9221cd5adbc2811a0a75",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        }
+      ]
+    },
+    {
+      "questionId": "aula05.q0048",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "IHBDF",
+      "year": 2018,
+      "prompt": "A vida de Florence Nightingale, a criadora da moderna enfermagem, daria um romance. [...] Aos\ndezesseis anos, algo aconteceu: Deus falou-me — escreveu depois — e convocou-me para\nservi-lo.\nServir a Deus significava, para ela, cuidar dos enfermos, e especialmente dos enfermos\nhospitalizados. Naquela época, os hospitais curavam tão pouco e eram tão perigosos (por causa\nda sujeira, do risco de infecção) que os ricos preferiam tratar-se em casa. Hospitalizados eram só\nos pobres, e Florence preparou-se para cuidar deles, praticando com os indigentes que viviam\npróximos à sua casa. Viajou por toda a Europa, visitando hospitais.\nSidney Herbert, membro do governo inglês e amigo pessoal, pediu-lhe que chefiasse um grupo\nde enfermeiras enviadas para o front turco, uma tarefa a que Florence entregou-se de corpo e\nalma...\nNos trechos “Florence preparou-se” e “Florence entregou-se”, a partícula “se” classifica-se como\npronome apassivador.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "As ações se referem à própria pessoa: Florence entregou a si mesma e preparou a si mesma. Não\nsofreu ação de algum outro agente, então não há sentido passivo. A partícula “se” classifica-se\ncomo pronome reflexivo.\nQuestão incorreta.",
+      "questionSha256": "bffe33ba5b87e400d5aa1e73fa727a591cde5fdc526e66c670ea42884f0843aa",
+      "answerSha256": "e306e88bb361f6cd603324a24613925076ec5822863f0a82424017629e0015c8",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0070",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "IHBDF",
+      "year": 2018,
+      "prompt": "A vida de Florence Nightingale, a criadora da moderna enfermagem, daria um romance. [...] Aos\ndezesseis anos, algo aconteceu: Deus falou-me — escreveu depois — e convocou-me para\nservi-lo.\nServir a Deus significava, para ela, cuidar dos enfermos, e especialmente dos enfermos\nhospitalizados. Naquela época, os hospitais curavam tão pouco e eram tão perigosos (por causa\nda sujeira, do risco de infecção) que os ricos preferiam tratar-se em casa. Hospitalizados eram só\nos pobres, e Florence preparou-se para cuidar deles, praticando com os indigentes que viviam\npróximos à sua casa. Viajou por toda a Europa, visitando hospitais.\nSidney Herbert, membro do governo inglês e amigo pessoal, pediu-lhe que chefiasse um grupo\nde enfermeiras enviadas para o front turco, uma tarefa a que Florence entregou-se de corpo e\nalma...\nNos trechos “Florence preparou-se” e “Florence entregou-se”, a partícula “se” classifica-se como\npronome apassivador.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "ee1baf5c2208c75fd6d6ba7007446d860c810c301bf6cdaa2fb49f9e94d25a1c",
+      "answerSha256": "bff4ba75d978c8fea2ae365e743ec2a5014da65b05fc90e9fc52213304a0c646",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0007",
+      "questionType": "multiple_choice",
+      "organization": "PM-SP",
+      "year": 2020,
+      "prompt": "Considerando a correspondência entre as formas verbais e o emprego do pronome, conforme a\nnorma-padrão, assinale a alternativa que completa, correta e respectivamente, as lacunas da\nfrase.\nSe\nsoubéssemos\nmais\ndetalhes\na\nrespeito de como foi criada a Polícia Militar,\n___________________________ melhor desde a sua criação.\na) podemos compreender-lhe \n\nc) podíamos compreender-lhe\nb) poderíamos compreendê-la \n\nd) pudemos compreendê-la",
+      "options": [
+        {
+          "label": "A",
+          "text": "podemos compreender-lhe"
+        },
+        {
+          "label": "C",
+          "text": "podíamos compreender-lhe"
+        },
+        {
+          "label": "B",
+          "text": "poderíamos compreendê-la"
+        },
+        {
+          "label": "D",
+          "text": "pudemos compreendê-la"
+        }
+      ],
+      "officialAnswer": "option_B",
+      "explanation": "A questão é de correlação verbal. Aplicaremos a correlação básica: se eu pudeSSE, faRIA:\nSe soubéSSEmos, podeRÍAmos compreendê-la (compreender a Polícia Militar). Gabarito letra B.",
+      "questionSha256": "e9ea933aa79f0e1b2da0ee3c98cbbbeb97d395e444b80593f97b1a0740f882e1",
+      "answerSha256": "4fd38b5133eb3ff33ee17689110e1f3a01e3d4d9797884762cc5d36169bbf37f",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Pronominais."
+        }
+      ]
+    },
+    {
+      "questionId": "aula05.q0036",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "CAPES",
+      "year": 2024,
+      "prompt": "A vida em sociedade trouxe para os seres humanos um aprendizado extremamente\nimportante: não se poderiam resolver todas as questões pela força, era preciso usar a palavra\npara persuadir os outros a fazer alguma coisa. Por isso, o aparecimento da argumentação está\nligado à vida em sociedade e, principalmente, ao surgimento das primeiras democracias.\nAo empregar o vocábulo “se” em “não se poderiam resolver todas as questões pela força”\n(primeiro período do texto), o autor, ao mesmo tempo, indetermina o sujeito gramatical da\noração e omite o agente responsável pela ação expressa pelo verbo “resolver”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Temos verbo transitivo direto + SE, estrutura de voz passiva sintética. Para conferir, vamos\ntransformar em voz passiva analítica:\n\nnão se poderiam resolver todas as questões.\nnão poderiam ser resolvidas todas as questões.\nO verbo estava no plural, isso prova que o sujeito não era indeterminado. Quando temos \"se\"\nindeterminador do sujeito, o verbo fica invariável. Questão incorreta.",
+      "questionSha256": "8aa0f80153146f3ca8d444d9ab5390b7c26a0c56f497ef5ad0aeaa9e25a23f0b",
+      "answerSha256": "17b173b948a60b85c5192d9f11428a47c0d03928a4b28a405ed31eb6bcc6a9e6",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Pronominais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

@@ -1,0 +1,1976 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A06-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.028Z"
+  },
+  "unit": {
+    "unitId": "IP-A06-G02",
+    "lessonId": "A06",
+    "groupId": "G02",
+    "title": "Tipos de Sujeito",
+    "variant": "development",
+    "canonicalTopicId": "pt:a06:tipos-de-sujeito",
+    "learningObjectives": [
+      "OBJ-IP-A06-G02-001",
+      "OBJ-IP-A06-G02-002",
+      "OBJ-IP-A06-G02-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "O sujeito é reconstruído pela concordância e pelo sentido, podendo ser anteposto, posposto, oculto, indeterminado ou inexistente.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia Básica: Identificação de classes de palavras (substantivo, pronome pessoal, pronome demonstrativo, pronome indefinido, numeral, preposição e conjunção integrante).",
+            "Estrutura Verbal: Noção de radical, desinências número-pessoais de 1ª, 2ª e 3ª pessoas, formas nominais do verbo (infinitivo) e transitividade verbal (VTD, VTI, VI, VL).",
+            "Noção de Oração: Reconhecimento de limites oracionais marcados pela presença de formas verbais."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SINTAXE DO SUJEITO (AULA 06) │ ┌──────────────────────────────────┴──────────────────────────────────┐ ▼ ▼ PROTOCOLO OPERACIONAL TAXONOMIA DOS TIPOS ┌─────────────────────────┐ │ │ Passo 1: Interrogar V. │ ┌───────────────────────┼───────────────────────┐ │ \"Quem/O que é que + V?\" │ ▼ ▼ ▼ └─────────────┬───────────┘ SUJEITO DETERMINADO SUJEITO INDETERMINADO SUJEITO INEXISTENTE │ (Agente Identificável) (Existe, mas oculto) (Oração Sem Sujeito) ▼ │ │ │ ┌─────────────────────────┐ ┌────────┼────────┐ ┌───────┼───────┐ ┌───────┼───────┐ │ Passo 2: Extrair Núcleo │ │ │ │ │ │ │ │ │ │ │ • Substantivo/Pron/Num │ Simples Composto Oculto 3ª P. 3ª Sing Inf. Haver Fazer Fenôm. │ • VEDAÇÃO DE PREPOSIÇÃO │ (1 Núc.) (2+ Núcs)(Elípt.) Plural + SE Impes. (Exist.)(Tempo) Natureza └─────────────┬───────────┘ │ │ │ (s/ ctx) (IIS) (\"Estudar\") │ │ (Literal) │ │ │ │ │ │ │ │ │ │ ▼ └────────┼────────┘ └───────┼───────┘ └───────┼───────┘ ┌─────────────────────────┐ │ │ │ │ Passo 3: Classificar │ ▼ ▼ ▼ │ (Contagem / Estrutura) │ Sujeito Oracional Marca Formal da Verbos Impessoais └─────────────────────────┘ (Oração Subjetiva) Língua Escrita (3ª P. Singular) • Teste do \"ISSO\" (Norma Culta) [Exceção: Sentido Figurado • Contém VERBO próprio -> Sujeito Simples]"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A06-G02-001",
+          "title": "Mapa de conexão — Tipos de Sujeito",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a06:tipos-de-sujeito",
+              "label": "Tipos de Sujeito",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a06:tipos-de-sujeito",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A identificação do sujeito não deve ser realizada por intuição semântica nem pela ordem linear dos termos na frase, mas por meio da execução compulsória de um algoritmo procedural sequencial em três passos estruturados."
+        },
+        {
+          "type": "paragraph",
+          "text": "A localização do sujeito constitui o fundamento operacional de toda a sintaxe da oração, comandando as regras de concordância verbal, determinando a regência e estabelecendo as vedações de pontuação (proibição absoluta de separar sujeito e predicado por vírgula). O algoritmo opera nas seguintes fases:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Passo 1 (Interrogação ao Verbo): Parar diante da forma verbal e antepor as perguntas canônicas de teste:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para seres animados ou pessoas: \"Quem é que + [verbo flexionado]?\"",
+            "Para seres inanimados, fatos ou abstrações: \"O que é que + [verbo flexionado]?\"",
+            "O bloco textual retornado como resposta integral à pergunta é delimitado entre colchetes como o sintagma do sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Passo 2 (Extração e Filtragem do Núcleo): Inspecionar o interior do bloco do sujeito e isolar a palavra substantiva de valor semântico central (substantivo, pronome substantivo ou numeral substantivo). Aplica-se a regra inegociável da não preposição.",
+            "Passo 3 (Classificação Estrutural): Contar os núcleos válidos e analisar a morfossintaxe do termo para enquadrá-lo em uma das tipologias canônicas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "[Frase Qualquer] ──> Localizar Verbo ──> Perguntar \"Quem/O que é que + V?\" ──> Isolar Bloco [ Sujeito ] │ ▼ Localizar NÚCLEO (Substantivo SEM preposição) │ ▼ Classificar o Sujeito"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Executar o procedimento antes de julgar qualquer concordância verbal em questões de prova.",
+            "Jamais assumir como sujeito a palavra que inicia a frase, pois a língua portuguesa admite livremente ordem inversa (sujeito posposto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo canônico em ordem inversa: \"Atrás dos meus olhos dorme uma lagoa profunda.\"",
+            "Verbo: dorme.",
+            "Pergunta: O que é que dorme? $\\rightarrow$ Resposta integral: [uma lagoa profunda].",
+            "Núcleo: lagoa (substantivo sem preposição). Modificadores satélites: uma (artigo) e profunda (adjetivo).",
+            "Classificação: Sujeito Simples."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado em: PROC-A06-G02-001",
+            "Possui alerta: WARN-A06-G02-001",
+            "Aplica-se em: KB-A06-G02-002, KB-A06-G02-003, KB-A06-G02-004, KB-A06-G02-005, KB-A06-G02-006, KB-A06-G02-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O núcleo do sujeito é a palavra de base substantiva que comanda a flexão do verbo e possui a propriedade sintática restritiva absoluta de jamais ser antecedido por preposição."
+        },
+        {
+          "type": "paragraph",
+          "text": "A formulação comum \"o sujeito não pode ser preposicionado\" deve ser tecnicamente refinada: o núcleo do sujeito não vem antecedido de preposição."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mecanismo morfossintático: A inserção de uma preposição (de, em, por, com, a) imediatamente antes de um substantivo altera seu estatuto funcional, transformando o termo em uma locução adjetiva modificadora, complemento nominal, objeto indireto ou adjunto adverbial.",
+            "Critério de exclusão em provas: Diante de períodos com termos intervenientes ou invertidos, qualquer elemento substantivo introduzido por preposição deve ser categoricamente descartado da condição de núcleo do sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo com barreira preposicional: \"Conta-se que naquela torre habita uma bruxa.\"",
+            "Ao analisar o verbo habita, o candidato desatento poderia supor que torre é o sujeito.",
+            "Análise: naquela torre = contração da preposição em + aquela + torre. Por estar preposicionado, torre funciona estritamente como Adjunto Adverbial de Lugar.",
+            "Pergunta ao verbo: Quem habita na torre? $\\rightarrow$ Resposta: [uma bruxa].",
+            "Núcleo puro e sem preposição: bruxa $\\rightarrow$ Sujeito Simples."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A06-G02-001",
+            "Glossário: TERM-A06-G02-001",
+            "Exemplificado por: EX-A06-G02-011"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Configura-se Sujeito Simples quando o verbo principal faz referência a um sujeito determinado constituído por um único núcleo substantivo explícito. A presença de um pronome indefinido substantivo na posição de núcleo mantém a classificação de sujeito simples."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura básica: O sujeito simples possui apenas um núcleo que rege a concordância verbal (\"Os meninos estão brincando no quintal\" $\\rightarrow$ núcleo único plural: meninos $\\rightarrow$ Sujeito Simples).",
+            "Contraste Crítico (Morfologia versus Sintaxe): Há uma clássica armadilha de concurso que confunde a classe morfológica da palavra (pronome indefinido) com a função sintática do termo (sujeito simples).",
+            "Na oração \"Alguém acordou cedo\", no plano semântico/ontológico o falante desconhece a identidade exata da pessoa. Porém, no plano sintático, o vocábulo Alguém está grafado na oração como núcleo único expresso.",
+            "Portanto, o sujeito é Simples (cujo núcleo é um pronome indefinido).",
+            "Analogia pedagógica da professora: Em \"O mascarado chegou\", a pessoa sob a máscara é desconhecida, mas o termo mascarado é o núcleo expresso do sujeito simples."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Análise Morfológica: \"Alguém\" = Pronome Indefinido Substantivo Análise Sintática: \"Alguém\" = Núcleo Único do Sujeito ──> SUJEITO SIMPLES"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G02-005 (Sujeito Indeterminado)",
+            "Possui alerta: WARN-A06-G02-002",
+            "Exemplificado por: EX-A06-G02-001, EX-A06-G02-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O Sujeito Oculto (sinônimo de elíptico, implícito ou subentendido) é aquele que existe e é determinado, mas não se encontra graficamente expresso imediatamente antes do verbo, dividindo-se em: Desinencial (1ª pessoa) e Não-Desinencial / Anafórico (3ª pessoa com referente contextual)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Tipo I — Sujeito Oculto Desinencial: Ocorre quando a terminação/desinência número-pessoal do verbo flexionado em 1ª pessoa do singular (eu) ou do plural (nós) identifica a pessoa gramatical de forma autoevidente (\"Estamos muito orgulhosos de você\" $\\rightarrow$ desinência -mos indica Nós).",
+            "Tipo II — Sujeito Oculto Não-Desinencial (Anafórico no Contexto): Ocorre quando o verbo está na 3ª pessoa do singular e não traz o pronome expresso ao seu lado, mas seu sujeito é perfeitamente determinado por anáfora a um substantivo citado no contexto textual imediato."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"João chegou. Estava feliz.\"",
+            "Na 2ª oração (Estava feliz), o sujeito não é a palavra João (que pertence à 1ª oração).",
+            "O sujeito de estava é Oculto / Elíptico.",
+            "O substantivo João é o referente textual do sujeito elíptico."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SUJEITO OCULTO / ELÍPTICO"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G02-005 (Sujeito Indeterminado)",
+            "Glossário: TERM-A06-G02-002, TERM-A06-G02-003",
+            "Exemplificado por: EX-A06-G02-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre Sujeito Indeterminado quando existe faticamente um agente na semântica da ação verbal (\"alguém\"), mas a estrutura sintática impede intencionalmente ou dispensa a revelação de sua identidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sintaxe da Língua Portuguesa sistematiza a indeterminação por meio de três vias estruturais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Via 1 (Verbo na 3ª pessoa do plural sem referente): O verbo é conjugado no plural sem que haja sujeito explícito na oração e sem que exista referente em orações anteriores imediatas (\"Esqueceram de trancar a porta\" / \"Chegaram cedo\"). Se houver referente textual, o sujeito é oculto.",
+            "Via 2 (Verbo na 3ª pessoa do singular + Partícula SE como IIS): Ocorre com Verbos Transitivos Indiretos (VTI), Verbos Intransitivos (VI) ou Verbos de Ligação (VL). A partícula se funciona como Índice de Indeterminação do Sujeito (IIS), e o termo substantivo subsequente vem regido por preposição obrigatória (\"Precisa-se de vendedores\" / \"Acredita-se na existência de discos voadores\" / \"Não se trata de negar...\").",
+            "Via 3 (Infinitivo Impessoal): Ocorre quando o verbo é empregado em sua forma nominal não flexionada expressando processos em tese ou genéricos (\"É bom estudar para concurso\" / \"Prenderam os suspeitos de fraudar o INSS\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SUJEITO INDETERMINADO (Semântica: \"Alguém pratica a ação, não se sabe ou não se diz quem\") ├── Via 1: Verbo na 3ª pessoa do PLURAL (sem referente anafórico no contexto) ├── Via 2: Verbo na 3ª pessoa do SINGULAR + SE como IIS (com VTI, VI ou VL preposicionados) └── Via 3: Verbo no INFINITIVO IMPESSOAL (enunciados gerais sem agente determinado)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G02-003 (Simples com indefinido), KB-A06-G02-004 (Oculto anafórico), KB-A06-G02-008 (Passiva Sintética com PA)",
+            "Possui alerta: WARN-A06-G02-003",
+            "Exemplificado por: EX-A06-G02-005, EX-A06-G02-008, EX-A06-G02-013"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A Oração Sem Sujeito (Sujeito Inexistente) é aquela estruturada em torno de verbos impessoais, os quais não possuem sujeito gramatical nem agente no mundo dos fatos, permanecendo compulsoriamente na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "A gramática unifica três formulações sinônimas: Sujeito Inexistente = Oração Sem Sujeito = Verbo Impessoal. Os três casos clássicos de impessoalidade são:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbo HAVER com sentido de existir, ocorrer, suceder ou acontecer: Permanece na 3ª pessoa do singular. O termo substantivo que o acompanha exerce a função de Objeto Direto, e não de sujeito (\"Há muita gente na praia\" / \"Houve algumas rebeliões\" / \"porque há muita concorrência e maior seleção\").",
+            "Verbos FAZER e HAVER indicando tempo decorrido ou clima: Permanece estritamente na 3ª pessoa do singular (\"Faz três anos que estudo\" / \"Faz dois anos de sua partida\" / \"Há dois meses não o vejo\"). O tempo decorrido não é sujeito; é vedada a flexão no plural como \"fazem duas horas\".",
+            "Verbos de Fenômenos da Natureza em sentido literal: (chover, nevar, ventar, trovejar). Ninguém pratica a ação (\"Nevou o dia todo\" / \"Chove muito\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A Exceção do Sentido Figurado (Conotação):",
+            "Quando um verbo meteorológico é empregado metaforicamente, ele deixa de ser impessoal e passa a admitir Sujeito Simples, flexionando normalmente no plural.",
+            "Em \"Choveram elogios para o professor\", o verbo chover significa ocorrer em grande quantidade. A pergunta O que é que choveu? resulta em Elogios (núcleo do Sujeito Simples).",
+            "Em \"Choveu boleto para pagar\", o termo boleto é núcleo do Sujeito Simples."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "VERBOS IMPESSOAIS (Oração Sem Sujeito / Sujeito Inexistente) ├── 1. HAVER = Existir / Ocorrer / Acontecer (termo acompanhante = Objeto Direto) ├── 2. FAZER / HAVER = Tempo decorrido / Clima (Invariável na 3ª do singular) └── 3. FENÔMENOS DA NATUREZA em sentido literal (\"Chove muito\") │ └── EXCEÇÃO: Sentido Conotativo / Figurado (\"Choveram elogios\") └── Verbo deixa de ser impessoal ──> Possui SUJEITO SIMPLES"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G02-009 (Verbos pessoais como ocorrer/existir)",
+            "Possui alerta: WARN-A06-G02-004",
+            "Exemplificado por: EX-A06-G02-006, EX-A06-G02-009, EX-A06-G02-014"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre Sujeito Oracional (Oração Subordinada Substantiva Subjetiva) quando o termo que exerce o papel sintático de sujeito do verbo principal é constituído por uma oração inteira, caracterizada obrigatoriamente por conter um verbo em seu interior, exigindo que o verbo principal permaneça na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Mantra do Sujeito Oracional: \"Sujeito oracional é aquele que tem verbo\".",
+            "Formatos Estruturais:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Oração Desenvolvida: Introduzida por conjunção integrante (que ou se) com verbo conjugado (\"Seria importante [que você começasse a me escutar]\" / \"Parece [que ele chega hoje]\" / \"É provável [que ele retorne ao país]\").",
+            "Oração Reduzida de Infinitivo: Não possui conjunção integrante e apresenta verbo em forma nominal (\"Praticar exercícios frequentemente [é bom]\" / \"Basta [estudar muito]\" / \"É imprescindível [analisar os impactos...]\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Teste Infalível de Substituição por \"ISSO\":",
+            "Isole a oração subordinada inteira e substitua-a pelo pronome substantivo demonstrativo neutro \"ISSO\".",
+            "Reorganize a frase de teste na ordem direta: [ISSO] + [verbo principal] + [predicativo].",
+            "Formule a pergunta de teste ao verbo: \"O que é imprescindível/provável/bom?\" $\\rightarrow$ Resposta: \"ISSO\".",
+            "Constatando que o bloco representado por ISSO contém verbo, confirma-se o Sujeito Oracional.",
+            "Regra de Concordância Verbal: Todo sujeito oracional impõe ao verbo regente da oração principal a concordância estrita na 3ª pessoa do singular."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Passo 1: Identificar a estrutura: \"É imprescindível analisar os impactos da carga tributária\" Passo 2: Substituir a oração subordinada por \"ISSO\": \"É imprescindível ISSO\" Passo 3: Reorganizar na ordem direta: \"ISSO é imprescindível\" Passo 4: Confirmar verbo no interior do bloco (\"analisar\") ──> SUJEITO ORACIONAL (Verbo \"é\" na 3ª Sing.)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado em: PROC-A06-G02-002",
+            "Possui dica: TIP-A06-G02-001, TIP-A06-G02-002",
+            "Possui alerta: WARN-A06-G02-005",
+            "Exemplificado por: EX-A06-G02-007, EX-A06-G02-015"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A partícula se desempenha funções sintáticas distintas a depender da transitividade verbal: acoplada a verbos transitivos diretos, atua como Pronome Apassivador (gerando Sujeito Paciente); acoplada a verbos transitivos indiretos, intransitivos ou de ligação, atua como Índice de Indeterminação do Sujeito. Em ambas as funções, constitui recurso expressivo da norma culta formal escrita."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diferenciação Sintática:",
+            "SE Partícula Apassivadora (PA): Ocorre com VTD ou VTDI. O termo não preposicionado que parece objeto direto é, na realidade, o Sujeito Paciente da voz passiva sintética. Admite conversão para a voz passiva analítica (\"Alugam-se casas\" $\\rightarrow$ \"Casas são alugadas\" / casas = sujeito paciente determinado).",
+            "SE Índice de Indeterminação do Sujeito (IIS): Ocorre com VTI, VI ou VL acompanhados de preposição. O termo preposicionado não pode ser sujeito paciente (\"Acredita-se na existência de discos voadores\" / \"Não se trata de negar...\"). Não admite conversão para passiva analítica. O sujeito é Indeterminado.",
+            "Dimensão Sociolinguística / Estilística (Abordagem Cebraspe):",
+            "Na oralidade cotidiana e informal, falantes nativos evitam construções com se apassivador ou indeterminador (recorrendo a pronomes indefinidos como alguém ou à 3ª pessoa do plural sem pronome).",
+            "Portanto, o emprego do pronome se (seja como PA, seja como IIS) é reconhecido em concursos públicos como marca inequívoca de formalidade da linguagem e da modalidade escrita culta."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "EMPREGO DA PARTÍCULA \"SE\" NA SINTAXE DO SUJEITO │ ┌────────────────────────────────┴────────────────────────────────┐ ▼ ▼ SE = PRONOME APASSIVADOR (PA) SE = ÍNDICE DE INDETERMINAÇÃO (IIS) • Verbo: VTD ou VTDI • Verbo: VTI, VI ou VL • Termo seguinte: NÃO PREPOSICIONADO • Termo seguinte: PREPOSICIONADO • Função do termo: SUJEITO PACIENTE (Determinado) • Função sintática: SUJEITO INDETERMINADO • Conversão: Admite Passiva Analítica • Conversão: NÃO admite Passiva Analítica • Exemplo: \"Alugam-se casas\" (= Casas são alugadas) • Exemplo: \"Trata-se de problemas\" │ │ └────────────────────────────────┬────────────────────────────────┘ ▼ MARCA DE FORMALIDADE DA LÍNGUA ESCRITA (Assertiva canônica da banca Cebraspe)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado em: PROC-A06-G02-004",
+            "Possui alerta: WARN-A06-G02-006",
+            "Exemplificado por: EX-A06-G02-013"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora semanticamente equivalentes na indicação de existência ou acontecimento, o verbo haver é sintaticamente impessoal (rege objeto direto e não tem sujeito), enquanto os verbos existir, ocorrer e suceder são verbos pessoais plenos (possuem sujeito determinado e flexionam compulsoriamente em número)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Par Contrasting Canônico:",
+            "Frase A: \"Houve algumas rebeliões no passado.\"",
+            "Verbo haver no sentido de ocorrer $\\rightarrow$ Impessoal.",
+            "Classificação: Oração Sem Sujeito (Sujeito Inexistente).",
+            "O sintagma algumas rebeliões exerce função de Objeto Direto. Verbo permanece fixo no singular.",
+            "Frase B: \"Ocorreram algumas rebeliões no passado.\"",
+            "Verbo ocorrer $\\rightarrow$ Pessoal intransitivo.",
+            "Pergunta: O que é que ocorreu? $\\rightarrow$ Resposta: Algumas rebeliões (núcleo: rebeliões).",
+            "Classificação: Sujeito Simples posposto. Verbo flexiona obrigatoriamente no plural para concordar com o sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G02-006",
+            "Exemplificado por: EX-A06-G02-006, EX-A06-G02-010"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A06-G02-001",
+          "title": "Regras canônicas",
+          "statement": "Esta seção sumariza as formulações canônicas definitivas estabelecidas na matriz comparativa da professora Adriana Figueiredo:",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Esta seção sumariza as formulações canônicas definitivas estabelecidas na matriz comparativa da professora Adriana Figueiredo:"
+            },
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A06-G02-001",
+              "table": {
+                "tableId": "TABLE-IP-A06-G02-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Tipologia do Sujeito",
+                  "O Sujeito Existe?",
+                  "Subdivisões Formais",
+                  "Regra Canônica / O que Decorar",
+                  "Exemplo Canônico de Fixação",
+                  "ID de Detalhamento"
+                ],
+                "rows": [
+                  [
+                    "1. Sujeito Simples",
+                    "SIM",
+                    "Não há subdivisões",
+                    "Apresentaexatamente um único núcleo substantivo explícito (inclusive se for pronome indefinido).",
+                    "[O menino] chegou.[Alguém] acordou cedo.",
+                    "KB-A06-G02-003"
+                  ],
+                  [
+                    "2. Sujeito Oculto (Elíptico)",
+                    "SIM (escondido)",
+                    "(I) Desinencial(II) Não-desinencial",
+                    "(I) Verbo na 1ª pessoa (EU / NÓS) marcado na terminação.(II) Verbo na 3ª pessoa do singular cujo referente está no contexto.",
+                    "Estou feliz. / Estamos felizes.João chegou. [Ele] Estava feliz.",
+                    "KB-A06-G02-004"
+                  ],
+                  [
+                    "3. Sujeito Composto",
+                    "SIM",
+                    "Não há subdivisões",
+                    "Apresentadois ou mais núcleos explícitos coordenados (e, nem, ou).",
+                    "[João e Maria] chegaram.Andavam [bois, vacas e bezerros].",
+                    "KB-A06-G02-001"
+                  ],
+                  [
+                    "4. Sujeito Indeterminado",
+                    "SIM (alguém)",
+                    "(I) 3ª P. Plural(II) 3ª P. Sing. + SE(III) Infinitivo Impessoal",
+                    "O agente existe, mas a estruturanão identifica quem é (sem referente prévio, com IIS ou infinitivo).",
+                    "Chegaram cedo.Precisa-se de vendedores.É bom estudar.",
+                    "KB-A06-G02-005"
+                  ],
+                  [
+                    "5. Sujeito Inexistente (Oração Sem Sujeito)",
+                    "NÃO",
+                    "(I) Haver = Existir(II) Fenômenos da Natureza(III) Haver/Fazer = Tempo",
+                    "Construído comVerbos Impessoais (sem pessoa/agente). Verbo fixo na 3ª do singular.",
+                    "Há alunos aqui.Chove muito. (literal)Faz dois anos que estudo.",
+                    "KB-A06-G02-006"
+                  ],
+                  [
+                    "6. Sujeito Oracional",
+                    "SIM (= ISSO)",
+                    "(I) Oração Desenvolvida(II) Oração Reduzida",
+                    "É aquele que tem verbo. Oração subordinada substantiva subjetiva. Verbo principal na 3ª sing.",
+                    "Basta [que você estude]. (= ISSO)Basta [estudar muito]. (= ISSO)",
+                    "KB-A06-G02-007"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A06-G02-001",
+          "title": "Protocolo Geral em Três Passos para Análise Sintática do Sujeito",
+          "objective": "Executar o algoritmo decisório para Protocolo Geral em Três Passos para Análise Sintática do Sujeito",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo Geral em Três Passos para Análise Sintática do Sujeito."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Isolar e classificar o sujeito com 100% de precisão, eliminando erros provocados por ordem inversa ou intercalações.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (Interrogação ao Verbo)",
+              "explanation": "Localizar o verbo principal da oração. Formular a pergunta de teste imediatamente antes do verbo: \"Quem é que + [verbo]?\" ou \"O que é que + [verbo]?\".",
+              "test": "Passo 1 (Interrogação ao Verbo): Localizar o verbo principal da oração. Formular a pergunta de teste imediatamente antes do verbo: \"Quem é que + [verbo]?\" ou \"O que é que + [verbo]?\"."
+            },
+            {
+              "order": 3,
+              "action": "Passo 2 (Extração e Filtragem do Núcleo)",
+              "explanation": "Reunir o bloco da resposta entre colchetes. Dentro dos colchetes, identificar a palavra substantiva de maior carga semântica que não venha precedida de preposição.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3 (Classificação Estrutural)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se houver 1 núcleo substantivo explícito $\\rightarrow$ Sujeito Simples.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se houver 2 ou mais núcleos coordenados $\\rightarrow$ Sujeito Composto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Se não houver termo grafado, mas a desinência for de 1ª pessoa (eu/nós) ou 3ª com referente contextual $\\rightarrow$ Sujeito Oculto / Elíptico.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Se o verbo for impessoal (haver existencial, fazer temporal ou meteorológico literal) $\\rightarrow$ Sujeito Inexistente (Oração Sem Sujeito).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Se o verbo estiver na 3ª do plural sem referente, na 3ª singular + se preposicionado ou no infinitivo impessoal $\\rightarrow$ Sujeito Indeterminado.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Se o termo de resposta for uma oração contendo outro verbo $\\rightarrow$ Sujeito Oracional.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo Geral em Três Passos para Análise Sintática do Sujeito."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Isolar e classificar o sujeito com 100% de precisão, eliminando erros provocados por ordem inversa ou intercalações.",
+                "Passo 1 (Interrogação ao Verbo): Localizar o verbo principal da oração. Formular a pergunta de teste imediatamente antes do verbo: \"Quem é que + [verbo]?\" ou \"O que é que + [verbo]?\".",
+                "Passo 2 (Extração e Filtragem do Núcleo): Reunir o bloco da resposta entre colchetes. Dentro dos colchetes, identificar a palavra substantiva de maior carga semântica que não venha precedida de preposição.",
+                "Passo 3 (Classificação Estrutural):",
+                "Se houver 1 núcleo substantivo explícito $\\rightarrow$ Sujeito Simples.",
+                "Se houver 2 ou mais núcleos coordenados $\\rightarrow$ Sujeito Composto.",
+                "Se não houver termo grafado, mas a desinência for de 1ª pessoa (eu/nós) ou 3ª com referente contextual $\\rightarrow$ Sujeito Oculto / Elíptico.",
+                "Se o verbo for impessoal (haver existencial, fazer temporal ou meteorológico literal) $\\rightarrow$ Sujeito Inexistente (Oração Sem Sujeito).",
+                "Se o verbo estiver na 3ª do plural sem referente, na 3ª singular + se preposicionado ou no infinitivo impessoal $\\rightarrow$ Sujeito Indeterminado.",
+                "Se o termo de resposta for uma oração contendo outro verbo $\\rightarrow$ Sujeito Oracional."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G02-002",
+          "title": "Teste da Substituição por \"ISSO\" para Sujeito Oracional",
+          "objective": "Executar o algoritmo decisório para Teste da Substituição por \"ISSO\" para Sujeito Oracional",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste da Substituição por \"ISSO\" para Sujeito Oracional."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Confirmar a existência de Sujeito Oracional (Oração Subordinada Substantiva Subjetiva) em períodos compostos desenvolvidos ou reduzidos.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "Identificar o verbo da oração principal (que estará na 3ª pessoa do singular, ex.: seria, parece, convém, é bom, é imprescindível, conta-se).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Substituir todo o bloco oracional subordinado subsequente pela palavra ISSO.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Reorganizar a oração na ordem direta mental: ISSO + [verbo principal] + [predicativo/complemento].",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Formular a pergunta: \"O que é que [verbo principal]?\" $\\rightarrow$ Resposta: \"ISSO\".",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 5",
+              "explanation": "Inspecionar o interior do bloco substituído por ISSO. Se contiver um verbo próprio (conjugado ou no infinitivo), o sujeito está formalmente comprovado como Sujeito Oracional.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste da Substituição por \"ISSO\" para Sujeito Oracional."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Confirmar a existência de Sujeito Oracional (Oração Subordinada Substantiva Subjetiva) em períodos compostos desenvolvidos ou reduzidos.",
+                "Passo 1: Identificar o verbo da oração principal (que estará na 3ª pessoa do singular, ex.: seria, parece, convém, é bom, é imprescindível, conta-se).",
+                "Passo 2: Substituir todo o bloco oracional subordinado subsequente pela palavra ISSO.",
+                "Passo 3: Reorganizar a oração na ordem direta mental: ISSO + [verbo principal] + [predicativo/complemento].",
+                "Passo 4: Formular a pergunta: \"O que é que [verbo principal]?\" $\\rightarrow$ Resposta: \"ISSO\".",
+                "Passo 5: Inspecionar o interior do bloco substituído por ISSO. Se contiver um verbo próprio (conjugado ou no infinitivo), o sujeito está formalmente comprovado como Sujeito Oracional."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G02-003",
+          "title": "Método \"Viva Cada Verbo a Seu Momento\" em Períodos Compostos",
+          "objective": "Executar o algoritmo decisório para Método \"Viva Cada Verbo a Seu Momento\" em Períodos Compostos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método \"Viva Cada Verbo a Seu Momento\" em Períodos Compostos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Prevenir sobrecarga cognitiva e misturas indevidas de funções sintáticas em frases longas ou períodos com múltiplos verbos.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (Mapeamento)",
+              "explanation": "Percorrer o período e numerar sequencialmente todas as formas verbais presentes (Verbo 1, Verbo 2, Verbo 3).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2 (Isolamento Oracional)",
+              "explanation": "Isolar visualmente a oração pertencente ao Verbo 1, ignorando momentaneamente as orações vizinhas.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3 (Análise Autônoma)",
+              "explanation": "Interrogar o Verbo 1 e classificar o seu sujeito de forma independente.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4 (Transição Ordenada)",
+              "explanation": "Avançar para o Verbo 2, traçar novos limites oracionais e classificar o seu respectivo sujeito sem contaminar a análise anterior.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método \"Viva Cada Verbo a Seu Momento\" em Períodos Compostos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Prevenir sobrecarga cognitiva e misturas indevidas de funções sintáticas em frases longas ou períodos com múltiplos verbos.",
+                "Passo 1 (Mapeamento): Percorrer o período e numerar sequencialmente todas as formas verbais presentes (Verbo 1, Verbo 2, Verbo 3).",
+                "Passo 2 (Isolamento Oracional): Isolar visualmente a oração pertencente ao Verbo 1, ignorando momentaneamente as orações vizinhas.",
+                "Passo 3 (Análise Autônoma): Interrogar o Verbo 1 e classificar o seu sujeito de forma independente.",
+                "Passo 4 (Transição Ordenada): Avançar para o Verbo 2, traçar novos limites oracionais e classificar o seu respectivo sujeito sem contaminar a análise anterior."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G02-004",
+          "title": "Teste de Conversão para Distinguir Partícula Apassivadora (PA) de Índice de Indeterminação (IIS)",
+          "objective": "Executar o algoritmo decisório para Teste de Conversão para Distinguir Partícula Apassivadora (PA) de Índice de Indeterminação (IIS)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Conversão para Distinguir Partícula Apassivadora (PA) de Índice de Indeterminação (IIS)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Discernir se o pronome se está indeterminando a oração ou estruturando uma voz passiva sintética com sujeito paciente.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (Inspeção de Preposição)",
+              "explanation": "Observar o termo associado ao verbo com a partícula se.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se o termo for obrigatoriamente introduzido por preposição (\"Acredita-se [na existência]\" / \"Trata-se [de problemas]\"), o verbo é VTI/VI/VL. O termo preposicionado não pode ser sujeito. Conclusão",
+              "explanation": "o se é Índice de Indeterminação do Sujeito (IIS) e o sujeito é Indeterminado.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Teste de Conversão Analítica)",
+              "explanation": "Se o termo associado não for regido por preposição (\"Alugam-se [casas]\" / \"Vende-se [carro]\"), tentar a conversão para a voz passiva analítica correspondente: [Termo] + verbo ser + particípio (\"Casas são alugadas\" / \"Carro é vendido\").",
+              "test": "Passo 2 (Teste de Conversão Analítica): Se o termo associado não for regido por preposição (\"Alugam-se [casas]\" / \"Vende-se [carro]\"), tentar a conversão para a voz passiva analítica correspondente: [Termo] + verbo ser + particípio (\"Casas são alugadas\" / \"Carro é vendido\")."
+            },
+            {
+              "order": 5,
+              "action": "Se a conversão for gramaticalmente perfeita, o pronome se é Partícula Apassivadora (PA) e o termo não preposicionado é o Sujeito Paciente Determinado.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Conversão para Distinguir Partícula Apassivadora (PA) de Índice de Indeterminação (IIS)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Discernir se o pronome se está indeterminando a oração ou estruturando uma voz passiva sintética com sujeito paciente.",
+                "Passo 1 (Inspeção de Preposição): Observar o termo associado ao verbo com a partícula se.",
+                "Se o termo for obrigatoriamente introduzido por preposição (\"Acredita-se [na existência]\" / \"Trata-se [de problemas]\"), o verbo é VTI/VI/VL. O termo preposicionado não pode ser sujeito. Conclusão: o se é Índice de Indeterminação do Sujeito (IIS) e o sujeito é Indeterminado.",
+                "Passo 2 (Teste de Conversão Analítica): Se o termo associado não for regido por preposição (\"Alugam-se [casas]\" / \"Vende-se [carro]\"), tentar a conversão para a voz passiva analítica correspondente: [Termo] + verbo ser + particípio (\"Casas são alugadas\" / \"Carro é vendido\").",
+                "Se a conversão for gramaticalmente perfeita, o pronome se é Partícula Apassivadora (PA) e o termo não preposicionado é o Sujeito Paciente Determinado."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G02-005",
+          "title": "Metodologia de Fragmentação de Assertivas no Padrão Cebraspe",
+          "objective": "Executar o algoritmo decisório para Metodologia de Fragmentação de Assertivas no Padrão Cebraspe",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Metodologia de Fragmentação de Assertivas no Padrão Cebraspe."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Garantir a pontuação em itens do Cebraspe que reúnem múltiplas asserções em uma única assertiva de julgamento Certo/Errado.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "Isolar graficamente com colchetes cada tese declarada no enunciado (ex.: [Tese 1: O emprego do pronome 'se' marca a formalidade da linguagem] e [Tese 2: e indica que o sujeito da oração é indeterminado]).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Julgar a validade sintática da Tese 1 independentemente.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Julgar a validade estilística ou sintática da Tese 2 independentemente.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Marcar CERTO somente se ambas as partes forem estritamente verdadeiras. Havendo uma fração inverídica, marcar ERRADO.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Metodologia de Fragmentação de Assertivas no Padrão Cebraspe."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Garantir a pontuação em itens do Cebraspe que reúnem múltiplas asserções em uma única assertiva de julgamento Certo/Errado.",
+                "Passo 1: Isolar graficamente com colchetes cada tese declarada no enunciado (ex.: [Tese 1: O emprego do pronome 'se' marca a formalidade da linguagem] e [Tese 2: e indica que o sujeito da oração é indeterminado]).",
+                "Passo 2: Julgar a validade sintática da Tese 1 independentemente.",
+                "Passo 3: Julgar a validade estilística ou sintática da Tese 2 independentemente.",
+                "Passo 4: Marcar CERTO somente se ambas as partes forem estritamente verdadeiras. Havendo uma fração inverídica, marcar ERRADO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A06-G02-001",
+          "title": "Tabela de Contrastes Fundamentais na Sintaxe do Sujeito",
+          "contrastType": "syntactic",
+          "conceptA": "Tabela de Contrastes Fundamentais na Sintaxe do Sujeito",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A06-G02-002",
+              "table": {
+                "tableId": "TABLE-IP-A06-G02-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Estrutura Analisada",
+                  "Classificação do Sujeito",
+                  "Justificativa Sintático-Semântica Decisiva",
+                  "Diferencial em Prova de Concurso"
+                ],
+                "rows": [
+                  [
+                    "\"Eles acordaram cedo.\"",
+                    "Sujeito Simples",
+                    "O pronomeEles está expresso e grafado na oração como núcleo único.",
+                    "Verbo na 3ª do plural com pronome explícito não é sujeito indeterminado."
+                  ],
+                  [
+                    "\"Eles acordaram e saíram.\" (análise de saíram)",
+                    "Sujeito Oculto (Elíptico)",
+                    "O verbosaíram não traz pronome ao lado, mas seu referente anafórico (Eles) está no contexto.",
+                    "A existência de âncora textual prévia impede a indeterminação do sujeito."
+                  ],
+                  [
+                    "\"Saíram cedo.\" (frase isolada)",
+                    "Sujeito Indeterminado",
+                    "Verbo na 3ª pessoa do plural desprovido de sujeito expresso e sem referente no texto.",
+                    "Factualmente alguém saiu, mas a sintaxe não revela quem é."
+                  ],
+                  [
+                    "\"Alguém acordou cedo.\"",
+                    "Sujeito Simples",
+                    "O termoAlguém está grafado na frase como núcleo único (pronome indefinido substantivo).",
+                    "O pronome é indefinido na morfologia; o sujeito é simples na sintaxe."
+                  ],
+                  [
+                    "\"Chove muito na cidade.\"",
+                    "Sujeito Inexistente",
+                    "Verbo de fenômeno meteorológico empregado em seu sentido literal e denotativo.",
+                    "Verbo impessoal; ausência ontológica e gramatical de agente."
+                  ],
+                  [
+                    "\"Choveram elogios para ele.\"",
+                    "Sujeito Simples",
+                    "Verbo meteorológico em sentido figurado/conotativo (significaocorrer em abundância).",
+                    "O termoelogios é o núcleo do sujeito simples; o verbo flexiona no plural."
+                  ],
+                  [
+                    "\"Houve duas rebeliões.\"",
+                    "Sujeito Inexistente",
+                    "Verbohaver com sentido de existir/ocorrer é impessoal; duas rebeliões = Objeto Direto.",
+                    "Invariável no singular; erro grave tentar pluralizar (\"houveram\")."
+                  ],
+                  [
+                    "\"Ocorreram duas rebeliões.\"",
+                    "Sujeito Simples",
+                    "Verboocorrer é verbo pessoal pleno; duas rebeliões = Sujeito Simples posposto.",
+                    "Flexiona compulsoriamente no plural para concordar com o núcleorebeliões."
+                  ],
+                  [
+                    "\"Alugam-se casas.\"",
+                    "Sujeito Simples (Paciente)",
+                    "Verbo transitivo direto comse PA; equivale a \"Casas são alugadas\".",
+                    "Há sujeito expresso (casas); o verbo concorda obrigatoriamente no plural."
+                  ],
+                  [
+                    "\"Precisa-se de vendedores.\"",
+                    "Sujeito Indeterminado",
+                    "Verbo transitivo indireto comse IIS; o termo de vendedores é objeto indireto.",
+                    "O termo é preposicionado e não pode ser sujeito; o verbo fica fixo no singular."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-001",
+          "title": "EX-A06-G02-001 — Sujeito Simples em Ordem Direta",
+          "prompt": "Frase: \"Os meninos estão brincando no quintal.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Os meninos estão brincando no quintal.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Locução verbal",
+              "rationale": "estão brincando."
+            },
+            {
+              "order": 4,
+              "action": "Pergunta",
+              "rationale": "Quem é que está brincando no quintal? $\\rightarrow$ Resposta: Os meninos."
+            },
+            {
+              "order": 5,
+              "action": "Análise",
+              "rationale": "Os é adjunto adnominal; meninos é o núcleo único substantivo sem preposição."
+            }
+          ],
+          "result": "Classificação: Sujeito Simples.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-001 — Sujeito Simples em Ordem Direta sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-001 — Sujeito Simples em Ordem Direta.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-001 — Sujeito Simples em Ordem Direta.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Os meninos estão brincando no quintal.\"",
+                "Resolução sintática:",
+                "Locução verbal: estão brincando.",
+                "Pergunta: Quem é que está brincando no quintal? $\\rightarrow$ Resposta: Os meninos.",
+                "Análise: Os é adjunto adnominal; meninos é o núcleo único substantivo sem preposição.",
+                "Classificação: Sujeito Simples."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-002",
+          "title": "EX-A06-G02-002 — Sujeito Oculto Desinencial de 1ª Pessoa",
+          "prompt": "Frases: \"Estamos muito orgulhosos de você.\" / \"Viajamos para a Itália.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": "\"Estamos muito orgulhosos de você.\" / \"Viajamos para a Itália.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbos",
+              "rationale": "Estamos / Viajamos."
+            },
+            {
+              "order": 4,
+              "action": "Pergunta",
+              "rationale": "Quem está orgulhoso? / Quem viajou?"
+            },
+            {
+              "order": 5,
+              "action": "Diagnóstico",
+              "rationale": "A terminação flexional de 1ª pessoa do plural (-mos) determina inequivocamente o pronome Nós."
+            }
+          ],
+          "result": "Classificação: Sujeito Oculto / Elíptico / Desinencial.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-002 — Sujeito Oculto Desinencial de 1ª Pessoa sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-002 — Sujeito Oculto Desinencial de 1ª Pessoa.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-002 — Sujeito Oculto Desinencial de 1ª Pessoa.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases: \"Estamos muito orgulhosos de você.\" / \"Viajamos para a Itália.\"",
+                "Resolução sintática:",
+                "Verbos: Estamos / Viajamos.",
+                "Pergunta: Quem está orgulhoso? / Quem viajou?",
+                "Diagnóstico: A terminação flexional de 1ª pessoa do plural (-mos) determina inequivocamente o pronome Nós.",
+                "Classificação: Sujeito Oculto / Elíptico / Desinencial."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-003",
+          "title": "EX-A06-G02-003 — Sujeito Composto com Elementos Pospostos",
+          "prompt": "Frases: \"A professora e os alunos ensaiaram...\" / \"Andavam misturados bois, vacas e bezerros.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": "\"A professora e os alunos ensaiaram...\" / \"Andavam misturados bois, vacas e bezerros.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Na segunda frase",
+              "rationale": "Verbo Andavam (3ª pessoa do plural)."
+            },
+            {
+              "order": 4,
+              "action": "Pergunta",
+              "rationale": "Quem é que andava misturado? $\\rightarrow$ Resposta: bois, vacas e bezerros."
+            },
+            {
+              "order": 5,
+              "action": "Núcleos identificados",
+              "rationale": "bois (1), vacas (2) e bezerros (3)."
+            }
+          ],
+          "result": "Classificação: Sujeito Composto (3 núcleos coordenados pospostos).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-003 — Sujeito Composto com Elementos Pospostos sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-003 — Sujeito Composto com Elementos Pospostos.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-003 — Sujeito Composto com Elementos Pospostos.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases: \"A professora e os alunos ensaiaram...\" / \"Andavam misturados bois, vacas e bezerros.\"",
+                "Resolução sintática:",
+                "Na segunda frase: Verbo Andavam (3ª pessoa do plural).",
+                "Pergunta: Quem é que andava misturado? $\\rightarrow$ Resposta: bois, vacas e bezerros.",
+                "Núcleos identificados: bois (1), vacas (2) e bezerros (3).",
+                "Classificação: Sujeito Composto (3 núcleos coordenados pospostos)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-004",
+          "title": "EX-A06-G02-004 — O Caso Crítico do Pronome Indefinido",
+          "prompt": "Frase: \"Alguém acordou cedo.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Alguém acordou cedo.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbo",
+              "rationale": "acordou."
+            },
+            {
+              "order": 4,
+              "action": "Pergunta",
+              "rationale": "Quem é que acordou cedo? $\\rightarrow$ Resposta: Alguém."
+            },
+            {
+              "order": 5,
+              "action": "Análise",
+              "rationale": "A palavra Alguém é um pronome indefinido que atua materialmente como núcleo substantivo único da oração."
+            }
+          ],
+          "result": "Classificação: Sujeito Simples.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-004 — O Caso Crítico do Pronome Indefinido sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-004 — O Caso Crítico do Pronome Indefinido.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-004 — O Caso Crítico do Pronome Indefinido.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Alguém acordou cedo.\"",
+                "Resolução sintática:",
+                "Verbo: acordou.",
+                "Pergunta: Quem é que acordou cedo? $\\rightarrow$ Resposta: Alguém.",
+                "Análise: A palavra Alguém é um pronome indefinido que atua materialmente como núcleo substantivo único da oração.",
+                "Classificação: Sujeito Simples."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-005",
+          "title": "EX-A06-G02-005 — Sujeito Indeterminado na 3ª Pessoa do Plural",
+          "prompt": "Frases: \"Esqueceram de trancar a porta.\" / \"Prenderam os suspeitos de fraudar o INSS.\" (análise de prenderam)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": "\"Esqueceram de trancar a porta.\" / \"Prenderam os suspeitos de fraudar o INSS.\" (análise de prenderam)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbo",
+              "rationale": "Esqueceram / Prenderam."
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico",
+              "rationale": "Forma verbal na 3ª pessoa do plural sem sujeito explícito e desprovida de referência no discurso anterior. O termo os suspeitos funciona como objeto direto do verbo prender."
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Sujeito Indeterminado."
+            }
+          ],
+          "result": "Classificação: Sujeito Indeterminado.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-005 — Sujeito Indeterminado na 3ª Pessoa do Plural sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-005 — Sujeito Indeterminado na 3ª Pessoa do Plural.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-005 — Sujeito Indeterminado na 3ª Pessoa do Plural.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases: \"Esqueceram de trancar a porta.\" / \"Prenderam os suspeitos de fraudar o INSS.\" (análise de prenderam)",
+                "Resolução sintática:",
+                "Verbo: Esqueceram / Prenderam.",
+                "Diagnóstico: Forma verbal na 3ª pessoa do plural sem sujeito explícito e desprovida de referência no discurso anterior. O termo os suspeitos funciona como objeto direto do verbo prender.",
+                "Classificação: Sujeito Indeterminado."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-006",
+          "title": "EX-A06-G02-006 — Oração Sem Sujeito com Verbo \"Haver\" Existencial",
+          "prompt": "Frases: \"Há muita gente na praia.\" / \"Houve algumas rebeliões no passado.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": "\"Há muita gente na praia.\" / \"Houve algumas rebeliões no passado.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbo",
+              "rationale": "Há / Houve."
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico",
+              "rationale": "Emprego no sentido de existir/ocorrer. Verbo impessoal; os termos muita gente e algumas rebeliões atuam sintaticamente como objetos diretos."
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Sujeito Inexistente (Oração Sem Sujeito)."
+            }
+          ],
+          "result": "Classificação: Sujeito Inexistente (Oração Sem Sujeito).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-006 — Oração Sem Sujeito com Verbo \"Haver\" Existencial sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-006 — Oração Sem Sujeito com Verbo \"Haver\" Existencial.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-006 — Oração Sem Sujeito com Verbo \"Haver\" Existencial.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases: \"Há muita gente na praia.\" / \"Houve algumas rebeliões no passado.\"",
+                "Resolução sintática:",
+                "Verbo: Há / Houve.",
+                "Diagnóstico: Emprego no sentido de existir/ocorrer. Verbo impessoal; os termos muita gente e algumas rebeliões atuam sintaticamente como objetos diretos.",
+                "Classificação: Sujeito Inexistente (Oração Sem Sujeito)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-007",
+          "title": "EX-A06-G02-007 — Sujeito Oracional Desenvolvido e Reduzido",
+          "prompt": "Frases:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvida",
+              "rationale": "\"Seria importante que você começasse a me escutar.\" $\\rightarrow$ [ISSO] seria importante."
+            },
+            {
+              "order": 3,
+              "action": "Reduzida de infinitivo",
+              "rationale": "\"Praticar exercícios frequentemente é bom para a saúde.\" $\\rightarrow$ [ISSO] é bom."
+            },
+            {
+              "order": 4,
+              "action": "Resolução sintática",
+              "rationale": "O bloco que responde à pergunta do sujeito contém verbo próprio (começasse / praticar)."
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Sujeito Oracional (Oração Subordinada Substantiva Subjetiva)."
+            }
+          ],
+          "result": "Classificação: Sujeito Oracional (Oração Subordinada Substantiva Subjetiva).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-007 — Sujeito Oracional Desenvolvido e Reduzido sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-007 — Sujeito Oracional Desenvolvido e Reduzido.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-007 — Sujeito Oracional Desenvolvido e Reduzido.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases:",
+                "Desenvolvida: \"Seria importante que você começasse a me escutar.\" $\\rightarrow$ [ISSO] seria importante.",
+                "Reduzida de infinitivo: \"Praticar exercícios frequentemente é bom para a saúde.\" $\\rightarrow$ [ISSO] é bom.",
+                "Resolução sintática: O bloco que responde à pergunta do sujeito contém verbo próprio (começasse / praticar).",
+                "Classificação: Sujeito Oracional (Oração Subordinada Substantiva Subjetiva)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-008",
+          "title": "EX-A06-G02-008 — Sujeito Indeterminado por Infinitivo Impessoal",
+          "prompt": "Frases: \"É bom estudar para concurso.\" (verbo estudar) / \"É necessário fazer a revisão do carro.\" (verbo fazer)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frases",
+              "rationale": "\"É bom estudar para concurso.\" (verbo estudar) / \"É necessário fazer a revisão do carro.\" (verbo fazer)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": "Os verbos estudar e fazer apresentam-se no infinitivo impessoal não flexionado, exprimindo ações genéricas sem vinculação a agente explícito."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Sujeito Indeterminado."
+            }
+          ],
+          "result": "Classificação: Sujeito Indeterminado.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-008 — Sujeito Indeterminado por Infinitivo Impessoal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-008 — Sujeito Indeterminado por Infinitivo Impessoal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-008 — Sujeito Indeterminado por Infinitivo Impessoal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frases: \"É bom estudar para concurso.\" (verbo estudar) / \"É necessário fazer a revisão do carro.\" (verbo fazer)",
+                "Resolução sintática: Os verbos estudar e fazer apresentam-se no infinitivo impessoal não flexionado, exprimindo ações genéricas sem vinculação a agente explícito.",
+                "Classificação: Sujeito Indeterminado."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-009",
+          "title": "EX-A06-G02-009 — Oração Sem Sujeito com Verbo \"Fazer\" Temporal",
+          "prompt": "Frase: \"Faz três anos que estudo nesta escola.\" / \"Faz dois anos hoje de sua partida.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Faz três anos que estudo nesta escola.\" / \"Faz dois anos hoje de sua partida.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": "O verbo fazer denota tempo cronológico transcorrido. Verbo impessoal sem sujeito; forma verbal invariável na 3ª do singular."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Sujeito Inexistente (Oração Sem Sujeito)."
+            }
+          ],
+          "result": "Classificação: Sujeito Inexistente (Oração Sem Sujeito).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-009 — Oração Sem Sujeito com Verbo \"Fazer\" Temporal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-009 — Oração Sem Sujeito com Verbo \"Fazer\" Temporal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-009 — Oração Sem Sujeito com Verbo \"Fazer\" Temporal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Faz três anos que estudo nesta escola.\" / \"Faz dois anos hoje de sua partida.\"",
+                "Resolução sintática: O verbo fazer denota tempo cronológico transcorrido. Verbo impessoal sem sujeito; forma verbal invariável na 3ª do singular.",
+                "Classificação: Sujeito Inexistente (Oração Sem Sujeito)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-010",
+          "title": "EX-A06-G02-010 — Sujeito Simples com Verbo \"Ocorrer\"",
+          "prompt": "Frase: \"Ocorreram algumas rebeliões no passado.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Ocorreram algumas rebeliões no passado.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbo",
+              "rationale": "Ocorreram."
+            },
+            {
+              "order": 4,
+              "action": "Pergunta",
+              "rationale": "O que é que ocorreu? $\\rightarrow$ Resposta: Algumas rebeliões."
+            },
+            {
+              "order": 5,
+              "action": "Núcleo",
+              "rationale": "rebeliões (substantivo no plural). O verbo ocorrer é pessoal e flexiona compulsoriamente no plural."
+            }
+          ],
+          "result": "Classificação: Sujeito Simples posposto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-010 — Sujeito Simples com Verbo \"Ocorrer\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-010 — Sujeito Simples com Verbo \"Ocorrer\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-010 — Sujeito Simples com Verbo \"Ocorrer\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Ocorreram algumas rebeliões no passado.\"",
+                "Resolução sintática:",
+                "Verbo: Ocorreram.",
+                "Pergunta: O que é que ocorreu? $\\rightarrow$ Resposta: Algumas rebeliões.",
+                "Núcleo: rebeliões (substantivo no plural). O verbo ocorrer é pessoal e flexiona compulsoriamente no plural.",
+                "Classificação: Sujeito Simples posposto."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-011",
+          "title": "EX-A06-G02-011 — Sujeito Simples com Adjunto Adverbial Interveniente",
+          "prompt": "Frase: \"Conta-se que naquela torre habita uma bruxa.\" (análise de habita)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Conta-se que naquela torre habita uma bruxa.\" (análise de habita)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": "O termo naquela torre é preposicionado (adjunto adverbial de lugar). Pergunta: Quem habita? $\\rightarrow$ Uma bruxa (núcleo: bruxa)."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Sujeito Simples."
+            }
+          ],
+          "result": "Classificação: Sujeito Simples.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-011 — Sujeito Simples com Adjunto Adverbial Interveniente sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-011 — Sujeito Simples com Adjunto Adverbial Interveniente.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-011 — Sujeito Simples com Adjunto Adverbial Interveniente.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Conta-se que naquela torre habita uma bruxa.\" (análise de habita)",
+                "Resolução sintática: O termo naquela torre é preposicionado (adjunto adverbial de lugar). Pergunta: Quem habita? $\\rightarrow$ Uma bruxa (núcleo: bruxa).",
+                "Classificação: Sujeito Simples."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-012",
+          "title": "EX-A06-G02-012 — Verbo Meteorológico em Sentido Figurado",
+          "prompt": "Frase: \"Choveram elogios para o professor.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Choveram elogios para o professor.\""
+            },
+            {
+              "order": 2,
+              "action": "Resolução sintática",
+              "rationale": "O verbo chover atua em acepção metafórica. Pergunta: O que é que choveu? $\\rightarrow$ Elogios (núcleo substantivo)."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Sujeito Simples (com flexão obrigatória no plural)."
+            }
+          ],
+          "result": "Classificação: Sujeito Simples (com flexão obrigatória no plural).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-012 — Verbo Meteorológico em Sentido Figurado sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-012 — Verbo Meteorológico em Sentido Figurado.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-012 — Verbo Meteorológico em Sentido Figurado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Choveram elogios para o professor.\"",
+                "Resolução sintática: O verbo chover atua em acepção metafórica. Pergunta: O que é que choveu? $\\rightarrow$ Elogios (núcleo substantivo).",
+                "Classificação: Sujeito Simples (com flexão obrigatória no plural)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-013",
+          "title": "EX-A06-G02-013 — Questão Cebraspe: Polícia Federal (Administrador)",
+          "prompt": "Texto-base: “Não se trata de negar que o advento dos regimes liberais em 1989-90...criou uma ilusão de modernidade.”",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "“Não se trata de negar que o advento dos regimes liberais em 1989-90...criou uma ilusão de modernidade.”"
+            },
+            {
+              "order": 2,
+              "action": "Item avaliado",
+              "rationale": "O emprego do pronome “se” marca a formalidade da linguagem utilizada e indica que o sujeito da oração é indeterminado."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento e Justificativa",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Tese 1 (Sintática)",
+              "rationale": "O verbo tratar rege preposição de (VTI). O pronome se associado a VTI é Índice de Indeterminação do Sujeito (IIS), tornando o sujeito formalmente indeterminado."
+            },
+            {
+              "order": 5,
+              "action": "Tese 2 (Sociolinguística)",
+              "rationale": "O uso de se (PA ou IIS) é recurso próprio da norma padrão culta escrita, marcando formalidade textual."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-013 — Questão Cebraspe: Polícia Federal (Administrador) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-013 — Questão Cebraspe: Polícia Federal (Administrador).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-013 — Questão Cebraspe: Polícia Federal (Administrador).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: “Não se trata de negar que o advento dos regimes liberais em 1989-90...criou uma ilusão de modernidade.”",
+                "Item avaliado: O emprego do pronome “se” marca a formalidade da linguagem utilizada e indica que o sujeito da oração é indeterminado.",
+                "Julgamento e Justificativa:",
+                "Tese 1 (Sintática): O verbo tratar rege preposição de (VTI). O pronome se associado a VTI é Índice de Indeterminação do Sujeito (IIS), tornando o sujeito formalmente indeterminado.",
+                "Tese 2 (Sociolinguística): O uso de se (PA ou IIS) é recurso próprio da norma padrão culta escrita, marcando formalidade textual.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-014",
+          "title": "EX-A06-G02-014 — Questão Cebraspe: SME do Recife (Professor)",
+          "prompt": "Texto-base: (...) porque há muita concorrência e maior seleção. (...)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "(...) porque há muita concorrência e maior seleção. (...)"
+            },
+            {
+              "order": 2,
+              "action": "Item avaliado",
+              "rationale": "Classifica-se como oração sem sujeito o segmento “há muita concorrência e maior seleção”."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento e Justificativa",
+              "rationale": "O verbo haver está empregado no sentido de existir, operando como verbo impessoal sem sujeito gramatical."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-014 — Questão Cebraspe: SME do Recife (Professor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-014 — Questão Cebraspe: SME do Recife (Professor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-014 — Questão Cebraspe: SME do Recife (Professor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: (...) porque há muita concorrência e maior seleção. (...)",
+                "Item avaliado: Classifica-se como oração sem sujeito o segmento “há muita concorrência e maior seleção”.",
+                "Julgamento e Justificativa: O verbo haver está empregado no sentido de existir, operando como verbo impessoal sem sujeito gramatical.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G02-015",
+          "title": "EX-A06-G02-015 — Questão Cebraspe: TC-DF (Auditor de Controle Externo)",
+          "prompt": "Texto-base: (...) Por isso, é imprescindível analisar os impactos da carga tributária na estrutura produtiva.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "(...) Por isso, é imprescindível analisar os impactos da carga tributária na estrutura produtiva."
+            },
+            {
+              "order": 2,
+              "action": "Item avaliado",
+              "rationale": "No segmento “Por isso, é imprescindível”, a flexão da forma verbal “é” na terceira pessoa do singular justifica-se pela concordância do verbo com o sujeito da oração, que é expresso pela oração subsequente."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento e Justificativa",
+              "rationale": "A oração subordinada reduzida analisar os impactos... funciona como sujeito oracional (\"Isso é imprescindível\"). Todo sujeito oracional impõe ao verbo regente a flexão na 3ª pessoa do singular."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G02-015 — Questão Cebraspe: TC-DF (Auditor de Controle Externo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G02-015 — Questão Cebraspe: TC-DF (Auditor de Controle Externo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G02-015 — Questão Cebraspe: TC-DF (Auditor de Controle Externo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: (...) Por isso, é imprescindível analisar os impactos da carga tributária na estrutura produtiva.",
+                "Item avaliado: No segmento “Por isso, é imprescindível”, a flexão da forma verbal “é” na terceira pessoa do singular justifica-se pela concordância do verbo com o sujeito da oração, que é expresso pela oração subsequente.",
+                "Julgamento e Justificativa: A oração subordinada reduzida analisar os impactos... funciona como sujeito oracional (\"Isso é imprescindível\"). Todo sujeito oracional impõe ao verbo regente a flexão na 3ª pessoa do singular.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Descrição do atalho: Diante de construções com verbos como seria importante, percebe-se, convém, é necessário, basta, parece, cumpre, urge, substitua toda a oração subordinada subsequente pelo pronome ISSO. Se a estrutura se reorganizar com perfeição lógica (\"ISSO basta\", \"ISSO é necessário\"), o sujeito é instantaneamente reconhecido como Oracional."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Descrição do atalho: Memorize o mantra operacional da disciplina:"
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Sujeito oracional é aquele que tem verbo.\" Se o bloco identificado como sujeito contém um verbo em seu interior (desenvolvido ou reduzido no infinitivo), a classificação sintática é compulsoriamente Oracional, independentemente da presença de conjunção integrante.",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Descrição do atalho: Em frases extensas ou períodos compostos por subordinação/coordenação, numere os verbos e analise uma oração de cada vez. Nunca misture os termos subordinados de um verbo com os termos da oração principal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Descrição do atalho: O verbo tratar na construção fixa \"tratar-se de\" virá invariavelmente regido pela preposição de (VTI). Por conseguinte, a partícula se será sempre Índice de Indeterminação do Sujeito (IIS), jamais pronome apassivador."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A06-G02-001",
+          "title": "Falso Núcleo do Sujeito Regido por Preposição",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falso Núcleo do Sujeito Regido por Preposição no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falso Núcleo do Sujeito Regido por Preposição.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falso Núcleo do Sujeito Regido por Preposição.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falso Núcleo do Sujeito Regido por Preposição para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falso Núcleo do Sujeito Regido por Preposição.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falso Núcleo do Sujeito Regido por Preposição.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Selecionar substantivos precedidos por preposição como núcleo do sujeito em frases na ordem indireta (ex.: achar que torre é o sujeito em \"naquela torre habita uma bruxa\").",
+                "Fundamento corretivo: O núcleo do sujeito é puro e não preposicionado. Termos preposicionados exercem papéis de adjunto adverbial, objeto indireto ou complemento nominal."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G02-002",
+          "title": "Confusão entre Pronome Indefinido e Sujeito Indeterminado",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre Pronome Indefinido e Sujeito Indeterminado no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre Pronome Indefinido e Sujeito Indeterminado.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre Pronome Indefinido e Sujeito Indeterminado.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre Pronome Indefinido e Sujeito Indeterminado para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre Pronome Indefinido e Sujeito Indeterminado.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre Pronome Indefinido e Sujeito Indeterminado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Classificar orações com Alguém, Ninguém, Tudo, Nada como sujeito indeterminado sob a alegação de desconhecimento da pessoa real.",
+                "Fundamento corretivo: O sujeito é Simples com núcleo explícito. A indefinição é uma propriedade morfológica da classe do pronome, não uma classificação sintática do termo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G02-003",
+          "title": "Generalização Apressada do Verbo na 3ª Pessoa do Plural",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Generalização Apressada do Verbo na 3ª Pessoa do Plural no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Generalização Apressada do Verbo na 3ª Pessoa do Plural.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Generalização Apressada do Verbo na 3ª Pessoa do Plural.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Generalização Apressada do Verbo na 3ª Pessoa do Plural para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Generalização Apressada do Verbo na 3ª Pessoa do Plural.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Generalização Apressada do Verbo na 3ª Pessoa do Plural.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Assumir cegamente que todo verbo na 3ª pessoa do plural é sujeito indeterminado.",
+                "Fundamento corretivo: Se houver sujeito expresso posposto (\"Andavam bois, vacas e bezerros\" $\\rightarrow$ Composto) ou referente anafórico no contexto (\"Eles saíram e voltaram\" $\\rightarrow$ Oculto), o sujeito é determinado. A indeterminação só ocorre na ausência total de sujeito e contexto."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G02-004",
+          "title": "Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pluralização Viciosa dos Verbos \"Fazer\" e \"Haver\" Impessoais.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Flexionar os verbos impessoais no plural pelo contágio com o adjunto temporal ou complemento (\"Fazem duas horas\", \"Houveram problemas\").",
+                "Fundamento corretivo: Verbos impessoais não possuem sujeito que determine sua flexão. Devem permanecer compulsoriamente na 3ª pessoa do singular (\"Faz duas horas\", \"Houve problemas\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G02-005",
+          "title": "Falsa Exigência de Conjunção Integrante no Sujeito Oracional",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falsa Exigência de Conjunção Integrante no Sujeito Oracional no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falsa Exigência de Conjunção Integrante no Sujeito Oracional.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falsa Exigência de Conjunção Integrante no Sujeito Oracional.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falsa Exigência de Conjunção Integrante no Sujeito Oracional para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falsa Exigência de Conjunção Integrante no Sujeito Oracional.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falsa Exigência de Conjunção Integrante no Sujeito Oracional.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Procurar unicamente a conjunção que/se para diagnosticar sujeito oracional, errando itens com orações reduzidas de infinitivo.",
+                "Fundamento corretivo: O sujeito oracional reduzido (\"Estudar para concursos exige foco\") prescinde de conectivo; o critério determinante é a presença do verbo no bloco do sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G02-006",
+          "title": "Atribuição de Sujeito Paciente a Termos Preposicionados",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Atribuição de Sujeito Paciente a Termos Preposicionados no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Atribuição de Sujeito Paciente a Termos Preposicionados.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Atribuição de Sujeito Paciente a Termos Preposicionados.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Atribuição de Sujeito Paciente a Termos Preposicionados para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Atribuição de Sujeito Paciente a Termos Preposicionados.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Atribuição de Sujeito Paciente a Termos Preposicionados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Tentar classificar o pronome se como apassivador em estruturas com verbos transitivos indiretos.",
+                "Fundamento corretivo: O sujeito paciente não pode ser preposicionado. Havendo preposição obrigatória (trata-se de, precisa-se de), o se opera compulsoriamente como Índice de Indeterminação do Sujeito."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Selecionar substantivos precedidos por preposição como núcleo do sujeito em frases na ordem indireta (ex.: achar que torre é o sujeito em \"naquela torre habita uma bruxa\").",
+            "Fundamento corretivo: O núcleo do sujeito é puro e não preposicionado. Termos preposicionados exercem papéis de adjunto adverbial, objeto indireto ou complemento nominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Classificar orações com Alguém, Ninguém, Tudo, Nada como sujeito indeterminado sob a alegação de desconhecimento da pessoa real.",
+            "Fundamento corretivo: O sujeito é Simples com núcleo explícito. A indefinição é uma propriedade morfológica da classe do pronome, não uma classificação sintática do termo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Assumir cegamente que todo verbo na 3ª pessoa do plural é sujeito indeterminado.",
+            "Fundamento corretivo: Se houver sujeito expresso posposto (\"Andavam bois, vacas e bezerros\" $\\rightarrow$ Composto) ou referente anafórico no contexto (\"Eles saíram e voltaram\" $\\rightarrow$ Oculto), o sujeito é determinado. A indeterminação só ocorre na ausência total de sujeito e contexto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Flexionar os verbos impessoais no plural pelo contágio com o adjunto temporal ou complemento (\"Fazem duas horas\", \"Houveram problemas\").",
+            "Fundamento corretivo: Verbos impessoais não possuem sujeito que determine sua flexão. Devem permanecer compulsoriamente na 3ª pessoa do singular (\"Faz duas horas\", \"Houve problemas\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Procurar unicamente a conjunção que/se para diagnosticar sujeito oracional, errando itens com orações reduzidas de infinitivo.",
+            "Fundamento corretivo: O sujeito oracional reduzido (\"Estudar para concursos exige foco\") prescinde de conectivo; o critério determinante é a presença do verbo no bloco do sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Tentar classificar o pronome se como apassivador em estruturas com verbos transitivos indiretos.",
+            "Fundamento corretivo: O sujeito paciente não pode ser preposicionado. Havendo preposição obrigatória (trata-se de, precisa-se de), o se opera compulsoriamente como Índice de Indeterminação do Sujeito."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Palavra substantiva (substantivo, pronome substantivo ou numeral substantivo) de valor central em torno da qual a concordância verbal é erigida, caracterizada pela proibição estrita de vir antecedida de preposição."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classificação do sujeito elíptico cuja determinação é assegurada exclusivamente pelas desinências flexionais de 1ª pessoa do singular (eu) ou plural (nós) embutidas na forma verbal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Substantivo expresso previamente no contexto discursivo que ancora semântica e sintaticamente um sujeito elíptico de 3ª pessoa do singular em oração subsequente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo que não admite sujeito gramatical por expressar fenômenos climáticos literais, tempo decorrido (fazer, haver) ou existência/ocorrência (haver), conjugando-se obrigatoriamente na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "Oração subordinada substantiva que desempenha a função sintática de sujeito do verbo da oração principal, caracterizada por conter verbo próprio e exigir verbo principal na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "Partícula SE associada a verbos intransitivos, transitivos indiretos ou de ligação na 3ª pessoa do singular, cuja função sintática é ocultar deliberadamente o agente da ação verbal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome SE associado a verbos transitivos diretos ou transitivos diretos e indiretos, responsável por transpor o paciente para a função de sujeito paciente na voz passiva sintética."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma nominal do verbo não flexionada (-ar, -er, -ir) empregada em enunciados genéricos sem vinculação a pessoa gramatical definida, configurando a terceira via de indeterminação do sujeito."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático consolidado, o estudante adquire as seguintes competências operacionais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio Metodológico: Capacidade de parar diante de qualquer verbo e aplicar o algoritmo de 3 passos, isolando o bloco do sujeito e extraindo seu núcleo substantivo livre de preposições.",
+            "Segurança Taxonômica: Discernimento imediato entre as 6 classificações canônicas de sujeito (Simples, Oculto, Composto, Indeterminado, Inexistente e Oracional).",
+            "Imunização contra Pegadinhas:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Distinguir morfologia de sintaxe, reconhecendo pronomes indefinidos (Alguém, Ninguém) como núcleos de Sujeito Simples.",
+            "Não confundir sujeitos compostos ou simples pospostos na 3ª do plural com sujeito indeterminado.",
+            "Reconhecer o Sujeito Oculto Não-Desinencial através de anáfora contextual.",
+            "Identificar a transmutação de verbos meteorológicos conotativos para Sujeito Simples (Choveram elogios).",
+            "Diferenciar a impessoalidade estrita de haver e fazer (invariáveis no singular) da pessoalidade plena de ocorrer e existir."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Resolução de Períodos Compostos: Aplicação do mantra \"Viva cada verbo a seu momento\", delimitando orações e validando sujeitos oracionais por meio do teste da troca por ISSO.",
+            "Diferenciação Funcional e Sociolinguística do SE: Discernir com exatidão construções de voz passiva sintética (com se PA e sujeito paciente determinado) de orações de sujeito indeterminado (com se IIS preposicionado), compreendendo a tese recorrente da banca Cebraspe que consagra o pronome se como marca de formalidade da norma culta escrita."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1157 @@
+{
+  "schemaVersion": "4.2.0",
+  "kind": "suveca_pedagogical_public_manifest",
+  "buildId": "23090bf61625314a",
+  "sourceDigest": "07f1354bc46b82000ad8d8dd035d9ac2b23002c53146de0732f6fad87247a478",
+  "totals": {
+    "modules": 15,
+    "integratedUnits": 102,
+    "cumulativeReviewUnits": 13,
+    "studyUnits": 115,
+    "flashcards": 209,
+    "decisionProcedures": 413,
+    "simuladoQuestions": 20,
+    "editorialQuestions": 1209,
+    "editorialQuestionEligibleOccurrences": 1339,
+    "editorialQuestionQuarantined": 2,
+    "duelQuestions": 12,
+    "methodologyConnections": 115,
+    "methodologyLessonOverviews": 15,
+    "methodologyGroupConnections": 102,
+    "methodologyStudyConnections": 115,
+    "methodologyGroupDistribution": {
+      "outside_core": 5,
+      "indirect": 10,
+      "strong": 17,
+      "support": 13,
+      "central": 57
+    },
+    "mediaDependencies": 0
+  },
+  "modules": [
+    {
+      "id": "mod0",
+      "lessonId": "A00",
+      "title": "Aula 00",
+      "sections": 7
+    },
+    {
+      "id": "mod1",
+      "lessonId": "A01",
+      "title": "Aula 01",
+      "sections": 5
+    },
+    {
+      "id": "mod2",
+      "lessonId": "A02",
+      "title": "Aula 02",
+      "sections": 5
+    },
+    {
+      "id": "mod3",
+      "lessonId": "A03",
+      "title": "Aula 03",
+      "sections": 8
+    },
+    {
+      "id": "mod4",
+      "lessonId": "A04",
+      "title": "Aula 04",
+      "sections": 9
+    },
+    {
+      "id": "mod5",
+      "lessonId": "A05",
+      "title": "Aula 05",
+      "sections": 12
+    },
+    {
+      "id": "mod6",
+      "lessonId": "A06",
+      "title": "Aula 06",
+      "sections": 8
+    },
+    {
+      "id": "mod7",
+      "lessonId": "A07",
+      "title": "Aula 07",
+      "sections": 10
+    },
+    {
+      "id": "mod8",
+      "lessonId": "A08",
+      "title": "Aula 08",
+      "sections": 6
+    },
+    {
+      "id": "mod9",
+      "lessonId": "A09",
+      "title": "Aula 09",
+      "sections": 8
+    },
+    {
+      "id": "mod10",
+      "lessonId": "A10",
+      "title": "Aula 10",
+      "sections": 7
+    },
+    {
+      "id": "mod11",
+      "lessonId": "A11",
+      "title": "Aula 11",
+      "sections": 3
+    },
+    {
+      "id": "mod12",
+      "lessonId": "A12",
+      "title": "Aula 12",
+      "sections": 7
+    },
+    {
+      "id": "mod13",
+      "lessonId": "A13",
+      "title": "Compreensão, Interpretação e Tipologia Textual",
+      "sections": 7
+    },
+    {
+      "id": "mod14",
+      "lessonId": "A14",
+      "title": "Revisão Geral de Língua Portuguesa",
+      "sections": 13
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "functions/src/editorialDuel.generated.ts",
+      "bytes": 542,
+      "sha256": "dab13f1da0a1db07ba833de6fa5df44ca4882b346fa1731a1d2fda1970242370"
+    },
+    {
+      "path": "functions/src/officialQuestions.ts",
+      "bytes": 743,
+      "sha256": "0fbba319079c4343f5c647319ef825e6ebb9e9f36572b46153f56a411afaf023"
+    },
+    {
+      "path": "knowledge/canonical/modules-v3-consolidated.json",
+      "bytes": 881300,
+      "sha256": "99cc961cbdf43b5c4b787e9757c5a8737830c73ff915bbd697fcbf80a475163c"
+    },
+    {
+      "path": "knowledge/canonical/modules.json",
+      "bytes": 881256,
+      "sha256": "8e39a2968878afc521d4276399a079571f8c0853f5f4ac776af0dd8a34969b6a"
+    },
+    {
+      "path": "knowledge/canonical/pedagogical-curriculum.json",
+      "bytes": 947481,
+      "sha256": "b93f460eb13849c2360e2a61f49e769d38be2b86854359951d9ec896b47d4811"
+    },
+    {
+      "path": "public/knowledge/editorial-question-quality.json",
+      "bytes": 1635,
+      "sha256": "38736da69f2b2df3d0f619834f078452ddd04291631f4cb5c2edbcc36eaabc90"
+    },
+    {
+      "path": "public/knowledge/official-question-index.json",
+      "bytes": 701753,
+      "sha256": "f91e2f3c01b9dae04418134de336d50cb6d2d192fe7594fc5353bc9ed5069c0d"
+    },
+    {
+      "path": "public/knowledge/official-question-summary.json",
+      "bytes": 559,
+      "sha256": "ca9a1d1e25f3c80081106a5e5c9d042d30642b69720aab1e44ad910fbc1459a8"
+    },
+    {
+      "path": "public/knowledge/pedagogical/decision-procedures.json",
+      "bytes": 532267,
+      "sha256": "91cc891194dac6ee20fa26c81e4697c64b5f06781c3fee261f7aa28f92ebda45"
+    },
+    {
+      "path": "public/knowledge/pedagogical/suveca-method.json",
+      "bytes": 62821,
+      "sha256": "073d34042b6cf942a970e146e2f1b1d62127ed7ebfb3a79188b8430c2c67cc6e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G01-fonetica-e-fonologia.md",
+      "bytes": 22722,
+      "sha256": "c2f0265435aa53b7f127ba4f48c1b8386c907b39d8b9668fdad2014569d6434b"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G02-estudo-da-silaba-teoria.md",
+      "bytes": 24258,
+      "sha256": "acbdeb39788cca24216f2e30d3c13686968f80d20a0be487c2c366193f47066e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G03-estudo-da-silaba-questoes.md",
+      "bytes": 38959,
+      "sha256": "53944d9f4e28d0bef35bc3eb10243284b79bfee404df6169c1a49dfe8e763a27"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G04-acentuacao-grafica.md",
+      "bytes": 29004,
+      "sha256": "d67713b800b430b0d730d82c4381168675f3fed9b431956038f8514739e191e5"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G05-emprego-do-hifen-fundamentos.md",
+      "bytes": 32725,
+      "sha256": "a4d5d4391a6113281d96f6aa717dc3b80b3738630e556cc2d51fe752fead03ef"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G06-emprego-do-hifen-questoes.md",
+      "bytes": 37958,
+      "sha256": "e2c1a78a95df53a1ae2ae24d0569c5f7e9856ea7016a07720b01880b00e33dc9"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A00-G07-emprego-dos-porques.md",
+      "bytes": 46135,
+      "sha256": "115bd517f37a0e4420141dc7bd4b20410e321b63cb139b69277739d472cfbf51"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A01-G01-classes-variaveis-e-invariaveis.md",
+      "bytes": 31858,
+      "sha256": "e298052355598643cbd4c2184540ea81abcf72156af68904a49867fa6acda190"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A01-G02-emprego-das-classes-de-palavras.md",
+      "bytes": 33741,
+      "sha256": "81508b717b6e5bd89a54af0f2df54aecf8375578e78fa6ed80747224e0cb45a6"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A01-G03-adverbios.md",
+      "bytes": 29850,
+      "sha256": "c83b7ab7929086a2c23ec5e9b1a94792b471a7372ec026b55a1244bf36189f55"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A01-G04-artigos.md",
+      "bytes": 31588,
+      "sha256": "ea3158d5a63a1f36ee25749e28f1f27e895801d346fafa3578b88008c4a96954"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A01-G05-numerais-e-interjeicoes.md",
+      "bytes": 41495,
+      "sha256": "877ddacdd665c371561ebaa9a107a3b3a8129d155e4d8e1da3fa85b92450fa97"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A02-G01-preposicoes.md",
+      "bytes": 42740,
+      "sha256": "eed360e978af180771ff8118eab38bc7c8145fbf47cd8e134d64c7ac24cdeef5"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A02-G02-conjuncoes-coordenativas.md",
+      "bytes": 40595,
+      "sha256": "9ec15f4d38dbde54e015a62058c96c12cc50e676b8983c70df06cc130632dee9"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A02-G03-conjuncoes-subordinativas-e-desde-que.md",
+      "bytes": 35969,
+      "sha256": "0e9c1816c5f917509bb3c0f833d4eb4d943895a3e88a9dce657b0315cdac41dc"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A02-G04-valores-de-e-e-pois.md",
+      "bytes": 40232,
+      "sha256": "4fadd5452d3e0abc548093939466c5091a9c1e92d285d3e813e867a0e69ab998"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A02-G05-valores-de-como-e-questoes-miscelaneas.md",
+      "bytes": 32850,
+      "sha256": "1abd012228238091f9191200614aad3d6453721382880420161ac4462b7a9810"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G01-pronomes-pessoais.md",
+      "bytes": 45259,
+      "sha256": "deb618dc928d2b30e68fc14156cc26fe07a18dbdccb4d3428b22b287692d7282"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G02-pronomes-pessoais-questoes.md",
+      "bytes": 47926,
+      "sha256": "164fa3da8d4c218f2dae4414f2286a32ec073bc7cc4b30beda5a4bcc06906b05"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G03-possessivos-indefinidos-e-interrogativos.md",
+      "bytes": 51807,
+      "sha256": "03327b9f2e2228bdca8b2c730015bc4ff27dbc1687730944d84c36207750f071"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G04-demonstrativos-e-relativos.md",
+      "bytes": 42372,
+      "sha256": "2932da133793ee4ee699b43b70395ccf3000921e25c19b9819448ed7b7c9334e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G05-emprego-dos-pronomes-relativos.md",
+      "bytes": 55162,
+      "sha256": "fa8f0a8207ada726cab782219f6e80e23577933ec12941be4e0ae5d517b0d3f0"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G06-pronomes-relativos-regencia-e-reescrita.md",
+      "bytes": 39952,
+      "sha256": "d84ed1a967135e3e116c1f0550a43803717b500381d1e6b24fdba1000a81ac33"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G07-colocacao-dos-pronomes-atonos.md",
+      "bytes": 37026,
+      "sha256": "4496467a2e21365a734da377f79797656baef52ec934bd716bf9cdc1e686c41f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A03-G08-colocacao-pronominal-questoes.md",
+      "bytes": 38836,
+      "sha256": "cedba2c1eea5eb7bb5087531b4e8097ecb75b8dd4a25010b5ef8e19cec519110"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G01-tempos-e-modos-verbais.md",
+      "bytes": 41781,
+      "sha256": "b7421a49ed8c0f4d26d285ea43d26b770f65deae3c59065137a8fc6a72a26896"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G02-semantica-dos-tempos-e-modos-verbais.md",
+      "bytes": 44384,
+      "sha256": "4ae82670e85a1c9259c38ec96191fb9008b3c6487460e6f39926235febaa297a"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G03-desinencias-verbais.md",
+      "bytes": 33663,
+      "sha256": "4d61c4305970bc7b8f68c8ab613d7120948c8a06727264094ad32ace4c876594"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G04-formas-nominais-do-verbo.md",
+      "bytes": 45930,
+      "sha256": "e48b02c1ef6b51ef10f4d4b84535994a5f7d56c6dae0e048b2b4d87443bf2dbf"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G05-verbos-irregulares-lideres-e-bons-amigos.md",
+      "bytes": 41509,
+      "sha256": "e2b6ff01d653c233df38097d7666635fc67c503b8398256f0fd096d2d388b029"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G06-verbos-irregulares-questoes.md",
+      "bytes": 38574,
+      "sha256": "9d054ca68db87b3cd5ce8e9278b14550cc38d9e76b9aa68aaf97b33dd81ba4d8"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G07-falsos-amigos-e-dificil-conjugacao.md",
+      "bytes": 37487,
+      "sha256": "0e9f3061d97ae22d3855f29fdbbe024b01003d7a7e98e6e2e62f7d99c0df0a78"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G08-verbos-em-ear-e-iar-e-defectivos.md",
+      "bytes": 43860,
+      "sha256": "764c387faa6981f420ca86871e7e65065927ea9eb498cd11af43b63782618fab"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A04-G09-correlacao-de-tempos-verbais.md",
+      "bytes": 39672,
+      "sha256": "f987862f81cd2a42a24f4c2c1b1dafe194645e3a693847a6c7c57a547f41b073"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G01-transitividade-verbal-fundamentos.md",
+      "bytes": 51249,
+      "sha256": "4b7e9ed8bdf43a5ddbcf293eef73d0564d9b8c3e2b02e15a5f5a0b9f154d6bb7"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G02-transitividade-verbal-questoes.md",
+      "bytes": 27610,
+      "sha256": "7515825a038b9042ee6b9351b7527492d4d8a7fd8b47664a006153fc40ddf9f3"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G03-complementos-e-objetos-pleonasticos.md",
+      "bytes": 33457,
+      "sha256": "ba61d6abe4c41309017561a2b931018e59e0f6c62a9b3a4d718dfdf794447443"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G04-vozes-verbais-fundamentos.md",
+      "bytes": 30960,
+      "sha256": "628fc31a185e4c7f1a74509d39876fd47e6d7e32f197d69c2dcfc29fb554c88a"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G05-vozes-verbais-questoes.md",
+      "bytes": 64134,
+      "sha256": "d3e3b65e9cb8a8d0ad8fbf6d96838172cce711aad688a59f005435f98151f707"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G06-reescritura-de-vozes-fundamentos.md",
+      "bytes": 43135,
+      "sha256": "3a02cde7ac5e56d66aac9f5d17ea31e81dc2a0607c3f5889b36feb012f2ae979"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G07-reescritura-de-vozes-partes-02-e-03.md",
+      "bytes": 37459,
+      "sha256": "f042f9703a5a22734e319dd52394cff261d3e2911419e7a6b7419ae9e20f9680"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G08-reescritura-de-vozes-partes-04-a-07.md",
+      "bytes": 49792,
+      "sha256": "7a70a5552111faa28e29de3de51c441eca5583d3bf933a6bcb3c38f3ba903409"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G09-reescritura-de-vozes-parte-08.md",
+      "bytes": 31307,
+      "sha256": "ba09e4be842ae8263442f178ade51d675fdba7c07ca0adbfe7550166cafd30f8"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G10-verbos-impessoais-e-auxiliares.md",
+      "bytes": 42563,
+      "sha256": "27859b45ef8d8e1acba69ce6d3c39654fb67815769c2124a56f1b309fab9fdce"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G11-verbos-impessoais-e-auxiliares-questoes.md",
+      "bytes": 44942,
+      "sha256": "2e0e1e48d15db069d05a73300d6ad43c8c9513f836bd39eb220d351767587c4d"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A05-G12-verbos-pronominais.md",
+      "bytes": 39523,
+      "sha256": "580f3545edd631afdde2b7501de7edb2575a012366e6240a72dfeedf7c8a132e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G01-analise-sintatica-conceitos-iniciais.md",
+      "bytes": 74076,
+      "sha256": "8c2008fe62908f54ba76a6b68028a80b2d8be61c8ee9043509e20693fd449f8c"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G02-tipos-de-sujeito.md",
+      "bytes": 46568,
+      "sha256": "726f5edf84e708897cea07cd62ea7ad2c5cc46a19725ed811b1bb75417e68b3a"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G03-predicacao-verbal-e-tipos-de-predicado.md",
+      "bytes": 62387,
+      "sha256": "88150b5b83fe743afc6eb8ebebb62d3167cfda4c083fddc34b13b3511bb13f8c"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G04-objetos-e-transitividade-verbal.md",
+      "bytes": 53364,
+      "sha256": "25d525da0f59fed907a93f93af5f470ce0cfc56b89472b0cab842dedb6a91750"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G05-complemento-nominal-e-agente-da-passiva.md",
+      "bytes": 35369,
+      "sha256": "64e3b6d600757ee82c85729d4205e066223441eb0c5f1e51bc0cbfb4512469b1"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G06-vocativo-e-aposto.md",
+      "bytes": 35931,
+      "sha256": "7c8b7fbe6ad5235015e975a6b438bd367b6a162e90e87d05adee1bc70ac06404"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G07-adjuntos-adverbial-e-adnominal.md",
+      "bytes": 45757,
+      "sha256": "bd4ea106be0fa7fabf979d6216733b75326ec705e7f34e2c8dcfffad4b75061d"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A06-G08-predicativos-versus-adjunto-adnominal.md",
+      "bytes": 38412,
+      "sha256": "cb833c14144ac245fa2b4bc4840c9ba70d7e3bb2496b8ba46f5c79d13e40cb84"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G01-periodo-composto-fundamentos.md",
+      "bytes": 58732,
+      "sha256": "8115110e8e53d2625da95616f85550198b0275d9c394d2eca129dca74f36570d"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G02-oracoes-coordenadas-sindeticas.md",
+      "bytes": 67312,
+      "sha256": "3ec59de35475dcab58675fdea57125a5c5b933acb93a8308b74e0c53bc5a3be1"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G03-subordinadas-substantivas-e-adjetivas.md",
+      "bytes": 43853,
+      "sha256": "87ce8221041fd73c822017887775532addaa87f7ec4072c8fbd5285a52568e5f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G04-oracoes-subordinadas-adverbiais.md",
+      "bytes": 35850,
+      "sha256": "eb21d6717a7fd26b2937fe3dce8f1efd6eab244738a456886cd6f323b6f53352"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G05-oracoes-reduzidas-fundamentos.md",
+      "bytes": 44875,
+      "sha256": "2f1ee980641edcff935453a9e6ff8b6c5535ece56ec0be0b30a246398108b925"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G06-oracoes-reduzidas-questoes.md",
+      "bytes": 55098,
+      "sha256": "9ceff80ec7de263793688f996b6338dd0bffc523e2d8ffe9728324c0fb52f363"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G07-oracoes-reduzidas-revisao-e-reescrita.md",
+      "bytes": 38010,
+      "sha256": "4f2a226a3e0c6d58cfaba9fb38760ead4d1a0898ba46d898117954bd3962b886"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G08-desenvolvimento-das-oracoes-reduzidas.md",
+      "bytes": 51291,
+      "sha256": "09a9bbdf5ad8c77cb599fdcdf510f68fedaff507fd4a29c5e2cdfb0d2dc6ca47"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G09-palavra-que.md",
+      "bytes": 44743,
+      "sha256": "a74346efd27cdf658c0d290f9c400838c1ad1885702db38bf44d3589d6e0846f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A07-G10-palavra-se.md",
+      "bytes": 21122,
+      "sha256": "6fa641bdef5af79ea9589a1dcb7ddf42bc68d8e9498d30641bc22f417d4fef8e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G01-sinais-de-pontuacao-visao-geral.md",
+      "bytes": 31953,
+      "sha256": "6f2a3b119e6625a801cadf3e2b96f8a41ec39bcb7f0ac7b77660ab233896ebbb"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G02-uso-da-virgula-fundamentos.md",
+      "bytes": 43163,
+      "sha256": "2f472c8f779eddcb3e644cbf3b1dbe3ab6719e71052a48322084d7d94cfed1d4"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G03-uso-da-virgula-aprofundamento.md",
+      "bytes": 56881,
+      "sha256": "adc31a6788a0827467c0c9ef6579b6f76a5794aeae42034a75c66bb8426530a9"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G04-ponto-e-virgula-dois-pontos-e-aspas.md",
+      "bytes": 47368,
+      "sha256": "7103cbcc89eb9327d46aba7bd5f7cfe84a4b8dadb9870f394acbecd0d2da4a56"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G05-travessao-e-parenteses.md",
+      "bytes": 42412,
+      "sha256": "dfc16932204342cf4714a6dfc122d51c8f2c59b5d55fead3127077f69c87bbde"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A08-G06-pontuacao-revisao-e-reescrita.md",
+      "bytes": 50499,
+      "sha256": "ac0b103aba9c46bee7655fe13f271fc00cb8353148f1d45213f5c7faa5e1fbc6"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G01-concordancia-verbal-fundamentos.md",
+      "bytes": 43875,
+      "sha256": "60730649d8bdaffcf73582b06ecccfe4d7a75e8eedd67ea6e4d84dc053d36046"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G02-concordancia-verbal-aprofundamento.md",
+      "bytes": 58068,
+      "sha256": "d6a7c95dc17e1b0fd7528e9e8cb8b6f3ad13662f13fd7d1de00f57c81553d22f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G03-concordancia-verbal-questoes.md",
+      "bytes": 45185,
+      "sha256": "17ef169a3b437f3683124fdcde4efebd0b522a6f64ca087edb0c1aba581c1fca"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G04-concordancia-verbal-casos-especiais.md",
+      "bytes": 49641,
+      "sha256": "572ece7e91ba5671c27b3609d588e5a857c1f6ebf2814d5178662381a11e90d9"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G05-concordancia-nominal-parte-01.md",
+      "bytes": 32709,
+      "sha256": "2083f50eb3469aec24faf3368ea97be135e2b721288252e42e9ecfeb7ddba593"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G06-concordancia-nominal-parte-02.md",
+      "bytes": 48551,
+      "sha256": "ce48ec80c6e9f97db80fd61432a1f6a5541657e3862b1b3258bb531e60dfc11f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G07-concordancia-nominal-parte-03.md",
+      "bytes": 42287,
+      "sha256": "d8a7b37e2f6f15149fdee2df38a29fbac6b9b2d5cdb828c1a2b295ca65ccb28e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A09-G08-concordancia-nominal-partes-04-e-05.md",
+      "bytes": 50839,
+      "sha256": "cfbf692f585d783250ce047b3408671662b791545bede4c72e0d8ec3a9589425"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G01-regencia-verbal-fundamentos.md",
+      "bytes": 41441,
+      "sha256": "6a9caae980aef88e616b8a091751e76b9d4ef4b60458f4a2079d787d08807074"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G02-regencia-verbal-aprofundamento.md",
+      "bytes": 54522,
+      "sha256": "43a065d34ee21dd0dc3c13cdbbc4e495c07543da81b69f87e8b9c9842dda8e7a"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G03-regencia-e-pronomes-relativos.md",
+      "bytes": 41647,
+      "sha256": "e066289f9a27a8d9f625ed3a8ff5370b059b781fbf8c7dd10b7d6bd9b0894b35"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G04-regencia-e-pronomes-pessoais.md",
+      "bytes": 52679,
+      "sha256": "f39b0fdfe8a39112378671312be6b7a89f295a1d64ff97716959138aee6a9b79"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G05-regencia-nominal.md",
+      "bytes": 36669,
+      "sha256": "f931123a62e21c3568912857bc8a24a57a97754cf1802eefff0bc32950b6201e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G06-crase-fundamentos.md",
+      "bytes": 103141,
+      "sha256": "0efc38fe96eb45cd99045489cb1cfb1eadb89e2de25d626e6d8ad83c430569c2"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A10-G07-crase-aprofundamento-e-questoes.md",
+      "bytes": 95619,
+      "sha256": "921bb4e2e2905bcfe841c2e1c1ec1de0466fc36713d511222082f3a04a337fd3"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A11-G01-coesao-textual-visao-geral.md",
+      "bytes": 23688,
+      "sha256": "0b3eb24c627076a5a805f1dda201c6f3c8976569761a572e496abe22a873096b"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A11-G02-coesao-sequencial.md",
+      "bytes": 58335,
+      "sha256": "dca0398a0f280217fe33f8f5d631e1897fc80074c29b91155cfd495ce64df1ec"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A11-G03-coesao-referencial.md",
+      "bytes": 45577,
+      "sha256": "3c9eddc649c689b530b7299d8753a769585ee2650326ca3942228bf35f400695"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G01-sentido-proprio-e-figurado.md",
+      "bytes": 43799,
+      "sha256": "1d9c7669d5bb7886321e225931c237dd96b78639f16a81108f6ea6ecaae5eebe"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G02-sinonimos-e-antonimos.md",
+      "bytes": 47551,
+      "sha256": "bc6e86f263c81374a736326634b1d6556605f1986fa9a989b76f6f0780355c8a"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G03-hiperonimia-e-hiponimia.md",
+      "bytes": 57592,
+      "sha256": "93153dbe4ccc68ce6092c97956d8d50b0023d6e43800be01bf425d7946b57e1c"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G04-polissemia.md",
+      "bytes": 55316,
+      "sha256": "88e6bb460949939329d34a5fad5fcaa13ef47df3a97f1098709acca53ce69213"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G05-ambiguidade-homonimos-e-paronimos.md",
+      "bytes": 45922,
+      "sha256": "6f70b27dba72556541e767c25ebd2af38f0c87bdc2b417dd327aa2bbfd412c60"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G06-figuras-de-linguagem-fundamentos.md",
+      "bytes": 51464,
+      "sha256": "cfdd2ce0e77309431ca218e949902e8ca7e56609dc31bca082c34ecb22aaf10f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A12-G07-figuras-de-linguagem-aprofundamento.md",
+      "bytes": 45944,
+      "sha256": "40cdef443812580ab8d6628a195def2eb9165aeb621b06c49427af3152e45ec8"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G01-recorrencia.md",
+      "bytes": 39448,
+      "sha256": "086b4e282dd42843c6cd497b40ce7d224a774d334762cc55a8716a483c1925a6"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G02-inferencia.md",
+      "bytes": 44911,
+      "sha256": "1058d1bc1fd6f656a13533331a637995dd96fbeab5c64846c5f37891f713a568"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G03-narracao-e-descricao.md",
+      "bytes": 38001,
+      "sha256": "846f2b8902d19bcd246e3f2c0b3393fb423a41335cc4b96cdd93f616b5f69bde"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G04-narracao-e-dissertacao-expositiva.md",
+      "bytes": 27832,
+      "sha256": "e549b0f4eb0c3fd9ef0e620570d4c7c1568450b7a2ebb235709dbb59b8ee8f31"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G05-dissertacao-expositiva-e-argumentativa.md",
+      "bytes": 28328,
+      "sha256": "8812e347ada46dcb9f6ef2f192b9102e21b84fbdf53f55e5ea95d9922db2754c"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G06-miscelanea-de-interpretacao.md",
+      "bytes": 29981,
+      "sha256": "4ace51a834937a239dc749461427c68f2179cfe9fa0b43471529906932e0c04b"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A13-G07-funcoes-da-linguagem.md",
+      "bytes": 48692,
+      "sha256": "d30d1d3b8cf13a0485472f1b74ec3f632c92b2412bc0fac0fe72416203225758"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S01-ortografia.md",
+      "bytes": 20105,
+      "sha256": "7d22b6467e1f09a6bb7ad3d304f30586deed8e0deb9d34101f2f273c9d36768e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S02-classes-de-palavras-i.md",
+      "bytes": 17332,
+      "sha256": "9c5b02bd8f3bae20ea7ed7f5a1fc144339becad31f6add7ce0875266bd74f7b5"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S03-classes-de-palavras-ii.md",
+      "bytes": 9227,
+      "sha256": "ac11ef95a19c9058034cc72a4cab7c168f11a6a9be226a6e06ee0e78971c0597"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S04-classes-de-palavras-iii.md",
+      "bytes": 32705,
+      "sha256": "0aab680096c2c8a321aa6e6478f12cfe2ace1b9d129f0c01d8347c1ff5066861"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S05-sintaxe.md",
+      "bytes": 27554,
+      "sha256": "6a64a4bf97553e6453cf991e0095f4bcdb3fc7be21329a0239dfb60406cb2f6f"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S06-colocacao-pronominal.md",
+      "bytes": 5555,
+      "sha256": "350a4f4ab9a32aaedeecde6b73a5d3a65e3c2fa142aff3d11069cbaad59be3de"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S07-pontuacao.md",
+      "bytes": 7978,
+      "sha256": "0344ea02a8b87153bbd3c63dc00cfad3561f57f399cf25b7b814f4e53ef4b94b"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S08-concordancia.md",
+      "bytes": 10582,
+      "sha256": "55ccd46f55e1c081b656fbb64d46a7ca8c8abe0556d4a47a33d4b0ecb1590a94"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S09-regencia-verbal-e-nominal-e-crase.md",
+      "bytes": 6006,
+      "sha256": "03c58db3afb141dd900efe9d42e0b4f514c140a869677c7e7fa140405c775aff"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S10-coesao-coerencia-e-reescritura.md",
+      "bytes": 4121,
+      "sha256": "b7878658a76d0b88bd3a8de9036455a3b62d2f238e31a66e91f2e41589f89aa0"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S11-semantica.md",
+      "bytes": 5918,
+      "sha256": "35125e865c67cf0654188ade7c06ec9e4cb0896d57f8520f11996682d2f1816e"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S12-tipologia-textual.md",
+      "bytes": 5761,
+      "sha256": "020889446f73d31bcfb5ac480bfa99dca753d5a12f02174a0a19779deefcb5fd"
+    },
+    {
+      "path": "public/knowledge/pedagogical/units/A14-S13-compreensao-e-interpretacao-de-textos.md",
+      "bytes": 4751,
+      "sha256": "c6041f9bcc4a103a2ea3ea75873d0899d159410012cb2362950b4eb0a0c0c790"
+    },
+    {
+      "path": "src/data/editorialDailyTips.generated.ts",
+      "bytes": 10724,
+      "sha256": "11c5e5fba91c2c3f2d9a2dd68bf1277da4a4ca52d2181ae32de3355051c4b403"
+    },
+    {
+      "path": "src/data/editorialDuelQuestions.generated.ts",
+      "bytes": 25305,
+      "sha256": "f3a5c0ef96de3e0fc6d4a3db440e6ef36cd1210c09a589e6e1312a2183813e08"
+    },
+    {
+      "path": "src/data/editorialFlashcards.generated.ts",
+      "bytes": 257012,
+      "sha256": "1582cb94436750285d99c9632870df2c3b4bb2e46760bd0095e5fb6ab21f062d"
+    },
+    {
+      "path": "src/data/modules.generated.ts",
+      "bytes": 842937,
+      "sha256": "a8d5b431e6095ca0afdbb0955d81b50c1d5536618a5f8d3c7d7412ee1be3b027"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.generated.ts",
+      "bytes": 280,
+      "sha256": "d45627ae1f83ae0c35b13c4677b39dfc962517a3f868bfaa631e9aa0a0beae9e"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-001.generated.ts",
+      "bytes": 232028,
+      "sha256": "229cb1a792f75b1c9523e5d7aa42451f87d71f980d71b2290518154a5e72977c"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-002.generated.ts",
+      "bytes": 250346,
+      "sha256": "7acb6f51f2959b2963a98d0bb541692e00ac1aa95c1ab209098c12281ac4bbb0"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-003.generated.ts",
+      "bytes": 222197,
+      "sha256": "5864ad84845e8d603e5d6fba3bb74c19e96a62709494aa92fae3fbcb90a97890"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-004.generated.ts",
+      "bytes": 267799,
+      "sha256": "1322f1d199c2f89790a70dedd95d0dc41ac1adcd75f5b1f7e60f964faa457646"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-005.generated.ts",
+      "bytes": 267227,
+      "sha256": "d86093156a5abddedb80b640116bf5f681a671b635b77d93ae1a836ccb2f2d98"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-006.generated.ts",
+      "bytes": 262381,
+      "sha256": "0c1bf749fac3574fc0024ae0ba0646bb0770a055fbaf63e0c937feaaf3b3293d"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-007.generated.ts",
+      "bytes": 229474,
+      "sha256": "4c2c47a44fb915b1914c0afb62f4821dad613e0b5c738a56ff864bc380d5daa3"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledge.part-008.generated.ts",
+      "bytes": 54543,
+      "sha256": "92392ccc1353c18c002dc8b81dee5afee04be16e9bd90ae90a450e0f8f1fbf3d"
+    },
+    {
+      "path": "src/data/pedagogicalKnowledgeIndex.generated.ts",
+      "bytes": 1156,
+      "sha256": "f38773139c3821f9f2c4cabe96f5d3df35b77be5e8b7db3a4dd83b7cf533c4b5"
+    },
+    {
+      "path": "src/data/suvecaMethod.generated.ts",
+      "bytes": 62893,
+      "sha256": "c581b534b0a0311afb1403cdc821c50c80734a1c0c899d66dae1b7adc37b063e"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "knowledge/editorial/suveca-method.json",
+      "bytes": 14368,
+      "sha256": "b880fd477a8330a1d0ff4e10b54a2a185d556538619c2e928b0db11b421ec62e"
+    },
+    {
+      "path": "knowledge/editorial/suveca-group-connections.json",
+      "bytes": 27259,
+      "sha256": "77dc09dd404522a846f7e0fa87ae90820903cb0fbb3bc9d2bf780fd50557f8e9"
+    },
+    {
+      "path": "knowledge/editorial/suveca-connections-editorial.json",
+      "bytes": 730220,
+      "sha256": "b7c1f2aa21e35edd96db9dc8c49677955e6a8e857df364f56506d7d19393378a"
+    },
+    {
+      "path": "Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 4281,
+      "sha256": "0026a7e9d5f687c9dc751139620d66ad2aea14d4dbcfe6d466fb6cf2a3423f56"
+    },
+    {
+      "path": "Aula Processada/Aula 00 — Ortografia Oficial/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2005,
+      "sha256": "54669cfe0ea69e41fe3ab5f6dc5c23ed5ed6c2392f4891e2f334831911aef0ab"
+    },
+    {
+      "path": "Aula Processada/Aula 00 — Ortografia Oficial/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 50485,
+      "sha256": "332fa47ac5608137ff511c252258c1288766d2c00ecdb591098ebbd1777a4ec8"
+    },
+    {
+      "path": "Aula Processada/Aula 00 — Ortografia Oficial/corpus_apostila/questions.jsonl",
+      "bytes": 233728,
+      "sha256": "309fbd383df4f7ac68bf2c382e2d32c2598fcfb93d6b930bcf4c24d6499c2f08"
+    },
+    {
+      "path": "Aula Processada/Aula 00 — Ortografia Oficial/corpus_apostila/answers.jsonl",
+      "bytes": 135150,
+      "sha256": "6701e9c135ee08b7a34ff91f18d874a77f2b3ddec7022ee04cdc8afde92a5607"
+    },
+    {
+      "path": "Aula Processada/Aula 01 — Classes de Palavras Substantivos, Adjetivos, Artigos, Numerais, Advérbios e Interjeições/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2366,
+      "sha256": "8752658bbcfd822de6159f7271fc221bc02ebef38ff0f15f09e7cbcf1d7f9174"
+    },
+    {
+      "path": "Aula Processada/Aula 01 — Classes de Palavras Substantivos, Adjetivos, Artigos, Numerais, Advérbios e Interjeições/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 38497,
+      "sha256": "52f20de7edf99045113034c0673b215b521fa79434596582ebc6adf20bd9fd70"
+    },
+    {
+      "path": "Aula Processada/Aula 01 — Classes de Palavras Substantivos, Adjetivos, Artigos, Numerais, Advérbios e Interjeições/corpus_apostila/questions.jsonl",
+      "bytes": 87024,
+      "sha256": "9bfd320bdb6cbf29ee3662111e0c84afdf87730f062688193cffad7a7f4de7fa"
+    },
+    {
+      "path": "Aula Processada/Aula 01 — Classes de Palavras Substantivos, Adjetivos, Artigos, Numerais, Advérbios e Interjeições/corpus_apostila/answers.jsonl",
+      "bytes": 146754,
+      "sha256": "f8655df4025e30ce41665944b22086a6a3f6ccccb10d7040fd1063595ec5b887"
+    },
+    {
+      "path": "Aula Processada/Aula 02 — Classes de Palavras Preposições e Conjunções/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2151,
+      "sha256": "43f6eb04010ea08fbe95cff5db3e04679c1d9a3b20ba9cdbc33c9bb49b0c0522"
+    },
+    {
+      "path": "Aula Processada/Aula 02 — Classes de Palavras Preposições e Conjunções/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 35488,
+      "sha256": "ced0d25392d9906196d496d3ad1c3ad0ac5718f8cd59b18d34913463e925c05a"
+    },
+    {
+      "path": "Aula Processada/Aula 02 — Classes de Palavras Preposições e Conjunções/corpus_apostila/questions.jsonl",
+      "bytes": 483665,
+      "sha256": "786c241ffbcc9d205518a35a23d1ec1fad784dea7bbe1952f2682d66be7b86cf"
+    },
+    {
+      "path": "Aula Processada/Aula 02 — Classes de Palavras Preposições e Conjunções/corpus_apostila/answers.jsonl",
+      "bytes": 132951,
+      "sha256": "138a4f34a2caa6396d5f9effae0aa3ed6ff9dc65ee43da0f0efcf6d2388c8efb"
+    },
+    {
+      "path": "Aula Processada/Aula 03 — Pronomes e Colocação Pronominal/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2080,
+      "sha256": "de69a1d2ffcd4e5242b3a36319657588139725300559c28b820cd27e2222fd3a"
+    },
+    {
+      "path": "Aula Processada/Aula 03 — Pronomes e Colocação Pronominal/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 65770,
+      "sha256": "349e9441121c56d0854d35185eac79fd4541b5a8c1d28351383e90357d1e2670"
+    },
+    {
+      "path": "Aula Processada/Aula 03 — Pronomes e Colocação Pronominal/corpus_apostila/questions.jsonl",
+      "bytes": 328067,
+      "sha256": "f171e006febc4b31b8e6e1ccd804f893b32fcc184cef6f94f15b353dfc589494"
+    },
+    {
+      "path": "Aula Processada/Aula 03 — Pronomes e Colocação Pronominal/corpus_apostila/answers.jsonl",
+      "bytes": 71735,
+      "sha256": "a21270162eaf5739704e9eb21c52db371ab1747d80325551bf14fc158f1b4e7a"
+    },
+    {
+      "path": "Aula Processada/Aula 04 — Verbos Tempos e Modos Verbais/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2061,
+      "sha256": "3ecd0d689bc060ed99661a454ca0bd8c30455a95a99b01f20b63b7eeda2a03ef"
+    },
+    {
+      "path": "Aula Processada/Aula 04 — Verbos Tempos e Modos Verbais/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 69468,
+      "sha256": "138912403d665b3f95134803f1cbaa43a1a70d1d6f9f07e3c249e96d8ede87f6"
+    },
+    {
+      "path": "Aula Processada/Aula 04 — Verbos Tempos e Modos Verbais/corpus_apostila/questions.jsonl",
+      "bytes": 172009,
+      "sha256": "9f9432028244dd1b6fbbb337053e7d3f9a1221ad7a7955ada28e08dbfa53919c"
+    },
+    {
+      "path": "Aula Processada/Aula 04 — Verbos Tempos e Modos Verbais/corpus_apostila/answers.jsonl",
+      "bytes": 105754,
+      "sha256": "9e8d43a3d262b4c660b709ea799bc83ae3c96a25beb5812872f52c37dfc7e3c8"
+    },
+    {
+      "path": "Aula Processada/Aula 05 — Verbos Correlação e Vozes Verbais/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2094,
+      "sha256": "53212454939a6dec7316cd73c8e1f22251c6de50f7fc1bccab225af8e78fe828"
+    },
+    {
+      "path": "Aula Processada/Aula 05 — Verbos Correlação e Vozes Verbais/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 93166,
+      "sha256": "858870d38af47161a8d0b4a2193ead87b007e9cfa6350ffedc585eede019a1e4"
+    },
+    {
+      "path": "Aula Processada/Aula 05 — Verbos Correlação e Vozes Verbais/corpus_apostila/questions.jsonl",
+      "bytes": 75203,
+      "sha256": "2ae0a2111925f0b9dcd19a99f5589b888fa70c167e780273237bafe1575d62a8"
+    },
+    {
+      "path": "Aula Processada/Aula 05 — Verbos Correlação e Vozes Verbais/corpus_apostila/answers.jsonl",
+      "bytes": 45885,
+      "sha256": "b906864f527d203cd4971957326c91bc060e0d1c38b3ecae3db920b2478cceac"
+    },
+    {
+      "path": "Aula Processada/Aula 06 — Estrutura Morfossintática Termos da Oração/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2139,
+      "sha256": "09bb4d0b987509cda0534b68a95193c0b5674b74f16ca3a7f4b7c8fb8297848d"
+    },
+    {
+      "path": "Aula Processada/Aula 06 — Estrutura Morfossintática Termos da Oração/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 64649,
+      "sha256": "0a5a8859ef884e002e2cc1066e0fe24bd103058c9eb327a81da95341b13eccc2"
+    },
+    {
+      "path": "Aula Processada/Aula 06 — Estrutura Morfossintática Termos da Oração/corpus_apostila/questions.jsonl",
+      "bytes": 188169,
+      "sha256": "dd13135f12b79b30bc3689ccab409a21298029b12d28f697fc0b0b95ea298780"
+    },
+    {
+      "path": "Aula Processada/Aula 06 — Estrutura Morfossintática Termos da Oração/corpus_apostila/answers.jsonl",
+      "bytes": 111184,
+      "sha256": "ba84b98f87c6b66deb6f793d481009c71bb2cd088af9f726075f4904c0513e38"
+    },
+    {
+      "path": "Aula Processada/Aula 07 — Período Composto Coordenação e Subordinação/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2162,
+      "sha256": "2bddd9160e5ccef828b2da6302fa0247f559c416cb718cdec68f520615d775ba"
+    },
+    {
+      "path": "Aula Processada/Aula 07 — Período Composto Coordenação e Subordinação/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 76300,
+      "sha256": "b046db55dad1cf146f0b4f39875bba4cf236c7c08feba30e3ffa3652345bb6bd"
+    },
+    {
+      "path": "Aula Processada/Aula 07 — Período Composto Coordenação e Subordinação/corpus_apostila/questions.jsonl",
+      "bytes": 136320,
+      "sha256": "b1b7f01782ccb5da61cb5eccd382808195e835e44a10384bb8cbfd371673fe8a"
+    },
+    {
+      "path": "Aula Processada/Aula 07 — Período Composto Coordenação e Subordinação/corpus_apostila/answers.jsonl",
+      "bytes": 52287,
+      "sha256": "096ca17c28a4336addf652c13ad323f32e2aa5b1e2e6ade4a2950d106d1f06f4"
+    },
+    {
+      "path": "Aula Processada/Aula 08 — Pontuação/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 1968,
+      "sha256": "e39336481832ec9f4ee651f3dc49ce51ba9815355b741b9420519cc90c556406"
+    },
+    {
+      "path": "Aula Processada/Aula 08 — Pontuação/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 45905,
+      "sha256": "66e6d4c284f144210481af376b3a6a47ab03079b5969cd2e987623330bc31fcf"
+    },
+    {
+      "path": "Aula Processada/Aula 08 — Pontuação/corpus_apostila/questions.jsonl",
+      "bytes": 547572,
+      "sha256": "527e7c2f6dce77e8d6ea9a34d424fd146e36c126d65821dffec962069ea37c18"
+    },
+    {
+      "path": "Aula Processada/Aula 08 — Pontuação/corpus_apostila/answers.jsonl",
+      "bytes": 171839,
+      "sha256": "1b8cb451192323a3d3b25b220640d227d77d65b4cc7f7932adfc29c8688fb425"
+    },
+    {
+      "path": "Aula Processada/Aula 09 — Concordância Verbal e Nominal/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2063,
+      "sha256": "e304c1cc3c5bbe962ab552a2b6b405e5d1b40890d06e9006551da26cf4ed3e45"
+    },
+    {
+      "path": "Aula Processada/Aula 09 — Concordância Verbal e Nominal/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 61645,
+      "sha256": "276fb05e1df07d21f4a82e9384d62b8dd89bde374a78794ca78aff540b6e2684"
+    },
+    {
+      "path": "Aula Processada/Aula 09 — Concordância Verbal e Nominal/corpus_apostila/questions.jsonl",
+      "bytes": 210203,
+      "sha256": "01e8c163c6873ddbebf071a7fa9e884485f77aaa0af7b09ff579fcd3c2289fbe"
+    },
+    {
+      "path": "Aula Processada/Aula 09 — Concordância Verbal e Nominal/corpus_apostila/answers.jsonl",
+      "bytes": 83239,
+      "sha256": "849df137afd26a1d9bab433d5eab254641961053dca4255e820a52fceb8036f2"
+    },
+    {
+      "path": "Aula Processada/Aula 10 — Regência Verbal e Nominal e Crase/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2087,
+      "sha256": "a546fff44d8ec312532b6031c047fad011be251cc1725ee67028dd988fe53303"
+    },
+    {
+      "path": "Aula Processada/Aula 10 — Regência Verbal e Nominal e Crase/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 63048,
+      "sha256": "4655736e26193839a6383921670c98294a2f1a98ea9de490f7b9800d736b345b"
+    },
+    {
+      "path": "Aula Processada/Aula 10 — Regência Verbal e Nominal e Crase/corpus_apostila/questions.jsonl",
+      "bytes": 272924,
+      "sha256": "3f317ec2b9eec5e6e7dd8941e02f18ba9b32a74c752d20bf7561ca91ca4a0976"
+    },
+    {
+      "path": "Aula Processada/Aula 10 — Regência Verbal e Nominal e Crase/corpus_apostila/answers.jsonl",
+      "bytes": 139070,
+      "sha256": "01e8ba418d091d0d8af0fc17ef2df3bdaa146e339b3bf32c2604437eae239721"
+    },
+    {
+      "path": "Aula Processada/Aula 11 — Coesão Textual, Referenciação e Reescrita/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2128,
+      "sha256": "dee8f9da33097b6f44e0408346f606e345aec93bf9502d9c444720d411679281"
+    },
+    {
+      "path": "Aula Processada/Aula 11 — Coesão Textual, Referenciação e Reescrita/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 21905,
+      "sha256": "c0d9053c6fb584ce66fcf3146b0d2bc2a2f7581a396224ca9358ca423efe2795"
+    },
+    {
+      "path": "Aula Processada/Aula 11 — Coesão Textual, Referenciação e Reescrita/corpus_apostila/questions.jsonl",
+      "bytes": 353124,
+      "sha256": "77ba4e880793c873d5bd648463b1e02e782aa5713b6c4417a8925e718025ab7a"
+    },
+    {
+      "path": "Aula Processada/Aula 11 — Coesão Textual, Referenciação e Reescrita/corpus_apostila/answers.jsonl",
+      "bytes": 74819,
+      "sha256": "f475cc16bf5518f4493e208a510da6d7c2e758afad40f4b0105b6e674dde60dc"
+    },
+    {
+      "path": "Aula Processada/Aula 12 — Semântica e Significação das Palavras/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2114,
+      "sha256": "d8beea25676f007478f9fb7085f74c99f2f0b04be21b303f82b8984d6c798a3d"
+    },
+    {
+      "path": "Aula Processada/Aula 12 — Semântica e Significação das Palavras/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 57577,
+      "sha256": "807a5b71c791fd74110dfbf1402a69b721f1957326a20890292e62296bf80c06"
+    },
+    {
+      "path": "Aula Processada/Aula 12 — Semântica e Significação das Palavras/corpus_apostila/questions.jsonl",
+      "bytes": 220950,
+      "sha256": "f624aab2b46b37ed29d82fe554ac1499b129b6278ab3184f88a4645e9b0ecfc3"
+    },
+    {
+      "path": "Aula Processada/Aula 12 — Semântica e Significação das Palavras/corpus_apostila/answers.jsonl",
+      "bytes": 69576,
+      "sha256": "7bea07ae729866d34ddc7f57b80bba48d0512065801f12978498e46245dde767"
+    },
+    {
+      "path": "Aula Processada/Aula 13 — Corpus pedagógico estruturado/Integracao_Pedagogica/v2/manifest.json",
+      "bytes": 2064,
+      "sha256": "56704c687bbee5f3c81381a4fc0389e50da58aa7a109a1c232061d5f7338ce04"
+    },
+    {
+      "path": "Aula Processada/Aula 13 — Corpus pedagógico estruturado/Integracao_Pedagogica/v2/canonical/units.jsonl",
+      "bytes": 47210,
+      "sha256": "4c1857ffc969777dcb71f66413adc3335ef6c342521eefc109ac78361d570718"
+    },
+    {
+      "path": "Aula Processada/Aula 13 — Corpus pedagógico estruturado/corpus_apostila/questions.jsonl",
+      "bytes": 725117,
+      "sha256": "426e4c3f143c60ff033d2bd4628008f1db7c1bc1f42a6f4273cedba3c232d944"
+    },
+    {
+      "path": "Aula Processada/Aula 13 — Corpus pedagógico estruturado/corpus_apostila/answers.jsonl",
+      "bytes": 294918,
+      "sha256": "b37becfb4e82849b354a76bccf10912910d628389ffdb1598accbde975c49122"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/manifest.json",
+      "bytes": 4272,
+      "sha256": "05db6defa5f369c4994a1531781cb454542175af82f4d5e6e0651839f5f85aec"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/sections.jsonl",
+      "bytes": 38993,
+      "sha256": "78e78f529c54a65bd24c00b6be0144788e9794e7c26d342760da1f2675624ab6"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/concepts.jsonl",
+      "bytes": 141870,
+      "sha256": "52a0185c529e33caf08c863f471c840b518c567d2adfac89fa4e0bc3ed2fcee2"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/rules.jsonl",
+      "bytes": 87748,
+      "sha256": "000207b006f59f3411d4708bb7d009e9d89622ccfc05044d7af91053890fa3af"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/examples.jsonl",
+      "bytes": 122741,
+      "sha256": "4b067fb3cdbe90f21968658c24a4cf79b2913dc01801f9982f92cf3f440d3d01"
+    },
+    {
+      "path": "Aula Processada/Aula 14 — Revisão Geral de Língua Portuguesa/corpus_apostila/rag_chunks.jsonl",
+      "bytes": 275931,
+      "sha256": "91d410b9da5285665636db19562bda60f79a0c4bfa20dc9503351cccfe9f8953"
+    }
+  ]
+}

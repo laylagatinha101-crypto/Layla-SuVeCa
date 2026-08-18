@@ -1,0 +1,1024 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A11-G01",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.106Z"
+  },
+  "unit": {
+    "unitId": "IP-A11-G01",
+    "lessonId": "A11",
+    "groupId": "G01",
+    "title": "Coesão Textual - Visão Geral",
+    "variant": "development",
+    "canonicalTopicId": "pt:a11:coesao-textual-visao-geral",
+    "learningObjectives": [
+      "OBJ-IP-A11-G01-001",
+      "OBJ-IP-A11-G01-002",
+      "OBJ-IP-A11-G01-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "A SuVeCA reconstrói participantes e relações locais; a coesão textual conecta esses mapas por retomadas, substituições, conectores e progressão.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfossintaxe Básica: Conhecimento elementar sobre classes de palavras (especialmente substantivos, pronomes pessoais, conjunções e preposições).",
+            "Sintaxe do Período Composto: Noção preliminar de articulação interoracional (coordenação, subordinação e estruturas oracionais reduzidas)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "text COESÃO TEXTUAL [KB-A11-G01-COESAO-TEXTUAL-001] │ (Definição canônica: Ligação / Conexão gramatical e estrutural) │ ├── I. COESÃO SEQUENCIAL [KB-A11-G01-COESAO-TEXTUAL-002] │ ├── Finalidade: Estabelecer relações lógico-semânticas e progressão no fluxo textual │ ├── Mecanismos Operadores: │ │ ├── Conjunções [EX-A11-G01-COESAO-TEXTUAL-001] (ex.: \"mas\" → Oposição/Adversidade) │ │ └── Preposições [KB-A11-G01-COESAO-TEXTUAL-003, EX-A11-G01-COESAO-TEXTUAL-002] (ex.: \"por\" → Causa) │ └── Alerta Pedagógico: Preposição também atua como conector [WARN-A11-G01-COESAO-TEXTUAL-001] │ └── II. COESÃO REFERENCIAL [KB-A11-G01-COESAO-TEXTUAL-004] ├── Finalidade: Retomada ou antecipação de termos para evitar repetições desnecessárias ├── Direcionalidade Vetorial: │ ├── Coesão Anafórica: Remete a termo antecedente (olha para trás) │ └── Coesão Catafórica: Aponta para termo subsequente (olha para a frente) ├── Polos da Relação [KB-A11-G01-COESAO-TEXTUAL-005]: │ ├── Termo Coesivo: Elemento substituto vicário (lança a seta / ex.: pronome \"Ela\") │ └── Referente: Elemento textual nuclear (recebe a seta / \"termo setado\" / ex.: substantivo \"Maria\") └── Método Operacional: \"Setas salvam!\" [PROC-A11-G01-COESAO-TEXTUAL-001, TIP-A11-G01-COESAO-TEXTUAL-001]"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A11-G01-001",
+          "title": "Mapa de conexão — Coesão Textual - Visão Geral",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a11:coesao-textual-visao-geral",
+              "label": "Coesão Textual - Visão Geral",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a11:coesao-textual-visao-geral",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A coesão textual é o mecanismo linguístico de amarração, ligação e articulação material que estrutura e conecta palavras, orações, períodos e parágrafos, estabelecendo a tessitura gramatical explícita do texto."
+        },
+        {
+          "type": "paragraph",
+          "text": "No modelo didático para concursos da Profª. Adriana Figueiredo, a coesão é sintetizada operacionalmente pelo binômio ligação / conexão. A coesão cuida da superfície textual — a forma material como os blocos discursivos são interligados. Sem os elementos coesivos adequados, as proposições tornam-se fragmentadas, comprometendo a fluidez e a relação mútua entre as ideias."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identificar se há elementos gramaticais explícitos cuja função primária seja unir termos oracionais ou períodos (conectores) ou remeter a elementos nominais (termos vicários).",
+            "Verificar se o elemento opera no nível do encadeamento sequencial das proposições ou no nível da referência a termos substantivos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo de presença de coesão: Emprego de conjunções (mas, portanto), preposições conectivas (por, para) e pronomes de retomada (ela, este, cujo).",
+            "Contraexemplo (ausência de amarração coesiva formal): Justaposição assindética desconexa de frases sem marcas morfossintáticas explícitas de integração."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão textual diz respeito estritamente à amarração gramatical e vocabular de superfície. A presença perfeita de elementos de coesão não garante, isoladamente, a coerência textual (harmonia lógica e factual global), existindo autonomia conceitual entre ambos os fenômenos."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande em: KB-A11-G01-COESAO-TEXTUAL-002 e KB-A11-G01-COESAO-TEXTUAL-004.",
+            "Evidenciado por: VIS-A11-G01-COESAO-TEXTUAL-002.",
+            "Citação associada: QUOTE-A11-G01-COESAO-TEXTUAL-001.",
+            "Termo associado: TERM-A11-G01-COESAO-TEXTUAL-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão sequencial é o mecanismo responsável por garantir a progressão textual e o encadeamento lógico entre as partes do discurso, estabelecendo liames sintático-semânticos (oposição, causa, tempo, conclusão, condição, etc.) à medida que o texto se desenvolve."
+        },
+        {
+          "type": "paragraph",
+          "text": "A denominação sequencial decorre diretamente de sua atuação no fluxo contínuo do texto: ela conecta o que foi dito no segmento anterior com o que será expresso no segmento posterior. As duas classes gramaticais operadoras desse mecanismo são:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunções (conectores oracionais por excelência): Unem orações coordenadas ou subordinadas, delimitando expressamente o valor lógico da transição.",
+            "Preposições: Atuam como conectores funcionais ao introduzir complementos ou orações reduzidas que veiculam circunstâncias lógicas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Localizar o vocábulo de ligação invariável que interliga duas orações ou segmentos frasais.",
+            "Analisar o valor semântico introduzido pelo conector (ex.: contraste, causalidade, proporcionalidade).",
+            "Testar a dependência sequencial: a oração subsequente confere sentido lógico à anterior por intermédio do conectivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo 1 (conjunção): \"Saiu cedo, mas se atrasou.\" (O conector adversativo mas cria coesão sequencial introduzindo quebra de expectativa).",
+            "Exemplo 2 (preposição): \"Chegou tarde por ter perdido o trem.\" (A preposição por atua na coesão sequencial introduzindo a causa do fato precedente).",
+            "Contraexemplo: O uso de um pronome pessoal para substituir um substantivo não é coesão sequencial, mas sim coesão referencial."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão sequencial exige conector gramatical funcional que estabeleça relação de sentido. A simples justaposição temporal de orações sem operador explícito constitui encadeamento assindético, não coesão sequencial gramatical explícita."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A11-G01-COESAO-TEXTUAL-001.",
+            "Expande em: KB-A11-G01-COESAO-TEXTUAL-003.",
+            "Contrasta com: KB-A11-G01-COESAO-TEXTUAL-004.",
+            "Exemplificado por: EX-A11-G01-COESAO-TEXTUAL-001 e EX-A11-G01-COESAO-TEXTUAL-002.",
+            "Termos associados: TERM-A11-G01-COESAO-TEXTUAL-002, TERM-A11-G01-COESAO-TEXTUAL-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As preposições atuam plenamente como conectores de coesão sequencial quando introduzem estruturas sintáticas (como orações reduzidas) que estabelecem relações lógicas circunstanciais com o segmento discursivo antecedente."
+        },
+        {
+          "type": "paragraph",
+          "text": "É um equívoco frequente restringir a coesão sequencial apenas às conjunções. A doutrina da Profª. Adriana Figueiredo enfatiza que as preposições exercem papel conectivo autêntico. Na estrutura \"Chegou tarde por ter perdido o trem\", a preposição essencial por estabelece o nexo semântico causal entre o que vem depois (\"ter perdido o trem\") e o fato expresso anteriormente (\"Chegou tarde\")."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identificar a preposição que encabeça oração de infinitivo, gerúndio ou particípio (orações reduzidas).",
+            "Verificar se a preposição é permutável por uma conjunção subordinativa equivalente (ex.: por ter perdido = porque perdeu / visto que perdeu)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo analisado: \"Chegou tarde por [preposição causal] ter perdido o trem.\"",
+            "Estrutura lógica: [Fato antecedente] + [Preposição conectora] + [Fator causal explicativo]."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nem toda preposição puramente gramatical (como a regida por verbo transitivo indireto em relação ao seu objeto) estabelece circunstância interoracional complexa, porém, do ponto de vista morfossintático, preposições que introduzem adjuntos e orações adverbiais são conectores sequenciais legítimos."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A11-G01-COESAO-TEXTUAL-002.",
+            "Possui alerta: WARN-A11-G01-COESAO-TEXTUAL-001.",
+            "Exemplificado por: EX-A11-G01-COESAO-TEXTUAL-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão referencial é o mecanismo que assegura a continuidade temática e a não repetição de palavras no texto por meio da retomada (anáfora) ou da antecipação (catáfora) de termos e informações."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enquanto a coesão sequencial lida com conectores e relações lógicas entre proposições, a coesão referencial lida com termos vicários (pronomes, advérbios, numerais, sinônimos) que apontam para entidades mencionadas no texto. Divide-se formalmente em:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Coesão Anafórica (Retomada): O elemento coesivo remete a um termo que foi expresso previamente no texto (o termo aponta para trás no eixo textual).",
+            "Coesão Catafórica (Antecipação): O elemento coesivo anuncia ou introduz um referente que só será explicitado em momento posterior (o termo aponta para a frente no eixo textual)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Critério Anafórico: Localizar o termo coesivo $\\rightarrow$ verificar se o substantivo/ideia correspondente já apareceu anteriormente $\\rightarrow$ classificar como anáfora.",
+            "Critério Catafórico: Localizar o termo coesivo $\\rightarrow$ verificar se o referente só é revelado após a sua enunciação $\\rightarrow$ classificar como catáfora."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Anafórico: \"Maria gosta de viajar. Ela já conheceu mais de dez países.\" (Ela retoma Maria).",
+            "Exemplo Catafórico: \"Só desejo isto: a sua aprovação.\" (isto antecipa a sua aprovação)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A referência textual (endofórica) divide-se em anáfora e catáfora no plano estritamente intratextual. Deve-se zelar pela univocidade do referente para evitar ambiguidades referenciais."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A11-G01-COESAO-TEXTUAL-001.",
+            "Expande em: KB-A11-G01-COESAO-TEXTUAL-005.",
+            "Contrasta com: KB-A11-G01-COESAO-TEXTUAL-002.",
+            "Termos associados: TERM-A11-G01-COESAO-TEXTUAL-003, TERM-A11-G01-COESAO-TEXTUAL-005, TERM-A11-G01-COESAO-TEXTUAL-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A mecânica da coesão referencial estrutura-se pela oposição funcional entre dois polos textuais: o termo coesivo (elemento gramatical substituto que dispara o vetor de referência) e o referente (núcleo substantivo apontado, denominado \"termo setado\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em provas de concurso, as bancas exigem o domínio exato dessa nomenclatura:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Termo Coesivo: É o elemento que substitui outro no texto; didaticamente, é o termo que manda a seta. Na maioria dos casos, materializa-se sob a forma de um pronome pessoal, demonstrativo ou relativo.",
+            "Referente: É o elemento textual substantivo que empresta seu significado ao pronome; didaticamente, é o termo que recebe a seta (\"termo setado\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Identificar o pronome vicário na oração.",
+            "Perguntar: \"A quem ou a que este pronome se refere?\".",
+            "O pronome é o Termo Coesivo; o substantivo localizado na resposta é o Referente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Prático:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Maria (Referente / Termo Setado)} \\longleftarrow \\text{Ela (Termo Coesivo / Pronome)}"
+        },
+        {
+          "type": "paragraph",
+          "text": "No período \"Maria gosta de viajar. Ela já conheceu mais de dez países.\", Ela é o termo coesivo (manda a seta para trás) e Maria é o referente (recebe a seta)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Caso haja múltiplos substantivos no contexto antecedente e o termo coesivo puder apontar para mais de um sem que o contexto desfaça a dúvida, configura-se vício de ambiguidade referencial."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A11-G01-COESAO-TEXTUAL-004.",
+            "Aplicado em: PROC-A11-G01-COESAO-TEXTUAL-001.",
+            "Possui dica associada: TIP-A11-G01-COESAO-TEXTUAL-001.",
+            "Exemplificado por: EX-A11-G01-COESAO-TEXTUAL-003.",
+            "Citação associada: QUOTE-A11-G01-COESAO-TEXTUAL-002.",
+            "Termos associados: TERM-A11-G01-COESAO-TEXTUAL-007, TERM-A11-G01-COESAO-TEXTUAL-008."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A11-G01-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G01-001",
+              "table": {
+                "tableId": "TABLE-IP-A11-G01-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Conceito / Regra",
+                  "Formulação Canônica Consolidada",
+                  "Elementos Operadores / Classes",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Coesão Textual",
+                    "Mecanismo formal de ligação e conexão material entre elementos, orações e partes do texto.",
+                    "Conectores gramaticais e termos vicários.",
+                    "KB-A11-G01-COESAO-TEXTUAL-001"
+                  ],
+                  [
+                    "Coesão Sequencial",
+                    "Encadeamento lógico e progressivo entre segmentos textuais, estruturando o fluxo de ideias.",
+                    "Conjunções e preposições.",
+                    "KB-A11-G01-COESAO-TEXTUAL-002"
+                  ],
+                  [
+                    "Regra dos Conectores",
+                    "Preposições com valor lógico-circunstancial em orações reduzidas atuam como autênticos conectores sequenciais.",
+                    "Preposições essenciais (ex.:por, para, a).",
+                    "KB-A11-G01-COESAO-TEXTUAL-003"
+                  ],
+                  [
+                    "Coesão Referencial",
+                    "Mecanismo de alusão que evita redundâncias vocabulares via anáfora (retomada) ou catáfora (antecipação).",
+                    "Pronomes, numerais, advérbios e sinônimos.",
+                    "KB-A11-G01-COESAO-TEXTUAL-004"
+                  ],
+                  [
+                    "Termo Coesivo",
+                    "Elemento substituto que estabelece o elo referencial (\"o termo que manda a seta\").",
+                    "Pronomes pessoais, demonstrativos, relativos.",
+                    "KB-A11-G01-COESAO-TEXTUAL-005"
+                  ],
+                  [
+                    "Referente",
+                    "Elemento substantivo original que recebe o elo referencial (\"o termo setado\").",
+                    "Substantivos próprios, comuns ou proposições.",
+                    "KB-A11-G01-COESAO-TEXTUAL-005"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A11-G01-COESAO-TEXTUAL-001",
+          "title": "Método Operacional \"Setas Salvam\" para Análise Referencial",
+          "objective": "Executar o algoritmo decisório para Método Operacional \"Setas Salvam\" para Análise Referencial",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método Operacional \"Setas Salvam\" para Análise Referencial."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Reconhecimento morfológico de pronomes (pessoais, demonstrativos, possessivos, relativos).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Fundamenta-se em",
+              "explanation": "KB-A11-G01-COESAO-TEXTUAL-004 e KB-A11-G01-COESAO-TEXTUAL-005.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Dica operacional associada",
+              "explanation": "TIP-A11-G01-COESAO-TEXTUAL-001.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método Operacional \"Setas Salvam\" para Análise Referencial."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Procedimento: Diagnóstico e resolução de questões de coesão referencial"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identificar sem equívocos as relações referenciais presentes no texto da prova, determinando a direcionalidade (anáfora ou catáfora) e discriminando com precisão o termo coesivo do seu respectivo referente substantivo."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pré-requisitos"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Reconhecimento morfológico de pronomes (pessoais, demonstrativos, possessivos, relativos)."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Roteiro de aplicação passo a passo"
+            },
+            {
+              "type": "paragraph",
+              "text": "text [Passo 1: Localizar o Termo Substitutivo] │ Identificar o pronome ou palavra vicária na oração (ex.: \"Ela\"). ▼ [Passo 2: Rotular o \"Termo Coesivo\"] │ Definir o pronome como o elemento que \"manda a seta\". ▼ [Passo 3: Rastrear o Contexto Textual] │ Perguntar ao verbo/oração a quem o termo coesivo se reporta faticamente. ▼ [Passo 4: Traçar a Seta de Referência] │ Desenhar fisicamente uma seta que parte do Termo Coesivo em direção ao termo substantivo. ▼ [Passo 5: Rotular o \"Referente\"] │ Identificar o termo que recebeu a ponta da seta como o Referente (\"termo setado\"). ▼ [Passo 6: Determinar a Direção da Coesão] ├── Seta aponta para trás (texto antecedente) ──► COESÃO ANAFÓRICA (Retomada) └── Seta aponta para frente (texto subsequente) ──► COESÃO CATAFÓRICA (Antecipação)"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Validação do resultado"
+            },
+            {
+              "type": "paragraph",
+              "text": "Substituir mentalmente o termo coesivo pelo referente identificado na frase. Se o período mantiver a coerência semântica e a correção gramatical plena, o referente foi mapeado com precisão."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Relações"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Fundamenta-se em: KB-A11-G01-COESAO-TEXTUAL-004 e KB-A11-G01-COESAO-TEXTUAL-005.",
+                "Dica operacional associada: TIP-A11-G01-COESAO-TEXTUAL-001."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A11-G01-001",
+          "title": "Tabela 8.1 — Coesão Sequencial vs. Coesão Referencial",
+          "contrastType": "discursive",
+          "conceptA": "Tabela 8.1 — Coesão Sequencial vs. Coesão Referencial",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G01-002",
+              "table": {
+                "tableId": "TABLE-IP-A11-G01-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Comparação",
+                  "Coesão Sequencial",
+                  "Coesão Referencial"
+                ],
+                "rows": [
+                  [
+                    "Função Primária",
+                    "Estabelecer a progressão temporal/lógica entre orações e parágrafos.",
+                    "Evitar repetições vocabulares e manter o fio temático de entidades."
+                  ],
+                  [
+                    "Operadores Típicos",
+                    "Conjunções e Preposições.",
+                    "Pronomes (pessoais, demonstrativos, etc.), numerais e advérbios."
+                  ],
+                  [
+                    "Natureza do Vínculo",
+                    "Relação lógico-semântica (causa, oposição, conclusão, etc.).",
+                    "Relação indicial de identidade referencial (apontamento/substituição)."
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "\"Saiu cedo, mas se atrasou.\"",
+                    "\"Maria viajou; ela conheceu dez países.\""
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A11-G01-002",
+          "title": "Tabela 8.2 — Termo Coesivo vs. Referente",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 8.2 — Termo Coesivo vs. Referente",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G01-003",
+              "table": {
+                "tableId": "TABLE-IP-A11-G01-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério Diagnóstico",
+                  "Termo Coesivo",
+                  "Referente (Termo Setado)"
+                ],
+                "rows": [
+                  [
+                    "Papel Dinâmico",
+                    "Elemento emissor do vetor de alusão (\"o que manda a seta\").",
+                    "Elemento receptor do vetor de alusão (\"o que recebe a seta\")."
+                  ],
+                  [
+                    "Classe Predominante",
+                    "Pronomes e termos vicários.",
+                    "Substantivos (próprios/comuns) ou proposições oracionais inteiras."
+                  ],
+                  [
+                    "Posição no Exemplo de Maria",
+                    "VocábuloEla.",
+                    "VocábuloMaria."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A11-G01-003",
+          "title": "Tabela 8.3 — Anáfora vs. Catáfora",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 8.3 — Anáfora vs. Catáfora",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "|:---------------------------- |:---------------------------------- |:--------------------------------- |:------------------------------------------------------------ |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| Coesão Anafórica | Aponta para trás (retrospectivo). | Retomar elemento já mencionado. | \"O projeto foi aprovado; ele trará melhorias.\" |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| Coesão Catafórica | Aponta para a frente (prospectivo). | Antecipar elemento a ser revelado. | \"O recado é este: estudem com afinco.\" |"
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-001",
+          "title": "Enunciado / Estrutura textual",
+          "prompt": "Enunciado / Estrutura textual",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"Enunciado / Estrutura textual\".",
+              "rationale": "Constatação do elemento sob exame de Enunciado / Estrutura textual."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de Enunciado / Estrutura textual.",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"Enunciado / Estrutura textual\" com a norma culta de Enunciado / Estrutura textual.",
+          "decisivePoint": "Critério decisório de Enunciado / Estrutura textual aplicado a \"Enunciado / Estrutura textual\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado / Estrutura textual.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado / Estrutura textual.",
+          "blocks": [
+            {
+              "type": "callout",
+              "text": "\"Saiu cedo, mas se atrasou.\"",
+              "kind": "note"
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-002",
+          "title": "Análise e resolução comentada",
+          "prompt": "Identificação do elemento: O conectivo mas é classificado morfologicamente como conjunção coordenativa adversativa.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificação do elemento",
+              "rationale": "O conectivo mas é classificado morfologicamente como conjunção coordenativa adversativa."
+            },
+            {
+              "order": 2,
+              "action": "Operação de coesão",
+              "rationale": "Estabelece coesão sequencial ao ligar duas orações independentes, introduzindo uma relação semântica de quebra de expectativa ou contraste (quem sai cedo normalmente não se atrasa)."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Coesão Sequencial interoracional por conjunção."
+            }
+          ],
+          "result": "Classificação: Coesão Sequencial interoracional por conjunção.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Análise e resolução comentada sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Análise e resolução comentada.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Análise e resolução comentada.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Identificação do elemento: O conectivo mas é classificado morfologicamente como conjunção coordenativa adversativa.",
+                "Operação de coesão: Estabelece coesão sequencial ao ligar duas orações independentes, introduzindo uma relação semântica de quebra de expectativa ou contraste (quem sai cedo normalmente não se atrasa).",
+                "Classificação: Coesão Sequencial interoracional por conjunção."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-003",
+          "title": "Enunciado / Estrutura textual",
+          "prompt": "Enunciado / Estrutura textual",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"Enunciado / Estrutura textual\".",
+              "rationale": "Constatação do elemento sob exame de Enunciado / Estrutura textual."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de Enunciado / Estrutura textual.",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"Enunciado / Estrutura textual\" com a norma culta de Enunciado / Estrutura textual.",
+          "decisivePoint": "Critério decisório de Enunciado / Estrutura textual aplicado a \"Enunciado / Estrutura textual\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado / Estrutura textual.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado / Estrutura textual.",
+          "blocks": [
+            {
+              "type": "callout",
+              "text": "\"Chegou tarde por ter perdido o trem.\"",
+              "kind": "note"
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-004",
+          "title": "Análise e resolução comentada",
+          "prompt": "Identificação do elemento: O vocábulo por atua como preposição essencial conectora que introduz uma oração reduzida de infinitivo (ter perdido o trem).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificação do elemento",
+              "rationale": "O vocábulo por atua como preposição essencial conectora que introduz uma oração reduzida de infinitivo (ter perdido o trem)."
+            },
+            {
+              "order": 2,
+              "action": "Operação de coesão",
+              "rationale": "Conecta a oração principal ao seu motivo determinante. O que sucede a preposição (\"ter perdido o trem\") expressa a causa formal do fato anterior (\"Chegou tarde\")."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Coesão Sequencial por preposição de valor causal."
+            }
+          ],
+          "result": "Classificação: Coesão Sequencial por preposição de valor causal.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Análise e resolução comentada sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Análise e resolução comentada.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Análise e resolução comentada.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Identificação do elemento: O vocábulo por atua como preposição essencial conectora que introduz uma oração reduzida de infinitivo (ter perdido o trem).",
+                "Operação de coesão: Conecta a oração principal ao seu motivo determinante. O que sucede a preposição (\"ter perdido o trem\") expressa a causa formal do fato anterior (\"Chegou tarde\").",
+                "Classificação: Coesão Sequencial por preposição de valor causal."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-005",
+          "title": "Enunciado / Estrutura textual",
+          "prompt": "Enunciado / Estrutura textual",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"Enunciado / Estrutura textual\".",
+              "rationale": "Constatação do elemento sob exame de Enunciado / Estrutura textual."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de Enunciado / Estrutura textual.",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"Enunciado / Estrutura textual\" com a norma culta de Enunciado / Estrutura textual.",
+          "decisivePoint": "Critério decisório de Enunciado / Estrutura textual aplicado a \"Enunciado / Estrutura textual\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado / Estrutura textual.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado / Estrutura textual.",
+          "blocks": [
+            {
+              "type": "callout",
+              "text": "\"Maria gosta de viajar. Ela já conheceu mais de dez países.\"",
+              "kind": "note"
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G01-006",
+          "title": "Análise e resolução comentada",
+          "prompt": "Análise dos papéis relacionais:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise dos papéis relacionais",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Ela",
+              "rationale": "Pronome pessoal do caso reto $\\rightarrow$ Termo Coesivo (origem do vetor / termo que dispara a seta)."
+            },
+            {
+              "order": 3,
+              "action": "Maria",
+              "rationale": "Substantivo próprio $\\rightarrow$ Referente (destino do vetor / termo que recebe a seta / \"termo setado\")."
+            },
+            {
+              "order": 4,
+              "action": "Direcionalidade",
+              "rationale": "Como o pronome remete a um substantivo enunciado na oração antecedente, a coesão é classificada como referencial anafórica."
+            }
+          ],
+          "result": "Direcionalidade: Como o pronome remete a um substantivo enunciado na oração antecedente, a coesão é classificada como referencial anafórica.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Análise e resolução comentada sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Análise e resolução comentada.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Análise e resolução comentada.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise dos papéis relacionais:",
+                "Ela: Pronome pessoal do caso reto $\\rightarrow$ Termo Coesivo (origem do vetor / termo que dispara a seta).",
+                "Maria: Substantivo próprio $\\rightarrow$ Referente (destino do vetor / termo que recebe a seta / \"termo setado\").",
+                "Direcionalidade: Como o pronome remete a um substantivo enunciado na oração antecedente, a coesão é classificada como referencial anafórica."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Para acertar terminologia e funções em enunciados de concursos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Memorize o lema: \"Setas salvam!\".",
+            "Diante de qualquer pronome em texto de prova, desenhe fisicamente uma seta em direção ao substantivo que ele representa.",
+            "Fixe a regra de atribuição:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Termo Coesivo = Manda a seta (é a palavra gramatical vicária).",
+            "Referente = Recebe a seta (é o \"termo setado\", ou seja, o substantivo de base)."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A11-G01-COESAO-TEXTUAL-001",
+          "title": "Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções.",
+          "correctReasoning": "Julgar incorreta a afirmação de que uma preposição exerce papel de conector ou estabelece coesão sequencial.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Redução Equivocada da Coesão Sequencial Exclusivamente às Conjunções.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Descrição do erro frequente"
+            },
+            {
+              "type": "paragraph",
+              "text": "Julgar incorreta a afirmação de que uma preposição exerce papel de conector ou estabelece coesão sequencial."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mecânica da pegadinha em provas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Muitas bancas examinadoras formulam itens indagando se a preposição em orações do tipo \"Saiu cedo para obter o registro\" ou \"Foi punido por agir com dolo\" funciona como elemento de coesão sequencial. Candidatos despreparados, condicionados a associar conectores apenas a conjunções, assinalam o item como falso."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Conduta correta"
+            },
+            {
+              "type": "paragraph",
+              "text": "Classificar conjunções e preposições como instrumentos legítimos de coesão sequencial, uma vez que ambas as classes atuam como elos de conexão lógica entre segmentos textuais."
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Julgar incorreta a afirmação de que uma preposição exerce papel de conector ou estabelece coesão sequencial."
+        },
+        {
+          "type": "paragraph",
+          "text": "Muitas bancas examinadoras formulam itens indagando se a preposição em orações do tipo \"Saiu cedo para obter o registro\" ou \"Foi punido por agir com dolo\" funciona como elemento de coesão sequencial. Candidatos despreparados, condicionados a associar conectores apenas a conjunções, assinalam o item como falso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classificar conjunções e preposições como instrumentos legítimos de coesão sequencial, uma vez que ambas as classes atuam como elos de conexão lógica entre segmentos textuais."
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Mecanismo morfossintático e discursivo responsável pela amarração, conexão e ligação material entre as partes de um texto. Apresenta-se nas modalidades sequencial e referencial.",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Modalidade de coesão que assegura a progressão textual e o encadeamento lógico entre as proposições no fluxo do discurso.",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-002."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Mecanismo coesivo voltado à alusão, retomada ou antecipação de entidades e termos textuais, evitando repetições desnecessárias.",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Palavra ou locução invariável (conjunção ou preposição) cuja função primordial é conectar segmentos oracionais ou termos, delimitando uma relação lógico-semântica.",
+            "IDs associados: KB-A11-G01-COESAO-TEXTUAL-002, KB-A11-G01-COESAO-TEXTUAL-003."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Processo de referência textual em que um termo vicário recupera o sentido de um elemento expresso anteriormente (retomada).",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Processo de referência textual em que um termo vicário antecipa uma entidade ou oração que só será explicitada posteriormente (antecipação).",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Elemento gramatical de substituição que estabelece o elo de referência; operacionalmente definido como o termo que \"manda a seta\".",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-005."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Elemento textual substantivo ao qual o termo coesivo alude; operacionalmente definido como o termo que \"recebe a seta\".",
+            "ID principal associado: KB-A11-G01-COESAO-TEXTUAL-005."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático inaugural, o estudante deve ter assimilado e ser capaz de aplicar as seguintes competências:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Definição Operacional: Compreender que a coesão textual consiste na conexão ou ligação material explícita que confere amarração aos componentes da frase e do texto (KB-A11-G01-COESAO-TEXTUAL-001).",
+            "Domínio da Coesão Sequencial: Identificar que a progressão discursiva e os nexos lógicos (causa, adversidade, etc.) são estabelecidos tanto por conjunções quanto por preposições (KB-A11-G01-COESAO-TEXTUAL-002 e KB-A11-G01-COESAO-TEXTUAL-003).",
+            "Mapeamento da Coesão Referencial: Discernir os vetores anafóricos (retomada do antecedente) e catafóricos (antecipação do subsequente) utilizados para evitar repetições vocabulares (KB-A11-G01-COESAO-TEXTUAL-004).",
+            "Aplicação do Método \"Setas Salvam\": Operacionalizar a análise sintático-semântica desenhando a seta a partir do Termo Coesivo (quem manda a seta / elemento vicário) em direção ao Referente (quem recebe a seta / \"termo setado\" substantivo), resolvendo com segurança as questões de substituição e referenciação de bancas examinadoras (PROC-A11-G01-COESAO-TEXTUAL-001, TIP-A11-G01-COESAO-TEXTUAL-001)."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3175 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A12-G06",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.124Z"
+  },
+  "unit": {
+    "unitId": "IP-A12-G06",
+    "lessonId": "A12",
+    "groupId": "G06",
+    "title": "Figuras de Linguagem - Fundamentos",
+    "variant": "foundation",
+    "canonicalTopicId": "pt:a12:figuras-de-linguagem",
+    "learningObjectives": [
+      "OBJ-IP-A12-G06-001",
+      "OBJ-IP-A12-G06-002",
+      "OBJ-IP-A12-G06-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "Elipse, zeugma, anacoluto, silepse, hipérbato e pleonasmo dialogam com a estrutura; metáfora, metonímia e outras figuras exigem também leitura semântica e discursiva.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfossintaxe da Oração: Identificação de sujeito, predicado, verbos de ligação, transitividade verbal, termos acessórios e ordem canônica dos constituintes frasais (Sujeito + Verbo + Complemento + Adjuntos).",
+            "Semântica e Lexicologia: Domínio das noções de denotação (sentido literal) versus conotação (sentido figurado), relações de hiperonímia/hiponímia, sinonímia e antonímia.",
+            "Pragmática e Linguística Textual: Noções de contexto discursivo, intencionalidade enunciativa, paralelismo sintático e quebras de linearidade."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "FIGURAS DE LINGUAGEM (ESTILÍSTICA APLICADA) │ ├── 1. Figuras de Palavras / Semânticas (Tropos) │ ├── Metáfora (comparação implícita / predicação direta de identidade) │ ├── Comparação / Símile (comparação analógica explícita com conectivo formal) │ ├── Metonímia / Sinédoque (substituição por contiguidade lógica e material) │ │ ├── I. Autor pela obra │ │ ├── II. Continente pelo conteúdo │ │ ├── III. Abstrato pelo concreto │ │ ├── IV. Concreto pelo abstrato │ │ ├── V. A parte pelo todo │ │ ├── VI. Singular pelo plural │ │ ├── VII. Gênero pela espécie (e vice-versa) │ │ ├── VIII. Marca pelo produto │ │ └── IX. Matéria pelo objeto │ ├── Catacrese (empréstimo lexical cristalizado por lacuna vocabular da língua) │ └── Sinestesia (fusão e cruzamento de diferentes esferas sensoriais) │ ├── 2. Figuras de Pensamento │ ├── Antítese (confronto de termos/vocábulos opostos em referentes distintos) │ ├── Paradoxo / Oxímoro (contradição lógica de ideias sobre o mesmo referente) │ ├── Ironia (expressão deliberada do inverso do pensamento com pistas contextuais) │ ├── Eufemismo (atenuação expressiva de fatos trágicos, grosseiros ou desagradáveis) │ ├── Hipérbole (exagero enfático, intencional e desmedido da realidade) │ └── Prosopopeia / Personificação (atribuição de traços humanos a inanimados ou animais) │ ├── 3. Figuras de Sintaxe / Construção │ ├── Anacoluto (quebra da linearidade estrutural com isolamento do termo inicial) │ ├── Pleonasmo (repetição enfática literária vs. redundância viciosa) │ ├── Elipse (omissão contextual de termo subentendido) │ ├── Zeugma (omissão de termo expresso formalmente em oração anterior) │ ├── Silepse / Concordância Ideológica (concordância com o sentido mental) │ │ ├── Silepse de Gênero (flexão nominal conforme o sexo biológico/ideológico) │ │ ├── Silepse de Número (sujeito singular coletivo com verbo no plural afastado) │ │ └── Silepse de Pessoa (sujeito de 3ª pessoa associado a verbo na 1ª pessoa plural) │ └── Hipérbato / Inversão (deslocamento intencional da ordem direta da oração) │ └── 4. Figuras de Som / Harmonia ├── Onomatopeia (reprodução fonética aproximada de sons, ruídos e gritos) ├── Aliteração (repetição intencional e rítmica de fonemas consonantais) └── Assonância (repetição intencional e rítmica de fonemas vocálicos tônicos)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A12-G06-001",
+          "title": "Mapa de conexão — Figuras de Linguagem - Fundamentos",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a12:figuras-de-linguagem",
+              "label": "Figuras de Linguagem - Fundamentos",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a12:figuras-de-linguagem",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A metáfora é um tropo semântico fundamentado na transferência de significado por meio de uma comparação implícita, operando um processo de predicação direta de identidade entre dois elementos sem a presença de conectivos formais. A comparação (ou símile) estabelece analogia explícita mediante conectivos comparativos gramaticais (como, tal qual, assim como, que nem)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na metáfora, os campos conceituais do termo real e do termo figurado fundem-se em uma nova acepção, frequentemente articulados por verbos de ligação (ex.: o verbo ser), afirmando categoricamente que o sujeito é o predicativo figurado. Na comparação explícita, o conectivo preserva a autonomia sintática e semântica de cada domínio, ressaltando apenas uma semelhança pontual."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Teste do \"É Como\": Para validar se uma oração afirmativa encerra metáfora, substitua o verbo de ligação pelo conectivo como. Se a frase mantiver perfeito sentido analógico mantendo a equivalência das imagens, a estrutura original é uma metáfora pura (PROC-A12-G06-001).",
+            "Padrão FGV: Em provas da Fundação Getulio Vargas, a banca por vezes adota o hiperônimo \"comparação\" ou \"analogia\" para abranger tanto metáforas quanto comparações explícitas. Se não houver a alternativa \"metáfora\", o candidato deve avaliar o termo genérico sob a ótica analógica."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Metáfora: \"A Amazônia é o pulmão do mundo.\" / \"Meu pensamento é um rio subterrâneo.\" / \"A esposa diligente é a coroa do seu marido.\"",
+            "Comparação explícita: \"É linda como uma flor.\" / \"Os olhos dela eram como duas jabuticabas.\" / \"A Amazônia é tal qual o pulmão do mundo.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A inserção de qualquer elemento conectivo formal descaracteriza a metáfora em análises estilísticas estritas, convertendo-a em símile."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A12-G06-002 (Metonímia) e KB-A12-G06-003 (Antítese).",
+            "Procedimento associado: PROC-A12-G06-001.",
+            "Exemplificado por: EX-A12-G06-003, EX-A12-G06-007, EX-A12-G06-024."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A metonímia consiste na substituição de uma palavra por outra fundamentada em uma relação de contiguidade semântica, proximidade física, causal, espacial, quantitativa ou funcional objetiva entre os referentes no plano da realidade. A tradição gramatical e as bancas examinadoras tratam a sinédoque (relações quantitativas de inclusão) como modalidade de metonímia."
+        },
+        {
+          "type": "paragraph",
+          "text": "|:------------------------------------- |:---------------------------------- |:---------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------- |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 1. Autor pela Obra | Nome do criador/artista | Os livros, textos ou produções | \"Lia Machado de Assis.\" / \"Está no Celso Cunha.\" / \"Promotor que lê Victor Hugo.\" / \"Jorge Amado atravessou o oceano.\" |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 2. Continente pelo Conteúdo | Recipiente, espaço ou país | O alimento contido ou os habitantes | \"Comeu o prato todo.\" / \"O Brasil chorou a morte de Senna.\" / \"A Casa Branca decidiu...\" |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 3. Abstrato pelo Concreto | Qualidade, sentimento ou ideia | Os seres ou a época concreta | \"A juventude é dinâmica.\" (jovens) / \"A bondade do Natal alegra as crianças.\" (época/dias) |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 4. Concreto pelo Abstrato | Órgão ou elemento físico | A faculdade mental ou capacidade | \"Maria tem boa cabeça.\" (inteligência) / \"Ele não tem coração.\" (sensibilidade) |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 5. Parte pelo Todo | Fração anatômica ou física | O ser ou edifício integral | \"O bonde passa cheio de pernas.\" / \"Não possuía um teto onde morar.\" |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 6. Singular pelo Plural | Indivíduo genérico | A coletividade inteira | \"O homem é corruptível.\" (a humanidade / todos os homens) |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 7. Gênero pela Espécie | Hiperônimo (maior extensão) | Hipônimo (menor extensão) | \"Os homens cometeram barbaridades.\" (toda a humanidade) |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 8. Marca pelo Produto | Nome comercial registrado | O produto industrial genérico | \"Comprou Danone.\" / \"Passou Gillette.\" / \"Não tomei meu Nescau.\" / \"Bebeu o parati.\" |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| 9. Matéria pelo Objeto | Substância física de fabricação | O artefato manufaturado | \"Viveu pelo vil metal.\" (dinheiro) / \"Onde estão as minhas pratas?\" (talheres) |"
+        },
+        {
+          "type": "paragraph",
+          "text": "A evidência oral herdada (ORAL-A12-V020-003) registra que o emprego do masculino genérico (\"o homem\") como representante da espécie humana constitui um fato linguístico-estilístico milenar consolidado de metonímia (gênero pela espécie), não decorrendo de uma estrutura de preconceito gramatical deliberado. A simplificação comunicativa apoia-se no princípio de economia da linguagem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em expressões como \"um prato de tutu e torresmos\" ou \"um copo de suco\", a presença da preposição de ligação \"de\" introduz a especificação material direta do alimento, configurando sentido literal descritivo de conteúdo. Só haverá metonímia legítima quando o recipiente substituir o alimento sem o adjunto de conteúdo expresso (ex.: \"ele comeu três pratos\" ou \"bebeu dois copos\")."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A12-G06-001 (Metáfora opera por semelhança; Metonímia opera por contiguidade).",
+            "Procedimento associado: PROC-A12-G06-005 e PROC-A12-G06-007.",
+            "Possui alerta: WARN-A12-G06-003.",
+            "Exemplificado por: EX-A12-G06-012, EX-A12-G06-018, EX-A12-G06-021, EX-A12-G06-025, EX-A12-G06-028."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Antítese: Figura de pensamento que consiste na aproximação de termos ou vocábulos dotados de sentidos contrários no plano lexical, mantendo a coerência factual do enunciado.",
+            "Paradoxo (ou Oxímoro): Figura de pensamento que consiste na fusão de proposições ou ideias contraditórias que se anulam no plano da lógica formal, gerando uma impossibilidade aparente que revela um sentido existencial ou poético profundo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regra do Referente:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Paradoxo $\\rightarrow$ Mesmo Referente: Os predicados opostos incidem sobre a mesmíssima entidade física, conceitual ou pessoa (ex.: \"O teto abrigava e desprotegia\" $\\rightarrow$ o mesmo teto).",
+            "Antítese $\\rightarrow$ Referentes Distintos: Os vocábulos opostos qualificam termos separados ou integram comparações paralelas (ex.: \"Uma noite longa pra uma vida curta\" $\\rightarrow$ longa qualifica a noite, curta qualifica a vida)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regra da Inclusão Estrutural:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Todo paradoxo contém antítese: Como a contradição exige conceitos opostos, há antítese na base lexical de todo paradoxo.",
+            "Nem toda antítese é paradoxo: Se os antônimos não provocarem colapso lógico do referente, permanece apenas a antítese."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A FGV amplia o conceito de antítese para além dos pares dicionarizados absolutos (bem $\\times$ mal), incorporando pares de oposição relacional ou hierárquica estabelecidos pelo contexto textual (ex.: pai $\\times$ filhos na frase \"A bênção do pai consolida a casa dos filhos\")."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A12-G06-001 (Metáfora).",
+            "Procedimento associado: PROC-A12-G06-002.",
+            "Possui alerta: WARN-A12-G06-001 e WARN-A12-G06-002.",
+            "Exemplificado por: EX-A12-G06-002, EX-A12-G06-008, EX-A12-G06-030, EX-A12-G06-031, EX-A12-G06-032, EX-A12-G06-033, EX-A12-G06-034, EX-A12-G06-035, EX-A12-G06-036, EX-A12-G06-038, EX-A12-G06-039."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ironia: Figura de pensamento caracterizada pela afirmação deliberada do inverso daquilo que se pretende comunicar, exigindo pistas contextuais para que o interlocutor decodifique a intenção crítica, zombeteira ou sarcástica.",
+            "Eufemismo: Figura de pensamento caracterizada pelo emprego de expressões atenuadoras, polidas ou brandas para suavizar a comunicação de fatos dolorosos, chocantes, tabus ou socialmente desagradáveis (morte, demissão, roubo, tributos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ironia não é mero humor: Piadas situacionais ou cenas cômicas que não encerram inversão semântica de sentido não constituem ironia de prova.",
+            "Eufemismo exige fato negativo subjacente: Dizer \"Ela não sabe escrever mesmo... Tirou nota 10 na redação!\" é ironia (afirmação do oposto de um fato positivo), e não eufemismo. Dizer \"O governo procederá ao reajuste de taxas\" para ocultar aumento tributário é eufemismo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A12-G06-004.",
+            "Exemplificado por: EX-A12-G06-005, EX-A12-G06-010, EX-A12-G06-020, EX-A12-G06-035."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A prosopopeia (ou personificação) consiste na atribuição de ações, sentimentos, linguagem verbal, estados psíquicos ou propriedades exclusivamente humanas a seres inanimados, animais, fenômenos da natureza ou abstrações."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Elementos naturais / flora: \"As árvores encalhadas pedem socorro / mata-paus se abraçam / o céu tapa o rosto.\" (Raul Bopp)",
+            "Entidades inanimadas: \"O sol sorriu para mim.\" / \"A natureza chorou sua ausência.\"",
+            "Abstrações conceituais: \"Teria evitado casar até mesmo com a sabedoria, caso ela me quisesse.\" (Sabedoria personificada com vontade matrimonial).",
+            "Estruturas narrativas inteiras: Contos ficcionais em que animais assumem funções burocráticas humanas (\"A baleia telegrafou ao superintendente da Pesca...\" — Carlos Drummond de Andrade)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A12-G06-001, EX-A12-G06-013, EX-A12-G06-016, EX-A12-G06-022, EX-A12-G06-024."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A sinestesia é a figura de palavra que promove o entrelaçamento ou fusão de sensações percebidas por diferentes órgãos dos sentidos humanos (visão, audição, tato, paladar e olfato) em uma mesma unidade sintático-expressiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "O candidato deve mapear cada vocábulo da expressão para seu respectivo canal sensorial:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Doce abraço\" $\\rightarrow$ Doce (Paladar) + Abraço (Tato).",
+            "\"Doce som da sua voz\" $\\rightarrow$ Doce (Paladar) + Som/Voz (Audição).",
+            "\"Ouço mãos que se conversam\" $\\rightarrow$ Ouço (Audição) + Mãos (Tato/Visão).",
+            "\"Comentário duro e amargo\" $\\rightarrow$ Duro (Tato) + Amargo (Paladar).",
+            "\"Cheiro de terra molhada\" $\\rightarrow$ Cheiro (Olfato) + Terra molhada (Tato/Visão)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A12-G06-006, EX-A12-G06-019, EX-A12-G06-026."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A catacrese é um empréstimo lexical fossilizado e permanente que ocorre devido à inexistência de um vocábulo próprio no idioma para designar determinado objeto, ser ou parte de um todo. É uma metáfora lexicalizada e desgastada pelo uso social contínuo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"O braço da cadeira quebrou.\"",
+            "\"Dente de alho.\" / \"Cabeça de prego.\"",
+            "\"Pé da mesa.\" / \"Pé da cama.\"",
+            "\"Boca do fogão.\" / \"Asa da xícara.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A12-G06-001 (A metáfora é uma criação estilística original; a catacrese é uma convenção lexical institucionalizada por necessidade).",
+            "Exemplificado por: EX-A12-G06-014."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pleonasmo consiste na repetição ou reiteração de um mesmo conceito semântico ou termo sintático. Subdivide-se em duas categorias de valoração oposta na norma culta:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pleonasmo Literário / Estilístico (\"Pleonasmo do Bem\"): Repetição intencional legítima utilizada em textos líricos para intensificar a expressividade e individualizar a carga afetiva da mensagem (ex.: \"E rir meu riso e derramar meu pranto\" — Vinícius de Moraes; \"Ó mar salgado, quanto do teu sal...\" — Fernando Pessoa).",
+            "Pleonasmo Vicioso / Redundância (\"Pleonasmo do Mal\"): Repetição desnecessária e tautológica em que um termo acessório reitera um traço semântico que já compõe o núcleo do vocábulo anterior, configurando desvio em redações oficiais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Principal protagonista\" (o radical grego proto- já significa primeiro/principal).",
+            "\"Hábitos recorrentes exercidos todos os dias\" (hábito já pressupõe recorrência).",
+            "\"Sair de dentro\" / \"Entrar para dentro\" / \"Subir para cima\".",
+            "\"Fatos reais\" / \"Hemorragia de sangue\" / \"Elo de ligação\" / \"Monopólio exclusivo\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A12-G06-005.",
+            "Exemplificado por: EX-A12-G06-015, EX-A12-G06-017, EX-A12-G06-025, EX-A12-G06-027."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O anacoluto é uma figura de sintaxe caracterizada pela quebra, truncamento ou interrupção do fio estrutural da oração. Um termo é introduzido no início da frase de acordo com o fluxo mental do falante, mas é abandonado na sequência, ficando desprovido de qualquer função sintática regular (não atua como sujeito, objeto, adjunto ou predicativo de nenhum verbo do período)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para validar o anacoluto:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Vá ao verbo principal e identifique seu sujeito formal e complementos exigidos pela transitividade.",
+            "Analise o sintagma periférico inicial isolado por vírgula.",
+            "Se o sintagma inicial restar completamente sem função gramatical na oração, confirma-se o anacoluto (PROC-A12-G06-004)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"A velha hipocrisia, recordo-me dela com vergonha.\" (Camilo Castelo Branco $\\rightarrow$ o sujeito de recordo-me é eu desinencial; dela é o objeto indireto; A velha hipocrisia fica sem função sintática).",
+            "\"Aquela atriz, não sei de quem você está falando.\" (O sujeito de sei é eu; de quem... é o objeto indireto oracional; Aquela atriz resta isolada).",
+            "\"Hipótese boba, que formulei e repeli incontinente.\" (O pronome que já funciona como objeto direto de formulei, deixando o sintagma inicial solto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A12-G06-004.",
+            "Exemplificado por: EX-A12-G06-023, EX-A12-G06-025, EX-A12-G06-035."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Elipse: Omissão intencional de um termo gramatical facilmente recuperável e subentendido pelo contexto linguístico ou situacional, sem que esse termo tenha sido previamente expresso no mesmo período.",
+            "Zeugma: Modalidade específica de elipse em que o termo omitido já foi explicitamente expresso em uma oração anterior no mesmo contexto."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Todo zeugma é uma elipse, mas nem toda elipse é um zeugma.\" (QUOTE-A12-G06-004)",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em questões de concurso (como IBFC e FGV), caso a opção \"zeugma\" não seja disponibilizada nas alternativas, o candidato deve assinalar elipse, pois elipse funciona como termo hiperonímico abrangente para qualquer omissão textual.",
+            "A vírgula que assinala a elipse pura não é vicária (vírgula vicária é aquela que substitui verbo já manifestado anteriormente)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Elipse Pura: \"Deste lado da estrada, montanhas e daquele, rios.\" (Omissão do verbo existencial há, que nunca havia sido citado na frase). / \"Chove muito e não podemos sair.\" (Elipse do sujeito desinencial nós).",
+            "Zeugma: \"Preferia o conteúdo de uma notícia de jornal do que o [conteúdo] de um artigo de opinião.\" / \"Eu estudo Português; ela, Matemática.\" (Omissão do verbo estuda já mencionado)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A12-G06-015, EX-A12-G06-018, EX-A12-G06-035."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A silepse (ou concordância ideológica) é a figura de sintaxe em que a flexão de gênero, número ou pessoa gramatical não se efetua com a forma morfológica expressa das palavras, mas diretamente com a ideia ou sentido pretendido na mente do enunciador."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre quando o adjetivo concorda com o sexo biológico da pessoa ou com o hiperônimo implícito (ex.: ideia de cidade):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"A bonita Porto Velho sofreu com o calor.\" (Porto Velho é masculino; bonita concorda com a ideia implícita de cidade).",
+            "\"Vossa Excelência está cansado.\" (Dirigindo-se a um magistrado homem; concordância com o sexo real do referente).",
+            "\"A gente ficou chocado ontem.\" (A gente é feminino gramatical; chocado flexiona no masculino ideológico)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre quando um sujeito coletivo ou partitivo singular leva o verbo para o plural, concordando com a multiplicidade de indivíduos."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra obrigatória de distanciamento: A silepse de número exige que o verbo esteja afastado do sujeito em oração subsequente.",
+            "Forma estilística aceita: \"O grupo não gostou da bronca, reagiram imediatamente.\" (1ª oração: concordância formal rígida gostou; 2ª oração: silepse estilística reagiram).",
+            "Erro gramatical puro: \"O grupo reagiram imediatamente.\" ou \"A rapaziada chegaram.\" (Verbo justaposto ao sujeito coletivo = erro de concordância pura, não silepse)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre quando um sujeito na 3ª pessoa (singular ou plural) associa-se a um verbo na 1ª pessoa do plural (\"nós\"), porque o enunciador se inclui psicologicamente na ação:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Os brasileiros somos lutadores.\" (Sujeito formal: Os brasileiros [eles]; verbo: somos [nós]).",
+            "\"Meu primeiro amor sentávamos no banco da praça.\" (Mário Quintana $\\rightarrow$ Sujeito formal: Meu primeiro amor [ele/ela]; verbo: sentávamos [nós = amor + eu])."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Nós, os concurseiros, estudamos. $\\rightarrow$ O sujeito é o pronome Nós (1ª pessoa) e os concurseiros é aposto explicativo. Concordância rígida regular (sem silepse).",
+            "Os concurseiros estudamos. $\\rightarrow$ Sujeito formal exclusivo de 3ª pessoa (Os concurseiros) com verbo saltando para a 1ª pessoa (estudamos). Há silepse de pessoa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A12-G06-003.",
+            "Possui alerta: WARN-A12-G06-006 e WARN-A12-G06-007.",
+            "Exemplificado por: EX-A12-G06-009, EX-A12-G06-011, EX-A12-G06-021, EX-A12-G06-025."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O hipérbato (ou inversão) é a figura de sintaxe caracterizada pelo deslocamento ou inversão expressiva da ordem direta natural dos termos constituintes da oração (Sujeito + Verbo + Complementos / Predicativo + Adjuntos adverbiais)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ordem Direta: \"As manifestações culturais brasileiras [Sujeito] são [Verbo de Ligação] muito valorizadas no exterior [Predicativo do Sujeito + Adjunto]\".",
+            "Hipérbato / Ordem Inversa: \"Muito valorizadas [Predicativo do Sujeito anteposto] são [Verbo de Ligação] as manifestações culturais brasileiras no exterior [Sujeito posposto]\".",
+            "Exemplo Didático Registrado em Lousa: \"Professora de Português [Predicativo do Sujeito] eu [Sujeito] sou [Verbo de Ligação]\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Subtipo subordinado: Anástrofe (inversão simples de apenas dois termos contíguos).",
+            "Exemplificado por: EX-A12-G06-025."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A hipérbole é a figura de pensamento que consiste no exagero expressivo, intencional e desmedido de uma ideia, ultrapassando os limites da plausibilidade fática e da realidade material para produzir ênfase dramática, impacto emocional ou efeito cômico."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Enunciados com expressões: \"somaria mais que todas as lágrimas vertidas desde Adão e Eva\" / \"há nisto alguma exageração; mas é bom ser enfático\" (Machado de Assis $\\rightarrow$ alusão à hipérbole).",
+            "Marcadores de intensidade extrema: \"Isso, infinitas vezes\" / \"Eu nasci há 10 mil anos\" / \"Estou morrendo de fome\" / \"Já lhe avisei um milhão de vezes\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A12-G06-004, EX-A12-G06-023, EX-A12-G06-024."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Onomatopeia: Palavra ou representação gráfica que reproduz ou aproxima acusticamente sons da natureza, ruídos mecânicos, barulhos ou interjeições emotivas (\"Tic-tac\" / \"UUÁÁÁÁÁ!\" [choro] / \"Kkkk\" / \"Au-au\" / \"Ops!\"). Abreviações puramente ortográficas digitais (como blz) não são onomatopeias.",
+            "Aliteração: Repetição intencional, ritmada e sistemática de fonemas consonantais idênticos ou articulariamente semelhantes na mesma frase ou verso (\"Vozes veladas, veludosas vozes, volúpias dos violões...\" — Cruz e Sousa; \"Chove chuva, chove sem parar\" — Jorge Ben Jor).",
+            "Assonância: Repetição ordenada e sistemática de fonemas vocálicos (especialmente vogais tônicas) em palavras sequenciais (\"Essa desmesura de paixão / É loucura do coração / Minha Foz do Iguaçu / Polo sul, meu azul\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A12-G06-016, EX-A12-G06-019."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Princípio da Coexistência Não Excludente: Em textos literários e poéticos, múltiplas figuras podem atuar simultaneamente no mesmo verso (ex.: em \"ouço mãos que se conversam\", há sinestesia pelo cruzamento audição/tato e personificação pelo ato de mãos conversarem). A assertiva que aponta uma figura é verdadeira, a menos que a banca use restritores categóricos como \"somente\" ou \"exclusivamente\".",
+            "Método da Autoexclusão por Equivalência Estrutural (FGV): Se três alternativas incorretas contiverem a mesma figura real de fundo (como três metáforas) rotuladas erroneamente sob rótulos falsos (antítese, paradoxo, hipérbole), elas se autoexcluem logicamente (B = D = E = METÁFORAS), confirmando a opção correta isolada (PROC-A12-G06-006)."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A12-G06-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A12-G06-001",
+              "table": {
+                "tableId": "TABLE-IP-A12-G06-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Código da Unidade",
+                  "Figura de Linguagem",
+                  "Classificação Estilística",
+                  "Mecanismo Canônico Nuclear",
+                  "Referência Detalhada"
+                ],
+                "rows": [
+                  [
+                    "KB-A12-G06-001",
+                    "Metáfora",
+                    "Tropos / Palavras",
+                    "Relação de identidade implícita sem conectivo formal (é como)",
+                    "Seção 5, Unidade 001"
+                  ],
+                  [
+                    "KB-A12-G06-001",
+                    "Comparação (Símile)",
+                    "Tropos / Palavras",
+                    "Analogia explícita com conectivo comparativo formal (como, tal qual)",
+                    "Seção 5, Unidade 001"
+                  ],
+                  [
+                    "KB-A12-G06-002",
+                    "Metonímia (Sinédoque)",
+                    "Tropos / Palavras",
+                    "Substituição por contiguidade lógica/material (9 variedades)",
+                    "Seção 5, Unidade 002"
+                  ],
+                  [
+                    "KB-A12-G06-003",
+                    "Antítese",
+                    "Pensamento",
+                    "Oposição lexical de termos antônimos emreferentes distintos",
+                    "Seção 5, Unidade 003"
+                  ],
+                  [
+                    "KB-A12-G06-003",
+                    "Paradoxo (Oxímoro)",
+                    "Pensamento",
+                    "Contradição insolúvel de ideias convergindo sobre omesmo referente",
+                    "Seção 5, Unidade 003"
+                  ],
+                  [
+                    "KB-A12-G06-004",
+                    "Ironia",
+                    "Pensamento",
+                    "Afirmação do inverso do pensamento com pistas contextuais",
+                    "Seção 5, Unidade 004"
+                  ],
+                  [
+                    "KB-A12-G06-004",
+                    "Eufemismo",
+                    "Pensamento",
+                    "Atenuação ou suavização de fatos chocantes, rudes ou dolorosos",
+                    "Seção 5, Unidade 004"
+                  ],
+                  [
+                    "KB-A12-G06-005",
+                    "Prosopopeia",
+                    "Pensamento",
+                    "Atribuição de traços/ações humanas a inanimados, animais ou abstrações",
+                    "Seção 5, Unidade 005"
+                  ],
+                  [
+                    "KB-A12-G06-006",
+                    "Sinestesia",
+                    "Tropos / Palavras",
+                    "Fusão e cruzamento sensorial em uma mesma expressão (5 sentidos)",
+                    "Seção 5, Unidade 006"
+                  ],
+                  [
+                    "KB-A12-G06-007",
+                    "Catacrese",
+                    "Tropos / Palavras",
+                    "Empréstimo lexical fossilizado por carência vocabular no idioma",
+                    "Seção 5, Unidade 007"
+                  ],
+                  [
+                    "KB-A12-G06-008",
+                    "Pleonasmo Estilístico",
+                    "Sintaxe / Construção",
+                    "Repetição enfática e expressiva em textos poéticos e literários",
+                    "Seção 5, Unidade 008"
+                  ],
+                  [
+                    "KB-A12-G06-008",
+                    "Pleonasmo Vicioso",
+                    "Vício de Linguagem",
+                    "Redundância tautológica desnecessária que vicia a redação formal",
+                    "Seção 5, Unidade 008"
+                  ],
+                  [
+                    "KB-A12-G06-009",
+                    "Anacoluto",
+                    "Sintaxe / Construção",
+                    "Quebra da estrutura sintática deixando termo inicial sem função",
+                    "Seção 5, Unidade 009"
+                  ],
+                  [
+                    "KB-A12-G06-010",
+                    "Elipse",
+                    "Sintaxe / Construção",
+                    "Omissão contextual de termo não citado anteriormente",
+                    "Seção 5, Unidade 010"
+                  ],
+                  [
+                    "KB-A12-G06-010",
+                    "Zeugma",
+                    "Sintaxe / Construção",
+                    "Omissão específica de termo já manifestado na oração anterior",
+                    "Seção 5, Unidade 010"
+                  ],
+                  [
+                    "KB-A12-G06-011",
+                    "Silepse",
+                    "Sintaxe / Construção",
+                    "Concordância ideológica com o sentido (Gênero, Número, Pessoa)",
+                    "Seção 5, Unidade 011"
+                  ],
+                  [
+                    "KB-A12-G06-012",
+                    "Hipérbato",
+                    "Sintaxe / Construção",
+                    "Inversão ou alteração expressiva da ordem direta canônica da frase",
+                    "Seção 5, Unidade 012"
+                  ],
+                  [
+                    "KB-A12-G06-013",
+                    "Hipérbole",
+                    "Pensamento",
+                    "Exagero enfático, intencional e desmedido da realidade factual",
+                    "Seção 5, Unidade 013"
+                  ],
+                  [
+                    "KB-A12-G06-014",
+                    "Onomatopeia",
+                    "Som / Harmonia",
+                    "Representação aproximada de ruídos, sons e interjeições",
+                    "Seção 5, Unidade 014"
+                  ],
+                  [
+                    "KB-A12-G06-014",
+                    "Aliteração",
+                    "Som / Harmonia",
+                    "Repetição ordenada e ritmada de fonemas consonantais",
+                    "Seção 5, Unidade 014"
+                  ],
+                  [
+                    "KB-A12-G06-014",
+                    "Assonância",
+                    "Som / Harmonia",
+                    "Repetição ordenada e ritmada de fonemas vocálicos",
+                    "Seção 5, Unidade 014"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A12-G06-001",
+          "title": "Teste do \"Como\" para Metáfora versus Comparação",
+          "objective": "Executar o algoritmo decisório para Teste do \"Como\" para Metáfora versus Comparação",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste do \"Como\" para Metáfora versus Comparação."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize os dois elementos associados semanticamente no período.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Verifique se há conectivo comparativo formal expresso (como, tal qual, que nem). Se houver $\\rightarrow$ Classifique como Comparação.",
+              "explanation": null,
+              "test": "Verifique se há conectivo comparativo formal expresso (como, tal qual, que nem). Se houver $\\rightarrow$ Classifique como Comparação."
+            },
+            {
+              "order": 3,
+              "action": "Se a relação for de identidade direta (com verbo de ligação), substitua mentalmente o verbo por \"é como\".",
+              "explanation": null,
+              "test": "Se a relação for de identidade direta (com verbo de ligação), substitua mentalmente o verbo por \"é como\"."
+            },
+            {
+              "order": 4,
+              "action": "Mantendo-se a perfeita inteligibilidade figurada da analogia sem conectivo original $\\rightarrow$ Classifique como Metáfora.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste do \"Como\" para Metáfora versus Comparação."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize os dois elementos associados semanticamente no período.",
+                "Verifique se há conectivo comparativo formal expresso (como, tal qual, que nem). Se houver $\\rightarrow$ Classifique como Comparação.",
+                "Se a relação for de identidade direta (com verbo de ligação), substitua mentalmente o verbo por \"é como\".",
+                "Mantendo-se a perfeita inteligibilidade figurada da analogia sem conectivo original $\\rightarrow$ Classifique como Metáfora."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-002",
+          "title": "Teste do Referente e Inclusão para Antítese versus Paradoxo",
+          "objective": "Executar o algoritmo decisório para Teste do Referente e Inclusão para Antítese versus Paradoxo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste do Referente e Inclusão para Antítese versus Paradoxo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize os vocábulos de valor semântico oposto no período.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Pergunte",
+              "explanation": "\"Essas qualidades ou ações opostas estão atribuídas ao mesmo referente ou a elementos separados?\"",
+              "test": "Pergunte: \"Essas qualidades ou ações opostas estão atribuídas ao mesmo referente ou a elementos separados?\""
+            },
+            {
+              "order": 3,
+              "action": "Se atribuídas a elementos distintos ou coordenadas paralelas sem anulação lógica $\\rightarrow$ ANTÍTESE.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se atribuídas ao mesmo e único referente, gerando contradição insolúvel que anula a lógica formal $\\rightarrow$ PARADOXO (OXÍMORO).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste do Referente e Inclusão para Antítese versus Paradoxo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize os vocábulos de valor semântico oposto no período.",
+                "Pergunte: \"Essas qualidades ou ações opostas estão atribuídas ao mesmo referente ou a elementos separados?\"",
+                "Se atribuídas a elementos distintos ou coordenadas paralelas sem anulação lógica $\\rightarrow$ ANTÍTESE.",
+                "Se atribuídas ao mesmo e único referente, gerando contradição insolúvel que anula a lógica formal $\\rightarrow$ PARADOXO (OXÍMORO)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-003",
+          "title": "Protocolo de Identificação de Silepse em Provas",
+          "objective": "Executar o algoritmo decisório para Protocolo de Identificação de Silepse em Provas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo de Identificação de Silepse em Provas."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole o sujeito formal da oração e determine sua morfologia gramatical (gênero, número e pessoa).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Examine a flexão verbal ou nominal do predicativo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Havendo discrepância entre forma morfológica e flexão",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Feminino vs. Masculino biológico/ideológico (A bonita Porto Velho) $\\rightarrow$ Silepse de Gênero.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Singular formal vs. Verbo no Plural (O grupo... reagiram) $\\rightarrow$ Silepse de Número (verifique se o verbo está em oração posterior afastada; se estiver contíguo colado, marque como erro gramatical puro).",
+              "explanation": null,
+              "test": "Singular formal vs. Verbo no Plural (O grupo... reagiram) $\\rightarrow$ Silepse de Número (verifique se o verbo está em oração posterior afastada; se estiver contíguo colado, marque como erro gramatical puro)."
+            },
+            {
+              "order": 6,
+              "action": "Sujeito de 3ª pessoa vs. Verbo na 1ª pessoa do plural (Os brasileiros somos) $\\rightarrow$ Silepse de Pessoa.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo de Identificação de Silepse em Provas."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole o sujeito formal da oração e determine sua morfologia gramatical (gênero, número e pessoa).",
+                "Examine a flexão verbal ou nominal do predicativo.",
+                "Havendo discrepância entre forma morfológica e flexão:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Feminino vs. Masculino biológico/ideológico (A bonita Porto Velho) $\\rightarrow$ Silepse de Gênero.",
+                "Singular formal vs. Verbo no Plural (O grupo... reagiram) $\\rightarrow$ Silepse de Número (verifique se o verbo está em oração posterior afastada; se estiver contíguo colado, marque como erro gramatical puro).",
+                "Sujeito de 3ª pessoa vs. Verbo na 1ª pessoa do plural (Os brasileiros somos) $\\rightarrow$ Silepse de Pessoa."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-004",
+          "title": "Algoritmo de Análise Sintática Restritiva para Anacoluto",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Análise Sintática Restritiva para Anacoluto",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo de Análise Sintática Restritiva para Anacoluto."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Encontre o verbo da oração principal.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Identifique o sujeito gramatical legítimo e os complementos verbais diretos/indiretos.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Examine a expressão inicial isolada por pontuação",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Ela exerce função de sujeito? Não.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Ela é objeto direto/indireto? Não.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Ela é adjunto adverbial, aposto ou vocativo? Não.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Restando o termo desprovido de qualquer função na malha sintática $\\rightarrow$ Classifique como Anacoluto.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo de Análise Sintática Restritiva para Anacoluto."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Encontre o verbo da oração principal.",
+                "Identifique o sujeito gramatical legítimo e os complementos verbais diretos/indiretos.",
+                "Examine a expressão inicial isolada por pontuação:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Ela exerce função de sujeito? Não.",
+                "Ela é objeto direto/indireto? Não.",
+                "Ela é adjunto adverbial, aposto ou vocativo? Não."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Restando o termo desprovido de qualquer função na malha sintática $\\rightarrow$ Classifique como Anacoluto."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-005",
+          "title": "Decodificação da Sintaxe \"Emprego de A por B\" na Metonímia (FGV)",
+          "objective": "Executar o algoritmo decisório para Decodificação da Sintaxe \"Emprego de A por B\" na Metonímia (FGV)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Decodificação da Sintaxe \"Emprego de A por B\" na Metonímia (FGV)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identifique o termo Substituto (A)",
+              "explanation": "É a expressão que vem após \"emprego de...\" $\\rightarrow$ Palavra escrita no texto.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Identifique o termo Substituído (B)",
+              "explanation": "É a expressão que vem após a preposição \"por...\" $\\rightarrow$ Referente omitido.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se o enunciado solicitar \"emprego de termo abstrato por um concreto\", busque uma alternativa cujo termo sublinhado seja morfologicamente um substantivo abstrato (ex.",
+              "explanation": "bondade), eliminando todas as que contiverem substantivos concretos (recipientes, pessoas, marcas, prédios).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Decodificação da Sintaxe \"Emprego de A por B\" na Metonímia (FGV)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identifique o termo Substituto (A): É a expressão que vem após \"emprego de...\" $\\rightarrow$ Palavra escrita no texto.",
+                "Identifique o termo Substituído (B): É a expressão que vem após a preposição \"por...\" $\\rightarrow$ Referente omitido.",
+                "Se o enunciado solicitar \"emprego de termo abstrato por um concreto\", busque uma alternativa cujo termo sublinhado seja morfologicamente um substantivo abstrato (ex.: bondade), eliminando todas as que contiverem substantivos concretos (recipientes, pessoas, marcas, prédios)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-006",
+          "title": "Método de Autoexclusão por Equivalência Estrutural (FGV)",
+          "objective": "Executar o algoritmo decisório para Método de Autoexclusão por Equivalência Estrutural (FGV)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Autoexclusão por Equivalência Estrutural (FGV)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Em questões de correspondência entre figura e frase, determine a figura real de cada alternativa independentemente do rótulo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Se três alternativas apresentarem a mesma figura de base (ex.",
+              "explanation": "três metáforas rotuladas falsamente como antítese, paradoxo e hipérbole), elas se autoexcluem mutuamente (B = D = E).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Foque a validação na alternativa isolada restante que preencha com precisão o conceito exigido (ex.",
+              "explanation": "personificação).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Autoexclusão por Equivalência Estrutural (FGV)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Em questões de correspondência entre figura e frase, determine a figura real de cada alternativa independentemente do rótulo.",
+                "Se três alternativas apresentarem a mesma figura de base (ex.: três metáforas rotuladas falsamente como antítese, paradoxo e hipérbole), elas se autoexcluem mutuamente (B = D = E).",
+                "Foque a validação na alternativa isolada restante que preencha com precisão o conceito exigido (ex.: personificação)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G06-007",
+          "title": "Teste da Preposição \"De\" em Continente versus Conteúdo (FCC)",
+          "objective": "Executar o algoritmo decisório para Teste da Preposição \"De\" em Continente versus Conteúdo (FCC)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste da Preposição \"De\" em Continente versus Conteúdo (FCC)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Observe a presença da preposição de conteúdo",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Estrutura [Recipiente] + de + [Alimento] (\"um prato de tutu\", \"um copo de suco\") $\\rightarrow$ Sentido literal descritivo de conteúdo (Não é metonímia).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Omissão do alimento com presença isolada do recipiente (\"comeu o prato todo\", \"bebeu dois copos\") $\\rightarrow$ Metonímia legítima de continente pelo conteúdo.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste da Preposição \"De\" em Continente versus Conteúdo (FCC)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Observe a presença da preposição de conteúdo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura [Recipiente] + de + [Alimento] (\"um prato de tutu\", \"um copo de suco\") $\\rightarrow$ Sentido literal descritivo de conteúdo (Não é metonímia).",
+                "Omissão do alimento com presença isolada do recipiente (\"comeu o prato todo\", \"bebeu dois copos\") $\\rightarrow$ Metonímia legítima de continente pelo conteúdo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-001",
+          "title": "1. Metáfora versus Comparação",
+          "contrastType": "mixed",
+          "conceptA": "1. Metáfora versus Comparação",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Metáfora: Fusão conceitual de identidade, ausência de conectivo formal (A vida é uma viagem).",
+                "Comparação: Manutenção da separação de domínios analógicos mediada por conectivo formal (A vida é como uma viagem)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-002",
+          "title": "2. Antítese versus Paradoxo",
+          "contrastType": "mixed",
+          "conceptA": "2. Antítese versus Paradoxo",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Antítese: Oposição lexical entre vocábulos antônimos aplicada a referentes distintos ou paralelismos descritivos sem quebra de lógica factual (Luz e sombra; Noite longa para vida curta).",
+                "Paradoxo: Contradição semântica profunda aplicada ao mesmo e único referente, gerando quebra da lógica formal (O mesmo teto abrigava e desprotegia; Ácidos que adoçam)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-003",
+          "title": "3. Metonímia versus Metáfora versus Catacrese",
+          "contrastType": "mixed",
+          "conceptA": "3. Metonímia versus Metáfora versus Catacrese",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Metonímia: Troca baseada em contiguidade objetiva real (autor/obra, parte/todo, causa/efeito).",
+                "Metáfora: Troca baseada em semelhança e analogia subjetiva figurada.",
+                "Catacrese: Metáfora fossilizada no léxico por falta de vocábulo próprio no idioma (pé da mesa)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-004",
+          "title": "4. Elipse versus Zeugma",
+          "contrastType": "mixed",
+          "conceptA": "4. Elipse versus Zeugma",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Elipse: Omissão de termo recuperável pelo contexto que não foi expresso antes na oração.",
+                "Zeugma: Subtipo de elipse em que o termo omitido já foi formalmente enunciado no mesmo período."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-005",
+          "title": "5. Pleonasmo Estilístico versus Pleonasmo Vicioso",
+          "contrastType": "mixed",
+          "conceptA": "5. Pleonasmo Estilístico versus Pleonasmo Vicioso",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pleonasmo Estilístico: Recurso expressivo lírico e legítimo (Rir meu riso).",
+                "Pleonasmo Vicioso: Redundância inútil e condenada na norma padrão (Principal protagonista, Sair de dentro)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A12-G06-006",
+          "title": "6. Silepse de Pessoa versus Sujeito Explícito de 1ª Pessoa com Aposto",
+          "contrastType": "syntactic",
+          "conceptA": "6. Silepse de Pessoa versus Sujeito Explícito de 1ª Pessoa com Aposto",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Silepse de Pessoa: Sujeito formal exclusivo de 3ª pessoa com verbo saltando para a 1ª pessoa do plural (Os concurseiros estudamos).",
+                "Sujeito com Aposto: Pronome Nós manifesto concordando com o verbo (Nós, os concurseiros, estudamos)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-001",
+          "title": "EX-A12-G06-001 — Item a: A natureza chorou sua ausência",
+          "prompt": "Justificativa: Atribuição da ação biológica e emotiva de chorar a um elemento inanimado/natural.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Atribuição da ação biológica e emotiva de chorar a um elemento inanimado/natural."
+            }
+          ],
+          "result": "Justificativa: Atribuição da ação biológica e emotiva de chorar a um elemento inanimado/natural.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-001 — Item a: A natureza chorou sua ausência sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-001 — Item a: A natureza chorou sua ausência.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-001 — Item a: A natureza chorou sua ausência.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Atribuição da ação biológica e emotiva de chorar a um elemento inanimado/natural."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-002",
+          "title": "EX-A12-G06-002 — Item b: Distinguíamos o bem e o mal",
+          "prompt": "Justificativa: Confronto de vocábulos antônimos (bem e mal) perfeitamente lógicos na oração.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Confronto de vocábulos antônimos (bem e mal) perfeitamente lógicos na oração."
+            }
+          ],
+          "result": "Justificativa: Confronto de vocábulos antônimos (bem e mal) perfeitamente lógicos na oração.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-002 — Item b: Distinguíamos o bem e o mal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-002 — Item b: Distinguíamos o bem e o mal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-002 — Item b: Distinguíamos o bem e o mal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Confronto de vocábulos antônimos (bem e mal) perfeitamente lógicos na oração."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-003",
+          "title": "EX-A12-G06-003 — Item c: Os olhos dela eram como duas jabuticabas",
+          "prompt": "Justificativa: Aproximação analógica mediada pelo conectivo formal explícito como.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Aproximação analógica mediada pelo conectivo formal explícito como."
+            }
+          ],
+          "result": "Justificativa: Aproximação analógica mediada pelo conectivo formal explícito como.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-003 — Item c: Os olhos dela eram como duas jabuticabas sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-003 — Item c: Os olhos dela eram como duas jabuticabas.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-003 — Item c: Os olhos dela eram como duas jabuticabas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Aproximação analógica mediada pelo conectivo formal explícito como."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-004",
+          "title": "EX-A12-G06-004 — Item d: Estou morrendo de fome",
+          "prompt": "Justificativa: Exagero intencional e desmedido para exprimir intensidade da fome.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Exagero intencional e desmedido para exprimir intensidade da fome."
+            }
+          ],
+          "result": "Justificativa: Exagero intencional e desmedido para exprimir intensidade da fome.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-004 — Item d: Estou morrendo de fome sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-004 — Item d: Estou morrendo de fome.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-004 — Item d: Estou morrendo de fome.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Exagero intencional e desmedido para exprimir intensidade da fome."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-005",
+          "title": "EX-A12-G06-005 — Item e: Ela não sabe escrever mesmo... Tirou 10 na redação!",
+          "prompt": "Justificativa: Afirmação deliberada do inverso da verdade com base no dado fático seguinte (nota 10).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Afirmação deliberada do inverso da verdade com base no dado fático seguinte (nota 10)."
+            }
+          ],
+          "result": "Justificativa: Afirmação deliberada do inverso da verdade com base no dado fático seguinte (nota 10).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-005 — Item e: Ela não sabe escrever mesmo... Tirou 10 na redação! sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-005 — Item e: Ela não sabe escrever mesmo... Tirou 10 na redação!.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-005 — Item e: Ela não sabe escrever mesmo... Tirou 10 na redação!.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Afirmação deliberada do inverso da verdade com base no dado fático seguinte (nota 10)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-006",
+          "title": "EX-A12-G06-006 — Item f: Dirigiu-me um comentário duro e amargo",
+          "prompt": "Justificativa: Cruzamento sensorial entre tato (duro) e paladar (amargo).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Cruzamento sensorial entre tato (duro) e paladar (amargo)."
+            }
+          ],
+          "result": "Justificativa: Cruzamento sensorial entre tato (duro) e paladar (amargo).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-006 — Item f: Dirigiu-me um comentário duro e amargo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-006 — Item f: Dirigiu-me um comentário duro e amargo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-006 — Item f: Dirigiu-me um comentário duro e amargo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Cruzamento sensorial entre tato (duro) e paladar (amargo)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-007",
+          "title": "EX-A12-G06-007 — Item g: Meu pensamento é um rio subterrâneo",
+          "prompt": "Justificativa: Predicação direta de identidade sem conectivo formal comparativo (pensamento é rio).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Predicação direta de identidade sem conectivo formal comparativo (pensamento é rio)."
+            }
+          ],
+          "result": "Justificativa: Predicação direta de identidade sem conectivo formal comparativo (pensamento é rio).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-007 — Item g: Meu pensamento é um rio subterrâneo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-007 — Item g: Meu pensamento é um rio subterrâneo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-007 — Item g: Meu pensamento é um rio subterrâneo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Predicação direta de identidade sem conectivo formal comparativo (pensamento é rio)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-008",
+          "title": "EX-A12-G06-008 — Item h: Se quiser me prender, vai ter que saber me soltar",
+          "prompt": "Justificativa: Atos contraditórios atribuídos à mesma relação interpessoal simultaneamente.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Atos contraditórios atribuídos à mesma relação interpessoal simultaneamente."
+            }
+          ],
+          "result": "Justificativa: Atos contraditórios atribuídos à mesma relação interpessoal simultaneamente.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-008 — Item h: Se quiser me prender, vai ter que saber me soltar sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-008 — Item h: Se quiser me prender, vai ter que saber me soltar.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-008 — Item h: Se quiser me prender, vai ter que saber me soltar.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Atos contraditórios atribuídos à mesma relação interpessoal simultaneamente."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-009",
+          "title": "EX-A12-G06-009 — Item i: A fome chegou ao grupo e atacaram logo o buffet",
+          "prompt": "Justificativa: Sujeito formal singular (grupo) em oração anterior com verbo no plural (atacaram) concordando com a pluralidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Sujeito formal singular (grupo) em oração anterior com verbo no plural (atacaram) concordando com a pluralidade."
+            }
+          ],
+          "result": "Justificativa: Sujeito formal singular (grupo) em oração anterior com verbo no plural (atacaram) concordando com a pluralidade.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-009 — Item i: A fome chegou ao grupo e atacaram logo o buffet sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-009 — Item i: A fome chegou ao grupo e atacaram logo o buffet.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-009 — Item i: A fome chegou ao grupo e atacaram logo o buffet.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Sujeito formal singular (grupo) em oração anterior com verbo no plural (atacaram) concordando com a pluralidade."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-010",
+          "title": "EX-A12-G06-010 — Item j: Ele já não está mais entre nós",
+          "prompt": "Justificativa: Expressão polida e atenuadora para suavizar o impacto da morte.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Expressão polida e atenuadora para suavizar o impacto da morte."
+            }
+          ],
+          "result": "Justificativa: Expressão polida e atenuadora para suavizar o impacto da morte.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-010 — Item j: Ele já não está mais entre nós sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-010 — Item j: Ele já não está mais entre nós.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-010 — Item j: Ele já não está mais entre nós.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Expressão polida e atenuadora para suavizar o impacto da morte."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-011",
+          "title": "EX-A12-G06-011 — Item l: Ele contava os dias para chegar à sua amada Belo Horizonte",
+          "prompt": "Justificativa: Topônimo gramaticalmente masculino (Belo Horizonte) associado a adjetivo feminino (amada), concordando com a ideia de cidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Topônimo gramaticalmente masculino (Belo Horizonte) associado a adjetivo feminino (amada), concordando com a ideia de cidade."
+            }
+          ],
+          "result": "Justificativa: Topônimo gramaticalmente masculino (Belo Horizonte) associado a adjetivo feminino (amada), concordando com a ideia de cidade.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-011 — Item l: Ele contava os dias para chegar à sua amada Belo Horizonte sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-011 — Item l: Ele contava os dias para chegar à sua amada Belo Horizonte.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-011 — Item l: Ele contava os dias para chegar à sua amada Belo Horizonte.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Topônimo gramaticalmente masculino (Belo Horizonte) associado a adjetivo feminino (amada), concordando com a ideia de cidade."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-012",
+          "title": "EX-A12-G06-012 — Item m: A Casa Branca influencia outros países",
+          "prompt": "Justificativa: A sede física do poder executivo substitui a administração governamental dos EUA.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "A sede física do poder executivo substitui a administração governamental dos EUA."
+            }
+          ],
+          "result": "Justificativa: A sede física do poder executivo substitui a administração governamental dos EUA.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-012 — Item m: A Casa Branca influencia outros países sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-012 — Item m: A Casa Branca influencia outros países.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-012 — Item m: A Casa Branca influencia outros países.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: A sede física do poder executivo substitui a administração governamental dos EUA."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-013",
+          "title": "EX-A12-G06-013 — Item n: A natureza chorou sua ausência (Item reforçado)",
+          "prompt": "Justificativa: Reiteração didática da atribuição de choro a seres inanimados.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Reiteração didática da atribuição de choro a seres inanimados."
+            }
+          ],
+          "result": "Justificativa: Reiteração didática da atribuição de choro a seres inanimados.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-013 — Item n: A natureza chorou sua ausência (Item reforçado) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-013 — Item n: A natureza chorou sua ausência (Item reforçado).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-013 — Item n: A natureza chorou sua ausência (Item reforçado).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Reiteração didática da atribuição de choro a seres inanimados."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-014",
+          "title": "EX-A12-G06-014 — Item o: A protagonista principal do filme era Julia Roberts",
+          "prompt": "Justificativa: Tautologia indevida, pois protagonista já encerra o significado de personagem principal.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Tautologia indevida, pois protagonista já encerra o significado de personagem principal."
+            }
+          ],
+          "result": "Justificativa: Tautologia indevida, pois protagonista já encerra o significado de personagem principal.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-014 — Item o: A protagonista principal do filme era Julia Roberts sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-014 — Item o: A protagonista principal do filme era Julia Roberts.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-014 — Item o: A protagonista principal do filme era Julia Roberts.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Tautologia indevida, pois protagonista já encerra o significado de personagem principal."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-015",
+          "title": "EX-A12-G06-015 — Item p: Cuidado com a boca do fogão!",
+          "prompt": "Justificativa: Empréstimo consolidado de boca por ausência de termo específico para o queimador.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Empréstimo consolidado de boca por ausência de termo específico para o queimador."
+            }
+          ],
+          "result": "Justificativa: Empréstimo consolidado de boca por ausência de termo específico para o queimador.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-015 — Item p: Cuidado com a boca do fogão! sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-015 — Item p: Cuidado com a boca do fogão!.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-015 — Item p: Cuidado com a boca do fogão!.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Empréstimo consolidado de boca por ausência de termo específico para o queimador."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-016",
+          "title": "EX-A12-G06-016 — Item q: \"Chove chuva, chove sem parar\"",
+          "prompt": "Justificativa: Repetição enfática do fonema consonantal fricativo /ch/ (/x/).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Repetição enfática do fonema consonantal fricativo /ch/ (/x/)."
+            }
+          ],
+          "result": "Justificativa: Repetição enfática do fonema consonantal fricativo /ch/ (/x/).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-016 — Item q: \"Chove chuva, chove sem parar\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-016 — Item q: \"Chove chuva, chove sem parar\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-016 — Item q: \"Chove chuva, chove sem parar\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Repetição enfática do fonema consonantal fricativo /ch/ (/x/)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-017",
+          "title": "EX-A12-G06-017 — Item r: Deste lado da estrada, montanhas e daquele, rios",
+          "prompt": "Justificativa: Omissão do verbo existencial há, que não havia sido expresso anteriormente no período.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Justificativa",
+              "rationale": "Omissão do verbo existencial há, que não havia sido expresso anteriormente no período."
+            }
+          ],
+          "result": "Justificativa: Omissão do verbo existencial há, que não havia sido expresso anteriormente no período.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-017 — Item r: Deste lado da estrada, montanhas e daquele, rios sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-017 — Item r: Deste lado da estrada, montanhas e daquele, rios.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-017 — Item r: Deste lado da estrada, montanhas e daquele, rios.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Justificativa: Omissão do verbo existencial há, que não havia sido expresso anteriormente no período."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-018",
+          "title": "EX-A12-G06-018 — Questão 01 (Consulplan 2023): Metonímia",
+          "prompt": "Trecho: \"Concreto, está lá no Celso Cunha, é o substantivo...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Concreto, está lá no Celso Cunha, é o substantivo...\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "O nome do ilustre gramático substitui sua respectiva obra gramatical."
+            }
+          ],
+          "result": "Justificativa: O nome do ilustre gramático substitui sua respectiva obra gramatical.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-018 — Questão 01 (Consulplan 2023): Metonímia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-018 — Questão 01 (Consulplan 2023): Metonímia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-018 — Questão 01 (Consulplan 2023): Metonímia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Concreto, está lá no Celso Cunha, é o substantivo...\"",
+                "Justificativa: O nome do ilustre gramático substitui sua respectiva obra gramatical."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-019",
+          "title": "EX-A12-G06-019 — Questão 02 (Consulplan 2023): Pleonasmo Estilístico",
+          "prompt": "Trecho: \"E rir meu riso e derramar meu pranto\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"E rir meu riso e derramar meu pranto\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Emprego de objeto cognato redundante com valor de intensificação lírica legítima."
+            }
+          ],
+          "result": "Justificativa: Emprego de objeto cognato redundante com valor de intensificação lírica legítima.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-019 — Questão 02 (Consulplan 2023): Pleonasmo Estilístico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-019 — Questão 02 (Consulplan 2023): Pleonasmo Estilístico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-019 — Questão 02 (Consulplan 2023): Pleonasmo Estilístico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"E rir meu riso e derramar meu pranto\"",
+                "Justificativa: Emprego de objeto cognato redundante com valor de intensificação lírica legítima."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-020",
+          "title": "EX-A12-G06-020 — Questão 03 (IBFC 2023): Personificação",
+          "prompt": "Trecho: Versos de Raul Bopp (\"árvores pedem socorro / mata-paus se abraçam...\").",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "Versos de Raul Bopp (\"árvores pedem socorro / mata-paus se abraçam...\")."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Projeção de ações e comportamentos humanos sobre elementos da flora natural."
+            }
+          ],
+          "result": "Justificativa: Projeção de ações e comportamentos humanos sobre elementos da flora natural.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-020 — Questão 03 (IBFC 2023): Personificação sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-020 — Questão 03 (IBFC 2023): Personificação.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-020 — Questão 03 (IBFC 2023): Personificação.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: Versos de Raul Bopp (\"árvores pedem socorro / mata-paus se abraçam...\").",
+                "Justificativa: Projeção de ações e comportamentos humanos sobre elementos da flora natural."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-021",
+          "title": "EX-A12-G06-021 — Questão 04 (IBFC 2022): Elipse e Zeugma",
+          "prompt": "Trecho: Reescritura comparando \"conteúdo de uma notícia de jornal do [conteúdo] de um artigo...\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "Reescritura comparando \"conteúdo de uma notícia de jornal do [conteúdo] de um artigo...\"."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Omissão do vocábulo repetido, caracterizando zeugma dentro do hiperônimo elipse."
+            }
+          ],
+          "result": "Justificativa: Omissão do vocábulo repetido, caracterizando zeugma dentro do hiperônimo elipse.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-021 — Questão 04 (IBFC 2022): Elipse e Zeugma sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-021 — Questão 04 (IBFC 2022): Elipse e Zeugma.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-021 — Questão 04 (IBFC 2022): Elipse e Zeugma.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: Reescritura comparando \"conteúdo de uma notícia de jornal do [conteúdo] de um artigo...\".",
+                "Justificativa: Omissão do vocábulo repetido, caracterizando zeugma dentro do hiperônimo elipse."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-022",
+          "title": "EX-A12-G06-022 — Questão 05 (IBADE 2023): Onomatopeia",
+          "prompt": "Trecho: Tirinha com representação gráfica de choro \"UUÁÁÁÁÁ!\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "Tirinha com representação gráfica de choro \"UUÁÁÁÁÁ!\"."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Reprodução imitativa de ruído e expressão vocal humana."
+            }
+          ],
+          "result": "Justificativa: Reprodução imitativa de ruído e expressão vocal humana.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-022 — Questão 05 (IBADE 2023): Onomatopeia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-022 — Questão 05 (IBADE 2023): Onomatopeia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-022 — Questão 05 (IBADE 2023): Onomatopeia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: Tirinha com representação gráfica de choro \"UUÁÁÁÁÁ!\".",
+                "Justificativa: Reprodução imitativa de ruído e expressão vocal humana."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-023",
+          "title": "EX-A12-G06-023 — Questão 06 (IBADE 2023): Sinestesia",
+          "prompt": "Trecho: \"O doce som da sua voz me encantava.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"O doce som da sua voz me encantava.\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Integração do paladar (doce) com a audição (som/voz)."
+            }
+          ],
+          "result": "Justificativa: Integração do paladar (doce) com a audição (som/voz).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-023 — Questão 06 (IBADE 2023): Sinestesia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-023 — Questão 06 (IBADE 2023): Sinestesia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-023 — Questão 06 (IBADE 2023): Sinestesia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"O doce som da sua voz me encantava.\"",
+                "Justificativa: Integração do paladar (doce) com a audição (som/voz)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-024",
+          "title": "EX-A12-G06-024 — Questão 07 (IBADE 2023): Ironia",
+          "prompt": "Trecho: Tirinha com resposta sob temporal: \"Não, amor! Vou sair na próxima\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "Tirinha com resposta sob temporal: \"Não, amor! Vou sair na próxima\"."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Afirmação contrária à realidade dos fatos com finalidade sarcástica."
+            }
+          ],
+          "result": "Justificativa: Afirmação contrária à realidade dos fatos com finalidade sarcástica.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-024 — Questão 07 (IBADE 2023): Ironia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-024 — Questão 07 (IBADE 2023): Ironia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-024 — Questão 07 (IBADE 2023): Ironia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: Tirinha com resposta sob temporal: \"Não, amor! Vou sair na próxima\".",
+                "Justificativa: Afirmação contrária à realidade dos fatos com finalidade sarcástica."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-025",
+          "title": "EX-A12-G06-025 — Questão 08 (IBADE 2020): Silepse de Pessoa",
+          "prompt": "Trecho: \"Meu primeiro amor sentávamos no banco...\" (Mário Quintana).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Meu primeiro amor sentávamos no banco...\" (Mário Quintana)."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Sujeito formal de 3ª pessoa (Meu primeiro amor [ele]) com verbo na 1ª do plural (sentávamos [nós])."
+            }
+          ],
+          "result": "Justificativa: Sujeito formal de 3ª pessoa (Meu primeiro amor [ele]) com verbo na 1ª do plural (sentávamos [nós]).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-025 — Questão 08 (IBADE 2020): Silepse de Pessoa sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-025 — Questão 08 (IBADE 2020): Silepse de Pessoa.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-025 — Questão 08 (IBADE 2020): Silepse de Pessoa.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Meu primeiro amor sentávamos no banco...\" (Mário Quintana).",
+                "Justificativa: Sujeito formal de 3ª pessoa (Meu primeiro amor [ele]) com verbo na 1ª do plural (sentávamos [nós])."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-026",
+          "title": "EX-A12-G06-026 — Questão 09 (FCC 2023): Personificação Estruturante",
+          "prompt": "Trecho: \"A baleia telegrafou ao superintendente da Pesca...\" (Drummond).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"A baleia telegrafou ao superintendente da Pesca...\" (Drummond)."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Atribuição de atos burocráticos humanos a um cetáceo ao longo da narrativa."
+            }
+          ],
+          "result": "Justificativa: Atribuição de atos burocráticos humanos a um cetáceo ao longo da narrativa.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-026 — Questão 09 (FCC 2023): Personificação Estruturante sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-026 — Questão 09 (FCC 2023): Personificação Estruturante.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-026 — Questão 09 (FCC 2023): Personificação Estruturante.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"A baleia telegrafou ao superintendente da Pesca...\" (Drummond).",
+                "Justificativa: Atribuição de atos burocráticos humanos a um cetáceo ao longo da narrativa."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-027",
+          "title": "EX-A12-G06-027 — Questão 10 (FCC 2023): Hipérbole e Distratores",
+          "prompt": "Trecho: \"Isso, infinitas vezes.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Isso, infinitas vezes.\""
+            },
+            {
+              "order": 2,
+              "action": "Distratores Dissecados",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Letra A",
+              "rationale": "\"Hipótese boba, que formulei...\" $\\rightarrow$ Anacoluto."
+            },
+            {
+              "order": 4,
+              "action": "Letra D",
+              "rationale": "\"Vocação de viúva\" $\\rightarrow$ Eufemismo."
+            },
+            {
+              "order": 5,
+              "action": "Letra E",
+              "rationale": "\"Sapato substituído\" $\\rightarrow$ Metonímia."
+            }
+          ],
+          "result": "Letra E: \"Sapato substituído\" $\\rightarrow$ Metonímia.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-027 — Questão 10 (FCC 2023): Hipérbole e Distratores sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-027 — Questão 10 (FCC 2023): Hipérbole e Distratores.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-027 — Questão 10 (FCC 2023): Hipérbole e Distratores.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Isso, infinitas vezes.\"",
+                "Distratores Dissecados:",
+                "Letra A: \"Hipótese boba, que formulei...\" $\\rightarrow$ Anacoluto.",
+                "Letra D: \"Vocação de viúva\" $\\rightarrow$ Eufemismo.",
+                "Letra E: \"Sapato substituído\" $\\rightarrow$ Metonímia."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-028",
+          "title": "EX-A12-G06-028 — Questão 11 (FCC 2023): Metonímia vs. Preposição de Conteúdo",
+          "prompt": "Trecho: \"O promotor que lê Victor Hugo.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"O promotor que lê Victor Hugo.\""
+            },
+            {
+              "order": 2,
+              "action": "Desmistificação da Pegadinha",
+              "rationale": "A alternativa D (\"um prato de tutu e torresmos\") traz a preposição \"de\" especificando o conteúdo literal, não sendo metonímia."
+            }
+          ],
+          "result": "Desmistificação da Pegadinha: A alternativa D (\"um prato de tutu e torresmos\") traz a preposição \"de\" especificando o conteúdo literal, não sendo metonímia.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-028 — Questão 11 (FCC 2023): Metonímia vs. Preposição de Conteúdo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-028 — Questão 11 (FCC 2023): Metonímia vs. Preposição de Conteúdo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-028 — Questão 11 (FCC 2023): Metonímia vs. Preposição de Conteúdo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"O promotor que lê Victor Hugo.\"",
+                "Desmistificação da Pegadinha: A alternativa D (\"um prato de tutu e torresmos\") traz a preposição \"de\" especificando o conteúdo literal, não sendo metonímia."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-029",
+          "title": "EX-A12-G06-029 — Questão 12 (FCC 2023): Pleonasmo e Distratores Sintáticos",
+          "prompt": "Trecho: \"Principal protagonista da história\" (Equivalente a \"sai de dentro\").",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Principal protagonista da história\" (Equivalente a \"sai de dentro\")."
+            },
+            {
+              "order": 2,
+              "action": "Distratores Dissecados",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Letra A",
+              "rationale": "\"Caminhos difíceis aos fáceis\" $\\rightarrow$ Antítese + Elipse."
+            },
+            {
+              "order": 4,
+              "action": "Letra C",
+              "rationale": "\"Aquela atriz não sei de quem...\" $\\rightarrow$ Anacoluto."
+            },
+            {
+              "order": 5,
+              "action": "Letra D",
+              "rationale": "\"A gente ficou chocado\" $\\rightarrow$ Silepse de gênero."
+            }
+          ],
+          "result": "Letra E: \"Muito valorizadas são as manifestações...\" $\\rightarrow$ Hipérbato.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-029 — Questão 12 (FCC 2023): Pleonasmo e Distratores Sintáticos sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-029 — Questão 12 (FCC 2023): Pleonasmo e Distratores Sintáticos.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-029 — Questão 12 (FCC 2023): Pleonasmo e Distratores Sintáticos.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Principal protagonista da história\" (Equivalente a \"sai de dentro\").",
+                "Distratores Dissecados:",
+                "Letra A: \"Caminhos difíceis aos fáceis\" $\\rightarrow$ Antítese + Elipse.",
+                "Letra C: \"Aquela atriz não sei de quem...\" $\\rightarrow$ Anacoluto.",
+                "Letra D: \"A gente ficou chocado\" $\\rightarrow$ Silepse de gênero.",
+                "Letra E: \"Muito valorizadas são as manifestações...\" $\\rightarrow$ Hipérbato."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-030",
+          "title": "EX-A12-G06-030 — Questão 13 (FGV 2023 — SEE-MG): Hipérbole em Machado de Assis",
+          "prompt": "Trecho: \"Se eu pudesse contar as lágrimas... somaria mais que todas desde Adão e Eva. Há nisto alguma exageração...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Se eu pudesse contar as lágrimas... somaria mais que todas desde Adão e Eva. Há nisto alguma exageração...\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "O comando \"alude\" exige correlacionar o exagero enfático declarado à figura da hipérbole."
+            }
+          ],
+          "result": "Justificativa: O comando \"alude\" exige correlacionar o exagero enfático declarado à figura da hipérbole.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-030 — Questão 13 (FGV 2023 — SEE-MG): Hipérbole em Machado de Assis sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-030 — Questão 13 (FGV 2023 — SEE-MG): Hipérbole em Machado de Assis.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-030 — Questão 13 (FGV 2023 — SEE-MG): Hipérbole em Machado de Assis.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Se eu pudesse contar as lágrimas... somaria mais que todas desde Adão e Eva. Há nisto alguma exageração...\"",
+                "Justificativa: O comando \"alude\" exige correlacionar o exagero enfático declarado à figura da hipérbole."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-031",
+          "title": "EX-A12-G06-031 — Questão 14 (FGV 2023 — FHEMIG): Autoexclusão de Metáforas",
+          "prompt": "Alternativa A: \"Teria evitado casar até mesmo com a sabedoria, caso ela me quisesse.\" $\\rightarrow$ Personificação da sabedoria.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Alternativa A",
+              "rationale": "\"Teria evitado casar até mesmo com a sabedoria, caso ela me quisesse.\" $\\rightarrow$ Personificação da sabedoria."
+            },
+            {
+              "order": 2,
+              "action": "Autoexclusão",
+              "rationale": "As alternativas B (rotulada de antítese), D (paradoxo) e E (hipérbole) encerram todas metáforas estruturais puras (B = D = E = METÁFORAS)."
+            }
+          ],
+          "result": "Autoexclusão: As alternativas B (rotulada de antítese), D (paradoxo) e E (hipérbole) encerram todas metáforas estruturais puras (B = D = E = METÁFORAS).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-031 — Questão 14 (FGV 2023 — FHEMIG): Autoexclusão de Metáforas sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-031 — Questão 14 (FGV 2023 — FHEMIG): Autoexclusão de Metáforas.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-031 — Questão 14 (FGV 2023 — FHEMIG): Autoexclusão de Metáforas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Alternativa A: \"Teria evitado casar até mesmo com a sabedoria, caso ela me quisesse.\" $\\rightarrow$ Personificação da sabedoria.",
+                "Autoexclusão: As alternativas B (rotulada de antítese), D (paradoxo) e E (hipérbole) encerram todas metáforas estruturais puras (B = D = E = METÁFORAS)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-032",
+          "title": "EX-A12-G06-032 — Questão 15 (FGV 2023 — SMF-RJ): Metonímia Abstrato pelo Concreto",
+          "prompt": "Trecho: \"Quando chega a bondade do Natal, as crianças ficam felizes;\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Quando chega a bondade do Natal, as crianças ficam felizes;\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Bondade é substantivo abstrato empregado no lugar da época/período natalino tangível. As demais alternativas apresentam substantivos concretos (Camões, parati, teto, pratos)."
+            }
+          ],
+          "result": "Justificativa: Bondade é substantivo abstrato empregado no lugar da época/período natalino tangível. As demais alternativas apresentam substantivos concretos (Camões, parati, teto, pratos).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-032 — Questão 15 (FGV 2023 — SMF-RJ): Metonímia Abstrato pelo Concreto sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-032 — Questão 15 (FGV 2023 — SMF-RJ): Metonímia Abstrato pelo Concreto.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-032 — Questão 15 (FGV 2023 — SMF-RJ): Metonímia Abstrato pelo Concreto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Quando chega a bondade do Natal, as crianças ficam felizes;\"",
+                "Justificativa: Bondade é substantivo abstrato empregado no lugar da época/período natalino tangível. As demais alternativas apresentam substantivos concretos (Camões, parati, teto, pratos)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-033",
+          "title": "EX-A12-G06-033 — Questão 16 (CEBRASPE 2023 — SME Recife): Sinestesia",
+          "prompt": "Assertiva: Em \"ouço mãos que se conversam\", há sinestesia.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Assertiva",
+              "rationale": "Em \"ouço mãos que se conversam\", há sinestesia."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Integração sensorial direta entre audição (ouço) e tato (mãos)."
+            }
+          ],
+          "result": "Justificativa: Integração sensorial direta entre audição (ouço) e tato (mãos).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-033 — Questão 16 (CEBRASPE 2023 — SME Recife): Sinestesia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-033 — Questão 16 (CEBRASPE 2023 — SME Recife): Sinestesia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-033 — Questão 16 (CEBRASPE 2023 — SME Recife): Sinestesia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Assertiva: Em \"ouço mãos que se conversam\", há sinestesia.",
+                "Justificativa: Integração sensorial direta entre audição (ouço) e tato (mãos)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-034",
+          "title": "EX-A12-G06-034 — Questão 17 (CEBRASPE 2023 — Pref. São Cristóvão): Pleonasmo",
+          "prompt": "Assertiva: A expressão \"hábitos recorrentes que eram exercidos todos os dias\" apresenta pleonasmo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Assertiva",
+              "rationale": "A expressão \"hábitos recorrentes que eram exercidos todos os dias\" apresenta pleonasmo."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Redundância inútil, pois hábito já carrega a semântica de prática recorrente."
+            }
+          ],
+          "result": "Justificativa: Redundância inútil, pois hábito já carrega a semântica de prática recorrente.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-034 — Questão 17 (CEBRASPE 2023 — Pref. São Cristóvão): Pleonasmo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-034 — Questão 17 (CEBRASPE 2023 — Pref. São Cristóvão): Pleonasmo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-034 — Questão 17 (CEBRASPE 2023 — Pref. São Cristóvão): Pleonasmo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Assertiva: A expressão \"hábitos recorrentes que eram exercidos todos os dias\" apresenta pleonasmo.",
+                "Justificativa: Redundância inútil, pois hábito já carrega a semântica de prática recorrente."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-035",
+          "title": "EX-A12-G06-035 — Questão 18 (CEBRASPE 2022 — MPC-SC): Metonímia Discursiva",
+          "prompt": "Assertiva: Jorge Amado é referido no texto por processo metonímico.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Assertiva",
+              "rationale": "Jorge Amado é referido no texto por processo metonímico."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "No contexto sobre a difusão da literatura em África, \"Jorge Amado atravessou o oceano\" representa a circulação e recepção de seus romances/livros."
+            }
+          ],
+          "result": "Justificativa: No contexto sobre a difusão da literatura em África, \"Jorge Amado atravessou o oceano\" representa a circulação e recepção de seus romances/livros.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-035 — Questão 18 (CEBRASPE 2022 — MPC-SC): Metonímia Discursiva sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-035 — Questão 18 (CEBRASPE 2022 — MPC-SC): Metonímia Discursiva.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-035 — Questão 18 (CEBRASPE 2022 — MPC-SC): Metonímia Discursiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Assertiva: Jorge Amado é referido no texto por processo metonímico.",
+                "Justificativa: No contexto sobre a difusão da literatura em África, \"Jorge Amado atravessou o oceano\" representa a circulação e recepção de seus romances/livros."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-036",
+          "title": "EX-A12-G06-036 — Fixação Item A: \"Luz\" e \"Escuridão\"",
+          "prompt": "Trecho: \"Não haveria luz se não houvesse escuridão.\" (Dois polos referenciais distintos sem absurdo factual).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Não haveria luz se não houvesse escuridão.\" (Dois polos referenciais distintos sem absurdo factual)."
+            }
+          ],
+          "result": "Trecho: \"Não haveria luz se não houvesse escuridão.\" (Dois polos referenciais distintos sem absurdo factual).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-036 — Fixação Item A: \"Luz\" e \"Escuridão\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-036 — Fixação Item A: \"Luz\" e \"Escuridão\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-036 — Fixação Item A: \"Luz\" e \"Escuridão\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Não haveria luz se não houvesse escuridão.\" (Dois polos referenciais distintos sem absurdo factual)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-037",
+          "title": "EX-A12-G06-037 — Fixação Item B: \"Abrigava\" e \"Desprotegia\"",
+          "prompt": "Trecho: \"O teto que o abrigava era o mesmo que o desprotegia.\" (Mesmo referente com ações contraditórias).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"O teto que o abrigava era o mesmo que o desprotegia.\" (Mesmo referente com ações contraditórias)."
+            }
+          ],
+          "result": "Trecho: \"O teto que o abrigava era o mesmo que o desprotegia.\" (Mesmo referente com ações contraditórias).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-037 — Fixação Item B: \"Abrigava\" e \"Desprotegia\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-037 — Fixação Item B: \"Abrigava\" e \"Desprotegia\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-037 — Fixação Item B: \"Abrigava\" e \"Desprotegia\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"O teto que o abrigava era o mesmo que o desprotegia.\" (Mesmo referente com ações contraditórias)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-038",
+          "title": "EX-A12-G06-038 — Fixação Item C: \"Sentença Curta\" e \"Longa Experiência\"",
+          "prompt": "Trecho: \"Um provérbio é uma sentença curta baseada em longa experiência.\" (Referentes distintos: sentença x experiência).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Um provérbio é uma sentença curta baseada em longa experiência.\" (Referentes distintos: sentença x experiência)."
+            }
+          ],
+          "result": "Trecho: \"Um provérbio é uma sentença curta baseada em longa experiência.\" (Referentes distintos: sentença x experiência).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-038 — Fixação Item C: \"Sentença Curta\" e \"Longa Experiência\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-038 — Fixação Item C: \"Sentença Curta\" e \"Longa Experiência\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-038 — Fixação Item C: \"Sentença Curta\" e \"Longa Experiência\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Um provérbio é uma sentença curta baseada em longa experiência.\" (Referentes distintos: sentença x experiência)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-039",
+          "title": "EX-A12-G06-039 — Fixação Item D: \"Sorte\" e \"Azar\"",
+          "prompt": "Trecho: \"Sorte é o cálculo bem-feito. Azar é o erro de cálculo.\" (Paralelismo simétrico em polos separados).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Sorte é o cálculo bem-feito. Azar é o erro de cálculo.\" (Paralelismo simétrico em polos separados)."
+            }
+          ],
+          "result": "Trecho: \"Sorte é o cálculo bem-feito. Azar é o erro de cálculo.\" (Paralelismo simétrico em polos separados).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-039 — Fixação Item D: \"Sorte\" e \"Azar\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-039 — Fixação Item D: \"Sorte\" e \"Azar\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-039 — Fixação Item D: \"Sorte\" e \"Azar\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Sorte é o cálculo bem-feito. Azar é o erro de cálculo.\" (Paralelismo simétrico em polos separados)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-040",
+          "title": "EX-A12-G06-040 — Fixação Item E: \"Sábia Ignorância\"",
+          "prompt": "Trecho: \"O pobre demonstrou sábia ignorância.\" (Fusão de predicados excludentes no mesmo substantivo).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"O pobre demonstrou sábia ignorância.\" (Fusão de predicados excludentes no mesmo substantivo)."
+            }
+          ],
+          "result": "Trecho: \"O pobre demonstrou sábia ignorância.\" (Fusão de predicados excludentes no mesmo substantivo).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-040 — Fixação Item E: \"Sábia Ignorância\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-040 — Fixação Item E: \"Sábia Ignorância\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-040 — Fixação Item E: \"Sábia Ignorância\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"O pobre demonstrou sábia ignorância.\" (Fusão de predicados excludentes no mesmo substantivo)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-041",
+          "title": "EX-A12-G06-041 — Questão 19 (FGV 2023 — Pref. São José dos Campos): Antítese Relacional",
+          "prompt": "Trecho: \"A bênção do pai consolida a casa dos filhos.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"A bênção do pai consolida a casa dos filhos.\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Oposição relacional/geracional entre os termos pai e filhos."
+            },
+            {
+              "order": 3,
+              "action": "Distratores",
+              "rationale": "Letra A = Ironia; Letra B = Paradoxo (ateu que age como crente); Letra C = Elipse; Letra E = Anacoluto + Elipse."
+            }
+          ],
+          "result": "Distratores: Letra A = Ironia; Letra B = Paradoxo (ateu que age como crente); Letra C = Elipse; Letra E = Anacoluto + Elipse.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-041 — Questão 19 (FGV 2023 — Pref. São José dos Campos): Antítese Relacional sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-041 — Questão 19 (FGV 2023 — Pref. São José dos Campos): Antítese Relacional.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-041 — Questão 19 (FGV 2023 — Pref. São José dos Campos): Antítese Relacional.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"A bênção do pai consolida a casa dos filhos.\"",
+                "Justificativa: Oposição relacional/geracional entre os termos pai e filhos.",
+                "Distratores: Letra A = Ironia; Letra B = Paradoxo (ateu que age como crente); Letra C = Elipse; Letra E = Anacoluto + Elipse."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-042",
+          "title": "EX-A12-G06-042 — Questão 20 (IBFC 2022 — INDEA-MT): Paradoxo",
+          "prompt": "Trecho: \"O som dos pássaros só aumentava o silêncio.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"O som dos pássaros só aumentava o silêncio.\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Emissão sonora ampliando o estado de ausência de som no mesmo ambiente ecológico."
+            }
+          ],
+          "result": "Justificativa: Emissão sonora ampliando o estado de ausência de som no mesmo ambiente ecológico.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-042 — Questão 20 (IBFC 2022 — INDEA-MT): Paradoxo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-042 — Questão 20 (IBFC 2022 — INDEA-MT): Paradoxo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-042 — Questão 20 (IBFC 2022 — INDEA-MT): Paradoxo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"O som dos pássaros só aumentava o silêncio.\"",
+                "Justificativa: Emissão sonora ampliando o estado de ausência de som no mesmo ambiente ecológico."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-043",
+          "title": "EX-A12-G06-043 — Questão 21 (FUNDEP 2023 — Pref. Sete Lagoas): Antítese",
+          "prompt": "Trecho: \"Uma noite longa / pra uma vida curta\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Uma noite longa / pra uma vida curta\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Oposição adjetival entre longa e curta incidindo sobre referentes distintos (noite x vida)."
+            }
+          ],
+          "result": "Justificativa: Oposição adjetival entre longa e curta incidindo sobre referentes distintos (noite x vida).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-043 — Questão 21 (FUNDEP 2023 — Pref. Sete Lagoas): Antítese sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-043 — Questão 21 (FUNDEP 2023 — Pref. Sete Lagoas): Antítese.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-043 — Questão 21 (FUNDEP 2023 — Pref. Sete Lagoas): Antítese.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Uma noite longa / pra uma vida curta\"",
+                "Justificativa: Oposição adjetival entre longa e curta incidindo sobre referentes distintos (noite x vida)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-044",
+          "title": "EX-A12-G06-044 — Questão 22 (FCC 2023 — TRT 18ª): Paradoxo",
+          "prompt": "Trecho: \"Usufruímos também as experiências da morte, desde que essas não nos matem.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Usufruímos também as experiências da morte, desde que essas não nos matem.\""
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "Vivenciar a morte sob a condição de não morrer encerra contradição lógica insuperável."
+            }
+          ],
+          "result": "Justificativa: Vivenciar a morte sob a condição de não morrer encerra contradição lógica insuperável.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-044 — Questão 22 (FCC 2023 — TRT 18ª): Paradoxo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-044 — Questão 22 (FCC 2023 — TRT 18ª): Paradoxo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-044 — Questão 22 (FCC 2023 — TRT 18ª): Paradoxo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Usufruímos também as experiências da morte, desde que essas não nos matem.\"",
+                "Justificativa: Vivenciar a morte sob a condição de não morrer encerra contradição lógica insuperável."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G06-045",
+          "title": "EX-A12-G06-045 — Questão 23 (CEBRASPE 2023 — SME Recife): Oxímoro Poético",
+          "prompt": "Assertiva: Em \"certos ácidos adoçam\", ocorre oxímoro por reunir palavras de sentidos opostos que parecem excluir-se mas reforçam sentidos.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Assertiva",
+              "rationale": "Em \"certos ácidos adoçam\", ocorre oxímoro por reunir palavras de sentidos opostos que parecem excluir-se mas reforçam sentidos."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "O ácido (azedo/não doce) atuando como agente adoçante caracteriza com precisão o oxímoro."
+            }
+          ],
+          "result": "Justificativa: O ácido (azedo/não doce) atuando como agente adoçante caracteriza com precisão o oxímoro.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G06-045 — Questão 23 (CEBRASPE 2023 — SME Recife): Oxímoro Poético sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G06-045 — Questão 23 (CEBRASPE 2023 — SME Recife): Oxímoro Poético.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G06-045 — Questão 23 (CEBRASPE 2023 — SME Recife): Oxímoro Poético.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Assertiva: Em \"certos ácidos adoçam\", ocorre oxímoro por reunir palavras de sentidos opostos que parecem excluir-se mas reforçam sentidos.",
+                "Justificativa: O ácido (azedo/não doce) atuando como agente adoçante caracteriza com precisão o oxímoro."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Insira a palavra \"como\" no lugar do verbo de ligação. Se a oração mantiver perfeito sentido de analogia figurada, o enunciado original é categoricamente uma metáfora (KB-A12-G06-001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diante de uma questão com termos opostos:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se os opostos qualificarem o mesmo substantivo ou sujeito $\\rightarrow$ Marque PARADOXO (KB-A12-G06-003).",
+            "Se qualificarem substantivos ou situações separadas $\\rightarrow$ Marque ANTÍTESE (KB-A12-G06-003)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Escreva no rascunho: [Termo no Texto / Substituto] no lugar de [Termo Real Omitido / Substituído]. Isso impede que o candidato inverta classificações como \"abstrato pelo concreto\" versus \"concreto pelo abstrato\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao encontrar sujeito na 3ª pessoa associado a verbo na 1ª pessoa do plural (sentávamos, somos, reagimos), verifique se o falante está inserido no conjunto. Se estiver, trata-se invariavelmente de silepse de pessoa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bancas como CEBRASPE e FGV utilizam o vocábulo helênico Oxímoro (ou oximoro) como sinônimo estrito de Paradoxo. Substitua mentalmente por \"contradição de ideias no mesmo referente\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Escreva acima de cada vocábulo o órgão correspondente (Visão, Audição, Tato, Paladar, Olfato). Havendo dois ou mais sentidos conectados, valide a sinestesia."
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A12-G06-001",
+          "title": "Oposição Genérica de Ideias não é Antítese",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Oposição Genérica de Ideias não é Antítese no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Oposição Genérica de Ideias não é Antítese.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Oposição Genérica de Ideias não é Antítese.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Oposição Genérica de Ideias não é Antítese para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Oposição Genérica de Ideias não é Antítese.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Oposição Genérica de Ideias não é Antítese.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Achar que frases com situações morais ou poéticas opostas (\"A esposa diligente é a coroa... a problemática é o câncer\") configuram antítese.",
+                "Correção: A antítese exige antônimos lexicais diretos. Contrastes descritivos amplos construídos por imagens figuradas são metáforas paralelas (KB-A12-G06-001, KB-A12-G06-003)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-002",
+          "title": "A Armadilha de Achar que Todo Oposto Gera Paradoxo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha de Achar que Todo Oposto Gera Paradoxo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha de Achar que Todo Oposto Gera Paradoxo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha de Achar que Todo Oposto Gera Paradoxo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha de Achar que Todo Oposto Gera Paradoxo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha de Achar que Todo Oposto Gera Paradoxo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha de Achar que Todo Oposto Gera Paradoxo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Marcar paradoxo sempre que houver palavras contrárias na frase.",
+                "Correção: Todo paradoxo tem antítese, mas nem toda antítese é paradoxo. Se não houver anulação mútua no mesmo referente (\"uma sentença curta de longa experiência\"), há apenas antítese (KB-A12-G06-003)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-003",
+          "title": "A Pegadinha do \"Prato de Tutu\" (FCC)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Pegadinha do \"Prato de Tutu\" (FCC) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Pegadinha do \"Prato de Tutu\" (FCC).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Pegadinha do \"Prato de Tutu\" (FCC).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Pegadinha do \"Prato de Tutu\" (FCC) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Pegadinha do \"Prato de Tutu\" (FCC).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Pegadinha do \"Prato de Tutu\" (FCC).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Marcar metonímia em \"um prato de tutu e torresmos\".",
+                "Correção: A preposição \"de\" introduz adjunto de conteúdo literal. Só há metonímia em \"comeu o prato todo\" (KB-A12-G06-002)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-004",
+          "title": "Confundir Ironia com Eufemismo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Ironia com Eufemismo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Ironia com Eufemismo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Ironia com Eufemismo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Ironia com Eufemismo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Ironia com Eufemismo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Ironia com Eufemismo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Marcar eufemismo em deboches com notas ou qualidades.",
+                "Correção: O eufemismo suaviza fatos duros/trágicos. Zombar de um fato positivo afirmando o oposto (\"Ela não sabe escrever... tirou 10\") é ironia pura (KB-A12-G06-004)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-005",
+          "title": "Redundância Viciosa em Provas Discursivas",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Redundância Viciosa em Provas Discursivas no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Redundância Viciosa em Provas Discursivas.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Redundância Viciosa em Provas Discursivas.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Redundância Viciosa em Provas Discursivas para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Redundância Viciosa em Provas Discursivas.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Redundância Viciosa em Provas Discursivas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Empregar expressões como \"principal protagonista\", \"fatos reais\", \"hábitos recorrentes exercidos todos os dias\" em redações.",
+                "Correção: Tais estruturas constituem pleonasmos viciosos e acarretam perda severa de pontos em concisão e precisão vocabular (KB-A12-G06-008)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-006",
+          "title": "Silepse de Número Justaposta é Erro Gramatical",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Silepse de Número Justaposta é Erro Gramatical no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Silepse de Número Justaposta é Erro Gramatical.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Silepse de Número Justaposta é Erro Gramatical.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Silepse de Número Justaposta é Erro Gramatical para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Silepse de Número Justaposta é Erro Gramatical.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Silepse de Número Justaposta é Erro Gramatical.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Justificar \"A rapaziada chegaram\" ou \"O grupo reagiram\" como figura de linguagem estilística.",
+                "Correção: A silepse de número só é aceita se o verbo estiver afastado em oração posterior. Verbo contíguo colado ao sujeito coletivo é erro gramatical puro de concordância (KB-A12-G06-011)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-007",
+          "title": "Silepse de Pessoa versus Sujeito com Aposto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Silepse de Pessoa versus Sujeito com Aposto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Silepse de Pessoa versus Sujeito com Aposto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Silepse de Pessoa versus Sujeito com Aposto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Silepse de Pessoa versus Sujeito com Aposto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Silepse de Pessoa versus Sujeito com Aposto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Silepse de Pessoa versus Sujeito com Aposto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Marcar silepse em \"Nós, os concurseiros, estudamos\".",
+                "Correção: O sujeito é o pronome Nós manifesto. A silepse exige que o pronome Nós esteja ausente e o sujeito seja exclusivamente de 3ª pessoa (\"Os concurseiros estudamos\") (KB-A12-G06-011)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G06-008",
+          "title": "Pegadinha da Exclusividade de Figuras",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha da Exclusividade de Figuras no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha da Exclusividade de Figuras.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha da Exclusividade de Figuras.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha da Exclusividade de Figuras para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha da Exclusividade de Figuras.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha da Exclusividade de Figuras.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Anular uma assertiva sobre sinestesia porque o verso também apresenta personificação.",
+                "Correção: Figuras de linguagem coexistem pacificamente em textos poéticos. O item é válido a menos que haja termo restritor absoluto (\"há somente...\") (KB-A12-G06-015)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Achar que frases com situações morais ou poéticas opostas (\"A esposa diligente é a coroa... a problemática é o câncer\") configuram antítese.",
+            "Correção: A antítese exige antônimos lexicais diretos. Contrastes descritivos amplos construídos por imagens figuradas são metáforas paralelas (KB-A12-G06-001, KB-A12-G06-003)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Marcar paradoxo sempre que houver palavras contrárias na frase.",
+            "Correção: Todo paradoxo tem antítese, mas nem toda antítese é paradoxo. Se não houver anulação mútua no mesmo referente (\"uma sentença curta de longa experiência\"), há apenas antítese (KB-A12-G06-003)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Marcar metonímia em \"um prato de tutu e torresmos\".",
+            "Correção: A preposição \"de\" introduz adjunto de conteúdo literal. Só há metonímia em \"comeu o prato todo\" (KB-A12-G06-002)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Marcar eufemismo em deboches com notas ou qualidades.",
+            "Correção: O eufemismo suaviza fatos duros/trágicos. Zombar de um fato positivo afirmando o oposto (\"Ela não sabe escrever... tirou 10\") é ironia pura (KB-A12-G06-004)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Empregar expressões como \"principal protagonista\", \"fatos reais\", \"hábitos recorrentes exercidos todos os dias\" em redações.",
+            "Correção: Tais estruturas constituem pleonasmos viciosos e acarretam perda severa de pontos em concisão e precisão vocabular (KB-A12-G06-008)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Justificar \"A rapaziada chegaram\" ou \"O grupo reagiram\" como figura de linguagem estilística.",
+            "Correção: A silepse de número só é aceita se o verbo estiver afastado em oração posterior. Verbo contíguo colado ao sujeito coletivo é erro gramatical puro de concordância (KB-A12-G06-011)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Marcar silepse em \"Nós, os concurseiros, estudamos\".",
+            "Correção: O sujeito é o pronome Nós manifesto. A silepse exige que o pronome Nós esteja ausente e o sujeito seja exclusivamente de 3ª pessoa (\"Os concurseiros estudamos\") (KB-A12-G06-011)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Anular uma assertiva sobre sinestesia porque o verso também apresenta personificação.",
+            "Correção: Figuras de linguagem coexistem pacificamente em textos poéticos. O item é válido a menos que haja termo restritor absoluto (\"há somente...\") (KB-A12-G06-015)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Figura de palavras que consiste na transferência de significado por semelhança e analogia implícita, operando uma relação direta de identidade sem conectivo formal comparativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de palavras que estabelece analogia explícita entre dois termos por meio de conectivos gramaticais formais (como, tal qual, que nem)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de palavras caracterizada pela substituição de um termo por outro com base em contiguidade lógica, espacial, causal, material ou funcional objetiva na realidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "Designação tradicional das metonímias quantitativas de extensão, como a substituição da parte pelo todo, do singular pelo plural ou do gênero pela espécie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento consistente na aproximação de termos ou vocábulos de sentidos contrários no plano lexical, aplicados a referentes distintos sem anulação lógica da realidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento que reúne conceitos inconciliáveis aplicados ao mesmo e único referente, gerando uma quebra aparente da lógica formal que revela um sentido existencial ou estético profundo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento consistente em afirmar deliberadamente o inverso daquilo que se pensa, com finalidade zombeteira, crítica ou sarcástica, amparada em pistas contextuais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento caracterizada pelo emprego de expressões atenuadoras e brandas para suavizar notícias ou realidades dolorosas, chocantes, tabus ou desagradáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento que atribui propriedades, ações, sentimentos, fala ou consciência humanas a seres inanimados, animais ou conceitos abstratos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de palavras caracterizada pelo entrelaçamento ou fusão de sensações percebidas por diferentes órgãos dos sentidos humanos em uma mesma construção."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metáfora fossilizada e permanente incorporada ao léxico do idioma por carência de um termo próprio específico para nomear determinado ser ou objeto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de sintaxe consistente na repetição enfática de uma mesma ideia semântica em textos líricos e poéticos para intensificar a expressividade da mensagem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vício de linguagem caracterizado pela repetição inútil e tautológica de um significado já contido no núcleo do vocábulo anterior, configurando desvio em redações formais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de sintaxe caracterizada pela quebra da coesão estrutural da frase, em que um termo é introduzido no início e abandonado sem desempenhar função sintática."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de sintaxe consistente na omissão intencional de um termo facilmente recuperável pelo contexto, sem que tenha havido menção anterior no período."
+        },
+        {
+          "type": "paragraph",
+          "text": "Espécie de elipse caracterizada pela omissão de um termo que já foi formalmente expresso em oração anterior no mesmo contexto sintático."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de sintaxe em que a concordância se realiza com o sentido pretendido na mente do falante (ideia), e não com a forma morfológica das palavras (gênero, número e pessoa)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de sintaxe caracterizada pelo deslocamento ou inversão propositada da ordem direta canônica dos constituintes da oração."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura de pensamento consistente no exagero expressivo, intencional e desmedido da realidade factual para produzir ênfase dramática ou efeito cômico."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao integralizar o estudo do grupo temático G06, o estudante consolida o domínio analítico e operatório de 19 figuras de linguagem sob uma perspectiva textual-discursiva contemporânea:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio dos Tropos Semânticos: Compreende a diferença entre relações de analogia subjetiva (Metáfora vs. Comparação explícita), relações de contiguidade objetiva (as 9 modalidades de Metonímia) e empréstimos lexicais fossilizados (Catacrese). Domina o mapeamento dos 5 sentidos na Sinestesia.",
+            "Domínio das Figuras de Pensamento e Oposição: Aplica com segurança o Critério do Referente e a regra da Inclusão Estrutural para distinguir Antítese (oposição lexical em referentes distintos) de Paradoxo/Oxímoro (contradição lógica no mesmo referente). Reconhece a Ironia pelas marcas contextuais e o Eufemismo pela mitigação de dores e tabus.",
+            "Domínio das Figuras de Sintaxe e Quebras Normativas: Distingue com rigor o Pleonasmo estilístico legítimo da Redundância viciosa; aplica a análise sintática restritiva para isolar o Anacoluto; identifica Elipses e Zeugmas; e domina os limites normativos da Silepse (especialmente a exigência de distanciamento sintático na silepse de número e a regra de inclusão na silepse de pessoa). Reconhece a inversão frasal do Hipérbato.",
+            "Habilidade Estratégica em Bancas: Utiliza técnicas de autoexclusão de alternativas equivalentes na FGV, identifica inferências disfarçadas (\"alude\"), evita pegadinhas de preposição de conteúdo na FCC (\"prato de tutu\") e julga assertivas contextuais no CEBRASPE com base no princípio da coexistência pacífica de figuras."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula12.q0057",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "MPU",
+      "year": 2018,
+      "role": "ANALISTA",
+      "prompt": "Na linha 2, o adjetivo patente tem um significado de impressionante.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Tem um significado de evidente, óbvio, flagrante. Questão incorreta.",
+      "questionSha256": "39823976c25b35763d4643155b298d5c832ec4dd67d8bab18e699a23e67589f1",
+      "answerSha256": "3b383e44c4e5e128c2da0395a4730eebde03a58d73a263482dd19783940047c2",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0127",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "MPU",
+      "year": 2018,
+      "role": "ANALISTA",
+      "prompt": "Na linha 2, o adjetivo patente tem um significado de impressionante.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "2bccce8f1d1b98f2e0af1e4fc324cc77bb38d5fe6ca1ee62307d64a44299baf6",
+      "answerSha256": "3fab2ffea451d1739e3da22655b8754ec83527019f0ca8f7d0ed92728d56bd9b",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0080",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEE-PE",
+      "year": 2022,
+      "prompt": "No primeiro parágrafo, o verbo “denotar” apresenta o mesmo sentido de demonstrar, por isso é\ncorreto afirmar que são vocábulos homônimos.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "\"Denotar\" significa: anunciar ou mostrar por certos sinais, indicar. Mesmo que o sentido fosse o\nmesmo, diríamos que são \"sinônimos\", não \"homônimos\".\n\"Homônimos\" são palavras que compartilham a mesma pronúncia ou grafia, mas possuem\nsignificados diferentes.\nQuestão incorreta.",
+      "questionSha256": "b0a8b6e27e89ffef0894b88f4f0f3430b4de9dca9cc1c5634a831e65356aa2a3",
+      "answerSha256": "14387b2fb47c0f0b2092c3fdd5035ae55e82c5d76a741679ba29db0ddb9504ac",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0151",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEE-PE",
+      "year": 2022,
+      "prompt": "No primeiro parágrafo, o verbo “denotar” apresenta o mesmo sentido de demonstrar, por isso é\ncorreto afirmar que são vocábulos homônimos.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "96b64bbe84801edf555f93cc2b2c0e5cfc135789b1d08977a234502801a9a42b",
+      "answerSha256": "ea09947dcf67c37eed520e57401396403f400623fb037aeb693724ff326c9d68",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0045",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PETROBRÁS",
+      "year": 2022,
+      "prompt": "Em relação às ideias, aos sentidos e aspectos linguísticos do texto precedente, julgue o item\nsubsecutivo. No que se refere às ideias, aos sentidos e às construções linguísticas do texto\nprecedente, assim como a sua tipologia, julgue o item a seguir.\nO termo “Alegoria”, empregado no texto precedente, alude à ideia de representação.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "No primeiro parágrafo, temos que Platão utiliza “linguagem alegórica”, que é uma forma\nmetafórica de representar suas ideias; por exemplo, o sol representa a verdade; as sombras\nrepresentam a ignorância e os preconceitos. Isso se coaduna com o significado da palavra\n“alegoria”, vejamos:\n(a.le.go.ri.a)\n1. Expressão do pensamento ou da emoção, muito us. em literatura, pintura e escultura, pela\nqual se representa simbolicamente um objeto para significar outro.\nQuestão correta.",
+      "questionSha256": "a74e6a28fe5ef8b8767cd7b9c1a0919d18efeccc12d8200858b8cb49a9c5e46d",
+      "answerSha256": "f0aebdf9fdfb1b3129ae901c7e4603a5c642cead824d6dde3ab78ebed478b111",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0115",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PETROBRÁS",
+      "year": 2022,
+      "prompt": "Em relação às ideias, aos sentidos e aspectos linguísticos do texto precedente, julgue o item\nsubsecutivo. No que se refere às ideias, aos sentidos e às construções linguísticas do texto\nprecedente, assim como a sua tipologia, julgue o item a seguir.\nO termo “Alegoria”, empregado no texto precedente, alude à ideia de representação.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "e01b409bbaac37e06ec7a01c91909789769d24012a7893ef72dd9d346c260344",
+      "answerSha256": "4448b5811d26165ddb28424f14d554b1a0bae7299afd38721390cafe5703b383",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Figuras de Linguagem - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

@@ -1,0 +1,2681 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A05-G08",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.014Z"
+  },
+  "unit": {
+    "unitId": "IP-A05-G08",
+    "lessonId": "A05",
+    "groupId": "G08",
+    "title": "Reescritura de Vozes - Partes 04 a 07",
+    "variant": "development",
+    "canonicalTopicId": "pt:a05:reescritura-de-vozes-a",
+    "learningObjectives": [
+      "OBJ-IP-A05-G08-001",
+      "OBJ-IP-A05-G08-002",
+      "OBJ-IP-A05-G08-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Reescritas complexas exigem reconstruir cada oração e confirmar que participantes, foco, relações e correção gramatical foram preservados.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Predicação e Transitividade Verbal: Reconhecimento automático de Verbos Transitivos Diretos (VTD), Transitivos Indiretos (VTI), Transitivos Diretos e Indiretos (VTDI), Intransitivos (VI) e de Ligação (VL).",
+            "Termos da Oração: Identificação de Sujeito, Objeto Direto, Objeto Indireto, Predicativo do Sujeito e Adjunto Adverbial.",
+            "Morfologia Verbal: Domínio dos tempos e modos do Indicativo (Presente, Pretérito Perfeito, Pretérito Imperfeito, Futuro do Pretérito) e das formas nominais (Infinitivo, Gerúndio e Particípio).",
+            "Sintaxe de Colocação Pronominal: Reconhecimento de fatores de próclise (palavras negativas, advérbios, pronomes relativos, conjunções subordinativas)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SISTEMA DE VOZES VERBAIS │ ┌─────────────────────────┴─────────────────────────┐ ▼ ▼ [ VOZ ATIVA ] [ VOZ PASSIVA ] (Sujeito Agente) (Sujeito Paciente) │ │ │ ┌─────────────────────────┴─────────────────────────┐ │ ▼ ▼ │ [ PASSIVA ANALÍTICA ] [ PASSIVA SINTÉTICA ] │ • Locução: SER + Particípio • Morfossintaxe: VTD/VTDI + SE │ • Agente: Expresso ou Indeterminado • Agente: Indeterminado (não inexistente) │ • Extensão: +1 verbo que a ativa • Economia: Sem auxiliar / Sem agente │ │ │ │ └────────────── Transposição Mútua ─────────────────┘ │ (Método 4 Instruções) │ └──────────────────────────────────────── Conversão Mútua ────────────────────┘ (Atalho: Corta SE + 3ª Plural)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A05-G08-001",
+          "title": "Mapa de conexão — Reescritura de Vozes - Partes 04 a 07",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a05:reescritura-de-vozes-a",
+              "label": "Reescritura de Vozes - Partes 04 a 07",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a05:reescritura-de-vozes-a",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A cobrança de Voz Passiva Sintética (Pronominal) em provas de concursos públicos estrutura-se em cinco modelos padronizados, exigindo competências que progridem da identificação e classificação morfossintática até a transposição estrutural bidirecional."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para assegurar o domínio integral do tema independentemente da banca examinadora (FGV, Cebraspe, FCC, VUNESP, etc.), o estudo divide-se em 5 etapas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Tipo 1 — Identificação de Voz Passiva Sintética: Reconhecer se determinada oração está construída na voz passiva sintética, diferenciando-a de verbos de ligação com predicativos ou de formas ativas.",
+            "Tipo 2 — Classificação da Partícula \"SE\": Distinguir o Pronome Apassivador (PA) de outras funções morfossintáticas (Índice de Indeterminação do Sujeito, Pronome Reflexivo, Parte Integrante do Verbo, Conjunção).",
+            "Tipo 3 — Reescritura: Passiva Sintética $\\rightarrow$ Passiva Analítica: Converter a estrutura pronominal em locução verbal passiva ($\\text{Auxiliar SER} + \\text{Particípio}$).",
+            "Tipo 4 — Reescritura: Passiva Sintética $\\rightarrow$ Voz Ativa: Transformar a passiva sintética em oração de voz ativa com sujeito indeterminado na 3ª pessoa do plural.",
+            "Tipo 5 — Reescritura Inversa: Ativa/Analítica $\\rightarrow$ Passiva Sintética: Reestruturar uma oração na forma sintética a partir da ativa ou analítica correspondente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: KB-A05-G08-005, KB-A05-G08-014, KB-A05-G08-016",
+            "Evidenciado visualmente por: VIS-A05-G08-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A voz passiva sintética (ou pronominal) é qualificada como \"sintética\" por sua natureza estritamente econômica, caracterizando-se pela redução de elementos linguísticos em relação à forma analítica."
+        },
+        {
+          "type": "paragraph",
+          "text": "A economia estrutural da passiva sintética opera em duas frentes:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Economia de Verbo Auxiliar: Dispensa a locução com verbo auxiliar (ser), utilizando unicamente o verbo principal conjugado acoplado ao pronome apassivador se.",
+            "Economia de Agente da Passiva: Não menciona expressamente o executor da ação verbal, suprimindo o termo preposicionado. Seu objetivo comunicativo é justamente conferir destaque ao paciente da ação, ocultando ou despersonalizando o agente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Vende-se casa. (Passiva Sintética: 1 verbo + se; sem auxiliar e sem menção ao agente).",
+            "Casa é vendida por alguém. (Passiva Analítica correspondente: locução verbal de 2 verbos com agente explícito ou implícito)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora alguns gramáticos registrem construções com agente expresso na passiva sintética (ex.: Vende-se casa por esta imobiliária), tal estrutura é atípica, desaconselhável no padrão culto e contraria o princípio funcional da estrutura."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Relacionado a: KB-A05-G08-003, WARN-A05-G08-001, TERM-A05-G08-001",
+            "Evidenciado visualmente por: VIS-A05-G08-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na voz passiva sintética, o agente da passiva é indeterminado, e nunca inexistente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Há uma distinção semântico-sintática categórica frequentemente explorada por bancas como o Cebraspe:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Agente inexistente: Implica que o fenômeno ocorreu espontaneamente na realidade, sem nenhuma entidade causadora (como em verbos que indicam fenômenos da natureza puros).",
+            "Agente indeterminado: Alguém praticou a ação no mundo factual, porém o redator optou por não determinar ou explicitar gramaticalmente a sua identidade na oração."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em frases como Consertou-se o computador ou Vendem-se terrenos, a ação exigiu obrigatoriamente um agente causador no plano real, mas a estrutura sintética o mantém não especificado."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-001",
+            "Relacionado a: KB-A05-G08-002, KB-A05-G08-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na voz passiva sintética, o sujeito sintático é DETERMINADO (sujeito paciente sobre o qual recai a concordância verbal); o que é INDETERMINADO é o AGENTE DA PASSIVA."
+        },
+        {
+          "type": "paragraph",
+          "text": "A confusão entre a função sintática de sujeito e a função semântica de agente gera um dos erros mais recorrentes em concursos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Na Passiva Sintética (Aluga-se apartamento / Alugam-se apartamentos):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O termo apartamento / apartamentos é o Sujeito Determinado Paciente (simples), responsável por governar a flexão em número do verbo.",
+            "O executor da ação de alugar é o Agente da Passiva Indeterminado.",
+            "É incorreto afirmar que a frase possui \"sujeito indeterminado\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Na Voz Ativa com Sujeito Indeterminado (Alugam apartamento):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O verbo é flexionado na 3ª pessoa do plural sem sujeito expresso, tornando o Sujeito Indeterminado.",
+            "O termo apartamento passa a ser o Objeto Direto."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A05-G08-001",
+          "table": {
+            "tableId": "TABLE-IP-A05-G08-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Estrutura",
+              "Classificação da Voz",
+              "Classificação do Sujeito",
+              "Classificação do Agente",
+              "Função do Termo Nominal"
+            ],
+            "rows": [
+              [
+                "Aluga-se apartamento",
+                "Voz Passiva Sintética",
+                "Determinado (Paciente)",
+                "Indeterminado",
+                "Sujeito Paciente"
+              ],
+              [
+                "Alugam apartamento",
+                "Voz Ativa",
+                "Indeterminado",
+                "Indeterminado (no sujeito)",
+                "Objeto Direto"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-002",
+            "Evidenciado visualmente por: VIS-A05-G08-008"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A comprovação de que uma oração está na voz passiva sintética requer a aplicação cumulativa de dois critérios: análise de transitividade verbal direta e teste de equivalência por transposição analítica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Não basta constatar a presença de um verbo acompanhado do pronome se. O método infalível exige:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Passo 1 — Análise de Transitividade: O verbo deve ser Transitivo Direto ($\\text{VTD}$) ou Transitivo Direto e Indireto ($\\text{VTDI}$). A transitividade direta é pré-requisito indispensável porque apenas o objeto direto da voz ativa tem a propriedade sintática de se converter em sujeito paciente na passiva. Verbos $\\text{VTI}$, $\\text{VI}$ ou $\\text{VL}$ com se não formam passiva sintética.",
+            "Passo 2 — Teste de Conversão Mental para a Passiva Analítica: Converter mentalmente a estrutura para $[\\text{Termo} + \\text{Verbo SER no mesmo tempo} + \\text{Particípio}]$. Se a frase convertida mantiver coerência lógica, sentido passivo e gramaticalidade perfeita, confirma-se a voz passiva sintética e a condição do pronome como Partícula Apassivadora."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A05-G08-001, TIP-A05-G08-001",
+            "Possui alerta: WARN-A05-G08-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome se assume múltiplas funções morfossintáticas na língua portuguesa. Nas questões de vozes verbais, cinco classes concorrem diretamente e devem ser discriminadas por critérios sintáticos e semânticos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjunção Subordinativa:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Condicional: introduz oração subordinada adverbial condicional; substituível por \"caso\" (Se quiseres, voltarei).",
+            "Integrante: introduz oração subordinada substantiva; toda a oração iniciada por se é substituível pelo pronome \"isso\" (Querem saber se serão pagos $\\rightarrow$ Querem saber isso)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pronome Reflexivo / Recíproco: O sujeito pratica e sofre a ação verbal simultaneamente sobre si mesmo; substituível por \"a si mesmo(a)\", \"a si próprio(a)\" ou \"uns aos outros\" (Pedi que se afastasse $\\rightarrow$ a si mesma).",
+            "Parte Integrante do Verbo (PIV): Pronome incorporado à conjugação de verbos pronominais essenciais (queixar-se, suicidar-se, avantajar-se) ou acidentais (lembrar-se, sentir-se, situar-se, tornar-se, certificar-se). A oração permanece na voz ativa.",
+            "Índice de Indeterminação do Sujeito (IIS / PIS): Acoplado a Verbos Intransitivos ($\\text{VI}$), Transitivos Indiretos com preposição ($\\text{VTI}$) ou de Ligação ($\\text{VL}$), fixando o verbo compulsoriamente na 3ª pessoa do singular para indicar que o sujeito é indeterminado (Trabalha-se muito, Precisa-se de medidas, Passa-se de euforia à retração).",
+            "Pronome Apassivador / Partícula Apassivadora (PA): Vinculado a $\\text{VTD}$ ou $\\text{VTDI}$, transformando o complemento direto em sujeito paciente da voz passiva sintética (Criam-se condições, Multiplicam-se postagens)."
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\begin{cases}\nSE = \\text{Pronome Apassivador (P.A.)} & \\iff \\text{VTD} \\text{ ou } \\text{VTDI} \\implies \\text{Voz Passiva Sintética (Sujeito concorda)} \\\\\nSE = \\text{Índice de Indeterminação (I.I.S. / P.I.S.)} & \\iff \\text{VI}, \\text{VTI (prep.)} \\text{ ou } \\text{VL} \\implies \\text{Voz Ativa (Verbo singular fixo)}\n\\end{cases}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A05-G08-002",
+            "Dica associada: TIP-A05-G08-002",
+            "Evidenciado visualmente por: VIS-A05-G08-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de um Verbo Transitivo Direto ($\\text{VTD}$) com a partícula se não configura automaticamente voz passiva sintética. Se a oração expressar sentido reflexivo ou recíproco, o valor semântico prevalece, classificando a oração na voz reflexiva (ou ativa de sentido reflexivo) e o pronome como reflexivo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em \"Os homens não se deixam escravizar\" (VUNESP) ou \"Pedi a ela que se afastasse da cadeira\", os verbos deixar e afastar são transitivos diretos no léxico.",
+            "Contudo, a intenção discursiva indica que os agentes praticam a ação sobre si próprios (não deixam escravizar a si mesmos; afastou a si mesma).",
+            "O teste semântico de substituição por \"a si mesmo\" invalida a hipótese de pronome apassivador, pois a conversão analítica geraria distorção de sentido."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-003",
+            "Exemplificado em: EX-A05-G08-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbos transitivos diretos no dicionário podem funcionar no texto como verbos pronominais acidentais quando expressam processos contínuos, orgânicos ou dinâmicos autônomos, atuando o pronome se como Parte Integrante do Verbo (PIV) e não como partícula apassivadora."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na prova do IBGE aplicada pelo Cebraspe, analisou-se o trecho: \"existia toda uma vida cultural que se desenvolvia em torno da vida portuária carioca\".",
+            "Embora o verbo desenvolver admita uso como $\\text{VTD}$ (O governo desenvolve o país), no contexto a \"vida cultural\" não sofria uma ação externa passiva executada por um agente indeterminado (não havia alguém desenvolvendo a vida cultural como quem desenvolve um projeto).",
+            "A vida cultural desdobrava-se, expandia-se e crescia por dinamismo próprio. Ao tentar a transposição analítica (\"uma vida cultural que era desenvolvida\"), constata-se a perda do sentido original.",
+            "Logo, o verbo foi empregado como pronominal (desenvolver-se), o se classifica-se estritamente como PIV e a oração encontra-se na voz ativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-003",
+            "Exemplificado em: EX-A05-G08-009",
+            "Evidenciado visualmente por: VIS-A05-G08-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na voz passiva (sintética ou analítica), não existe objeto direto; o termo que completaria o $\\text{VTD}$ na voz ativa converte-se compulsoriamente em sujeito paciente. Em verbos bitransitivos ($\\text{VTDI}$), o objeto indireto permanece inalterado como objeto indireto."
+        },
+        {
+          "type": "paragraph",
+          "text": "O princípio fundamental da análise sintática de vozes verbais estabelece:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Voz Ativa: $[\\text{Sujeito Agente}] + [\\text{VTD}] + [\\text{Objeto Direto}]$.",
+            "Voz Passiva Sintética: $[\\text{VTD} + \\text{SE}] + [\\text{Sujeito Paciente}]$.",
+            "O termo posposto sem preposição não é complemento do verbo, mas sim o seu sujeito sintático.",
+            "Em construções com $\\text{VTDI} + \\text{SE}$ (Deu-se o presente ao amigo):",
+            "o presente = Sujeito Paciente (antigo objeto direto).",
+            "ao amigo = Objeto Indireto ($\\text{OI}$ preposicionado que não sofre alteração funcional)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dica associada: TIP-A05-G08-003",
+            "Possui alerta: WARN-A05-G08-007",
+            "Evidenciado visualmente por: VIS-A05-G08-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Como o elemento não preposicionado que acompanha a estrutura $\\text{VTD/VTDI} + \\text{SE}$ é o sujeito paciente da oração, o verbo principal deve concordar compulsoriamente em número (singular ou plural) e pessoa com esse sujeito."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sujeito Paciente no Singular $\\rightarrow$ Verbo no Singular: Vende-se casa ($=\\text{casa é vendida}$).",
+            "Sujeito Paciente no Plural $\\rightarrow$ Verbo no Plural: Vendem-se casas ($=\\text{casas são vendidas}$).",
+            "Constitui erro gramatical grave manter o verbo invariável na 3ª pessoa do singular diante de sujeito paciente plural (\"Vende-se casas\", \"Aluga-se salas\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A05-G08-009",
+            "Possui alerta: WARN-A05-G08-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A voz passiva sintética não se restringe à ênclise (Vende-se); ela aceita legitimamente próclise, ênclise ou mesóclise, subordinando-se às regras gerais de colocação pronominal da língua padrão."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bancas organizadoras (com destaque para a FGV e a FCC) exploram o preconceito de candidatos que associam passiva sintética apenas a placas de rua. Estruturas com palavras atrativas impõem a próclise:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "...cada vez mais se desfazem os limites... (Próclise motivada por locução adverbial atrativa). Analítica: os limites são desfeitos.",
+            "Atualmente, quando se mencionam... (Próclise motivada por conjunção subordinativa temporal). Analítica: quando são mencionadas.",
+            "...a grandeza das manhãs se media... (Próclise legítima no interior da oração). Analítica: era medida."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-004",
+            "Exemplificado em: EX-A05-G08-003, EX-A05-G08-004, EX-A05-G08-011"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora a posição mais frequente do sujeito paciente na voz passiva sintética seja posposta ao verbo, sua anteposição é perfeitamente legítima e não descaracteriza a estrutura passiva sintética."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ordem Posposta Típica: Dividiam-se as terras ($\\text{Verbo} + \\text{SE} + \\text{Sujeito}$).",
+            "Ordem Anteposta Legítima: As sociedades indígenas dividiam-se de forma igualitária ($\\text{Sujeito} + \\text{Verbo} + \\text{SE}$).",
+            "Em ambos os casos, a equivalência com a forma analítica (As sociedades indígenas eram divididas) atesta que o sujeito anteposto é paciente e que a oração é passiva sintética."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-005",
+            "Exemplificado em: EX-A05-G08-012"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A combinação do verbo ser com uma forma de particípio não configura obrigatoriamente voz passiva analítica; deve-se verificar se o particípio expressa um processo dinâmico sofrido pelo sujeito (ação passiva) ou se funciona como mero adjetivo qualificador com função de predicativo do sujeito em voz ativa."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em \"As tipologias urbanísticas são muito diversificadas\": o verbo são atua como verbo de ligação puro e diversificadas é adjetivo na função de predicativo do sujeito, caracterizando um estado/qualidade permanente (Voz Ativa).",
+            "Em \"Essas áreas sejam tomadas por invasores\": tomadas opera como particípio verbal pleno dentro de uma locução passiva analítica com verbo auxiliar sejam, denotando processo verbal passivo executado por agente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G08-006",
+            "Exemplificado em: EX-A05-G08-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A transposição de Voz Passiva Sintética (VPS) para Voz Passiva Analítica (VPA) opera sob o princípio da adição de um verbo auxiliar ($+SER$), estruturando-se pelo Método das 4 Instruções."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Princípio Aritmético da Adição Verbal:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se a VPS tem 1 verbo simples $\\rightarrow$ a VPA terá 2 verbos ($\\text{SER} + \\text{Particípio}$).",
+            "Se a VPS tem 2 verbos (locução) $\\rightarrow$ a VPA terá 3 verbos ($\\text{Auxiliar} + \\text{SER} + \\text{Particípio}$)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Método das 4 Instruções:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Instrução 1 — \"Chame o feito à ordem\": Delimitar o sujeito paciente, identificar com precisão o tempo e modo do verbo primitivo e destacar o pronome apassivador se.",
+            "Instrução 2 — Manutenção do Sujeito Paciente: O sujeito paciente da sintética permanece exatamente como sujeito paciente na analítica, deslocando-se usualmente para o início da oração.",
+            "Instrução 3 — Eliminação do Pronome \"SE\": Suprime-se a partícula apassivadora.",
+            "Instrução 4 — Inserção de SER + Particípio: Insere-se o verbo auxiliar SER conjugado no mesmo tempo, modo, número e pessoa do verbo primitivo, seguido do particípio do verbo principal (concordando em gênero e número com o sujeito)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A05-G08-003",
+            "Dica associada: TIP-A05-G08-004",
+            "Possui alerta: WARN-A05-G08-008",
+            "Evidenciado visualmente por: VIS-A05-G08-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando a Voz Passiva Sintética é composta por locução verbal (2 verbos), sua conversão para a Voz Passiva Analítica produz uma locução de 3 verbos, na qual o verbo auxiliar SER assume a forma nominal do verbo principal primitivo, enquanto este é transposto para o particípio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vigora a regra de hierarquia em perífrases verbais: \"Quem manda é o principal e quem obedece é o auxiliar\"."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: A história do Acre começou a se definir em 1985.",
+            "O verbo auxiliar primitivo (começou a) é mantido.",
+            "O verbo principal primitivo (definir) estava no infinitivo; logo, o verbo auxiliar SER entra no infinitivo (ser).",
+            "O verbo principal primitivo converte-se em particípio feminino singular (definida), concordando com o sujeito (história).",
+            "Locução analítica resultante (3 verbos): começou a ser definida."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A05-G08-004",
+            "Dica associada: TIP-A05-G08-005",
+            "Evidenciado visualmente por: VIS-A05-G08-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Como o agente da passiva na voz passiva sintética é indeterminado, sua transposição para a voz ativa produz compulsoriamente uma oração com sujeito indeterminado, exigindo o verbo conjugado na 3ª pessoa do plural no mesmo tempo primitivo, convertendo-se o antigo sujeito paciente em objeto direto."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Procedimento Canônico:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identificar o tempo e modo verbal da sintética.",
+            "Retirar a partícula apassivadora se.",
+            "Converter o agente indeterminado em sujeito indeterminado: flexionar o verbo na 3ª pessoa do plural, preservando o tempo verbal primitivo.",
+            "Converter o antigo sujeito paciente em objeto direto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Atalho Operacional (\"No Cantinho\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Retirar o pronome se.",
+            "Colocar o verbo na 3ª pessoa do plural mantendo o tempo verbal original."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Comportamento de Locuções Verbais:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na transposição da Sintética para a Ativa, o número de verbos NÃO se altera (2 verbos continuam 2 verbos). Exemplo: deveriam instituir-se leis (2 verbos) $\\rightarrow$ deveriam instituir leis (2 verbos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A05-G08-005, PROC-A05-G08-006",
+            "Dica associada: TIP-A05-G08-006",
+            "Evidenciado visualmente por: VIS-A05-G08-009"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A transposição de orações reduzidas passivas para a voz ativa requer: (1) recompor a elipse do verbo auxiliar no particípio passivo para recuperar o tempo de origem e (2) conjugar formas em gerúndio passivo em formas finitas na 3ª pessoa do plural, visto que formas nominais puras não comportam desinências número-pessoais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em questões complexas de períodos compostos (padrão VUNESP):"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Oração Reduzida de Particípio Passiva: Um estudo realizado por pesquisadores $\\rightarrow$ O particípio esconde a forma passiva analítica [que foi] realizado. Na voz ativa, o agente da passiva (pesquisadores) vira sujeito e o particípio vira pretérito perfeito: Pesquisadores realizaram um estudo.",
+            "Oração Reduzida de Gerúndio Passiva Sintética: ...registrando-se uma diminuição... $\\rightarrow$ Em contexto regido pelo presente do indicativo (indicam), o gerúndio não pode ser mantido (não existe gerúndio de 3ª pessoa do plural). Ao indeterminar o sujeito, desenvolve-se a forma finita coordenada no presente do indicativo: ... e registram uma diminuição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento associado: PROC-A05-G08-007",
+            "Possui alerta: WARN-A05-G08-009",
+            "Evidenciado visualmente por: VIS-A05-G08-010"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A05-G08-001",
+          "title": "Definições Compactas",
+          "statement": "Voz Passiva Sintética (Pronominal): Estrutura verbal passiva formada por $\\text{VTD/VTDI} + \\text{SE}$ (pronome apassivador), caracterizada por sujeito determinado paciente, agente da passiva indeterminado e ausência de verbo auxiliar (KB-A05-G08-002, KB-A05-G08-004).\nPartícula Apassivadora (PA): Morfema pronominal se que transforma o objeto direto em sujeito paciente da oração (KB-A05-G08-006, KB-A05-G08-009).\nÍndice de Indeterminação do Sujeito (IIS / PIS): Partícula se acoplada a $\\text{VI}$, $\\text{VTI}$ ou $\\text{VL}$, mantendo o verbo na 3ª pessoa do singular com sujeito indeterminado (KB-A05-G08-006).\nParte Integrante do Verbo (PIV): Pronome que integra a estrutura lexical de verbos pronominais, sem função de apassivação ou indeterminação (KB-A05-G08-006, KB-A05-G08-008).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Voz Passiva Sintética (Pronominal): Estrutura verbal passiva formada por $\\text{VTD/VTDI} + \\text{SE}$ (pronome apassivador), caracterizada por sujeito determinado paciente, agente da passiva indeterminado e ausência de verbo auxiliar (KB-A05-G08-002, KB-A05-G08-004).",
+            "Partícula Apassivadora (PA): Morfema pronominal se que transforma o objeto direto em sujeito paciente da oração (KB-A05-G08-006, KB-A05-G08-009).",
+            "Índice de Indeterminação do Sujeito (IIS / PIS): Partícula se acoplada a $\\text{VI}$, $\\text{VTI}$ ou $\\text{VL}$, mantendo o verbo na 3ª pessoa do singular com sujeito indeterminado (KB-A05-G08-006).",
+            "Parte Integrante do Verbo (PIV): Pronome que integra a estrutura lexical de verbos pronominais, sem função de apassivação ou indeterminação (KB-A05-G08-006, KB-A05-G08-008)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Voz Passiva Sintética (Pronominal): Estrutura verbal passiva formada por $\\text{VTD/VTDI} + \\text{SE}$ (pronome apassivador), caracterizada por sujeito determinado paciente, agente da passiva indeterminado e ausência de verbo auxiliar (KB-A05-G08-002, KB-A05-G08-004).",
+                "Partícula Apassivadora (PA): Morfema pronominal se que transforma o objeto direto em sujeito paciente da oração (KB-A05-G08-006, KB-A05-G08-009).",
+                "Índice de Indeterminação do Sujeito (IIS / PIS): Partícula se acoplada a $\\text{VI}$, $\\text{VTI}$ ou $\\text{VL}$, mantendo o verbo na 3ª pessoa do singular com sujeito indeterminado (KB-A05-G08-006).",
+                "Parte Integrante do Verbo (PIV): Pronome que integra a estrutura lexical de verbos pronominais, sem função de apassivação ou indeterminação (KB-A05-G08-006, KB-A05-G08-008)."
+              ]
+            }
+          ]
+        },
+        {
+          "entityId": "RULE-IP-A05-G08-002",
+          "title": "Regras Operacionais Canônicas",
+          "statement": "Regra da Transitividade Direta Obrigatória: Apenas verbos com trânsito direto ($\\text{VTD}$ ou $\\text{VTDI}$) admitem voz passiva sintética (KB-A05-G08-005).\nMantra da Voz Passiva: Na voz passiva, o termo que seria objeto direto na voz ativa passa a ser obrigatoriamente sujeito paciente (KB-A05-G08-009).\nRegra de Concordância: O verbo na passiva sintética concorda obrigatoriamente em número e pessoa com o sujeito paciente (KB-A05-G08-010).\nRegra da Adição Verbal (+SER): A transposição da sintética para a analítica soma exatamente 1 verbo auxiliar ser ($1 \\rightarrow 2$; $2 \\rightarrow 3$ verbos) (KB-A05-G08-014, KB-A05-G08-015).\nRegra da Invariância Verbal na Ativa: A transposição da passiva sintética para a voz ativa mantém rigorosamente a quantidade de verbos ($1 \\rightarrow 1$; $2 \\rightarrow 2$ verbos) (KB-A05-G08-016).\nRegra do Sujeito Indeterminado na Ativa: Ao converter da passiva sintética para a ativa, o agente indeterminado vira sujeito indeterminado, exigindo verbo na 3ª pessoa do plural (KB-A05-G08-016).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Regra da Transitividade Direta Obrigatória: Apenas verbos com trânsito direto ($\\text{VTD}$ ou $\\text{VTDI}$) admitem voz passiva sintética (KB-A05-G08-005).",
+            "Mantra da Voz Passiva: Na voz passiva, o termo que seria objeto direto na voz ativa passa a ser obrigatoriamente sujeito paciente (KB-A05-G08-009).",
+            "Regra de Concordância: O verbo na passiva sintética concorda obrigatoriamente em número e pessoa com o sujeito paciente (KB-A05-G08-010).",
+            "Regra da Adição Verbal (+SER): A transposição da sintética para a analítica soma exatamente 1 verbo auxiliar ser ($1 \\rightarrow 2$; $2 \\rightarrow 3$ verbos) (KB-A05-G08-014, KB-A05-G08-015)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Regra da Transitividade Direta Obrigatória: Apenas verbos com trânsito direto ($\\text{VTD}$ ou $\\text{VTDI}$) admitem voz passiva sintética (KB-A05-G08-005).",
+                "Mantra da Voz Passiva: Na voz passiva, o termo que seria objeto direto na voz ativa passa a ser obrigatoriamente sujeito paciente (KB-A05-G08-009).",
+                "Regra de Concordância: O verbo na passiva sintética concorda obrigatoriamente em número e pessoa com o sujeito paciente (KB-A05-G08-010).",
+                "Regra da Adição Verbal (+SER): A transposição da sintética para a analítica soma exatamente 1 verbo auxiliar ser ($1 \\rightarrow 2$; $2 \\rightarrow 3$ verbos) (KB-A05-G08-014, KB-A05-G08-015).",
+                "Regra da Invariância Verbal na Ativa: A transposição da passiva sintética para a voz ativa mantém rigorosamente a quantidade de verbos ($1 \\rightarrow 1$; $2 \\rightarrow 2$ verbos) (KB-A05-G08-016).",
+                "Regra do Sujeito Indeterminado na Ativa: Ao converter da passiva sintética para a ativa, o agente indeterminado vira sujeito indeterminado, exigindo verbo na 3ª pessoa do plural (KB-A05-G08-016)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A05-G08-001",
+          "title": "Protocolo de Dupla Validação da Voz Passiva Sintética",
+          "objective": "Executar o algoritmo decisório para Protocolo de Dupla Validação da Voz Passiva Sintética",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo de Dupla Validação da Voz Passiva Sintética."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Confirmar se uma oração com o pronome se está na voz passiva sintética.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "Isolar o verbo e verificar a sua transitividade. O verbo deve ser Transitivo Direto ($\\text{VTD}$) ou Transitivo Direto e Indireto ($\\text{VTDI}$). Se for $\\text{VTI}$ (com preposição regida), $\\text{VI}$ ou $\\text{VL}$, descarte a passiva sintética.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Aplicar o teste de conversão analítica mental:",
+              "test": "Passo 2: Aplicar o teste de conversão analítica mental:"
+            },
+            {
+              "order": 4,
+              "action": "Critério de Validação",
+              "explanation": "Se a conversão mantiver o sentido lógico e demonstrar que o termo sofre uma ação praticada por agente externo, confirma-se a Voz Passiva Sintética.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo de Dupla Validação da Voz Passiva Sintética."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "formulas": [
+            "\\text{Termo não preposicionado} + [\\text{Verbo SER no mesmo tempo original}] + [\\text{Particípio do verbo principal}]"
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Confirmar se uma oração com o pronome se está na voz passiva sintética.",
+                "Passo 1: Isolar o verbo e verificar a sua transitividade. O verbo deve ser Transitivo Direto ($\\text{VTD}$) ou Transitivo Direto e Indireto ($\\text{VTDI}$). Se for $\\text{VTI}$ (com preposição regida), $\\text{VI}$ ou $\\text{VL}$, descarte a passiva sintética.",
+                "Passo 2: Aplicar o teste de conversão analítica mental:"
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "\\text{Termo não preposicionado} + [\\text{Verbo SER no mesmo tempo original}] + [\\text{Particípio do verbo principal}]"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério de Validação: Se a conversão mantiver o sentido lógico e demonstrar que o termo sofre uma ação praticada por agente externo, confirma-se a Voz Passiva Sintética."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-002",
+          "title": "Protocolo de Triagem e Descarte das Funções do \"SE\"",
+          "objective": "Executar o algoritmo decisório para Protocolo de Triagem e Descarte das Funções do \"SE\"",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo de Triagem e Descarte das Funções do \"SE\"."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Classificar o vocábulo se em questões de múltipla escolha.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Fluxo de Decisão",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Teste 1 (Conjunção)",
+              "explanation": "O se pode ser substituído por \"caso\" (condicional) ou a oração inteira por \"isso\" (integrante)? Se sim $\\rightarrow$ Conjunção.",
+              "test": "Teste 1 (Conjunção): O se pode ser substituído por \"caso\" (condicional) ou a oração inteira por \"isso\" (integrante)? Se sim $\\rightarrow$ Conjunção."
+            },
+            {
+              "order": 4,
+              "action": "Teste 2 (Reflexivo)",
+              "explanation": "O termo admite substituição por \"a si mesmo(a)\"? Se sim $\\rightarrow$ Pronome Reflexivo.",
+              "test": "Teste 2 (Reflexivo): O termo admite substituição por \"a si mesmo(a)\"? Se sim $\\rightarrow$ Pronome Reflexivo."
+            },
+            {
+              "order": 5,
+              "action": "Teste 3 (PIV)",
+              "explanation": "O verbo é pronominal (queixar-se, sentir-se, situar-se, certificar-se)? Se sim $\\rightarrow$ PIV.",
+              "test": "Teste 3 (PIV): O verbo é pronominal (queixar-se, sentir-se, situar-se, certificar-se)? Se sim $\\rightarrow$ PIV."
+            },
+            {
+              "order": 6,
+              "action": "Teste 4 (Filtro da Preposição / IIS)",
+              "explanation": "Há preposição regida imediatamente após o verbo/pronome ($\\text{VTI}$) ou o verbo é intransitivo/ligação? Se sim $\\rightarrow$ IIS/PIS.",
+              "test": "Teste 4 (Filtro da Preposição / IIS): Há preposição regida imediatamente após o verbo/pronome ($\\text{VTI}$) ou o verbo é intransitivo/ligação? Se sim $\\rightarrow$ IIS/PIS."
+            },
+            {
+              "order": 7,
+              "action": "Teste 5 (PA)",
+              "explanation": "O verbo é $\\text{VTD/VTDI}$ e admite conversão para $[\\text{SER} + \\text{Particípio}]$? Se sim $\\rightarrow$ Pronome Apassivador (Passiva Sintética).",
+              "test": "Teste 5 (PA): O verbo é $\\text{VTD/VTDI}$ e admite conversão para $[\\text{SER} + \\text{Particípio}]$? Se sim $\\rightarrow$ Pronome Apassivador (Passiva Sintética)."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo de Triagem e Descarte das Funções do \"SE\"."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Classificar o vocábulo se em questões de múltipla escolha.",
+                "Fluxo de Decisão:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Teste 1 (Conjunção): O se pode ser substituído por \"caso\" (condicional) ou a oração inteira por \"isso\" (integrante)? Se sim $\\rightarrow$ Conjunção.",
+                "Teste 2 (Reflexivo): O termo admite substituição por \"a si mesmo(a)\"? Se sim $\\rightarrow$ Pronome Reflexivo.",
+                "Teste 3 (PIV): O verbo é pronominal (queixar-se, sentir-se, situar-se, certificar-se)? Se sim $\\rightarrow$ PIV.",
+                "Teste 4 (Filtro da Preposição / IIS): Há preposição regida imediatamente após o verbo/pronome ($\\text{VTI}$) ou o verbo é intransitivo/ligação? Se sim $\\rightarrow$ IIS/PIS.",
+                "Teste 5 (PA): O verbo é $\\text{VTD/VTDI}$ e admite conversão para $[\\text{SER} + \\text{Particípio}]$? Se sim $\\rightarrow$ Pronome Apassivador (Passiva Sintética)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-003",
+          "title": "Algoritmo das 4 Instruções (VPS $\\rightarrow$ VPA: Frases Simples)",
+          "objective": "Executar o algoritmo decisório para Algoritmo das 4 Instruções (VPS $\\rightarrow$ VPA: Frases Simples)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo das 4 Instruções (VPS $\\rightarrow$ VPA: Frases Simples)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Transpor oração com verbo simples da voz passiva sintética para a voz passiva analítica.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (\"Chame o feito à ordem\")",
+              "explanation": "Identificar o sujeito paciente, o tempo e modo do verbo e destacar o pronome apassivador se.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Mover o sujeito paciente para a posição inicial da oração na forma analítica.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Eliminar definitivamente o pronome se.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Inserir o verbo auxiliar SER no mesmo tempo e modo do verbo original (concordando com o novo sujeito) $+$ Particípio do verbo principal concordado em gênero e número.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo das 4 Instruções (VPS $\\rightarrow$ VPA: Frases Simples)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Transpor oração com verbo simples da voz passiva sintética para a voz passiva analítica.",
+                "Passo 1 (\"Chame o feito à ordem\"): Identificar o sujeito paciente, o tempo e modo do verbo e destacar o pronome apassivador se.",
+                "Passo 2: Mover o sujeito paciente para a posição inicial da oração na forma analítica.",
+                "Passo 3: Eliminar definitivamente o pronome se.",
+                "Passo 4: Inserir o verbo auxiliar SER no mesmo tempo e modo do verbo original (concordando com o novo sujeito) $+$ Particípio do verbo principal concordado em gênero e número."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-004",
+          "title": "Transposição de Locuções Verbais na Passiva (VPS $\\rightarrow$ VPA: 2 $\\rightarrow$ 3 Verbos)",
+          "objective": "Executar o algoritmo decisório para Transposição de Locuções Verbais na Passiva (VPS $\\rightarrow$ VPA: 2 $\\rightarrow$ 3 Verbos)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Transposição de Locuções Verbais na Passiva (VPS $\\rightarrow$ VPA: 2 $\\rightarrow$ 3 Verbos)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Converter locuções verbais passivas sintéticas em analíticas.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "Identificar a locução na VPS (ex.: começou a se definir — 2 verbos).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Preservar o verbo auxiliar primitivo e eventuais preposições (começou a).",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Inserir o verbo SER exatamente na forma nominal que o verbo principal possuía (se estava no infinitivo, ser entra no infinitivo).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Flexionar o verbo principal em particípio concordando com o sujeito paciente (definida).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 5",
+              "explanation": "Totalizar a locução com 3 verbos (começou a ser definida).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Transposição de Locuções Verbais na Passiva (VPS $\\rightarrow$ VPA: 2 $\\rightarrow$ 3 Verbos)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Converter locuções verbais passivas sintéticas em analíticas.",
+                "Passo 1: Identificar a locução na VPS (ex.: começou a se definir — 2 verbos).",
+                "Passo 2: Preservar o verbo auxiliar primitivo e eventuais preposições (começou a).",
+                "Passo 3: Inserir o verbo SER exatamente na forma nominal que o verbo principal possuía (se estava no infinitivo, ser entra no infinitivo).",
+                "Passo 4: Flexionar o verbo principal em particípio concordando com o sujeito paciente (definida).",
+                "Passo 5: Totalizar a locução com 3 verbos (começou a ser definida)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-005",
+          "title": "Procedimento Canônico de Transposição (VPS $\\rightarrow$ Voz Ativa)",
+          "objective": "Executar o algoritmo decisório para Procedimento Canônico de Transposição (VPS $\\rightarrow$ Voz Ativa)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento Canônico de Transposição (VPS $\\rightarrow$ Voz Ativa)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Converter com rigor analítico orações da passiva sintética para a voz ativa.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "Identificar o tempo verbal primitivo e o sujeito paciente.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Suprimir a partícula apassivadora se.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Converter o agente da passiva (indeterminado) em sujeito indeterminado: conjugar o verbo na 3ª pessoa do plural no mesmo tempo da oração sintética.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Deslocar o antigo sujeito paciente para a posição pós-verbal como objeto direto.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento Canônico de Transposição (VPS $\\rightarrow$ Voz Ativa)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Converter com rigor analítico orações da passiva sintética para a voz ativa.",
+                "Passo 1: Identificar o tempo verbal primitivo e o sujeito paciente.",
+                "Passo 2: Suprimir a partícula apassivadora se.",
+                "Passo 3: Converter o agente da passiva (indeterminado) em sujeito indeterminado: conjugar o verbo na 3ª pessoa do plural no mesmo tempo da oração sintética.",
+                "Passo 4: Deslocar o antigo sujeito paciente para a posição pós-verbal como objeto direto."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-006",
+          "title": "O Atalho Operacional (\"No Cantinho\") para VPS $\\rightarrow$ Ativa",
+          "objective": "Executar o algoritmo decisório para O Atalho Operacional (\"No Cantinho\") para VPS $\\rightarrow$ Ativa",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de O Atalho Operacional (\"No Cantinho\") para VPS $\\rightarrow$ Ativa."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Resolver questões de reescritura para voz ativa em segundos.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1",
+              "explanation": "No canto da prova, corte mentalmente ou a lápis o pronome se.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Escreva o verbo conjugado na 3ª pessoa do plural no mesmo tempo da frase original.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Mantenha o termo substantivo posposto como objeto direto.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Busque nas alternativas a opção que contém a forma verbal exata obtida no rascunho.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de O Atalho Operacional (\"No Cantinho\") para VPS $\\rightarrow$ Ativa."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Resolver questões de reescritura para voz ativa em segundos.",
+                "Passo 1: No canto da prova, corte mentalmente ou a lápis o pronome se.",
+                "Passo 2: Escreva o verbo conjugado na 3ª pessoa do plural no mesmo tempo da frase original.",
+                "Passo 3: Mantenha o termo substantivo posposto como objeto direto.",
+                "Passo 4: Busque nas alternativas a opção que contém a forma verbal exata obtida no rascunho."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A05-G08-007",
+          "title": "Método Integrado para Orações Reduzidas Passivas em Períodos Compostos",
+          "objective": "Executar o algoritmo decisório para Método Integrado para Orações Reduzidas Passivas em Períodos Compostos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método Integrado para Orações Reduzidas Passivas em Períodos Compostos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Objetivo",
+              "explanation": "Transpor orações reduzidas passivas para a ativa em períodos compostos extensos.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 1 (Particípio Passivo)",
+              "explanation": "Reconstituir o auxiliar elíptico (estudo realizado por X $\\rightarrow$ [que foi] realizado por X). O agente vira sujeito na ativa (X realizou um estudo).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2 (Gerúndio Passivo)",
+              "explanation": "Identificar a correlação temporal com o verbo principal da oração (ex.: indicam = presente).",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 3",
+              "explanation": "Desenvolver o gerúndio em oração finita coordenada na 3ª pessoa do plural do presente (e registram), eliminando a partícula se.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Passo 4",
+              "explanation": "Confrontar com as alternativas e assinalar a opção com correspondência temporal estrita.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método Integrado para Orações Reduzidas Passivas em Períodos Compostos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objetivo: Transpor orações reduzidas passivas para a ativa em períodos compostos extensos.",
+                "Passo 1 (Particípio Passivo): Reconstituir o auxiliar elíptico (estudo realizado por X $\\rightarrow$ [que foi] realizado por X). O agente vira sujeito na ativa (X realizou um estudo).",
+                "Passo 2 (Gerúndio Passivo): Identificar a correlação temporal com o verbo principal da oração (ex.: indicam = presente).",
+                "Passo 3: Desenvolver o gerúndio em oração finita coordenada na 3ª pessoa do plural do presente (e registram), eliminando a partícula se.",
+                "Passo 4: Confrontar com as alternativas e assinalar a opção com correspondência temporal estrita."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A05-G08-001",
+          "title": "Tabela Comparativa Global das Estruturas com a Partícula \"SE\"",
+          "contrastType": "mixed",
+          "conceptA": "Tabela Comparativa Global das Estruturas com a Partícula \"SE\"",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A05-G08-002",
+              "table": {
+                "tableId": "TABLE-IP-A05-G08-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Estrutura / Função",
+                  "Transitividade Exigida",
+                  "Sujeito Sintático",
+                  "Agente da Ação",
+                  "Flexão do Verbo",
+                  "Exemplo Canônico"
+                ],
+                "rows": [
+                  [
+                    "Pronome Apassivador (PA)",
+                    "$\\text{VTD}$ ou $\\text{VTDI}$",
+                    "Determinado (Paciente)",
+                    "Indeterminado",
+                    "Concorda com o sujeito (Singular/Plural)",
+                    "Vendem-se casas."
+                  ],
+                  [
+                    "Índice de Indeterminação (IIS/PIS)",
+                    "$\\text{VI}$, $\\text{VTI}$ (prep.) ou $\\text{VL}$",
+                    "Indeterminado",
+                    "Indeterminado",
+                    "Fixo na3ª pessoa do singular",
+                    "Precisa-se de técnicos."
+                  ],
+                  [
+                    "Parte Integrante do Verbo (PIV)",
+                    "Verbo Pronominal",
+                    "Determinado ou Oculto",
+                    "O próprio sujeito",
+                    "Varia com o sujeito ($\\text{1ª, 2ª, 3ª p.}$)",
+                    "Eles queixavam-se."
+                  ],
+                  [
+                    "Pronome Reflexivo",
+                    "$\\text{VTD}$ ou $\\text{VTDI}$",
+                    "Determinado (Ag./Pac.)",
+                    "O próprio sujeito",
+                    "Varia com o sujeito",
+                    "Ela cortou-se."
+                  ],
+                  [
+                    "Conjunção Integrante / Condic.",
+                    "Conectivo oracional",
+                    "Depende da oração",
+                    "Depende da oração",
+                    "Flexão normal",
+                    "Não sei se virão."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A05-G08-002",
+          "title": "Tabela Comparativa de Cardinalidade Verbal nas Transposições",
+          "contrastType": "mixed",
+          "conceptA": "Tabela Comparativa de Cardinalidade Verbal nas Transposições",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A05-G08-003",
+              "table": {
+                "tableId": "TABLE-IP-A05-G08-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Transposição de Vozes",
+                  "Quantidade na Origem",
+                  "Quantidade no Destino",
+                  "Regra de Cardinalidade",
+                  "Exemplo"
+                ],
+                "rows": [
+                  [
+                    "Sintética $\\rightarrow$ Analítica (Simples)",
+                    "1 verbo",
+                    "2 verbos",
+                    "Soma 1 verbo (+SER)",
+                    "vende-se (1) $\\rightarrow$ é vendida (2)"
+                  ],
+                  [
+                    "Sintética $\\rightarrow$ Analítica (Locução)",
+                    "2 verbos",
+                    "3 verbos",
+                    "Soma 1 verbo (+SER)",
+                    "começou a se definir (2) $\\rightarrow$ começou a ser definida (3)"
+                  ],
+                  [
+                    "Sintética $\\rightarrow$ Ativa (Simples)",
+                    "1 verbo",
+                    "1 verbo",
+                    "Mantém o número",
+                    "vende-se (1) $\\rightarrow$ vendem (1)"
+                  ],
+                  [
+                    "Sintética $\\rightarrow$ Ativa (Locução)",
+                    "2 verbos",
+                    "2 verbos",
+                    "Mantém o número",
+                    "deveriam instituir-se (2) $\\rightarrow$ deveriam instituir (2)"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-001",
+          "title": "EX-A05-G08-001 — Questão 1 (Identificação de Voz): Adriana Figueiredo",
+          "prompt": "Frase: Consertou-se o computador do laboratório.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "Consertou-se o computador do laboratório."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Verbo consertar ($\\text{VTD}$) $+$ pronome se. Conversão analítica mental: O computador do laboratório foi consertado."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Voz Passiva Sintética."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito",
+              "rationale": "Letra E."
+            }
+          ],
+          "result": "Gabarito: Letra E.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-001 — Questão 1 (Identificação de Voz): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-001 — Questão 1 (Identificação de Voz): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-001 — Questão 1 (Identificação de Voz): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: Consertou-se o computador do laboratório.",
+                "Análise: Verbo consertar ($\\text{VTD}$) $+$ pronome se. Conversão analítica mental: O computador do laboratório foi consertado.",
+                "Classificação: Voz Passiva Sintética.",
+                "Gabarito: Letra E."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-002",
+          "title": "EX-A05-G08-002 — Questão 2 (FGV — Reconhecimento Duplo de Voz Passiva): Adriana Figueiredo",
+          "prompt": "Enunciado: Identificar a opção em que ambos os fragmentos constituem exemplos de voz passiva.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Identificar a opção em que ambos os fragmentos constituem exemplos de voz passiva."
+            },
+            {
+              "order": 2,
+              "action": "Análise dos fragmentos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "São muito diversificadas",
+              "rationale": "$\\text{VL} + \\text{Predicativo}$ $\\rightarrow$ Voz Ativa."
+            },
+            {
+              "order": 4,
+              "action": "..essas áreas sejam tomadas",
+              "rationale": "$\\text{SER} + \\text{Particípio}$ $\\rightarrow$ Voz Passiva Analítica."
+            },
+            {
+              "order": 5,
+              "action": "Criam-se condições",
+              "rationale": "$\\text{VTD} + \\text{SE}$ $\\rightarrow$ Condições são criadas $\\rightarrow$ Voz Passiva Sintética."
+            }
+          ],
+          "result": "Gabarito: Letra D (reúne uma passiva analítica e uma passiva sintética).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-002 — Questão 2 (FGV — Reconhecimento Duplo de Voz Passiva): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-002 — Questão 2 (FGV — Reconhecimento Duplo de Voz Passiva): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-002 — Questão 2 (FGV — Reconhecimento Duplo de Voz Passiva): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Identificar a opção em que ambos os fragmentos constituem exemplos de voz passiva.",
+                "Análise dos fragmentos:",
+                "São muito diversificadas: $\\text{VL} + \\text{Predicativo}$ $\\rightarrow$ Voz Ativa.",
+                "...essas áreas sejam tomadas: $\\text{SER} + \\text{Particípio}$ $\\rightarrow$ Voz Passiva Analítica.",
+                "Criam-se condições: $\\text{VTD} + \\text{SE}$ $\\rightarrow$ Condições são criadas $\\rightarrow$ Voz Passiva Sintética.",
+                "impõe: $\\text{VTD}$ simples sem estrutura passiva $\\rightarrow$ Voz Ativa.",
+                "Gabarito: Letra D (reúne uma passiva analítica e uma passiva sintética)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-003",
+          "title": "EX-A05-G08-003 — Questão 3 (FGV — Próclise na Voz Passiva Sintética): Adriana Figueiredo",
+          "prompt": "Trecho correto: ...cada vez mais se desfazem os limites...",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho correto",
+              "rationale": "...cada vez mais se desfazem os limites..."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Locução adverbial atrativa impõe a próclise do pronome apassivador se junto ao $\\text{VTD}$ desfazer. Conversão analítica: os limites são desfeitos."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "Letra E (Voz Passiva Sintética)."
+            }
+          ],
+          "result": "Gabarito: Letra E (Voz Passiva Sintética).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-003 — Questão 3 (FGV — Próclise na Voz Passiva Sintética): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-003 — Questão 3 (FGV — Próclise na Voz Passiva Sintética): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-003 — Questão 3 (FGV — Próclise na Voz Passiva Sintética): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho correto: ...cada vez mais se desfazem os limites...",
+                "Análise: Locução adverbial atrativa impõe a próclise do pronome apassivador se junto ao $\\text{VTD}$ desfazer. Conversão analítica: os limites são desfeitos.",
+                "Gabarito: Letra E (Voz Passiva Sintética)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-004",
+          "title": "EX-A05-G08-004 — Questão 4 (FGV — Identificação de Voz Discrepante): Adriana Figueiredo",
+          "prompt": "Trecho correto: Atualmente, quando se mencionam...",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho correto",
+              "rationale": "Atualmente, quando se mencionam..."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Conjunção subordinativa temporal quando atrai o pronome se em próclise ao $\\text{VTD}$ mencionar. Conversão analítica: quando são mencionadas. Todas as outras opções apresentavam verbos na voz ativa."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "Letra E (Única em Voz Passiva Sintética)."
+            }
+          ],
+          "result": "Gabarito: Letra E (Única em Voz Passiva Sintética).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-004 — Questão 4 (FGV — Identificação de Voz Discrepante): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-004 — Questão 4 (FGV — Identificação de Voz Discrepante): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-004 — Questão 4 (FGV — Identificação de Voz Discrepante): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho correto: Atualmente, quando se mencionam...",
+                "Análise: Conjunção subordinativa temporal quando atrai o pronome se em próclise ao $\\text{VTD}$ mencionar. Conversão analítica: quando são mencionadas. Todas as outras opções apresentavam verbos na voz ativa.",
+                "Gabarito: Letra E (Única em Voz Passiva Sintética)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-005",
+          "title": "EX-A05-G08-005 — Questão 05 (VUNESP 2018 — PC-SP — Agente de Telecomunicações)",
+          "prompt": "Enunciado: Em “... fica faltando dizer que se encerrou a escravidão negra...”, o pronome “se” indica que o sujeito é paciente, como ocorre em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em “... fica faltando dizer que se encerrou a escravidão negra...”, o pronome “se” indica que o sujeito é paciente, como ocorre em:"
+            },
+            {
+              "order": 2,
+              "action": "Análise das opções",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) Querem saber se serão pagos... $\\rightarrow$ Conjunção Integrante (\"Querem saber isso\").",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "B) Os homens não se deixam escravizar... $\\rightarrow$ Pronome Reflexivo (a si mesmos).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "C) Ali se trabalha como escravo... $\\rightarrow$ $\\text{VI} + \\text{SE}$ $\\rightarrow$ IIS/PIS.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: Letra D.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-005 — Questão 05 (VUNESP 2018 — PC-SP — Agente de Telecomunicações) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-005 — Questão 05 (VUNESP 2018 — PC-SP — Agente de Telecomunicações).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-005 — Questão 05 (VUNESP 2018 — PC-SP — Agente de Telecomunicações).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em “... fica faltando dizer que se encerrou a escravidão negra...”, o pronome “se” indica que o sujeito é paciente, como ocorre em:",
+                "Análise das opções:",
+                "A) Querem saber se serão pagos... $\\rightarrow$ Conjunção Integrante (\"Querem saber isso\").",
+                "B) Os homens não se deixam escravizar... $\\rightarrow$ Pronome Reflexivo (a si mesmos).",
+                "C) Ali se trabalha como escravo... $\\rightarrow$ $\\text{VI} + \\text{SE}$ $\\rightarrow$ IIS/PIS.",
+                "D) Lamentavelmente, ainda hoje se escravizam pessoas. $\\rightarrow$ $\\text{VTD} + \\text{SE}$ ($=\\text{pessoas são escravizadas}$) $\\rightarrow$ Pronome Apassivador.",
+                "E) Todos se sentem submetidos... $\\rightarrow$ Verbo pronominal sentir-se $\\rightarrow$ PIV.",
+                "Gabarito: Letra D."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-006",
+          "title": "EX-A05-G08-006 — Questão 06 (Instituto Consulplan 2020 — Câmara de Arcos-MG — Contador)",
+          "prompt": "Análise das opções:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise das opções",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "A) “Algoritmos fixos... tornam-se dinâmicos” $\\rightarrow$ Verbo pronominal tornar-se $\\rightarrow$ PIV (Ativa).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) “...ainda situam-se no campo...” $\\rightarrow$ Verbo pronominal situar-se $\\rightarrow$ PIV (Ativa).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) “...levantam-se dúvidas sobre...” $\\rightarrow$ $\\text{VTD} + \\text{SE}$ ($=\\text{dúvidas são levantadas}$) $\\rightarrow$ Voz Passiva Sintética.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) “...passa-se de momentos de euforia...” $\\rightarrow$ $\\text{VTI}$ com preposição de $\\rightarrow$ IIS/PIS.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: Letra C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-006 — Questão 06 (Instituto Consulplan 2020 — Câmara de Arcos-MG — Contador) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-006 — Questão 06 (Instituto Consulplan 2020 — Câmara de Arcos-MG — Contador).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-006 — Questão 06 (Instituto Consulplan 2020 — Câmara de Arcos-MG — Contador).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise das opções:",
+                "A) “Algoritmos fixos... tornam-se dinâmicos” $\\rightarrow$ Verbo pronominal tornar-se $\\rightarrow$ PIV (Ativa).",
+                "B) “...ainda situam-se no campo...” $\\rightarrow$ Verbo pronominal situar-se $\\rightarrow$ PIV (Ativa).",
+                "C) “...levantam-se dúvidas sobre...” $\\rightarrow$ $\\text{VTD} + \\text{SE}$ ($=\\text{dúvidas são levantadas}$) $\\rightarrow$ Voz Passiva Sintética.",
+                "D) “...passa-se de momentos de euforia...” $\\rightarrow$ $\\text{VTI}$ com preposição de $\\rightarrow$ IIS/PIS.",
+                "Gabarito: Letra C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-007",
+          "title": "EX-A05-G08-007 — Questão 07 (CESGRANRIO 2022 — Petrobras — Geofísico Júnior)",
+          "prompt": "Enunciado: A construção de voz passiva sintética pode ser encontrada nas frases, EXCETO em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A construção de voz passiva sintética pode ser encontrada nas frases, EXCETO em:"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Nas opções A, B, D e E ocorrem $\\text{VTD} + \\text{SE}$ (gerou-se desgaste, combate-se o desemprego, perde-se uma batalha, provoca-se uma crise). Na opção C (precisa-se de uma série de medidas), o verbo precisar rege preposição de ($\\text{VTI}$), atuando o se como IIS/PIS."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "Letra C."
+            }
+          ],
+          "result": "Gabarito: Letra C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-007 — Questão 07 (CESGRANRIO 2022 — Petrobras — Geofísico Júnior) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-007 — Questão 07 (CESGRANRIO 2022 — Petrobras — Geofísico Júnior).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-007 — Questão 07 (CESGRANRIO 2022 — Petrobras — Geofísico Júnior).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A construção de voz passiva sintética pode ser encontrada nas frases, EXCETO em:",
+                "Análise: Nas opções A, B, D e E ocorrem $\\text{VTD} + \\text{SE}$ (gerou-se desgaste, combate-se o desemprego, perde-se uma batalha, provoca-se uma crise). Na opção C (precisa-se de uma série de medidas), o verbo precisar rege preposição de ($\\text{VTI}$), atuando o se como IIS/PIS.",
+                "Gabarito: Letra C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-008",
+          "title": "EX-A05-G08-008 — Questão 08 (FUNDATEC 2021 — CRA-RS — Fiscal)",
+          "prompt": "Enunciado: Assinale a alternativa na qual NÃO haja o emprego de voz passiva.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa na qual NÃO haja o emprego de voz passiva."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) multiplicam-se... as postagens $\\rightarrow$ Passiva Sintética.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "B) O home office... cristalizou-se $\\rightarrow$ Passiva Sintética ($=\\text{foi cristalizado}$).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "C) decisão a ser tomada $\\rightarrow$ Passiva Analítica ($\\text{SER} + \\text{Particípio}$).",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: Letra E.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-008 — Questão 08 (FUNDATEC 2021 — CRA-RS — Fiscal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-008 — Questão 08 (FUNDATEC 2021 — CRA-RS — Fiscal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-008 — Questão 08 (FUNDATEC 2021 — CRA-RS — Fiscal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa na qual NÃO haja o emprego de voz passiva.",
+                "Análise:",
+                "A) multiplicam-se... as postagens $\\rightarrow$ Passiva Sintética.",
+                "B) O home office... cristalizou-se $\\rightarrow$ Passiva Sintética ($=\\text{foi cristalizado}$).",
+                "C) decisão a ser tomada $\\rightarrow$ Passiva Analítica ($\\text{SER} + \\text{Particípio}$).",
+                "D) assuntos a serem discutidos $\\rightarrow$ Passiva Analítica.",
+                "E) Certifique-se de que todos... $\\rightarrow$ Verbo pronominal certificar-se $\\rightarrow$ PIV (Voz Ativa).",
+                "Gabarito: Letra E."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-009",
+          "title": "EX-A05-G08-009 — Estudo de Caso Cebraspe (Concurso IBGE): PIV vs. PA",
+          "prompt": "Trecho: \"existia toda uma vida cultural que se desenvolvia em torno da vida portuária carioca.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"existia toda uma vida cultural que se desenvolvia em torno da vida portuária carioca.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O verbo desenvolver é $\\text{VTD}$ no léxico, mas expressa processo autônomo e espontâneo no texto. A conversão analítica (a vida cultural era desenvolvida) é incompatível com o sentido."
+            },
+            {
+              "order": 3,
+              "action": "Classificação oficial do SE",
+              "rationale": "Parte Integrante do Verbo (PIV)."
+            }
+          ],
+          "result": "Classificação oficial do SE: Parte Integrante do Verbo (PIV).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-009 — Estudo de Caso Cebraspe (Concurso IBGE): PIV vs. PA sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-009 — Estudo de Caso Cebraspe (Concurso IBGE): PIV vs. PA.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-009 — Estudo de Caso Cebraspe (Concurso IBGE): PIV vs. PA.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"existia toda uma vida cultural que se desenvolvia em torno da vida portuária carioca.\"",
+                "Análise: O verbo desenvolver é $\\text{VTD}$ no léxico, mas expressa processo autônomo e espontâneo no texto. A conversão analítica (a vida cultural era desenvolvida) é incompatível com o sentido.",
+                "Classificação oficial do SE: Parte Integrante do Verbo (PIV)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-010",
+          "title": "EX-A05-G08-010 — Bateria de Fixação I (VPS $\\rightarrow$ VPA): Adriana Figueiredo",
+          "prompt": "$\\rightarrow$ VPA: Se fossem engraçados, certamente os palhaços seriam aplaudidos no circo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Na cidade de Atenas, considerava-se cidadão qualquer ateniense maior de 18 anos.$\\rightarrow$ VPA",
+              "rationale": "Qualquer ateniense maior de 18 anos era considerado cidadão na cidade de Atenas."
+            },
+            {
+              "order": 2,
+              "action": "Abriam-se as flores naquela primavera.$\\rightarrow$ VPA",
+              "rationale": "As flores eram abertas naquela primavera."
+            },
+            {
+              "order": 3,
+              "action": "As sociedades indígenas dividiam-se de forma igualitária.$\\rightarrow$ VPA",
+              "rationale": "As sociedades indígenas eram divididas de forma igualitária."
+            },
+            {
+              "order": 4,
+              "action": "A história do Acre começou a se definir em 1985.$\\rightarrow$ VPA (Locução de 3 verbos)",
+              "rationale": "A história do Acre começou a ser definida em 1985."
+            },
+            {
+              "order": 5,
+              "action": "Se fossem engraçados, certamente se aplaudiriam os palhaços no circo.",
+              "rationale": null
+            }
+          ],
+          "result": "Se fossem engraçados, certamente se aplaudiriam os palhaços no circo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-010 — Bateria de Fixação I (VPS $\\rightarrow$ VPA): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-010 — Bateria de Fixação I (VPS $\\rightarrow$ VPA): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-010 — Bateria de Fixação I (VPS $\\rightarrow$ VPA): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Na cidade de Atenas, considerava-se cidadão qualquer ateniense maior de 18 anos.$\\rightarrow$ VPA: Qualquer ateniense maior de 18 anos era considerado cidadão na cidade de Atenas.",
+                "Abriam-se as flores naquela primavera.$\\rightarrow$ VPA: As flores eram abertas naquela primavera.",
+                "As sociedades indígenas dividiam-se de forma igualitária.$\\rightarrow$ VPA: As sociedades indígenas eram divididas de forma igualitária.",
+                "A história do Acre começou a se definir em 1985.$\\rightarrow$ VPA (Locução de 3 verbos): A história do Acre começou a ser definida em 1985.",
+                "Se fossem engraçados, certamente se aplaudiriam os palhaços no circo."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "$\\rightarrow$ VPA: Se fossem engraçados, certamente os palhaços seriam aplaudidos no circo."
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-011",
+          "title": "EX-A05-G08-011 — Bateria de Questões FCC e FGV (VPS $\\rightarrow$ VPA)",
+          "prompt": "$\\rightarrow$ Verbo no Pretérito Perfeito plural $\\rightarrow$ Gabarito B: Violências foram acumuladas.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Questão 09 (FCC 2019 — SABESP)",
+              "rationale": "Quando se discutiam suas ideias com entusiasmo.$\\rightarrow$ Verbo no Pretérito Imperfeito plural $\\rightarrow$ Gabarito C: Quando suas ideias eram discutidas com entusiasmo."
+            },
+            {
+              "order": 2,
+              "action": "Questão 10 (FCC — TRT 23ª Região)",
+              "rationale": "...a grandeza das manhãs se media pela quantidade de mulungus...$\\rightarrow$ Verbo no Pretérito Imperfeito singular $\\rightarrow$ Gabarito A: era medida."
+            },
+            {
+              "order": 3,
+              "action": "Questão 11 (FGV — AL-BA)",
+              "rationale": "Acumularam-se violências em todas as áreas da vida."
+            }
+          ],
+          "result": "Questão 11 (FGV — AL-BA): Acumularam-se violências em todas as áreas da vida.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-011 — Bateria de Questões FCC e FGV (VPS $\\rightarrow$ VPA) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-011 — Bateria de Questões FCC e FGV (VPS $\\rightarrow$ VPA).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-011 — Bateria de Questões FCC e FGV (VPS $\\rightarrow$ VPA).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Questão 09 (FCC 2019 — SABESP): Quando se discutiam suas ideias com entusiasmo.$\\rightarrow$ Verbo no Pretérito Imperfeito plural $\\rightarrow$ Gabarito C: Quando suas ideias eram discutidas com entusiasmo.",
+                "Questão 10 (FCC — TRT 23ª Região): ...a grandeza das manhãs se media pela quantidade de mulungus...$\\rightarrow$ Verbo no Pretérito Imperfeito singular $\\rightarrow$ Gabarito A: era medida.",
+                "Questão 11 (FGV — AL-BA): Acumularam-se violências em todas as áreas da vida."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "$\\rightarrow$ Verbo no Pretérito Perfeito plural $\\rightarrow$ Gabarito B: Violências foram acumuladas."
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-012",
+          "title": "EX-A05-G08-012 — Bateria de Fixação II (VPS $\\rightarrow$ Voz Ativa): Adriana Figueiredo",
+          "prompt": "Recebeu-se o projeto com ceticismo. (Pretérito Perfeito) $\\rightarrow$ Ativa: Receberam o projeto com ceticismo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Recebeu-se o projeto com ceticismo. (Pretérito Perfeito) $\\rightarrow$ Ativa",
+              "rationale": "Receberam o projeto com ceticismo."
+            },
+            {
+              "order": 2,
+              "action": "Esperavam-se resultados mais animadores. (Pretérito Imperfeito) $\\rightarrow$ Ativa",
+              "rationale": "Esperavam resultados mais animadores."
+            },
+            {
+              "order": 3,
+              "action": "No nosso país, deveriam instituir-se leis mais rigorosas. (Locução Verbal) $\\rightarrow$ Ativa (2 verbos mantidos)",
+              "rationale": "No nosso país, deveriam instituir leis mais rigorosas."
+            },
+            {
+              "order": 4,
+              "action": "Recusou-se o convite. (Aplicação do Atalho) $\\rightarrow$ Ativa",
+              "rationale": "Recusaram o convite."
+            },
+            {
+              "order": 5,
+              "action": "Na idade média, usavam-se tochas para iluminação. (Aplicação do Atalho) $\\rightarrow$ Ativa",
+              "rationale": "Na idade média, usavam tochas para iluminação."
+            }
+          ],
+          "result": "Na idade média, usavam-se tochas para iluminação. (Aplicação do Atalho) $\\rightarrow$ Ativa: Na idade média, usavam tochas para iluminação.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-012 — Bateria de Fixação II (VPS $\\rightarrow$ Voz Ativa): Adriana Figueiredo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-012 — Bateria de Fixação II (VPS $\\rightarrow$ Voz Ativa): Adriana Figueiredo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-012 — Bateria de Fixação II (VPS $\\rightarrow$ Voz Ativa): Adriana Figueiredo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Recebeu-se o projeto com ceticismo. (Pretérito Perfeito) $\\rightarrow$ Ativa: Receberam o projeto com ceticismo.",
+                "Esperavam-se resultados mais animadores. (Pretérito Imperfeito) $\\rightarrow$ Ativa: Esperavam resultados mais animadores.",
+                "No nosso país, deveriam instituir-se leis mais rigorosas. (Locução Verbal) $\\rightarrow$ Ativa (2 verbos mantidos): No nosso país, deveriam instituir leis mais rigorosas.",
+                "Recusou-se o convite. (Aplicação do Atalho) $\\rightarrow$ Ativa: Recusaram o convite.",
+                "Na idade média, usavam-se tochas para iluminação. (Aplicação do Atalho) $\\rightarrow$ Ativa: Na idade média, usavam tochas para iluminação."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-013",
+          "title": "EX-A05-G08-013 — Questão 12 (IBADE 2020 — Prefeitura de Linhares-ES — Professor)",
+          "prompt": "Frase: “E males de amor curam-se com o próprio amor” (Passiva Pronominal no Presente).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "“E males de amor curam-se com o próprio amor” (Passiva Pronominal no Presente)."
+            },
+            {
+              "order": 2,
+              "action": "Aplicação do atalho",
+              "rationale": "Retira-se o se, coloca-se o verbo na 3ª pl. do presente (curam) e males de amor vira objeto direto."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "Letra B (E com o próprio amor curam males de amor.)."
+            }
+          ],
+          "result": "Gabarito: Letra B (E com o próprio amor curam males de amor.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-013 — Questão 12 (IBADE 2020 — Prefeitura de Linhares-ES — Professor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-013 — Questão 12 (IBADE 2020 — Prefeitura de Linhares-ES — Professor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-013 — Questão 12 (IBADE 2020 — Prefeitura de Linhares-ES — Professor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: “E males de amor curam-se com o próprio amor” (Passiva Pronominal no Presente).",
+                "Aplicação do atalho: Retira-se o se, coloca-se o verbo na 3ª pl. do presente (curam) e males de amor vira objeto direto.",
+                "Gabarito: Letra B (E com o próprio amor curam males de amor.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G08-014",
+          "title": "EX-A05-G08-014 — Questão 13 (VUNESP 2019 — TJ-SP — Enfermeiro Judiciário)",
+          "prompt": "Enunciado: Transpor para a voz ativa os trechos: (1) \"Um estudo realizado por pesquisadores do Porto concluiu...\" e (2) \"...registrando-se uma clara diminuição dos níveis de ansiedade...\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Transpor para a voz ativa os trechos: (1) \"Um estudo realizado por pesquisadores do Porto concluiu...\" e (2) \"...registrando-se uma clara diminuição dos níveis de ansiedade...\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "estudo realizado por pesquisadores (passiva analítica reduzida) $\\rightarrow$ Pesquisadores do Porto realizaram um estudo.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "registrando-se (passiva sintética reduzida em contexto de presente indicam) $\\rightarrow$ forma finita ativa coordenada",
+              "rationale": "e registram uma clara diminuição."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "Letra A."
+            }
+          ],
+          "result": "Gabarito: Letra A.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G08-014 — Questão 13 (VUNESP 2019 — TJ-SP — Enfermeiro Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G08-014 — Questão 13 (VUNESP 2019 — TJ-SP — Enfermeiro Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G08-014 — Questão 13 (VUNESP 2019 — TJ-SP — Enfermeiro Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Transpor para a voz ativa os trechos: (1) \"Um estudo realizado por pesquisadores do Porto concluiu...\" e (2) \"...registrando-se uma clara diminuição dos níveis de ansiedade...\".",
+                "Resolução:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "estudo realizado por pesquisadores (passiva analítica reduzida) $\\rightarrow$ Pesquisadores do Porto realizaram um estudo.",
+                "registrando-se (passiva sintética reduzida em contexto de presente indicam) $\\rightarrow$ forma finita ativa coordenada: e registram uma clara diminuição."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito: Letra A."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Macete operacional de validação.",
+            "Descrição: Em qualquer dúvida sobre a classificação do se, aplique mentalmente a conversão analítica: $[\\text{Substantivo} + \\text{Verbo SER} + \\text{Particípio}]$. Se soar natural e fizer perfeito sentido, trata-se de Pronome Apassivador. Se gerar frase absurda ou exigir preposição, descarte a passiva sintética (026:, 027: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Atalho de varredura visual.",
+            "Descrição: Se houver preposição regida pelo verbo imediatamente após a partícula se (precisa-se de, trata-se de, gosta-se de, passa-se de), elimine instantaneamente a hipótese de Voz Passiva Sintética. A preposição denuncia $\\text{VTI}$, classificando o se como Índice de Indeterminação do Sujeito (027:, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Mnemônico de análise sintática.",
+            "Descrição: Repita mentalmente durante a análise: \"Na voz passiva NÃO EXISTE objeto direto, e sim sujeito paciente\". Risque qualquer alternativa que aponte objeto direto em oração passiva sintética ou analítica (028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Técnica de eliminação por contagem.",
+            "Descrição: Ao transpor de Sintética para Analítica, some compulsoriamente 1 verbo auxiliar:",
+            "$1 \\text{ verbo simples (VPS)} \\longrightarrow 2 \\text{ verbos (VPA)}$",
+            "$2 \\text{ verbos em locução (VPS)} \\longrightarrow 3 \\text{ verbos (VPA)}$"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elimine de imediato alternativas que mantenham a mesma quantidade de verbos (029:, 030: )."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Princípio de sintaxe de regência.",
+            "Descrição: Em qualquer locução verbal, o verbo principal (último) é soberano: ele dita a transitividade da perífrase e impõe a sua forma nominal ao verbo auxiliar SER na transposição analítica (029: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Macete de reescritura rápida.",
+            "Descrição: Para converter da passiva sintética para a ativa: (1) corte a partícula se e (2) flexione o verbo na 3ª pessoa do plural mantendo estritamente o tempo verbal original (030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Categoria: Estratégia de resolução de prova.",
+            "Descrição: Monte a transposição no rascunho antes de ler os distratores das alternativas. Ignore adjuntos adverbiais periféricos (\"o resto é lhufas\"), pois eles não alteram a estrutura verbal e podem vir deslocados na frase (029:, 030: )."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A05-G08-001",
+          "title": "Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha do Agente Inexistente vs. Agente Indeterminado (Cebraspe).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Marcar como \"certo\" item que afirma que o agente da passiva na oração sintética (Vende-se casa) é \"inexistente\".",
+                "Forma correta: O agente existe factualmente, mas é sintaticamente indeterminado (026:, 028: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-002",
+          "title": "Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Sujeito Determinado Paciente com Sujeito Indeterminado (Cebraspe).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Classificar orações passivas sintéticas (Alugam-se salas) como tendo \"sujeito indeterminado\".",
+                "Forma correta: O sujeito é determinado paciente (salas); quem é indeterminado é o agente da passiva (030: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-003",
+          "title": "A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha do \"Robô\": VTD + SE não é Automaticamente Passiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Decorar mecanicamente $\\text{VTD} + \\text{SE} = \\text{PA}$ e errar frases com sentido reflexivo (Ele cortou-se) ou verbos pronominais acidentais (A vida cultural desenvolvia-se) (027:, 028: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-004",
+          "title": "Mito da Exclusividade da Ênclise na Passiva Sintética",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Mito da Exclusividade da Ênclise na Passiva Sintética no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Mito da Exclusividade da Ênclise na Passiva Sintética.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Mito da Exclusividade da Ênclise na Passiva Sintética.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Mito da Exclusividade da Ênclise na Passiva Sintética para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Mito da Exclusividade da Ênclise na Passiva Sintética.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Mito da Exclusividade da Ênclise na Passiva Sintética.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Julgar que a passiva sintética só existe com ênclise (Vende-se), desconsiderando casos legítimos em próclise (quando se mencionam, se desfazem) (026: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-005",
+          "title": "Mito de que o Sujeito da VPS Deve Vir Sempre Posposto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Mito de que o Sujeito da VPS Deve Vir Sempre Posposto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Mito de que o Sujeito da VPS Deve Vir Sempre Posposto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Mito de que o Sujeito da VPS Deve Vir Sempre Posposto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Mito de que o Sujeito da VPS Deve Vir Sempre Posposto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Mito de que o Sujeito da VPS Deve Vir Sempre Posposto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Mito de que o Sujeito da VPS Deve Vir Sempre Posposto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Considerar atípica ou errada a oração passiva sintética com sujeito anteposto (As sociedades indígenas dividiam-se) (029: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-006",
+          "title": "Confundir Particípio Adjetivado com Passiva Analítica",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Particípio Adjetivado com Passiva Analítica no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Particípio Adjetivado com Passiva Analítica.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Particípio Adjetivado com Passiva Analítica.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Particípio Adjetivado com Passiva Analítica para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Particípio Adjetivado com Passiva Analítica.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Particípio Adjetivado com Passiva Analítica.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Classificar verbo de ligação $+$ adjetivo predicativo derivado de particípio (São muito diversificadas) como locução passiva analítica (026: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-007",
+          "title": "Erro de Concordância por Tratar o Sujeito como Objeto Direto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro de Concordância por Tratar o Sujeito como Objeto Direto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro de Concordância por Tratar o Sujeito como Objeto Direto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro de Concordância por Tratar o Sujeito como Objeto Direto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro de Concordância por Tratar o Sujeito como Objeto Direto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro de Concordância por Tratar o Sujeito como Objeto Direto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro de Concordância por Tratar o Sujeito como Objeto Direto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Deixar o verbo no singular diante de sujeito paciente plural (\"Vende-se casas\", \"Aluga-se salas\") (028: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-008",
+          "title": "Erro na Transposição do Tempo Verbal do Verbo *SER*",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro na Transposição do Tempo Verbal do Verbo *SER* no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro na Transposição do Tempo Verbal do Verbo *SER*.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro na Transposição do Tempo Verbal do Verbo *SER*.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro na Transposição do Tempo Verbal do Verbo *SER* para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro na Transposição do Tempo Verbal do Verbo *SER*.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro na Transposição do Tempo Verbal do Verbo *SER*.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Alterar o tempo verbal na analítica (ex.: transpor o pretérito imperfeito considerava-se para o presente é considerado ou pretérito perfeito foi considerado) (029:, 030: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-009",
+          "title": "Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Omissão do Verbo Auxiliar em Orações Reduzidas de Particípio.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Não identificar a voz passiva analítica em orações reduzidas com auxiliar elíptico (estudo realizado por pesquisadores $= \\text{estudo que foi realizado}$) (030: )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G08-010",
+          "title": "O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Mito dos \"80% de Interpretação\" e a Negligência da Gramática (Caso Edenildo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Abandonar o estudo da sintaxe formal sob o falso pretexto de que concursos cobram quase que exclusivamente interpretação de textos (030: )."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Marcar como \"certo\" item que afirma que o agente da passiva na oração sintética (Vende-se casa) é \"inexistente\".",
+            "Forma correta: O agente existe factualmente, mas é sintaticamente indeterminado (026:, 028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Classificar orações passivas sintéticas (Alugam-se salas) como tendo \"sujeito indeterminado\".",
+            "Forma correta: O sujeito é determinado paciente (salas); quem é indeterminado é o agente da passiva (030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Decorar mecanicamente $\\text{VTD} + \\text{SE} = \\text{PA}$ e errar frases com sentido reflexivo (Ele cortou-se) ou verbos pronominais acidentais (A vida cultural desenvolvia-se) (027:, 028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Julgar que a passiva sintética só existe com ênclise (Vende-se), desconsiderando casos legítimos em próclise (quando se mencionam, se desfazem) (026: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Considerar atípica ou errada a oração passiva sintética com sujeito anteposto (As sociedades indígenas dividiam-se) (029: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Classificar verbo de ligação $+$ adjetivo predicativo derivado de particípio (São muito diversificadas) como locução passiva analítica (026: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Deixar o verbo no singular diante de sujeito paciente plural (\"Vende-se casas\", \"Aluga-se salas\") (028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Alterar o tempo verbal na analítica (ex.: transpor o pretérito imperfeito considerava-se para o presente é considerado ou pretérito perfeito foi considerado) (029:, 030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Não identificar a voz passiva analítica em orações reduzidas com auxiliar elíptico (estudo realizado por pesquisadores $= \\text{estudo que foi realizado}$) (030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Abandonar o estudo da sintaxe formal sob o falso pretexto de que concursos cobram quase que exclusivamente interpretação de textos (030: )."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Estrutura sintática passiva formada por um verbo transitivo direto ou bitransitivo na 3ª pessoa acompanhado do pronome apassivador se, com sujeito paciente expresso e agente da passiva indeterminado (026:, 028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Classificação morfossintática do pronome se quando acoplado a verbos de transitividade direta, atuando como o operador que converte o complemento direto em sujeito paciente (026:, 027: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Estrutura passiva desenvolvida por locução verbal, formada obrigatoriamente por verbo auxiliar (tipicamente ser) conjugado $+$ particípio do verbo principal concordado com o sujeito (026:, 029: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Partícula se que acompanha verbos intransitivos, transitivos indiretos com preposição ou de ligação, fixando o verbo na 3ª pessoa do singular para sinalizar sujeito indeterminado (027:, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Pronome reflexivo átono que se incorpora indelevelmente à conjugação de verbos pronominais essenciais ou acidentais, não desempenhando função sintática autônoma e mantendo a oração na voz ativa (027:, 028: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Termo sintático sobre o qual recai a ação verbal na voz passiva e com o qual o verbo principal/auxiliar concorda obrigatoriamente em gênero, número e pessoa (028:, 030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Condição semântico-sintática intrínseca à voz passiva sintética, na qual o realizador da ação verbal existe factualmente, mas não é delimitado ou expresso na oração (026:, 030: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Perífrase verbal na qual o último verbo (principal) encontra-se no particípio e o penúltimo é o verbo auxiliar SER, indicando voz passiva analítica (029: )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Oração subordinada adjetiva sem conectivo estruturada em torno de particípio passivo, contendo verbo auxiliar ser em estado de elipse (030: )."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo do Grupo Temático G08, o estudante deve compreender com clareza e executar com precisão as seguintes competências gramaticais e procedimentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reconhecer a Voz Passiva Sintética: Compreender que ela é uma forma econômica que dispensa o verbo auxiliar ser e omite o agente da passiva, operando exclusivamente com verbos que transitam diretamente ($\\text{VTD}$ ou $\\text{VTDI}$).",
+            "Aplicar a Dupla Verificação: Nunca classificar uma frase apenas pela fórmula mecânica $\\text{VTD} + \\text{SE}$; aplicar compulsoriamente a conversão mental para $[\\text{SER} + \\text{Particípio}]$, descartando sentidos reflexivos e verbos pronominais acidentais (PIV).",
+            "Dominar a Análise Sintática e Concordância: Saber que na voz passiva não existe objeto direto, pois o termo paciente é o sujeito sintático determinado, o qual governa a concordância verbal obrigatória no singular ou no plural (Vende-se casa / Vendem-se casas).",
+            "Desarmar as Pegadinhas do Cebraspe: Diferenciar com precisão agente indeterminado (que existe na realidade, mas não é expresso) de agente inexistente; e sujeito determinado paciente de sujeito indeterminado.",
+            "Executar a Reescritura para Passiva Analítica: Aplicar o Método das 4 Instruções, preservando rigorosamente o tempo verbal do verbo primitivo no verbo auxiliar ser e somando 1 verbo na cadeia verbal ($1 \\rightarrow 2$; $2 \\rightarrow 3$ verbos em locuções).",
+            "Executar a Reescritura para Voz Ativa: Converter o agente indeterminado em sujeito indeterminado flexionando o verbo na 3ª pessoa do plural no mesmo tempo primitivo (utilizando o atalho operacional de cortar o se) e transpondo o sujeito paciente para objeto direto, mantendo constante o número de verbos em locuções.",
+            "Resolver Estruturas Complexas de Bancas Examinadoras: Identificar próclises legítimas na passiva sintética (FGV/FCC) e solucionar orações reduzidas de particípio e gerúndio passivas em períodos compostos (VUNESP)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula05.q0022",
+      "questionType": "multiple_choice",
+      "organization": "DPE-AM",
+      "year": 2018,
+      "prompt": "E então, de súbito, ouvimos a voz de Wagner\nTransformando-se o segmento sublinhado acima em sujeito da frase, a forma verbal resultante\nserá:\na) é ouvido. \nb) se ouvem.\nc) é ouvida. \nd) fomos ouvidos. e) foram ouvidas.",
+      "options": [
+        {
+          "label": "A",
+          "text": "é ouvido."
+        },
+        {
+          "label": "B",
+          "text": "se ouvem."
+        },
+        {
+          "label": "C",
+          "text": "é ouvida."
+        },
+        {
+          "label": "D",
+          "text": "fomos ouvidos. e) foram ouvidas."
+        }
+      ],
+      "officialAnswer": "option_C",
+      "explanation": "“A voz de Wagner” é objeto direto de “ouvir”, na voz ativa. Na voz passiva, o objeto direto vira\nsujeito. Então, teremos, na voz passiva:\n“A voz de Wagner” é ouvida. Gabarito letra C.",
+      "questionSha256": "e43c590526924d76634f1120235bbdac36c99e7f624a1b6c068954ab637490d6",
+      "answerSha256": "8c63d6eda288a06b88b5b2f2f0a60f92584e654a33b1d0e180fbe593971091b8",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        }
+      ]
+    },
+    {
+      "questionId": "aula05.q0035",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INPI",
+      "year": 2024,
+      "prompt": "Assim, em 1421, foi concedida ao inventor Filippo Brunelleschi, em Veneza, a primeira patente,\ncom prazo de três anos, pela invenção de um modelo de embarcação para transportar mármore.\nNo segundo período do primeiro parágrafo, o segmento “a primeira patente” funciona como\ncomplemento direto da locução verbal “foi concedida”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "A voz passiva analítica é formada por \"SER + PARTICÍPIO\". O segmento \"a primeira patente\" é\nsujeito passivo da locução \"foi concedida\". Questão incorreta.",
+      "questionSha256": "ecef731b7873bf739ecb26146612eb5428d8ebea53b258b6d3aae0f61b5ad1df",
+      "answerSha256": "43b46a0e5f590758f45349aa93a34df4e82606ff68ac01299bc8820b219683c5",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0013",
+      "questionType": "multiple_choice",
+      "organization": "ELETROBRAS",
+      "year": 2016,
+      "prompt": "Transpondo-se para a voz ativa a frase Eficazes sistemas de irrigação teriam sido utilizados pelos\nantigos em suas culturas de cereais, a forma verbal resultante deverá ser\na) seriam utilizados.\nb) teriam utilizado.\nc) foram utilizados.\nd) utilizaram-se.\ne) haveriam de utilizar.",
+      "options": [
+        {
+          "label": "A",
+          "text": "seriam utilizados."
+        },
+        {
+          "label": "B",
+          "text": "teriam utilizado."
+        },
+        {
+          "label": "C",
+          "text": "foram utilizados."
+        },
+        {
+          "label": "D",
+          "text": "utilizaram-se."
+        },
+        {
+          "label": "E",
+          "text": "haveriam de utilizar."
+        }
+      ],
+      "officialAnswer": "option_B",
+      "explanation": "Se a voz é passiva, “eficazes sistemas de irrigação” é sujeito paciente. Na voz ativa, esse termo\ndeverá assumir função de objeto direto e o agente da passiva “pelos antigos” vai ter que virar\nsujeito. O “ser” da voz passiva desaparece:\nEficazes sistemas de irrigação teriam sido utilizados pelos antigos\nOs antigos teriam utilizado eficazes sistemas de irrigação.\nHá uma locução de tempo composto “Ter+particípio”, essa locução de tempo composto se\nmantém; então basta subtrair o verbo “ser” da locução passiva que teremos a voz ativa de novo.\nGabarito letra B.",
+      "questionSha256": "1fe739acb19cc7e4461378961990cf7213a474b430b74f84ccdf07fd313729f0",
+      "answerSha256": "c6a75fb0667f0a530e1635a647d8b535d93f0eea9a881131f77706750f8a8e98",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        }
+      ]
+    },
+    {
+      "questionId": "aula05.q0057",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INPI",
+      "year": 2024,
+      "prompt": "Assim, em 1421, foi concedida ao inventor Filippo Brunelleschi, em Veneza, a primeira patente,\ncom prazo de três anos, pela invenção de um modelo de embarcação para transportar mármore.\nNo segundo período do primeiro parágrafo, o segmento “a primeira patente” funciona como\ncomplemento direto da locução verbal “foi concedida”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "5c6898f77d5b7cacb5b201eb845a856e6688988b59914d4b100f25178f221143",
+      "answerSha256": "7ae07c6a56a5f45e200a91c76c0a26a78c465608c6de92ce406e43d13aab3234",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0008",
+      "questionType": "true_false_or_judgment",
+      "organization": "BANRISUL",
+      "year": 2019,
+      "prompt": "Há ocorrência de forma verbal na voz passiva e adequada articulação entre os tempos e os\nmodos verbais na frase:\nCaso viéssemos a viver, no futuro, dois ou mais séculos, nada garantirá que estivéssemos\nsatisfeitos com esse tempo de vida.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Aplicando a correlação básica PudeSSE/FaRIA, teríamos: viéSSEmos/garantiRIA. Observem que\nnão faz sentido um verbo indicando hipótese no passado correlacionado a um indicando sua\nconsequência no futuro. É um situação tão incoerente como: *Se eu pudesse, viajarei... Questão\nincorreta.",
+      "questionSha256": "a0433c5227f1dfa52721fe103ae7872ee39dc2f680a96b4b1bdc2ce80da749a3",
+      "answerSha256": "aac79ef8f681a2db0ca0b1221ef11ded8c5b9e50cf16f2e0a0fea18cff6eb9b8",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0012",
+      "questionType": "multiple_choice",
+      "organization": "TRT 4ª REGIÃO",
+      "year": 2022,
+      "prompt": "João Brandão e seu amigo foram convidados por um garçom solícito (13º parágrafo)\nTranspondo-se o trecho acima para a voz ativa, a forma verbal resultante será:\n(A) convidaria\n(B) teria convidado\n(C) convidaram\n(D) seriam convidados\n(E) convidou",
+      "options": [
+        {
+          "label": "A",
+          "text": "convidaria\n("
+        },
+        {
+          "label": "B",
+          "text": "teria convidado\n("
+        },
+        {
+          "label": "C",
+          "text": "convidaram\n("
+        },
+        {
+          "label": "D",
+          "text": "seriam convidados\n("
+        },
+        {
+          "label": "E",
+          "text": "convidou"
+        }
+      ],
+      "officialAnswer": "option_E",
+      "explanation": "João Brandão e seu amigo FORAM CONVIDADOS por um garçom solícito\nO sujeito passivo teria que voltar a ser objeto direto; o agente da passiva voltaria a ser sujeito.\nTeríamos:\num garçom solícito CONVIDOU João Brandão e seu amigo\nGabarito letra E.",
+      "questionSha256": "837cc8eede47b8726f89cc0ecd65edafa25d6809165ab6940cd233b9b1ed1fc7",
+      "answerSha256": "6a51ee8bfa4bb8cb3efa458b03ac94dedf7491ddd77de559cc4bffab1c2c86a1",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de None; 2. Identificar a regra central de Reescritura de Vozes - Partes 04 a 07; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Reescritura de Vozes - Partes 04 a 07."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1562 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A13-G06",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.140Z"
+  },
+  "unit": {
+    "unitId": "IP-A13-G06",
+    "lessonId": "A13",
+    "groupId": "G06",
+    "title": "Miscelânea de Interpretação",
+    "variant": "development",
+    "canonicalTopicId": "pt:a13:miscelanea-de-interpretacao",
+    "learningObjectives": [
+      "OBJ-IP-A13-G06-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "Questões variadas de interpretação usam o mapa para testar assertivas locais, escopo e relações lógicas, mas exigem sempre retorno ao texto completo.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Noções fundamentais sobre as tipologias textuais clássicas (narração, descrição, dissertação).",
+            "Reconhecimento morfológico básico: verbos de ação no pretérito vs. adjetivos e qualificadores estáticos.",
+            "Compreensão do conceito de tema, tese e posicionamento discursivo do emissor."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "TIPOLOGIA TEXTUAL (MÉTODO SISTEMATIZADO CEBRASPE) │ ├── 1. TRIAGEM ESTRUTURAL MACRO (Passo 1: Início, Final, Título, Fonte) │ ├── Foco em Tema / Conceito / Reflexão ──► ESTRUTURA DISSERTATIVA │ └── Foco em Personagens / Ações / Cenários ──► ESTRUTURA NARRATIVA / DESCRITIVA │ ├── 2. INTENÇÃO DISCURSIVA DO AUTOR (Passo 2: se Dissertativo) │ ├── Expor conhecimento / Informar fatos / Neutralidade ──► DISSERTAÇÃO EXPOSITIVA / INFORMATIVA │ │ └── Nota: Comentários pontuais não descaracterizam a exposição informativa. │ └── Persuadir o leitor / Defender tese / Juízos de valor ──► DISSERTAÇÃO ARGUMENTATIVA │ └── Dados numéricos/estatísticos = Instrumentos a serviço da persuasão. │ └── 3. RELAÇÃO AÇÃO vs. CARACTERIZAÇÃO (Passo 3: se Narrativo/Descritivo) ├── Verbos de ação + Enredo cronológico ──► PREDOMINÂNCIA NARRATIVA └── Detalhamento físico / Pausa temporal ──► ASPECTOS DESCRITIVOS SUBORDINADOS"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A13-G06-001",
+          "title": "Mapa de conexão — Miscelânea de Interpretação",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a13:miscelanea-de-interpretacao",
+              "label": "Miscelânea de Interpretação",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a13:miscelanea-de-interpretacao",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Procedimento analítico inicial que orienta a realização de uma leitura seletiva concentrada nas extremidades do texto (primeiro e último parágrafos), no título e na referência bibliográfica de rodapé, com a finalidade de diagnosticar a macroestrutura discursiva entre o tratamento de um tema abstrato/conceitual (dissertação) ou o relato de acontecimentos/caracterização de estados (narração/descrição)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A abordagem passiva de leitura integral do texto sem direcionamento preliminar gera confusão interpretativa em provas do Cebraspe. O Passo 1 determina que o candidato execute uma triagem objetiva respondendo a duas perguntas fundamentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O texto discute um tema ou assunto? Se o parágrafo inicial e o encerramento orbitam em torno de um conceito geral, problema social, inovação ou reflexão teórica, a estrutura é classificada como dissertativa.",
+            "O texto conta uma história ou descreve uma cena? Se a abertura introduz personagens situados em coordenadas cronológicas e o encerramento conclui uma sucessão de ações reais ou fictícias, a estrutura é narrativa ou descritiva."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A inspeção da fonte bibliográfica (periódicos científicos, jornais de economia, revistas culturais) e do título fornece confirmação imediata da tipologia global."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O primeiro parágrafo apresenta a proposição temática ou introduz o enredo com marcadores temporais.",
+            "O último parágrafo arremata o raciocínio temático (estrutura circular dissertativa) ou conclui o desfecho das ações dos personagens.",
+            "A fonte indica a esfera de circulação social do discurso (Época Negócios, Revista Piauí, revistas acadêmicas ou portais educacionais)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo dissertativo: Início com \"Na era das redes sociais, algumas formas de comunicação arcaicas ainda dão resultado\" e final reafirmando que o método continua \"mais eficaz\" (Tema: comunicação arcaica).",
+            "Exemplo narrativo: Início com \"Cléber de Souza [...] acordou mais cedo que de costume. Cumpriu sua rotina matinal, se vestiu e partiu...\" (Enredo: ações cronológicas de um indivíduo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande para: KB-A13-G06-MISCELANEA-INTERPRETACAO-002, KB-A13-G06-MISCELANEA-INTERPRETACAO-003",
+            "Aplicado em: PROC-A13-G06-MISCELANEA-INTERPRETACAO-001, EX-A13-G06-MISCELANEA-INTERPRETACAO-001, EX-A13-G06-MISCELANEA-INTERPRETACAO-002, EX-A13-G06-MISCELANEA-INTERPRETACAO-003, EX-A13-G06-MISCELANEA-INTERPRETACAO-004",
+            "Evidenciado visualmente por: VIS-A13-G06-MISCELANEA-INTERPRETACAO-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Critério de classificação tipológica baseado na reconstrução da intenção comunicativa do autor ao estruturar um texto dissertativo, dividindo-se entre a transmissão neutra de conhecimento/novidades (dissertação expositiva/informativa) e a persuasão do leitor mediante defesa de um ponto de vista balizado por tese (dissertação argumentativa)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Constatado que o texto é dissertativo pelo Passo 1, o candidato deve colocar-se na perspectiva do emissor e avaliar o propósito primordial da produção textual:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dissertativo Expositivo / Informativo: O autor tem como objetivo expor o que sabe, conceituar fenômenos, relatar avanços tecnológicos ou divulgar novidades informativas. Não há pretensão de direcionar ideologicamente o leitor ou vencer um debate. Comentários avaliativos pontuais ou impressões subjetivas acessórias não convertem o texto informativo em argumentativo.",
+            "Dissertativo Argumentativo: O autor estrutura sua argumentação para persuadir o interlocutor da validade de uma tese central. A seleção de dados, o uso de léxico modalizador enfático e a construção da conclusão convergem explicitamente para sustentar um juízo de valor ou propor uma transformação da realidade."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expositivo/Informativo: Predomínio de definições conceituais, dados informativos, explicação de funcionamento, tom impessoal ou jornalístico.",
+            "Argumentativo: Presença de tese explícita, argumentos de sustentação, léxico altamente avaliativo (\"insustentável\", \"estarrecedor\", \"há muito o que fazer\"), títulos valorativos e propostas de solução."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Expositivo: Texto que explica a história, o conceito e a projeção de acessibilidade dos jogos e ferramentas no metaverso (EX-A13-G06-MISCELANEA-INTERPRETACAO-003).",
+            "Exemplo Argumentativo: Texto que apresenta dados estatísticos de 80 milhões de processos judiciais para demonstrar a urgência da \"desjudicialização\" (EX-A13-G06-MISCELANEA-INTERPRETACAO-004)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G06-MISCELANEA-INTERPRETACAO-001",
+            "Possui alerta: WARN-A13-G06-MISCELANEA-INTERPRETACAO-001",
+            "Exemplificado por: EX-A13-G06-MISCELANEA-INTERPRETACAO-001, EX-A13-G06-MISCELANEA-INTERPRETACAO-003, EX-A13-G06-MISCELANEA-INTERPRETACAO-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Princípio de predominância tipológica segundo o qual produções textuais que associam o relato cronológico de acontecimentos e a caracterização física de seres, objetos ou cenários são categorizadas como predominantemente narrativas, operando as passagens descritivas como sequências mescladas e dependentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "No âmbito das bancas de concurso, textos puramente descritivos (retratos verbais estáticos congelados no tempo) são raridades empíricas. Quase sempre a descrição desempenha papel subserviente dentro de uma macroestrutura narrativa:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Espinha Dorsal Narrativa: Dinâmica temporal estruturada por verbos de ação no pretérito perfeito/imperfeito (acordou, vestiu, pagou, percorreu, visitou), organizando o encadeamento dos fatos praticados por personagens.",
+            "Aspectos Descritivos Mesclados: Pausas momentâneas na progressão dos fatos para detalhar trajes, cores, formatos e atributos físicos de pessoas e ambientes (camisa branca e gravata borboleta, camisa rosa com coqueiros, massa grossa com muçarela).",
+            "O Cebraspe classifica rigorosamente essa construção como narração composta por sequências mescladas com outras tipologias, como a descritiva."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A presença de progressão temporal cumulativa garante a predominância da narrativa.",
+            "A presença de sintagmas nominais adjetivados e enumeração de qualidades estáticas comprova a existência de sequências descritivas enxertadas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G06-MISCELANEA-INTERPRETACAO-001",
+            "Exemplificado por: EX-A13-G06-MISCELANEA-INTERPRETACAO-002",
+            "Evidenciado visualmente por: VIS-A13-G06-MISCELANEA-INTERPRETACAO-004, VIS-A13-G06-MISCELANEA-INTERPRETACAO-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Postulado discursivo que estabelece que a inserção de elementos factuais, estatísticas, datas e números quantitativos (recursos típicos da tipologia expositiva) não retira o caráter argumentativo de um texto quando esses elementos funcionam como instrumentos de persuasão orientados para evidenciar a gravidade de um problema e validar uma tese."
+        },
+        {
+          "type": "paragraph",
+          "text": "Textos argumentativos maduros frequentemente utilizam recursos de exposição factual como matéria-prima probatória:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Camada Expositiva Instrumental: Fornece a base empírica e objetiva mediante números e estatísticas oficiais (ex.: 80 milhões de processos em tramitação, 203 milhões de habitantes, custo de R$ 12,3 bilhões).",
+            "Camada Argumentativa Predominante: Molda os dados brutos por meio de adjetivos qualificadores e advérbios de valor (\"número estarrecedor\", \"situação insustentável\"), direcionando a leitura para uma conclusão valorativa necessária (urgência da desjudicialização).",
+            "Quando o propósito comunicativo global do autor é conscientizar ou persuadir a coletividade, a exposição de dados atua estritamente como argumento de sustentação da tese."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verificar se os dados são apresentados isoladamente para informar ou se vêm acompanhados de comentários críticos que qualificam sua magnitude.",
+            "Observar a correlação entre os números expostos e a tese sintetizada no título da obra ou na conclusão."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G06-MISCELANEA-INTERPRETACAO-002",
+            "Exemplificado por: EX-A13-G06-MISCELANEA-INTERPRETACAO-004",
+            "Relacionado a: TIP-A13-G06-MISCELANEA-INTERPRETACAO-003"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A13-G06-001",
+          "title": "Regras canônicas",
+          "statement": "Critério das Extremidades e Fonte (Canônico): A determinação inicial da tipologia textual deve ser feita pelo exame conjunto do primeiro parágrafo, último parágrafo, título e fonte bibliográfica (KB-A13-G06-MISCELANEA-INTERPRETACAO-001).\nBifurcação Dissertativa (Canônica): Textos temáticos dividem-se em Expositivos/Informativos (quando o emissor apenas expõe o que domina ou informa novidades) e Argumentativos (quando busca defender uma tese persuasiva) (KB-A13-G06-MISCELANEA-INTERPRETACAO-002).\nRegra de Dominância Narrativa (Canônica): Havendo coexistência de fatos temporais e traços caracterizadores, prevalece a macroestrutura narrativa com aspectos descritivos mesclados (KB-A13-G06-MISCELANEA-INTERPRETACAO-003).\nInstrumentalidade dos Dados (Canônica): Estatísticas e números em textos dissertativos não anulam a argumentação quando inseridos a serviço de um propósito comunicativo persuasivo (KB-A13-G06-MISCELANEA-INTERPRETACAO-004).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Critério das Extremidades e Fonte (Canônico): A determinação inicial da tipologia textual deve ser feita pelo exame conjunto do primeiro parágrafo, último parágrafo, título e fonte bibliográfica (KB-A13-G06-MISCELANEA-INTERPRETACAO-001).",
+            "Bifurcação Dissertativa (Canônica): Textos temáticos dividem-se em Expositivos/Informativos (quando o emissor apenas expõe o que domina ou informa novidades) e Argumentativos (quando busca defender uma tese persuasiva) (KB-A13-G06-MISCELANEA-INTERPRETACAO-002).",
+            "Regra de Dominância Narrativa (Canônica): Havendo coexistência de fatos temporais e traços caracterizadores, prevalece a macroestrutura narrativa com aspectos descritivos mesclados (KB-A13-G06-MISCELANEA-INTERPRETACAO-003).",
+            "Instrumentalidade dos Dados (Canônica): Estatísticas e números em textos dissertativos não anulam a argumentação quando inseridos a serviço de um propósito comunicativo persuasivo (KB-A13-G06-MISCELANEA-INTERPRETACAO-004)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério das Extremidades e Fonte (Canônico): A determinação inicial da tipologia textual deve ser feita pelo exame conjunto do primeiro parágrafo, último parágrafo, título e fonte bibliográfica (KB-A13-G06-MISCELANEA-INTERPRETACAO-001).",
+                "Bifurcação Dissertativa (Canônica): Textos temáticos dividem-se em Expositivos/Informativos (quando o emissor apenas expõe o que domina ou informa novidades) e Argumentativos (quando busca defender uma tese persuasiva) (KB-A13-G06-MISCELANEA-INTERPRETACAO-002).",
+                "Regra de Dominância Narrativa (Canônica): Havendo coexistência de fatos temporais e traços caracterizadores, prevalece a macroestrutura narrativa com aspectos descritivos mesclados (KB-A13-G06-MISCELANEA-INTERPRETACAO-003).",
+                "Instrumentalidade dos Dados (Canônica): Estatísticas e números em textos dissertativos não anulam a argumentação quando inseridos a serviço de um propósito comunicativo persuasivo (KB-A13-G06-MISCELANEA-INTERPRETACAO-004)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A13-G06-MISCELANEA-INTERPRETACAO-001",
+          "title": "Protocolo de Resolução de Questões de Tipologia Textual (Algoritmo `#ANOTAAÍ` em Três Passos)",
+          "objective": "Executar o algoritmo decisório para Protocolo de Resolução de Questões de Tipologia Textual (Algoritmo `#ANOTAAÍ` em Três Passos)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo de Resolução de Questões de Tipologia Textual (Algoritmo `#ANOTAAÍ` em Três Passos)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Triagem Estrutural pelas Extremidades",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Efetuar a leitura do primeiro parágrafo, do último parágrafo, do título e da referência da fonte.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Formular a pergunta diagnóstica",
+              "explanation": "O texto gravita sobre um tema/conceito abstrato ou desenvolve um enredo fático/caracterização de cena?",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Caso possua tema definido $\\rightarrow$ Direcionar para o Passo 2 (Ramo Dissertativo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Caso possua personagens e linha temporal de ações $\\rightarrow$ Direcionar para o Passo 3 (Ramo Narrativo/Descritivo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 2 — Análise da Intenção Autoral (Ramo Dissertativo)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Assumir hipoteticamente a perspectiva do autor e interrogar",
+              "explanation": "Qual o objetivo primordial da publicação?",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Se o objetivo for conceituar, detalhar funcionamento, relatar dados técnicos ou noticiar fatos $\\rightarrow$ Classificar como Dissertativo Expositivo / Informativo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Se o objetivo for sustentar um posicionamento crítico, conscientizar ou persuadir o leitor mediante tese e valorações $\\rightarrow$ Classificar como Dissertativo Argumentativo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Passo 3 — Hierarquização de Ações e Detalhes (Ramo Narrativo/Descritivo)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 11,
+              "action": "Constatar a presença de progressão cronológica balizada por verbos de ação no pretérito.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 12,
+              "action": "Identificar a ocorrência de adjetivações e qualificações de cenários, trajes ou objetos.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 13,
+              "action": "Concluir pela classificação de Predominantemente Narrativo com Sequências Descritivas Mescladas.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 14,
+              "action": "Textos dissertativos mantêm amarração conceitual circular entre o primeiro e o último parágrafo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 15,
+              "action": "Textos narrativos preservam a continuidade dos agentes e a evolução dos acontecimentos entre a abertura e o desfecho.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 16,
+              "action": "Consolida",
+              "explanation": "KB-A13-G06-MISCELANEA-INTERPRETACAO-001, KB-A13-G06-MISCELANEA-INTERPRETACAO-002, KB-A13-G06-MISCELANEA-INTERPRETACAO-003",
+              "test": null
+            },
+            {
+              "order": 17,
+              "action": "Aplicado em",
+              "explanation": "EX-A13-G06-MISCELANEA-INTERPRETACAO-001, EX-A13-G06-MISCELANEA-INTERPRETACAO-002, EX-A13-G06-MISCELANEA-INTERPRETACAO-003, EX-A13-G06-MISCELANEA-INTERPRETACAO-004",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo de Resolução de Questões de Tipologia Textual (Algoritmo `#ANOTAAÍ` em Três Passos)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Roteiro operacional padronizado para identificar, classificar e validar a tipologia textual e os fenômenos de hibridismo discursivo em provas de concursos públicos elaboradas pelo Cebraspe."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência de passos operacionais"
+            },
+            {
+              "type": "paragraph",
+              "text": "┌───────────────────────────────────┐ │ PASSO 1: TRIAGEM DAS EXTREMIDADES │ │ (Início, Final, Título e Fonte) │ └─────────────────┬─────────────────┘ │ ┌────────────────┴────────────────┐ ▼ ▼ O texto tem tema/assunto? O texto tem história/ações? (ESTRUTURA DISSERTATIVA) (NARRATIVO / DESCRITIVO) │ │ ┌──────────────┴──────────────┐ │ ▼ ▼ ▼ PASSO 2: EXPOSITIVO PASSO 2: ARGUMENTATIVO PASSO 3: DOMINÂNCIA • Intenção: expor o • Intenção: convencer e • Ações temporais + que sabe ou informar defender tese central detalhes físicos = • Não busca persuadir • Juízos de valor e dados Predominantemente • Opiniões pontuais usados para persuasão Narrativo com aspectos não alteram o tipo • Propósito comunicativo descritivos mesclados"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Triagem Estrutural pelas Extremidades:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Efetuar a leitura do primeiro parágrafo, do último parágrafo, do título e da referência da fonte.",
+                "Formular a pergunta diagnóstica: O texto gravita sobre um tema/conceito abstrato ou desenvolve um enredo fático/caracterização de cena?",
+                "Caso possua tema definido $\\rightarrow$ Direcionar para o Passo 2 (Ramo Dissertativo).",
+                "Caso possua personagens e linha temporal de ações $\\rightarrow$ Direcionar para o Passo 3 (Ramo Narrativo/Descritivo)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2 — Análise da Intenção Autoral (Ramo Dissertativo):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Assumir hipoteticamente a perspectiva do autor e interrogar: Qual o objetivo primordial da publicação?",
+                "Se o objetivo for conceituar, detalhar funcionamento, relatar dados técnicos ou noticiar fatos $\\rightarrow$ Classificar como Dissertativo Expositivo / Informativo.",
+                "Se o objetivo for sustentar um posicionamento crítico, conscientizar ou persuadir o leitor mediante tese e valorações $\\rightarrow$ Classificar como Dissertativo Argumentativo."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3 — Hierarquização de Ações e Detalhes (Ramo Narrativo/Descritivo):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Constatar a presença de progressão cronológica balizada por verbos de ação no pretérito.",
+                "Identificar a ocorrência de adjetivações e qualificações de cenários, trajes ou objetos.",
+                "Concluir pela classificação de Predominantemente Narrativo com Sequências Descritivas Mescladas."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Critérios de validação"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Textos dissertativos mantêm amarração conceitual circular entre o primeiro e o último parágrafo.",
+                "Textos narrativos preservam a continuidade dos agentes e a evolução dos acontecimentos entre a abertura e o desfecho."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Relações"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Consolida: KB-A13-G06-MISCELANEA-INTERPRETACAO-001, KB-A13-G06-MISCELANEA-INTERPRETACAO-002, KB-A13-G06-MISCELANEA-INTERPRETACAO-003",
+                "Aplicado em: EX-A13-G06-MISCELANEA-INTERPRETACAO-001, EX-A13-G06-MISCELANEA-INTERPRETACAO-002, EX-A13-G06-MISCELANEA-INTERPRETACAO-003, EX-A13-G06-MISCELANEA-INTERPRETACAO-004"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A13-G06-001",
+          "title": "Contrastes decisivos",
+          "contrastType": "mixed",
+          "conceptA": "Contrastes decisivos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A13-G06-001",
+              "table": {
+                "tableId": "TABLE-IP-A13-G06-001",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Dimensão de Análise",
+                  "Dissertação Expositiva / Informativa",
+                  "Dissertação Argumentativa",
+                  "Tipologia Narrativa",
+                  "Tipologia Descritiva"
+                ],
+                "rows": [
+                  [
+                    "Foco Estrutural",
+                    "Tema / Conceito / Informação",
+                    "Tema / Tese / Ponto de vista",
+                    "Fatos / Personagens / Tempo",
+                    "Caracterização / Espaço / Estado"
+                  ],
+                  [
+                    "Intenção do Autor",
+                    "Apresentar dados, explicar novidades, expor conhecimento sem persuasão",
+                    "Persuadir, convencer o interlocutor, defender uma tese crítica",
+                    "Relatar acontecimentos reais ou fictícios em sucessão temporal",
+                    "Construir retrato verbal de seres, objetos ou ambientes"
+                  ],
+                  [
+                    "Marcadores Típicos",
+                    "Verbos no presente, definições conceituais, tom impessoal",
+                    "Léxico avaliativo (estarrecedor, insustentável), modalizadores, teses",
+                    "Verbos de ação no pretérito (acordou, vestiu, visitou, pegou)",
+                    "Adjetivos qualificadores, trajes, cores (camisa rosa, gravata)"
+                  ],
+                  [
+                    "Tratamento de Dados",
+                    "Apresentação factual pura de estatísticas e conceitos",
+                    "Dados funcionam como argumentos para alarmar/convencer",
+                    "Referências temporais pontuais no enredo",
+                    "Enumeração de atributos físicos concretos"
+                  ],
+                  [
+                    "Ocorrência em Provas",
+                    "Frequente em artigos de divulgação científica e negócios",
+                    "Frequente em artigos de opinião e editoriais jurídicos",
+                    "Frequente em crônicas biográficas e contos",
+                    "Rara de forma isolada; quase sempre mesclada à narrativa"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-001",
+          "title": "Enunciado e dados essenciais",
+          "prompt": "Texto jornalístico abordando o caso de Harold Hackett, habitante da Ilha Príncipe Eduardo (Canadá), que lança garrafas com bilhetes ao mar desde 1996 e obteve mais de 3.100 respostas.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item avaliado",
+              "rationale": "O texto apresenta características narrativas e dissertativas. (Certo / Errado)."
+            }
+          ],
+          "result": "Item avaliado: O texto apresenta características narrativas e dissertativas. (Certo / Errado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados essenciais sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados essenciais.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados essenciais.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Texto jornalístico abordando o caso de Harold Hackett, habitante da Ilha Príncipe Eduardo (Canadá), que lança garrafas com bilhetes ao mar desde 1996 e obteve mais de 3.100 respostas."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item avaliado: O texto apresenta características narrativas e dissertativas. (Certo / Errado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-002",
+          "title": "Desenvolvimento e raciocínio pedagógico",
+          "prompt": "Aplicação do Passo 1:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Aplicação do Passo 1",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Início",
+              "rationale": "\"Na era das redes sociais, algumas formas de comunicação arcaicas ainda dão resultado.\" $\\rightarrow$ Lança um tema abstrato/geral (formas de comunicação arcaicas)."
+            },
+            {
+              "order": 3,
+              "action": "Final",
+              "rationale": "\"O canadense diz que continua adorando se comunicar dessa maneira e afirma que o método chega a ser [...] mais 'eficaz'...\" $\\rightarrow$ Reafirmação conclusiva do tema de abertura."
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico base",
+              "rationale": "Estrutura dissertativa expositiva."
+            },
+            {
+              "order": 5,
+              "action": "Reconhecimento da camada narrativa de suporte",
+              "rationale": ""
+            }
+          ],
+          "result": "Julgamento: Como o texto articula a discussão de um tema abstrato com a narrativa de acontecimentos empíricos, a afirmação de que apresenta características de ambas as tipologias é exata.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento e raciocínio pedagógico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento e raciocínio pedagógico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento e raciocínio pedagógico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação do Passo 1:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Início: \"Na era das redes sociais, algumas formas de comunicação arcaicas ainda dão resultado.\" $\\rightarrow$ Lança um tema abstrato/geral (formas de comunicação arcaicas).",
+                "Final: \"O canadense diz que continua adorando se comunicar dessa maneira e afirma que o método chega a ser [...] mais 'eficaz'...\" $\\rightarrow$ Reafirmação conclusiva do tema de abertura.",
+                "Diagnóstico base: Estrutura dissertativa expositiva."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Reconhecimento da camada narrativa de suporte:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Para ilustrar a reflexão sobre comunicação arcaica, o autor relata fatos da vida de Harold Hackett (lançamento de 4.800 garrafas, localização geográfica, recebimento de correspondências). Há personagens, marco temporal e encadeamento de ações (relato)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Julgamento: Como o texto articula a discussão de um tema abstrato com a narrativa de acontecimentos empíricos, a afirmação de que apresenta características de ambas as tipologias é exata."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-003",
+          "title": "Gabarito e resolução",
+          "prompt": "Gabarito: Certo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Gabarito",
+              "rationale": "Certo."
+            }
+          ],
+          "result": "Gabarito: Certo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Gabarito e resolução sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Gabarito e resolução.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Gabarito e resolução.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito: Certo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-004",
+          "title": "Enunciado e dados essenciais",
+          "prompt": "Texto biográfico/crônica narrando a trajetória de Cléber de Souza, empresário e ex-garçom em Jaraguá do Sul, que guarda o registro fotográfico de seu encontro em 2003 com o cineasta Francis Ford Coppola.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item avaliado",
+              "rationale": "A narração é composta de sequências mescladas com outras tipologias textuais, como a descritiva. (Certo / Errado)."
+            }
+          ],
+          "result": "Item avaliado: A narração é composta de sequências mescladas com outras tipologias textuais, como a descritiva. (Certo / Errado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados essenciais sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados essenciais.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados essenciais.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Texto biográfico/crônica narrando a trajetória de Cléber de Souza, empresário e ex-garçom em Jaraguá do Sul, que guarda o registro fotográfico de seu encontro em 2003 com o cineasta Francis Ford Coppola."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item avaliado: A narração é composta de sequências mescladas com outras tipologias textuais, como a descritiva. (Certo / Errado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-005",
+          "title": "Desenvolvimento e raciocínio pedagógico",
+          "prompt": "Aplicação do Passo 1 e Reconhecimento Narrativo:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Aplicação do Passo 1 e Reconhecimento Narrativo",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Início",
+              "rationale": "\"Cléber de Souza [...] acordou mais cedo que de costume. Cumpriu sua rotina matinal, se vestiu e partiu...\" $\\rightarrow$ Introdução direta de personagem e encadeamento de ações temporais."
+            },
+            {
+              "order": 3,
+              "action": "Final",
+              "rationale": "\"desta vez, permaneceu por apenas um dia. Souza, ansioso por reencontrar o antigo freguês [...], pegou a fotografia e percorreu [...] os 160 quilômetros...\" $\\rightarrow$ Manutenção contínua do enredo de fatos."
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico base",
+              "rationale": "Macroestrutura predominantemente narrativa."
+            },
+            {
+              "order": 5,
+              "action": "Reconhecimento das sequências descritivas enxertadas",
+              "rationale": ""
+            }
+          ],
+          "result": "Julgamento: A narração abriga passagens descritivas subordinadas, tornando o item plenamente correto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento e raciocínio pedagógico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento e raciocínio pedagógico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento e raciocínio pedagógico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação do Passo 1 e Reconhecimento Narrativo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Início: \"Cléber de Souza [...] acordou mais cedo que de costume. Cumpriu sua rotina matinal, se vestiu e partiu...\" $\\rightarrow$ Introdução direta de personagem e encadeamento de ações temporais.",
+                "Final: \"desta vez, permaneceu por apenas um dia. Souza, ansioso por reencontrar o antigo freguês [...], pegou a fotografia e percorreu [...] os 160 quilômetros...\" $\\rightarrow$ Manutenção contínua do enredo de fatos.",
+                "Diagnóstico base: Macroestrutura predominantemente narrativa."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Reconhecimento das sequências descritivas enxertadas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O fluxo narrativo é momentaneamente interrompido para qualificar os trajes dos personagens e os elementos da foto: \"camisa branca e gravata borboleta\", \"camisa rosa estampada com coqueiros\", além da caracterização de alimentos (\"massa grossa com muçarela, molho de tomate fresco...\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Julgamento: A narração abriga passagens descritivas subordinadas, tornando o item plenamente correto."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-006",
+          "title": "Gabarito e resolução",
+          "prompt": "Gabarito: Certo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Gabarito",
+              "rationale": "Certo."
+            }
+          ],
+          "result": "Gabarito: Certo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Gabarito e resolução sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Gabarito e resolução.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Gabarito e resolução.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito: Certo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-007",
+          "title": "Enunciado e dados essenciais",
+          "prompt": "Texto conceitual e explicativo que aborda as origens, o funcionamento tecnológico e o futuro do metaverso em ambientes virtuais e jogos eletrônicos.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item avaliado",
+              "rationale": "A tipologia textual predominante no texto CB1A1 é descritiva, evidenciada pela apresentação das características dos jogos online dentro do metaverso. (Certo / Errado)."
+            }
+          ],
+          "result": "Item avaliado: A tipologia textual predominante no texto CB1A1 é descritiva, evidenciada pela apresentação das características dos jogos online dentro do metaverso. (Certo / Errado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados essenciais sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados essenciais.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados essenciais.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Texto conceitual e explicativo que aborda as origens, o funcionamento tecnológico e o futuro do metaverso em ambientes virtuais e jogos eletrônicos."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item avaliado: A tipologia textual predominante no texto CB1A1 é descritiva, evidenciada pela apresentação das características dos jogos online dentro do metaverso. (Certo / Errado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-008",
+          "title": "Desenvolvimento e raciocínio pedagógico",
+          "prompt": "Aplicação do Passo 1:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Aplicação do Passo 1",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Início",
+              "rationale": "\"O conceito de metaverso não é algo novo. Existem videogames online que oferecem ambientes virtuais...\" $\\rightarrow$ Introdução de um conceito abstrato/tecnológico."
+            },
+            {
+              "order": 3,
+              "action": "Final",
+              "rationale": "\"Em um futuro muito próximo, o metaverso será acessível às pessoas, assim como o celular.\" $\\rightarrow$ Projeção analítica do tema."
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico base",
+              "rationale": "O texto possui tema conceitual $\\rightarrow$ Dissertativo."
+            },
+            {
+              "order": 5,
+              "action": "Aplicação do Passo 2",
+              "rationale": ""
+            }
+          ],
+          "result": "O examinador induz ao erro ao classificar a apresentação de propriedades de uma tecnologia como \"tipologia descritiva\". Explicar o funcionamento ou atributos de um conceito abstrato é ato de exposição conceitual, não descrição física de um objeto/cena concreta.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento e raciocínio pedagógico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento e raciocínio pedagógico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento e raciocínio pedagógico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação do Passo 1:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Início: \"O conceito de metaverso não é algo novo. Existem videogames online que oferecem ambientes virtuais...\" $\\rightarrow$ Introdução de um conceito abstrato/tecnológico.",
+                "Final: \"Em um futuro muito próximo, o metaverso será acessível às pessoas, assim como o celular.\" $\\rightarrow$ Projeção analítica do tema.",
+                "Diagnóstico base: O texto possui tema conceitual $\\rightarrow$ Dissertativo."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação do Passo 2:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A intenção da autora é apresentar o conceito, explicar os recursos das plataformas e informar a perspectiva de evolução da tecnologia. Trata-se de dissertação expositiva / informativa."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Refutação da armadilha da banca:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O examinador induz ao erro ao classificar a apresentação de propriedades de uma tecnologia como \"tipologia descritiva\". Explicar o funcionamento ou atributos de um conceito abstrato é ato de exposição conceitual, não descrição física de um objeto/cena concreta."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-009",
+          "title": "Gabarito e resolução",
+          "prompt": "Gabarito: Errado.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Gabarito",
+              "rationale": "Errado."
+            }
+          ],
+          "result": "Gabarito: Errado.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Gabarito e resolução sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Gabarito e resolução.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Gabarito e resolução.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito: Errado."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-010",
+          "title": "Enunciado e dados essenciais",
+          "prompt": "Artigo assinado pelo juiz federal Grégore Moreira de Moura detalhando o acervo de 80 milhões de processos judiciais no Brasil e o custo de R$ 12,3 bilhões do Judiciário, qualificando o cenário como alarmante e sustentando a necessidade de soluções desjudicializadoras.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item avaliado",
+              "rationale": "Para atingir seu propósito comunicativo, o autor constrói o texto com base nas tipologias textuais expositiva e argumentativa. (Certo / Errado)."
+            }
+          ],
+          "result": "Item avaliado: Para atingir seu propósito comunicativo, o autor constrói o texto com base nas tipologias textuais expositiva e argumentativa. (Certo / Errado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados essenciais sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados essenciais.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados essenciais.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Artigo assinado pelo juiz federal Grégore Moreira de Moura detalhando o acervo de 80 milhões de processos judiciais no Brasil e o custo de R$ 12,3 bilhões do Judiciário, qualificando o cenário como alarmante e sustentando a necessidade de soluções desjudicializadoras."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item avaliado: Para atingir seu propósito comunicativo, o autor constrói o texto com base nas tipologias textuais expositiva e argumentativa. (Certo / Errado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-011",
+          "title": "Desenvolvimento e raciocínio pedagógico",
+          "prompt": "Identificação do Propósito Comunicativo e Tese:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificação do Propósito Comunicativo e Tese",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "O autor pretende convencer o público sobre a insustentabilidade da sobrecarga de processos no Brasil e defender a desjudicialização (tese confirmada pelo título da fonte",
+              "rationale": "\"Um sonho de desjudicialização\")."
+            },
+            {
+              "order": 3,
+              "action": "Integração das Tipologias Mobilizadas",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Camada Expositiva",
+              "rationale": "Apresentação factual de dados estatísticos rigorosos (80 milhões de ações, 203 milhões de cidadãos, despesas de R$ 12.369.100.765, custo per capita de R$ 387,00)."
+            },
+            {
+              "order": 5,
+              "action": "Camada Argumentativa",
+              "rationale": "Qualificação enfática dos dados mediante vocabulário apreciativo (\"número é estarrecedor\", \"situação praticamente insustentável\", \"há muito o que fazer\"), orientando os números para a comprovação da tese."
+            }
+          ],
+          "result": "Julgamento: O autor constrói o texto conjugando a exposição de dados com a argumentação persuasiva para cumprir sua finalidade discursiva.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento e raciocínio pedagógico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento e raciocínio pedagógico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento e raciocínio pedagógico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificação do Propósito Comunicativo e Tese:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O autor pretende convencer o público sobre a insustentabilidade da sobrecarga de processos no Brasil e defender a desjudicialização (tese confirmada pelo título da fonte: \"Um sonho de desjudicialização\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Integração das Tipologias Mobilizadas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Camada Expositiva: Apresentação factual de dados estatísticos rigorosos (80 milhões de ações, 203 milhões de cidadãos, despesas de R$ 12.369.100.765, custo per capita de R$ 387,00).",
+                "Camada Argumentativa: Qualificação enfática dos dados mediante vocabulário apreciativo (\"número é estarrecedor\", \"situação praticamente insustentável\", \"há muito o que fazer\"), orientando os números para a comprovação da tese."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Julgamento: O autor constrói o texto conjugando a exposição de dados com a argumentação persuasiva para cumprir sua finalidade discursiva."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G06-012",
+          "title": "Gabarito e resolução",
+          "prompt": "Gabarito: Certo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Gabarito",
+              "rationale": "Certo."
+            }
+          ],
+          "result": "Gabarito: Certo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Gabarito e resolução sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Gabarito e resolução.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Gabarito e resolução.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito: Certo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra prática: Jamais inicie a leitura do corpo textual de uma questão de tipologia sem antes inspecionar o título original e os dados da fonte de publicação no rodapé.",
+            "Justificativa pedagógica: O suporte textual e o título frequentemente antecipam a intenção do autor:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Veículos como Época Negócios ou portais educativos apontam para textos dissertativos expositivos/informativos.",
+            "Títulos com juízo crítico explícito (ex.: \"Um sonho de desjudicialização\") sinalizam textos dissertativos argumentativos.",
+            "Veículos culturais e crônicas (ex.: Revista Piauí) sinalizam tipologia predominantemente narrativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra prática: Para confirmar com absoluta certeza que um texto é dissertativo, trace uma linha lógica entre a primeira frase do parágrafo inicial e a última frase do parágrafo final.",
+            "Justificativa pedagógica: Ao contrário do texto narrativo (que progride em linha temporal até um desfecho fático), o texto dissertativo constrói uma estrutura circular: o tema ou a tese apresentada na introdução é sistematicamente retomada, confirmada ou sintetizada no encerramento."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra prática: Quando a questão do Cebraspe afirmar que o texto \"apresenta características das tipologias X e Y\" ou \"é construído com base nas tipologias X e Y\", sem empregar o vocábulo \"predominantemente\", avalie apenas se ambas as tipologias estão materialmente representadas no texto.",
+            "Justificativa pedagógica: O Cebraspe adota uma postura pragmática que reconhece o hibridismo natural dos textos autênticos. Havendo traços de exposição e argumentação (ou de narração e descrição), o item costuma ser gabaritado como Certo. Se a questão exigir a \"predominância\", aí sim deve-se isolar a intenção comunicativa máxima."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A13-G06-MISCELANEA-INTERPRETACAO-001",
+          "title": "Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa.",
+          "correctReasoning": "Classificar um texto jornalístico/informativo como \"dissertativo argumentativo\" apenas porque o redator emitiu um comentário pontual, juízo de valor ou advérbio apreciativo no corpo da notícia (ex.: \"infelizmente\", \"o conceito não é novo\").",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Opinião ou Comentário Circunstancial com Dissertação Argumentativa.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Descrição do erro comum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Classificar um texto jornalístico/informativo como \"dissertativo argumentativo\" apenas porque o redator emitiu um comentário pontual, juízo de valor ou advérbio apreciativo no corpo da notícia (ex.: \"infelizmente\", \"o conceito não é novo\")."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Causa e mecanismo de indução"
+            },
+            {
+              "type": "paragraph",
+              "text": "O candidato confunde o ato comunicativo genérico de expressar opiniões com a estrutura tipológica formal da argumentação. Opinar é comum em quase todos os gêneros textuais."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Como diagnosticar e evitar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Verificar o eixo central do texto: a argumentação exige sustentação sistemática de uma tese estruturada para convencer o leitor; se o objetivo geral é apenas noticiar, explicar ou relatar novidades, o texto permanece dissertativo expositivo/informativo."
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G06-MISCELANEA-INTERPRETACAO-002",
+          "title": "Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva.",
+          "correctReasoning": "Aceitar como correto o item da banca que classifica como \"descritivo\" um texto que apenas enumera propriedades, funcionalidades ou atributos de uma ferramenta técnica, jogo online ou conceito abstrato (ex.: metaverso).",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Enumeração de Características/Conceito Abstrato com Tipologia Descritiva.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Descrição do erro comum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aceitar como correto o item da banca que classifica como \"descritivo\" um texto que apenas enumera propriedades, funcionalidades ou atributos de uma ferramenta técnica, jogo online ou conceito abstrato (ex.: metaverso)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Causa e mecanismo de indução"
+            },
+            {
+              "type": "paragraph",
+              "text": "A banca explora o duplo sentido da palavra comum \"descrever\" (no sentido leigo de relatar/listar pormenores) para induzir o candidato a marcar falsamente a tipologia textual descritiva."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Como diagnosticar e evitar"
+            },
+            {
+              "type": "paragraph",
+              "text": "A verdadeira tipologia descritiva exige o retrato sensorial e estático de objetos, pessoas ou ambientes físicos concretos no espaço. Apresentar o funcionamento, componentes ou definições de temas abstratos é estritamente dissertação expositiva."
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Classificar um texto jornalístico/informativo como \"dissertativo argumentativo\" apenas porque o redator emitiu um comentário pontual, juízo de valor ou advérbio apreciativo no corpo da notícia (ex.: \"infelizmente\", \"o conceito não é novo\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "O candidato confunde o ato comunicativo genérico de expressar opiniões com a estrutura tipológica formal da argumentação. Opinar é comum em quase todos os gêneros textuais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verificar o eixo central do texto: a argumentação exige sustentação sistemática de uma tese estruturada para convencer o leitor; se o objetivo geral é apenas noticiar, explicar ou relatar novidades, o texto permanece dissertativo expositivo/informativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aceitar como correto o item da banca que classifica como \"descritivo\" um texto que apenas enumera propriedades, funcionalidades ou atributos de uma ferramenta técnica, jogo online ou conceito abstrato (ex.: metaverso)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A banca explora o duplo sentido da palavra comum \"descrever\" (no sentido leigo de relatar/listar pormenores) para induzir o candidato a marcar falsamente a tipologia textual descritiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "A verdadeira tipologia descritiva exige o retrato sensorial e estático de objetos, pessoas ou ambientes físicos concretos no espaço. Apresentar o funcionamento, componentes ou definições de temas abstratos é estritamente dissertação expositiva."
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Classificação estrutural dos textos segundo sua organização interna e intenção comunicativa predominante (narrativa, descritiva, dissertativa expositiva/informativa, dissertativa argumentativa e injuntiva)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Objetivo discursivo global pretendido pelo autor ao elaborar o texto (ex.: informar sobre inovações, persuadir sobre a urgência de uma reforma, relatar uma memória pessoal)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Juízo de valor central, posicionamento crítico ou ideia norteadora que o autor busca sustentar e demonstrar ao longo de um texto dissertativo argumentativo."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático, o estudante compreende que a análise de tipologia textual em provas de alto nível não depende da leitura passiva integral do texto, mas da aplicação de um método objetivo de decodificação discursiva:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Identificar o Eixo Primário: Saber distinguir instantaneamente um texto temático/abstrato (dissertação) de um texto fático/temporal (narração), examinando prioritariamente o primeiro parágrafo, o último parágrafo, o título e a fonte bibliográfica.",
+            "Discernir a Finalidade Dissertativa: Compreender que a dissertação expositiva/informativa busca transmitir conhecimento e novidades de forma neutra (admitindo comentários pontuais que não chegam a formar uma tese), enquanto a dissertação argumentativa mobiliza recursos persuasivos e juízos de valor em favor de uma tese crítica.",
+            "Reconhecer o Hibridismo Funcional: Saber que dados numéricos e estatísticos são frequentemente instrumentalizados para dar robustez a teses argumentativas, e que pequenos relatos ou passagens descritivas coexistem perfeitamente em textos cuja macroestrutura é dissertativa ou predominantemente narrativa.",
+            "Dominar o Padrão Cebraspe: Diferenciar comandos que exigem a tipologia \"predominante\" daqueles que apenas questionam a presença concomitante de características de múltiplas tipologias."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula13.q0024",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEDU-ES",
+      "year": 2010,
+      "prompt": "Julgue o item que se segue, relativo à interpretação, produção, tipos e gêneros de textos.\nAnedota, autobiografia e história em quadrinhos são gêneros textuais narrativos.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "Outra  questão  conceitual. Todos  esses  gêneros contam  “histórias”, em  sentido  amplo:\ndescrevem ações, com personagens, num fluxo temporal dinâmico. Questão correta.",
+      "questionSha256": "c8fcab5bb81d02d6e7ba72e7f75977ffba6b5b5b9592303a1db6816bdf079a6f",
+      "answerSha256": "ef645a8ec672147c9ad0a8192635401e73d9fd868e42a371312a132a98fa4982",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0052",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEDU-ES",
+      "year": 2010,
+      "prompt": "Julgue o item que se segue, relativo à interpretação, produção, tipos e gêneros de textos.\nAnedota, autobiografia e história em quadrinhos são gêneros textuais narrativos.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "17cb5cf86969a6c8e991a5ba2a5b4812a110cc273e01894d7852cbcfb2dbc642",
+      "answerSha256": "1d608fd2a976702326c35c4366049ee6852ce12e08a82cd6dd6706c1cdaa7982",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0027",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ==2920c1==\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ==2920c1=="
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "explanation": "O texto traz um comando, com verbo no imperativo e sugere seguir um passo a passo, uma lista de\ninstruções. Temos texto injuntivo.\nGabarito letra B.",
+      "questionSha256": "a23e16757deb22136ec3e1bc79e3b7509912d9cdb27c078ff8860f9b6a99f3d4",
+      "answerSha256": "e89d14fd9d95a46bbb3a06955e21c6a7261ed98f18307a7720bd8bb9e86ceef7",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "letter_B",
+        "acceptedPedagogicalAnswers": [
+          "letter_B"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A13-G06-CONFLICT-001-97",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0030",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo."
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "explanation": "O texto traz um comando, com verbo no imperativo e sugere seguir um passo a passo, uma lista\nde instruções. Temos texto injuntivo.\nGabarito letra B.",
+      "questionSha256": "d5b0ee7dec0eada32148712503ca54fb416fb204235d42c7b38085e524ec2d07",
+      "answerSha256": "3f5c0b9b26941d3219f1f484123d77b6033239eda3562a0de0a2fec10cc5e7e3",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "letter_B",
+        "acceptedPedagogicalAnswers": [
+          "letter_B"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A13-G06-CONFLICT-001-97",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0058",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo."
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "questionSha256": "7d3055d0fdf3debf62837345837992c3c231f3012c5b7cd12c111bf09860c7b4",
+      "answerSha256": "ea90404fa9c6bd06d3caa2c4522e55e58a2d8d35d06b65f02f8c72aaa6b56f02",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0055",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ==2920c1==\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ==2920c1=="
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "questionSha256": "0162287bf4b10bd7cce13d3575369b62a4fd1e678c8260e075db295b0767c30f",
+      "answerSha256": "c61064cd32e68a5c2411a26ec9ba9cdfabee900aa2a1a457011ed86a9104cf48",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Miscelânea de Interpretação; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Miscelânea de Interpretação."
+        }
+      ]
+    }
+  ]
+}

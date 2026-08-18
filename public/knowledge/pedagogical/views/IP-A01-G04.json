@@ -1,0 +1,1557 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A01-G04",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.922Z"
+  },
+  "unit": {
+    "unitId": "IP-A01-G04",
+    "lessonId": "A01",
+    "groupId": "G04",
+    "title": "Artigos",
+    "variant": "development",
+    "canonicalTopicId": "pt:a01:artigos",
+    "learningObjectives": [
+      "OBJ-IP-A01-G04-001",
+      "OBJ-IP-A01-G04-002",
+      "OBJ-IP-A01-G04-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "O artigo é reconhecido morfologicamente e observado dentro do sintagma nominal; a SuVeCA mostra a função do conjunto, não transforma o artigo em componente autônomo do mapa.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia Básica: Noções de substantivo (classe determinada), adjetivo (modificador) e classes invariáveis (preposição).",
+            "Sintaxe Introdutória: Conceito elementar de regência verbal/nominal (termos regentes que exigem preposição) e concordância nominal (o determinante deve concordar em gênero e número com o núcleo substantivo)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "CLASSE DOS ARTIGOS (G04) │ ┌────────────────────────────────────┼────────────────────────────────────┐ ▼ ▼ ▼ RECONHECIMENTO SINTÁTICO SEMÂNTICA DISCURSIVA HOMÔNIMOS DO \"A / O\" (Dependência do Substantivo) (Status da Realidade) (Classes Concorrentes) │ │ │ ┌────────┴────────┐ ┌────────┴────────┐ ┌────────┴────────┐ │ Artigo Distante │ │ ARTIGO DEFINIDO │ │ PRONOME PESSOAL │ │ (Adjetivo meio) │ │ • Anáfora textual │ (Troca por ela) │ └────────┬────────┘ │ • Conhecimento │ └────────┬────────┘ │ │ de mundo │ │ ┌────────┴────────┐ └────────┬────────┘ ┌────────┴────────┐ │ Subst. Implícito│ │ │ PREPOSIÇÃO │ │ (Elipse textual)│ ┌────────┴────────┐ │ (Conectivo / VTI│ └────────┬────────┘ │ARTIGO INDEFINIDO│ │ ou Nominal) │ │ │ • Realidade vaga│ └────────┬────────┘ ┌────────┴────────┐ │ • Não exclusiva │ │ │ CONTRAÇÕES │ │ (uma dentre │ ┌────────┴────────┐ │ DA, DO, NA, NO, │ │ várias) │ │ PRON. DEMONSTR. │ │ PELO, PELA... │ └─────────────────┘ │ (Antes de QUE/DE│ └─────────────────┘ │ = Aquele/Aquilo│ └─────────────────┘"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A01-G04-001",
+          "title": "Mapa de conexão — Artigos",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a01:artigos",
+              "label": "Artigos",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a01:artigos",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O artigo é a classe gramatical variável em gênero e número que se antepõe a um substantivo para determiná-lo ou indeterminá-lo. Morfossintaticamente, o artigo não possui autonomia referencial: sua existência na oração depende exclusivamente da subordinação a um substantivo (regra mnemônica: \"a seta do artigo aponta sempre para o substantivo\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para identificar um artigo em textos e provas de concurso, deve-se rastrear a palavra à qual ele se subordina formalmente. O artigo concorda obrigatoriamente com o substantivo núcleo em gênero e número. Contudo, as bancas examinadoras exploram duas armadilhas morfossintáticas estruturais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Artigo Distante do Substantivo (Intercalação Adjetiva): O artigo não precisa estar justaposto imediatamente ao substantivo. Elementos modificadores (adjetivos ou locuções) podem intercalar-se entre o artigo e o substantivo sem que a relação morfológica seja quebrada.",
+            "Substantivo Oculto / Implícito (Elipse Textual): O substantivo ao qual o artigo se refere pode estar elíptico (omitido) na oração para evitar repetição vocabular. O vocábulo continua sendo classificado como artigo se o substantivo puder ser resgatado anafórica ou contextualmente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Critério da Flecha Morfossintática: Trace uma ligação visual a partir da palavra suspeita em busca do substantivo núcleo.",
+            "Critério da Concordância: Verifique se a flexão (masculino/feminino, singular/plural) acompanha as marcas do substantivo de referência."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo de subordinação direta: \"Comprou um livro.\" (um = artigo indefinido masculino singular determinando livro).",
+            "Exemplo de artigo distante: \"O lindo menino\" (O = artigo definido masculino singular subordinado ao substantivo menino, superando a interposição do adjetivo lindo).",
+            "Exemplo de substantivo elíptico: \"O homem inteligente e o educado chegaram.\" (O primeiro O refere-se ao substantivo explícito homem; o segundo o refere-se ao substantivo elíptico [homem], mantendo-se como artigo)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A omissão gráfica do substantivo não autoriza classificar a palavra como pronome demonstrativo se o termo elíptico for um substantivo diretamente recuperável na mesma estrutura coordenada."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimentos: PROC-A01-G04-ARTIGOS-001, PROC-A01-G04-ARTIGOS-003",
+            "Possui dicas: TIP-A01-G04-ARTIGOS-001",
+            "Possui alertas: WARN-A01-G04-ARTIGOS-001, WARN-A01-G04-ARTIGOS-002",
+            "Evidenciado por: VIS-A01-G04-ARTIGOS-001, VIS-A01-G04-ARTIGOS-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A oposição entre o artigo definido (o, a, os, as) e o artigo indefinido (um, uma, uns, umas) não é apenas morfológica, mas essencialmente semântica e pragmático-discursiva. O artigo definido marca uma realidade conhecida e determinada, ao passo que o artigo indefinido introduz uma realidade vaga, indeterminada ou não exclusiva (um elemento entre vários possíveis)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Artigo Definido e os Fundamentos do Conhecimento Prévio:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Anáfora Textual: O ser já foi explicitamente apresentado ou mencionado em parágrafos/linhas anteriores do texto.",
+            "Conhecimento de Mundo (Extratextual / Enciclopédico): O termo é grafado pela primeira vez no texto, mas o emissor pressupõe que os leitores/interlocutores compartilham o repertório sociocultural, histórico ou situacional necessário para identificá-lo (\"do projeto civilizador oitocentista\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Artigo Indefinido e a Semântica de Não Exclusividade:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O artigo indefinido não serve apenas para denotar \"desconhecimento\", mas atua no discurso sinalizando que o substantivo introduzido constitui uma possibilidade dentre várias existentes, rejeitando a exclusividade ou a unicidade (\"uma visão contemporânea\" = uma entre outras visões pedagógicas possíveis; diferentemente de \"a visão contemporânea\", que expressaria unicidade)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o substantivo for individualizado e tomado como notório pelos interlocutores (por contexto anterior ou por conhecimento histórico/cultural amplo) $\\rightarrow$ Artigo Definido.",
+            "Se o substantivo for generalizado, tomado como amostra ou como uma alternativa aberta entre outras $\\rightarrow$ Artigo Indefinido."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contraste semântico cotidiano: \"Comprei o livro.\" (livro específico previamente acordado) versus \"Comprei um livro.\" (um livro qualquer, indeterminado).",
+            "Conhecimento de mundo: \"A implantação da penitenciária fazia parte do projeto civilizador oitocentista...\" (O artigo definido o em do pressupõe conhecimento histórico extratextual do leitor).",
+            "Não exclusividade: \"Em uma visão contemporânea...\" (Indica a existência de outras abordagens) versus \"Na visão contemporânea...\" (Indica visão exclusiva/única)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A01-G04-ARTIGOS-007, EX-A01-G04-ARTIGOS-008",
+            "Possui alertas: WARN-A01-G04-ARTIGOS-004",
+            "Evidenciado por: VIS-A01-G04-ARTIGOS-001, VIS-A01-G04-ARTIGOS-005, VIS-A01-G04-ARTIGOS-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O vocábulo \"a\" (e sua forma masculina \"o\") manifesta-se em quatro classes gramaticais concorrentes na Língua Portuguesa: Artigo, Pronome Pessoal Oblíquo Átono, Preposição e Pronome Demonstrativo."
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A01-G04-001",
+          "table": {
+            "tableId": "TABLE-IP-A01-G04-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Classe Gramatical",
+              "Papel Morfossintático Central",
+              "Teste Diagnóstico Prático",
+              "Exemplo de Referência"
+            ],
+            "rows": [
+              [
+                "Artigo",
+                "Determina e subordina-se a um substantivo.",
+                "Verifica-se se a seta aponta para um substantivo (explícito ou implícito).",
+                "\"Desejava a felicidade.\""
+              ],
+              [
+                "Pronome Pessoal Oblíquo",
+                "Substitui um substantivo/pessoa na função de objeto.",
+                "Substitui-se o termo por\"ela\" (ou \"ele\").",
+                "\"Não a encontrei.\" $\\rightarrow$ \"Não encontrei ela.\""
+              ],
+              [
+                "Preposição",
+                "Conectivo sintático invariável exigido por regência verbal ou nominal.",
+                "Liga regente a regido; não varia para o plural diante de palavra no plural.",
+                "\"Aspirava a dias melhores.\" / \"Aberto a alternativas.\""
+              ],
+              [
+                "Pronome Demonstrativo",
+                "Substitui um termo antecedente, surgindo antes de\"que\" ou \"de\".",
+                "Substitui-se por\"aquela\", \"aquele\" ou \"aquilo\".",
+                "\"Prefiro a do álbum anterior.\" $\\rightarrow$ \"Prefiro aquela do...\""
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Se acompanha substantivo concordando com ele $\\rightarrow$ Artigo.",
+            "Se completa verbo transitivo direto substituindo uma pessoa $\\rightarrow$ Pronome Pessoal Oblíquo.",
+            "Se é conectivo invariável introduzido por termo regente (aberto a, aspirar a) e antecede palavra plural mantendo-se no singular $\\rightarrow$ Preposição.",
+            "Se precede que ou de equivalendo a aquele(a) $\\rightarrow$ Pronome Demonstrativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Artigo: \"Desejava a felicidade.\" (a $\\rightarrow$ felicidade).",
+            "Pronome Pessoal: \"Não a encontrei.\" (a = ela).",
+            "Preposição: \"Aspirava a dias melhores.\" (a = conector invariável exigido pelo VTI aspirar; dias é masculino plural).",
+            "Pronome Demonstrativo: \"Esta música é boa, mas prefiro a do álbum anterior.\" (a = aquela [música])."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimentos: PROC-A01-G04-ARTIGOS-001, PROC-A01-G04-ARTIGOS-002, PROC-A01-G04-ARTIGOS-003",
+            "Possui alertas: WARN-A01-G04-ARTIGOS-003",
+            "Evidenciado por: VIS-A01-G04-ARTIGOS-002, VIS-A01-G04-ARTIGOS-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os artigos definidos frequentemente encontram-se fundidos a preposições essenciais (de, em, por), constituindo contrações prepositivas. Para fins de análise sintática e contagem morfológica em questões de concursos, o candidato deve decompor a palavra fundida para registrar a presença individualizada do artigo."
+        },
+        {
+          "type": "paragraph",
+          "text": "As bancas de concurso frequentemente formulam itens de contagem de classes de palavras ou afirmam que determinada estrutura contraída contém um artigo definido. A decomposição canônica apresentada nas fontes compreende:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "DA / DO: Preposição DE + Artigo Definido A / O (ou plurais DAS / DOS).",
+            "NA / NO: Preposição EM + Artigo Definido A / O (ou plurais NAS / NOS).",
+            "PELA / PELO: Preposição POR + Artigo Definido A / O (ou plurais PELAS / PELOS)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sempre que uma assertiva avaliar a presença de artigo ou exigir a quantificação de determinantes em um trecho, palavras como do, da, no, na, pelo, pela devem ser formalmente cindidas em duas unidades morfológicas: Preposição + Artigo Definido."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo de decomposição: \"fazia parte do projeto civilizador\" $\\rightarrow$ do = de (preposição regida por fazer parte) + o (artigo definido que determina o substantivo projeto).",
+            "Contagem: Na oração \"Gostei do livro e na escola falei pelo professor\", existem 3 preposições (de, em, por) e 3 artigos definidos (o, a, o)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui dicas: TIP-A01-G04-ARTIGOS-002",
+            "Evidenciado por: VIS-A01-G04-ARTIGOS-003, VIS-A01-G04-ARTIGOS-005"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A01-G04-001",
+          "title": "Regras canônicas",
+          "statement": "Regra do Vínculo Obrigatório com o Substantivo: O artigo não possui vida sintática autônoma; ele antecede e concorda incondicionalmente com um substantivo explícito ou implícito (KB-A01-G04-ARTIGOS-001).\nRegra da Tolerância à Intercalação: Adjetivos e modificadores intermediários não quebram a regência morfológica do artigo sobre o substantivo (KB-A01-G04-ARTIGOS-001, WARN-A01-G04-ARTIGOS-001).\nClassificação Semântica do Artigo Definido: Marca realidade determinada, notória e conhecida, seja por anáfora textual ou por repertório histórico-cultural (conhecimento de mundo) (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-001).\nClassificação Semântica do Artigo Indefinido: Marca realidade indeterminada, genérica ou não exclusiva, assinalando que o elemento é uma possibilidade entre várias (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-002).\nRegra de Invariabilidade da Preposição diante de Plural: A forma singular \"a\" diante de um substantivo plural é prova definitiva de preposição pura (KB-A01-G04-ARTIGOS-003, TIP-A01-G04-ARTIGOS-003).\nRegra de Decomposição Morfológica das Contrações: Toda contração do tipo da/do, na/no, pela/pelo contém formalmente um artigo definido acoplado a uma preposição (KB-A01-G04-ARTIGOS-004, TERM-A01-G04-ARTIGOS-003).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Regra do Vínculo Obrigatório com o Substantivo: O artigo não possui vida sintática autônoma; ele antecede e concorda incondicionalmente com um substantivo explícito ou implícito (KB-A01-G04-ARTIGOS-001).",
+            "Regra da Tolerância à Intercalação: Adjetivos e modificadores intermediários não quebram a regência morfológica do artigo sobre o substantivo (KB-A01-G04-ARTIGOS-001, WARN-A01-G04-ARTIGOS-001).",
+            "Classificação Semântica do Artigo Definido: Marca realidade determinada, notória e conhecida, seja por anáfora textual ou por repertório histórico-cultural (conhecimento de mundo) (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-001).",
+            "Classificação Semântica do Artigo Indefinido: Marca realidade indeterminada, genérica ou não exclusiva, assinalando que o elemento é uma possibilidade entre várias (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-002)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Regra do Vínculo Obrigatório com o Substantivo: O artigo não possui vida sintática autônoma; ele antecede e concorda incondicionalmente com um substantivo explícito ou implícito (KB-A01-G04-ARTIGOS-001).",
+                "Regra da Tolerância à Intercalação: Adjetivos e modificadores intermediários não quebram a regência morfológica do artigo sobre o substantivo (KB-A01-G04-ARTIGOS-001, WARN-A01-G04-ARTIGOS-001).",
+                "Classificação Semântica do Artigo Definido: Marca realidade determinada, notória e conhecida, seja por anáfora textual ou por repertório histórico-cultural (conhecimento de mundo) (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-001).",
+                "Classificação Semântica do Artigo Indefinido: Marca realidade indeterminada, genérica ou não exclusiva, assinalando que o elemento é uma possibilidade entre várias (KB-A01-G04-ARTIGOS-002, TERM-A01-G04-ARTIGOS-002).",
+                "Regra de Invariabilidade da Preposição diante de Plural: A forma singular \"a\" diante de um substantivo plural é prova definitiva de preposição pura (KB-A01-G04-ARTIGOS-003, TIP-A01-G04-ARTIGOS-003).",
+                "Regra de Decomposição Morfológica das Contrações: Toda contração do tipo da/do, na/no, pela/pelo contém formalmente um artigo definido acoplado a uma preposição (KB-A01-G04-ARTIGOS-004, TERM-A01-G04-ARTIGOS-003)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A01-G04-ARTIGOS-001",
+          "title": "Procedimento de Diferenciação entre Artigo \"A/O\" e Pronome Pessoal Oblíquo",
+          "objective": "Executar o algoritmo decisório para Procedimento de Diferenciação entre Artigo \"A/O\" e Pronome Pessoal Oblíquo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento de Diferenciação entre Artigo \"A/O\" e Pronome Pessoal Oblíquo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localização da forma \"a/o\"",
+              "explanation": "Isole o termo em análise no período.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Teste do Substantivo",
+              "explanation": "Verifique se o vocábulo antecede um substantivo e concorda com ele em gênero e número. Se sim, confirme a seta morfossintática e classifique como Artigo.",
+              "test": "Teste do Substantivo: Verifique se o vocábulo antecede um substantivo e concorda com ele em gênero e número. Se sim, confirme a seta morfossintática e classifique como Artigo."
+            },
+            {
+              "order": 3,
+              "action": "Teste de Substituição Pronominal",
+              "explanation": "Se a forma \"a/o\" estiver acoplada a um verbo como objeto e não houver substantivo imediato regido, substitua-a pelo pronome reto \"ela\" (ou \"ele\").",
+              "test": "Teste de Substituição Pronominal: Se a forma \"a/o\" estiver acoplada a um verbo como objeto e não houver substantivo imediato regido, substitua-a pelo pronome reto \"ela\" (ou \"ele\")."
+            },
+            {
+              "order": 4,
+              "action": "Conclusão",
+              "explanation": "Se a substituição mantiver a coerência indicando a pessoa/objeto da ação (\"Não a encontrei\" $\\rightarrow$ \"Não encontrei ela\"), classifique como Pronome Pessoal Oblíquo Átono.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento de Diferenciação entre Artigo \"A/O\" e Pronome Pessoal Oblíquo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localização da forma \"a/o\": Isole o termo em análise no período.",
+                "Teste do Substantivo: Verifique se o vocábulo antecede um substantivo e concorda com ele em gênero e número. Se sim, confirme a seta morfossintática e classifique como Artigo.",
+                "Teste de Substituição Pronominal: Se a forma \"a/o\" estiver acoplada a um verbo como objeto e não houver substantivo imediato regido, substitua-a pelo pronome reto \"ela\" (ou \"ele\").",
+                "Conclusão: Se a substituição mantiver a coerência indicando a pessoa/objeto da ação (\"Não a encontrei\" $\\rightarrow$ \"Não encontrei ela\"), classifique como Pronome Pessoal Oblíquo Átono."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G04-ARTIGOS-002",
+          "title": "Procedimento de Reconhecimento do Pronome Demonstrativo \"A/O\"",
+          "objective": "Executar o algoritmo decisório para Procedimento de Reconhecimento do Pronome Demonstrativo \"A/O\"",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento de Reconhecimento do Pronome Demonstrativo \"A/O\"."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Verificação de Contexto Sintático",
+              "explanation": "Observe se a palavra \"a\" ou \"o\" antecede imediatamente os conectivos \"que\" ou \"de\" (ou contrações derivadas como do, da).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Teste de Equivalência Demonstrativa",
+              "explanation": "Aplique a substituição por \"aquela\", \"aquele\" ou \"aquilo\".",
+              "test": "Teste de Equivalência Demonstrativa: Aplique a substituição por \"aquela\", \"aquele\" ou \"aquilo\"."
+            },
+            {
+              "order": 3,
+              "action": "Conclusão",
+              "explanation": "Havendo perfeita equivalência e resgate de termo anafórico (\"prefiro a do álbum anterior\" $\\rightarrow$ \"prefiro aquela do álbum anterior\"), classifique o termo como Pronome Demonstrativo.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento de Reconhecimento do Pronome Demonstrativo \"A/O\"."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Verificação de Contexto Sintático: Observe se a palavra \"a\" ou \"o\" antecede imediatamente os conectivos \"que\" ou \"de\" (ou contrações derivadas como do, da).",
+                "Teste de Equivalência Demonstrativa: Aplique a substituição por \"aquela\", \"aquele\" ou \"aquilo\".",
+                "Conclusão: Havendo perfeita equivalência e resgate de termo anafórico (\"prefiro a do álbum anterior\" $\\rightarrow$ \"prefiro aquela do álbum anterior\"), classifique o termo como Pronome Demonstrativo."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G04-ARTIGOS-003",
+          "title": "Procedimento do Teste de Plural para Identificação de Preposição Pura",
+          "objective": "Executar o algoritmo decisório para Procedimento do Teste de Plural para Identificação de Preposição Pura",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento do Teste de Plural para Identificação de Preposição Pura."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificação da Forma \"a\"",
+              "explanation": "Isole o vocábulo \"a\" antecedendo um elemento nominal ou oracional.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Inspeção do Termo Subsequente",
+              "explanation": "Verifique o número gramatical do substantivo seguinte.",
+              "test": "Inspeção do Termo Subsequente: Verifique o número gramatical do substantivo seguinte."
+            },
+            {
+              "order": 3,
+              "action": "Aplicação da Regra de Concordância",
+              "explanation": "Se o substantivo seguinte estiver no plural (ex.: alternativas, pessoas) e a forma \"a\" permanecer no singular, o termo é 100% Preposição Pura (pois preposições são invariáveis, enquanto o artigo feminino plural seria as ou fundir-se-ia em às).",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Verificação do Termo Regente",
+              "explanation": "Confirme se o vocábulo anterior (verbo ou adjetivo) exige preposição (aberto a, obediente a, aspirar a).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento do Teste de Plural para Identificação de Preposição Pura."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificação da Forma \"a\": Isole o vocábulo \"a\" antecedendo um elemento nominal ou oracional.",
+                "Inspeção do Termo Subsequente: Verifique o número gramatical do substantivo seguinte.",
+                "Aplicação da Regra de Concordância: Se o substantivo seguinte estiver no plural (ex.: alternativas, pessoas) e a forma \"a\" permanecer no singular, o termo é 100% Preposição Pura (pois preposições são invariáveis, enquanto o artigo feminino plural seria as ou fundir-se-ia em às).",
+                "Verificação do Termo Regente: Confirme se o vocábulo anterior (verbo ou adjetivo) exige preposição (aberto a, obediente a, aspirar a)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G04-ARTIGOS-004",
+          "title": "Método de Esquartejamento de Assertivas da Banca CEBRASPE",
+          "objective": "Executar o algoritmo decisório para Método de Esquartejamento de Assertivas da Banca CEBRASPE",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Esquartejamento de Assertivas da Banca CEBRASPE."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Cisão Estrutural do Item",
+              "explanation": "Divida a assertiva da banca em duas frações independentes:",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Parte I (Premissa Morfossintática / Descritiva)",
+              "explanation": "Avalia a existência e classificação do fato linguístico (ex.: \"Com o uso do artigo definido na contração 'do'...\").",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Parte II (Conclusão Semântica / Interpretativa)",
+              "explanation": "Avalia o efeito de sentido ou o pressuposto discursivo (ex.: \"...pressupõe-se que a autora parte do princípio de que os leitores tenham conhecimento prévio...\").",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Validação da Parte I",
+              "explanation": "Verifique no texto se a premissa descritiva é rigorosamente verdadeira (do = de + o).",
+              "test": "Validação da Parte I: Verifique no texto se a premissa descritiva é rigorosamente verdadeira (do = de + o)."
+            },
+            {
+              "order": 5,
+              "action": "Validação da Parte II",
+              "explanation": "Avalie se o conceito semântico deduzido é linguisticamente válido para aquela classe no contexto (artigo definido pressupõe conhecimento de mundo/prévio).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Julgamento Global",
+              "explanation": "Se ambas as partes forem corretas, marque CERTO. Se qualquer uma das frações apresentar inconsistência, marque ERRADO.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Esquartejamento de Assertivas da Banca CEBRASPE."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Cisão Estrutural do Item: Divida a assertiva da banca em duas frações independentes:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Parte I (Premissa Morfossintática / Descritiva): Avalia a existência e classificação do fato linguístico (ex.: \"Com o uso do artigo definido na contração 'do'...\").",
+                "Parte II (Conclusão Semântica / Interpretativa): Avalia o efeito de sentido ou o pressuposto discursivo (ex.: \"...pressupõe-se que a autora parte do princípio de que os leitores tenham conhecimento prévio...\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Validação da Parte I: Verifique no texto se a premissa descritiva é rigorosamente verdadeira (do = de + o).",
+                "Validação da Parte II: Avalie se o conceito semântico deduzido é linguisticamente válido para aquela classe no contexto (artigo definido pressupõe conhecimento de mundo/prévio).",
+                "Julgamento Global: Se ambas as partes forem corretas, marque CERTO. Se qualquer uma das frações apresentar inconsistência, marque ERRADO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A01-G04-001",
+          "title": "Tabela 1: O Vocábulo \"A\" e suas Quatro Faces Morfológicas",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 1: O Vocábulo \"A\" e suas Quatro Faces Morfológicas",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G04-002",
+              "table": {
+                "tableId": "TABLE-IP-A01-G04-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério Comparativo",
+                  "Artigo Definido",
+                  "Pronome Pessoal Oblíquo",
+                  "Preposição",
+                  "Pronome Demonstrativo"
+                ],
+                "rows": [
+                  [
+                    "Função Morfossintática",
+                    "Determinante nominal",
+                    "Substituto de pessoa/objeto",
+                    "Conectivo sintático",
+                    "Determinante anafórico"
+                  ],
+                  [
+                    "Alvo da Relação",
+                    "Substantivo núcleo",
+                    "Ação verbal (objeto direto)",
+                    "Termo regido (substantivo/oração)",
+                    "Termo oracional posterior (que/de)"
+                  ],
+                  [
+                    "Variabilidade",
+                    "Variável (a, as)",
+                    "Variável (a, as)",
+                    "Invariável (a)",
+                    "Variável (a, as)"
+                  ],
+                  [
+                    "Teste de Troca",
+                    "Não aceita troca por pronome",
+                    "Troca-se por\"ela\"",
+                    "Troca-se por outra preposição",
+                    "Troca-se por\"aquela\""
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "\"Desejava a felicidade.\"",
+                    "\"Não a encontrei.\"",
+                    "\"Aspirava a dias melhores.\"",
+                    "\"Prefiro a do álbum anterior.\""
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A01-G04-002",
+          "title": "Tabela 2: Artigo Definido vs. Artigo Indefinido",
+          "contrastType": "morphological",
+          "conceptA": "Tabela 2: Artigo Definido vs. Artigo Indefinido",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G04-003",
+              "table": {
+                "tableId": "TABLE-IP-A01-G04-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro Semântico",
+                  "Artigo Definido (o, a, os, as)",
+                  "Artigo Indefinido (um, uma, uns, umas)"
+                ],
+                "rows": [
+                  [
+                    "Status da Realidade",
+                    "Realidade determinada, específica, conhecida.",
+                    "Realidade indeterminada, vaga, genérica."
+                  ],
+                  [
+                    "Ancoragem Discursiva",
+                    "Menção textual prévia (anáfora) OU repertório sociocultural (conhecimento de mundo).",
+                    "Apresentação inicial sem individualização prévia."
+                  ],
+                  [
+                    "Exclusividade / Unicidade",
+                    "Expressa unicidade ou foco específico (\"a visão\" = a visão exclusiva).",
+                    "Expressanão exclusividade (\"uma visão\" = uma entre várias possíveis)."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A01-G04-003",
+          "title": "Tabela 3: Origem da Notoriedade no Artigo Definido",
+          "contrastType": "morphological",
+          "conceptA": "Tabela 3: Origem da Notoriedade no Artigo Definido",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "|:--------------------------------------------- |:------------------------------------------------------------------------------------- |:-------------------------------------------------------- |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| Conhecimento Textual (Anáfora) | O referente já apareceu grafado explicitamente em linhas anteriores. | \"Comprei um livro... O livro é excelente.\" |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| Conhecimento de Mundo (Extratextual) | O referente nunca apareceu no texto, mas é patrimônio histórico/cultural do leitor. | \"...fazia parte do projeto civilizador oitocentista.\" |"
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-001",
+          "title": "EX-A01-G04-ARTIGOS-001 — Identificação de Artigo Distante por Adjetivo Intercalado",
+          "prompt": "Estrutura sob análise: \"O lindo menino\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura sob análise",
+              "rationale": "\"O lindo menino\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Morfossintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "O",
+              "rationale": "Artigo definido masculino singular subordinado diretamente a menino."
+            },
+            {
+              "order": 4,
+              "action": "lindo",
+              "rationale": "Adjetivo intercalado entre o artigo e o substantivo."
+            },
+            {
+              "order": 5,
+              "action": "menino",
+              "rationale": "Substantivo masculino singular (núcleo)."
+            }
+          ],
+          "result": "Lição Pedagógica: A presença do adjetivo lindo não desvincula o artigo O de seu substantivo núcleo menino.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-001 — Identificação de Artigo Distante por Adjetivo Intercalado sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-001 — Identificação de Artigo Distante por Adjetivo Intercalado.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-001 — Identificação de Artigo Distante por Adjetivo Intercalado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura sob análise: \"O lindo menino\"",
+                "Análise Morfossintática:",
+                "O: Artigo definido masculino singular subordinado diretamente a menino.",
+                "lindo: Adjetivo intercalado entre o artigo e o substantivo.",
+                "menino: Substantivo masculino singular (núcleo).",
+                "Lição Pedagógica: A presença do adjetivo lindo não desvincula o artigo O de seu substantivo núcleo menino."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-002",
+          "title": "EX-A01-G04-ARTIGOS-002 — Identificação de Artigo Subordinado a Substantivo Elíptico",
+          "prompt": "Estrutura sob análise: \"O homem inteligente e o educado chegaram.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura sob análise",
+              "rationale": "\"O homem inteligente e o educado chegaram.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Morfossintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "O [homem]",
+              "rationale": "Artigo definido referindo-se ao substantivo explícito homem."
+            },
+            {
+              "order": 4,
+              "action": "o [educado]",
+              "rationale": "Artigo definido que se subordina ao substantivo implícito/elíptico [homem] para evitar repetição vocabular."
+            },
+            {
+              "order": 5,
+              "action": "Lição Pedagógica",
+              "rationale": "O artigo mantém sua classificação morfológica plena mesmo quando seu substantivo se encontra oculto no contexto oracional imediato."
+            }
+          ],
+          "result": "Lição Pedagógica: O artigo mantém sua classificação morfológica plena mesmo quando seu substantivo se encontra oculto no contexto oracional imediato.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-002 — Identificação de Artigo Subordinado a Substantivo Elíptico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-002 — Identificação de Artigo Subordinado a Substantivo Elíptico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-002 — Identificação de Artigo Subordinado a Substantivo Elíptico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura sob análise: \"O homem inteligente e o educado chegaram.\"",
+                "Análise Morfossintática:",
+                "O [homem]: Artigo definido referindo-se ao substantivo explícito homem.",
+                "o [educado]: Artigo definido que se subordina ao substantivo implícito/elíptico [homem] para evitar repetição vocabular.",
+                "Lição Pedagógica: O artigo mantém sua classificação morfológica plena mesmo quando seu substantivo se encontra oculto no contexto oracional imediato."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-003",
+          "title": "EX-A01-G04-ARTIGOS-003 — Contraste entre Pronome Pessoal Oblíquo e Artigo Definido",
+          "prompt": "Frase A: \"Não a encontrei.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase A",
+              "rationale": "\"Não a encontrei.\""
+            },
+            {
+              "order": 2,
+              "action": "Classificação",
+              "rationale": "Pronome Pessoal Oblíquo Átono."
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "Funciona como objeto direto de encontrei e admite substituição por \"ela\" (\"Não encontrei ela\")."
+            },
+            {
+              "order": 4,
+              "action": "Frase B",
+              "rationale": "\"Desejava a felicidade.\""
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Artigo Definido."
+            }
+          ],
+          "result": "Justificativa: Determina o substantivo abstrato felicidade.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-003 — Contraste entre Pronome Pessoal Oblíquo e Artigo Definido sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-003 — Contraste entre Pronome Pessoal Oblíquo e Artigo Definido.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-003 — Contraste entre Pronome Pessoal Oblíquo e Artigo Definido.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase A: \"Não a encontrei.\"",
+                "Classificação: Pronome Pessoal Oblíquo Átono.",
+                "Justificativa: Funciona como objeto direto de encontrei e admite substituição por \"ela\" (\"Não encontrei ela\").",
+                "Frase B: \"Desejava a felicidade.\"",
+                "Classificação: Artigo Definido.",
+                "Justificativa: Determina o substantivo abstrato felicidade."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-004",
+          "title": "EX-A01-G04-ARTIGOS-004 — Identificação de Preposição por Regência Verbal",
+          "prompt": "Estrutura sob análise: \"Aspirava a dias melhores.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura sob análise",
+              "rationale": "\"Aspirava a dias melhores.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Morfossintática e Sintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Aspirava",
+              "rationale": "Verbo Transitivo Indireto (sentido de almejar)."
+            },
+            {
+              "order": 4,
+              "action": "a",
+              "rationale": "Preposição pura exigida pela regência do verbo."
+            },
+            {
+              "order": 5,
+              "action": "dias melhores",
+              "rationale": "Objeto Indireto (cujo núcleo dias é substantivo masculino plural, provando a invariabilidade do conector a)."
+            }
+          ],
+          "result": "dias melhores: Objeto Indireto (cujo núcleo dias é substantivo masculino plural, provando a invariabilidade do conector a).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-004 — Identificação de Preposição por Regência Verbal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-004 — Identificação de Preposição por Regência Verbal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-004 — Identificação de Preposição por Regência Verbal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura sob análise: \"Aspirava a dias melhores.\"",
+                "Análise Morfossintática e Sintática:",
+                "Aspirava: Verbo Transitivo Indireto (sentido de almejar).",
+                "a: Preposição pura exigida pela regência do verbo.",
+                "dias melhores: Objeto Indireto (cujo núcleo dias é substantivo masculino plural, provando a invariabilidade do conector a)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-005",
+          "title": "EX-A01-G04-ARTIGOS-005 — Identificação de Pronome Demonstrativo antes de \"DE\"",
+          "prompt": "Estrutura sob análise: \"Esta música é boa, mas prefiro a do álbum anterior.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura sob análise",
+              "rationale": "\"Esta música é boa, mas prefiro a do álbum anterior.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Morfossintática",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "a",
+              "rationale": "Pronome Demonstrativo feminino singular."
+            },
+            {
+              "order": 4,
+              "action": "Justificativa",
+              "rationale": "Antecede a contração do (de + o) e substitui a expressão \"aquela música\"."
+            }
+          ],
+          "result": "Justificativa: Antecede a contração do (de + o) e substitui a expressão \"aquela música\".",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-005 — Identificação de Pronome Demonstrativo antes de \"DE\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-005 — Identificação de Pronome Demonstrativo antes de \"DE\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-005 — Identificação de Pronome Demonstrativo antes de \"DE\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura sob análise: \"Esta música é boa, mas prefiro a do álbum anterior.\"",
+                "Análise Morfossintática:",
+                "a: Pronome Demonstrativo feminino singular.",
+                "Justificativa: Antecede a contração do (de + o) e substitui a expressão \"aquela música\"."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-006",
+          "title": "EX-A01-G04-ARTIGOS-006 — Questão CEBRASPE / InoversaSul (2025) — Artigo Indefinido vs. Preposição Regencial",
+          "prompt": "Texto de Referência (Luiz Antônio Marcuschi): \"Em suma, texto é uma proposta de sentido e ele se acha aberto a várias alternativas de compreensão.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto de Referência (Luiz Antônio Marcuschi)",
+              "rationale": "\"Em suma, texto é uma proposta de sentido e ele se acha aberto a várias alternativas de compreensão.\""
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "\"No último período do texto, os vocábulos “uma” e “a” fazem parte da mesma classe gramatical de palavras.\""
+            },
+            {
+              "order": 3,
+              "action": "Resolução Detalhada",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "uma",
+              "rationale": "Antecede e determina o substantivo proposta. Classe: Artigo Indefinido."
+            },
+            {
+              "order": 5,
+              "action": "a",
+              "rationale": "Introduzido por exigência regencial do adjetivo aberto (quem se acha aberto, acha-se aberto a algo). Antecede o substantivo plural várias alternativas sem flexionar. Classe: Preposição."
+            }
+          ],
+          "result": "Gabarito Oficial: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-006 — Questão CEBRASPE / InoversaSul (2025) — Artigo Indefinido vs. Preposição Regencial sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-006 — Questão CEBRASPE / InoversaSul (2025) — Artigo Indefinido vs. Preposição Regencial.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-006 — Questão CEBRASPE / InoversaSul (2025) — Artigo Indefinido vs. Preposição Regencial.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto de Referência (Luiz Antônio Marcuschi): \"Em suma, texto é uma proposta de sentido e ele se acha aberto a várias alternativas de compreensão.\"",
+                "Enunciado: \"No último período do texto, os vocábulos “uma” e “a” fazem parte da mesma classe gramatical de palavras.\"",
+                "Resolução Detalhada:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "uma: Antecede e determina o substantivo proposta. Classe: Artigo Indefinido.",
+                "a: Introduzido por exigência regencial do adjetivo aberto (quem se acha aberto, acha-se aberto a algo). Antecede o substantivo plural várias alternativas sem flexionar. Classe: Preposição.",
+                "Como pertencem a classes distintas (Artigo $\\neq$ Preposição), o item é falso."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito Oficial: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-007",
+          "title": "EX-A01-G04-ARTIGOS-007 — Questão CEBRASPE / DEPEN — Artigo Definido em Contração e Conhecimento de Mundo",
+          "prompt": "Texto de Referência (Cláudia Moraes Trindade): \"A implantação da penitenciária fazia parte do projeto civilizador oitocentista...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto de Referência (Cláudia Moraes Trindade)",
+              "rationale": "\"A implantação da penitenciária fazia parte do projeto civilizador oitocentista...\""
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "\"Com o uso do artigo definido na contração “do” em “do projeto civilizador oitocentista” (no início do segundo parágrafo), pressupõe-se que a autora parte do princípio de que os leitores tenham conhecimento prévio acerca desse projeto.\""
+            },
+            {
+              "order": 3,
+              "action": "Resolução Detalhada",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Parte I (Morfossintaxe)",
+              "rationale": "do é a contração de preposição de + artigo definido o, que determina projeto civilizador oitocentista (Verdadeiro)."
+            },
+            {
+              "order": 5,
+              "action": "Parte II (Semântica)",
+              "rationale": "O termo não foi citado no 1º parágrafo. O uso do artigo definido o ancora-se no repertório histórico/enciclopédico do leitor (conhecimento de mundo), pressupondo ciência prévia daquele contexto oitocentista (Verdadeiro)."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-007 — Questão CEBRASPE / DEPEN — Artigo Definido em Contração e Conhecimento de Mundo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-007 — Questão CEBRASPE / DEPEN — Artigo Definido em Contração e Conhecimento de Mundo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-007 — Questão CEBRASPE / DEPEN — Artigo Definido em Contração e Conhecimento de Mundo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto de Referência (Cláudia Moraes Trindade): \"A implantação da penitenciária fazia parte do projeto civilizador oitocentista...\"",
+                "Enunciado: \"Com o uso do artigo definido na contração “do” em “do projeto civilizador oitocentista” (no início do segundo parágrafo), pressupõe-se que a autora parte do princípio de que os leitores tenham conhecimento prévio acerca desse projeto.\"",
+                "Resolução Detalhada:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Parte I (Morfossintaxe): do é a contração de preposição de + artigo definido o, que determina projeto civilizador oitocentista (Verdadeiro).",
+                "Parte II (Semântica): O termo não foi citado no 1º parágrafo. O uso do artigo definido o ancora-se no repertório histórico/enciclopédico do leitor (conhecimento de mundo), pressupondo ciência prévia daquele contexto oitocentista (Verdadeiro)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G04-008",
+          "title": "EX-A01-G04-ARTIGOS-008 — Questão CEBRASPE / UNIPAMPA — Artigo Indefinido e Não Exclusividade",
+          "prompt": "Texto de Referência (Nilton S. Formiga et al.): \"Em uma visão contemporânea, a educação tem como objetivo a formação cidadã...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto de Referência (Nilton S. Formiga et al.)",
+              "rationale": "\"Em uma visão contemporânea, a educação tem como objetivo a formação cidadã...\""
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "\"O emprego do artigo indefinido no trecho “Em uma visão contemporânea” (l.4-5) indica a possibilidade de existirem outras abordagens educacionais.\""
+            },
+            {
+              "order": 3,
+              "action": "Resolução Detalhada",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "O vocábulo uma atua como artigo indefinido modificando visão.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Semântica do indefinido",
+              "rationale": "denota abertura e não exclusividade. Ao grafar \"uma visão\", o texto explicita que se trata de uma perspectiva entre várias possíveis, admitindo a coexistência de outras abordagens educacionais. Se quisesse indicar unicidade, utilizaria o artigo definido (\"Na visão contemporânea\")."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G04-ARTIGOS-008 — Questão CEBRASPE / UNIPAMPA — Artigo Indefinido e Não Exclusividade sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G04-ARTIGOS-008 — Questão CEBRASPE / UNIPAMPA — Artigo Indefinido e Não Exclusividade.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G04-ARTIGOS-008 — Questão CEBRASPE / UNIPAMPA — Artigo Indefinido e Não Exclusividade.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto de Referência (Nilton S. Formiga et al.): \"Em uma visão contemporânea, a educação tem como objetivo a formação cidadã...\"",
+                "Enunciado: \"O emprego do artigo indefinido no trecho “Em uma visão contemporânea” (l.4-5) indica a possibilidade de existirem outras abordagens educacionais.\"",
+                "Resolução Detalhada:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "O vocábulo uma atua como artigo indefinido modificando visão.",
+                "Semântica do indefinido: denota abertura e não exclusividade. Ao grafar \"uma visão\", o texto explicita que se trata de uma perspectiva entre várias possíveis, admitindo a coexistência de outras abordagens educacionais. Se quisesse indicar unicidade, utilizaria o artigo definido (\"Na visão contemporânea\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao analisar qualquer questão de prova sobre a morfologia do artigo, trace mentalmente uma seta a partir da palavra. Se a seta alcançar um substantivo (mesmo que haja adjetivos no meio ou que o substantivo esteja subentendido na frase), a palavra é obrigatoriamente um artigo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "DA / DO = DE (prep.) + A / O (artigo)",
+            "NA / NO = EM (prep.) + A / O (artigo)",
+            "PELA / PELO = POR (prep.) + A / O (artigo)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Se encontrar a letra \"a\" no singular imediatamente antes de uma palavra ou expressão no plural (aberto a várias alternativas, favorável a mudanças), esse \"a\" é 100% Preposição Pura. Artigos femininos diante de substantivos plurais seriam obrigatoriamente grafados como as ou fundidos em crase (às)."
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A01-G04-ARTIGOS-001",
+          "title": "A Armadilha da Contiguidade Imediata (Artigo Distante)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da Contiguidade Imediata (Artigo Distante) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da Contiguidade Imediata (Artigo Distante).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da Contiguidade Imediata (Artigo Distante).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha da Contiguidade Imediata (Artigo Distante) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha da Contiguidade Imediata (Artigo Distante).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da Contiguidade Imediata (Artigo Distante).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Julgar que o artigo deve estar colado ao substantivo e desclassificá-lo quando surge um adjetivo intermediário.",
+                "Forma Correta: O artigo subordina-se ao substantivo núcleo mesmo separado por modificadores intercalados (\"O lindo menino\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G04-ARTIGOS-002",
+          "title": "A Armadilha do Substantivo Elíptico",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha do Substantivo Elíptico no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha do Substantivo Elíptico.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha do Substantivo Elíptico.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha do Substantivo Elíptico para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha do Substantivo Elíptico.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha do Substantivo Elíptico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Classificar o segundo determinante de uma oração coordenada como pronome demonstrativo simplesmente porque o substantivo não foi repetido.",
+                "Forma Correta: Se o substantivo foi expresso antes e permanece subentendido (\"O homem inteligente e o [homem] educado\"), a palavra que o retoma continua exercendo função morfológica de artigo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G04-ARTIGOS-003",
+          "title": "Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre Preposição \"A\" e Artigo \"A\" por Presença de Substantivo Feminino.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Supor que todo \"a\" que antecede palavra feminina é artigo.",
+                "Forma Correta: Verifique a regência do termo anterior. Se for conector exigido por verbo/adjetivo sem determinação específica, trata-se de preposição pura."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G04-ARTIGOS-004",
+          "title": "Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Restringir a Semântica do Artigo Definido Apenas à Menção Prévia no Texto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: O candidato busca o termo nas linhas anteriores e, ao não encontrar citação expressa, julga errada a assertiva que afirma que o artigo definido pressupõe conhecimento prévio.",
+                "Forma Correta: O artigo definido fundamenta-se tanto na anáfora textual quanto no conhecimento de mundo (repertório histórico/cultural compartilhado extratextualmente)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Julgar que o artigo deve estar colado ao substantivo e desclassificá-lo quando surge um adjetivo intermediário.",
+            "Forma Correta: O artigo subordina-se ao substantivo núcleo mesmo separado por modificadores intercalados (\"O lindo menino\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Classificar o segundo determinante de uma oração coordenada como pronome demonstrativo simplesmente porque o substantivo não foi repetido.",
+            "Forma Correta: Se o substantivo foi expresso antes e permanece subentendido (\"O homem inteligente e o [homem] educado\"), a palavra que o retoma continua exercendo função morfológica de artigo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Supor que todo \"a\" que antecede palavra feminina é artigo.",
+            "Forma Correta: Verifique a regência do termo anterior. Se for conector exigido por verbo/adjetivo sem determinação específica, trata-se de preposição pura."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: O candidato busca o termo nas linhas anteriores e, ao não encontrar citação expressa, julga errada a assertiva que afirma que o artigo definido pressupõe conhecimento prévio.",
+            "Forma Correta: O artigo definido fundamenta-se tanto na anáfora textual quanto no conhecimento de mundo (repertório histórico/cultural compartilhado extratextualmente)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Classe de palavra variável (o, a, os, as) que determina o substantivo de modo preciso, indicando realidade prévia e conhecida, seja por anáfora textual ou por conhecimento de mundo compartilhado.",
+            "Relações: Antecede SUBSTANTIVO; opõe-se a TERM-A01-G04-ARTIGOS-002."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Classe de palavra variável (um, uma, uns, umas) que determina o substantivo de forma imprecisa, genérica ou não exclusiva, apresentando o ser como uma possibilidade aberta entre várias da mesma espécie.",
+            "Relações: Opõe-se a TERM-A01-G04-ARTIGOS-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Fusão morfofonética de uma preposição essencial (de, em, por) com um artigo definido (o, a, os, as), gerando formas como do, da, no, na, pelo, pela."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Vocábulo (o, a, os, as) que substitui um termo antecedente e antecede as palavras que ou de, equivalendo semanticamente a aquele, aquela, aquilo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Conectivo sintático invariável exigido pela regência de verbos transitivos indiretos ou de nomes, cuja função é ligar termos oracionais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Pronome (o, a, os, as) que atua como complemento verbal de terceira pessoa (objeto direto), equivalente ao pronome pessoal reto ele/ela."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Repertório enciclopédico, sociocultural e histórico compartilhado entre os interlocutores que permite ao leitor identificar um ser determinado introduzido por artigo definido mesmo sem menção textual prévia."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o grupo temático G04, o estudante deve dominar com precisão a classe gramatical dos artigos em seus três eixos fundamentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Eixo Morfossintático: Reconhecer que o artigo é uma classe dependente que aponta incondicionalmente para o substantivo (\"regra da seta\"), superando as armadilhas de adjetivos intercalados (\"O lindo menino\") e de elipses textuais em estruturas coordenadas (\"O homem inteligente e o [homem] educado\").",
+            "Eixo Semântico-Discursivo: Compreender que o artigo definido não depende unicamente de anáfora textual para especificar um termo, podendo ancorar-se no conhecimento de mundo (repertório sociocultural e histórico dos interlocutores); e assimilar que o artigo indefinido atua como marcador de não exclusividade, indicando a existência de outras possibilidades além daquela mencionada.",
+            "Eixo Diferencial de Homônimos: Distinguir com rapidez e segurança a palavra \"a/o\" entre Artigo (aponta para substantivo), Pronome Pessoal Oblíquo (troca-se por ela), Preposição (conectivo invariável exigido por regência que não flexiona diante de plural) e Pronome Demonstrativo (antecede que/de equivalendo a aquela/aquele/aquilo), além de identificar e decompor os artigos presentes no interior de contrações prepositivas (da, do, na, no, pelo, pela)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula01.q0022",
+      "questionType": "multiple_choice",
+      "examBoard": "TJ-PB",
+      "organization": "2022",
+      "year": 2022,
+      "prompt": "“As intervenções autorizadas são a minoria, apesar de a gravidez nessa idade apresentar alto risco à saúde\nda gestante e de o aborto legal ser previsto em lei nos casos de estupro, o que automaticamente inclui\nmeninas engravidadas antes de completar 14 anos.”\nNo período acima, há\nA) cinco artigos.\nB) seis artigos.\nC) sete artigos.\nD) oito artigos.",
+      "options": [
+        {
+          "label": "A",
+          "text": "cinco artigos."
+        },
+        {
+          "label": "B",
+          "text": "seis artigos."
+        },
+        {
+          "label": "C",
+          "text": "sete artigos."
+        },
+        {
+          "label": "D",
+          "text": "oito artigos."
+        }
+      ],
+      "officialAnswer": "option_C",
+      "explanation": "São artigos, os termos sublinhados:\n“As intervenções autorizadas são a minoria, apesar de a gravidez nessa idade apresentar alto risco à saúde\nda gestante e de o aborto legal ser previsto em lei nos casos de estupro, o que automaticamente inclui\nmeninas engravidadas antes de completar 14 anos.”.\nApenas um comentário sobre \"à saúde\": quando há o fenômeno da crase é porque temos um \"a\" preposição\ne um \"a\" artigo.\nGabarito: Letra (C).",
+      "questionSha256": "010ce521803a568156edb7cf26ed40f13a768febe6d68b4d92336a27a9a04089",
+      "answerSha256": "0a3d72e38ec137aa4a9de6e08081c6c1386f4a28c9d16dd5f1b3cabb18fb875b",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de TJ-PB; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Artigos."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Artigos."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Artigos."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Artigos."
+        }
+      ]
+    },
+    {
+      "questionId": "aula01.q0024",
+      "questionType": "true_false_or_open",
+      "examBoard": "SEDF",
+      "organization": "2017",
+      "year": 2017,
+      "prompt": "O emprego do artigo definido imediatamente antes do topônimo “Portugal” torna-se obrigatório devido à\npresença do adjetivo “contemporâneo”.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "Compare:\nVou a Portugal / Vou ao Portugal contemporâneo.\nO primeiro “Portugal” não pede artigo; já o segundo “Portugal” está sendo determinado: não é um\n“Portugal” qualquer, é um “Portugal” específico, é o “contemporâneo”. Por essa razão, por estar diante de\num substantivo definido no texto, o artigo definido se torna necessário.\nEsse tipo de questão cai “igualzinho” na parte de crase, a única diferença é que usam topônimos femininos,\n\n\n\n\n\n\n\ncomo Bahia, Recife, Brasília. Fique esperto! Questão correta.\n\n\n\n\n\n\n\n\n\n                 NUMERAL\n\nO numeral é mais um termo variável que se refere ao substantivo, indicando quantidade, ordem, sequência\ne posição.\n\n\nComo sabemos, ter “papel adjetivo é referir-se a substantivo”. Então, podemos ter numerais substantivos e\nadjetivos.\n\n            Ex: Duas meninas chegaram [numeral adjetivo, pois acompanha um substantivo], eu conheço as\n          duas [numeral substantivo, pois substitui o substantivo \"meninas\"].\n\n\n\n\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ==2920c1==Os numerais são classificados em:\n\n     Ordinais: primeiro lugar, segunda comunhão, terceiras intenções... septuagésimo quarto,\n                                 sexagésimo quinto...\n\n                          Cardinais: um cão, duas alunas, três pessoas...\n\n                      Fracionários: um terço, dois terços, quatro vinte avos...\n\n                  Multiplicativos: o dobro, o triplo, cabine dupla, duplo carpado...\n\n\n\n“Último, penúltimo, antepenúltimo, derradeiro, posterior, anterior” são considerados meros adjetivos, não\nnumerais.\n\nOs numerais também podem sofrer derivação imprópria e funcionar como adjetivos em casos como:\n\n                        “Este é um artigo de primeira/primeiríssima qualidade.”\n\n                               “Teu clube é de segunda categoria.”\n\n\nSubstantivos que expressam quantidade exata de seres/objetos são chamados de “numerais coletivos” ou\n“substantivos coletivos numéricos”:\n\n       a) par, dezena, década, dúzia, vintena, centena, centúria, grosa, milheiro, milhar...\n\n       b) século, biênio, triênio, quadriênio, lustro ou quinquênio, década ou decênio, milênio, centenário\n       (anos); tríduo e novena (dias); bimestre, trimestre, semestre (meses).\n\n\nEntão, palavras como “milhão, bilhão, trilhão” podem ser classificadas como substantivos ou numerais.\n\n\n\n\n\n\n\n\n\n\n       Se indicar posição numa ordem, uma letra pode ser usada como um numeral ordinal:\n\n                       Na opção a o erro de concordância é visível\n\n                                \"a\" => primeira letra, numeral ordinal\n\nFlexionam-se em gênero os numerais cardinais um, dois e as centenas a partir de duzentos (um, uma, dois,\nduas, duzentos, duzentas, trezentos, trezentas...).\n\n\nPor fim, acrescento que “ambos” e “zero” são considerados numerais.",
+      "questionSha256": "3549984de77fe7cb2a4f7f54cfbe266f554fbcd960d4da3c519fef0b00407b81",
+      "answerSha256": "6569cf294e753b55cd11182a6259b41a049395ea026157a38d12ace0883f2fcc",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de SEDF; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0064",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "role": "2025",
+      "prompt": "os vocábulos “uma” e “a” fazem parte da mesma classe\ngramatical de palavras.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "1784549063681cae4cdec8e376685c5a64495479f5530c26d6acb1cb1007313f",
+      "answerSha256": "d0b1ec4a446eceb33e0c7bad57d55be117fbe23f7d96df9ef6f165209efa554c",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0028",
+      "questionType": "true_false_or_open",
+      "examBoard": "CESPE",
+      "organization": "TRE TO",
+      "year": 2017,
+      "role": "2017",
+      "prompt": "o termo elíptico “época”.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "Temos crase pela fusão entre “anterior A+A (época) dos dinossauros. Esse A foi considerado artigo\ndiante de substantivo elíptico. Questão correta.",
+      "questionSha256": "1676b0e28a93db691ac5e29252d635064daee32e59d3072ac766abbd248969d2",
+      "answerSha256": "6b95c410187ca6fdc4da477187a310929085a437b18cf7fa0d886b4b3bd4ec9b",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CESPE; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0066",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "PRF",
+      "year": 2019,
+      "role": "POLICIAL",
+      "prompt": "os sentidos e a\ncorreção gramatical do período.\n\n BACEN - Língua Portuguesa 98\n www.estrategiaconcursos.com.br 102",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "010b957fba46adb174b0ee4ece9deb8dd9dc0e16d15fda24433adb397106f180",
+      "answerSha256": "2bec534007fd78c65b64ced33111fa276897efb5e6bae5578f1cbeaf16ca72f2",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0032",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "role": "2025",
+      "prompt": "os vocábulos “ócio” e “nudez”\nclassificam-se, gramaticalmente, como substantivo e adjetivo, respectivamente.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "dbb7ef634bd545370a59608dda8c5395f0b1e54dc0722cb38f7f6d506c33ccf2",
+      "answerSha256": "eb8694c138f8c1e39116f277936f46047b38844c268dc1de8808e0ade0f0b469",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Artigos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

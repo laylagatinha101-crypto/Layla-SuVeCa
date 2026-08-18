@@ -1,0 +1,2613 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A04-G08",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.993Z"
+  },
+  "unit": {
+    "unitId": "IP-A04-G08",
+    "lessonId": "A04",
+    "groupId": "G08",
+    "title": "Verbos em EAR e IAR e Defectivos",
+    "variant": "development",
+    "canonicalTopicId": "pt:a04:verbos-em-ear-e-iar-e-defectivos",
+    "learningObjectives": [
+      "OBJ-IP-A04-G08-001",
+      "OBJ-IP-A04-G08-002",
+      "OBJ-IP-A04-G08-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "indirect",
+      "label": "Apoio indireto",
+      "summary": "Verbos em -ear, -iar e defectivos exigem regras de formação e disponibilidade de formas; a SuVeCA ajuda a verificar pessoa, sujeito e emprego, mas não gera o paradigma.",
+      "steps": [
+        "Resolva o fenômeno pela regra própria da matéria.",
+        "Se houver uma oração relevante, use a SuVeCA apenas para localizar a forma ou o efeito no contexto.",
+        "Mantenha separadas a justificativa principal e a observação sintática auxiliar."
+      ],
+      "limits": [
+        "Aplicar o mapa a todos os casos deste grupo criaria uma relação artificial com a sintaxe."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura Mórmica do Verbo: Noções básicas de radical, vogal temática, tema e desinências modo-temporais e número-pessoais.",
+            "Conceito de Tonicidade Verbal: Distinção entre formas rizotônicas (acento tônico recai no radical: eu PAS-so, ele ODE-ia) e formas arrizotônicas (acento tônico recai nas desinências/fora do radical: nós pas-se-A-mos, vós o-di-A-is).",
+            "Tempos e Modos Básicos: Reconhecimento do Presente do Indicativo, Presente do Subjuntivo, Pretérito Perfeito, Pretérito Imperfeito do Subjuntivo e Futuro do Subjuntivo.",
+            "Regra de Formação dos Tempos Derivados: O Presente do Subjuntivo é gerado a partir do radical da 1ª pessoa do singular do Presente do Indicativo (Eu cant-o $\\rightarrow$ Que eu cant-e)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "CONJUGAÇÃO DE VERBOS ESPECIAIS │ ┌─────────────────────────────────┼─────────────────────────────────┐ ▼ ▼ ▼ VERBOS EM -EAR VERBOS EM -IAR VERBOS DEFECTIVOS (Líder: PASSEAR) │ │ │ ┌───────┴───────┐ ├──────────────────────┐ ▼ ▼ ▼ ▼ ▼ DITONGAM (-EI-) REGULARES GRUPO MARIO 3ª CONJUGAÇÃO ADEQUAR nos presentes: (Líder: CRIAR) (Líder: ODIAR) (colorir, falir, (Gramática Moderna: Eu, Tu, Ele, Eles │ │ abolir, banir) Não é + defectivo! │ NUNCA ganham Ditongam (-ei-) │ Conjugação Plena) ▼ vogal \"e\" ou nos presentes: ▼ NÃO DITONGAM: ditongo Eu, Tu, Ele, Eles Pres. Ind.: só NÓS/VÓS Nós, Vós e outros │ │ Pres. Subj.: INEXISTE tempos verbais │ NÃO DITONGAM: │ │ │ Nós e Vós ├──────────────────────┐ ▼ ▼ │ ▼ ▼ ARREAR (com E) ARRIAR (com I) │ REAVER PRECAVER-SE (= pôr arreios) (= abaixar) │ (Líder: HAVER) (Líder: BEBER) \"ele arreia\" \"ele arria\" │ │ │ │ │ │ Pres. Ind.: só NÓS/VÓS Pres. Ind.: só NÓS/VÓS └─────────────────────────┴───────────────┘ Pres. Subj.: INEXISTE Pres. Subj.: INEXISTE Outros: igual a HAVER Outros: igual a BEBER (reouve, reouveram) (precavia, precaverem)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A04-G08-001",
+          "title": "Mapa de conexão — Verbos em EAR e IAR e Defectivos",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a04:verbos-em-ear-e-iar-e-defectivos",
+              "label": "Verbos em EAR e IAR e Defectivos",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a04:verbos-em-ear-e-iar-e-defectivos",
+              "relation": "indirect"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Os verbos da 1ª conjugação terminados em -EAR (tais como passear, cear, recear, semear, clarear, nomear, falsear, frear, macaquear, estrear, arrear) apresentam uma alternância morfológica caracterizada pela intercalação da semivogal -i- no radical, gerando o ditongo oral -ei- (ditongação) exclusivamente nas formas verbais rizotônicas dos tempos do presente."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ocorrência da Ditongação (Formas Rizotônicas): A ditongação ocorre estritamente na 1ª, 2ª e 3ª pessoas do singular (eu, tu, ele/ela) e na 3ª pessoa do plural (eles/elas) do Presente do Indicativo, do Presente do Subjuntivo e das formas equivalentes do Imperativo.",
+            "Bloqueio da Ditongação (Formas Arrizotônicas): Na 1ª e 2ª pessoas do plural (Nós e Vós) desses mesmos tempos, a tonicidade desloca-se para a desinência/terminação verbal. Por serem formas arrizotônicas, a ditongação é estritamente proibida (o verbo mantém a vogal temática pura -e-).",
+            "Bloqueio nos Demais Tempos Verbais: A intercalação de -i- não ocorre em nenhum tempo do passado (Pretérito Perfeito, Imperfeito, Mais-que-perfeito) nem do futuro (Futuro do Presente, Futuro do Pretérito), tampouco nas formas nominais (Infinitivo, Gerúndio, Particípio).",
+            "Verbo Modelo / Líder Canônico: Adota-se o verbo PASSEAR. Por ser um verbo de domínio natural e intuitivo do falante nativo (eu passeio, nós passeamos), basta replicar sua exata estrutura fonética e desinencial para qualquer outro verbo em -EAR."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A04-G08-001",
+          "table": {
+            "tableId": "TABLE-IP-A04-G08-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Pessoa Gramatical",
+              "Pres. Indicativo (PASSEAR)",
+              "Pres. Indicativo (RECEAR)",
+              "Pres. Indicativo (FREAR)",
+              "Pres. Subjuntivo (PASSEAR)",
+              "Pres. Subjuntivo (RECEAR)",
+              "Status da Ditongação"
+            ],
+            "rows": [
+              [
+                "Eu",
+                "passeio",
+                "receio",
+                "freio",
+                "que eu passeie",
+                "que eu receie",
+                "SIM (-ei-)"
+              ],
+              [
+                "Tu",
+                "passeias",
+                "receias",
+                "freias",
+                "que tu passeies",
+                "que tu receies",
+                "SIM (-ei-)"
+              ],
+              [
+                "Ele / Ela",
+                "passeia",
+                "receia",
+                "freia",
+                "que ele passeie",
+                "que ele receie",
+                "SIM (-ei-)"
+              ],
+              [
+                "Nós",
+                "passeamos",
+                "receamos",
+                "freamos",
+                "que nós passeemos",
+                "que nós receemos",
+                "NÃO (vogal -e-)"
+              ],
+              [
+                "Vós",
+                "passeais",
+                "receais",
+                "freais",
+                "que vós passeeis",
+                "que vós receeis",
+                "NÃO (vogal -e-)"
+              ],
+              [
+                "Eles / Elas",
+                "passeiam",
+                "receiam",
+                "freiam",
+                "que eles passeiem",
+                "que eles receiem",
+                "SIM (-ei-)"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identificou terminação em -EAR? Aplique mentalmente o líder PASSEAR.",
+            "O sujeito é Nós ou Vós? Remova qualquer ditongo: Nós semeamos (como nós passeamos), Nós falseamos, Nós freamos.",
+            "O tempo é passado ou futuro? Mantenha o radical regular: Ontem eu receei (como eu passeei), Para frearmos (como para passearmos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande para: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 (Verbos do MARIO seguem idêntica matriz).",
+            "Contrasta com: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 (Verbos em -IAR regulares não ditongam).",
+            "Possui Alertas: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001, WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A ampla maioria dos verbos da 1ª conjugação terminados em -IAR (com exceção do conjunto de exceção MARIO) são verbos estritamente regulares. Eles conservam a vogal temática -i- inalterada em toda a extensão do paradigma conjugacional, sem jamais sofrer ditongação (não recebem a vogal -e- para formar -ei-)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Comportamento Regular: A vogal -i- do radical permanece pura em todas as pessoas, números, tempos e modos (eu crio, ele cria, nós criamos, eles criam, que eles criem).",
+            "Verbo Modelo / Líder Canônico: O verbo paradigma é CRIAR. Qualquer verbo regular em -IAR (maquiar, premiar, copiar, adiar, principiar, variar, financiar, avaliar, arriar) deve ser flexionado exatamente como o verbo criar.",
+            "Erros de Contaminação Fonética: Por eufonia ou falsa analogia com os verbos em -EAR, falantes frequentemente cometem erros de hipercorreção, tais como grafar ou pronunciar \"eu me maqueio\" em vez de eu me maquio, ou \"a banca premeia\" em vez de a banca premia."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A04-G08-002",
+          "table": {
+            "tableId": "TABLE-IP-A04-G08-002",
+            "caption": "Explicação central",
+            "headers": [
+              "Pessoa Gramatical",
+              "Pres. Ind. (CRIAR)",
+              "Pres. Ind. (MAQUIAR)",
+              "Pres. Ind. (PREMIAR)",
+              "Pres. Subj. (CRIAR)",
+              "Pres. Subj. (PRINCIPIAR)"
+            ],
+            "rows": [
+              [
+                "Eu",
+                "crio",
+                "maquio",
+                "premio",
+                "que eu crie",
+                "que eu principie"
+              ],
+              [
+                "Tu",
+                "crias",
+                "maquias",
+                "premias",
+                "que tu cries",
+                "que tu principies"
+              ],
+              [
+                "Ele / Ela",
+                "cria",
+                "maquia",
+                "premia",
+                "que ele crie",
+                "que ele principie"
+              ],
+              [
+                "Nós",
+                "criamos",
+                "maquiamos",
+                "premiamos",
+                "que nós criemos",
+                "que nós principiemos"
+              ],
+              [
+                "Vós",
+                "criais",
+                "maquiais",
+                "premiais",
+                "que vós crieis",
+                "que vós principieis"
+              ],
+              [
+                "Eles / Elas",
+                "criam",
+                "maquiam",
+                "premiam",
+                "que eles criem",
+                "que eles principiem"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 (Verbos em -EAR) e KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 (Verbos do MARIO).",
+            "Possui Alerta: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos reunidos no acrônimo MARIO (Mediar, Ansiar, Remediar, Incendiar e Odiar), acrescidos do verbo derivado Intermediar, representam uma exceção à regra dos verbos em -IAR. Embora terminem graficamente em -iar, flexionam-se exatamente como os verbos terminados em -EAR, sofrendo ditongação em -ei- nas formas rizotônicas dos tempos do presente."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Comportamento Flexional Idêntico a -EAR: Recebem a intercalação da vogal -e- antes do -i- do radical nas pessoas eu, tu, ele/ela e eles/elas do Presente do Indicativo e do Subjuntivo (eu odeio $\\rightarrow$ eu anseio, eu medeio, eu intermedeio, ele incendeia, eles remedeiam).",
+            "Bloqueio da Ditongação em Nós e Vós: Por serem formas arrizotônicas, as 1ª e 2ª pessoas do plural não ditongam, preservando o radical regular com a vogal -i- pura (nós odiamos $\\rightarrow$ nós mediamos, nós ansiamos, nós remediamos, nós incendiamos, nós intermediamos; que nós mediemos).",
+            "Regularidade nos Tempos Passados e Futuros: Fora dos tempos do presente, os verbos do MARIO comportam-se como verbos regulares normais (ela odiou, elas incendiaram, nós mediaremos).",
+            "Verbo Modelo / Líder Canônico: O modelo de substituição imediata é o verbo ODIAR."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A04-G08-003",
+          "table": {
+            "tableId": "TABLE-IP-A04-G08-003",
+            "caption": "Explicação central",
+            "headers": [
+              "Pessoa Gramatical",
+              "Pres. Ind. (ODIAR)",
+              "Pres. Ind. (MEDIAR)",
+              "Pres. Ind. (ANSIAR)",
+              "Pres. Ind. (INCENDIAR)",
+              "Pres. Subj. (ODIAR)",
+              "Pres. Subj. (MEDIAR)"
+            ],
+            "rows": [
+              [
+                "Eu",
+                "odeio",
+                "medeio",
+                "anseio",
+                "incendeio",
+                "que eu odeie",
+                "que eu medeie"
+              ],
+              [
+                "Tu",
+                "odeias",
+                "medeias",
+                "anseias",
+                "incendeias",
+                "que tu odeies",
+                "que tu medeies"
+              ],
+              [
+                "Ele / Ela",
+                "odeia",
+                "medeia",
+                "anseia",
+                "incendeia",
+                "que ele odeie",
+                "que ele medeie"
+              ],
+              [
+                "Nós",
+                "odiamos",
+                "mediamos",
+                "ansiamos",
+                "incendiamos",
+                "que nós odiemos",
+                "que nós mediemos"
+              ],
+              [
+                "Vós",
+                "odiais",
+                "mediais",
+                "ansiais",
+                "incendiais",
+                "que vós odieis",
+                "que vós medieis"
+              ],
+              [
+                "Eles / Elas",
+                "odeiam",
+                "medeiam",
+                "anseiam",
+                "incendeiam",
+                "que eles odeiem",
+                "que eles medeiem"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Equivalência Morfológica: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 (Verbos em -EAR).",
+            "Diferenciação de Categoria: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 (Verbos regulares em -IAR).",
+            "Possui Alerta: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos ARREAR (terminado em -EAR) e ARRIAR (terminado em -IAR) constituem um clássico par de parônimos verbais que possuem matrizes semânticas, etimológicas e conjugacionais completamente distintas."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ARREAR (com \"E\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Significado: Pôr os arreios na cavalgadura; aparelhar, equipar, ataviar.",
+            "Regra de Conjugação: Segue o paradigma dos verbos em -EAR (Líder: PASSEAR).",
+            "Flexão no Presente: Eu arreio, ele arreia, eles arreiam (Mas: Nós arreamos).",
+            "Exemplo em Prova: \"Era preciso arrear o cavalo\" (= colocar os arreios)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ARRIAR (com \"I\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Significado: Fazer descer, abaixar, ceder, cair por falta de forças, pousar no chão.",
+            "Regra de Conjugação: Segue o paradigma regular dos verbos em -IAR (Líder: CRIAR).",
+            "Flexão no Presente: Eu arrio, ele arria, eles arriam (Mas: Nós arriamos).",
+            "Exemplo em Prova: \"O soldado arria a bandeira\" / \"As pernas do maratonista arriam\"."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A04-G08-004",
+          "table": {
+            "tableId": "TABLE-IP-A04-G08-004",
+            "caption": "Explicação central",
+            "headers": [
+              "Verbo no Infinitivo",
+              "Grafia do Radical",
+              "Sentido Principal",
+              "Verbo Líder",
+              "3ª Pessoa Sing. (Pres. Ind.)",
+              "Erro Típico de Prova"
+            ],
+            "rows": [
+              [
+                "ARREAR",
+                "ComE",
+                "Pôr arreios / equipar",
+                "PASSEAR",
+                "Elearreia",
+                "Usar \"arriar o cavalo\""
+              ],
+              [
+                "ARRIAR",
+                "ComI",
+                "Abaixar-se / descer / ceder",
+                "CRIAR",
+                "Elearria",
+                "Usar \"o mastro arreia\""
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplica: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 (para Arrear) e KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 (para Arriar).",
+            "Possui Alerta: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbos defectivos são aqueles que apresentam paradigma conjugacional incompleto, deixando de ser flexionados em determinadas pessoas, tempos ou modos. Nos verbos defectivos clássicos da 3ª conjugação (-IR), como colorir, falir, abolir e banir, a defectividade manifesta-se pela ausência de flexão na maioria das pessoas do Presente do Indicativo e pela inexistência total do modo Presente do Subjuntivo."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Defectividade no Presente do Indicativo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Esses verbos possuem única e exclusivamente as formas de 1ª pessoa do plural (Nós) e 2ª pessoa do plural (Vós).",
+            "Paradigma do verbo Colorir:",
+            "Eu: NÃO EXISTE (formas como \"coloro\", \"culiro\" são agramaticais).",
+            "Tu: NÃO EXISTE.",
+            "Ele / Ela: NÃO EXISTE.",
+            "Nós: colorimos.",
+            "Vós: coloris.",
+            "Eles / Elas: NÃO EXISTE.",
+            "O mesmo modelo aplica-se estritamente a falir (nós falimos, vós falis), abolir (nós abolimos, vós abolis) e banir (nós banimos, vós banis)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Axioma da Derivação Temporal do Subjuntivo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na morfologia da língua portuguesa, todo o Presente do Subjuntivo é morfologicamente derivado do tema/radical da 1ª pessoa do singular do Presente do Indicativo (Eu canto $\\rightarrow$ Que eu cant-e).",
+            "Como a 1ª pessoa do singular do Presente do Indicativo não existe nesses verbos defectivos, a derivação mórfica é impossibilitada, resultando na anulação completa do Presente do Subjuntivo para todas as pessoas gramaticais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Comportamento nos Demais Tempos Verbais: Nos tempos pretéritos (Perfeito, Imperfeito, Mais-que-perfeito), futuros e formas nominais, a conjugação transcorre de forma perfeitamente regular (eu colori, ele faliu, nós aboliremos, banindo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Determina: KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007 (Reaver) e KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008 (Precaver-se).",
+            "Procedimento Operacional: PROC-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo ADEQUAR (ou o pronominal adequar-se), historicamente categorizado pela gramática tradicional antiga como verbo defectivo (possuindo apenas as formas nós adequamos e vós adequais no presente), não é mais considerado defectivo pela gramática moderna, pelos dicionários normativos atuais e pelas bancas contemporâneas de concurso público."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A consagração pelo uso culto contemporâneo consolidou a flexão integral do verbo em todas as pessoas do Presente do Indicativo (eu me adequo, tu te adequas, ele se adequa, nós nos adequamos, vós vos adequais, eles se adequam) e em todas as pessoas do Presente do Subjuntivo (que eu me adeque, que ele se adeque, etc.).",
+            "Nas provas atuais de concursos públicos, adequar deixou de ser cobrado como pegadinha de defectividade. Questões normativas contemporâneas aceitam pacificamente as formas conjugadas plenamente."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo REAVER é um verbo defectivo derivado direto de HAVER, que atua como seu verbo líder. Sua regra canônica estabelece que reaver só é conjugado nas formas verbais em que o verbo primitivo haver possui a consoante v."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Defectividade nos Tempos do Presente:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Presente do Indicativo: Como o verbo haver só possui a letra v nas formas havemos e haveis, o verbo reaver só possui: nós reavemos e vós reaveis. Não existem as formas de eu, tu, ele, eles (são agramaticais invenções como \"reavejo\", \"reavo\", \"reavém\").",
+            "Presente do Subjuntivo: Como o presente do subjuntivo de haver é haja (perdeu a letra v) e não há 1ª pessoa no indicativo, o Presente do Subjuntivo de reaver é 100% inexistente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjugação por Substituição nos Demais Tempos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para conjugar reaver no passado ou no futuro, basta flexionar o verbo HAVER e acrescentar o prefixo re-:",
+            "Haver no Pretérito Perfeito: houve / houveram $\\rightarrow$ Reaver: reouve / reouveram (NUNCA \"reaveram\", \"reaveu\").",
+            "Haver no Pretérito Imperfeito do Subjuntivo: houvesse $\\rightarrow$ Reaver: reouvesse (NUNCA \"reavisse\").",
+            "Haver no Futuro do Subjuntivo: houver $\\rightarrow$ Reaver: reouver (NUNCA \"reaver\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui Alerta: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005.",
+            "Aplicações em Questões: EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-017, EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-023, EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-024."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo pronominal PRECAVER-SE é um verbo defectivo cujo verbo líder é BEBER (verbo regular da 2ª conjugação). Apesar da semelhança gráfica final, precaver-se NÃO tem nenhuma relação com o verbo VER."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Defectividade nos Tempos do Presente:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Presente do Indicativo: Possui apenas a 1ª e a 2ª pessoas do plural: nós nos precavemos e vós vos precaveis. Não existem as formas de eu, tu, ele, eles (formas como \"eu me precavejo\", \"ele se precavém\" são absolutamente inexistentes).",
+            "Presente do Subjuntivo: É totalmente inexistente em todas as pessoas (não existe \"que ele se precavenha\" ou \"que nos precavejamos\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conjugação Integral pelos Demais Tempos (Modelo BEBER):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pretérito Imperfeito do Indicativo: Nós bebíamos $\\rightarrow$ Nós nos precavíamos.",
+            "Futuro do Subjuntivo: Quando eles beberem $\\rightarrow$ Quando eles se precaverem (NUNCA \"se precavirem\").",
+            "Pretérito Mais-que-perfeito: Ela bebera $\\rightarrow$ Ela se precavera."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Estratégia de Redação para a 1ª Pessoa do Singular: Como não existe flexão para eu no presente, utilizam-se formas perifrásticas ou sinônimas na norma culta: \"Eu me previno\" (do verbo regular prevenir) ou \"Eu tomo precauções\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui Alerta: WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004.",
+            "Exemplificado em: EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-014 até EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-016."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nas provas de concursos públicos, as questões sobre flexão verbal associam frequentemente os verbos em -EAR, -IAR e defectivos a um conjunto selecionado de verbos derivados e anômalos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbo REQUERER (Líder: BEBER):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Não se conjuga como querer no pretérito. Segue o verbo regular beber:",
+            "Ele bebeu $\\rightarrow$ Ele requereu (NUNCA \"reques\" ou \"requerou\").",
+            "Se nós bebêssemos $\\rightarrow$ Se nós requerêssemos (NUNCA \"requizéssemos\").",
+            "Presente (exceção única): Na 1ª pessoa do indicativo faz eu requeiro."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbo ADVERTIR (Líder: FERIR):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Segue a alternância vocálica do verbo ferir: Eu firo $\\rightarrow$ Eu advirto (NUNCA \"adverto\"); Ele ferira $\\rightarrow$ Ele advertira."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos Derivados de PÔR (Dispor, Propor, Indispor):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Seguem rigorosamente a raiz do verbo primitivo PÔR:",
+            "Eles puseram $\\rightarrow$ Eles dispuseram / propuseram / indispuseram (NUNCA \"disporam\", \"proporam\").",
+            "Ele pusera $\\rightarrow$ Ele propusera (NUNCA \"propora\").",
+            "Se ele propuser (NUNCA \"se ele propor\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos Derivados de VIR (Intervir, Convir):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Seguem rigorosamente a raiz do verbo primitivo VIR:",
+            "Eles vieram $\\rightarrow$ Eles intervieram (NUNCA \"interviram\").",
+            "Ele veio $\\rightarrow$ Ele interveio (NUNCA \"interviu\").",
+            "Quando ele vier $\\rightarrow$ Quando convier (NUNCA \"quando convir\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos Derivados de TER (Manter, Entreter, Reter):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Seguem rigorosamente a raiz do verbo primitivo TER:",
+            "Eles tiveram $\\rightarrow$ Eles mantiveram-se / entretiveram (NUNCA \"manteram\", \"entreteram\").",
+            "Ele teve $\\rightarrow$ Ele manteve (NUNCA \"manteu\")."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A04-G08-001",
+          "title": "Tabela-Síntese dos Verbos Líderes (Modelos Universais de Conjugação)",
+          "statement": "Tabela-Síntese dos Verbos Líderes (Modelos Universais de Conjugação)",
+          "scope": "verbal_system",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de verbal_system no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela-Síntese dos Verbos Líderes (Modelos Universais de Conjugação)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A04-G08-005",
+              "table": {
+                "tableId": "TABLE-IP-A04-G08-005",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Família / Comportamento Verbal",
+                  "Regra Canônica de Flexão",
+                  "Verbo Líder / Modelo",
+                  "Unidade Detalhada"
+                ],
+                "rows": [
+                  [
+                    "Verbos em -EAR",
+                    "Ditongam (-ei-) nas formas rizotônicas do presente. Nós/Vós e tempos passados/futuros não ditongam.",
+                    "PASSEAR",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001"
+                  ],
+                  [
+                    "Verbos em -IAR Regulares",
+                    "Não sofrem ditongação em nenhum tempo ou pessoa; conservam a vogal temática-i- pura.",
+                    "CRIAR",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002"
+                  ],
+                  [
+                    "Verbos do Grupo MARIO",
+                    "Terminam em-IAR, mas ditongam (-ei-) no presente exatamente como os verbos em -EAR.",
+                    "ODIAR",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003"
+                  ],
+                  [
+                    "Verbos Defectivos da 3ª Conj.",
+                    "No Pres. Ind. possuem apenasNós e Vós. O Pres. Subj. é 100% inexistente.",
+                    "(Sem líder geral)",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005"
+                  ],
+                  [
+                    "Verbo Defectivo REAVER",
+                    "Deriva deHAVER. Só existe onde haver tem a letra \"v\". Pres. Subj. inexistente.",
+                    "HAVER",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007"
+                  ],
+                  [
+                    "Verbo Defectivo PRECAVER-SE",
+                    "Não deriva dever. Pres. Ind. só tem nós/vós. Pres. Subj. inexistente. Outros tempos regulares.",
+                    "BEBER",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008"
+                  ],
+                  [
+                    "Verbo Especial REQUERER",
+                    "No pretérito e subjuntivo não seguequerer; conjuga-se como regular de 2ª conjugação.",
+                    "BEBER",
+                    "KB-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-009"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001",
+          "title": "Método de Substituição Direta pelo Verbo Líder",
+          "objective": "Executar o algoritmo decisório para Método de Substituição Direta pelo Verbo Líder",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Método de Substituição Direta pelo Verbo Líder."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "[Início: Questão de Flexão Verbal ou Preenchimento de Lacuna] │ ▼ Identificar a Categoria do Verbo │ ┌────────────────────┼────────────────────┬────────────────────┐ ▼ ▼ ▼ ▼ Terminado em -EAR Terminado em -IAR Grupo MARIO Defectivo / Especial (ex: recear, frear) (ex: maquiar, premiar)(ex: mediar, ansiar) (reaver, precaver-se) │ │ │ │ ▼ ▼ ▼ ▼ Adotar LÍDER: Adotar LÍDER: Adotar LÍDER: Adotar LÍDER: PASSEAR CRIAR ODIAR HAVER ou BEBER │ │ │ │ └────────────────────┴─────────┬──────────┴────────────────────┘ │ ▼ Inserir a Palavra-Gatilho de Tempo/Modo: • Presente do Indicativo ➔ \"Hoje\" • Presente do Subjuntivo ➔ \"Que\" • Pretérito Perfeito ➔ \"Ontem\" • Pretérito Imperfeito Subj",
+              "explanation": "Procedimento operacional para Método de Substituição Direta pelo Verbo Líder.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "➔ \"Se\" │ ▼ Conjugar o Verbo Líder na Estrutura Obtida (Exemplo: \"Que nós [odiar]\" ➔ \"Que nós odiemos\") │ ▼ Transportar a Terminação Exata para o Verbo-Alvo (Resultado: \"Que nós mediemos\")",
+              "explanation": "Procedimento operacional para Método de Substituição Direta pelo Verbo Líder.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Método de Substituição Direta pelo Verbo Líder."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "[Início: Questão de Flexão Verbal ou Preenchimento de Lacuna] │ ▼ Identificar a Categoria do Verbo │ ┌────────────────────┼────────────────────┬────────────────────┐ ▼ ▼ ▼ ▼ Terminado em -EAR Terminado em -IAR Grupo MARIO Defectivo / Especial (ex: recear, frear) (ex: maquiar, premiar)(ex: mediar, ansiar) (reaver, precaver-se) │ │ │ │ ▼ ▼ ▼ ▼ Adotar LÍDER: Adotar LÍDER: Adotar LÍDER: Adotar LÍDER: PASSEAR CRIAR ODIAR HAVER ou BEBER │ │ │ │ └────────────────────┴─────────┬──────────┴────────────────────┘ │ ▼ Inserir a Palavra-Gatilho de Tempo/Modo: • Presente do Indicativo ➔ \"Hoje\" • Presente do Subjuntivo ➔ \"Que\" • Pretérito Perfeito ➔ \"Ontem\" • Pretérito Imperfeito Subj. ➔ \"Se\" │ ▼ Conjugar o Verbo Líder na Estrutura Obtida (Exemplo: \"Que nós [odiar]\" ➔ \"Que nós odiemos\") │ ▼ Transportar a Terminação Exata para o Verbo-Alvo (Resultado: \"Que nós mediemos\")"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002",
+          "title": "Algoritmo de Verificação de Ditongação em Formas com \"-EI-\"",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Verificação de Ditongação em Formas com \"-EI-\"",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo de Verificação de Ditongação em Formas com \"-EI-\"."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 (Filtragem por Grupo)",
+              "explanation": "O verbo pertence à família -EAR ou ao acrônimo MARIO?",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Se NÃO (é em -IAR regular)",
+              "explanation": "Ditongação PROIBIDA! (Forma correta: maquio, premia, copiem).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se SIM",
+              "explanation": "Avance para o Passo 2.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Filtragem por Tempo/Modo)",
+              "explanation": "A oração exige Presente do Indicativo ou Presente do Subjuntivo?",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se NÃO (é Pretérito, Futuro, Infinitivo)",
+              "explanation": "Ditongação PROIBIDA! (Forma correta: ceei, cearei, para frearmos).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se SIM",
+              "explanation": "Avance para o Passo 3.",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Passo 3 (Filtragem por Pessoa Gramatical)",
+              "explanation": "O sujeito da oração é Nós ou Vós?",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Se SIM",
+              "explanation": "Ditongação PROIBIDA! (Formas arrizotônicas: nós passeamos, nós semeamos, nós mediamos).",
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Se NÃO (é Eu, Tu, Ele, Eles)",
+              "explanation": "Ditongação OBRIGATÓRIA (-ei-)! (Formas rizotônicas: eu passeio, ele anseia, eles incendeiam).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo de Verificação de Ditongação em Formas com \"-EI-\"."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Para validar se uma forma verbal que apresenta o ditongo -ei- é legítima:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 (Filtragem por Grupo): O verbo pertence à família -EAR ou ao acrônimo MARIO?"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se NÃO (é em -IAR regular): Ditongação PROIBIDA! (Forma correta: maquio, premia, copiem).",
+                "Se SIM: Avance para o Passo 2."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2 (Filtragem por Tempo/Modo): A oração exige Presente do Indicativo ou Presente do Subjuntivo?"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se NÃO (é Pretérito, Futuro, Infinitivo): Ditongação PROIBIDA! (Forma correta: ceei, cearei, para frearmos).",
+                "Se SIM: Avance para o Passo 3."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3 (Filtragem por Pessoa Gramatical): O sujeito da oração é Nós ou Vós?"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se SIM: Ditongação PROIBIDA! (Formas arrizotônicas: nós passeamos, nós semeamos, nós mediamos).",
+                "Se NÃO (é Eu, Tu, Ele, Eles): Ditongação OBRIGATÓRIA (-ei-)! (Formas rizotônicas: eu passeio, ele anseia, eles incendeiam)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003",
+          "title": "Teste Diagnóstico da Defectividade do Presente do Subjuntivo",
+          "objective": "Executar o algoritmo decisório para Teste Diagnóstico da Defectividade do Presente do Subjuntivo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Diagnóstico da Defectividade do Presente do Subjuntivo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize o verbo defectivo na oração (colorir, abolir, falir, banir, reaver, precaver-se).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Tente conjugar mentalmente a 1ª pessoa do singular do Presente do Indicativo (Eu).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Constatando que a forma para Eu não existe na norma-padrão (inexistência de \"eu coloro\", \"eu abolo\", \"eu reavejo\", \"eu me precavejo\"), conclua imediatamente",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "O modo Presente do Subjuntivo é integralmente nulo (não existe para nenhuma pessoa).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Qualquer alternativa de prova que proponha formas como \"que ele reaveja\", \"que nos precavenhamos\", \"que ele abula\" é incorreta.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Diagnóstico da Defectividade do Presente do Subjuntivo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize o verbo defectivo na oração (colorir, abolir, falir, banir, reaver, precaver-se).",
+                "Tente conjugar mentalmente a 1ª pessoa do singular do Presente do Indicativo (Eu).",
+                "Constatando que a forma para Eu não existe na norma-padrão (inexistência de \"eu coloro\", \"eu abolo\", \"eu reavejo\", \"eu me precavejo\"), conclua imediatamente:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O modo Presente do Subjuntivo é integralmente nulo (não existe para nenhuma pessoa).",
+                "Qualquer alternativa de prova que proponha formas como \"que ele reaveja\", \"que nos precavenhamos\", \"que ele abula\" é incorreta."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A04-G08-001",
+          "title": "8.1. Matriz Comparativa: Verbos em -EAR vs. -IAR Regulares vs. Grupo MARIO",
+          "contrastType": "mixed",
+          "conceptA": "8.1. Matriz Comparativa: Verbos em -EAR vs. -IAR Regulares vs. Grupo MARIO",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A04-G08-006",
+              "table": {
+                "tableId": "TABLE-IP-A04-G08-006",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério de Análise",
+                  "Verbos em -EAR (Líder: PASSEAR)",
+                  "Verbos em -IAR Regulares (Líder: CRIAR)",
+                  "Verbos do MARIO (Líder: ODIAR)"
+                ],
+                "rows": [
+                  [
+                    "Comportamento no Presente (Eu, Tu, Ele, Eles)",
+                    "Ditongam em -EI- (eu passeio, ele receia)",
+                    "NÃO Ditongam (mantêm -I-) (eu crio, ele premia)",
+                    "Ditongam em -EI- (eu odeio, ele anseia)"
+                  ],
+                  [
+                    "Comportamento no Presente (Nós e Vós)",
+                    "NÃO Ditongam (mantêm -E-) (nós passeamos, nós ceamos)",
+                    "NÃO Ditongam (mantêm -I-) (nós criamos, nós premiamos)",
+                    "NÃO Ditongam (mantêm -I-) (nós odiamos, nós ansiamos)"
+                  ],
+                  [
+                    "Comportamento no Pretérito e Futuro",
+                    "Regulares (sem ditongo -ei-) (eu ceei, nós cearemos)",
+                    "Regulares (mantêm -I-) (elas criaram, elas maquiaram)",
+                    "Regulares (mantêm -I-) (ela odiou, eles incendiaram)"
+                  ],
+                  [
+                    "Erro Crítico em Provas",
+                    "\"Nós passeiamos\", \"eu seiei\"",
+                    "\"Eu me maqueio\", \"ele premeia\"",
+                    "\"Nós anseiamos\", \"eles incendiam\""
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A04-G08-002",
+          "title": "8.2. Matriz Comparativa: Verbos Defectivos em Concursos",
+          "contrastType": "mixed",
+          "conceptA": "8.2. Matriz Comparativa: Verbos Defectivos em Concursos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A04-G08-007",
+              "table": {
+                "tableId": "TABLE-IP-A04-G08-007",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Verbo",
+                  "Verbo Líder",
+                  "Pres. Indicativo",
+                  "Pres. Subjuntivo",
+                  "Pretérito Perfeito",
+                  "Futuro do Subjuntivo",
+                  "Erro Fatal de Prova"
+                ],
+                "rows": [
+                  [
+                    "REAVER",
+                    "HAVER",
+                    "Apenasnós reavemos e vós reaveis",
+                    "Inexistente",
+                    "reouve, reouveram",
+                    "quando ele reouver",
+                    "Tratar como derivado dever (\"reaveu\", \"reavisse\") ou criar \"reavejo\"."
+                  ],
+                  [
+                    "PRECAVER-SE",
+                    "BEBER",
+                    "Apenasnós nos precavemos e vós vos precaveis",
+                    "Inexistente",
+                    "precaveu, precaveram-se",
+                    "se eles se precaverem",
+                    "Tratar como derivado dever (\"precavir\", \"precavejo\", \"precavenha\")."
+                  ],
+                  [
+                    "DEFECTIVOS 3ª CONJ.",
+                    "(Nenhum)",
+                    "Apenasnós colorimos/falimos e vós coloris/falis",
+                    "Inexistente",
+                    "coloriu, faliram",
+                    "quando ele abolir",
+                    "Tentar conjugar a 1ª sing. (\"eu coloro\", \"eu abolo\", \"eu falo\")."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-001",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 — Exercício de Fixação 15: Flexão de PASSEAR (Pres. Indicativo)",
+          "prompt": "Enunciado: 15) Ela  com o cão todos os dias. (PASSEAR - presente do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "15) Ela  com o cão todos os dias. (PASSEAR - presente do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo é o próprio líder (PASSEAR). Forma rizotônica na 3ª pessoa do singular: Hoje ela passeia."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "passeia"
+            }
+          ],
+          "result": "Resposta: passeia",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 — Exercício de Fixação 15: Flexão de PASSEAR (Pres. Indicativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 — Exercício de Fixação 15: Flexão de PASSEAR (Pres. Indicativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001 — Exercício de Fixação 15: Flexão de PASSEAR (Pres. Indicativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 15) Ela  com o cão todos os dias. (PASSEAR - presente do indicativo)",
+                "Resolução: Verbo é o próprio líder (PASSEAR). Forma rizotônica na 3ª pessoa do singular: Hoje ela passeia.",
+                "Resposta: passeia"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-002",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 — Exercício de Fixação 16: Flexão de SEMEAR (Pres. Indicativo / Nós)",
+          "prompt": "Enunciado: 16) Nós plantamos o que . (SEMEAR - presente do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "16) Nós plantamos o que . (SEMEAR - presente do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Líder PASSEAR. Sujeito Nós é arrizotônico (não ditonga): Nós passeamos $\\rightarrow$ Nós semeamos."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "semeamos"
+            }
+          ],
+          "result": "Resposta: semeamos",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 — Exercício de Fixação 16: Flexão de SEMEAR (Pres. Indicativo / Nós) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 — Exercício de Fixação 16: Flexão de SEMEAR (Pres. Indicativo / Nós).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002 — Exercício de Fixação 16: Flexão de SEMEAR (Pres. Indicativo / Nós).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 16) Nós plantamos o que . (SEMEAR - presente do indicativo)",
+                "Resolução: Líder PASSEAR. Sujeito Nós é arrizotônico (não ditonga): Nós passeamos $\\rightarrow$ Nós semeamos.",
+                "Resposta: semeamos"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-003",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 — Exercício de Fixação 17: Flexão de CEAR (Pres. Subjuntivo / Eles)",
+          "prompt": "Enunciado: 17) Tudo foi organizado para que eles  às oito horas. (CEAR - presente do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "17) Tudo foi organizado para que eles  às oito horas. (CEAR - presente do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Líder PASSEAR. Gatilho do Subjuntivo Que: que eles passeiem $\\rightarrow$ que eles seiem."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "seiem"
+            }
+          ],
+          "result": "Resposta: seiem",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 — Exercício de Fixação 17: Flexão de CEAR (Pres. Subjuntivo / Eles) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 — Exercício de Fixação 17: Flexão de CEAR (Pres. Subjuntivo / Eles).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003 — Exercício de Fixação 17: Flexão de CEAR (Pres. Subjuntivo / Eles).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 17) Tudo foi organizado para que eles  às oito horas. (CEAR - presente do subjuntivo)",
+                "Resolução: Líder PASSEAR. Gatilho do Subjuntivo Que: que eles passeiem $\\rightarrow$ que eles seiem.",
+                "Resposta: seiem"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-004",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004 — Exercício de Fixação 18: Flexão de MAQUIAR (Pret. Perfeito / Elas)",
+          "prompt": "Enunciado: 18) As madrinhas se  juntas no dia do casamento. (MAQUIAR - pretérito perfeito do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "18) As madrinhas se  juntas no dia do casamento. (MAQUIAR - pretérito perfeito do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo em -IAR regular $\\rightarrow$ Líder CRIAR. Gatilho Ontem: Ontem elas criaram $\\rightarrow$ Elas se maquiaram."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "maquiaram"
+            }
+          ],
+          "result": "Resposta: maquiaram",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004 — Exercício de Fixação 18: Flexão de MAQUIAR (Pret. Perfeito / Elas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004 — Exercício de Fixação 18: Flexão de MAQUIAR (Pret. Perfeito / Elas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004 — Exercício de Fixação 18: Flexão de MAQUIAR (Pret. Perfeito / Elas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 18) As madrinhas se  juntas no dia do casamento. (MAQUIAR - pretérito perfeito do indicativo)",
+                "Resolução: Verbo em -IAR regular $\\rightarrow$ Líder CRIAR. Gatilho Ontem: Ontem elas criaram $\\rightarrow$ Elas se maquiaram.",
+                "Resposta: maquiaram"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-005",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005 — Exercício de Fixação 19: Flexão de COPIAR (Pres. Subjuntivo / Eles)",
+          "prompt": "Enunciado: 19) Foi feito um aviso para que os leitores não  o texto. (COPIAR - presente do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "19) Foi feito um aviso para que os leitores não  o texto. (COPIAR - presente do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo regular $\\rightarrow$ Líder CRIAR: que eles não criem $\\rightarrow$ que os leitores não copiem."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "copiem"
+            }
+          ],
+          "result": "Resposta: copiem",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005 — Exercício de Fixação 19: Flexão de COPIAR (Pres. Subjuntivo / Eles) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005 — Exercício de Fixação 19: Flexão de COPIAR (Pres. Subjuntivo / Eles).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005 — Exercício de Fixação 19: Flexão de COPIAR (Pres. Subjuntivo / Eles).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 19) Foi feito um aviso para que os leitores não  o texto. (COPIAR - presente do subjuntivo)",
+                "Resolução: Verbo regular $\\rightarrow$ Líder CRIAR: que eles não criem $\\rightarrow$ que os leitores não copiem.",
+                "Resposta: copiem"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-006",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006 — Exercício de Fixação 20: Flexão de PREMIAR (Pres. Indicativo / Ela)",
+          "prompt": "Enunciado: 20) A associação  o vencedor do concurso. (PREMIAR - presente do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "20) A associação  o vencedor do concurso. (PREMIAR - presente do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo regular $\\rightarrow$ Líder CRIAR: Hoje ela cria $\\rightarrow$ A associação premia."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "premia"
+            }
+          ],
+          "result": "Resposta: premia",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006 — Exercício de Fixação 20: Flexão de PREMIAR (Pres. Indicativo / Ela) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006 — Exercício de Fixação 20: Flexão de PREMIAR (Pres. Indicativo / Ela).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006 — Exercício de Fixação 20: Flexão de PREMIAR (Pres. Indicativo / Ela).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 20) A associação  o vencedor do concurso. (PREMIAR - presente do indicativo)",
+                "Resolução: Verbo regular $\\rightarrow$ Líder CRIAR: Hoje ela cria $\\rightarrow$ A associação premia.",
+                "Resposta: premia"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-007",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007 — Exercício de Fixação 21: Flexão de ODIAR (Pret. Perfeito / Ela)",
+          "prompt": "Enunciado: 21) Ela  o presente que demos. (ODIAR - Pretérito Perfeito do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "21) Ela  o presente que demos. (ODIAR - Pretérito Perfeito do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Tempo passado não sofre alterações de ditongação: Ontem ela odiou."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "odiou"
+            }
+          ],
+          "result": "Resposta: odiou",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007 — Exercício de Fixação 21: Flexão de ODIAR (Pret. Perfeito / Ela) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007 — Exercício de Fixação 21: Flexão de ODIAR (Pret. Perfeito / Ela).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-007 — Exercício de Fixação 21: Flexão de ODIAR (Pret. Perfeito / Ela).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 21) Ela  o presente que demos. (ODIAR - Pretérito Perfeito do indicativo)",
+                "Resolução: Tempo passado não sofre alterações de ditongação: Ontem ela odiou.",
+                "Resposta: odiou"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-008",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008 — Exercício de Fixação 22: Flexão de INCENDIAR (Pres. Indicativo / Elas)",
+          "prompt": "Enunciado: 22) As gangues  as casas dos opositores naquela região. (INCENDIAR - presente do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "22) As gangues  as casas dos opositores naquela região. (INCENDIAR - presente do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo do MARIO $\\rightarrow$ Líder ODIAR: Hoje elas odeiam $\\rightarrow$ As gangues incendeiam."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "incendeiam"
+            }
+          ],
+          "result": "Resposta: incendeiam",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008 — Exercício de Fixação 22: Flexão de INCENDIAR (Pres. Indicativo / Elas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008 — Exercício de Fixação 22: Flexão de INCENDIAR (Pres. Indicativo / Elas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-008 — Exercício de Fixação 22: Flexão de INCENDIAR (Pres. Indicativo / Elas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 22) As gangues  as casas dos opositores naquela região. (INCENDIAR - presente do indicativo)",
+                "Resolução: Verbo do MARIO $\\rightarrow$ Líder ODIAR: Hoje elas odeiam $\\rightarrow$ As gangues incendeiam.",
+                "Resposta: incendeiam"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-009",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-009 — Exercício de Fixação 23: Flexão de MEDIAR (Pres. Subjuntivo / Nós)",
+          "prompt": "Enunciado: 23) A direção pediu que nós  a conversa. (MEDIAR - presente do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "23) A direção pediu que nós  a conversa. (MEDIAR - presente do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo do MARIO com sujeito Nós (arrizotônico $\\rightarrow$ não ditonga): que nós odiemos $\\rightarrow$ que nós mediemos."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "mediemos"
+            }
+          ],
+          "result": "Resposta: mediemos",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-009 — Exercício de Fixação 23: Flexão de MEDIAR (Pres. Subjuntivo / Nós) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-009 — Exercício de Fixação 23: Flexão de MEDIAR (Pres. Subjuntivo / Nós).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-009 — Exercício de Fixação 23: Flexão de MEDIAR (Pres. Subjuntivo / Nós).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 23) A direção pediu que nós  a conversa. (MEDIAR - presente do subjuntivo)",
+                "Resolução: Verbo do MARIO com sujeito Nós (arrizotônico $\\rightarrow$ não ditonga): que nós odiemos $\\rightarrow$ que nós mediemos.",
+                "Resposta: mediemos"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-010",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-010 — Exercício de Fixação 24: Flexão de ANSIAR (Pres. Indicativo / Nós)",
+          "prompt": "Enunciado: 24) Nós  pela restituição dos nossos bens. (ANSIAR - presente do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "24) Nós  pela restituição dos nossos bens. (ANSIAR - presente do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo do MARIO com sujeito Nós: Hoje nós odiamos $\\rightarrow$ Nós ansiamos."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "ansiamos"
+            }
+          ],
+          "result": "Resposta: ansiamos",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-010 — Exercício de Fixação 24: Flexão de ANSIAR (Pres. Indicativo / Nós) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-010 — Exercício de Fixação 24: Flexão de ANSIAR (Pres. Indicativo / Nós).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-010 — Exercício de Fixação 24: Flexão de ANSIAR (Pres. Indicativo / Nós).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 24) Nós  pela restituição dos nossos bens. (ANSIAR - presente do indicativo)",
+                "Resolução: Verbo do MARIO com sujeito Nós: Hoje nós odiamos $\\rightarrow$ Nós ansiamos.",
+                "Resposta: ansiamos"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-011",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-011 — Exercício de Fixação 25: Flexão de REAVER (Pret. Perfeito / Eles)",
+          "prompt": "Enunciado: 25) Os pais  as crianças depois da audiência. (REAVER – pretérito perfeito do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "25) Os pais  as crianças depois da audiência. (REAVER – pretérito perfeito do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder HAVER: Eles houveram $\\rightarrow$ Os pais reouveram."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "reouveram"
+            }
+          ],
+          "result": "Resposta: reouveram",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-011 — Exercício de Fixação 25: Flexão de REAVER (Pret. Perfeito / Eles) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-011 — Exercício de Fixação 25: Flexão de REAVER (Pret. Perfeito / Eles).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-011 — Exercício de Fixação 25: Flexão de REAVER (Pret. Perfeito / Eles).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 25) Os pais  as crianças depois da audiência. (REAVER – pretérito perfeito do indicativo)",
+                "Resolução: Verbo Líder HAVER: Eles houveram $\\rightarrow$ Os pais reouveram.",
+                "Resposta: reouveram"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-012",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-012 — Exercício de Fixação 26: Flexão de REAVER (Pret. Imperfeito Subjuntivo / Ela)",
+          "prompt": "Enunciado: 26) Seria bom que a Igreja  o poder que detinha. (REAVER – pretérito imperfeito do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "26) Seria bom que a Igreja  o poder que detinha. (REAVER – pretérito imperfeito do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder HAVER: Que ela houvesse $\\rightarrow$ Que a Igreja reouvesse."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "reouvesse"
+            }
+          ],
+          "result": "Resposta: reouvesse",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-012 — Exercício de Fixação 26: Flexão de REAVER (Pret. Imperfeito Subjuntivo / Ela) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-012 — Exercício de Fixação 26: Flexão de REAVER (Pret. Imperfeito Subjuntivo / Ela).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-012 — Exercício de Fixação 26: Flexão de REAVER (Pret. Imperfeito Subjuntivo / Ela).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 26) Seria bom que a Igreja  o poder que detinha. (REAVER – pretérito imperfeito do subjuntivo)",
+                "Resolução: Verbo Líder HAVER: Que ela houvesse $\\rightarrow$ Que a Igreja reouvesse.",
+                "Resposta: reouvesse"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-013",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-013 — Exercício de Fixação 27: Flexão de REAVER (Futuro do Subjuntivo / Ele)",
+          "prompt": "Enunciado: 27) Se o país  o clima cultural dos anos 60... (REAVER – futuro do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "27) Se o país  o clima cultural dos anos 60... (REAVER – futuro do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder HAVER: Se ele houver $\\rightarrow$ Se o país reouver."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "reouver"
+            }
+          ],
+          "result": "Resposta: reouver",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-013 — Exercício de Fixação 27: Flexão de REAVER (Futuro do Subjuntivo / Ele) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-013 — Exercício de Fixação 27: Flexão de REAVER (Futuro do Subjuntivo / Ele).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-013 — Exercício de Fixação 27: Flexão de REAVER (Futuro do Subjuntivo / Ele).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 27) Se o país  o clima cultural dos anos 60... (REAVER – futuro do subjuntivo)",
+                "Resolução: Verbo Líder HAVER: Se ele houver $\\rightarrow$ Se o país reouver.",
+                "Resposta: reouver"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-014",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-014 — Exercício de Fixação 28: Flexão de PRECAVER-SE (Pret. Imperfeito Indicativo / Nós)",
+          "prompt": "Enunciado: 28) Nós nos  dos assaltos. (PRECAVER-SE - pretérito imperfeito do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "28) Nós nos  dos assaltos. (PRECAVER-SE - pretérito imperfeito do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder BEBER: Antigamente nós bebíamos $\\rightarrow$ Nós nos precavíamos."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "precavíamos"
+            }
+          ],
+          "result": "Resposta: precavíamos",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-014 — Exercício de Fixação 28: Flexão de PRECAVER-SE (Pret. Imperfeito Indicativo / Nós) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-014 — Exercício de Fixação 28: Flexão de PRECAVER-SE (Pret. Imperfeito Indicativo / Nós).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-014 — Exercício de Fixação 28: Flexão de PRECAVER-SE (Pret. Imperfeito Indicativo / Nós).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 28) Nós nos  dos assaltos. (PRECAVER-SE - pretérito imperfeito do indicativo)",
+                "Resolução: Verbo Líder BEBER: Antigamente nós bebíamos $\\rightarrow$ Nós nos precavíamos.",
+                "Resposta: precavíamos"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-015",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-015 — Exercício de Fixação 29: Flexão de PRECAVER-SE (Futuro do Subjuntivo / Eles)",
+          "prompt": "Enunciado: 29) Se eles , a viagem será agradável. (PRECAVER-SE - futuro do subjuntivo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "29) Se eles , a viagem será agradável. (PRECAVER-SE - futuro do subjuntivo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder BEBER: Se eles beberem $\\rightarrow$ Se eles se precaverem."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "se precaverem"
+            }
+          ],
+          "result": "Resposta: se precaverem",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-015 — Exercício de Fixação 29: Flexão de PRECAVER-SE (Futuro do Subjuntivo / Eles) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-015 — Exercício de Fixação 29: Flexão de PRECAVER-SE (Futuro do Subjuntivo / Eles).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-015 — Exercício de Fixação 29: Flexão de PRECAVER-SE (Futuro do Subjuntivo / Eles).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 29) Se eles , a viagem será agradável. (PRECAVER-SE - futuro do subjuntivo)",
+                "Resolução: Verbo Líder BEBER: Se eles beberem $\\rightarrow$ Se eles se precaverem.",
+                "Resposta: se precaverem"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-016",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-016 — Exercício de Fixação 30: Flexão de PRECAVER-SE (Pret. Mais-que-perfeito / Ela)",
+          "prompt": "Enunciado: 30) Ela  contra a alta dos preços. (PRECAVER-SE - pretérito mais-que-perfeito do indicativo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "30) Ela  contra a alta dos preços. (PRECAVER-SE - pretérito mais-que-perfeito do indicativo)"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Verbo Líder BEBER: Ela bebera $\\rightarrow$ Ela se precavera."
+            },
+            {
+              "order": 3,
+              "action": "Resposta",
+              "rationale": "se precavera"
+            }
+          ],
+          "result": "Resposta: se precavera",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-016 — Exercício de Fixação 30: Flexão de PRECAVER-SE (Pret. Mais-que-perfeito / Ela) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-016 — Exercício de Fixação 30: Flexão de PRECAVER-SE (Pret. Mais-que-perfeito / Ela).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-016 — Exercício de Fixação 30: Flexão de PRECAVER-SE (Pret. Mais-que-perfeito / Ela).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 30) Ela  contra a alta dos preços. (PRECAVER-SE - pretérito mais-que-perfeito do indicativo)",
+                "Resolução: Verbo Líder BEBER: Ela bebera $\\rightarrow$ Ela se precavera.",
+                "Resposta: se precavera"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-017",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-017 — Questão 15 (Cesgranrio - Eletrobras)",
+          "prompt": "Enunciado: \"sem no entanto assumir esse receio\". Em qual das opções o verbo recear está corretamente grafado?A) receei | B) receiava | C) receiamos | D) receem | E) receiarmos",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "\"sem no entanto assumir esse receio\". Em qual das opções o verbo recear está corretamente grafado?A) receei | B) receiava | C) receiamos | D) receem | E) receiarmos"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Líder PASSEAR: Passei $\\rightarrow$ Receei (A está correta). Passeava $\\rightarrow$ receava (não receiava); Passeamos $\\rightarrow$ receamos (não receiamos); Passeiem $\\rightarrow$ receiem (não receem); Passearmos $\\rightarrow$ recearmos (não receiarmos)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "A"
+            }
+          ],
+          "result": "Gabarito: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-017 — Questão 15 (Cesgranrio - Eletrobras) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-017 — Questão 15 (Cesgranrio - Eletrobras).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-017 — Questão 15 (Cesgranrio - Eletrobras).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: \"sem no entanto assumir esse receio\". Em qual das opções o verbo recear está corretamente grafado?A) receei | B) receiava | C) receiamos | D) receem | E) receiarmos",
+                "Análise: Líder PASSEAR: Passei $\\rightarrow$ Receei (A está correta). Passeava $\\rightarrow$ receava (não receiava); Passeamos $\\rightarrow$ receamos (não receiamos); Passeiem $\\rightarrow$ receiem (não receem); Passearmos $\\rightarrow$ recearmos (não receiarmos).",
+                "Gabarito: A"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-018",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-018 — Questão 16 (Cesgranrio - IBGE)",
+          "prompt": "Enunciado: A forma do verbo clarear está INCORRETA em:A) O sol clareia o mundo. | B) A irmã clareou os cabelos. | C) Abra as janelas para que o dia clareie a sala. | D) Clariamos a roupa ao sol.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A forma do verbo clarear está INCORRETA em:A) O sol clareia o mundo. | B) A irmã clareou os cabelos. | C) Abra as janelas para que o dia clareie a sala. | D) Clariamos a roupa ao sol."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Líder PASSEAR: Nós passeamos $\\rightarrow$ Nós clareamos. A forma com i (\"clariamos\") é incorreta."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D"
+            }
+          ],
+          "result": "Gabarito: D",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-018 — Questão 16 (Cesgranrio - IBGE) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-018 — Questão 16 (Cesgranrio - IBGE).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-018 — Questão 16 (Cesgranrio - IBGE).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A forma do verbo clarear está INCORRETA em:A) O sol clareia o mundo. | B) A irmã clareou os cabelos. | C) Abra as janelas para que o dia clareie a sala. | D) Clariamos a roupa ao sol.",
+                "Análise: Líder PASSEAR: Nós passeamos $\\rightarrow$ Nós clareamos. A forma com i (\"clariamos\") é incorreta.",
+                "Gabarito: D"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-019",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-019 — Questão 17 (Cesgranrio - Transpetro)",
+          "prompt": "Enunciado: A forma verbal em negrito NÃO está conjugada corretamente em:A) A natureza premia... | B) É importante que nomeiem... | C) Chegue cedo para que principiemos... | D) O ser humano anseia... | E) O professor incendia o debate...",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A forma verbal em negrito NÃO está conjugada corretamente em:A) A natureza premia... | B) É importante que nomeiem... | C) Chegue cedo para que principiemos... | D) O ser humano anseia... | E) O professor incendia o debate..."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Incendiar é do grupo MARIO (Líder: ODIAR). Ele odeia $\\rightarrow$ Ele incendeia. A forma \"incendia\" apresentada na opção E é incorreta."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "E"
+            }
+          ],
+          "result": "Gabarito: E",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-019 — Questão 17 (Cesgranrio - Transpetro) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-019 — Questão 17 (Cesgranrio - Transpetro).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-019 — Questão 17 (Cesgranrio - Transpetro).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A forma verbal em negrito NÃO está conjugada corretamente em:A) A natureza premia... | B) É importante que nomeiem... | C) Chegue cedo para que principiemos... | D) O ser humano anseia... | E) O professor incendia o debate...",
+                "Análise: Incendiar é do grupo MARIO (Líder: ODIAR). Ele odeia $\\rightarrow$ Ele incendeia. A forma \"incendia\" apresentada na opção E é incorreta.",
+                "Gabarito: E"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-020",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-020 — Questão 18 (Vunesp - Pref. Suzano)",
+          "prompt": "Enunciado: Frase em que todas as formas verbais estão de acordo com a norma-padrão:A) receiasse $\\rightarrow$ Erro (receasse, pois passeasse).B) O cônsul requereu os documentos... $\\rightarrow$ Correto (Requerer segue Beber $\\rightarrow$ bebeu $\\rightarrow$ requereu).C) adverto $\\rightarrow$ Erro (advirto, pois ferir $\\rightarrow$ firo).D) reavisse $\\rightarrow$ Erro (reouvesse, pois haver $\\rightarrow$ houvesse).E) disporam $\\rightarrow$ Erro (dispuseram, pois pôr $\\rightarrow$ puseram).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Frase em que todas as formas verbais estão de acordo com a norma-padrão:A) receiasse $\\rightarrow$ Erro (receasse, pois passeasse).B) O cônsul requereu os documentos... $\\rightarrow$ Correto (Requerer segue Beber $\\rightarrow$ bebeu $\\rightarrow$ requereu).C) adverto $\\rightarrow$ Erro (advirto, pois ferir $\\rightarrow$ firo).D) reavisse $\\rightarrow$ Erro (reouvesse, pois haver $\\rightarrow$ houvesse).E) disporam $\\rightarrow$ Erro (dispuseram, pois pôr $\\rightarrow$ puseram)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-020 — Questão 18 (Vunesp - Pref. Suzano) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-020 — Questão 18 (Vunesp - Pref. Suzano).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-020 — Questão 18 (Vunesp - Pref. Suzano).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Frase em que todas as formas verbais estão de acordo com a norma-padrão:A) receiasse $\\rightarrow$ Erro (receasse, pois passeasse).B) O cônsul requereu os documentos... $\\rightarrow$ Correto (Requerer segue Beber $\\rightarrow$ bebeu $\\rightarrow$ requereu).C) adverto $\\rightarrow$ Erro (advirto, pois ferir $\\rightarrow$ firo).D) reavisse $\\rightarrow$ Erro (reouvesse, pois haver $\\rightarrow$ houvesse).E) disporam $\\rightarrow$ Erro (dispuseram, pois pôr $\\rightarrow$ puseram).",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-021",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-021 — Questão 19 (Cesgranrio - Petrobras)",
+          "prompt": "Enunciado: Sentença em que todos os verbos estão flexionados de acordo com a norma-padrão:A) faço $\\rightarrow$ Erro (faça no subjuntivo).B) O supervisor requereu os documentos que faltavam. $\\rightarrow$ Correto (bebeu $\\rightarrow$ requereu).C) concluiam $\\rightarrow$ Erro (concluam).D) se propor $\\rightarrow$ Erro (se propuser).E) medea $\\rightarrow$ Erro (medeia).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Sentença em que todos os verbos estão flexionados de acordo com a norma-padrão:A) faço $\\rightarrow$ Erro (faça no subjuntivo).B) O supervisor requereu os documentos que faltavam. $\\rightarrow$ Correto (bebeu $\\rightarrow$ requereu).C) concluiam $\\rightarrow$ Erro (concluam).D) se propor $\\rightarrow$ Erro (se propuser).E) medea $\\rightarrow$ Erro (medeia)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-021 — Questão 19 (Cesgranrio - Petrobras) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-021 — Questão 19 (Cesgranrio - Petrobras).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-021 — Questão 19 (Cesgranrio - Petrobras).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Sentença em que todos os verbos estão flexionados de acordo com a norma-padrão:A) faço $\\rightarrow$ Erro (faça no subjuntivo).B) O supervisor requereu os documentos que faltavam. $\\rightarrow$ Correto (bebeu $\\rightarrow$ requereu).C) concluiam $\\rightarrow$ Erro (concluam).D) se propor $\\rightarrow$ Erro (se propuser).E) medea $\\rightarrow$ Erro (medeia).",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-022",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-022 — Questão 20 (FCC - SEGEP-MA)",
+          "prompt": "Enunciado: Todos os verbos empregados conforme a norma-padrão em:A) proporam $\\rightarrow$ Erro (propuseram).B) Os líderes que medeiam a discussão... $\\rightarrow$ Correto (Mediar $\\rightarrow$ Líder ODIAR $\\rightarrow$ odeiam $\\rightarrow$ medeiam).C) interviram $\\rightarrow$ Erro (intervieram).D) contêm (com circunflexo no singular) e virem $\\rightarrow$ Erro (vierem).E) manteram-se $\\rightarrow$ Erro (mantiveram-se).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Todos os verbos empregados conforme a norma-padrão em:A) proporam $\\rightarrow$ Erro (propuseram).B) Os líderes que medeiam a discussão... $\\rightarrow$ Correto (Mediar $\\rightarrow$ Líder ODIAR $\\rightarrow$ odeiam $\\rightarrow$ medeiam).C) interviram $\\rightarrow$ Erro (intervieram).D) contêm (com circunflexo no singular) e virem $\\rightarrow$ Erro (vierem).E) manteram-se $\\rightarrow$ Erro (mantiveram-se)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-022 — Questão 20 (FCC - SEGEP-MA) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-022 — Questão 20 (FCC - SEGEP-MA).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-022 — Questão 20 (FCC - SEGEP-MA).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Todos os verbos empregados conforme a norma-padrão em:A) proporam $\\rightarrow$ Erro (propuseram).B) Os líderes que medeiam a discussão... $\\rightarrow$ Correto (Mediar $\\rightarrow$ Líder ODIAR $\\rightarrow$ odeiam $\\rightarrow$ medeiam).C) interviram $\\rightarrow$ Erro (intervieram).D) contêm (com circunflexo no singular) e virem $\\rightarrow$ Erro (vierem).E) manteram-se $\\rightarrow$ Erro (mantiveram-se).",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-023",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-023 — Questão 21 (FCC - SPPREV)",
+          "prompt": "Enunciado: Formas verbais corretamente flexionadas em:A) reaveram $\\rightarrow$ Erro (reouveram).B) convir $\\rightarrow$ Erro (convier).C) propora $\\rightarrow$ Erro (propusera).D) Mesmo que requerêssemos nova revisão... $\\rightarrow$ Correto (Requerer $\\rightarrow$ Líder BEBER $\\rightarrow$ bebêssemos $\\rightarrow$ requerêssemos).E) disporam $\\rightarrow$ Erro (dispuseram).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Formas verbais corretamente flexionadas em:A) reaveram $\\rightarrow$ Erro (reouveram).B) convir $\\rightarrow$ Erro (convier).C) propora $\\rightarrow$ Erro (propusera).D) Mesmo que requerêssemos nova revisão... $\\rightarrow$ Correto (Requerer $\\rightarrow$ Líder BEBER $\\rightarrow$ bebêssemos $\\rightarrow$ requerêssemos).E) disporam $\\rightarrow$ Erro (dispuseram)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "D"
+            }
+          ],
+          "result": "Gabarito: D",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-023 — Questão 21 (FCC - SPPREV) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-023 — Questão 21 (FCC - SPPREV).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-023 — Questão 21 (FCC - SPPREV).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Formas verbais corretamente flexionadas em:A) reaveram $\\rightarrow$ Erro (reouveram).B) convir $\\rightarrow$ Erro (convier).C) propora $\\rightarrow$ Erro (propusera).D) Mesmo que requerêssemos nova revisão... $\\rightarrow$ Correto (Requerer $\\rightarrow$ Líder BEBER $\\rightarrow$ bebêssemos $\\rightarrow$ requerêssemos).E) disporam $\\rightarrow$ Erro (dispuseram).",
+                "Gabarito: D"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-024",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-024 — Questão 22 (FCC - TJ-AP)",
+          "prompt": "Enunciado: Todas as formas verbais corretamente flexionadas em:A) Os convidados se constrangeram (beberam), mas não se indispuseram (puseram) com o livreiro, que não se advertira (ferira) da confusão... $\\rightarrow$ Correto em todas as formas!B) interviu $\\rightarrow$ Erro (interveio).C) propora $\\rightarrow$ Erro (propusera).D) visse $\\rightarrow$ Erro de verbo/sentido (viesse, do verbo vir).E) reaveu $\\rightarrow$ Erro (reouve).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Todas as formas verbais corretamente flexionadas em:A) Os convidados se constrangeram (beberam), mas não se indispuseram (puseram) com o livreiro, que não se advertira (ferira) da confusão... $\\rightarrow$ Correto em todas as formas!B) interviu $\\rightarrow$ Erro (interveio).C) propora $\\rightarrow$ Erro (propusera).D) visse $\\rightarrow$ Erro de verbo/sentido (viesse, do verbo vir).E) reaveu $\\rightarrow$ Erro (reouve)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "A"
+            }
+          ],
+          "result": "Gabarito: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-024 — Questão 22 (FCC - TJ-AP) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-024 — Questão 22 (FCC - TJ-AP).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-024 — Questão 22 (FCC - TJ-AP).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Todas as formas verbais corretamente flexionadas em:A) Os convidados se constrangeram (beberam), mas não se indispuseram (puseram) com o livreiro, que não se advertira (ferira) da confusão... $\\rightarrow$ Correto em todas as formas!B) interviu $\\rightarrow$ Erro (interveio).C) propora $\\rightarrow$ Erro (propusera).D) visse $\\rightarrow$ Erro de verbo/sentido (viesse, do verbo vir).E) reaveu $\\rightarrow$ Erro (reouve).",
+                "Gabarito: A"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-025",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-025 — Questão 23 (FGV - Banestes)",
+          "prompt": "Enunciado: A relação ver / vejo (Infinitivo / 1ª pessoa sing. Pres. Ind.) NÃO se repete em:A) rir / rio | B) trazer / trago | C) requerer / requeiro | D) deter / detenho | E) reaver / reavejo",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A relação ver / vejo (Infinitivo / 1ª pessoa sing. Pres. Ind.) NÃO se repete em:A) rir / rio | B) trazer / trago | C) requerer / requeiro | D) deter / detenho | E) reaver / reavejo"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Reaver é verbo defectivo. Não possui 1ª pessoa do singular no Presente do Indicativo; a forma \"reavejo\" não existe."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "E"
+            }
+          ],
+          "result": "Gabarito: E",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-025 — Questão 23 (FGV - Banestes) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-025 — Questão 23 (FGV - Banestes).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-025 — Questão 23 (FGV - Banestes).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A relação ver / vejo (Infinitivo / 1ª pessoa sing. Pres. Ind.) NÃO se repete em:A) rir / rio | B) trazer / trago | C) requerer / requeiro | D) deter / detenho | E) reaver / reavejo",
+                "Análise: Reaver é verbo defectivo. Não possui 1ª pessoa do singular no Presente do Indicativo; a forma \"reavejo\" não existe.",
+                "Gabarito: E"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-026",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-026 — Questão 24 (FGV - ALERJ)",
+          "prompt": "Enunciado: Forma verbal corretamente conjugada:A) entreteram $\\rightarrow$ Erro (entretiveram).B) Os turistas reouveram seus pertences; $\\rightarrow$ Correto (Haver $\\rightarrow$ houveram $\\rightarrow$ reouveram).C) interviu $\\rightarrow$ Erro (interveio).D) ver de novo $\\rightarrow$ Erro contextual (vir de novo).E) manteu $\\rightarrow$ Erro (manteve).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Forma verbal corretamente conjugada:A) entreteram $\\rightarrow$ Erro (entretiveram).B) Os turistas reouveram seus pertences; $\\rightarrow$ Correto (Haver $\\rightarrow$ houveram $\\rightarrow$ reouveram).C) interviu $\\rightarrow$ Erro (interveio).D) ver de novo $\\rightarrow$ Erro contextual (vir de novo).E) manteu $\\rightarrow$ Erro (manteve)."
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-026 — Questão 24 (FGV - ALERJ) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-026 — Questão 24 (FGV - ALERJ).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-026 — Questão 24 (FGV - ALERJ).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Forma verbal corretamente conjugada:A) entreteram $\\rightarrow$ Erro (entretiveram).B) Os turistas reouveram seus pertences; $\\rightarrow$ Correto (Haver $\\rightarrow$ houveram $\\rightarrow$ reouveram).C) interviu $\\rightarrow$ Erro (interveio).D) ver de novo $\\rightarrow$ Erro contextual (vir de novo).E) manteu $\\rightarrow$ Erro (manteve).",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-027",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-027 — Questão 25 (FGV - TJ-AL)",
+          "prompt": "Enunciado: O verbo falsear apresenta como forma ERRADA de conjugação:A) falseiamos | B) falseias | C) falseemos | D) falseie | E) falseiam",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "O verbo falsear apresenta como forma ERRADA de conjugação:A) falseiamos | B) falseias | C) falseemos | D) falseie | E) falseiam"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Líder PASSEAR: Nós passeamos $\\rightarrow$ Nós falseamos (sem i). A forma \"falseiamos\" está incorreta."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "A"
+            }
+          ],
+          "result": "Gabarito: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-027 — Questão 25 (FGV - TJ-AL) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-027 — Questão 25 (FGV - TJ-AL).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-027 — Questão 25 (FGV - TJ-AL).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: O verbo falsear apresenta como forma ERRADA de conjugação:A) falseiamos | B) falseias | C) falseemos | D) falseie | E) falseiam",
+                "Análise: Líder PASSEAR: Nós passeamos $\\rightarrow$ Nós falseamos (sem i). A forma \"falseiamos\" está incorreta.",
+                "Gabarito: A"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-028",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-028 — Questão 26 (FGV - DETRAN-MA)",
+          "prompt": "Enunciado: Alternativa que apresenta a conjugação de frear de forma INCORRETA:A) Para que freiem... | B) Para que freemos... | C) Para freiarmos... | D) Para veículos serem freados. | E) Para frearem...",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Alternativa que apresenta a conjugação de frear de forma INCORRETA:A) Para que freiem... | B) Para que freemos... | C) Para freiarmos... | D) Para veículos serem freados. | E) Para frearem..."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Líder PASSEAR: Para passearmos $\\rightarrow$ Para frearmos (sem i). A opção C trouxe \"freiarmos\", estando errada."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "C"
+            }
+          ],
+          "result": "Gabarito: C",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-028 — Questão 26 (FGV - DETRAN-MA) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-028 — Questão 26 (FGV - DETRAN-MA).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-028 — Questão 26 (FGV - DETRAN-MA).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Alternativa que apresenta a conjugação de frear de forma INCORRETA:A) Para que freiem... | B) Para que freemos... | C) Para freiarmos... | D) Para veículos serem freados. | E) Para frearem...",
+                "Análise: Líder PASSEAR: Para passearmos $\\rightarrow$ Para frearmos (sem i). A opção C trouxe \"freiarmos\", estando errada.",
+                "Gabarito: C"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G08-029",
+          "title": "EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-029 — Questão 27 (Cespe - Correios)",
+          "prompt": "Enunciado: \"era preciso pôr arreios no cavalo, ou seja, era preciso...\"A) arriar-se o cavalo | B) arreiar o cavalo | C) arreiar-se no cavalo | D) arrear o cavalo | E) arriar no cavalo",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "\"era preciso pôr arreios no cavalo, ou seja, era preciso...\"A) arriar-se o cavalo | B) arreiar o cavalo | C) arreiar-se no cavalo | D) arrear o cavalo | E) arriar no cavalo"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Pôr arreios = Arrear (com e, sem i no infinitivo)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D"
+            }
+          ],
+          "result": "Gabarito: D",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-029 — Questão 27 (Cespe - Correios) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-029 — Questão 27 (Cespe - Correios).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-029 — Questão 27 (Cespe - Correios).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: \"era preciso pôr arreios no cavalo, ou seja, era preciso...\"A) arriar-se o cavalo | B) arreiar o cavalo | C) arreiar-se no cavalo | D) arrear o cavalo | E) arriar no cavalo",
+                "Análise: Pôr arreios = Arrear (com e, sem i no infinitivo).",
+                "Gabarito: D"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Memorize o nome próprio MARIO:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\mathbf{M}\\text{ediar} \\quad \\mathbf{A}\\text{nsiar} \\quad \\mathbf{R}\\text{emediar} \\quad \\mathbf{I}\\text{ncendiar} \\quad \\mathbf{O}\\text{diar}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Adição Obrigatória: Agregue sempre Intermediar (por ser derivado direto de Mediar, herda 100% da conjugação).",
+            "Regra: Terminam em -iar, mas conjugam-se rigorosamente como se fossem terminados em -ear (Líder: ODIAR)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para conjugar qualquer verbo da 1ª conjugação com particularidades ortográficas, grave apenas 3 verbos intuitivos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "PASSEAR $\\rightarrow$ Rege todos os verbos em -EAR.",
+            "CRIAR $\\rightarrow$ Rege todos os verbos regulares em -IAR.",
+            "ODIAR $\\rightarrow$ Rege todos os verbos do grupo MARIO."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para evitar erros no momento de conjugar o verbo líder, anteceda o pronome com uma palavra-gatilho mental:",
+            "Presente do Indicativo: Adicione \"Hoje\" (Hoje eu passeio / Hoje ele odeia).",
+            "Presente do Subjuntivo: Adicione \"Que\" (Que nós passeemos / Que eles criem).",
+            "Pretérito Perfeito: Adicione \"Ontem\" (Ontem eles houveram $\\rightarrow$ reouveram).",
+            "Pretérito Imperfeito do Subjuntivo: Adicione \"Se\" (Se ele houvesse $\\rightarrow$ reouvesse)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grave a frase mnemônica: \"O cônsul bebeu, o cônsul requereu\". O verbo Requerer não deriva de Querer; conjuga-se como Beber."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-001",
+          "title": "Armadilha da Hipercorreção na Pessoa \"Nós\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Armadilha da Hipercorreção na Pessoa \"Nós\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Armadilha da Hipercorreção na Pessoa \"Nós\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Armadilha da Hipercorreção na Pessoa \"Nós\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Armadilha da Hipercorreção na Pessoa \"Nós\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Armadilha da Hipercorreção na Pessoa \"Nós\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Armadilha da Hipercorreção na Pessoa \"Nós\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Ditongar os verbos em -EAR ou do grupo MARIO na 1ª pessoa do plural (Nós), escrevendo \"nós passeiamos\", \"nós ceiamos\", \"nós anseiamos\", \"nós remedeiamos\", \"nós falseiamos\", \"para freiarmos\".",
+                "Forma Correta: Nós passeamos, nós ceamos, nós ansiamos, nós remediamos, nós falseamos, para frearmos.",
+                "Por que ocorre: Tendência fonética natural do falante nativo de buscar a eufonia pelo ditongo -ei-. A tonicidade no Nós recai na desinência (arrizotônica), proibindo o ditongo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-002",
+          "title": "Ditongação Indevida no Pretérito e no Futuro",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Ditongação Indevida no Pretérito e no Futuro no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Ditongação Indevida no Pretérito e no Futuro.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Ditongação Indevida no Pretérito e no Futuro.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Ditongação Indevida no Pretérito e no Futuro para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Ditongação Indevida no Pretérito e no Futuro.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Ditongação Indevida no Pretérito e no Futuro.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Estender a ditongação dos verbos em -EAR para tempos passados ou futuros (\"ontem eu seiei\", \"amanhã eu seiarei\").",
+                "Forma Correta: Eu ceei, eu cearei, ele passeou. A ditongação restringe-se estritamente aos tempos do presente."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-003",
+          "title": "Ditongação Indevida em Verbos Regulares em -IAR",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Ditongação Indevida em Verbos Regulares em -IAR no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Ditongação Indevida em Verbos Regulares em -IAR.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Ditongação Indevida em Verbos Regulares em -IAR.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Ditongação Indevida em Verbos Regulares em -IAR para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Ditongação Indevida em Verbos Regulares em -IAR.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Ditongação Indevida em Verbos Regulares em -IAR.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Tratar verbos regulares em -IAR como se pertencessem a -EAR ou MARIO (\"eu me maqueio\", \"a empresa premeia\", \"para que copeiem\").",
+                "Forma Correta: Eu me maquio, a empresa premia, para que copiem (seguindo rigorosamente o verbo CRIAR)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-004",
+          "title": "Falsa Associação de Precaver-se ao Verbo Ver",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falsa Associação de Precaver-se ao Verbo Ver no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falsa Associação de Precaver-se ao Verbo Ver.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falsa Associação de Precaver-se ao Verbo Ver.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falsa Associação de Precaver-se ao Verbo Ver para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falsa Associação de Precaver-se ao Verbo Ver.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falsa Associação de Precaver-se ao Verbo Ver.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Achar que precaver-se deriva de ver, gerando formas inexistentes como \"quando ele se precavir\", \"eu me precavejo\", \"que ele se precavenha\".",
+                "Forma Correta: O líder é BEBER (quando ele se precaver). Na 1ª pessoa do singular do presente e no modo subjuntivo presente, o verbo é defectivo e não possui flexão."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-005",
+          "title": "Invenção de Formas Inexistentes no Verbo Reaver",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Invenção de Formas Inexistentes no Verbo Reaver no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Invenção de Formas Inexistentes no Verbo Reaver.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Invenção de Formas Inexistentes no Verbo Reaver.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Invenção de Formas Inexistentes no Verbo Reaver para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Invenção de Formas Inexistentes no Verbo Reaver.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Invenção de Formas Inexistentes no Verbo Reaver.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Inventar formas no Presente do Indicativo (\"eu reavejo\", \"ele reave\") ou tentar conjugar o Presente do Subjuntivo (\"que ele reaveja\").",
+                "Forma Correta: No Presente do Indicativo só existem nós reavemos e vós reaveis. O Presente do Subjuntivo é totalmente inexistente."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G08-VERBOS-EAR-IAR-DEFECTIVOS-006",
+          "title": "Confusão Paronímica entre Arrear e Arriar",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão Paronímica entre Arrear e Arriar no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão Paronímica entre Arrear e Arriar.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão Paronímica entre Arrear e Arriar.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão Paronímica entre Arrear e Arriar para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão Paronímica entre Arrear e Arriar.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão Paronímica entre Arrear e Arriar.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Trocar as grafias e sentidos: usar \"arriar o cavalo\" (em vez de arrear = pôr arreios) ou \"a bandeira arreia\" (em vez de arria = desce).",
+                "Forma Correta: Cavalo se arreia; bandeira/carga se arria."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Ditongar os verbos em -EAR ou do grupo MARIO na 1ª pessoa do plural (Nós), escrevendo \"nós passeiamos\", \"nós ceiamos\", \"nós anseiamos\", \"nós remedeiamos\", \"nós falseiamos\", \"para freiarmos\".",
+            "Forma Correta: Nós passeamos, nós ceamos, nós ansiamos, nós remediamos, nós falseamos, para frearmos.",
+            "Por que ocorre: Tendência fonética natural do falante nativo de buscar a eufonia pelo ditongo -ei-. A tonicidade no Nós recai na desinência (arrizotônica), proibindo o ditongo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Estender a ditongação dos verbos em -EAR para tempos passados ou futuros (\"ontem eu seiei\", \"amanhã eu seiarei\").",
+            "Forma Correta: Eu ceei, eu cearei, ele passeou. A ditongação restringe-se estritamente aos tempos do presente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Tratar verbos regulares em -IAR como se pertencessem a -EAR ou MARIO (\"eu me maqueio\", \"a empresa premeia\", \"para que copeiem\").",
+            "Forma Correta: Eu me maquio, a empresa premia, para que copiem (seguindo rigorosamente o verbo CRIAR)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Achar que precaver-se deriva de ver, gerando formas inexistentes como \"quando ele se precavir\", \"eu me precavejo\", \"que ele se precavenha\".",
+            "Forma Correta: O líder é BEBER (quando ele se precaver). Na 1ª pessoa do singular do presente e no modo subjuntivo presente, o verbo é defectivo e não possui flexão."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Inventar formas no Presente do Indicativo (\"eu reavejo\", \"ele reave\") ou tentar conjugar o Presente do Subjuntivo (\"que ele reaveja\").",
+            "Forma Correta: No Presente do Indicativo só existem nós reavemos e vós reaveis. O Presente do Subjuntivo é totalmente inexistente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Trocar as grafias e sentidos: usar \"arriar o cavalo\" (em vez de arrear = pôr arreios) ou \"a bandeira arreia\" (em vez de arria = desce).",
+            "Forma Correta: Cavalo se arreia; bandeira/carga se arria."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Formas Rizotônicas: Formas verbais em que o acento tônico recai no radical (eu pas-SEI-o, ele O-dei-a, eles cri-AM). Ocorrem nas 1ª, 2ª e 3ª pessoas do singular e na 3ª pessoa do plural dos tempos do presente.",
+            "Formas Arrizotônicas: Formas verbais em que o acento tônico recai fora do radical, na terminação/desinência (nós pas-se-A-mos, vós o-di-A-is, nós cri-A-mos). Ocorrem na 1ª e 2ª pessoas do plural e na maioria dos tempos passados e futuros."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fenômeno morfofonológico em que uma vogal do radical verbal transforma-se em um ditongo (-ei-) nas formas rizotônicas do presente por razões históricas de acentuação e eufonia."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbo modelo, de uso comum e intuitivo na língua portuguesa, adotado como paradigma invariável para guiar a flexão de uma família inteira de verbos que compartilham o mesmo padrão mórfico."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbo que não apresenta paradigma conjugacional completo, carecendo de flexão em certas pessoas, tempos ou modos por razões eufônicas, bloqueio morfológico ou colisão homonímica."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra estrutural da morfologia verbal segundo a qual todo o Presente do Subjuntivo deriva do radical da 1ª pessoa do singular do Presente do Indicativo (eu). A ausência dessa forma primitiva anula a formação de todo o tempo derivado."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo consolidado do grupo G08, o estudante deve dominar os seguintes conhecimentos e habilidades operacionais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reconhecer e Flexionar Verbos em -EAR e MARIO: Saber que passear, cear, recear, semear, clarear, nomear, falsear, frear, arrear e os integrantes do MARIO (Mediar, Ansiar, Remediar, Incendiar, Odiar + Intermediar) intercalam -i- formando o ditongo -ei- exclusivamente nas pessoas eu, tu, ele, eles dos tempos do presente. Nas pessoas Nós e Vós e nos tempos passados/futuros, a ditongação é terminantemente proibida (nós semeamos, nós mediamos, eu ceei, para frearmos).",
+            "Reconhecer e Flexionar Verbos Regulares em -IAR: Saber que verbos como maquiar, premiar, copiar, adiar, principiar, arriar seguem o verbo regular CRIAR e nunca ditongam (eu me maquio, ele premia, que eles copiem).",
+            "Diferenciar Parônimos Críticos: Distinguir com precisão ARREAR (pôr arreios $\\rightarrow$ segue Passear $\\rightarrow$ ele arreia) de ARRIAR (abaixar/ceder $\\rightarrow$ segue Criar $\\rightarrow$ ele arria).",
+            "Dominar o Padrão de Defectividade Verbal: Compreender que verbos defectivos como colorir, falir, abolir, banir, reaver e precaver-se só possuem as formas Nós e Vós no Presente do Indicativo e não possuem modo Presente do Subjuntivo.",
+            "Atualização Normativa de Adequar: Reconhecer que adequar não é mais considerado defectivo e possui conjugação completa (eu me adequo).",
+            "Dominar os Líderes de Reaver e Precaver-se: Conjugar reaver com base em HAVER (reouve, reouveram, reouvesse, reouver) e precaver-se com base em BEBER (nos precavíamos, se precaverem, se precavera), jamais associando precaver ao verbo ver.",
+            "Resolver Questões Complexas por Verbos Líderes: Aplicar a substituição imediata em verbos derivados como requerer (Líder: Beber $\\rightarrow$ requereu, requerêssemos), advertir (Líder: Ferir $\\rightarrow$ advirto), dispor/propor (puseram, propusera), intervir (intervieram, interveio) e manter (mantiveram-se)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula04.q0038",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Susanita emprega verbos no imperativo em todas as falas dirigidas a Mafalda, pois, a todo momento, dá\nordens a ela.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Há alguns verbos no imperativo e de fato indicam ordens: “Use” e “Use”. Porém, nem todos estão no modo imperativo: “Entende”, “são” e “querem”, por exemplo, estão no presente do modo indicativo. Questão incorreta. BACEN - Língua Portuguesa 104 www.estrategiaconcursos.com.br 154",
+      "questionSha256": "9cc8a353a5d698682e3275ee36144b763cf471107adf8fed1a6f3301fa135dc6",
+      "answerSha256": "8ab94557c699a8e2dd57d3d461c2b03c6347071c71385128755a435f3fd80f01",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0107",
+      "questionType": "multiple_choice",
+      "examBoard": "CORE-PE",
+      "year": 2019,
+      "prompt": "... autora do livro Toque, clique e Leia com Michael Levine...\n\nNo título do livro de Lisa Guernsey mencionado no texto, os verbos estão no:\na) Infinitivo pessoal. ​          ​          ​       c) Particípio.\nb) Presente do indicativo. ​​      d) Presente do subjuntivo. ​       e) Imperativo.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Infinitivo pessoal. ​ ​ ​ c) Particípio."
+        },
+        {
+          "label": "b",
+          "text": "Presente do indicativo. ​​ d) Presente do subjuntivo. ​ e) Imperativo."
+        }
+      ],
+      "officialAnswer": "E",
+      "explanation": "Observem que temos um comando, uma ordem: Toque, clique e leia. O modo responsável por comandos em geral é imperativo e é nesse modo que os verbos estão conjugados. Gabarito letra E.",
+      "questionSha256": "3ecc94f4d0c20f010d777d88df65b0a076e8c0eaed19baffd08f381a0c9c3664",
+      "answerSha256": "1447481373c8ddf11976781e449bd810ca2e46062e4c7839c683c6f9bdfac459",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CORE-PE; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "incorrect",
+          "explanation": "Opção a: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos em EAR e IAR e Defectivos."
+        },
+        {
+          "optionLabel": "b",
+          "status": "incorrect",
+          "explanation": "Opção b: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos em EAR e IAR e Defectivos."
+        }
+      ]
+    },
+    {
+      "questionId": "aula04.q0077",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Susanita emprega verbos no imperativo em todas as falas dirigidas a Mafalda, pois, a todo\nmomento, dá ordens a ela.",
+      "options": [],
+      "officialAnswer": "INCORRETA",
+      "questionSha256": "0deedea68525abdb56b32eef21dd49fc7d107e79c5abe119c9c47a809ec9ba3e",
+      "answerSha256": "4b51388af5ffad547397ea834d8a1e5f34f1334cae84354bf756351e1535fefb",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0030",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "STJ",
+      "year": 2018,
+      "prompt": "Embora haja semelhança de sentido entre os verbos divergir e diferir, a substituição da forma\nverbal “divirja” (L. 14) por difere prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "No presente do subjuntivo, a forma do verbo ‘diferir’ vai ser “difirA” (que eu di“fira”). Questão correta.",
+      "questionSha256": "36d1982fc06d901b7f18b15eca5c6ef5e40af44fac6474b45da46212263c6f41",
+      "answerSha256": "c907b0a0b9e095a9b9e10b101bbd349ab15dc26f3e564388bdfada1ba98938ab",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0069",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "STJ",
+      "year": 2018,
+      "prompt": "Embora haja semelhança de sentido entre os verbos divergir e diferir, a substituição da forma\nverbal “divirja” (L. 14) por difere prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "CORRETA",
+      "questionSha256": "174ddd65ec917697eda2718bdea8e1088a9e51003825208dc429cdf421355b74",
+      "answerSha256": "524a51da53f63a861e982671f738c02e8f55c912090638c88778f44fdc5b598c",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0128",
+      "questionType": "true_false_or_statement",
+      "examBoard": "STJ",
+      "year": 2018,
+      "prompt": "Embora a perspectiva desses autores divirja entre si....\n\nEmbora haja semelhança de sentido entre os verbos divergir e diferir, a substituição da forma\nverbal “divirja” por difere prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "No presente do subjuntivo, a forma do verbo ‘diferir’ vai ser “difirA” (que eu eu “fira”). Questão correta. Querer X requerer Vamos relembrar um verbo parcialmente regular. Requerer não é derivado de “querer”, ele segue, de modo geral, as terminações do verbo “beber”. Porém tem um detalhe: ele recebe um “i” na primeira pessoa do presente do indicativo (requeIro) e também no presente do subjuntivo, que deriva do indicativo (que eu requeIra; que tu requeIras; que ele requeIra...) Os verbos requerer, dizer, fazer e trazer, na 2.a pessoa do singular, apresentam no imperativo afirmativo duas formas: dize ou diz, faze ou faz, traze ou traz, requere ou requer. Vale muito a pena memorizar a sua conjugação. CAI DEMAIS!!! Além do presente do indicativo e do subjuntivo, atenção às diferenças nas conjugações do pretérito perfeito do indicativo e do imperfeito do subjuntivo. BACEN - Língua Portuguesa 60 www.estrategiaconcursos.com.br 154 QUERER Presente do indicativo: quero, queres, quer, queremos, quereis, querem. Pretérito perfeito do indicativo: quis, quiseste, quis, quisemos, quisestes, quiseram. Pretérito imperfeito do indicativo: queria, querias, queria, queríamos, queríeis, queriam. Pretérito mais-que-perfeito do indicativo: quisera, quiseras, quisera, quiséramos, quiséreis, quiseram. Futuro do presente do indicativo: quererei, quererás, quererá, quereremos, querereis, quererão. Futuro do pretérito do indicativo: quereria, quererias, quereria, quereríamos, quereríeis, quereriam. Presente do subjuntivo: queira, queiras, queira, queiramos, queirais, queiram. (OBSERVEM A MUDANÇA NO RADICAL) Pretérito imperfeito do subjuntivo: quisesse, quisesses, quisesse, quiséssemos, quisésseis, quisessem. (OBSERVEM QUE SE GRAFAM COM “S”, NÃO “Z”. ) Futuro do subjuntivo: quiser, quiseres, quiser, quisermos, quiserdes, quiserem. Imperativo afirmativo: quer(e), queira, queiramos, querei, queiram. Imperativo negativo: não queiras, não queira, não queiramos, não queirais, não queiram. Infinitivo pessoal: querer, quereres, querer, querermos, quererdes, quererem. Gerúndio: querendo. Particípio: querido. REQUERER Presente do indicativo: requeiro, requeres, requer, requeremos, requereis, requerem. Pretérito perfeito do indicativo: requeri, requereste, requereu, requeremos, requerestes, requereram. Pretérito imperfeito do indicativo: requeria, requerias, requeria, requeríamos, requeríeis, requeriam. Pretérito mais-que-perfeito do indicativo: requerera, requereras, requerera, requerêramos, requerêreis, requereram. Futuro do presente do indicativo: requererei, requererás, requererá, requereremos, requerereis, requererão. Futuro do pretérito do indicativo: requereria, requererias, requereria, requereríamos, requereríeis, requereriam. Presente do subjuntivo: requeira, requeiras, requeira, requeiramos, requeirais, requeiram. Pretérito imperfeito do subjuntivo: requeresse, requeresses, requeresse, requerêssemos, requerêsseis, requeressem. Futuro do subjuntivo: requerer, requereres, requerer, requerermos, requererdes, requererem. Imperativo afirmativo: requer(e), requeira, requeiramos, requerei, requeiram. BACEN - Língua Portuguesa 61 www.estrategiaconcursos.com.br 154 Imperativo negativo: não requeiras, não requeira, não requeiramos, não requeirais, não requeiram. Infinitivo pessoal: requerer, requereres, requerer, requerermos, requererdes, requererem. Gerúndio: requerendo. Particípio: requerido.",
+      "questionSha256": "e777b708e8308ffedf7e474f9f9aba2106725da9265e8c3a1e4a386c5fd8ae07",
+      "answerSha256": "0dfe10161e82ddbc5550a02551921c7f001dfc808eb52933a936da9b5895e167",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de STJ; 2. Identificar a regra central de Verbos em EAR e IAR e Defectivos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

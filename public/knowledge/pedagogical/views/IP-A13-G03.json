@@ -1,0 +1,1681 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A13-G03",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.133Z"
+  },
+  "unit": {
+    "unitId": "IP-A13-G03",
+    "lessonId": "A13",
+    "groupId": "G03",
+    "title": "Narração e Descrição",
+    "variant": "development",
+    "canonicalTopicId": "pt:a13:narracao-e-descricao",
+    "learningObjectives": [
+      "OBJ-IP-A13-G03-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "Na narração e descrição, a SuVeCA acompanha agentes, eventos, estados, tempos e circunstâncias; a tipologia resulta do funcionamento global do texto.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conceito Básico de Tipologia Textual: Compreensão de que tipos textuais são modos de organização discursiva estruturados por traços linguísticos internos (distintos de gêneros textuais).",
+            "Morfossintaxe Verbal Básica: Noção elementar dos tempos do Modo Indicativo (Presente, Pretérito Perfeito, Pretérito Imperfeito e Pretérito Mais-que-perfeito).",
+            "Classes de Palavras de Caracterização: Reconhecimento de substantivos e adjetivos como núcleos de qualificação."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "text DISTINÇÃO TIPOLÓGICA: NARRAÇÃO vs. DESCRIÇÃO │ ├── 1. EIXO DA TEMPORALIDADE (Critério Estrutural Supremo) │ ├── DESCRIÇÃO: Simultaneidade │ │ ├── Um único momento no tempo │ │ ├── Metáfora da Fotografia / Cena Congelada │ │ └── Inexistência de linha temporal \"antes e depois\" │ └── NARRAÇÃO: Sucessividade │ ├── Momentos sucessivos no tempo │ ├── Vetor Cronológico (\"Antes e Depois\" / Causa e Efeito) │ └── Transformação de estado / Enredo em movimento │ ├── 2. EIXO DA INTENÇÃO COMUNICATIVA (Critério Pragmático Supremo) │ ├── DESCRIÇÃO: Identificar, qualificar, localizar e detalhar │ │ ├── Objetos, cenários, paisagens, pessoas │ │ ├── Metas e objetivos institucionais abstratos │ │ └── Hábitos, costumes e rotinas periódicas │ └── NARRAÇÃO: Relatar acontecimentos e enredos │ ├── Fatos vivenciados por personagens │ ├── Presença de conflito, clímax e desfecho │ └── Diálogos e alternância de vozes (discurso direto/indireto) │ ├── 3. EIXO DOS TEMPOS VERBAIS (Critério Secundário / Relativo) │ ├── Padrão Prototípico no Pretérito: │ │ ├── Pretérito Imperfeito ──> Expressa duração/continuidade ──> Base da Descrição │ │ └── Pretérito Perfeito / MQP ──> Expressa pontualidade/sucessão ──> Base da Narração │ └── Comportamento Híbrido no Presente: │ ├── Presente Histórico ──> Substitui o pretérito (aproximação, vivacidade, suspense) │ ├── Presente Descritivo ──> Detalha características estáticas ou metas │ └── Regra Crítica: O tempo verbal NÃO determina a tipologia por si só │ └── 4. EIXO DA PREDOMINÂNCIA EM TEXTOS HÍBRIDOS (Padrão de Concurso / Cebraspe) ├── Estrutura Literária Padrão: Abertura narrativa + Entremeio descritivo + Desfecho narrativo │ └── Classificação: Texto PREDOMINANTEMENTE NARRATIVO com aspectos descritivos └── Tipos de Formulação de Questões: ├── Itens Excludentes: Exigem a tipologia dominante (Narração prevalece em romances/contos) └── Itens Cumulativos: Validam a coexistência de sequências narrativas e descritivas"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A13-G03-001",
+          "title": "Mapa de conexão — Narração e Descrição",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a13:narracao-e-descricao",
+              "label": "Narração e Descrição",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a13:narracao-e-descricao",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A descrição é a tipologia textual orientada para a representação de seres, objetos, paisagens, ambientes, estados de coisas, rotinas ou conceitos capturados em um recorte temporal estático (um único momento no tempo). Sua estrutura discursiva é regida pelo princípio da simultaneidade, operando de modo análogo a uma fotografia ou congelamento de cena."
+        },
+        {
+          "type": "paragraph",
+          "text": "No texto puramente descritivo, não ocorre avanço do tempo cronológico; não há transformação de estados nem relações de anterioridade e posterioridade (\"antes e depois\") entre as orações."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Princípio da Simultaneidade: Todos os elementos e ações retratados coexistem em um mesmo instante temporal. O observador visualiza panoramicamente o cenário ou o objeto sem que a conclusão de uma ação seja pré-requisito para o início da outra.",
+            "Intenção Comunicativa do Autor: Identificar, qualificar, localizar, caracterizar e detalhar atributos físicos, psicológicos, espaciais ou funcionais de uma entidade.",
+            "Base Léxica Prototípica: Predomínio de substantivos, adjetivos qualificadores, locuções adjetivas e verbos de estado ou de ação durativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Teste da Fotografia: Verifique se todos os fatos, ações e elementos retratados caberiam simultaneamente dentro de uma única fotografia estática.",
+            "Ausência de Vetor Temporal: Observe se a inversão da ordem das frases altera a cronologia dos fatos. Se a reordenação mantiver o sentido do quadro sem quebrar uma cadeia de eventos, trata-se de descrição.",
+            "Foco Qualificador: Identifique se o objetivo discursivo primordial do trecho é responder à pergunta: \"Como é / como era este ser, objeto, cena ou objetivo?\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Descritivo Prototípico: \"A menina passeava pela calçada da avenida elegante do bairro e olhava as vitrines que exibiam uma imensa variedade de roupas finas e caras.\" (As ações de passear, olhar e a exibição das vitrines ocorrem simultaneamente no mesmo quadro temporal).",
+            "Contraexemplo (Narrativo): \"A menina entrou na loja, escolheu um vestido e pagou a conta.\" (As ações são consecutivas; a saída da calçada e a escolha do vestido exigem o avanço do tempo)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A descrição não se restringe a retratos visuais literários. Ela pode se manifestar em textos técnicos/institucionais na caracterização de objetivos abstratos ou em relatos epistolares descrevendo a rotina de um vilarejo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A13-G03-002 (Narração e Sucessividade).",
+            "Expande-se em: KB-A13-G03-003 (Pretérito Imperfeito) e KB-A13-G03-007 (Descrição no Presente).",
+            "Exemplificado por: EX-A13-G03-001, EX-A13-G03-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A narração é a tipologia textual caracterizada pelo relato de uma sequência de acontecimentos desenvolvidos em momentos sucessivos no tempo, protagonizados por personagens e articulados por relações de causa, efeito e transformação de estado. Sua estrutura discursiva é regida pelo princípio da sucessividade (relação explícita de \"antes e depois\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "A narrativa pressupõe a passagem ativa do tempo cronológico. Os fatos não coexistem estaticamente; eles se encadeiam em uma linha vetorial unidirecional:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O agente executa o Evento 1 (fato anterior);",
+            "O término do Evento 1 permite a ocorrência do Evento 2 (fato posterior);",
+            "O Evento 2 desencadeia o Evento 3, gerando progressão no enredo.",
+            "Intenção Comunicativa do Autor: Relatar uma história, expor um enredo, encadear acontecimentos dinâmicos dotados de introdução, complicação, clímax e/ou desfecho.",
+            "Marcadores Dinâmicos: Verbos de ação pontual, marcadores temporais adverbiais (depois, em seguida, logo que, anos atrás) e alternância de falas em diálogos (discurso direto e indireto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Teste do Vetor Cronológico (\"Antes e Depois\"): Verifique se os acontecimentos exigem uma ordem temporal irreversível, na qual uma ação depende da conclusão da ação precedente.",
+            "Inserção de Conectivos Ordinais: Teste a viabilidade de intercalar mentalmente marcadores como 1º... então... e depois.... Se o texto fluir com perfeita naturalidade lógica, a base é narrativa.",
+            "Presença de Diálogos: A troca de turnos verbais entre interlocutores é indício estrutural imediato de ação sucessiva e enredo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Narrativo Prototípico: \"O funcionário acabou de anotar um pedido, repousou a caneta e voltou-se para atender o cliente.\" (1º finalizou a anotação $\\rightarrow$ 2º pousou a caneta $\\rightarrow$ 3º virou o corpo para atender; ações impossíveis de ocorrer no mesmo instante físico).",
+            "Contraexemplo (Descritivo): \"O funcionário era alto, vestia um uniforme azul e segurava uma caneta prateada.\" (Atributos simultâneos do personagem; tempo estático)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A13-G03-001 (Descrição e Simultaneidade).",
+            "Expande-se em: KB-A13-G03-003 (Pretérito Perfeito) e KB-A13-G03-006 (Predominância Narrativa).",
+            "Exemplificado por: EX-A13-G03-002, EX-A13-G03-006, EX-A13-G03-007."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No registro formal padrão situado no passado, a tipologia descritiva associa-se comumente ao Pretérito Imperfeito do Indicativo (para registrar processos durativos, contínuos ou habituais), ao passo que a tipologia narrativa associa-se ao Pretérito Perfeito e ao Pretérito Mais-que-perfeito do Indicativo (para registrar ações pontuais, concluídas e sucessivas)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pretérito Imperfeito na Descrição (\"O tempo que dura\"):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A descrição sensorial de um cenário ou comportamento exige que a ação permaneça aberta e contínua no tempo psicológico do observador. Se a ação fosse estritamente instantânea, não haveria tempo para a contemplação e o detalhamento. Por isso, verbos no pretérito imperfeito (passeava, olhava, exibia, ensinava, anotavam) criam o \"pano de fundo\" estático da cena."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pretérito Perfeito na Narração (\"O tempo instantâneo\"):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pretérito perfeito expressa um fato delimitado, perfeito e completamente encerrado no passado (acabou, repousou, voltou-se, quis, respondeu). Cada ocorrência conclui um ciclo pontual e dispara a ação subsequente, fazendo a história avançar."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pretérito Mais-que-perfeito na Narração:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Situa uma ação pontual ocorrida em momento anterior a outro fato já pretérito (sucedera, recorrera, acabara, metera, despedira-se), organizando os estratos temporais de anterioridade da narrativa."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ao deparar-se com pretéritos imperfeitos, verifique se expressam a continuidade de um estado de fundo.",
+            "Ao deparar-se com pretéritos perfeitos e mais-que-perfeitos em série, reconheça a cadeia cronológica de impulsão dos eventos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G03-001, KB-A13-G03-002.",
+            "Possui alerta crítico: WARN-A13-G03-001 (Não tomar o tempo verbal como critério exclusivo).",
+            "Relacionado a: ORAL-A13-G03-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O Presente Histórico (ou Presente Narrativo) é um recurso estilístico-discursivo que consiste no emprego de formas verbais flexionadas no Presente do Indicativo para reportar fatos cronologicamente pretéritos, visando aproximar os eventos relatados do momento da enunciação, conferindo dinamismo, vivacidade e suspense."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Neutralidade Tipológica do Tempo Presente:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O tempo Presente do Indicativo é polivalente e pode sustentar tanto a narração quanto a descrição:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na Narração: Mantém a sucessividade cronológica intacta (acaba $\\rightarrow$ repousa $\\rightarrow$ volta-se / acorda $\\rightarrow$ toma banho $\\rightarrow$ toma café).",
+            "Na Descrição: Mantém a simultaneidade do quadro intacta (passeia, olha e exibe / acorda-se às cinco, leva-se o dia lendo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Universalidade de Aplicação:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O presente histórico não é restrito a grandes acontecimentos ou personagens da historiografia universal (\"Em 1492, Colombo descobre a América\" $\\rightarrow$ descobriu). Ele aplica-se indistintamente a fatos cotidianos triviais e cartas pessoais (\"Em 16/04/2004, Adriana acorda...\" $\\rightarrow$ acordou)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Equivalência Semântico-Funcional:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A flexão no presente atua com valor semântico de pretérito perfeito ou imperfeito, mantendo a estrutura temporal original inalterada."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identifique se o texto apresenta marcadores de passado (datas antigas, contexto pretérito) com verbos no presente.",
+            "Teste a substituição dos verbos no presente pelos seus equivalentes no pretérito perfeito/imperfeito. Se o sentido cronológico permanecer preservado, trata-se de presente histórico."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamenta: KB-A13-G03-005 (Temporalidade como critério supremo).",
+            "Evidenciado em: VIS-A13-G03-002, EX-A13-G03-003, EX-A13-G03-004.",
+            "Possui alerta: WARN-A13-G03-004 (Natureza estritamente estilística, não sintática)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A determinação da tipologia textual em provas de concursos públicos baseia-se exclusivamente em dois critérios hierarquicamente soberanos: a análise da temporalidade interna (se o tempo avança ou se está congelado) e a identificação da intenção comunicativa do autor (se o objetivo é contar uma história ou qualificar um elemento)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como a forma verbal isolada é ambígua e falha em discriminar tipos textuais (pois o presente pode ser narrativo ou descritivo, e a descrição pode ocorrer sem pretérito imperfeito), o candidato deve aplicar a regra de ouro:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pergunta da Intenção Autoral: \"Qual é a finalidade principal do emissor neste trecho?\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contar um fato com evolução de eventos? $\\rightarrow$ Narração.",
+            "Pormenorizar características, qualidades, rotinas ou finalidades? $\\rightarrow$ Descrição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pergunta da Temporalidade: \"As ações acontecem em momentos sucessivos (antes e depois) ou coexistem em um único instante (simultaneidade)?\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Momentos sucessivos / Tempo em movimento $\\rightarrow$ Narração.",
+            "Momento único / Tempo estático $\\rightarrow$ Descrição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Desconsidere desinências verbais isoladas caso entrem em conflito com a intenção pragmática e a dinâmica temporal do texto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sintetiza: KB-A13-G03-001, KB-A13-G03-002, KB-A13-G03-004.",
+            "Aplicado em: PROC-A13-G03-001, PROC-A13-G03-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em textos literários complexos (romances, contos, crônicas) e cartas em que coabitam sequências narrativas e descritivas, a banca examinadora Cebraspe adota o critério da predominância tipológica, reconhecendo que o texto é predominantemente narrativo com aspectos descritivos, uma vez que a espinha dorsal estrutural é o relato da sucessão de acontecimentos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Natureza dos Textos Híbridos:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dificilmente uma narrativa longa existirá sem passagens descritivas. O autor necessita caracterizar a fisionomia dos personagens, a textura dos objetos (\"chapéu de couro\", \"pedaços de carne\", \"espinhaço curvo\") e o ambiente para dar verossimilhança à história. Essas descrições atuam como adereços ou suporte cênico; não cancelam o eixo narrativo central."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Método de Checagem Estrutural:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Inspecione a abertura: o texto engata em ações e tempo cronológico?",
+            "Inspecione o meio: há diálogos (discurso direto/indireto) e encadeamento de eventos?",
+            "Inspecione o desfecho: as ações chegam a uma resolução cronológica?",
+            "Se o enredo avança no início e no fim, o texto é globalmente narrativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Tipologias de Enunciado no Cebraspe:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Itens Excludentes: Quando a questão força escolher se o texto é \"predominantemente narrativo\" ou \"predominantemente descritivo\", a narrativa vence.",
+            "Itens Cumulativos: Quando a questão afirma que o texto se desenvolve em \"sequências predominantemente descritivas e narrativas\", a banca valida a coabitação das duas tipologias sem exigir hierarquização estrita."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Não se deixe impressionar pela presença de adjetivos ou parágrafos descritivos pontuais no meio ou no fim do excerto. Avalie se há uma história sendo conduzida."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplica: KB-A13-G03-002, KB-A13-G03-005.",
+            "Exemplificado por: EX-A13-G03-006, EX-A13-G03-007, EX-A13-G03-008.",
+            "Possui alerta: WARN-A13-G03-003 (Armadilha da última linha do texto)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A tipologia descritiva não se manifesta exclusivamente no pretérito literário; ela estrutura frequentemente textos institucionais (detalhamento analítico de metas e competências no presente) e relatos de costumes (caracterização de rotinas habituais)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Descrição de Metas Institucionais:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando um texto institucional enumera atribuições ou detalha metas (\"Os objetivos perseguidos [...] são o aperfeiçoamento dos serviços, a harmonização de procedimentos, buscando uma regulação uniforme...\"), o uso do verbo ser no presente do indicativo desempenha função puramente descritivo-qualificadora de uma entidade abstrata através de núcleos substantivos e adjetivos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Descrição de Rotina Habitual:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando verbos no presente expressam ações cíclicas/rotineiras (\"acorda-se às cinco da manhã, leva-se o dia lendo...\"), inexiste um acontecimento pontual sucessivo com transformação de estado. O texto descreve o modo de vida e a atmosfera do local, mantendo valor tipológico descritivo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o trecho contiver verbos no presente, mas seu escopo for esmiuçar atributos, componentes ou hábitos contínuos sem encadear eventos em linha de antes e depois, classifique-o como passagem descritiva."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A13-G03-001, KB-A13-G03-004.",
+            "Exemplificado por: EX-A13-G03-005, EX-A13-G03-008.",
+            "Possui alerta: WARN-A13-G03-002."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A13-G03-001",
+          "title": "Tabela Canônica Comparativa",
+          "statement": "Tabela Canônica Comparativa",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela Canônica Comparativa."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A13-G03-001",
+              "table": {
+                "tableId": "TABLE-IP-A13-G03-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Eixo Analítico",
+                  "Tipo Textual DESCRIÇÃO",
+                  "Tipo Textual NARRAÇÃO"
+                ],
+                "rows": [
+                  [
+                    "Temporalidade Interna",
+                    "Simultaneidade (um único momento no tempo; tempo estático / congelado).",
+                    "Sucessividade (momentos sucessivos; tempo em evolução / linha de antes e depois)."
+                  ],
+                  [
+                    "Metáfora Operacional",
+                    "Fotografia (todos os elementos cabem em um único quadro visual estático).",
+                    "Filme / Cinema (sucessão de quadros móveis com mudança de estado)."
+                  ],
+                  [
+                    "Intenção Comunicativa",
+                    "Identificar, localizar, qualificar, caracterizar e detalhar objetos, cenas, pessoas, rotinas ou metas.",
+                    "Relatar acontecimentos, enredos, histórias e conflitos vivenciados por personagens."
+                  ],
+                  [
+                    "Tempos Verbais Típicos (Pretérito)",
+                    "Pretérito Imperfeito do Indicativo (ações durativas, de cenário, incompletas).",
+                    "Pretérito Perfeito / Mais-que-perfeito (ações instantâneas, pontuais, sucessivas)."
+                  ],
+                  [
+                    "Comportamento no Presente",
+                    "Presente Descritivo / Presente Histórico (caracterização de metas, rotinas ou quadros simultâneos).",
+                    "Presente Histórico / Narrativo (sucessão de ações pretéritas trazidas ao presente para criar vivacidade)."
+                  ],
+                  [
+                    "Elementos de Suporte",
+                    "Substantivos, adjetivos, locuções adjetivas e termos qualificadores.",
+                    "Verbos de ação, advérbios temporais, diálogos e discurso direto/indireto."
+                  ],
+                  [
+                    "Regra de Predominância (Cebraspe)",
+                    "Atua predominantemente como suporte cênico ou detalhamento de passagens em obras narrativas.",
+                    "Prevalece estruturalmente em romances, contos e crônicas híbridas com evolução de enredo."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A13-G03-001",
+          "title": "Protocolo Universal de Discriminação entre Narração e Descrição",
+          "objective": "Executar o algoritmo decisório para Protocolo Universal de Discriminação entre Narração e Descrição",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo Universal de Discriminação entre Narração e Descrição."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Contar história / relatar fatos? ──> Confirmação Plena da NARRAÇÃO.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Qualificar / detalhar atributos? ──> Confirmação Plena da DESCRIÇÃO.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo Universal de Discriminação entre Narração e Descrição."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Determinar com exatidão matemática a tipologia de qualquer excerto de prova de concurso público, eliminando falsas deduções baseadas apenas na terminação verbal."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fluxograma Operacional"
+            },
+            {
+              "type": "paragraph",
+              "text": "text [FRAGMENTO TEXTUAL DE PROVA] │ ▼ PASSO 1: Mapear as ações, estados e intenção discursiva central │ ▼ PASSO 2: Aplicar o Teste da Temporalidade Interna ───────────────────────────────────────────────── As ações / estados ocorrem em momentos cronológicos sucessivos? │ ┌─────────────────┴─────────────────┐ ▼ ▼ [SIM] [NÃO] │ │ ▼ ▼ O tempo avançou? As ações e atributos coexistem Há linha de \"antes e depois\"? em um só instante (fotografia)? (Teste: \"1º... depois... então\") (Teste: \"Cena congelada\") │ │ ▼ ▼ ┌───────────┐ ┌───────────┐ │ NARRAÇÃO │ │ DESCRIÇÃO │ └───────────┘ └───────────┘ │ │ ▼ ▼ PASSO 3: Validação Secundária por Intenção Comunicativa"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Contar história / relatar fatos? ──> Confirmação Plena da NARRAÇÃO.",
+                "Qualificar / detalhar atributos? ──> Confirmação Plena da DESCRIÇÃO."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A13-G03-002",
+          "title": "Método de Avaliação de Predominância Tipológica em Textos Híbridos (Cebraspe)",
+          "objective": "Executar o algoritmo decisório para Método de Avaliação de Predominância Tipológica em Textos Híbridos (Cebraspe)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Avaliação de Predominância Tipológica em Textos Híbridos (Cebraspe)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Identificar o Tipo de Proposição da Banca",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Proposição de Predomínio Excludente",
+              "explanation": "A banca afirma que o texto é \"predominantemente narrativo\" ou \"predominantemente descritivo\".",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Proposição Cumulativa",
+              "explanation": "A banca afirma que o texto desenvolve-se em \"sequências predominantemente descritivas e narrativas\".",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 — Inspeção Tripartite do Texto (Abertura, Meio e Desfecho)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Abertura",
+              "explanation": "Verifique se o primeiro parágrafo introduz o tempo, o espaço e inicia uma ação ou lembrança de personagem.",
+              "test": "Abertura: Verifique se o primeiro parágrafo introduz o tempo, o espaço e inicia uma ação ou lembrança de personagem."
+            },
+            {
+              "order": 6,
+              "action": "Meio",
+              "explanation": "Verifique se as descrições de cenários e personagens servem de apoio a diálogos ou conflitos.",
+              "test": "Meio: Verifique se as descrições de cenários e personagens servem de apoio a diálogos ou conflitos."
+            },
+            {
+              "order": 7,
+              "action": "Desfecho",
+              "explanation": "Verifique se os parágrafos finais mostram uma tomada de decisão, ação conclusiva ou encerramento do evento narrado.",
+              "test": "Desfecho: Verifique se os parágrafos finais mostram uma tomada de decisão, ação conclusiva ou encerramento do evento narrado."
+            },
+            {
+              "order": 8,
+              "action": "Passo 3 — Regra de Decisão",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Se o item for excludente e houver enredo avançando no início e no fim, marque Predominantemente Narrativo. Se a banca afirmar que é \"predominantemente descritivo\", marque ERRADO.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Se o item for cumulativo e reconhecer a coexistência de ambas as sequências, marque CERTO.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Avaliação de Predominância Tipológica em Textos Híbridos (Cebraspe)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Resolver itens de julgamento (Certo/Errado ou Múltipla Escolha) que abordam predominância tipológica em contos, romances ou crônicas."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos de Aplicação"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Identificar o Tipo de Proposição da Banca:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Proposição de Predomínio Excludente: A banca afirma que o texto é \"predominantemente narrativo\" ou \"predominantemente descritivo\".",
+                "Proposição Cumulativa: A banca afirma que o texto desenvolve-se em \"sequências predominantemente descritivas e narrativas\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2 — Inspeção Tripartite do Texto (Abertura, Meio e Desfecho):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Abertura: Verifique se o primeiro parágrafo introduz o tempo, o espaço e inicia uma ação ou lembrança de personagem.",
+                "Meio: Verifique se as descrições de cenários e personagens servem de apoio a diálogos ou conflitos.",
+                "Desfecho: Verifique se os parágrafos finais mostram uma tomada de decisão, ação conclusiva ou encerramento do evento narrado."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3 — Regra de Decisão:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se o item for excludente e houver enredo avançando no início e no fim, marque Predominantemente Narrativo. Se a banca afirmar que é \"predominantemente descritivo\", marque ERRADO.",
+                "Se o item for cumulativo e reconhecer a coexistência de ambas as sequências, marque CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A13-G03-001",
+          "title": "1. Pretérito Imperfeito na Descrição vs. Pretérito Imperfeito na Narração",
+          "contrastType": "mixed",
+          "conceptA": "1. Pretérito Imperfeito na Descrição vs. Pretérito Imperfeito na Narração",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Na Descrição: O imperfeito marca a duração contínua de elementos que compõem o cenário estático (\"A menina passeava e olhava as vitrines\").",
+                "Na Narração: Pode atuar excepcionalmente como marcador de ação habitual pretérita de suporte (\"Antigamente ele visitava a praça todos os dias...\"), mas o avanço da trama exigirá verbos no pretérito perfeito (\"...até que um dia encontrou o envelope\")."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A13-G03-002",
+          "title": "2. Presente Histórico Literário vs. Presente Descritivo Institucional",
+          "contrastType": "mixed",
+          "conceptA": "2. Presente Histórico Literário vs. Presente Descritivo Institucional",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Presente Histórico: Substitui o pretérito para relatar uma história dinâmica com ações em cadeia (\"Em 1911, chego, monto a cavalo e desço no lajedo\").",
+                "Presente Descritivo Institucional: Não substitui o pretérito; expressa o estado permanente, estrutural e analítico de metas e atribuições (\"Os objetivos do órgão são a modernização e a capacitação\")."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A13-G03-003",
+          "title": "3. Itens Excludentes vs. Itens Cumulativos no Cebraspe",
+          "contrastType": "mixed",
+          "conceptA": "3. Itens Excludentes vs. Itens Cumulativos no Cebraspe",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item Excludente (Disputa): \"O texto é predominantemente descritivo.\" $\\rightarrow$ Em textos literários com história, a banca exige assinalar Errado, pois a narração prevalece.",
+                "Item Cumulativo (Convivência): \"O texto desenvolve-se em sequências predominantemente descritivas e narrativas.\" $\\rightarrow$ A banca valida a presença substancial de ambos os tipos, devendo o candidato assinalar Certo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-001",
+          "title": "EX-A13-G03-001 — Exemplo Prototípico de Descrição (A Menina e as Vitrines)",
+          "prompt": "Texto Base: \"A menina passeava pela calçada da avenida elegante do bairro e olhava as vitrines que exibiam uma imensa variedade de roupas finas e caras.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"A menina passeava pela calçada da avenida elegante do bairro e olhava as vitrines que exibiam uma imensa variedade de roupas finas e caras.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Gramatical e Semântica",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbos",
+              "rationale": "passeava, olhava, exibiam (todos no Pretérito Imperfeito do Indicativo)."
+            },
+            {
+              "order": 4,
+              "action": "Relação Temporal",
+              "rationale": "Simultaneidade. Enquanto caminha, ela olha a vitrine, que está exibindo os produtos no mesmo recorte de tempo."
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Texto Descritivo puro (Simultaneidade / Fotografia)."
+            }
+          ],
+          "result": "Classificação: Texto Descritivo puro (Simultaneidade / Fotografia).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-001 — Exemplo Prototípico de Descrição (A Menina e as Vitrines) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-001 — Exemplo Prototípico de Descrição (A Menina e as Vitrines).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-001 — Exemplo Prototípico de Descrição (A Menina e as Vitrines).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"A menina passeava pela calçada da avenida elegante do bairro e olhava as vitrines que exibiam uma imensa variedade de roupas finas e caras.\"",
+                "Análise Gramatical e Semântica:",
+                "Verbos: passeava, olhava, exibiam (todos no Pretérito Imperfeito do Indicativo).",
+                "Relação Temporal: Simultaneidade. Enquanto caminha, ela olha a vitrine, que está exibindo os produtos no mesmo recorte de tempo.",
+                "Classificação: Texto Descritivo puro (Simultaneidade / Fotografia)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-002",
+          "title": "EX-A13-G03-002 — Exemplo Prototípico de Narração (O Funcionário e o Pedido)",
+          "prompt": "Texto Base: \"O funcionário acabou de anotar um pedido, repousou a caneta e voltou-se para atender o cliente.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"O funcionário acabou de anotar um pedido, repousou a caneta e voltou-se para atender o cliente.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Gramatical e Semântica",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Verbos",
+              "rationale": "acabou de anotar (locução no Pretérito Perfeito), repousou (Pretérito Perfeito), voltou-se (Pretérito Perfeito)."
+            },
+            {
+              "order": 4,
+              "action": "Relação Temporal",
+              "rationale": "Sucessividade. Ação 1 (termina anotação) $\\rightarrow$ Ação 2 (pousa a caneta) $\\rightarrow$ Ação 3 (vira o corpo)."
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "rationale": "Texto Narrativo puro (Sucessividade / Antes e Depois)."
+            }
+          ],
+          "result": "Classificação: Texto Narrativo puro (Sucessividade / Antes e Depois).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-002 — Exemplo Prototípico de Narração (O Funcionário e o Pedido) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-002 — Exemplo Prototípico de Narração (O Funcionário e o Pedido).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-002 — Exemplo Prototípico de Narração (O Funcionário e o Pedido).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"O funcionário acabou de anotar um pedido, repousou a caneta e voltou-se para atender o cliente.\"",
+                "Análise Gramatical e Semântica:",
+                "Verbos: acabou de anotar (locução no Pretérito Perfeito), repousou (Pretérito Perfeito), voltou-se (Pretérito Perfeito).",
+                "Relação Temporal: Sucessividade. Ação 1 (termina anotação) $\\rightarrow$ Ação 2 (pousa a caneta) $\\rightarrow$ Ação 3 (vira o corpo).",
+                "Classificação: Texto Narrativo puro (Sucessividade / Antes e Depois)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-003",
+          "title": "EX-A13-G03-003 — Demonstração de Presente Histórico em Contexto Descritivo e Narrativo",
+          "prompt": "Variação Descritiva no Presente: \"A menina passeia pela calçada da avenida elegante do bairro e olha as vitrines que exibem uma imensa variedade de roupas finas e caras.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Variação Descritiva no Presente",
+              "rationale": "\"A menina passeia pela calçada da avenida elegante do bairro e olha as vitrines que exibem uma imensa variedade de roupas finas e caras.\""
+            },
+            {
+              "order": 2,
+              "action": "Diagnóstico",
+              "rationale": "Continua descritivo, pois a simultaneidade entre passear, olhar e exibir permanece estática."
+            },
+            {
+              "order": 3,
+              "action": "Variação Narrativa no Presente",
+              "rationale": "\"O funcionário acaba de anotar um pedido, repousa a caneta e volta-se para atender o cliente.\""
+            },
+            {
+              "order": 4,
+              "action": "Diagnóstico",
+              "rationale": "Continua narrativo, pois a cadeia sucessiva de ações (1º acaba $\\rightarrow$ 2º repousa $\\rightarrow$ 3º volta-se) permanece sequencial no tempo."
+            }
+          ],
+          "result": "Diagnóstico: Continua narrativo, pois a cadeia sucessiva de ações (1º acaba $\\rightarrow$ 2º repousa $\\rightarrow$ 3º volta-se) permanece sequencial no tempo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-003 — Demonstração de Presente Histórico em Contexto Descritivo e Narrativo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-003 — Demonstração de Presente Histórico em Contexto Descritivo e Narrativo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-003 — Demonstração de Presente Histórico em Contexto Descritivo e Narrativo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Variação Descritiva no Presente: \"A menina passeia pela calçada da avenida elegante do bairro e olha as vitrines que exibem uma imensa variedade de roupas finas e caras.\"",
+                "Diagnóstico: Continua descritivo, pois a simultaneidade entre passear, olhar e exibir permanece estática.",
+                "Variação Narrativa no Presente: \"O funcionário acaba de anotar um pedido, repousa a caneta e volta-se para atender o cliente.\"",
+                "Diagnóstico: Continua narrativo, pois a cadeia sucessiva de ações (1º acaba $\\rightarrow$ 2º repousa $\\rightarrow$ 3º volta-se) permanece sequencial no tempo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-004",
+          "title": "EX-A13-G03-004 — Presente Histórico Clássico vs. Cotidiano (Sacada 2)",
+          "prompt": "Exemplo 1 (Fato Histórico): \"Em 1492, Colombo descobre a América.\" $\\rightarrow$ descobre (presente) equivale a descobriu (pretérito perfeito).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Exemplo 1 (Fato Histórico)",
+              "rationale": "\"Em 1492, Colombo descobre a América.\" $\\rightarrow$ descobre (presente) equivale a descobriu (pretérito perfeito)."
+            },
+            {
+              "order": 2,
+              "action": "Exemplo 2 (Fato Cotidiano)",
+              "rationale": "\"Às 12 horas do dia 16/04 de 2004, Adriana acorda, toma banho, toma café...\" $\\rightarrow$ acorda, toma (presente) equivalem a acordou, tomou (pretérito perfeito). Ambos configuram narração em presente histórico."
+            }
+          ],
+          "result": "Exemplo 2 (Fato Cotidiano): \"Às 12 horas do dia 16/04 de 2004, Adriana acorda, toma banho, toma café...\" $\\rightarrow$ acorda, toma (presente) equivalem a acordou, tomou (pretérito perfeito). Ambos configuram narração em presente histórico.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-004 — Presente Histórico Clássico vs. Cotidiano (Sacada 2) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-004 — Presente Histórico Clássico vs. Cotidiano (Sacada 2).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-004 — Presente Histórico Clássico vs. Cotidiano (Sacada 2).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Exemplo 1 (Fato Histórico): \"Em 1492, Colombo descobre a América.\" $\\rightarrow$ descobre (presente) equivale a descobriu (pretérito perfeito).",
+                "Exemplo 2 (Fato Cotidiano): \"Às 12 horas do dia 16/04 de 2004, Adriana acorda, toma banho, toma café...\" $\\rightarrow$ acorda, toma (presente) equivalem a acordou, tomou (pretérito perfeito). Ambos configuram narração em presente histórico."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-005",
+          "title": "EX-A13-G03-005 — Questão Cebraspe: TJ-SE (Passagem Descritiva Institucional)",
+          "prompt": "Órgão / Banca: CEBRASPE – TJ-SE – Titular de Serviços de Notas e de Registros.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Órgão / Banca",
+              "rationale": "CEBRASPE – TJ-SE – Titular de Serviços de Notas e de Registros."
+            },
+            {
+              "order": 2,
+              "action": "Excerto Avaliado",
+              "rationale": "\"Os objetivos perseguidos pelas entidades representativas de notários e registradores bandeirantes são o aperfeiçoamento dos serviços, a harmonização de procedimentos, buscando uma regulação uniforme nas atividades notariais e registrais.\""
+            },
+            {
+              "order": 3,
+              "action": "Item de Prova",
+              "rationale": "\"A referência aos 'objetivos perseguidos' (L.8-9) faz parte de uma passagem descritiva do texto.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução e Justificativa",
+              "rationale": "O trecho detalha, qualifica e caracteriza os objetivos institucionais por meio de núcleos substantivos e adjetivos. Embora o verbo são esteja no presente do indicativo, a intenção comunicativa é caracterizadora, sem avanço temporal."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito Oficial",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-005 — Questão Cebraspe: TJ-SE (Passagem Descritiva Institucional) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-005 — Questão Cebraspe: TJ-SE (Passagem Descritiva Institucional).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-005 — Questão Cebraspe: TJ-SE (Passagem Descritiva Institucional).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Órgão / Banca: CEBRASPE – TJ-SE – Titular de Serviços de Notas e de Registros.",
+                "Excerto Avaliado: \"Os objetivos perseguidos pelas entidades representativas de notários e registradores bandeirantes são o aperfeiçoamento dos serviços, a harmonização de procedimentos, buscando uma regulação uniforme nas atividades notariais e registrais.\"",
+                "Item de Prova: \"A referência aos 'objetivos perseguidos' (L.8-9) faz parte de uma passagem descritiva do texto.\"",
+                "Resolução e Justificativa: O trecho detalha, qualifica e caracteriza os objetivos institucionais por meio de núcleos substantivos e adjetivos. Embora o verbo são esteja no presente do indicativo, a intenção comunicativa é caracterizadora, sem avanço temporal.",
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-006",
+          "title": "EX-A13-G03-006 — Questão Cebraspe: InoversaSul 2025 (Predominância Narrativa em Vidas Secas)",
+          "prompt": "Órgão / Banca: CESPE / CEBRASPE – 2025 – InoversaSul – Analista Administrativo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Órgão / Banca",
+              "rationale": "CESPE / CEBRASPE – 2025 – InoversaSul – Analista Administrativo."
+            },
+            {
+              "order": 2,
+              "action": "Excerto Avaliado",
+              "rationale": "Trecho de Vidas Secas (Graciliano Ramos) relatando o episódio em que Fabiano recorda a venda de um porco e o embate com o fiscal da prefeitura."
+            },
+            {
+              "order": 3,
+              "action": "Item de Prova",
+              "rationale": "\"Predomina no texto o tipo textual narrativo.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução e Justificativa",
+              "rationale": "O excerto inicia com ações encadeadas no passado (Recordou-se, sucedera, recorrera), contém descrições acessórias de suporte (quartos de porco, pedaços de carne, chapéu de couro) e culmina em diálogos e no desfecho da ação (Despedira-se, metera a carne no saco e fora vendê-la). A macroestrutura é uma história com progressão temporal."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito Oficial",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-006 — Questão Cebraspe: InoversaSul 2025 (Predominância Narrativa em Vidas Secas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-006 — Questão Cebraspe: InoversaSul 2025 (Predominância Narrativa em Vidas Secas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-006 — Questão Cebraspe: InoversaSul 2025 (Predominância Narrativa em Vidas Secas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Órgão / Banca: CESPE / CEBRASPE – 2025 – InoversaSul – Analista Administrativo.",
+                "Excerto Avaliado: Trecho de Vidas Secas (Graciliano Ramos) relatando o episódio em que Fabiano recorda a venda de um porco e o embate com o fiscal da prefeitura.",
+                "Item de Prova: \"Predomina no texto o tipo textual narrativo.\"",
+                "Resolução e Justificativa: O excerto inicia com ações encadeadas no passado (Recordou-se, sucedera, recorrera), contém descrições acessórias de suporte (quartos de porco, pedaços de carne, chapéu de couro) e culmina em diálogos e no desfecho da ação (Despedira-se, metera a carne no saco e fora vendê-la). A macroestrutura é uma história com progressão temporal.",
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-007",
+          "title": "EX-A13-G03-007 — Questão Cebraspe: PG-DF (Clarice Lispector e a Falsa Predominância Descritiva)",
+          "prompt": "Órgão / Banca: CEBRASPE – PG-DF – Técnico Jurídico.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Órgão / Banca",
+              "rationale": "CEBRASPE – PG-DF – Técnico Jurídico."
+            },
+            {
+              "order": 2,
+              "action": "Excerto Avaliado",
+              "rationale": "Excerto de A Paixão segundo G. H. (Clarice Lispector) descrevendo o processo de rememoração da protagonista em relação à empregada Janair."
+            },
+            {
+              "order": 3,
+              "action": "Item de Prova",
+              "rationale": "\"No que se refere à tipologia, o texto é predominantemente descritivo.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução e Justificativa",
+              "rationale": "O texto inicia com um estado (me coagia), mas logo desenvolve uma sucessão de eventos cronológicos de rememoração no pretérito (Quis lembrar-me, não consegui, acabara, lembrei-me, consegui rememorar, Revi). As frases descritivas finais (traços finos e delicados) são apenas o fechamento de um processo narrativo. O texto é predominantemente narrativo com aspectos descritivos."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito Oficial",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito Oficial: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-007 — Questão Cebraspe: PG-DF (Clarice Lispector e a Falsa Predominância Descritiva) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-007 — Questão Cebraspe: PG-DF (Clarice Lispector e a Falsa Predominância Descritiva).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-007 — Questão Cebraspe: PG-DF (Clarice Lispector e a Falsa Predominância Descritiva).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Órgão / Banca: CEBRASPE – PG-DF – Técnico Jurídico.",
+                "Excerto Avaliado: Excerto de A Paixão segundo G. H. (Clarice Lispector) descrevendo o processo de rememoração da protagonista em relação à empregada Janair.",
+                "Item de Prova: \"No que se refere à tipologia, o texto é predominantemente descritivo.\"",
+                "Resolução e Justificativa: O texto inicia com um estado (me coagia), mas logo desenvolve uma sucessão de eventos cronológicos de rememoração no pretérito (Quis lembrar-me, não consegui, acabara, lembrei-me, consegui rememorar, Revi). As frases descritivas finais (traços finos e delicados) são apenas o fechamento de um processo narrativo. O texto é predominantemente narrativo com aspectos descritivos.",
+                "Gabarito Oficial: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G03-008",
+          "title": "EX-A13-G03-008 — Questão Cebraspe: Câmara de Maceió 2024 (Sequências Mistas em Carta de Graciliano)",
+          "prompt": "Órgão / Banca: CEBRASPE – 2024 – Câmara de Maceió - AL – Analista Administrativo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Órgão / Banca",
+              "rationale": "CEBRASPE – 2024 – Câmara de Maceió - AL – Analista Administrativo."
+            },
+            {
+              "order": 2,
+              "action": "Excerto Avaliado",
+              "rationale": "Carta de Graciliano Ramos datada de 1911 em Maniçoba (\"Aqui cheguei... acorda-se às cinco... leva-se o dia lendo... Fui visitar o tal Lajedo... Diga a meu pai...\")."
+            },
+            {
+              "order": 3,
+              "action": "Item de Prova",
+              "rationale": "\"O texto se desenvolve em sequências tipológicas predominantemente descritivas e narrativas.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução e Justificativa",
+              "rationale": "A carta integra sequências narrativas de viagem (cheguei, fui visitar, não vi) com sequências descritivas de rotina e hábitos no presente histórico (acorda-se às cinco, leva-se o dia lendo), além de interlocução epistolar. A proposição reconhece cumulativamente a presença de ambas as tipologias sem forçar exclusão."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito Oficial",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A13-G03-008 — Questão Cebraspe: Câmara de Maceió 2024 (Sequências Mistas em Carta de Graciliano) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A13-G03-008 — Questão Cebraspe: Câmara de Maceió 2024 (Sequências Mistas em Carta de Graciliano).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A13-G03-008 — Questão Cebraspe: Câmara de Maceió 2024 (Sequências Mistas em Carta de Graciliano).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Órgão / Banca: CEBRASPE – 2024 – Câmara de Maceió - AL – Analista Administrativo.",
+                "Excerto Avaliado: Carta de Graciliano Ramos datada de 1911 em Maniçoba (\"Aqui cheguei... acorda-se às cinco... leva-se o dia lendo... Fui visitar o tal Lajedo... Diga a meu pai...\").",
+                "Item de Prova: \"O texto se desenvolve em sequências tipológicas predominantemente descritivas e narrativas.\"",
+                "Resolução e Justificativa: A carta integra sequências narrativas de viagem (cheguei, fui visitar, não vi) com sequências descritivas de rotina e hábitos no presente histórico (acorda-se às cinco, leva-se o dia lendo), além de interlocução epistolar. A proposição reconhece cumulativamente a presença de ambas as tipologias sem forçar exclusão.",
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: Ao ler o fragmento da prova, visualize mentalmente a cena:",
+            "Se todos os elementos, ações e personagens couberem estaticamente em uma única fotografia, o trecho é descritivo.",
+            "Se for necessário um filme (material) com sucessão de quadros para mostrar o desenrolar das ações e transformações de estado, o trecho é narrativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: Tente inserir mentalmente os conectores Primeiro... depois... e em seguida... entre as orações do texto. Se o excerto aceitar essa seriação ordinal sem prejuízo semântico, o texto é indubitavelmente narrativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: A presença de travessões de diálogo, aspas de falas diretas ou verbos de elocução (disse, respondeu, perguntou) sinaliza ações verbais sucessivas no tempo, constituindo evidência cabal de pertencimento à macroestrutura narrativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: Observe a redação do item Cebraspe:",
+            "Excludente: \"O texto é predominantemente descritivo.\" $\\rightarrow$ Questione se há história. Havendo história, marque Errado.",
+            "Cumulativa: \"O texto desenvolve-se em sequências predominantemente descritivas e narrativas.\" $\\rightarrow$ A banca valida a presença mista; marque Certo."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A13-G03-001",
+          "title": "A Armadilha da Fixação Cega em Tempos Verbais",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da Fixação Cega em Tempos Verbais no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da Fixação Cega em Tempos Verbais.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da Fixação Cega em Tempos Verbais.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha da Fixação Cega em Tempos Verbais para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha da Fixação Cega em Tempos Verbais.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da Fixação Cega em Tempos Verbais.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Decorar a fórmula rasa de que \"Pretérito Imperfeito = Descrição\" e \"Pretérito Perfeito = Narração\", assumindo erroneamente que qualquer texto no Presente é dissertativo ou expositivo.",
+                "A Pegadinha das Bancas: Examinadores formulam narrativas inteiras no Presente Histórico para induzir o candidato a descartar a narração por falta de pretérito perfeito.",
+                "A Conduta Correta: Analisar a temporalidade interna. Se houver sucessão de fatos no presente, é narração; se houver simultaneidade de caracterizações no presente, é descrição."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G03-002",
+          "title": "O Mito da Exclusividade do Pretérito Imperfeito na Descrição",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Mito da Exclusividade do Pretérito Imperfeito na Descrição no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Mito da Exclusividade do Pretérito Imperfeito na Descrição.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Mito da Exclusividade do Pretérito Imperfeito na Descrição.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Mito da Exclusividade do Pretérito Imperfeito na Descrição para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Mito da Exclusividade do Pretérito Imperfeito na Descrição.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Mito da Exclusividade do Pretérito Imperfeito na Descrição.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Achar que descrições só ocorrem em romances bucólicos antigos do tipo \"A casa era grande e tinha janelas azuis\".",
+                "A Pegadinha das Bancas: Apresentar trechos de textos institucionais ou jurídicos que caracterizam objetivos e competências no Presente do Indicativo.",
+                "A Conduta Correta: Reconhecer que o detalhamento de finalidades institucionais via substantivos e adjetivos configura passagem descritiva."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G03-003",
+          "title": "A Armadilha da \"Última Linha\" em Textos Literários",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da \"Última Linha\" em Textos Literários no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da \"Última Linha\" em Textos Literários.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da \"Última Linha\" em Textos Literários.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha da \"Última Linha\" em Textos Literários para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha da \"Última Linha\" em Textos Literários.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da \"Última Linha\" em Textos Literários.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Ler apenas as duas últimas frases do fragmento de prova e encontrar um adjetivo ou detalhe visual (ex.: \"traços finos e delicados\"), concluindo precipitadamente que o texto inteiro é descritivo.",
+                "A Conduta Correta: Inspecionar o parágrafo como um todo. A última pincelada descritiva frequentemente encerra um longo processo de ações narrativas."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G03-004",
+          "title": "Confundir Presente Histórico Estilístico com Fenômeno Sintático",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Presente Histórico Estilístico com Fenômeno Sintático no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Presente Histórico Estilístico com Fenômeno Sintático.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Presente Histórico Estilístico com Fenômeno Sintático.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Presente Histórico Estilístico com Fenômeno Sintático para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Presente Histórico Estilístico com Fenômeno Sintático.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Presente Histórico Estilístico com Fenômeno Sintático.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Associar o encadeamento de verbos no presente histórico a questões sintáticas de elipse, sujeito indeterminado ou oculto.",
+                "A Conduta Correta: Tratar o presente histórico estritamente como um recurso estilístico-discursivo de dinamização e aproximação temporal."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Decorar a fórmula rasa de que \"Pretérito Imperfeito = Descrição\" e \"Pretérito Perfeito = Narração\", assumindo erroneamente que qualquer texto no Presente é dissertativo ou expositivo.",
+            "A Pegadinha das Bancas: Examinadores formulam narrativas inteiras no Presente Histórico para induzir o candidato a descartar a narração por falta de pretérito perfeito.",
+            "A Conduta Correta: Analisar a temporalidade interna. Se houver sucessão de fatos no presente, é narração; se houver simultaneidade de caracterizações no presente, é descrição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Achar que descrições só ocorrem em romances bucólicos antigos do tipo \"A casa era grande e tinha janelas azuis\".",
+            "A Pegadinha das Bancas: Apresentar trechos de textos institucionais ou jurídicos que caracterizam objetivos e competências no Presente do Indicativo.",
+            "A Conduta Correta: Reconhecer que o detalhamento de finalidades institucionais via substantivos e adjetivos configura passagem descritiva."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Ler apenas as duas últimas frases do fragmento de prova e encontrar um adjetivo ou detalhe visual (ex.: \"traços finos e delicados\"), concluindo precipitadamente que o texto inteiro é descritivo.",
+            "A Conduta Correta: Inspecionar o parágrafo como um todo. A última pincelada descritiva frequentemente encerra um longo processo de ações narrativas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Associar o encadeamento de verbos no presente histórico a questões sintáticas de elipse, sujeito indeterminado ou oculto.",
+            "A Conduta Correta: Tratar o presente histórico estritamente como um recurso estilístico-discursivo de dinamização e aproximação temporal."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Estrutura discursiva voltada para a caracterização, localização e qualificação estática de seres, cenários, objetos, rotinas ou objetivos abstratos em um único recorte temporal invariável (Simultaneidade / \"Fotografia\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estrutura discursiva voltada para o relato de acontecimentos e ações sucessivas protagonizadas por personagens ao longo de uma linha temporal vetorial dinâmica (Sucessividade / \"Antes e Depois\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Categoria discursiva que avalia a relação interna dos enunciados com o avanço cronológico do tempo (dinâmico/sucessivo) ou com a sua estagnação (estático/simultâneo). Constitui o critério determinante supremo de discriminação tipológica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade temporal na qual dois ou mais estados, ações ou atributos coexistem em um mesmo ponto da linha do tempo, configurando a base da tipologia descritiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade temporal na qual os acontecimentos ocorrem encadeados cronologicamente em relações de anterioridade e posterioridade (\"antes e depois\"), configurando a base da tipologia narrativa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Emprego de formas verbais no Presente do Modo Indicativo para designar acontecimentos situados cronologicamente no passado. Atua como recurso de vivacidade e suspense sem alterar a tipologia do texto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finalidade pragmática primária do emissor do texto (ex.: relatar uma história vs. caracterizar propriedades/metas). Critério analítico definitivo para interpretar passagens descritivas formuladas no presente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conceito que reconhece a coexistência de múltiplas sequências tipológicas em um mesmo texto (hibridismo), identificando qual tipo comanda a macroestrutura discursiva e atende ao propósito comunicativo central."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo do grupo G03, o estudante deve dominar com segurança as seguintes competências operacionais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Superar a Análise Mecânica de Tempos Verbais: Compreender que o Pretérito Imperfeito não é exclusividade da descrição e que o Pretérito Perfeito não é a única forma de narrar.",
+            "Dominar o Critério da Temporalidade: Saber diagnosticar se as ações do fragmento coexistem em um único instante estático (Simultaneidade $\\rightarrow$ Descrição) ou se avançam em uma linha vetorial cronológica irreversível (Sucessividade / Antes e Depois $\\rightarrow$ Narração).",
+            "Compreender e Identificar o Presente Histórico: Reconhecer que o uso do Presente do Indicativo no lugar do Pretérito é um recurso estilístico de aproximação que pode figurar tanto em narrações quanto em descrições (neutralidade tipológica).",
+            "Identificar Descrições Institucionais e de Rotinas: Reconhecer que o detalhamento de metas institucionais no presente (IRIB) ou de hábitos periódicos em cartas configura passagem descritiva.",
+            "Resolver Itens de Predominância no Cebraspe: Saber que em obras literárias híbridas contendo histórias com início, diálogos e fim, o texto é predominantemente narrativo com aspectos descritivos, e reconhecer a validade de formulações cumulativas da banca."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula13.q0027",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ==2920c1==\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ==2920c1=="
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "explanation": "O texto traz um comando, com verbo no imperativo e sugere seguir um passo a passo, uma lista de\ninstruções. Temos texto injuntivo.\nGabarito letra B.",
+      "questionSha256": "a23e16757deb22136ec3e1bc79e3b7509912d9cdb27c078ff8860f9b6a99f3d4",
+      "answerSha256": "e89d14fd9d95a46bbb3a06955e21c6a7261ed98f18307a7720bd8bb9e86ceef7",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0030",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo."
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "explanation": "O texto traz um comando, com verbo no imperativo e sugere seguir um passo a passo, uma lista\nde instruções. Temos texto injuntivo.\nGabarito letra B.",
+      "questionSha256": "d5b0ee7dec0eada32148712503ca54fb416fb204235d42c7b38085e524ec2d07",
+      "answerSha256": "3f5c0b9b26941d3219f1f484123d77b6033239eda3562a0de0a2fec10cc5e7e3",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0058",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo."
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "questionSha256": "7d3055d0fdf3debf62837345837992c3c231f3012c5b7cd12c111bf09860c7b4",
+      "answerSha256": "ea90404fa9c6bd06d3caa2c4522e55e58a2d8d35d06b65f02f8c72aaa6b56f02",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0055",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "APEX BRASIL",
+      "year": 2022,
+      "prompt": "Quanto à tipologia textual, o último parágrafo do texto CB2A1-I é predominantemente\nA) descritivo.\nB) injuntivo.\nC) expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ==2920c1==\nD) dissertativo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "descritivo."
+        },
+        {
+          "label": "B",
+          "text": "injuntivo."
+        },
+        {
+          "label": "C",
+          "text": "expositivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ==2920c1=="
+        },
+        {
+          "label": "D",
+          "text": "dissertativo."
+        }
+      ],
+      "officialAnswer": "letter_B",
+      "questionSha256": "0162287bf4b10bd7cce13d3575369b62a4fd1e678c8260e075db295b0767c30f",
+      "answerSha256": "c61064cd32e68a5c2411a26ec9ba9cdfabee900aa2a1a457011ed86a9104cf48",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Narração e Descrição."
+        }
+      ]
+    },
+    {
+      "questionId": "aula13.q0166",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PGE-PE",
+      "year": 2019,
+      "prompt": "Utilize o texto da\nquestão anterior.\nConforme o  texto, a  Terceira Revolução  Industrial  foi o evento  histórico responsável por\ntransformar o empregado em simples mercadoria do processo de produção.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Seguindo a literalidade, conforme o texto, o responsável é o Modelo Capitalista. Leiamos no\ntexto essa afirmação:\nO modelo econômico de produção  capitalista, aperfeiçoado pelos avanços  científicos e\ntecnológicos que, por sua vez, proporcionaram a reestruturação da produção e a Terceira\nRevolução Industrial, retirou do trabalho seu valor, transformando o empregado em simples\nmercadoria inserta no processo de produção. Questão incorreta.",
+      "questionSha256": "bf3a82fb2f3db75fbec68cd826607ef1321b1432f25897f0d26267bc4ecce1d5",
+      "answerSha256": "177ee9075b730233125315e28022591fc89565619ad0c8d0e4e9080d32eac5a2",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0312",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PGE-PE",
+      "year": 2019,
+      "prompt": "Utilize o texto da\nquestão anterior.\nConforme o  texto, a  Terceira Revolução  Industrial  foi o evento  histórico responsável por\ntransformar o empregado em simples mercadoria do processo de produção.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "7bd2b3d59db8c80d4e71cf3c1731d564325cd75d9620a94d6d98568515d524e7",
+      "answerSha256": "3a219f3d3b4d501ccd1be0fcf3ccbc501b6183c88bf50b1e3cfcfbe0dc148673",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Narração e Descrição; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

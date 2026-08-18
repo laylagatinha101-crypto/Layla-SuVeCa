@@ -1,0 +1,15 @@
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+
+# Hash-addressed knowledge artifacts must retain byte-identical line endings on
+# Windows, Linux and the AI Studio import environment.
+public/knowledge/*.json -text
+public/knowledge/official-question-parts/*.json -text
+public/knowledge/semantic-profile-parts/*.json -text
+knowledge/canonical/semantic-profiles-v3.json -text
+src/data/knowledge-index/*.generated.ts -text
+src/data/knowledge-index/manifest.json -text
+src/data/knowledgeIndex.generated.ts -text
+src/data/pedagogicalKnowledge*.generated.ts -text

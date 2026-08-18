@@ -1,0 +1,489 @@
+{
+  "schemaVersion": "2.0.0",
+  "kind": "suveca-editorial-enrichments",
+  "reviewVersion": "semantic-review-v2",
+  "policy": "Preservar o conteúdo canônico correto; ampliar lacunas demonstradas pela leitura integral dos 284 fulltexts; manter SuVeCA como interface cognitiva e registrar evidência exata.",
+  "operations": [
+    {
+      "moduleId": "mod0",
+      "modulePatch": {
+        "description": "Aprenda o ciclo de aprendizagem, o Caderno de Erros e a arquitetura SuVeCA: um núcleo para compreender relações linguísticas, não uma teoria que substitui a gramática."
+      },
+      "sections": [
+        {
+          "title": "0.4 SuVeCA como arquitetura de entendimento",
+          "contentMarkdown": "A SuVeCA não é a fonte da verdade gramatical. Ela é a **interface cognitiva** pela qual o conhecimento validado é organizado e aplicado. Na oração, partimos do verbo, reconstruímos o sujeito, identificamos complementos e separamos adjuntos. Depois subimos de camada: relações entre orações, semântica, texto e discurso.\n\n```text\nFORMA → CLASSES → SuVeCA → SINTAXE → RELAÇÕES GRAMATICAIS\n      → SEMÂNTICA → TEXTO → DISCURSO\n```\n\n**Limite metodológico:** referenciação, inferência, modalização e argumentação não são reduzidas a quatro etiquetas. A estrutura SuVeCA mostra quem faz o quê dentro das orações; os módulos superiores explicam como essas unidades constroem sentidos no texto e no discurso.",
+          "sourceConceptIds": ["concept.mod0.2"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod1",
+      "modulePatch": {
+        "title": "Compreensão, interpretação e leitura de prova",
+        "subtitle": "Recorrência, inferência, implícitos e armadilhas interpretativas"
+      },
+      "sections": [
+        {
+          "title": "1.2 Recorrência, paráfrase e inferência",
+          "contentMarkdown": "**Recorrência** pede a localização ou a paráfrase de uma informação expressa. A alternativa pode trocar palavras e ordem sem alterar o núcleo proposicional. **Inferência** pede uma conclusão não escrita literalmente, mas autorizada por pistas textuais.\n\nProtocolo: (1) localize a passagem; (2) reconstrua as orações com SuVeCA para controlar agentes, ações, negações e circunstâncias; (3) compare o alcance da alternativa; (4) exija uma pista para cada acréscimo.\n\n**Pegadinhas decisivas:** contradição, extrapolação, redução indevida, generalização, troca de causa por consequência e referente incorreto. Se a alternativa introduz certeza onde o texto expressa possibilidade, ela altera o grau de compromisso.",
+          "highlightBox": {
+            "title": "Teste da licença textual",
+            "text": "Não basta a conclusão parecer plausível no mundo. Ela precisa ser sustentada pelas marcas do texto.",
+            "type": "warning"
+          },
+          "sourceConceptIds": ["proposal.mod1.0"]
+        },
+        {
+          "title": "1.4 Tipos, gêneros e modos de organização",
+          "contentMarkdown": "**Tipo textual** descreve uma organização linguística predominante: narração, descrição, exposição, argumentação ou injunção. **Gênero** é uma forma social situada, como notícia, edital, artigo ou ofício. Um gênero pode combinar sequências de vários tipos.\n\nUse a SuVeCA para enxergar as escolhas recorrentes: narração tende a encadear eventos; descrição acumula estados e atributos; injunção projeta ações sobre o destinatário. A classificação final, porém, considera finalidade, circulação e predominância do texto inteiro.",
+          "sourceConceptIds": ["proposal.mod1.2"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod2",
+      "modulePatch": {
+        "title": "Semântica e coerência",
+        "subtitle": "Relações lexicais, conectores, ambiguidade e efeitos de sentido"
+      },
+      "sections": [
+        {
+          "title": "2.1 Sentido lexical e relações de inclusão",
+          "contentMarkdown": "Sinonímia e antonímia dependem do contexto: substituições raramente são equivalentes em todos os usos. **Hiperônimo** é mais abrangente (*veículo*); **hipônimo**, mais específico (*automóvel*). Denotação privilegia o valor convencional; conotação explora associações e sentido figurado.\n\nAntes de aceitar uma substituição, verifique a classe e a função na oração, o referente, a intensidade e as restrições de combinação. Preservar um significado de dicionário não garante preservar o efeito no texto.",
+          "sourceConceptIds": ["proposal.mod2.5"]
+        },
+        {
+          "title": "2.3 Coerência e valor dos conectores",
+          "contentMarkdown": "Conectores explicitam relações como causa, consequência, conclusão, oposição, concessão, condição e finalidade. A mesma forma pode assumir valores diferentes; o valor nasce da relação entre segmentos.\n\nProcedimento SuVeCA: delimite as orações, reconstrua cada uma, formule a relação em linguagem simples e só então nomeie o conector. Em reescrita, troque-o apenas se a nova forma mantiver relação lógica, orientação argumentativa e grau de certeza.",
+          "sourceConceptIds": ["proposal.mod2.4"]
+        },
+        {
+          "title": "2.5 Ambiguidade estrutural e lexical",
+          "contentMarkdown": "A ambiguidade pode nascer de palavra polissêmica, referente concorrente ou encaixe sintático. Em *O servidor informou ao chefe que seu relatório estava pronto*, **seu** admite mais de um possuidor.\n\nPara diagnosticar: liste as leituras, reconstrua o SuVeCA de cada uma e identifique qual termo muda de referente ou função. Depois teste se o contexto elimina uma leitura. Não confunda ambiguidade potencial da frase isolada com ambiguidade efetiva no texto.",
+          "sourceConceptIds": ["proposal.mod2.6"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod3",
+      "sections": [
+        {
+          "title": "3.2 Hiatos, ditongos e acentos diferenciais",
+          "contentMarkdown": "A acentuação deve partir da separação silábica e da sílaba tônica. Nos hiatos, **i/u** tônicos recebem acento quando formam sílaba sozinhos ou com *s*, observadas as restrições do Acordo Ortográfico. Ditongos abertos tônicos são acentuados em oxítonas, mas não em paroxítonas como *ideia*.\n\nAcentos diferenciais remanescentes, como *pôde/pode* e *pôr/por*, distinguem formas. O circunflexo de *têm/vêm* e derivados marca o plural. Evite aplicar uma lista sem primeiro identificar tonicidade e estrutura da palavra.",
+          "sourceConceptIds": ["proposal.mod3.7"]
+        },
+        {
+          "title": "3.6 Hífen: compostos, prefixos e pronomes",
+          "contentMarkdown": "Em prefixação, o hífen depende especialmente do encontro de letras, de *h* inicial e de prefixos com comportamento próprio. Vogais iguais tendem a manter hífen (*micro-ondas*); vogais diferentes tendem a se unir (*autoescola*); diante de *r/s*, em muitos casos une-se e duplica-se a consoante (*antissocial*).\n\nCompostos lexicalizados e nomes de espécies exigem regra própria. Na énclise e mesóclise, o hífen liga pronome átono ao verbo (*entregou-lhe; entregar-se-á*): esse emprego é sintático, não uma regra de formação lexical.",
+          "sourceConceptIds": ["proposal.mod3.8"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod4",
+      "sections": [
+        {
+          "title": "4.1 O sintagma nominal e as setas de dependência",
+          "contentMarkdown": "No grupo nominal, o substantivo costuma ser o núcleo; artigos, numerais, pronomes e adjetivos podem determiná-lo ou caracterizá-lo. A classe não é decidida pela aparência, mas pela relação: pergunte **a que palavra o termo se liga**.\n\n```text\n[os] → [dois] → [novos] → RELATÓRIOS ← [técnicos]\n```\n\nUm adjetivo pode qualificar, classificar ou exprimir estado conforme o contexto. A seta morfológica prepara a seta sintática: dentro do SuVeCA, o grupo inteiro pode ocupar sujeito, complemento ou predicativo.",
+          "sourceConceptIds": ["proposal.mod4.9"]
+        },
+        {
+          "title": "4.6 Advérbio, indefinido e mudança de classe",
+          "contentMarkdown": "Formas como *muito, pouco, bastante, mais, menos* exigem observar o alvo. Ligadas a substantivo, podem ser pronome indefinido ou determinante e variar (*muitas provas*); ligadas a verbo, adjetivo ou advérbio, funcionam adverbialmente e tendem a ser invariáveis (*estudaram muito; muito difícil*).\n\nO teste decisivo combina seta de dependência, possibilidade de flexão e sentido. Não classifique a palavra fora da frase.",
+          "sourceConceptIds": ["proposal.mod4.10"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod5",
+      "sections": [
+        {
+          "title": "5.1 Pronomes pessoais: forma e função",
+          "contentMarkdown": "Pronomes retos ocupam tipicamente o sujeito; oblíquos átonos e tônicos ocupam complementos, com regência adequada. *Eu* executa o infinitivo em *para eu revisar*; *mim* é regido pela preposição em *para mim*.\n\nNo mapa SuVeCA, não decida pela proximidade: determine o verbo, pergunte quem pratica ou sofre o processo e teste a função do pronome. Em substituição por *o/a* ou *lhe*, verifique transitividade e o padrão normativo exigido pela prova.",
+          "sourceConceptIds": ["proposal.mod5.11"]
+        },
+        {
+          "title": "5.3 Demonstrativos, possessivos, indefinidos e interrogativos",
+          "contentMarkdown": "Demonstrativos localizam referentes no espaço, no tempo e no próprio texto; possessivos relacionam pessoa e posse, mas podem gerar ambiguidade; indefinidos quantificam ou identificam de modo impreciso; interrogativos introduzem perguntas diretas ou indiretas.\n\nEm coesão, a tradição escolar associa *este* ao que será anunciado e *esse* ao que foi retomado, mas o uso real e o contexto devem ser considerados. Em questões normativas, identifique o critério adotado e preserve a classificação oficial.",
+          "sourceConceptIds": ["proposal.mod5.12"]
+        },
+        {
+          "title": "5.5 Pronome relativo: duas funções ao mesmo tempo",
+          "contentMarkdown": "O relativo retoma um antecedente e exerce função dentro da oração que introduz. Isole essa oração, substitua o relativo pelo antecedente e reconstrua seu SuVeCA.\n\n```text\nO homem [que chegou cedo] saiu.\nprincipal: S = O homem | V = saiu\nrelativa: S = que | V = chegou | A = cedo\nque → ocupa S e retoma \"o homem\"\n```\n\nSe a função exigir preposição, ela deve anteceder o relativo: *a norma a que obedeci*. O antecedente não é escolhido apenas por proximidade, mas por compatibilidade sintática e semântica.",
+          "sourceConceptIds": ["proposal.mod5.13"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod6",
+      "modulePatch": {
+        "description": "Reconheça estrutura, flexão, formas nominais, correlação, vozes, irregularidades, transitividade e ligação: o verbo é o ponto de partida da SuVeCA."
+      },
+      "sections": [
+        {
+          "title": "6.1 Estrutura, flexão e locução verbal",
+          "contentMarkdown": "A forma verbal combina radical, vogal temática e desinências de tempo/modo e número/pessoa. Modo indicativo tende a apresentar o fato; subjuntivo o enquadra como hipótese, desejo ou dependência; imperativo orienta uma ação.\n\nNa locução, o auxiliar carrega normalmente as marcas flexionais e o principal aparece em forma nominal. Para montar a SuVeCA, trate a locução como núcleo verbal conjunto, mas use o verbo principal para investigar transitividade: *devem analisar o recurso* → Ve = *devem analisar*; C(OD) = *o recurso*.",
+          "sourceConceptIds": ["proposal.mod6.14"]
+        },
+        {
+          "title": "6.2 Tempo, aspecto e correlação",
+          "contentMarkdown": "Tempo verbal não é apenas cronologia. Imperfeito pode indicar continuidade, hábito ou cortesia; futuro do pretérito pode marcar hipótese ou atenuação; presente pode exprimir verdade geral ou evento narrado.\n\nNa correlação, preserve a relação semântica entre as orações. Pares frequentes não são fórmulas universais. Reconstrua cada SuVeCA, identifique anterioridade, simultaneidade, posterioridade, certeza e hipótese; só então avalie a troca de tempos.",
+          "sourceConceptIds": ["proposal.mod6.15"]
+        },
+        {
+          "title": "6.4 Formas nominais e seus valores",
+          "contentMarkdown": "Infinitivo, gerúndio e particípio podem integrar locuções ou formar orações reduzidas. O infinitivo nomeia o processo e pode flexionar; o gerúndio frequentemente expressa curso ou circunstância; o particípio participa de tempos compostos e construções passivas, além de usos adjetivos.\n\nEvite classificar pelo sufixo isolado. Verifique se há auxiliar, sujeito próprio, complemento do verbo principal e possibilidade de desenvolver a oração com conjunção e verbo finito.",
+          "sourceConceptIds": ["proposal.mod6.16"]
+        },
+        {
+          "title": "6.5 Irregularidade e padrões de conjugação",
+          "contentMarkdown": "Verbos regulares preservam radical e desinências do paradigma; irregulares apresentam alterações. Verbos defectivos não usam todas as formas; abundantes admitem mais de uma forma, especialmente no particípio.\n\nEm vez de memorizar ocorrências soltas, compare tempos primitivos e derivados e observe famílias verbais. Em prova, confirme pessoa, tempo e modo solicitados, pois uma forma existente pode estar inadequada apenas à correlação da frase.",
+          "sourceConceptIds": ["proposal.mod6.17"]
+        },
+        {
+          "title": "6.7 Transitividade e verbo de ligação em contexto",
+          "contentMarkdown": "Transitividade pertence ao **uso do verbo na frase**, não a uma etiqueta imutável. Localize o verbo, encontre o sujeito e pergunte se o sentido exige complemento. Preposição obrigatória aponta para objeto indireto; ausência, para objeto direto, mas regência e sentido precisam confirmar.\n\nVerbo de ligação conecta o sujeito a um estado ou característica: *Ana permaneceu calma*. O mesmo verbo pode exprimir ação ou deslocamento: *Ana permaneceu no setor*.\n\n**Divergência editorial registrada:** algumas tradições de prova tratam termos locativos exigidos por verbos de movimento/permanência como complemento verbal; outras os classificam como adjunto adverbial. A SuVeCA deve mostrar a dependência e o sentido antes de adotar a nomenclatura exigida pela banca.",
+          "highlightBox": {
+            "title": "Não decore a transitividade fora da frase",
+            "text": "O sentido realizado no contexto decide a estrutura. Registre separadamente divergências terminológicas entre gramáticas e bancas.",
+            "type": "warning"
+          },
+          "sourceConceptIds": ["proposal.mod6.18"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod7",
+      "sections": [
+        {
+          "title": "7.1 O protocolo verbo primeiro",
+          "contentMarkdown": "Delimite a oração pelo verbo ou locução; pergunte **quem/o que + verbo**; reconstrua a ordem direta; depois procure complementos e adjuntos. Essa sequência impede que o primeiro substantivo seja escolhido automaticamente como sujeito.\n\nEm *Chegaram ontem os fiscais do tribunal*, Ve = *chegaram*; S = *os fiscais do tribunal*; A = *ontem*. A concordância confirma a reconstrução, mas não substitui a análise.",
+          "sourceConceptIds": ["proposal.mod7.19"]
+        },
+        {
+          "title": "7.2 Tipos de sujeito e ausência de sujeito",
+          "contentMarkdown": "O sujeito pode ser simples, composto, oculto ou indeterminado. Sujeito oculto é recuperável pela flexão ou pelo contexto; indeterminado existe, mas não é identificado. Oração sem sujeito ocorre com verbos impessoais, como *haver* no sentido de existir e fenômenos meteorológicos em uso literal.\n\nNão transforme o termo posterior a *haver* em sujeito: *Havia problemas* → Ve impessoal = *havia*; C(OD), na análise tradicional = *problemas*.",
+          "sourceConceptIds": ["proposal.mod7.20"]
+        },
+        {
+          "title": "7.4 Predicado e predicativo",
+          "contentMarkdown": "O predicado é aquilo que se declara a partir do verbo. Pode ser verbal, nominal ou verbo-nominal. O predicativo atribui estado, qualidade ou condição ao sujeito ou ao objeto e concorda com o termo a que se refere.\n\nCompare: *Os fiscais chegaram cedo* (A = circunstância de tempo) e *Os fiscais chegaram cansados* (Pred = estado dos fiscais). O teste combina pergunta de sentido, concordância e relação com o nome; não basta aparecer depois do verbo.",
+          "sourceConceptIds": ["proposal.mod7.21"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod8",
+      "sections": [
+        {
+          "title": "8.1 Objetos direto e indireto",
+          "contentMarkdown": "Depois de identificar verbo e sujeito, verifique o que completa o processo verbal. Objeto direto liga-se normalmente sem preposição exigida; objeto indireto, com preposição regida. Pronomes, orações e construções preposicionadas especiais exigem testes adicionais.\n\nUse conjuntamente: sentido do verbo, regência, pergunta controlada, substituição pronominal e passagem à voz passiva quando possível. Nenhum teste isolado resolve todos os casos.",
+          "sourceConceptIds": ["proposal.mod8.22"]
+        },
+        {
+          "title": "8.2 Complemento nominal e agente da passiva",
+          "contentMarkdown": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio e vem preposicionado: *favorável ao recurso*. Agente da passiva indica quem pratica a ação numa construção passiva, geralmente introduzido por *por* ou *de*: *o recurso foi analisado pela banca*.\n\nNa SuVeCA, mantenha visíveis dois níveis: a dependência interna do nome e a estrutura da oração. Na voz ativa correspondente, o agente da passiva tende a tornar-se sujeito.",
+          "sourceConceptIds": ["proposal.mod8.23"]
+        },
+        {
+          "title": "8.3 Adjuntos, aposto e vocativo",
+          "contentMarkdown": "Adjunto adnominal determina ou caracteriza um nome; adjunto adverbial acrescenta circunstância à oração. Aposto explica, resume, enumera ou especifica outro termo. Vocativo chama o interlocutor e não integra sujeito nem predicado.\n\nAcessório não significa dispensável para o sentido do texto. O termo pode ser sintaticamente removível e, ainda assim, carregar a informação decisiva da questão.",
+          "sourceConceptIds": ["proposal.mod8.24"]
+        },
+        {
+          "title": "8.5 Adjunto adnominal e predicativo",
+          "contentMarkdown": "O adjunto adnominal integra o grupo nominal; o predicativo atribui característica por intermédio do predicado. Compare *os servidores atentos revisaram* (adjunto no sujeito) e *os servidores revisaram atentos* (predicativo do sujeito).\n\nTeste a seta: a característica apenas delimita o referente ou é apresentada como estado associado ao evento? Mobilidade, concordância e reescrita com verbo de ligação ajudam, mas o sentido contextual decide.",
+          "sourceConceptIds": ["proposal.mod8.25"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod9",
+      "sections": [
+        {
+          "title": "9.1 Concordância verbal: estrutura antes da regra",
+          "contentMarkdown": "Regra geral: o verbo concorda com o núcleo do sujeito. Antes dos casos especiais, reconstrua a SuVeCA e retire intercalações que escondem o núcleo. Sujeito posposto continua sujeito; termos ligados por preposição normalmente não comandam a flexão.\n\nDepois trate construções específicas: sujeito composto, coletivos, partitivas, porcentagens, relativos, expressões de quantidade e verbos impessoais. Algumas admitem variação prevista pela norma; registre as condições, não uma resposta única artificial.",
+          "sourceConceptIds": ["proposal.mod9.26"]
+        },
+        {
+          "title": "9.5 Concordância nominal e palavras especiais",
+          "contentMarkdown": "Artigo, adjetivo, pronome e numeral concordam com o substantivo a que se ligam. Com mais de um núcleo, posição, gênero e função do adjetivo condicionam as possibilidades normativas.\n\nPalavras como *anexo, incluso, obrigado, mesmo, bastante, meio, só* variam ou não conforme a classe em contexto. Aplique a seta morfológica: se modificam substantivo, podem variar; se modificam verbo, adjetivo ou advérbio, tendem ao uso adverbial invariável.",
+          "sourceConceptIds": ["proposal.mod9.27"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod10",
+      "sections": [
+        {
+          "title": "10.1 Regência: relação e sentido",
+          "contentMarkdown": "Regência é a relação pela qual verbo ou nome seleciona complemento, muitas vezes com preposição. O sentido pode mudar o padrão: *assistir ao filme* (ver), *assistir o paciente* (prestar assistência), na tradição normativa ensinada em concursos.\n\nProtocolo: reconstrua o SuVeCA, determine o sentido realizado, identifique o regente e só depois escolha a preposição. Diferencie descrição do uso corrente de exigência normativa explicitamente cobrada pela banca.",
+          "sourceConceptIds": ["proposal.mod10.28"]
+        },
+        {
+          "title": "10.5 Crase: obrigatória, proibida ou facultativa",
+          "contentMarkdown": "A crase central resulta da fusão da preposição *a* com artigo feminino ou com o *a* inicial de demonstrativos. Primeiro prove a exigência da preposição; depois, a admissão do determinante. O teste *ao* confirma muitos casos, mas não substitui regras de locuções, horas e topônimos.\n\nÉ proibida diante de verbo, da maioria dos pronomes que rejeitam artigo e de palavra masculina, ressalvadas construções especiais. Pode ser facultativa antes de possessivo feminino singular, de nome próprio feminino que admita artigo e depois de *até*, conforme a estrutura. Sempre verifique se a mudança altera o sentido.",
+          "sourceConceptIds": ["proposal.mod10.29"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod11",
+      "sections": [
+        {
+          "title": "11.1 Coordenação e valores semânticos",
+          "contentMarkdown": "Orações coordenadas são sintaticamente independentes entre si e podem ser assindéticas ou sindéticas: aditivas, adversativas, alternativas, conclusivas ou explicativas. A classificação depende do valor contextual, não apenas da conjunção memorizada.\n\nSepare os verbos, monte uma SuVeCA para cada oração e formule a relação. *E* pode assumir valor adversativo ou conclusivo; *pois* muda de valor conforme posição e relação discursiva.",
+          "sourceConceptIds": ["proposal.mod11.30"]
+        },
+        {
+          "title": "11.2 Orações subordinadas adverbiais",
+          "contentMarkdown": "A oração adverbial funciona como circunstância da principal: causa, consequência, condição, concessão, conformidade, comparação, finalidade, proporção ou tempo.\n\nNão classifique pela conjunção isolada. Reconstrua as duas SuVeCAs, pergunte qual relação a subordinada estabelece e teste uma paráfrase. Diferencie causa de explicação e condição de causa factual.",
+          "sourceConceptIds": ["proposal.mod11.31"]
+        },
+        {
+          "title": "11.5 Orações reduzidas e desenvolvidas",
+          "contentMarkdown": "Reduzidas apresentam verbo em infinitivo, gerúndio ou particípio e normalmente não trazem conjunção integrante/subordinativa. Desenvolvê-las significa explicitar conector, flexionar o verbo e preservar sujeito, tempo e relação semântica.\n\n*Ao terminar a prova, saiu* pode ser desenvolvido como *Quando terminou a prova, saiu*. Outras leituras podem surgir fora de contexto; a reescrita correta deve preservar a leitura licenciada pelo período original.",
+          "sourceConceptIds": ["proposal.mod11.32"]
+        },
+        {
+          "title": "11.6 Paralelismo sintático e semântico",
+          "contentMarkdown": "Elementos coordenados devem guardar compatibilidade de estrutura e sentido. Compare *o plano prevê revisar normas e a resolução de questões* com *prevê a revisão de normas e a resolução de questões*.\n\nAplique a SuVeCA a cada membro coordenado: eles ocupam a mesma função? dependem do mesmo regente? apresentam formas comparáveis? Paralelismo não exige repetição mecânica, mas impede a mistura que compromete clareza ou regência.",
+          "sourceConceptIds": ["proposal.mod11.33"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod12",
+      "sections": [
+        {
+          "title": "12.1 Vírgula: primeiro reconstrua a sintaxe",
+          "contentMarkdown": "A vírgula marca separações e intercalações, não pausas respiratórias livres. Antes de pontuar, localize verbo, sujeito, complementos e adjuntos. Em ordem direta, não separam sujeito e verbo, verbo e complemento nem nome e complemento.\n\nDeslocamentos, intercalações, enumerações, apostos, vocativos e certas orações justificam sinais. Casos facultativos dependem de extensão, clareza e leitura; não converta tendências estilísticas em proibições absolutas.",
+          "sourceConceptIds": ["proposal.mod12.34"]
+        },
+        {
+          "title": "12.4 Outros sinais e organização do período",
+          "contentMarkdown": "Dois-pontos podem anunciar explicação, enumeração ou fala; ponto e vírgula organiza unidades coordenadas extensas; travessões e parênteses isolam inserções com efeitos discursivos distintos.\n\nA troca entre sinais não é apenas gráfica: avalie a ligação sintática, a hierarquia informacional e o efeito de destaque. Use a SuVeCA para garantir que nenhum sinal rompa uma dependência obrigatória.",
+          "sourceConceptIds": ["proposal.mod12.35"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod13",
+      "sections": [
+        {
+          "title": "13.1 Próclise, ênclise e mesóclise",
+          "contentMarkdown": "Na prescrição tradicional, palavras negativas, relativos, indefinidos, subordinativas e certos advérbios atraem o pronome. Sem fator de próclise, a ênclise é o padrão em diversos contextos formais; a mesóclise ocorre com futuro do presente ou do pretérito quando não há atração.\n\nEm locução verbal, examine cada verbo, a presença de fator atrativo e a forma nominal. Diferencie o padrão normativo cobrado do uso brasileiro corrente, sem tratar variação linguística como erro universal.",
+          "sourceConceptIds": ["proposal.mod13.36"]
+        },
+        {
+          "title": "13.4 Funções de SE",
+          "contentMarkdown": "*Se* pode ser pronome reflexivo/recíproco, parte integrante do verbo, partícula apassivadora, índice de indeterminação, conjunção integrante ou condicional, entre outros usos.\n\nProtocolo: delimite a oração; verifique se introduz outra oração; teste reflexividade; analise transitividade; tente a paráfrase passiva. Em *vendem-se livros*, *livros são vendidos* confirma passiva e concordância. Em *precisa-se de servidores*, a preposição impede essa passiva e o verbo fica no singular.",
+          "sourceConceptIds": ["proposal.mod13.37"]
+        },
+        {
+          "title": "13.5 Funções de QUE",
+          "contentMarkdown": "*Que* pode ser pronome relativo, conjunção integrante, conjunção de diferentes valores, pronome interrogativo, partícula expletiva e outras classes.\n\nSe retoma antecedente e ocupa função na oração, é relativo. Se não retoma e a oração inteira pode ser substituída por *isso*, tende a ser integrante. Fora desses casos, examine relação semântica e estrutura. O teste é uma triagem, não uma classificação automática de todo *que*.",
+          "sourceConceptIds": ["proposal.mod13.38"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod14",
+      "sections": [
+        {
+          "title": "14.2 Reescrita controlada por camadas",
+          "contentMarkdown": "Toda reescrita exige duas aprovações: correção gramatical e preservação do sentido. Compare, em ordem: SuVeCA e papéis semânticos; tempo, aspecto e voz; regência e concordância; conectores e relação lógica; referenciação; foco e grau de certeza.\n\nNa nominalização ou mudança de voz, explicite quem age e quem é afetado. Na inversão, verifique pontuação. Na troca de conector, preserve causa, concessão, condição ou conclusão. Frases gramaticais podem ser semanticamente não equivalentes.",
+          "sourceConceptIds": ["proposal.mod14.39"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod15",
+      "sections": [
+        {
+          "title": "15.2 Escada de diagnóstico da prova",
+          "contentMarkdown": "Classifique primeiro a camada cobrada: forma, classe, SuVeCA da oração, relação gramatical, semântica, texto ou discurso. Desça até a estrutura quando necessário e volte à camada do comando.\n\n```text\nCOMANDO → CAMADA → VERBO → Su → C → A\n        → RELAÇÃO ENTRE ORAÇÕES → SENTIDO → TEXTO/DISCURSO\n```\n\nIsso evita dois erros: resolver interpretação apenas com nomenclatura sintática ou responder sintaxe apenas por impressão de sentido.",
+          "sourceConceptIds": ["concept.mod15.0"]
+        }
+      ]
+    },
+    {
+      "moduleId": "apendice-d",
+      "sections": [
+        {
+          "title": "D.3 Tese e estratégias de fundamentação",
+          "contentMarkdown": "A tese é a posição central; os argumentos a sustentam por explicação, exemplificação, dados, autoridade, comparação, causa e consequência ou resposta a objeções. Cada parágrafo deve apresentar uma ideia controladora e desenvolvimento pertinente.\n\nUse a SuVeCA na revisão microtextual: agentes estão claros? verbos expressam o grau de certeza pretendido? complementos fecham o raciocínio? adjuntos localizam e qualificam sem ambiguidade? Depois revise a progressão macrotextual entre tese e argumentos.",
+          "sourceConceptIds": ["proposal.apendice-d.40"]
+        }
+      ]
+    }
+  ],
+  "newModules": [
+    {
+      "insertBefore": "simulado",
+      "module": {
+        "id": "mod16",
+        "num": 16,
+        "title": "Textualidade, referenciação e progressão",
+        "subtitle": "Como as orações formam uma rede de referentes e informações",
+        "description": "Resolva retomadas, elipses, cadeias lexicais, progressão temática e ambiguidades sem reduzir o texto a uma oração isolada.",
+        "sections": [
+          {
+            "title": "16.1 Cadeias referenciais: anáfora, catáfora e elipse",
+            "contentMarkdown": "Um referente pode ser retomado por pronome, expressão nominal, sinônimo, hiperônimo ou elipse. Anáfora olha para o que veio antes; catáfora anuncia o que virá; elipse omite um elemento recuperável.\n\nProtocolo: isole a oração do elemento referencial; determine sua função SuVeCA; liste candidatos; descarte os incompatíveis em número, gênero, semântica ou papel; confirme pela progressão do texto. Proximidade é pista, nunca prova suficiente.",
+            "sourceConceptIds": ["proposal.mod2.6", "proposal.mod5.13"]
+          },
+          {
+            "title": "16.2 Coesão lexical e progressão temática",
+            "contentMarkdown": "Repetição controlada, sinonímia contextual, hiperonímia, nomes genéricos e campos lexicais mantêm o tópico sem repetir a mesma forma. A progressão acrescenta informação nova a partir do que já está acessível.\n\nMapeie, em cada SuVeCA, quais participantes permanecem e o que muda no predicado. Depois observe como tema e informação nova avançam entre frases. Coesão é a marca linguística; coerência é a possibilidade de construir uma unidade de sentido.",
+            "sourceConceptIds": ["proposal.mod2.4", "proposal.mod2.5"]
+          },
+          {
+            "title": "16.3 Ambiguidade referencial e reescrita",
+            "contentMarkdown": "Quando dois antecedentes competem, reescreva com nome expresso, pronome menos ambíguo ou nova ordem. Mas confirme se a ambiguidade realmente persiste no contexto e se a reescrita mantém foco e progressão.\n\nTeste decisivo: desenhe duas cadeias referenciais possíveis e monte a SuVeCA de cada leitura. Se ambas forem gramatical e semanticamente viáveis, a frase isolada é ambígua; se o texto elimina uma, registre a resolução contextual.",
+            "sourceConceptIds": ["proposal.mod2.6"]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q16-1",
+            "type": "CERTO_ERRADO",
+            "questionText": "O antecedente de um pronome é sempre o substantivo compatível mais próximo, independentemente da função sintática e da progressão textual.",
+            "correctAnswer": "E",
+            "commentary": "Errado. Proximidade é apenas uma pista. Função na oração, compatibilidade semântica e cadeia referencial precisam confirmar o antecedente."
+          },
+          {
+            "id": "q16-2",
+            "type": "MULTIPLA_ESCOLHA",
+            "supportText": "Os relatórios chegaram. Eles serão revisados amanhã.",
+            "questionText": "No segundo período, o pronome \"Eles\" realiza:",
+            "options": [
+              {"letter":"A","text":"catáfora de um termo ainda não expresso"},
+              {"letter":"B","text":"anáfora de \"Os relatórios\" e ocupa o sujeito"},
+              {"letter":"C","text":"elipse do verbo \"chegaram\""},
+              {"letter":"D","text":"referência externa sem antecedente textual"}
+            ],
+            "correctAnswer": "B",
+            "commentary": "O pronome retoma um referente anterior e, na SuVeCA de \"Eles serão revisados\", ocupa a posição de sujeito."
+          }
+        ],
+        "knowledge": {
+          "routingTerms": ["referenciação", "progressão textual", "cadeia referencial", "coesão lexical", "anáfora", "catáfora", "elipse", "ambiguidade"],
+          "editorialStatus": "approved_ai_reviewed",
+          "reviewer": "Codex (IA)",
+          "reviewedAt": "2026-08-10",
+          "notes": ["Novo módulo criado por lacuna demonstrada na revisão integral semantic-review-v2."]
+        }
+      }
+    },
+    {
+      "insertBefore": "simulado",
+      "module": {
+        "id": "mod17",
+        "num": 17,
+        "title": "Discurso, pragmática e modalização",
+        "subtitle": "Intenção, contexto, vozes e compromisso do enunciador",
+        "description": "Analise o que a forma linguística faz na situação comunicativa e como o enunciador se posiciona.",
+        "sections": [
+          {
+            "title": "17.1 Situação comunicativa e funções da linguagem",
+            "contentMarkdown": "Sentido pragmático depende de enunciador, destinatário, finalidade, suporte e contexto. As funções referencial, emotiva, conativa, fática, metalinguística e poética descrevem focos predominantes, que podem coexistir.\n\nA SuVeCA identifica a proposição literal; a pragmática pergunta o que ela realiza. *A porta está aberta* pode descrever um estado ou funcionar como pedido indireto. A leitura discursiva precisa de pistas situacionais, não de adivinhação.",
+            "sourceConceptIds": ["proposal.mod1.3"]
+          },
+          {
+            "title": "17.2 Modalização, fato, opinião e grau de certeza",
+            "contentMarkdown": "Modalizadores mostram avaliação, obrigação, possibilidade ou grau de certeza: *certamente, talvez, deve, pode, é necessário*. Tempos e modos verbais também modulam compromisso.\n\nCompare a estrutura proposicional e depois a moldura modal. Trocar *pode ocorrer* por *ocorrerá* mantém participantes e processo, mas altera decisivamente o compromisso do enunciador. Essa é uma pegadinha frequente de inferência e reescrita.",
+            "sourceConceptIds": ["proposal.mod1.3", "proposal.mod6.15"]
+          },
+          {
+            "title": "17.3 Vozes, citação e intertextualidade",
+            "contentMarkdown": "Discurso direto, indireto e indireto livre organizam de modos diferentes a voz alheia. Citação, alusão, paródia e referência constroem intertextualidade.\n\nAo transformar fala, preserve pessoa, tempo, dêiticos e responsabilidade enunciativa. A SuVeCA ajuda a reconstruir cada proposição; a camada discursiva identifica quem assume cada afirmação e com qual efeito.",
+            "sourceConceptIds": ["proposal.mod1.2", "proposal.mod1.3"]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q17-1",
+            "type": "CERTO_ERRADO",
+            "questionText": "A substituição de \"o problema pode ocorrer\" por \"o problema ocorrerá\" preserva integralmente o grau de certeza do enunciador.",
+            "correctAnswer": "E",
+            "commentary": "Errado. A proposição mantém participantes e processo, mas passa de possibilidade a compromisso assertivo com a ocorrência."
+          },
+          {
+            "id": "q17-2",
+            "type": "CERTO_ERRADO",
+            "supportText": "Durante a reunião, um participante diz: \"A janela está aberta.\"",
+            "questionText": "Sem outras pistas contextuais, é obrigatório concluir que o participante ordenou o fechamento da janela.",
+            "correctAnswer": "E",
+            "commentary": "Errado. A frase pode funcionar pragmaticamente como pedido indireto, mas essa leitura exige contexto; a estrutura literal apenas atribui um estado à janela."
+          }
+        ],
+        "knowledge": {
+          "routingTerms": ["discurso", "pragmática", "modalização", "funções da linguagem", "intertextualidade", "vozes", "fato e opinião"],
+          "editorialStatus": "approved_ai_reviewed",
+          "reviewer": "Codex (IA)",
+          "reviewedAt": "2026-08-10",
+          "notes": ["Novo módulo criado por lacuna demonstrada na revisão integral semantic-review-v2."]
+        }
+      }
+    },
+    {
+      "insertBefore": "simulado",
+      "module": {
+        "id": "mod18",
+        "num": 18,
+        "title": "Argumentação e organização textual",
+        "subtitle": "Tema, tese, argumentos, métodos de raciocínio e parágrafo",
+        "description": "Reconheça a posição defendida, a arquitetura das razões e o modo como o texto conduz o leitor.",
+        "sections": [
+          {
+            "title": "18.1 Tema, tese e argumento",
+            "contentMarkdown": "**Tema** é o assunto delimitado; **tese** é a posição central sobre ele; **argumento** é uma razão oferecida para sustentar a tese. Um resumo do assunto não substitui a posição defendida.\n\nExtraia as proposições centrais com SuVeCA: quem/o que recebe qual avaliação ou ação? Depois teste a função: esta proposição é o ponto a provar ou uma razão que o apoia? Marcas de conclusão ajudam, mas a organização global decide.",
+            "sourceConceptIds": ["proposal.mod1.1"]
+          },
+          {
+            "title": "18.2 Estratégias de sustentação e refutação",
+            "contentMarkdown": "Argumentos podem usar explicação, exemplo, dados, autoridade, comparação, causa e consequência, analogia, concessão e contra-argumento. O nome da estratégia importa menos que sua função no encadeamento.\n\nReconstrua as proposições, desenhe setas **razão → tese** e verifique se a conclusão excede as premissas. Generalização, falsa causa, apelo irrelevante e distorção da tese adversária são falhas a testar, não rótulos automáticos.",
+            "sourceConceptIds": ["proposal.mod1.1", "proposal.apendice-d.40"]
+          },
+          {
+            "title": "18.3 Organização do raciocínio e do parágrafo",
+            "contentMarkdown": "No movimento dedutivo, uma formulação mais geral conduz a aplicações ou conclusões; no indutivo, casos ou dados sustentam uma generalização. Textos reais podem combinar movimentos.\n\nNo parágrafo, identifique ideia controladora, desenvolvimento e fechamento/transição. A ordem pode ser alterada sem mudar a tese, mas conectores, progressão e foco podem mudar. Use a SuVeCA para validar cada proposição e a camada textual para validar a sequência.",
+            "sourceConceptIds": ["proposal.mod1.1", "proposal.mod1.2", "proposal.apendice-d.40"]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q18-1",
+            "type": "CERTO_ERRADO",
+            "questionText": "Tema e tese são termos equivalentes: ambos nomeiam apenas o assunto geral tratado pelo texto.",
+            "correctAnswer": "E",
+            "commentary": "Errado. Tema é o assunto delimitado; tese é a posição central defendida sobre esse assunto."
+          },
+          {
+            "id": "q18-2",
+            "type": "MULTIPLA_ESCOLHA",
+            "supportText": "A revisão espaçada deve integrar o estudo, pois testes sucessivos mostram maior retenção quando o conteúdo é recuperado em intervalos.",
+            "questionText": "O trecho introduz, depois da tese, uma estratégia baseada principalmente em:",
+            "options": [
+              {"letter":"A","text":"dado/evidência apresentado como sustentação"},
+              {"letter":"B","text":"definição do tema sem posição"},
+              {"letter":"C","text":"contra-argumento que rejeita a tese"},
+              {"letter":"D","text":"ambiguidade referencial"}
+            ],
+            "correctAnswer": "A",
+            "commentary": "A oração introduzida por \"pois\" oferece evidência para sustentar a recomendação expressa na tese."
+          }
+        ],
+        "knowledge": {
+          "routingTerms": ["argumentação", "tema", "tese", "argumento", "estratégias argumentativas", "método dedutivo", "método indutivo", "parágrafo"],
+          "editorialStatus": "approved_ai_reviewed",
+          "reviewer": "Codex (IA)",
+          "reviewedAt": "2026-08-10",
+          "notes": ["Novo módulo criado por lacuna demonstrada na revisão integral semantic-review-v2."]
+        }
+      }
+    }
+  ]
+}

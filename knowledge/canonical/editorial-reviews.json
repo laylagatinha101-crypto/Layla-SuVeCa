@@ -1,0 +1,968 @@
+{
+  "schemaVersion": "3.0.0",
+  "kind": "suveca-semantic-editorial-review",
+  "reviewVersion": "semantic-review-v3",
+  "reviewer": {
+    "name": "Codex",
+    "type": "ai",
+    "humanApprovalClaimed": false
+  },
+  "reviewedAt": "2026-08-10",
+  "method": {
+    "passes": [
+      {
+        "id": "individual-passage-review",
+        "purpose": "Julgar individualmente as 924 passagens e preservar a referência exata ao ledger."
+      },
+      {
+        "id": "cross-source-adjudication",
+        "purpose": "Consolidar convergências, divergências, limites e lacunas sem votação automática entre fontes."
+      },
+      {
+        "id": "canonical-implementation",
+        "purpose": "Aplicar correções aos módulos, árvores e questões autorais, mantendo fatos de fonte separados das derivações SuVeCA."
+      }
+    ],
+    "gates": [
+      "fidelity",
+      "linguistic_correctness",
+      "consolidation",
+      "contradictions",
+      "suveca_fit",
+      "examples",
+      "exam_claims",
+      "pedagogy"
+    ],
+    "approvalRule": "approved_ai_reviewed exige 24/24 lotes, 924/924 passagens, 7.263.483 caracteres, perfis determinísticos, questões autorais resolvidas e todos os gates aplicáveis em pass."
+  },
+  "individualReview": {
+    "batches": 24,
+    "sources": 284,
+    "passages": 924,
+    "characters": 7263483,
+    "claims": 2245,
+    "limitsAndExceptions": 2260,
+    "examples": 2431,
+    "examTraps": 2028
+  },
+  "implementation": {
+    "moduleOverlays": [
+      "module-enrichments-v3.json",
+      "module-enrichments-v3-core.json"
+    ],
+    "semanticProfiles": "semantic-profiles-v3.json",
+    "authorialQuestionsReviewed": 49,
+    "authorialCommentariesCorrected": 5,
+    "decisionTrees": 10
+  },
+  "limitations": [
+    "A aprovação é editorial por IA e não equivale a parecer humano, certificação acadêmica ou chancela oficial de banca.",
+    "Questões oficiais, gabaritos e soluções permanecem imutáveis; análises SuVeCA derivadas ficam em camada separada.",
+    "Divergências entre gramática tradicional, análise valencial, uso e convenção de banca são rotuladas em vez de apagadas."
+  ],
+  "items": [
+    {
+      "targetType": "module",
+      "targetId": "mod0",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:aca522b6-79dd-4315-88ca-352c6a9160d7#37086-37271",
+        "source:9d01d703-f4ba-4e76-9aae-46bb40cfde4b",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod1",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#116003-125491",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#125491-133455",
+        "source:d52962b4-06ff-4ef6-8a1b-519fa117fe80#0-8977",
+        "source:aca522b6-79dd-4315-88ca-352c6a9160d7#0-9081",
+        "source:3fc50874-f44f-474f-afac-d1c819cd03b9#0-9255",
+        "source:58f76b6b-5a30-4839-a387-59fe0663ca7f#0-9370",
+        "source:bf9eaaba-7670-4c3c-8dcf-a46084fc9f3b#9585-18874",
+        "source:158fde5b-a373-4066-8c76-402822b1c860#64130-69251",
+        "source:103e26bc-2e0e-42c8-82b7-4ac21488e485",
+        "source:d3094e3a-4d22-425d-96bc-f92b53233bd2"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod2",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:6632ba83-3978-411d-a6d4-8775d6912918#0-8479",
+        "source:a295b372-a1e6-4385-b1e2-e7c98832d049#9172-18627",
+        "source:a295b372-a1e6-4385-b1e2-e7c98832d049#18627-23537",
+        "source:30fd3992-a92d-461c-bbdb-5dee316de8fd#9110-18613",
+        "source:30fd3992-a92d-461c-bbdb-5dee316de8fd#18613-28131",
+        "source:30fd3992-a92d-461c-bbdb-5dee316de8fd#28131-29661",
+        "source:ef0c85b9-2d2e-43ae-89d0-4df51ac254c6#0-9029",
+        "source:97b02874-5530-4d9d-90a2-5ec29205c79d#46112-55269",
+        "source:d52962b4-06ff-4ef6-8a1b-519fa117fe80",
+        "source:7904a70f-f027-4990-bd17-7fc9a1aeac1a"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod3",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#8404-17989",
+        "source:9b2e8db1-f068-4256-9936-88b2a3c28b09#0-8906",
+        "source:0714221b-2469-47db-9959-4af5f10188f4#0-7609",
+        "source:c5698188-6b85-4fa5-8975-ac5acc877fdc#0-9129",
+        "source:b23e3197-3c09-44e0-a6cd-b1437a9f8ebd#0-9600",
+        "source:b23e3197-3c09-44e0-a6cd-b1437a9f8ebd#9600-11196",
+        "source:1cb1840a-a6dc-4092-8629-a6bff09fd6a9#0-9492",
+        "source:1cb1840a-a6dc-4092-8629-a6bff09fd6a9#9492-11305",
+        "source:731b4c60-4819-4fa7-abad-d7ed225bac09",
+        "source:9b2e8db1-f068-4256-9936-88b2a3c28b09"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod4",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#27564-35664",
+        "source:9d01d703-f4ba-4e76-9aae-46bb40cfde4b#0-7252",
+        "source:9d01d703-f4ba-4e76-9aae-46bb40cfde4b#25537-27054",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#0-8404",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#17989-27564",
+        "source:bc32490b-7a17-4f7b-a1fa-e8b2a4099ee2#9350-18602",
+        "source:bc32490b-7a17-4f7b-a1fa-e8b2a4099ee2#18602-26778",
+        "source:ce362f58-dff0-4c11-9385-f13b8e06e9ee#0-9498",
+        "source:e87ddfd1-dcc8-46aa-97c2-da7ceaa131bf",
+        "source:746681c9-7b0b-46c3-a13a-40fb3fbf71b5"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod5",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#35664-45230",
+        "source:974e6bf4-e793-43c8-a336-7c26e9a7db1c#0-8766",
+        "source:974e6bf4-e793-43c8-a336-7c26e9a7db1c#8766-18303",
+        "source:f2d9a4c5-7030-437c-9899-66b05b54f383#0-9233",
+        "source:f2d9a4c5-7030-437c-9899-66b05b54f383#9233-17015",
+        "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#0-9397",
+        "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#9397-18939",
+        "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#18939-28230",
+        "source:b2d48344-79ad-47c1-b7d8-0d196e3f262b",
+        "source:556f901b-ac7a-4398-b286-44efe4746e06"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod6",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#54807-63871",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#63871-71709",
+        "source:d69ee74b-ea22-479f-ad38-8e79fde394a4#0-9427",
+        "source:d69ee74b-ea22-479f-ad38-8e79fde394a4#9427-18433",
+        "source:8ffa117e-f170-462c-837e-3d24c67ec03f#0-9276",
+        "source:3a24f79d-b330-4ceb-86cc-37244d3d8e1d#0-9525",
+        "source:3a24f79d-b330-4ceb-86cc-37244d3d8e1d#9525-16182",
+        "source:2a5ac396-5843-4935-bb5f-31b75bcf6453#0-9510",
+        "source:e4c7b66f-494f-43c6-8f8d-7c6b4af9079f",
+        "source:80991c5e-6c53-4894-900e-85f7e3b12cd0"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod7",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d41dd648-5f65-420a-beea-83fae025b624#9546-18745",
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#27927-33179",
+        "source:d69ee74b-ea22-479f-ad38-8e79fde394a4#0-9427",
+        "source:8ffa117e-f170-462c-837e-3d24c67ec03f#9276-18827",
+        "source:d946d616-6e77-46df-a226-8e36e7523a34#36888-46354",
+        "source:d946d616-6e77-46df-a226-8e36e7523a34#46354-51466",
+        "source:a87ed71f-4f5f-4e03-a54b-644a0a42718a#0-9464",
+        "source:ff494290-9546-447c-92f5-bb70caa52873#0-9541",
+        "source:7e6c0d14-f873-4d35-a2ae-45cde97e0235",
+        "source:09a2f882-8a04-4935-be19-11f3e2d38c4d"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod8",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#0-8404",
+        "source:d946d616-6e77-46df-a226-8e36e7523a34#27781-36888",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#0-8875",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#8875-18152",
+        "source:01ababb0-f61d-483b-a2f8-0ce891068b0e#0-7153",
+        "source:8764f28c-357a-4cee-bbed-5bc56ae4ae53#0-9454",
+        "source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#18500-27962",
+        "source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#27962-37393",
+        "source:68b86382-ad8b-47b8-bc17-70938c86ccae",
+        "source:9e0279f5-f126-4dfa-b66e-03b1cd757c4c"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod9",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:156a005f-500d-4712-9342-02ee9b56026e#9492-14796",
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#0-9362",
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#9362-18651",
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#18651-28225",
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#28225-31852",
+        "source:0e900611-a753-4810-a38a-b392d344a13a#0-9568",
+        "source:0e900611-a753-4810-a38a-b392d344a13a#9568-19128",
+        "source:0e900611-a753-4810-a38a-b392d344a13a#19128-21415",
+        "source:13f4735d-3426-4a96-8285-b9b9e2093fea",
+        "source:0e900611-a753-4810-a38a-b392d344a13a"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod10",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:73708ba3-58e6-48b5-8745-86cd1c30f151#18970-22435",
+        "source:bdff17d4-c1e4-4eef-9f08-f40ee648f5f1#0-9525",
+        "source:bdff17d4-c1e4-4eef-9f08-f40ee648f5f1#28249-37772",
+        "source:2ba57f07-ce08-4be4-a3ca-a51caeff4aa6#0-9231",
+        "source:2ba57f07-ce08-4be4-a3ca-a51caeff4aa6#9231-14949",
+        "source:b3d07195-265e-4fa9-9fa0-c870f7c50968#0-6644",
+        "source:a5df2c42-8f33-4d80-999a-8be645680191#0-7207",
+        "source:749bbb0c-ff5d-4476-8574-fdec330051dc#0-9113",
+        "source:2ba57f07-ce08-4be4-a3ca-a51caeff4aa6",
+        "source:030e1255-111c-422e-aa5e-0a6863d3b875"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod11",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:f3b25cab-37b3-4ecb-80aa-7d24f78b15b9#0-9501",
+        "source:3c79ac9e-0a29-4ce4-9e90-62860d503bf6#0-9422",
+        "source:3c79ac9e-0a29-4ce4-9e90-62860d503bf6#9422-18986",
+        "source:3c79ac9e-0a29-4ce4-9e90-62860d503bf6#18986-20874",
+        "source:d91e5cf9-6af3-4775-8505-9a3e489dba1b#0-9274",
+        "source:d91e5cf9-6af3-4775-8505-9a3e489dba1b#9274-11682",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#8875-18152",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#18152-27710",
+        "source:acbe38cd-abf8-441c-8845-2177e5d93d88",
+        "source:7262c763-d81f-4ba7-8040-822ba106f48e"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod12",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#9435-18582",
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#0-9435",
+        "source:b643f8b6-0a08-4c8c-811c-8474b8213e87#0-9551",
+        "source:3c79ac9e-0a29-4ce4-9e90-62860d503bf6#0-9422",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#18152-27710",
+        "source:5e778723-4680-46c5-a39a-50df45a51d03#27710-36289",
+        "source:4fffa686-4df3-4b97-a33f-86504944d945#9533-18377",
+        "source:4fffa686-4df3-4b97-a33f-86504944d945#18377-27958",
+        "source:6e8a6ba9-9fc0-4542-873d-7fd4ba90fc0e",
+        "source:ccbc1da8-2405-42c4-af7d-f9d8d97128f9"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod13",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#45230-54807",
+        "source:bd8aef79-1949-42c7-85d3-5052a1e803af#0-2536",
+        "source:b7f998ee-a2f5-4e82-b954-2b1602d966b2#0-5727",
+        "source:e3fa84c8-6f6d-4161-b159-c9a971f42eac#0-9381",
+        "source:746681c9-7b0b-46c3-a13a-40fb3fbf71b5#8279-15612",
+        "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#0-8964",
+        "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#8964-18204",
+        "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#18204-22343",
+        "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05",
+        "source:c717d05b-f5ad-4aad-89ef-f510c4eb1ca1"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod14",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#27564-35664",
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#106413-116003",
+        "source:9a9fcd3d-d599-48ed-a518-b0e005807df5#0-9218",
+        "source:9a9fcd3d-d599-48ed-a518-b0e005807df5#9218-17851",
+        "source:65a8d3c1-027d-43cc-9e8f-8b29b15e6804#27791-30121",
+        "source:b712371c-6e5f-40a7-bad1-e64cdea2fc33#18984-25045",
+        "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15#18822-28337",
+        "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15#28337-29342",
+        "source:22c649cb-fc67-4392-a519-68c96d634d01",
+        "source:a363729a-c8f9-47cb-999a-6d94e5aa02b1"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod15",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d41dd648-5f65-420a-beea-83fae025b624#0-9546",
+        "source:d41dd648-5f65-420a-beea-83fae025b624#9546-18745",
+        "source:f3b25cab-37b3-4ecb-80aa-7d24f78b15b9#9501-14073",
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#18582-27927",
+        "source:2a5ac396-5843-4935-bb5f-31b75bcf6453#9510-19023",
+        "source:c53f82ec-3f8c-4938-9c66-4c267efa7bd8#9187-18749",
+        "source:63f917d8-5096-4b22-b879-b2298546d3f8#0-9326",
+        "source:d221ffa3-22af-4ff4-b1ce-134d4e5c00d9#9516-13128",
+        "source:7e6c0d14-f873-4d35-a2ae-45cde97e0235",
+        "source:22c649cb-fc67-4392-a519-68c96d634d01"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "simulado",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#125491-133455",
+        "source:0714221b-2469-47db-9959-4af5f10188f4#7609-12942",
+        "source:e3fa84c8-6f6d-4161-b159-c9a971f42eac#9381-12097",
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#18582-27927",
+        "source:a496850f-26a8-4944-bed8-3726e8d0aeac",
+        "source:f604cc94-3568-4032-b04b-4efc0a92f3fe",
+        "question:2379444086",
+        "question:4001797407"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Alvo revalidado contra o corpus integral e os perfis semânticos v3; não houve evidência suficiente para descaracterizar sua função pedagógica atual."
+    },
+    {
+      "targetType": "module",
+      "targetId": "apendice-a",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:9d01d703-f4ba-4e76-9aae-46bb40cfde4b",
+        "source:1a298a29-255d-46dc-85c9-42c1bc253bd5"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Alvo revalidado contra o corpus integral e os perfis semânticos v3; não houve evidência suficiente para descaracterizar sua função pedagógica atual."
+    },
+    {
+      "targetType": "module",
+      "targetId": "apendice-b",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:2ba57f07-ce08-4be4-a3ca-a51caeff4aa6",
+        "source:68b86382-ad8b-47b8-bc17-70938c86ccae"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Alvo revalidado contra o corpus integral e os perfis semânticos v3; não houve evidência suficiente para descaracterizar sua função pedagógica atual."
+    },
+    {
+      "targetType": "module",
+      "targetId": "apendice-c",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:9d01d703-f4ba-4e76-9aae-46bb40cfde4b"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Alvo revalidado contra o corpus integral e os perfis semânticos v3; não houve evidência suficiente para descaracterizar sua função pedagógica atual."
+    },
+    {
+      "targetType": "module",
+      "targetId": "apendice-d",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:9c736bb1-1608-4c15-b531-f18ac863971a#9473-18832",
+        "source:b4d524bd-9aad-4181-bb97-ed3e2573d7f6",
+        "source:e042c985-9d50-4bcd-9be2-ba5fde52f2f0"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod16",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:9516be8c-8b9d-4961-a3b4-9870fd5cba41#0-9555",
+        "source:97b02874-5530-4d9d-90a2-5ec29205c79d#18927-28188",
+        "source:97b02874-5530-4d9d-90a2-5ec29205c79d#28188-37539",
+        "source:94be4e7d-c274-45ea-9c12-17a1aaf576b6#0-9563",
+        "source:94be4e7d-c274-45ea-9c12-17a1aaf576b6#9563-19104",
+        "source:94be4e7d-c274-45ea-9c12-17a1aaf576b6#19104-28669",
+        "source:94be4e7d-c274-45ea-9c12-17a1aaf576b6#28669-30867",
+        "source:4aa4a4b3-bfd3-4ec4-a98f-59a1807e3ce0#9171-18110",
+        "source:4aa4a4b3-bfd3-4ec4-a98f-59a1807e3ce0#9824-10911",
+        "source:7b974dd1-e4c4-4e1d-85d1-055534777167#0-884"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod17",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:9516be8c-8b9d-4961-a3b4-9870fd5cba41#9555-18984",
+        "source:97b02874-5530-4d9d-90a2-5ec29205c79d#46112-55269",
+        "source:17802ccc-e89d-4dd2-9f4c-64ccb120899d#0-9531",
+        "source:17802ccc-e89d-4dd2-9f4c-64ccb120899d#9531-14336",
+        "source:d72ea6ba-872a-4265-9fff-173b94f6133c#18933-20433",
+        "source:462abc39-589f-4079-84bf-9841ebac2e22#0-9488",
+        "source:462abc39-589f-4079-84bf-9841ebac2e22#9488-18753",
+        "source:462abc39-589f-4079-84bf-9841ebac2e22#18753-25344",
+        "source:6f99f7e3-d110-429b-a67d-14aadfd84fd5#0-1013",
+        "source:462abc39-589f-4079-84bf-9841ebac2e22#853-1875"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "module",
+      "targetId": "mod18",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:b4d524bd-9aad-4181-bb97-ed3e2573d7f6#0-9411",
+        "source:b4d524bd-9aad-4181-bb97-ed3e2573d7f6#18971-21766",
+        "source:8989bc59-46a6-4287-80d7-564d9c99d472#0-9277",
+        "source:6afafa5a-a627-464b-91c4-c987f5e8690d#9374-16418",
+        "source:bd5821df-23c3-4fd3-a7b5-4a79c0824b05#0-8672",
+        "source:e042c985-9d50-4bcd-9be2-ba5fde52f2f0#0-9564",
+        "source:58f76b6b-5a30-4839-a387-59fe0663ca7f#0-9370",
+        "source:0c6d4454-46bf-4054-9386-3d5745262c59#0-9434",
+        "source:8989bc59-46a6-4287-80d7-564d9c99d472#4408-5453",
+        "source:6b26b853-5079-4bcb-a938-b074b666d399#17293-18374"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Conteúdo preservado e reimplementado após revisão semântica individual; correções, limites, contrastes e pegadinhas possuem proveniência exata e perfil canônico separado dos fatos de fonte."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "crase",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:2ba57f07-ce08-4be4-a3ca-a51caeff4aa6",
+        "source:030e1255-111c-422e-aa5e-0a6863d3b875",
+        "source:bdff17d4-c1e4-4eef-9f08-f40ee648f5f1",
+        "question:2379444086"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo central preservado e revalidado; casos especiais permanecem explicitamente fora do teste simplificado e cobertos no módulo canônico."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "que",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:5536abac-3c88-4434-a8ed-9e0e1389929f#0-9415",
+        "source:5536abac-3c88-4434-a8ed-9e0e1389929f#9415-15381",
+        "source:3a8a4728-ca82-4241-9d65-c680dd9604bb#0-9575",
+        "source:3a8a4728-ca82-4241-9d65-c680dd9604bb#9575-19059",
+        "source:5536abac-3c88-4434-a8ed-9e0e1389929f",
+        "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15",
+        "question:4001481682"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "se",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#9258-18500",
+        "source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#18500-27962",
+        "source:1390ed0f-2078-4cfb-be7b-6296fa5c74ac#140362-149079",
+        "source:c592e00d-8f79-47b1-90d1-b86efc2d2058#134613-142480",
+        "source:c592e00d-8f79-47b1-90d1-b86efc2d2058#142480-150797",
+        "source:4caf2c63-f638-4bc4-82d1-e902386f269b",
+        "source:cedf00a5-c87b-4bed-8217-bea66697a6c1",
+        "question:242115484",
+        "question:1876827226"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "cn_aa",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:68b86382-ad8b-47b8-bc17-70938c86ccae#9537-15478",
+        "source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#9449-19014",
+        "source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#19014-25535",
+        "source:c901c4d1-d9ac-49f5-980f-7e6816296093#28578-37433",
+        "source:68b86382-ad8b-47b8-bc17-70938c86ccae",
+        "source:1d3086e5-b3ac-46e2-a429-57002a075843",
+        "question:362150725",
+        "question:812738917"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "forma_verbal_oracao",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:d41dd648-5f65-420a-beea-83fae025b624#0-9546",
+        "source:cb0d944d-5d83-4294-8d42-8611cc6358ab#27927-33179",
+        "source:b643f8b6-0a08-4c8c-811c-8474b8213e87#0-9551",
+        "source:8ffa117e-f170-462c-837e-3d24c67ec03f#0-9276",
+        "source:459a0c80-0c58-489d-a3ab-333f5ee3263e#0-9549"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "predicacao_valencia",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:c575c2bd-f987-4362-8474-0a6050dd9c17#9013-18569",
+        "source:504d8a4f-b690-4cc6-9802-83ac5af4b523#9053-18590",
+        "source:9a18ae68-8fd4-40b2-b006-075a9746b9ed#8949-18329",
+        "source:9a18ae68-8fd4-40b2-b006-075a9746b9ed#27329-36707",
+        "source:e16cc507-c683-4202-9796-6cddb86f3255#9369-18776"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "periodo_composto",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:4fffa686-4df3-4b97-a33f-86504944d945#0-9533",
+        "source:4fffa686-4df3-4b97-a33f-86504944d945#27958-29575",
+        "source:acbe38cd-abf8-441c-8845-2177e5d93d88#0-8707",
+        "source:acbe38cd-abf8-441c-8845-2177e5d93d88#8707-17943",
+        "source:459a0c80-0c58-489d-a3ab-333f5ee3263e#9549-19124"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "concordancia",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#0-9362",
+        "source:0e900611-a753-4810-a38a-b392d344a13a#0-9568",
+        "source:0e900611-a753-4810-a38a-b392d344a13a#9568-19128",
+        "source:593c58f5-555d-43f9-b67a-00c24b84fb98#0-9450",
+        "source:cedf00a5-c87b-4bed-8217-bea66697a6c1#9535-18262"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "conectores",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:0099885d-ff20-40c4-a520-8ba6bce8463e#0-9279",
+        "source:0099885d-ff20-40c4-a520-8ba6bce8463e#9279-17721",
+        "source:f02ffa7f-7aa9-4712-ac83-8f1dc558b479#0-8406",
+        "source:f02ffa7f-7aa9-4712-ac83-8f1dc558b479#17773-27290",
+        "source:5ef17242-31ca-4412-84df-a89e3606604e#37326-46831"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    },
+    {
+      "targetType": "decision_tree",
+      "targetId": "analise_sintatica",
+      "status": "approved_ai_reviewed",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:4fffa686-4df3-4b97-a33f-86504944d945#9533-18377",
+        "source:9e0279f5-f126-4dfa-b66e-03b1cd757c4c#0-8833",
+        "source:5dd87de6-78e0-4d8a-b305-3979e3750e2d#0-9407",
+        "source:8e2c4b39-b72e-4d00-bbde-b8c9b2e4e5e0#0-9559",
+        "source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#0-9362"
+      ],
+      "gateResults": {
+        "fidelity": "pass",
+        "linguistic_correctness": "pass",
+        "consolidation": "pass",
+        "contradictions": "pass",
+        "suveca_fit": "pass",
+        "examples": "pass",
+        "exam_claims": "pass",
+        "pedagogy": "pass"
+      },
+      "rationale": "Fluxo criado ou corrigido após a revisão v3; combina testes estruturais e semânticos, admite divergência teórica quando necessária e evita decisão por uma única heurística."
+    }
+  ]
+}

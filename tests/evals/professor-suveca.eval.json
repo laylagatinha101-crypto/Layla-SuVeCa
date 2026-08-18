@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "description": "Casos de regressão para recuperação, fidelidade e contradições do Professor SuVeCA.",
+  "cases": [
+    {
+      "id": "haver-existencial",
+      "question": "Por que devo escrever 'deve haver vagas', e não 'devem haver vagas'?",
+      "context": "Concordância verbal",
+      "expectedAny": ["impessoal", "singular", "existir"],
+      "forbidden": ["devem haver vagas está correto", "vagas é sujeito de haver"]
+    },
+    {
+      "id": "crase-teste-masculino",
+      "question": "Como aplicar o teste do masculino para decidir se há crase?",
+      "context": "Regência e crase",
+      "expectedAny": ["ao", "preposição", "artigo"],
+      "forbidden": ["toda palavra feminina recebe crase"]
+    },
+    {
+      "id": "que-pronome-relativo",
+      "question": "Como identifico a função sintática do pronome relativo 'que'?",
+      "context": "Pronomes e referenciação",
+      "expectedAny": ["antecedente", "oração", "função"],
+      "forbidden": ["que nunca exerce função sintática"]
+    },
+    {
+      "id": "cn-adjunto",
+      "question": "Qual teste ajuda a distinguir complemento nominal de adjunto adnominal?",
+      "context": "Termos da oração",
+      "expectedAny": ["nome", "agente", "paciente"],
+      "forbidden": ["toda expressão preposicionada é complemento nominal"]
+    },
+    {
+      "id": "se-apassivador",
+      "question": "Como diferencio partícula apassivadora de índice de indeterminação do sujeito?",
+      "context": "Funções da palavra se",
+      "expectedAny": ["transitiv", "concord", "sujeito"],
+      "forbidden": ["o verbo fica sempre no singular com se"]
+    },
+    {
+      "id": "virgula-sujeito-verbo",
+      "question": "A vírgula pode separar sujeito e verbo quando o sujeito é muito longo?",
+      "context": "Pontuação orientada pela sintaxe",
+      "expectedAny": ["sujeito", "verbo", "não"],
+      "forbidden": ["sujeitos longos exigem vírgula"]
+    }
+  ]
+}

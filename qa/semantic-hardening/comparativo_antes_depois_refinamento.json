@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-08-18T21:55:00Z",
+  "comparativo": {
+    "misconceptionsTaxonomy": {
+      "antes": {
+        "total": 600,
+        "natureza": "Projeção 1:1 trivial das 600 pegadinhas",
+        "mediaTrapsPorMisconception": 1.0
+      },
+      "depois": {
+        "total": 46,
+        "natureza": "46 arquétipos conceituais fundamentais (Fonética, Morfologia, Sintaxe, Concordância, Regência, Crase, Pontuação, Semântica)",
+        "mediaTrapsPorMisconception": 13.0,
+        "coberturaTraps": "600/600 (100%)"
+      }
+    },
+    "exemplosComentados": {
+      "total": 1602,
+      "antes": {
+        "especificos": 1461,
+        "emFallbackTemplate": 141,
+        "taxaFallback": "8.8%"
+      },
+      "depois": {
+        "especificos": 1602,
+        "emFallbackTemplate": 0,
+        "taxaFallback": "0.0% (0 fallbacks)"
+      }
+    },
+    "procedimentos": {
+      "total": 413,
+      "antes": {
+        "especificos": 369,
+        "emFallbackTemplate": 44,
+        "taxaFallback": "10.7%"
+      },
+      "depois": {
+        "especificos": 413,
+        "emFallbackTemplate": 0,
+        "taxaFallback": "0.0% (0 fallbacks)"
+      }
+    },
+    "evidenceGrounding": {
+      "antes": {
+        "totalLinks": 1020,
+        "granularidade": "Associação de nível de UNIDADE (10 por unidade)",
+        "claimLevelExato": "Não"
+      },
+      "depois": {
+        "totalLinks": 981,
+        "granularidade": "100% claim_level determinístico (contentBlockRef <-> claimRef)",
+        "entidadesComGroundingDireto": 824,
+        "claimLevelExato": "Sim"
+      }
+    },
+    "questionIntelligence": {
+      "totalRegistros": 466,
+      "alternativasAnalisadas": 500,
+      "demandasCognitivas": {
+        "analise_estrutural": 212,
+        "interpretacao_contextual": 181,
+        "discriminacao_sintatica": 73
+      },
+      "anomaliasMapeadas": 19,
+      "payloadsOficiaisPreservados": "2.588/2.588 (100% imutáveis)"
+    },
+    "fontesProtegidas": {
+      "officialQuestionsPayloadsMutated": 0,
+      "editorialDecisionsReopened": 0,
+      "finalAdjudicatedCasesPreserved": "98/98",
+      "canonicalUnitsCovered": "115/115",
+      "canonicalTablesPreserved": "364/364"
+    }
+  }
+}

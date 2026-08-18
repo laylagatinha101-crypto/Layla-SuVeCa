@@ -1,0 +1,1975 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A01-G01",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.912Z"
+  },
+  "unit": {
+    "unitId": "IP-A01-G01",
+    "lessonId": "A01",
+    "groupId": "G01",
+    "title": "Classes Variáveis e Invariáveis",
+    "variant": "development",
+    "canonicalTopicId": "pt:a01:classes-variaveis-e-invariaveis",
+    "learningObjectives": [
+      "OBJ-IP-A01-G01-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "Variabilidade e invariabilidade são propriedades morfológicas. O mapa ajuda a mostrar como cada classe realiza funções diferentes, sem identificar classe e função.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Noção básica sobre a existência de classes gramaticais no idioma.",
+            "Compreensão intuitiva da diferença entre vocábulos isolados e orações estruturadas por verbos."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SISTEMA MORFOLÓGICO DA LÍNGUA PORTUGUESA (10 CLASSES) │ ├── 1. CLASSES VARIÁVEIS (Admitem flexão de Gênero [M/F] e Número [S/P]) │ ├── Substantivo: Núcleo do sistema nominal; nomeia seres/ideias; admite Artigo antecedente. │ ├── Artigo: Acompanha e determina/generaliza o substantivo. │ ├── Adjetivo: Palavra simples que caracteriza o substantivo (Flexiona no plural). │ │ └── [Contraste] Locução Adjetiva: Expressão (Prep + Subst); em regra INVARIÁVEL. │ ├── Pronome: Relação com o nome. │ │ ├── Pronome Substantivo: Ocupa o lugar do nome (isolado na função). │ │ └── Pronome Adjetivo: Acompanha o substantivo (manda seta para ele). │ ├── Numeral: Quantifica, ordena, multiplica ou fraciona seres. │ │ ├── Numeral Substantivo: Atua isoladamente como núcleo nominal. │ │ └── Numeral Adjetivo: Acompanha e determina o substantivo. │ └── Verbo: Exprime ação, estado, fenômeno; classe de maior flexibilidade morfológica. │ └── 2. CLASSES INVARIÁVEIS (Forma fixa; sem flexão de gênero e número) ├── Advérbio: Modifica Verbo, Adjetivo ou outro Advérbio; indica circunstância. │ ├── Locução Adverbial: Expressão preposicionada com valor adverbial (invariável). │ └── [Exceção] Advérbio \"Todo/Toda\": Admite concordância atípica com adjetivo feminino. ├── Conjunção: Conectivo; liga orações ou termos de mesma função sintática. │ └── Locução Conjuntiva: Expressão conectiva; TERMINA OBRIGATORIAMENTE EM CONJUNÇÃO. ├── Preposição: Conectivo; liga termos (palavras) ou orações reduzidas. │ └── Locução Prepositiva: Expressão conectiva; TERMINA OBRIGATORIAMENTE EM PREPOSIÇÃO. └── Interjeição: Palavra/expressão invariável que exprime emoções, sentimentos e sensações."
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A01-G01-001",
+          "title": "Mapa de conexão — Classes Variáveis e Invariáveis",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a01:classes-variaveis-e-invariaveis",
+              "label": "Classes Variáveis e Invariáveis",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a01:classes-variaveis-e-invariaveis",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Uma classe gramatical é considerada variável quando suas palavras admitem flexão, sofrendo alterações morfológicas para expressar gênero (masculino e feminino) e número (singular e plural). As classes invariáveis possuem forma fixa e cristalizada, não admitindo flexão sob nenhuma circunstância de concordância básica."
+        },
+        {
+          "type": "paragraph",
+          "text": "A morfologia da Língua Portuguesa organiza suas dez classes de palavras em dois conjuntos fundamentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Classes Variáveis (6): Substantivo, Artigo, Adjetivo, Pronome, Numeral e Verbo. (O verbo apresenta ainda flexões próprias de tempo, modo, número, pessoa e voz).",
+            "Classes Invariáveis (4): Advérbio, Conjunção, Preposição e Interjeição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o vocábulo aceita alteração mórfica de singular/plural ($S \\rightarrow Pl$) ou masculino/feminino ($Masc \\rightarrow Fem$) ao alterar-se o contexto frasal $\\rightarrow$ Palavra de Classe Variável.",
+            "Se o vocábulo mantém rigorosamente a mesma forma gráfica e fonética, independentemente de os termos vizinhos estarem no plural ou feminino $\\rightarrow$ Palavra de Classe Invariável."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007 (Classes Invariáveis e Locuções).",
+            "Expandido em: KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 a KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O substantivo é a classe variável que funciona como nome, responsável por nomear seres concretos, abstrações, ações, estados e qualidades. No contexto de provas de concurso, sua marca diagnóstica distintiva é a capacidade gramatical de aceitar a anteposição de um artigo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para determinar se uma palavra em análise atua como substantivo:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Avalia-se se ela desempenha o papel semântico de nomear algo.",
+            "Aplica-se o teste prático de antecipar um artigo (o, a, os, as, um, uma). Mesmo que a frase original não traga o artigo expresso, a admissibilidade natural do determinante comprova a natureza substantiva do vocábulo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação: Na oração \"Ele tem competência\", a palavra competência é substantivo porque admite o determinante: \"Ele tem a competência\".",
+            "Aplicação contextual: Na oração \"Vive na zona rural\", a palavra isolada zona é substantivo antecedido da contração na (em + artigo a)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001.",
+            "Possui alerta em: WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O adjetivo é uma palavra simples variável que se refere diretamente ao substantivo, concordando com ele em gênero e número. A locução adjetiva é uma expressão (formada por duas ou mais palavras, usualmente preposição + substantivo) que exerce papel adjetivo, mas que, por ser uma unidade sintagmática fixa, não varia no plural nem no feminino."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Adjetivo Simples: Flexiona-se harmoniosamente com o substantivo. Exemplo: \"homem inteligente\" $\\rightarrow$ \"homens inteligentes\".",
+            "Particípio com Valor Adjetivo: Particípios verbais aplicados diretamente à qualificação de substantivos operam funcionalmente como adjetivos variáveis. Exemplo: \"pagamentos realizados\".",
+            "Locução Adjetiva: Como princípio transversal da morfologia, as locuções são expressões cristalizadas e, em regra geral, permanecem invariáveis. Exemplo: \"homem de inteligência\" $\\rightarrow$ \"homens de inteligência\" (a flexão \"homens de inteligências\" é incorreta).",
+            "Locução Cristalizada Excepcional: A locução \"a sós\" qualifica termos nominais (\"As duas estão a sós\"), sendo classificada como locução adjetiva estritamente invariável."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001 e EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004.",
+            "Possui alerta em: WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 e WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome é a classe que se relaciona diretamente com o substantivo, dividindo-se funcionalmente em pronome substantivo (quando substitui o nome e assume sozinho a função sintática) e pronome adjetivo (quando acompanha o substantivo, determinando-o ou modificando-o)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do ponto de vista textual e sintático, independentemente da subclasse formal (pessoal, possessivo, demonstrativo, indefinido, etc.), todo pronome assume um dos dois papéis:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pronome Substantivo: Fica isolado, ocupando o lugar do nome na estrutura sintática (ex.: \"Alguém chegou\").",
+            "Pronome Adjetivo: Posiciona-se adjacente a um substantivo explícito, apontando uma relação de dependência direta para ele (ex.: \"Meu aluno chegou\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nota de Flexão: Embora o pronome integre as classes variáveis, existem pronomes indefinidos/pessoais específicos intrinsecamente invariáveis (ex.: alguém, ninguém, tudo, mais em certos contextos)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002.",
+            "Dica associada: TIP-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O numeral é a classe variável que quantifica seres, indica ordenação, multiplicação ou divisão. À semelhança do pronome, pode atuar no discurso como numeral substantivo (quando substitui o nome) ou numeral adjetivo (quando acompanha o substantivo)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Numeral Substantivo: Desempenha o papel de núcleo do sintagma nominal isoladamente. Exemplo: \"Os dois chegaram\" (o numeral cardinal dois atua como sujeito substantivado). O vocábulo milhão (\"R$ 1,25 milhão\") quantifica atuando com feição substantiva e varia em número (milhões).",
+            "Numeral Adjetivo: Acompanha e quantifica diretamente um substantivo textual expresso. Exemplo: \"Os dois meninos chegaram\" (dois aponta para meninos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo é a classe gramatical variável responsável por exprimir ação, estado, mudança de estado ou fenômenos naturais. Destaca-se como a classe morfológica mais flexível e complexa da Língua Portuguesa, admitindo variações de número, pessoa, tempo, modo e voz."
+        },
+        {
+          "type": "paragraph",
+          "text": "No estudo inicial das classes variáveis, o verbo constitui o elemento indispensável da oração. Nas questões de identificação de flexibilidade, as formas verbais (ex.: \"fez\", \"estudou\") são classificadas invariavelmente como variáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "O advérbio é uma classe invariável cuja função sintático-semântica é modificar um verbo, um adjetivo ou outro advérbio, expressando uma circunstância (modo, tempo, lugar, intensidade, afirmação, negação, exclusão). A locução adverbial é a expressão pluriverbal correspondente. Como exceção expressiva, o advérbio de intensidade \"todo\" aceita concordância de gênero com adjetivo feminino."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Alvo de Modificação: O advérbio jamais modifica substantivos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Advérbio simples: \"Ele estudou rapidamente.\" / \"Eles não se davam bem.\" (modo).",
+            "Locução adverbial: \"Ele estudou à toa.\" / \"Vive na zona rural.\" (lugar)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Advérbio \"Mais\" Antecedido de Negação: Em construções como \"não mais\" ou \"nunca mais\" (\"A gente não deseja mais viver\"), o vocábulo mais modifica o verbo e expressa circunstância de tempo (cessação temporal: \"de agora em diante\"), sendo invariável.",
+            "Advérbio \"Menos\": Ao modificar adjetivos (\"menos condenável\"), expressa intensidade e permanece estritamente invariável (a forma \"menas\" é inexistente no padrão culto).",
+            "A Exceção de \"Todo/Toda\": Ao intensificar adjetivo, o advérbio todo admite duas construções cultas equivalentes:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Ela chegou toda feliz.\" (advérbio variável por atração estilística).",
+            "\"Ela chegou todo feliz.\" (advérbio mantido rigorosamente invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui exceção em: EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003.",
+            "Possui alerta em: WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunções e Preposições são classes invariáveis que atuam como conectores discursivos. Ambas possuem a capacidade de ligar orações ou termos; a distinção entre suas respectivas locuções assenta-se no vocábulo final da expressão."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Capacidades Conectivas:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunção: Liga orações (\"Ele chegou e dormiu\") ou termos de mesma função na oração (\"José e João chegaram\").",
+            "Preposição: Liga termos nominais (\"Blusa de Maria\") ou orações (\"Estudo para ter uma vida melhor\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Diferenciação Estrutural de Locuções:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Locução Conjuntiva: Expressão que termina obrigatoriamente por conjunção (geralmente que). Ex.: a fim de que, assim que, já que, à medida que.",
+            "Locução Prepositiva: Expressão que termina obrigatoriamente por preposição. Ex.: a fim de, graças a, por causa de, em vez de."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003.",
+            "Dica associada: TIP-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A interjeição é a classe gramatical invariável composta por palavras ou expressões que exteriorizam de forma direta e instantânea estados emocionais, reações psíquicas, sensações e sentimentos do emissor (como dor, espanto, alívio, medo)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Completando as dez classes morfológicas, as interjeições não sofrem flexão de gênero nem de número. Exemplos herdados: \"Ai!\" / \"Ui!\" (dor), \"Meu Deus!\" / \"Nossa!\" (espanto/medo)."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Método das Setas é o protocolo analítico que determina a classe e a flexibilidade de uma palavra exclusivamente pelas relações de dependência sintática estabelecidas no interior da frase, substituindo a memorização ineficaz de listas isoladas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para classificar qualquer vocábulo:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Traça-se uma seta da palavra analisada para o termo ao qual ela se refere.",
+            "Aplica-se a regra de interconexão morfológica:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aponta para Substantivo $\\rightarrow$ Adjetivo, Artigo, Pronome ou Numeral (Natureza Nominal / Geralmente Variável).",
+            "Aponta para Verbo, Adjetivo ou outro Advérbio $\\rightarrow$ Advérbio (Classe estritamente Invariável).",
+            "Atua ligando dois termos ou duas orações $\\rightarrow$ Preposição ou Conjunção (Conectivo / Invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004.",
+            "Fundamenta: KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-011 e KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-012."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A sequência grafada em uma única palavra \"demais\" funciona como advérbio de intensidade (invariável). Já a estrutura separada \"de mais\" é formada pela preposição de seguida do pronome indefinido mais, o qual modifica substantivo."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "\"Demais\" (junto): Liga-se ao verbo para intensificá-lo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Ele gosta demais de você.\" (seta de demais para o verbo gosta $\\rightarrow$ Advérbio de intensidade / Invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "\"De mais\" (separado): Ocorre quando a regência exige a preposição de e o vocábulo mais quantifica um substantivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Eu preciso [de] [mais] café.\" (de = preposição; mais manda seta para o substantivo café $\\rightarrow$ Pronome indefinido)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Palavras como claro e só alternam sua classe e variabilidade conforme o termo a que se referem na oração, enquanto a locução a sós permanece estritamente invariável."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A palavra \"Claro\":"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Dia claro\" $\\rightarrow$ refere-se ao substantivo dia $\\rightarrow$ Adjetivo (Variável).",
+            "\"Claro que sairemos hoje\" / \"— Claro que estou indo\" $\\rightarrow$ refere-se à locução verbal/oração com sentido de \"com certeza / de fato\" $\\rightarrow$ Advérbio de afirmação/obviedade (Invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A palavra \"Só\":"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Equivalente a \"sozinho(a)\" (\"Ângela fez o trabalho só\") $\\rightarrow$ refere-se ao substantivo $\\rightarrow$ Adjetivo (Variável: elas fizeram sós).",
+            "Equivalente a \"somente / apenas\" (\"Maria só arrumou a horta\") $\\rightarrow$ refere-se ao verbo $\\rightarrow$ Advérbio de exclusão (Invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A locução \"A sós\":"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Modifica pronome ou numeral (\"As duas estão a sós\") $\\rightarrow$ Locução Adjetiva Invariável."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005 e EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A01-G01-001",
+          "title": "Quadro Sinótico de Classes e Flexibilidade",
+          "statement": "\\*Exceções registradas: Pronomes invariáveis (alguém, ninguém, tudo); Advérbio de intensidade todo (\"toda feliz\").",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Quadro Sinótico de Classes e Flexibilidade."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-001",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Classe Gramatical",
+                  "Natureza",
+                  "Função Básica no Enunciado",
+                  "Teste / Critério Diagnóstico",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Substantivo",
+                    "Variável",
+                    "Nomeia seres, ações, conceitos",
+                    "Admite anteposição de artigo",
+                    "KB-...-002"
+                  ],
+                  [
+                    "Artigo",
+                    "Variável",
+                    "Determina ou generaliza o substantivo",
+                    "Antepõe-se ao nome",
+                    "KB-...-001"
+                  ],
+                  [
+                    "Adjetivo",
+                    "Variável",
+                    "Caracteriza o substantivo",
+                    "Varia em gênero/número com o nome",
+                    "KB-...-003"
+                  ],
+                  [
+                    "Pronome",
+                    "Variável",
+                    "Substitui ou acompanha o substantivo",
+                    "Substantivo (isolado) / Adjetivo (com nome)",
+                    "KB-...-004"
+                  ],
+                  [
+                    "Numeral",
+                    "Variável",
+                    "Quantifica, ordena, multiplica, divide",
+                    "Substantivo (isolado) / Adjetivo (com nome)",
+                    "KB-...-005"
+                  ],
+                  [
+                    "Verbo",
+                    "Variável",
+                    "Expressa ação, estado, fenômeno",
+                    "Flexiona em tempo, modo, pessoa, número",
+                    "KB-...-006"
+                  ],
+                  [
+                    "Advérbio",
+                    "Invariável",
+                    "Modifica verbo, adjetivo ou outro advérbio",
+                    "Indica circunstância; não se liga a nome",
+                    "KB-...-007"
+                  ],
+                  [
+                    "Conjunção",
+                    "Invariável",
+                    "Liga orações ou termos da mesma oração",
+                    "Conector puro",
+                    "KB-...-008"
+                  ],
+                  [
+                    "Preposição",
+                    "Invariável",
+                    "Liga termos da oração ou orações reduzidas",
+                    "Conector subordinante",
+                    "KB-...-008"
+                  ],
+                  [
+                    "Interjeição",
+                    "Invariável",
+                    "Expressa sentimentos e reações imediatas",
+                    "Palavra exclamativa autônoma",
+                    "KB-...-009"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "\\*Exceções registradas: Pronomes invariáveis (alguém, ninguém, tudo); Advérbio de intensidade todo (\"toda feliz\")."
+            }
+          ]
+        },
+        {
+          "entityId": "RULE-IP-A01-G01-002",
+          "title": "Regra Canônica das Locuções",
+          "statement": "Locução Adjetiva: Expressão preposicionada que qualifica substantivo $\\rightarrow$ Em regra Invariável (KB-...-003).\nLocução Conjuntiva: Expressão conectiva que termina em conjunção (KB-...-008).\nLocução Prepositiva: Expressão conectiva que termina em preposição (KB-...-008).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Locução Adjetiva: Expressão preposicionada que qualifica substantivo $\\rightarrow$ Em regra Invariável (KB-...-003).",
+            "Locução Conjuntiva: Expressão conectiva que termina em conjunção (KB-...-008).",
+            "Locução Prepositiva: Expressão conectiva que termina em preposição (KB-...-008)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Locução Adjetiva: Expressão preposicionada que qualifica substantivo $\\rightarrow$ Em regra Invariável (KB-...-003).",
+                "Locução Conjuntiva: Expressão conectiva que termina em conjunção (KB-...-008).",
+                "Locução Prepositiva: Expressão conectiva que termina em preposição (KB-...-008)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001",
+          "title": "Teste do Artigo para Identificação de Substantivos",
+          "objective": "Executar o algoritmo decisório para Teste do Artigo para Identificação de Substantivos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste do Artigo para Identificação de Substantivos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole o vocábulo sob análise na frase.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Tente inserir imediatamente antes dele um artigo definido (o, a, os, as) ou indefinido (um, uma).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se a estrutura acolher o artigo mantendo a higidez gramatical e o sentido, a palavra funciona contextualmente como Substantivo.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste do Artigo para Identificação de Substantivos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole o vocábulo sob análise na frase.",
+                "Tente inserir imediatamente antes dele um artigo definido (o, a, os, as) ou indefinido (um, uma).",
+                "Se a estrutura acolher o artigo mantendo a higidez gramatical e o sentido, a palavra funciona contextualmente como Substantivo."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002",
+          "title": "Teste da \"Seta\" para Diferenciação de Funções Substantivas e Adjetivas",
+          "objective": "Executar o algoritmo decisório para Teste da \"Seta\" para Diferenciação de Funções Substantivas e Adjetivas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste da \"Seta\" para Diferenciação de Funções Substantivas e Adjetivas."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize o pronome ou numeral na estrutura oracional.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Verifique a existência de substantivo adjacente",
+              "explanation": "",
+              "test": "Verifique a existência de substantivo adjacente:"
+            },
+            {
+              "order": 3,
+              "action": "Se a palavra manda uma seta para um substantivo ao lado $\\rightarrow$ Classifica-se como Pronome Adjetivo ou Numeral Adjetivo (\"Meu aluno\", \"Dois homens\").",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se a palavra estiver isolada, sem substantivo ao lado, desempenhando ela própria o papel nuclear $\\rightarrow$ Classifica-se como Pronome Substantivo ou Numeral Substantivo (\"Alguém chegou\", \"Os dois chegaram\").",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste da \"Seta\" para Diferenciação de Funções Substantivas e Adjetivas."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize o pronome ou numeral na estrutura oracional.",
+                "Verifique a existência de substantivo adjacente:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se a palavra manda uma seta para um substantivo ao lado $\\rightarrow$ Classifica-se como Pronome Adjetivo ou Numeral Adjetivo (\"Meu aluno\", \"Dois homens\").",
+                "Se a palavra estiver isolada, sem substantivo ao lado, desempenhando ela própria o papel nuclear $\\rightarrow$ Classifica-se como Pronome Substantivo ou Numeral Substantivo (\"Alguém chegou\", \"Os dois chegaram\")."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003",
+          "title": "Regra do Vocábulo Final para Locuções Conectivas",
+          "objective": "Executar o algoritmo decisório para Regra do Vocábulo Final para Locuções Conectivas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Regra do Vocábulo Final para Locuções Conectivas."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole a expressão conectiva pluriverbal.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Examine a última palavra que encerra a locução",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se a última palavra for uma preposição (de, a, em, com, por) $\\rightarrow$ A estrutura é uma Locução Prepositiva (a fim de, por causa de).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se a última palavra for uma conjunção (que, se, como) $\\rightarrow$ A estrutura é uma Locução Conjuntiva (a fim de que, visto que).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Regra do Vocábulo Final para Locuções Conectivas."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole a expressão conectiva pluriverbal.",
+                "Examine a última palavra que encerra a locução:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se a última palavra for uma preposição (de, a, em, com, por) $\\rightarrow$ A estrutura é uma Locução Prepositiva (a fim de, por causa de).",
+                "Se a última palavra for uma conjunção (que, se, como) $\\rightarrow$ A estrutura é uma Locução Conjuntiva (a fim de que, visto que)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004",
+          "title": "Protocolo do Método das Setas para Classificação Morfossintática",
+          "objective": "Executar o algoritmo decisório para Protocolo do Método das Setas para Classificação Morfossintática",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo do Método das Setas para Classificação Morfossintática."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Delimitação",
+              "explanation": "Verifique o escopo exato do sublinhado da banca (evitando analisar a locução inteira quando apenas o núcleo está marcado).",
+              "test": "Delimitação: Verifique o escopo exato do sublinhado da banca (evitando analisar a locução inteira quando apenas o núcleo está marcado)."
+            },
+            {
+              "order": 2,
+              "action": "Pergunta de Relação",
+              "explanation": "Formule a pergunta de dependência: \"Este vocábulo está no texto para modificar, caracterizar ou ligar quem?\"",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Mapeamento",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Referência a Substantivo $\\rightarrow$ Natureza Adjetiva/Nominal (Variável).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Referência a Verbo, Adjetivo ou Advérbio $\\rightarrow$ Advérbio (Invariável).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Ligação pura $\\rightarrow$ Preposição / Conjunção (Invariável).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Confirmação",
+              "explanation": "Teste a flexão passando a oração para o plural/feminino.",
+              "test": "Confirmação: Teste a flexão passando a oração para o plural/feminino."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo do Método das Setas para Classificação Morfossintática."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Delimitação: Verifique o escopo exato do sublinhado da banca (evitando analisar a locução inteira quando apenas o núcleo está marcado).",
+                "Pergunta de Relação: Formule a pergunta de dependência: \"Este vocábulo está no texto para modificar, caracterizar ou ligar quem?\"",
+                "Mapeamento:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Referência a Substantivo $\\rightarrow$ Natureza Adjetiva/Nominal (Variável).",
+                "Referência a Verbo, Adjetivo ou Advérbio $\\rightarrow$ Advérbio (Invariável).",
+                "Ligação pura $\\rightarrow$ Preposição / Conjunção (Invariável)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Confirmação: Teste a flexão passando a oração para o plural/feminino."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005",
+          "title": "Teste de Substituição Contextual para \"Só\" e \"A sós\"",
+          "objective": "Executar o algoritmo decisório para Teste de Substituição Contextual para \"Só\" e \"A sós\"",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Substituição Contextual para \"Só\" e \"A sós\"."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Substitua \"só\" por \"sozinho(a)\"",
+              "explanation": "se mantiver a coerência, refere-se a substantivo $\\rightarrow$ Adjetivo (Variável).",
+              "test": "Substitua \"só\" por \"sozinho(a)\": se mantiver a coerência, refere-se a substantivo $\\rightarrow$ Adjetivo (Variável)."
+            },
+            {
+              "order": 2,
+              "action": "Substitua \"só\" por \"somente / apenas\"",
+              "explanation": "se mantiver a coerência, refere-se a verbo $\\rightarrow$ Advérbio (Invariável).",
+              "test": "Substitua \"só\" por \"somente / apenas\": se mantiver a coerência, refere-se a verbo $\\rightarrow$ Advérbio (Invariável)."
+            },
+            {
+              "order": 3,
+              "action": "Diante da expressão preposicionada \"a sós\"",
+              "explanation": "identifique-a como Locução Adjetiva Invariável.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Substituição Contextual para \"Só\" e \"A sós\"."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Substitua \"só\" por \"sozinho(a)\": se mantiver a coerência, refere-se a substantivo $\\rightarrow$ Adjetivo (Variável).",
+                "Substitua \"só\" por \"somente / apenas\": se mantiver a coerência, refere-se a verbo $\\rightarrow$ Advérbio (Invariável).",
+                "Diante da expressão preposicionada \"a sós\": identifique-a como Locução Adjetiva Invariável."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A01-G01-001",
+          "title": "1. Palavra Simples vs. Locução Correspondente (Comportamento de Flexão)",
+          "contrastType": "mixed",
+          "conceptA": "1. Palavra Simples vs. Locução Correspondente (Comportamento de Flexão)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-002",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Estrutura",
+                  "Categoria",
+                  "Comportamento no Plural",
+                  "Exemplo no Singular",
+                  "Exemplo no Plural"
+                ],
+                "rows": [
+                  [
+                    "Adjetivo",
+                    "Palavra simples",
+                    "Variável (concorda com o nome)",
+                    "Homem inteligente",
+                    "Homens inteligentes"
+                  ],
+                  [
+                    "Locução Adjetiva",
+                    "Expressão fixa",
+                    "Invariável (mantém a forma)",
+                    "Homem de inteligência",
+                    "Homensde inteligência"
+                  ],
+                  [
+                    "Advérbio",
+                    "Palavra simples",
+                    "Invariável",
+                    "Estudou rapidamente",
+                    "Estudaram rapidamente"
+                  ],
+                  [
+                    "Locução Adverbial",
+                    "Expressão fixa",
+                    "Invariável",
+                    "Estudou à toa",
+                    "Estudaram à toa"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A01-G01-002",
+          "title": "2. Distinção entre Conectores e suas Locuções",
+          "contrastType": "mixed",
+          "conceptA": "2. Distinção entre Conectores e suas Locuções",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-003",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Conector / Locução",
+                  "Termo que Liga",
+                  "Marca Formal de Reconhecimento",
+                  "Exemplo Canônico"
+                ],
+                "rows": [
+                  [
+                    "Preposição",
+                    "Termos ou Orações",
+                    "Palavra invariável relacional",
+                    "Blusade Maria / Estudo para vencer"
+                  ],
+                  [
+                    "Locução Prepositiva",
+                    "Termos ou Orações",
+                    "Termina em Preposição",
+                    "Estudoa fim de passar"
+                  ],
+                  [
+                    "Conjunção",
+                    "Orações ou Termos da mesma oração",
+                    "Palavra invariável coordenativa/subordinativa",
+                    "Chegoue dormiu / José e João"
+                  ],
+                  [
+                    "Locução Conjuntiva",
+                    "Orações",
+                    "Termina em Conjunção (geralmente que)",
+                    "Estudoa fim de que passe"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A01-G01-003",
+          "title": "3. Vocábulos Polissêmicos em Análise Contrastiva",
+          "contrastType": "mixed",
+          "conceptA": "3. Vocábulos Polissêmicos em Análise Contrastiva",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-004",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Vocábulo",
+                  "Contexto Sintático",
+                  "Classe Gramatical",
+                  "Flexibilidade"
+                ],
+                "rows": [
+                  [
+                    "Demais",
+                    "Modifica verbo (\"Gosta demais\")",
+                    "Advérbio de intensidade",
+                    "Invariável"
+                  ],
+                  [
+                    "De mais",
+                    "Preposiçãode + quantificador de nome (\"mais café\")",
+                    "Prep. + Pronome indefinido",
+                    "Invariável"
+                  ],
+                  [
+                    "Claro",
+                    "Modifica substantivo (\"Dia claro\")",
+                    "Adjetivo",
+                    "Variável"
+                  ],
+                  [
+                    "Claro",
+                    "Modifica oração/verbo (\"Claro que vou\")",
+                    "Advérbio de afirmação",
+                    "Invariável"
+                  ],
+                  [
+                    "Menos",
+                    "Modifica adjetivo (\"Menos condenável\")",
+                    "Advérbio de intensidade",
+                    "Invariável"
+                  ],
+                  [
+                    "Só",
+                    "Equivale asozinho (\"Fez o trabalho só\")",
+                    "Adjetivo",
+                    "Variável"
+                  ],
+                  [
+                    "Só",
+                    "Equivale aapenas (\"Maria só arrumou\")",
+                    "Advérbio de exclusão",
+                    "Invariável"
+                  ],
+                  [
+                    "A sós",
+                    "Expressão fixa (\"Elas estão a sós\")",
+                    "Locução adjetiva",
+                    "Invariável"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-001",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001 — Contraste de Flexão no Plural: Adjetivo vs. Locução Adjetiva",
+          "prompt": "Construção A: \"Ele é homem inteligente.\" $\\rightarrow$ Plural: \"Eles são homens inteligentes.\" (O adjetivo simples flexiona no plural).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Construção A",
+              "rationale": "\"Ele é homem inteligente.\" $\\rightarrow$ Plural: \"Eles são homens inteligentes.\" (O adjetivo simples flexiona no plural)."
+            },
+            {
+              "order": 2,
+              "action": "Construção B",
+              "rationale": "\"Ele é homem de inteligência.\" $\\rightarrow$ Plural: \"Eles são homens de inteligência.\" (A locução adjetiva permanece invariável; a forma \"de inteligências\" é gramaticalmente rejeitada)."
+            }
+          ],
+          "result": "Construção B: \"Ele é homem de inteligência.\" $\\rightarrow$ Plural: \"Eles são homens de inteligência.\" (A locução adjetiva permanece invariável; a forma \"de inteligências\" é gramaticalmente rejeitada).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001 — Contraste de Flexão no Plural: Adjetivo vs. Locução Adjetiva sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001 — Contraste de Flexão no Plural: Adjetivo vs. Locução Adjetiva.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001 — Contraste de Flexão no Plural: Adjetivo vs. Locução Adjetiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Construção A: \"Ele é homem inteligente.\" $\\rightarrow$ Plural: \"Eles são homens inteligentes.\" (O adjetivo simples flexiona no plural).",
+                "Construção B: \"Ele é homem de inteligência.\" $\\rightarrow$ Plural: \"Eles são homens de inteligência.\" (A locução adjetiva permanece invariável; a forma \"de inteligências\" é gramaticalmente rejeitada)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-002",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas",
+          "prompt": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciaç\".",
+              "rationale": "Constatação do elemento sob exame de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas.",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVE\" com a norma culta de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas.",
+          "decisivePoint": "Critério decisório de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas aplicado a \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVE\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002 — Diferenciação de Funções Substantivas e Adjetivas.",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-005",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-005",
+                "caption": "Exemplos resolvidos",
+                "headers": [
+                  "Frase Analisada",
+                  "Termo",
+                  "Classe Morfológica",
+                  "Função Contextual",
+                  "Justificativa Sintática"
+                ],
+                "rows": [
+                  [
+                    "\"Alguém chegou.\"",
+                    "Alguém",
+                    "Pronome Indefinido",
+                    "Pronome Substantivo",
+                    "Ocupa sozinho o núcleo do sujeito."
+                  ],
+                  [
+                    "\"Meu aluno chegou.\"",
+                    "Meu",
+                    "Pronome Possessivo",
+                    "Pronome Adjetivo",
+                    "Acompanha e determina o substantivoaluno."
+                  ],
+                  [
+                    "\"Os dois chegaram.\"",
+                    "dois",
+                    "Numeral Cardinal",
+                    "Numeral Substantivo",
+                    "Ocupa sozinho a função de sujeito."
+                  ],
+                  [
+                    "\"Os dois meninos chegaram.\"",
+                    "dois",
+                    "Numeral Cardinal",
+                    "Numeral Adjetivo",
+                    "Manda seta quantificadora para o substantivomeninos."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-003",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003 — Aplicação da Exceção do Advérbio \"Todo\"",
+          "prompt": "Frase: \"Ela chegou toda feliz.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase",
+              "rationale": "\"Ela chegou toda feliz.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O adjetivo feliz refere-se a ela. A palavra toda intensifica o adjetivo (equivale a \"completamente\"). Pela regra geral, modificador de adjetivo é advérbio. Trata-se de uma exceção em que o advérbio sofreu flexão facultativa/estilística de gênero. A forma invariável \"Ela chegou todo feliz\" também é culta e correta."
+            }
+          ],
+          "result": "Análise: O adjetivo feliz refere-se a ela. A palavra toda intensifica o adjetivo (equivale a \"completamente\"). Pela regra geral, modificador de adjetivo é advérbio. Trata-se de uma exceção em que o advérbio sofreu flexão facultativa/estilística de gênero. A forma invariável \"Ela chegou todo feliz\" também é culta e correta.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003 — Aplicação da Exceção do Advérbio \"Todo\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003 — Aplicação da Exceção do Advérbio \"Todo\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003 — Aplicação da Exceção do Advérbio \"Todo\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase: \"Ela chegou toda feliz.\"",
+                "Análise: O adjetivo feliz refere-se a ela. A palavra toda intensifica o adjetivo (equivale a \"completamente\"). Pela regra geral, modificador de adjetivo é advérbio. Trata-se de uma exceção em que o advérbio sofreu flexão facultativa/estilística de gênero. A forma invariável \"Ela chegou todo feliz\" também é culta e correta."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-004",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens)",
+          "prompt": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Con\".",
+              "rationale": "Constatação do elemento sob exame de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens)."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens).",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVE\" com a norma culta de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens).",
+          "decisivePoint": "Critério decisório de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens) aplicado a \"EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVE\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004 — Bateria Consolidada de Exercícios de Fixação (8 Itens).",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A01-G01-006",
+              "table": {
+                "tableId": "TABLE-IP-A01-G01-006",
+                "caption": "Exemplos resolvidos",
+                "headers": [
+                  "Item / Frase",
+                  "Termo Destacado",
+                  "Classe Gramatical",
+                  "Código de Flexão",
+                  "Justificativa do Gabarito"
+                ],
+                "rows": [
+                  [
+                    "1.\"A gente não deseja mais viver.\"",
+                    "mais",
+                    "Advérbio de tempo",
+                    "(I) Invariável",
+                    "Modifica o verbodeseja antecedido de negação (ideia de cessação)."
+                  ],
+                  [
+                    "2.\"Os pagamentos realizados foram feitos ontem.\"",
+                    "realizados",
+                    "Adjetivo",
+                    "(V) Variável",
+                    "Particípio com valor adjetivo caracterizandopagamentos."
+                  ],
+                  [
+                    "3.\"Amanhã, irei às compras.\"",
+                    "Amanhã",
+                    "Advérbio de tempo",
+                    "(I) Invariável",
+                    "Modifica a oração/verbo indicando circunstância de tempo."
+                  ],
+                  [
+                    "4.\"Não se fez de rogado.\"",
+                    "fez",
+                    "Verbo",
+                    "(V) Variável",
+                    "Flexão do verbofazer (terceira pessoa do pretérito perfeito)."
+                  ],
+                  [
+                    "5.\"Hoje, apenas 1,6% vive na zona rural.\"",
+                    "zona",
+                    "Substantivo",
+                    "(V) Variável",
+                    "Nome antecedido de artigo; o sublinhado restringe-se ao núcleo."
+                  ],
+                  [
+                    "6.\"Eles não se davam bem.\"",
+                    "bem",
+                    "Advérbio de modo",
+                    "(I) Invariável",
+                    "Modifica o verbodavam, indicando a circunstância de modo."
+                  ],
+                  [
+                    "7.\"Estive em algumas praias pela manhã.\"",
+                    "em",
+                    "Preposição",
+                    "(I) Invariável",
+                    "Conector que liga o verbo ao adjunto."
+                  ],
+                  [
+                    "8.\"Desse valor, R$ 1,25 milhão é oriundo...\"",
+                    "milhão",
+                    "Numeral cardinal",
+                    "(V) Variável",
+                    "Quantificador de valor substantivo que admite flexão (milhões)."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-005",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005 — Questão de Concurso 01 — INSTITUTO AOCP / Câmara de Maringá-PR",
+          "prompt": "Texto 1: \"— Claro que estou indo à festa. — respondi.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto 1",
+              "rationale": "\"— Claro que estou indo à festa. — respondi.\""
+            },
+            {
+              "order": 2,
+              "action": "Texto 2",
+              "rationale": "\"... e, claro, eu estava dormindo.\""
+            },
+            {
+              "order": 3,
+              "action": "Enunciado",
+              "rationale": "Em ambos os casos, a palavra \"claro\" classifica-se como:"
+            },
+            {
+              "order": 4,
+              "action": "A) adjetivo que traz a ideia de clareza; portanto, nos dois casos, é uma palavra variável.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "B) adjetivo que traz a ideia de obviedade; apesar disso, nos dois casos, é uma palavra invariável.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: C",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005 — Questão de Concurso 01 — INSTITUTO AOCP / Câmara de Maringá-PR sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005 — Questão de Concurso 01 — INSTITUTO AOCP / Câmara de Maringá-PR.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005 — Questão de Concurso 01 — INSTITUTO AOCP / Câmara de Maringá-PR.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto 1: \"— Claro que estou indo à festa. — respondi.\"",
+                "Texto 2: \"... e, claro, eu estava dormindo.\"",
+                "Enunciado: Em ambos os casos, a palavra \"claro\" classifica-se como:",
+                "A) adjetivo que traz a ideia de clareza; portanto, nos dois casos, é uma palavra variável.",
+                "B) adjetivo que traz a ideia de obviedade; apesar disso, nos dois casos, é uma palavra invariável.",
+                "C) advérbio que traz a ideia de obviedade; portanto, nos dois casos, é uma palavra invariável.",
+                "D) advérbio que traz a ideia de clareza; apesar disso, nos dois casos, é uma palavra variável.",
+                "E) adjetivo que traz a ideia de obviedade; sendo sempre uma palavra variável.",
+                "Resolução Comentada: No Texto 1, claro modifica a locução estou indo; no Texto 2, modifica estava dormindo. Ambos exprimem certeza/obviedade e modificam estruturas verbais, funcionando como advérbios (invariáveis).",
+                "Gabarito Oficial: C"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-006",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-006 — Questão de Concurso 02 — AOCP / Prefeitura de Marilena-PR",
+          "prompt": "Enunciado: Em \"... o sujeito passa a se achar menos condenável que os outros por ser poderoso [...]\", a palavra \"menos\":",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em \"... o sujeito passa a se achar menos condenável que os outros por ser poderoso [...]\", a palavra \"menos\":"
+            },
+            {
+              "order": 2,
+              "action": "A) pertence a uma classe de palavras invariável.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) está flexionada no gênero masculino.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) pertence à classe dos adjetivos.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) está flexionada em gênero e número.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-006 — Questão de Concurso 02 — AOCP / Prefeitura de Marilena-PR sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-006 — Questão de Concurso 02 — AOCP / Prefeitura de Marilena-PR.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-006 — Questão de Concurso 02 — AOCP / Prefeitura de Marilena-PR.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em \"... o sujeito passa a se achar menos condenável que os outros por ser poderoso [...]\", a palavra \"menos\":",
+                "A) pertence a uma classe de palavras invariável.",
+                "B) está flexionada no gênero masculino.",
+                "C) pertence à classe dos adjetivos.",
+                "D) está flexionada em gênero e número.",
+                "E) pertence a uma classe de palavras variável.",
+                "Resolução Comentada: Condenável é adjetivo que caracteriza sujeito. A palavra menos modifica o adjetivo condenável, atuando como advérbio de intensidade. Advérbio é classe invariável.",
+                "Gabarito Oficial: A"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A01-G01-007",
+          "title": "EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007 — Questão de Concurso 03 — IESES / Prefeitura de São José-SC",
+          "prompt": "Enunciado: Assinale a alternativa correta quanto aos termos: \"Ângela fez todo o trabalho do escritório só (1), e Maria só (2) arrumou os canteiros da horta. As duas, quando estão a sós (3), gostam de ler e cozinhar.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa correta quanto aos termos: \"Ângela fez todo o trabalho do escritório só (1), e Maria só (2) arrumou os canteiros da horta. As duas, quando estão a sós (3), gostam de ler e cozinhar.\""
+            },
+            {
+              "order": 2,
+              "action": "A) (1) adjetivo, variável; (2) advérbio, invariável; (3) locução, invariável.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) (1) advérbio, invariável; (2) adjetivo, variável; (3) locução, variável.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) (1) advérbio, invariável; (2) advérbio, invariável; (3) locução, invariável.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) (1) adjetivo variável; (2) adjetivo, variável; (3) locução, variável.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007 — Questão de Concurso 03 — IESES / Prefeitura de São José-SC sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007 — Questão de Concurso 03 — IESES / Prefeitura de São José-SC.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-007 — Questão de Concurso 03 — IESES / Prefeitura de São José-SC.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa correta quanto aos termos: \"Ângela fez todo o trabalho do escritório só (1), e Maria só (2) arrumou os canteiros da horta. As duas, quando estão a sós (3), gostam de ler e cozinhar.\"",
+                "A) (1) adjetivo, variável; (2) advérbio, invariável; (3) locução, invariável.",
+                "B) (1) advérbio, invariável; (2) adjetivo, variável; (3) locução, variável.",
+                "C) (1) advérbio, invariável; (2) advérbio, invariável; (3) locução, invariável.",
+                "D) (1) adjetivo variável; (2) adjetivo, variável; (3) locução, variável.",
+                "Resolução Comentada:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "só (1) refere-se a Ângela (= sozinha) $\\rightarrow$ Adjetivo (variável).",
+                "só (2) refere-se ao verbo arrumou (= apenas) $\\rightarrow$ Advérbio (invariável).",
+                "a sós (3) refere-se a duas $\\rightarrow$ Locução adjetiva, mas por ser locução é invariável."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito Oficial: A"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Para classificar expressões conectivas sem decorar listas exaustivas:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Terminou na conjunção QUE $\\rightarrow$ Locução Conjuntiva (visto que, à medida que, a fim de que).",
+            "Terminou em preposição (DE, A, EM, COM) $\\rightarrow$ Locução Prepositiva (a fim de, por causa de, em vez de)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Para pronomes e numerais:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Palavra isolada (sem substantivo ao lado) = Função Substantiva (\"Alguém chegou\", \"Os dois chegaram\").",
+            "Palavra acompanhada (colada a um substantivo) = Função Adjetiva (\"Meu aluno\", \"Dois meninos\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Coube \"sozinho(a)\" na frase $\\rightarrow$ É Adjetivo e varia no plural (\"Eles ficaram sós\").",
+            "Coube \"somente\" ou \"apenas\" $\\rightarrow$ É Advérbio e é 100% invariável (\"Eles só estudaram\")."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001",
+          "title": "Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha do Escopo do Sublinhado (Núcleo vs. Locução).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Classificar o substantivo isolado \"zona\" como invariável ou advérbio por notar que a expressão completa \"na zona rural\" indica lugar.",
+                "Correção: Analise estritamente o termo sublinhado. Se o sublinhado for apenas zona, trata-se de um substantivo (variável). Apenas se a banca destacar a expressão inteira na zona rural teremos uma locução adverbial (invariável)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-002",
+          "title": "Erro de Pluralizar o Substantivo Interno da Locução Adjetiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro de Pluralizar o Substantivo Interno da Locução Adjetiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro de Pluralizar o Substantivo Interno da Locução Adjetiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro de Pluralizar o Substantivo Interno da Locução Adjetiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro de Pluralizar o Substantivo Interno da Locução Adjetiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro de Pluralizar o Substantivo Interno da Locução Adjetiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro de Pluralizar o Substantivo Interno da Locução Adjetiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Flexionar a locução ao passar a oração para o plural (\"Homens de inteligências\").",
+                "Correção: Locuções são sintagmas fixos. A forma correta é \"Homens de inteligência\"."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003",
+          "title": "Pegadinha da Invariabilidade Culta do Advérbio \"Todo\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha da Invariabilidade Culta do Advérbio \"Todo\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha da Invariabilidade Culta do Advérbio \"Todo\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha da Invariabilidade Culta do Advérbio \"Todo\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha da Invariabilidade Culta do Advérbio \"Todo\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha da Invariabilidade Culta do Advérbio \"Todo\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha da Invariabilidade Culta do Advérbio \"Todo\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Considerar a frase \"Ela chegou todo feliz\" incorreta por erro de concordância.",
+                "Correção: Por ser originariamente um advérbio modificador de adjetivo, a forma invariável \"todo feliz\" é perfeitamente legítima perante a norma culta."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-004",
+          "title": "Invariabilidade Absoluta da Locução \"A sós\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Invariabilidade Absoluta da Locução \"A sós\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Invariabilidade Absoluta da Locução \"A sós\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Invariabilidade Absoluta da Locução \"A sós\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Invariabilidade Absoluta da Locução \"A sós\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Invariabilidade Absoluta da Locução \"A sós\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Invariabilidade Absoluta da Locução \"A sós\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Tentar variar a locução \"a sós\" em função do gênero dos referentes.",
+                "Correção: Diz-se \"Ele está a sós\", \"Ela está a sós\", \"Eles estão a sós\", \"Elas estão a sós\". Trata-se de locução adjetiva invariável."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-005",
+          "title": "Erro de Supor que Conjunção Exige Duas Orações",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro de Supor que Conjunção Exige Duas Orações no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro de Supor que Conjunção Exige Duas Orações.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro de Supor que Conjunção Exige Duas Orações.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro de Supor que Conjunção Exige Duas Orações para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro de Supor que Conjunção Exige Duas Orações.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro de Supor que Conjunção Exige Duas Orações.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Contar duas orações na frase \"José e João chegaram\" pela presença do conectivo e.",
+                "Correção: Conjunções coordenativas podem ligar termos de mesma função dentro de uma única oração (sujeito composto)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Classificar o substantivo isolado \"zona\" como invariável ou advérbio por notar que a expressão completa \"na zona rural\" indica lugar.",
+            "Correção: Analise estritamente o termo sublinhado. Se o sublinhado for apenas zona, trata-se de um substantivo (variável). Apenas se a banca destacar a expressão inteira na zona rural teremos uma locução adverbial (invariável)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Flexionar a locução ao passar a oração para o plural (\"Homens de inteligências\").",
+            "Correção: Locuções são sintagmas fixos. A forma correta é \"Homens de inteligência\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Considerar a frase \"Ela chegou todo feliz\" incorreta por erro de concordância.",
+            "Correção: Por ser originariamente um advérbio modificador de adjetivo, a forma invariável \"todo feliz\" é perfeitamente legítima perante a norma culta."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Tentar variar a locução \"a sós\" em função do gênero dos referentes.",
+            "Correção: Diz-se \"Ele está a sós\", \"Ela está a sós\", \"Eles estão a sós\", \"Elas estão a sós\". Trata-se de locução adjetiva invariável."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Contar duas orações na frase \"José e João chegaram\" pela presença do conectivo e.",
+            "Correção: Conjunções coordenativas podem ligar termos de mesma função dentro de uma única oração (sujeito composto)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Categoria morfológica de palavras que sofrem flexão para marcar variações de gênero (masculino/feminino) e número (singular/plural).",
+            "Classes Integrantes: Substantivo, Adjetivo, Artigo, Pronome, Numeral e Verbo.",
+            "Relações: Aponta para KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Categoria morfológica de palavras com estrutura fixa, que não admitem flexão de gênero nem de número em nenhum ambiente sintático.",
+            "Classes Integrantes: Advérbio, Conjunção, Preposição e Interjeição.",
+            "Relações: Aponta para KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Unidade sintagmática composta por duas ou mais palavras que desempenha em conjunto o valor sintático-semântico de uma única classe gramatical.",
+            "Comportamento Geral: É tratada como bloco cristalizado e invariável.",
+            "Relações: Aponta para KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-003 e KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-008."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Elemento relacional gramatical sem conteúdo nocional pleno, destinado a estabelecer coesão e vínculo entre palavras (termos) ou orações.",
+            "Classes Abrangidas: Preposições e Conjunções.",
+            "Relações: Aponta para KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-008."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Procedimento operacional de análise morfossintática contextual que traça graficamente o direcionamento da dependência entre modificador e núcleo modificado para identificar a classe gramatical correspondente.",
+            "Relações: Aponta para KB-A01-G01-CLASSES-VARIAVEIS-E-INVARIAVEIS-010."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo consolidado do grupo G01, o estudante deve:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Dominar a Divisão Estrutural das Classes: Compreender que a morfologia se divide em 6 classes variáveis (substantivo, adjetivo, pronome, numeral, verbo, artigo) e 4 invariáveis (advérbio, conjunção, preposição, interjeição), sabendo que variação é estritamente flexão de número e gênero.",
+            "Distinguir Palavras Simples de Locuções: Reconhecer que, enquanto o adjetivo simples varia (homens inteligentes), as locuções correspondentes e expressões preposicionadas formam unidades sintagmáticas cristalizadas invariáveis (homens de inteligência, as duas estão a sós).",
+            "Diferenciar Funções Substantivas e Adjetivas: Identificar que pronomes e numerais que acompanham nomes operam como adjetivos, enquanto os que ocupam isoladamente o lugar do nome operam como substantivos.",
+            "Distinguir Locuções Conectivas pela Terminação: Identificar imediatamente uma locução prepositiva por terminar em preposição (a fim de) e uma locução conjuntiva por terminar em conjunção (a fim de que).",
+            "Aplicar o Método das Setas: Abandonar a memorização estática de listas isoladas e analisar toda palavra dentro do enunciado, verificando o termo ao qual ela se conecta para definir sua classe e invariabilidade em palavras polissêmicas (claro, menos, demais, de mais, só, a sós)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula01.q0023",
+      "questionType": "true_false_or_open",
+      "examBoard": "PRF",
+      "organization": "POLICIAL",
+      "year": 2019,
+      "role": "2019",
+      "prompt": "a correção gramatical do\nperíodo.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "O artigo faz toda a diferença no sentido:\n“a cidade toda”— a cidade inteira, a cidade por completo.\n“toda cidade”— todas as cidades, qualquer cidade. Questão incorreta.",
+      "questionSha256": "a56694d30a056ff5d9c40f8ea9122a69407503a25ca37851d3959a8ce68fd87c",
+      "answerSha256": "7c0a4385c47207696b255c330b1d9b240e1b265f66dd4988278c8645d8a02971",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de PRF; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0066",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "PRF",
+      "year": 2019,
+      "role": "POLICIAL",
+      "prompt": "os sentidos e a\ncorreção gramatical do período.\n\n BACEN - Língua Portuguesa 98\n www.estrategiaconcursos.com.br 102",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "010b957fba46adb174b0ee4ece9deb8dd9dc0e16d15fda24433adb397106f180",
+      "answerSha256": "2bec534007fd78c65b64ced33111fa276897efb5e6bae5578f1cbeaf16ca72f2",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0040",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "TJ-CE",
+      "year": 2023,
+      "role": "2023",
+      "prompt": "a palavra \"mágica\" está\nempregada como um\n\nA) adjetivo. D) substantivo.\n\nB) advérbio de modo. E) verbo.\n\nC) pronome.",
+      "options": [
+        {
+          "label": "A",
+          "text": "adjetivo. D) substantivo."
+        },
+        {
+          "label": "B",
+          "text": "advérbio de modo. E) verbo."
+        },
+        {
+          "label": "C",
+          "text": "pronome."
+        }
+      ],
+      "officialAnswer": "option_A",
+      "questionSha256": "e6249f301e104d85d73f2382aacbefbcca254d8db763071191d9ebcc94dc4d5a",
+      "answerSha256": "02c3ff311d6cf4a684d99db4eed2d87d017ebf7ebf9076c9f03bcdd8c3b0d6a7",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        }
+      ]
+    },
+    {
+      "questionId": "aula01.q0047",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "role": "2025",
+      "prompt": "no texto\ncomo locuções adjetivas.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "515f6fb6ed96195b63edd01362d4fc45a569be4f8186fa3d74b059b9a41346e5",
+      "answerSha256": "b67db5aa9a1e4824bdc85c03fc915cb92d12cb60ad3747570264ad336f5153d0",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula01.q0033",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "CGDF",
+      "year": 2023,
+      "role": "2023",
+      "prompt": "o termo quantum classifica-se\ngramaticalmente como\n\nA) adjetivo, empregado com valor semântico valorativo.\n\nB) substantivo, empregado com sentido quantitativo.\n\nC) pronome, empregado com valor semântico de intensidade.\n\nD) advérbio, empregado com sentido de proporcionalidade.",
+      "options": [
+        {
+          "label": "A",
+          "text": "adjetivo, empregado com valor semântico valorativo."
+        },
+        {
+          "label": "B",
+          "text": "substantivo, empregado com sentido quantitativo."
+        },
+        {
+          "label": "C",
+          "text": "pronome, empregado com valor semântico de intensidade."
+        },
+        {
+          "label": "D",
+          "text": "advérbio, empregado com sentido de proporcionalidade."
+        }
+      ],
+      "officialAnswer": "option_B",
+      "questionSha256": "84c1fc65badb442963c51b9aca4b75e5e7445b6e40bf8d7910d19797ad7b0749",
+      "answerSha256": "6029c8a925a0cbb3af8618af1cdbd440515c149142b36f84db7a15acefdde3f4",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "incorrect",
+          "explanation": "Opção A: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Classes Variáveis e Invariáveis."
+        }
+      ]
+    },
+    {
+      "questionId": "aula01.q0049",
+      "questionType": "true_false_or_open",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "role": "2025",
+      "prompt": "Em “A eclosão da mal chamada Inconfidência Mineira deveria ter lugar em 1789” (quinto\nperíodo), o vocábulo “mal” está empregado como adjetivo.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "6c3416edf1ab58c6926882f349094ec079c1348c271da1756d00b374908c446d",
+      "answerSha256": "1027d7d1e23627e2c44440ae7c9303fbd1728453d9e71b67e0c4aefe738bdb2c",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Classes Variáveis e Invariáveis; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

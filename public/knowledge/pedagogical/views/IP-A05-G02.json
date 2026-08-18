@@ -1,0 +1,1439 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A05-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.000Z"
+  },
+  "unit": {
+    "unitId": "IP-A05-G02",
+    "lessonId": "A05",
+    "groupId": "G02",
+    "title": "Transitividade Verbal - Questões",
+    "variant": "practice",
+    "canonicalTopicId": "pt:a05:transitividade-verbal",
+    "learningObjectives": [
+      "OBJ-IP-A05-G02-001",
+      "OBJ-IP-A05-G02-002",
+      "OBJ-IP-A05-G02-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Nas questões de transitividade, reconstrua o mapa completo e teste regência, indispensabilidade e sentido, sem atribuir ao verbo uma etiqueta fixa.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "SINTAXE E TRANSITIVIDADE VERBAL CONSOLIDADA │ ┌─────────────────────────────────────────┼─────────────────────────────────────────┐ ▼ ▼ ▼"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "COMPLEMENTOS VERBAIS 2. TERMOS DE ESTADO / LIGAÇÃO 3. COMPORTAMENTOS ESPECÍFICOS"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "│ │ │ ├─► Objeto Direto (O.D.) ├─► Verbo SER (Mantra 11) ├─► HAVER vs. EXISTIR │ ├─ Sem preposição obrigatória │ ├─ Sempre Verbo de Ligação (V.L.) │ ├─ HAVER (=existir): VTD / Sem Sujeito / Rege O.D. │ ├─ Pronomes oblíquos: o, a, os, as │ └─ Exige Predicativo do Sujeito │ └─ EXISTIR: V.I. / Com Sujeito obrigatório │ └─ Artigos (um/uma/a) NÃO são prep. │ │ │ ├─► ESTAR / FICAR ├─► LOCUÇÃO VERBAL (Mantra 7) ├─► Objeto Indireto (O.I.) │ ├─ Com P.Suj. => Verbo de Ligação │ ├─ Auxiliar: flexão de tempo/modo/número │ ├─ Com preposição regida pelo verbo │ └─ Sem P.Suj. (Lugar) => Verbo Intrans. │ └─ Principal: define a transitividade (VTD/VTI) │ ├─ Destinatário / Paciente puro │ │ │ └─ Pronome \"lhe\" (= a ele/ela) ├─► Predicativo do Objeto (P.O.) └─► VERBO CHAMAR (=denominar) │ │ ├─ Qualifica o Objeto Direto ├─ Objeto Direto (ser denominado) └─► ADJUNTO ADVERBIAL (Mantra 10) │ └─ Pode vir com prep. \"de\" (não é OI!) └─ Predicativo do Objeto (nome/título atribuído) ├─ \"Cheiro de Circunstância\" │ └─ Tempo, lugar, modo, causa, etc. └─► Voz Passiva Pronominal └─ VTD + SE => Paciente vira Sujeito"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A05-G02-001",
+          "title": "Mapa de conexão — Transitividade Verbal - Questões",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a05:transitividade-verbal",
+              "label": "Transitividade Verbal - Questões",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a05:transitividade-verbal",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O Verbo Transitivo Direto e Indireto (V.T.D.I.) exige concomitantemente dois complementos de naturezas sintáticas e morfológicas distintas: um Objeto Direto (O.D.), ligado diretamente sem preposição obrigatória, e um Objeto Indireto (O.I.), regido obrigatoriamente por preposição imposta pelo verbo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para a correta caracterização do V.T.D.I. em provas de concurso, os dois termos pospostos ao verbo devem funcionar estritamente como complementos verbais integrantes (paciente e destinatário da ação verbal), expurgando qualquer termo de natureza adverbial/circunstancial."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na oração \"— Empresta-me trezentos mil réis?\" (Questão 01, Opção E):",
+            "Forma verbal: Empresta (Imperativo afirmativo, sujeito oculto tu).",
+            "Complemento 1 (trezentos mil réis): Objeto Direto (coisa emprestada, sem preposição).",
+            "Complemento 2 (-me): Objeto Indireto (pessoa destinatária = a mim, pronome oblíquo com preposição implícita).",
+            "Classificação sintática do verbo: V.T.D.I.."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Aqui quem empresta, empresta 300 mil réis a mim. Ambos se referem ao verbo e não há nem ideia circunstancial... empresta alguma coisa a alguém.\"",
+          "kind": "note"
+        },
+        {
+          "type": "paragraph",
+          "text": "No slide da Questão 01, a professora anota sobre a opção E: V.T.D.I. sobre Empresta, O.I. sobre me, O.D. sobre trezentos mil réis e (Tu) como sujeito oculto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Relacionado a: KB-A05-G02-TRANSITIVIDADE-QUESTOES-002",
+            "Exemplificado por: EX-A05-G02-TRANSITIVIDADE-QUESTOES-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de uma preposição após um verbo não caracteriza automaticamente um Objeto Indireto. Quando o termo preposicionado expressa uma ideia circunstancial (tempo, lugar, modo, condição, finalidade, causa, preço, instrumento), ele possui natureza sintática de Adjunto Adverbial, tornando o verbo Intransitivo (V.I.) ou Transitivo Direto (V.T.D.) caso já possua complemento direto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta é a principal armadilha sintática explorada pelas bancas (AOCP, FCC, CEBRASPE). Para dirimir a dúvida, aplica-se o Mantra 10:"
+        },
+        {
+          "type": "callout",
+          "text": "“Preposições, muitas vezes, trazem cheiro de circunstância. Você não precisa saber do que é, basta sentir o cheiro.”",
+          "kind": "note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Casos consolidados analisados no bloco:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "\"...fazer sem um ponto de interrogação\": sem introduz condição $\\rightarrow$ Adjunto Adverbial de Condição (fazer = V.T.D. na voz passiva).",
+            "\"...olhar-lhe para a cara\": para indica direção/localização $\\rightarrow$ Adjunto Adverbial de Lugar (olhar = V.I.).",
+            "\"...serve para pescar\": para indica finalidade $\\rightarrow$ Adjunto Adverbial de Finalidade (servir = V.I.).",
+            "\"...lançais o anzol de repente\": de repente indica modo $\\rightarrow$ Adjunto Adverbial de Modo (lançais = V.T.D.).",
+            "\"...retornava a cada Natal\": a indica tempo $\\rightarrow$ Adjunto Adverbial de Tempo (retornava = V.I.).",
+            "\"...comprar a preço justo\": a indica preço $\\rightarrow$ Adjunto Adverbial de Preço.",
+            "\"...Ele nada faz sem motivo\": sem indica modo/ausência de causa $\\rightarrow$ Adjunto Adverbial de Modo (faz = V.T.D., nada = O.D.)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em contrapartida, no Objeto Indireto puro, a preposição não traz valor adverbial circunstancial, conectando o verbo a um paciente/destinatário:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"...o recado chegara a ele\": a ele completa o verbo chegar (regência para pessoas na FCC) sem ideia de lugar físico $\\rightarrow$ Objeto Indireto."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Preposições trazem muitas vezes cheiro de circunstância... Mesmo que você não saiba do que, você tem que sentir o cheiro... Sentiu o cheiro, vai ser adjunto adverbial.\" (006: )",
+          "kind": "note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Registro do quadro digital: MANTRA (10): Preposições, muitas vezes, trazem cheiro de circunstância (você não precisa saber do que é, basta sentir o cheiro)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A05-G02-TRANSITIVIDADE-QUESTOES-001, WARN-A05-G02-TRANSITIVIDADE-QUESTOES-003",
+            "Sistematizado em: TIP-A05-G02-TRANSITIVIDADE-QUESTOES-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo SER (em qualquer tempo, modo ou flexão: é, era, foram, seria, seja, for) opera caracteristicamente como Verbo de Ligação (V.L.). Ele não exprime ação transicional nem rege objetos; sua função sintática exclusiva é ligar o Sujeito ao seu Predicativo do Sujeito (P.Suj.)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um vício metodológico comum entre candidatos é perguntar \"é o quê?\" ou \"era o quê?\" e classificar o verbo ser erroneamente como V.T.D. Gramaticalmente, o verbo ser denota estado permanente/essencial, sendo impossível classificá-lo como transitivo direto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação do Mantra 11:"
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "“Com o verbo SER, eu sou feliz! Sempre de ligação!”",
+          "kind": "note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemplos dissecados:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"A verdade é apenas uma.\" $\\rightarrow$ A verdade = Sujeito; é = V.L.; apenas uma = Predicativo do Sujeito.",
+            "\"Quase todos os caracóis eram viúvos de suas lesmas.\" $\\rightarrow$ eram = V.L. (estado permanente); viúvos = Predicativo do Sujeito.",
+            "\"Wagner era um homem casado.\" $\\rightarrow$ era = V.L.; um homem casado = Predicativo do Sujeito.",
+            "\"é filho de Elis Regina...\" $\\rightarrow$ é = V.L.; filho de Elis Regina... = Predicativo do Sujeito."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Com o verbo SER, eu sou feliz! Porque ele será sempre verbo de ligação!... O problema é perceber que é verbo SER... Não é 'é o quê', é verbo ser, verbo de ligação.\" (006:; 007: )",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sistematizado em: TIP-A05-G02-TRANSITIVIDADE-QUESTOES-002",
+            "Possui alerta: WARN-A05-G02-TRANSITIVIDADE-QUESTOES-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos Haver (no sentido existencial) e Existir possuem comportamentos sintáticos estritamente antitéticos no que tange à predicação e à presença de sujeito."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbo HAVER (sentido de existir / ocorrer / acontecer):",
+            "Impessoal (Oração Sem Sujeito).",
+            "Transitividade: Verbo Transitivo Direto (V.T.D.).",
+            "O termo nominal associado a ele é sintaticamente o Objeto Direto (O.D.).",
+            "Exemplo: \"Nunca houve gente mais exigente\" $\\rightarrow$ houve = V.T.D.; gente mais exigente = Objeto Direto.",
+            "Verbo EXISTIR:",
+            "Pessoal (possui Sujeito pleno que comanda a concordância).",
+            "Transitividade: Verbo Intransitivo (V.I.).",
+            "O termo nominal associado a ele é o Sujeito da oração.",
+            "Exemplo 1: \"Existem poções em nossos organismos\" $\\rightarrow$ poções = Sujeito (Poções existem); existem = V.I.",
+            "Exemplo 2: \"deveria existir um patamar mínimo de igualdade...\" $\\rightarrow$ um patamar mínimo... = Sujeito da locução verbal deveria existir."
+          ]
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A05-G02-001",
+          "table": {
+            "tableId": "TABLE-IP-A05-G02-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Verbo",
+              "Sentido",
+              "Sujeito",
+              "Transitividade",
+              "Função do Termo Associado"
+            ],
+            "rows": [
+              [
+                "HAVER",
+                "Existir / Ocorrer",
+                "Inexistente (Oração Sem Sujeito)",
+                "V.T.D.",
+                "Objeto Direto (O.D.)"
+              ],
+              [
+                "EXISTIR",
+                "Existência",
+                "Obrigatório (Concorda com o verbo)",
+                "V.I.",
+                "Sujeito"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "callout",
+          "text": "\"O haver quando é igual a existir ele é sem sujeito e VTD; o existir não, o existir tem sujeito, é com sujeito e intransitivo.\" (007: )",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A05-G02-TRANSITIVIDADE-QUESTOES-007, EX-A05-G02-TRANSITIVIDADE-QUESTOES-009, EX-A05-G02-TRANSITIVIDADE-QUESTOES-012",
+            "Possui alerta: WARN-A05-G02-TRANSITIVIDADE-QUESTOES-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em qualquer locução verbal (composta por verbo auxiliar flexionado + verbo principal em forma nominal de infinitivo, gerúndio ou particípio), a predicação sintática, a transitividade e a exigência de complementos são determinadas exclusivamente pelo verbo principal (o último verbo da locução)."
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo auxiliar desempenha papel morfológico estrito de carregar marcas de tempo, modo, número e pessoa, mantendo-se subordinado à semântica e à regência do verbo principal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na estrutura \"Ninguém veio comprar a preço justo\" (Questão 08):",
+            "Locução verbal: veio comprar.",
+            "Verbo auxiliar: veio (carrega a flexão de 3ª pessoa do singular).",
+            "Verbo principal: comprar (V.T.D. $\\rightarrow$ \"quem compra, compra algo\").",
+            "A locução comanda como complemento o termo anteposto no poema: \"Esse estoque de amor que acumulei\" $\\rightarrow$ Objeto Direto (O.D.)."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Na locução verbal quem tem a transitividade é o principal, que é o último verbo. O pobre do auxiliar só se flexiona, obedece as ordens. Esse aqui é o que manda.\"",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sistematizado em: TIP-A05-G02-TRANSITIVIDADE-QUESTOES-003",
+            "Exemplificado por: EX-A05-G02-TRANSITIVIDADE-QUESTOES-008"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbos tradicionalmente catalogados como \"de ligação\" (notadamente estar e ficar) não possuem classificação estática; sua predicação depende categoricamente da presença de um Predicativo do Sujeito no contexto frasal."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Atuação como Verbo de Ligação (V.L.): Ocorre quando o verbo serve de ponte relacional para atribuir um estado circunstancial/transitório ao sujeito, exigindo obrigatoriamente a presença de um Predicativo do Sujeito.",
+            "Atuação como Verbo Intransitivo (V.I.): Ocorre quando o verbo não atribui estado, mas indica mera localização espacial ou permanência física. Nesse contexto, o termo posposto é um Adjunto Adverbial de Lugar, e o verbo é classificado como Intransitivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "João está agitado. $\\rightarrow$ agitado = Predicativo do Sujeito (estado) $\\rightarrow$ está = V.L..",
+            "João está em casa. $\\rightarrow$ em casa = Adjunto Adverbial de Lugar $\\rightarrow$ está = V.I..",
+            "João ficou feliz. $\\rightarrow$ feliz = Predicativo do Sujeito (estado) $\\rightarrow$ ficou = V.L..",
+            "João ficou no curso. $\\rightarrow$ no curso = Adjunto Adverbial de Lugar $\\rightarrow$ ficou = V.I.."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Para que o verbo seja de ligação, o predicativo do sujeito é obrigatório! Quando é que ele vai ser intransitivo? Se não houver predicativo do sujeito.\"",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Relacionado a: KB-A05-G02-TRANSITIVIDADE-QUESTOES-003",
+            "Evidenciado visualmente por: VIS-A05-G02-TRANSITIVIDADE-QUESTOES-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo chamar, quando empregado com a acepção de denominar, classificar, qualificar ou apelidar, classifica-se como Verbo Transitivo Direto (V.T.D.), exigindo um Objeto Direto (o elemento denominado) e um Predicativo do Objeto (P.O.) (a qualificação/nome atribuído). O Predicativo do Objeto admite facultativamente a preposição de, sem que isso o converta em objeto indireto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura Padrão: [Sujeito] + Chamar + [Objeto Direto] + [ (de) Predicativo do Objeto ].",
+            "Exemplo Didático Analógico: \"Chamei a Adriana de Dri\" $\\rightarrow$ a Adriana = Objeto Direto; de Dri = Predicativo do Objeto (qualifica o objeto direto).",
+            "Análise da Questão 13 (CEBRASPE - TCE-PE):",
+            "Trecho: \"...se refere ao que chamo de a ordem das propriedades\".",
+            "Transposição para a ordem canônica: \"[Eu] chamo isso (QUE) de a ordem das propriedades\".",
+            "Eu: Sujeito Oculto / Elíptico.",
+            "que (pronome relativo que retoma o demonstrativo o = isso): Objeto Direto.",
+            "de a ordem das propriedades: Predicativo do Objeto (preposicionado por de).",
+            "Erros apontados no item da banca: A assertiva afirmou que o objeto direto estava \"elíptico\" (falso: o objeto direto é o pronome que; quem está elíptico é o sujeito eu) e afirmou que de a ordem... era \"objeto indireto\" (falso: trata-se de Predicativo do Objeto)."
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "\"Quando ele tem o sentido de classificar, denominar, apelidar... De Dri não é O.I., apesar de vir com preposição... Esse aqui é o predicativo do objeto! Não existe esse negócio de quem chama, chama alguém de alguma coisa... Esse 'de alguma coisa' é predicativo do objeto!\"",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A05-G02-TRANSITIVIDADE-QUESTOES-013",
+            "Possui alerta: WARN-A05-G02-TRANSITIVIDADE-QUESTOES-006"
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A05-G02-TRANSITIVIDADE-QUESTOES-001",
+          "title": "Protocolo Universal de Análise Sintática em 4 Passos",
+          "objective": "Executar o algoritmo decisório para Protocolo Universal de Análise Sintática em 4 Passos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo Universal de Análise Sintática em 4 Passos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1",
+              "explanation": "Localizar o Verbo ou Locução Verbal:",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Em locuções verbais (veio comprar, deveria existir), a transitividade é fixada exclusivamente pelo verbo principal (o último verbo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 2",
+              "explanation": "Identificar o Sujeito:",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Pergunte \"Quem é que [verbo]?\" ou \"O que é que [verbo]?\".",
+              "explanation": null,
+              "test": "Pergunte \"Quem é que [verbo]?\" ou \"O que é que [verbo]?\"."
+            },
+            {
+              "order": 5,
+              "action": "Atenção especial",
+              "explanation": "Se o verbo for haver (sentido existencial), a oração é sem sujeito. Se o verbo for existir, o elemento associado é o Sujeito.",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 3",
+              "explanation": "Verificar se o Verbo é de Ligação:",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Se for o verbo SER, classifique-o como V.L. e o termo que o caracteriza como Predicativo do Sujeito.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Se for estar ou ficar, verifique se há Predicativo (V.L.) ou indicação pura de lugar (V.I.).",
+              "explanation": null,
+              "test": "Se for estar ou ficar, verifique se há Predicativo (V.L.) ou indicação pura de lugar (V.I.)."
+            },
+            {
+              "order": 9,
+              "action": "Passo 4",
+              "explanation": "Inspecionar os Termos Pós-Verbais (Complemento vs. Circunstância):",
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Sem preposição",
+              "explanation": "Termo completa o verbo $\\rightarrow$ Objeto Direto.",
+              "test": null
+            },
+            {
+              "order": 11,
+              "action": "Com preposição",
+              "explanation": "Aplique o Teste do \"Cheiro\":",
+              "test": "Com preposição: Aplique o Teste do \"Cheiro\":"
+            },
+            {
+              "order": 12,
+              "action": "Com cheiro de tempo, lugar, modo, causa, finalidade, preço $\\rightarrow$ Adjunto Adverbial.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 13,
+              "action": "Sem cheiro circunstancial (indica destinatário/paciente puro) $\\rightarrow$ Objeto Indireto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 14,
+              "action": "Com preposição qualificando o objeto",
+              "explanation": "Verbo denominativo (chamar) $\\rightarrow$ Predicativo do Objeto.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo Universal de Análise Sintática em 4 Passos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos do Algoritmo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1: Localizar o Verbo ou Locução Verbal:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Em locuções verbais (veio comprar, deveria existir), a transitividade é fixada exclusivamente pelo verbo principal (o último verbo)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2: Identificar o Sujeito:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pergunte \"Quem é que [verbo]?\" ou \"O que é que [verbo]?\".",
+                "Atenção especial: Se o verbo for haver (sentido existencial), a oração é sem sujeito. Se o verbo for existir, o elemento associado é o Sujeito."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3: Verificar se o Verbo é de Ligação:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se for o verbo SER, classifique-o como V.L. e o termo que o caracteriza como Predicativo do Sujeito.",
+                "Se for estar ou ficar, verifique se há Predicativo (V.L.) ou indicação pura de lugar (V.I.)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 4: Inspecionar os Termos Pós-Verbais (Complemento vs. Circunstância):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Sem preposição: Termo completa o verbo $\\rightarrow$ Objeto Direto.",
+                "Com preposição: Aplique o Teste do \"Cheiro\":",
+                "Com cheiro de tempo, lugar, modo, causa, finalidade, preço $\\rightarrow$ Adjunto Adverbial.",
+                "Sem cheiro circunstancial (indica destinatário/paciente puro) $\\rightarrow$ Objeto Indireto.",
+                "Com preposição qualificando o objeto: Verbo denominativo (chamar) $\\rightarrow$ Predicativo do Objeto."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-001",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-001 — Questão 01 (Instituto AOCP - IBGE - Analista Censitário - Letras)",
+          "prompt": "Enunciado Resumido: Identificar a alternativa cujo verbo destacado exige dois complementos: um regido por preposição (O.I.) e outro sem preposição (O.D.).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado Resumido",
+              "rationale": "Identificar a alternativa cujo verbo destacado exige dois complementos: um regido por preposição (O.I.) e outro sem preposição (O.D.)."
+            },
+            {
+              "order": 2,
+              "action": "Análise das Alternativas",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) \"...não se pode fazer sem um ponto de interrogação.\" $\\rightarrow$ Voz passiva pronominal (fazer = V.T.D., sem... = Adj. Adv. Condição).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "B) \"...basta olhar-lhe para a cara.\" $\\rightarrow$ olhar = V.I.; para a cara = Adj. Adv. Lugar; -lhe = Adjunto Adnominal possessivo (a cara dele).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "C) \"...serve para pescar.\" $\\rightarrow$ serve = V.I.; para pescar = Adj. Adv. Finalidade.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: E",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-001 — Questão 01 (Instituto AOCP - IBGE - Analista Censitário - Letras) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-001 — Questão 01 (Instituto AOCP - IBGE - Analista Censitário - Letras).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-001 — Questão 01 (Instituto AOCP - IBGE - Analista Censitário - Letras).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado Resumido: Identificar a alternativa cujo verbo destacado exige dois complementos: um regido por preposição (O.I.) e outro sem preposição (O.D.).",
+                "Análise das Alternativas:",
+                "A) \"...não se pode fazer sem um ponto de interrogação.\" $\\rightarrow$ Voz passiva pronominal (fazer = V.T.D., sem... = Adj. Adv. Condição).",
+                "B) \"...basta olhar-lhe para a cara.\" $\\rightarrow$ olhar = V.I.; para a cara = Adj. Adv. Lugar; -lhe = Adjunto Adnominal possessivo (a cara dele).",
+                "C) \"...serve para pescar.\" $\\rightarrow$ serve = V.I.; para pescar = Adj. Adv. Finalidade.",
+                "D) \"...lançais o anzol de repente...\" $\\rightarrow$ lançais = V.T.D.; o anzol = O.D.; de repente = Adj. Adv. Modo.",
+                "E) \"— Empresta-me trezentos mil réis?\" $\\rightarrow$ Empresta = V.T.D.I. (trezentos mil réis = O.D.; -me = O.I.).",
+                "Gabarito: E"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-002",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-002 — Questão 02 (Instituto AOCP - Pref. João Pessoa - Engenheiro)",
+          "prompt": "Texto: \"O hábito de cultivar plantas em jardins dentro e fora de casa cresceu durante os meses de pandemia.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"O hábito de cultivar plantas em jardins dentro e fora de casa cresceu durante os meses de pandemia.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O sujeito completo do verbo cresceu é O hábito de cultivar plantas em jardins dentro e fora de casa (núcleo: hábito). O termo durante os meses de pandemia expressa tempo (Adjunto Adverbial de Tempo). Logo, o verbo cresceu é Intransitivo (V.I.)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D (O verbo \"cresceu\" é intransitivo)"
+            }
+          ],
+          "result": "Gabarito: D (O verbo \"cresceu\" é intransitivo)",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-002 — Questão 02 (Instituto AOCP - Pref. João Pessoa - Engenheiro) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-002 — Questão 02 (Instituto AOCP - Pref. João Pessoa - Engenheiro).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-002 — Questão 02 (Instituto AOCP - Pref. João Pessoa - Engenheiro).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"O hábito de cultivar plantas em jardins dentro e fora de casa cresceu durante os meses de pandemia.\"",
+                "Análise: O sujeito completo do verbo cresceu é O hábito de cultivar plantas em jardins dentro e fora de casa (núcleo: hábito). O termo durante os meses de pandemia expressa tempo (Adjunto Adverbial de Tempo). Logo, o verbo cresceu é Intransitivo (V.I.).",
+                "Gabarito: D (O verbo \"cresceu\" é intransitivo)"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-003",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-003 — Questão 03 (FUNDEP - FUTEL-MG - Procurador)",
+          "prompt": "Enunciado Resumido: Identificar a alternativa com classificação incorreta entre parênteses.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado Resumido",
+              "rationale": "Identificar a alternativa com classificação incorreta entre parênteses."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "Na alternativa B (\"[...] reorganiza a vivência diária do praticante.\"), a classificação fornecida como (OBJETO INDIRETO) está errada. O vocábulo a em a vivência é um artigo definido, configurando um Objeto Direto."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-003 — Questão 03 (FUNDEP - FUTEL-MG - Procurador) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-003 — Questão 03 (FUNDEP - FUTEL-MG - Procurador).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-003 — Questão 03 (FUNDEP - FUTEL-MG - Procurador).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado Resumido: Identificar a alternativa com classificação incorreta entre parênteses.",
+                "Análise: Na alternativa B (\"[...] reorganiza a vivência diária do praticante.\"), a classificação fornecida como (OBJETO INDIRETO) está errada. O vocábulo a em a vivência é um artigo definido, configurando um Objeto Direto.",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-004",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-004 — Questão 04 (VUNESP - TJ-SP - Técnico Judiciário)",
+          "prompt": "Texto: \"A verdade é apenas uma.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"A verdade é apenas uma.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O verbo é é Verbo de Ligação (SER). O segmento apenas uma caracteriza o sujeito A verdade, exercendo a função de Predicativo do Sujeito."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "B (predicativo)"
+            }
+          ],
+          "result": "Gabarito: B (predicativo)",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-004 — Questão 04 (VUNESP - TJ-SP - Técnico Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-004 — Questão 04 (VUNESP - TJ-SP - Técnico Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-004 — Questão 04 (VUNESP - TJ-SP - Técnico Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"A verdade é apenas uma.\"",
+                "Análise: O verbo é é Verbo de Ligação (SER). O segmento apenas uma caracteriza o sujeito A verdade, exercendo a função de Predicativo do Sujeito.",
+                "Gabarito: B (predicativo)"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-005",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-005 — Questão 05 (FCC - TRT 23ª Região - Técnico Judiciário)",
+          "prompt": "Texto Base: \"Logo adiante vimos um quati\" $\\rightarrow$ um quati = Objeto Direto (V.T.D. = vimos).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"Logo adiante vimos um quati\" $\\rightarrow$ um quati = Objeto Direto (V.T.D. = vimos)."
+            },
+            {
+              "order": 2,
+              "action": "Análise da Alternativa Correta (A)",
+              "rationale": "\"Logo encontramos uma criame de caracóis\" $\\rightarrow$ uma criame de caracóis = Objeto Direto do V.T.D. encontramos. As demais opções trazem Predicativo (viúvos, sem rumo) e Adjuntos de Lugar (naquele lugar, na garupa do vento)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "A"
+            }
+          ],
+          "result": "Gabarito: A",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-005 — Questão 05 (FCC - TRT 23ª Região - Técnico Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-005 — Questão 05 (FCC - TRT 23ª Região - Técnico Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-005 — Questão 05 (FCC - TRT 23ª Região - Técnico Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"Logo adiante vimos um quati\" $\\rightarrow$ um quati = Objeto Direto (V.T.D. = vimos).",
+                "Análise da Alternativa Correta (A): \"Logo encontramos uma criame de caracóis\" $\\rightarrow$ uma criame de caracóis = Objeto Direto do V.T.D. encontramos. As demais opções trazem Predicativo (viúvos, sem rumo) e Adjuntos de Lugar (naquele lugar, na garupa do vento).",
+                "Gabarito: A"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-006",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-006 — Questão 06 (FCC - METRÔ-SP - Enfermeiro do Trabalho)",
+          "prompt": "Texto Base: \"ela lhe fizera uma confissão\" $\\rightarrow$ -lhe = Objeto Indireto (a ele).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"ela lhe fizera uma confissão\" $\\rightarrow$ -lhe = Objeto Indireto (a ele)."
+            },
+            {
+              "order": 2,
+              "action": "Análise da Alternativa Correta (B)",
+              "rationale": "\"o recado chegara a ele\" $\\rightarrow$ a ele = Objeto Indireto (termo preposicionado sem cheiro de circunstância espacial/temporal). Em D (\"retornava a cada Natal\"), trata-se de Adjunto Adverbial de Tempo."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "B"
+            }
+          ],
+          "result": "Gabarito: B",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-006 — Questão 06 (FCC - METRÔ-SP - Enfermeiro do Trabalho) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-006 — Questão 06 (FCC - METRÔ-SP - Enfermeiro do Trabalho).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-006 — Questão 06 (FCC - METRÔ-SP - Enfermeiro do Trabalho).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"ela lhe fizera uma confissão\" $\\rightarrow$ -lhe = Objeto Indireto (a ele).",
+                "Análise da Alternativa Correta (B): \"o recado chegara a ele\" $\\rightarrow$ a ele = Objeto Indireto (termo preposicionado sem cheiro de circunstância espacial/temporal). Em D (\"retornava a cada Natal\"), trata-se de Adjunto Adverbial de Tempo.",
+                "Gabarito: B"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-007",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-007 — Questão 07 (FCC - Pref. Macapá - Educador Social)",
+          "prompt": "Texto Base: \"Nunca houve gente mais exigente...\" $\\rightarrow$ gente... = Objeto Direto (houve = V.T.D. impessoal).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"Nunca houve gente mais exigente...\" $\\rightarrow$ gente... = Objeto Direto (houve = V.T.D. impessoal)."
+            },
+            {
+              "order": 2,
+              "action": "Análise da Alternativa Correta (E)",
+              "rationale": "\"...gerou um padrão estético...\" $\\rightarrow$ um padrão estético = Objeto Direto do V.T.D. gerou."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "E"
+            }
+          ],
+          "result": "Gabarito: E",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-007 — Questão 07 (FCC - Pref. Macapá - Educador Social) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-007 — Questão 07 (FCC - Pref. Macapá - Educador Social).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-007 — Questão 07 (FCC - Pref. Macapá - Educador Social).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"Nunca houve gente mais exigente...\" $\\rightarrow$ gente... = Objeto Direto (houve = V.T.D. impessoal).",
+                "Análise da Alternativa Correta (E): \"...gerou um padrão estético...\" $\\rightarrow$ um padrão estético = Objeto Direto do V.T.D. gerou.",
+                "Gabarito: E"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-008",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-008 — Questão 08 (FCC - TRT 22ª Região - Técnico Judiciário)",
+          "prompt": "Texto: \"Esse estoque de amor que acumulei / Ninguém veio comprar a preço justo.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"Esse estoque de amor que acumulei / Ninguém veio comprar a preço justo.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "A locução verbal veio comprar tem como verbo principal comprar (V.T.D.). A expressão sublinhada Esse estoque de amor que acumulei responde a \"veio comprar o quê?\", funcionando como Objeto Direto."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D (objeto direto)"
+            }
+          ],
+          "result": "Gabarito: D (objeto direto)",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-008 — Questão 08 (FCC - TRT 22ª Região - Técnico Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-008 — Questão 08 (FCC - TRT 22ª Região - Técnico Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-008 — Questão 08 (FCC - TRT 22ª Região - Técnico Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"Esse estoque de amor que acumulei / Ninguém veio comprar a preço justo.\"",
+                "Análise: A locução verbal veio comprar tem como verbo principal comprar (V.T.D.). A expressão sublinhada Esse estoque de amor que acumulei responde a \"veio comprar o quê?\", funcionando como Objeto Direto.",
+                "Gabarito: D (objeto direto)"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-009",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-009 — Questão 09 (FCC - TRT 22ª Região - Analista Judiciário)",
+          "prompt": "Texto Base: \"A misteriosa bebida desperta neles a mais profunda das paixões.\" $\\rightarrow$ a mais profunda... = Objeto Direto (V.T.D.I. = desperta).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto Base",
+              "rationale": "\"A misteriosa bebida desperta neles a mais profunda das paixões.\" $\\rightarrow$ a mais profunda... = Objeto Direto (V.T.D.I. = desperta)."
+            },
+            {
+              "order": 2,
+              "action": "Análise da Alternativa Correta (D)",
+              "rationale": "\"...o que o atraiu para essa história\" $\\rightarrow$ O pronome o funciona como Objeto Direto do verbo V.T.D.I. atraiu (atraiu alguém [o] para algo). As demais opções continham: P.Suj. (um homem casado), Complemento Nominal (entre os dois protagonistas), Sujeito (poções) e Objeto Indireto (lhe)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D"
+            }
+          ],
+          "result": "Gabarito: D",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-009 — Questão 09 (FCC - TRT 22ª Região - Analista Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-009 — Questão 09 (FCC - TRT 22ª Região - Analista Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-009 — Questão 09 (FCC - TRT 22ª Região - Analista Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto Base: \"A misteriosa bebida desperta neles a mais profunda das paixões.\" $\\rightarrow$ a mais profunda... = Objeto Direto (V.T.D.I. = desperta).",
+                "Análise da Alternativa Correta (D): \"...o que o atraiu para essa história\" $\\rightarrow$ O pronome o funciona como Objeto Direto do verbo V.T.D.I. atraiu (atraiu alguém [o] para algo). As demais opções continham: P.Suj. (um homem casado), Complemento Nominal (entre os dois protagonistas), Sujeito (poções) e Objeto Indireto (lhe).",
+                "Gabarito: D"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-010",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-010 — Questão 10 (CEBRASPE - CGM João Pessoa - Técnico)",
+          "prompt": "Texto: \"temos o 'jeitinho' virando corrupção\". A assertiva afirma que 'jeitinho' e 'corrupção' funcionam como complementos diretos de temos.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"temos o 'jeitinho' virando corrupção\". A assertiva afirma que 'jeitinho' e 'corrupção' funcionam como complementos diretos de temos."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "ERRADO."
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "O complemento de temos é a oração reduzida inteira (o 'jeitinho' virando corrupção). Dentro dela, 'jeitinho' é o sujeito e 'corrupção' é o predicativo do sujeito de virando (V.L.)."
+            }
+          ],
+          "result": "Justificativa: O complemento de temos é a oração reduzida inteira (o 'jeitinho' virando corrupção). Dentro dela, 'jeitinho' é o sujeito e 'corrupção' é o predicativo do sujeito de virando (V.L.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-010 — Questão 10 (CEBRASPE - CGM João Pessoa - Técnico) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-010 — Questão 10 (CEBRASPE - CGM João Pessoa - Técnico).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-010 — Questão 10 (CEBRASPE - CGM João Pessoa - Técnico).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"temos o 'jeitinho' virando corrupção\". A assertiva afirma que 'jeitinho' e 'corrupção' funcionam como complementos diretos de temos.",
+                "Julgamento: ERRADO.",
+                "Justificativa: O complemento de temos é a oração reduzida inteira (o 'jeitinho' virando corrupção). Dentro dela, 'jeitinho' é o sujeito e 'corrupção' é o predicativo do sujeito de virando (V.L.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-011",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-011 — Questão 11 (CEBRASPE - PC-AL - Escrivão de Polícia)",
+          "prompt": "Texto: \"Ele nada faz sem motivo\". A assertiva afirma que sem motivo é complemento verbal de faz.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"Ele nada faz sem motivo\". A assertiva afirma que sem motivo é complemento verbal de faz."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "ERRADO."
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "sem motivo é introduzido por preposição com valor circunstancial de modo/ausência, operando como Adjunto Adverbial de Modo. O complemento direto de faz é a palavra nada."
+            }
+          ],
+          "result": "Justificativa: sem motivo é introduzido por preposição com valor circunstancial de modo/ausência, operando como Adjunto Adverbial de Modo. O complemento direto de faz é a palavra nada.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-011 — Questão 11 (CEBRASPE - PC-AL - Escrivão de Polícia) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-011 — Questão 11 (CEBRASPE - PC-AL - Escrivão de Polícia).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-011 — Questão 11 (CEBRASPE - PC-AL - Escrivão de Polícia).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"Ele nada faz sem motivo\". A assertiva afirma que sem motivo é complemento verbal de faz.",
+                "Julgamento: ERRADO.",
+                "Justificativa: sem motivo é introduzido por preposição com valor circunstancial de modo/ausência, operando como Adjunto Adverbial de Modo. O complemento direto de faz é a palavra nada."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-012",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-012 — Questão 12 (CEBRASPE - TCE-PE - Conhecimentos Básicos)",
+          "prompt": "Texto: \"deveria existir um patamar mínimo de igualdade...\". A assertiva afirma que o segmento um patamar mínimo... é complemento de existir.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"deveria existir um patamar mínimo de igualdade...\". A assertiva afirma que o segmento um patamar mínimo... é complemento de existir."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "ERRADO."
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "O verbo existir é intransitivo e possui Sujeito. O segmento nominal concorda com a locução verbal e exerce a função de Sujeito, e não de complemento."
+            }
+          ],
+          "result": "Justificativa: O verbo existir é intransitivo e possui Sujeito. O segmento nominal concorda com a locução verbal e exerce a função de Sujeito, e não de complemento.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-012 — Questão 12 (CEBRASPE - TCE-PE - Conhecimentos Básicos) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-012 — Questão 12 (CEBRASPE - TCE-PE - Conhecimentos Básicos).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-012 — Questão 12 (CEBRASPE - TCE-PE - Conhecimentos Básicos).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"deveria existir um patamar mínimo de igualdade...\". A assertiva afirma que o segmento um patamar mínimo... é complemento de existir.",
+                "Julgamento: ERRADO.",
+                "Justificativa: O verbo existir é intransitivo e possui Sujeito. O segmento nominal concorda com a locução verbal e exerce a função de Sujeito, e não de complemento."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A05-G02-013",
+          "title": "EX-A05-G02-TRANSITIVIDADE-QUESTOES-013 — Questão 13 (CEBRASPE - TCE-PE - Conhecimentos Básicos)",
+          "prompt": "Texto: \"...ao que chamo de a ordem das propriedades\". A assertiva afirma que o verbo chamar possui um complemento direto elíptico e um complemento indireto (de a ordem...).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto",
+              "rationale": "\"...ao que chamo de a ordem das propriedades\". A assertiva afirma que o verbo chamar possui um complemento direto elíptico e um complemento indireto (de a ordem...)."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "ERRADO."
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "O objeto direto não é elíptico (é o pronome relativo que); o sujeito (eu) é quem está elíptico. O termo de a ordem das propriedades não é objeto indireto, mas sim Predicativo do Objeto."
+            }
+          ],
+          "result": "Justificativa: O objeto direto não é elíptico (é o pronome relativo que); o sujeito (eu) é quem está elíptico. O termo de a ordem das propriedades não é objeto indireto, mas sim Predicativo do Objeto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A05-G02-TRANSITIVIDADE-QUESTOES-013 — Questão 13 (CEBRASPE - TCE-PE - Conhecimentos Básicos) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A05-G02-TRANSITIVIDADE-QUESTOES-013 — Questão 13 (CEBRASPE - TCE-PE - Conhecimentos Básicos).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A05-G02-TRANSITIVIDADE-QUESTOES-013 — Questão 13 (CEBRASPE - TCE-PE - Conhecimentos Básicos).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto: \"...ao que chamo de a ordem das propriedades\". A assertiva afirma que o verbo chamar possui um complemento direto elíptico e um complemento indireto (de a ordem...).",
+                "Julgamento: ERRADO.",
+                "Justificativa: O objeto direto não é elíptico (é o pronome relativo que); o sujeito (eu) é quem está elíptico. O termo de a ordem das propriedades não é objeto indireto, mas sim Predicativo do Objeto."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: Se o termo preposicionado responde a perguntas como Quando? Onde? Como? Por qual motivo? Com que finalidade? Sob qual condição? A que preço?, ele possui \"cheiro de circunstância\" e classifica-se como Adjunto Adverbial. Guarde a classificação de Objeto Indireto exclusivamente para termos que indiquem destinatário, beneficiário ou paciente puro da ação sem carga circunstancial."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: O verbo SER é invariavelmente Verbo de Ligação (V.L.). Nunca procure objeto direto para ele. O termo que o completa atribuindo característica ao sujeito é sempre Predicativo do Sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Prática: Nunca analise o pronome lhe isolado. Substitua-o na oração mentalmente por \"a ele\", \"a ela\" ou \"ao garoto\". Isso torna a preposição visível e confirma a função sintática de Objeto Indireto (ou Adjunto Adnominal se tiver valor de posse)."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-001",
+          "title": "Confusão entre Artigo Definido e Preposição",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre Artigo Definido e Preposição no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre Artigo Definido e Preposição.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre Artigo Definido e Preposição.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre Artigo Definido e Preposição para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre Artigo Definido e Preposição.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre Artigo Definido e Preposição.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Bancas (como a FUNDEP) colocam complementos com artigo definido feminino (\"...reorganiza a vivência...\") e afirmam ser Objeto Indireto.",
+                "Forma Correta: A letra a que antecede substantivos femininos é mero artigo definidor. Sem preposição regente, o complemento é estritamente Objeto Direto."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-002",
+          "title": "O Pronome \"LHE\" com Sentido Possessivo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Pronome \"LHE\" com Sentido Possessivo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Pronome \"LHE\" com Sentido Possessivo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Pronome \"LHE\" com Sentido Possessivo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Pronome \"LHE\" com Sentido Possessivo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Pronome \"LHE\" com Sentido Possessivo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Pronome \"LHE\" com Sentido Possessivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Assumir que o pronome lhe é sempre Objeto Indireto.",
+                "Exceção: Na frase \"...basta olhar-lhe para a cara\", -lhe equivale a a cara dele (posse sobre substantivo), exercendo função de Adjunto Adnominal."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-003",
+          "title": "Jurisprudência de Bancas em Verbos de Movimento",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Jurisprudência de Bancas em Verbos de Movimento no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Jurisprudência de Bancas em Verbos de Movimento.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Jurisprudência de Bancas em Verbos de Movimento.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Jurisprudência de Bancas em Verbos de Movimento para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Jurisprudência de Bancas em Verbos de Movimento.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Jurisprudência de Bancas em Verbos de Movimento.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Divergência:",
+                "CEBRASPE: ir a, chegar a, voltar a são Verbos Intransitivos (V.I.) + Adjunto Adverbial de Lugar.",
+                "FUNDEP / FCC: Quando o destino é pessoa (\"chegara a ele\"), a FCC classifica o termo como Objeto Indireto (O.I.) e o verbo como V.T.I."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-004",
+          "title": "O Vício da Pergunta \"É o quê?\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Vício da Pergunta \"É o quê?\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Vício da Pergunta \"É o quê?\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Vício da Pergunta \"É o quê?\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Vício da Pergunta \"É o quê?\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Vício da Pergunta \"É o quê?\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Vício da Pergunta \"É o quê?\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Fazer a pergunta \"é o quê?\" ou \"era o quê?\" ao verbo ser e marcar o termo como Objeto Direto.",
+                "Forma Correta: O verbo ser não aceita objeto direto; seu termo atributivo é Predicativo do Sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-005",
+          "title": "Confusão entre Verbo Haver e Verbo Existir",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre Verbo Haver e Verbo Existir no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre Verbo Haver e Verbo Existir.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre Verbo Haver e Verbo Existir.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre Verbo Haver e Verbo Existir para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre Verbo Haver e Verbo Existir.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre Verbo Haver e Verbo Existir.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Achar que o termo ligado a existir é Objeto Direto.",
+                "Forma Correta: Haver (existencial) é V.T.D. e não tem sujeito (rege O.D.). Existir é V.I. e tem sujeito (o elemento que existe)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A05-G02-TRANSITIVIDADE-QUESTOES-006",
+          "title": "Predicativo do Objeto do Verbo Chamar com Preposição \"DE\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Predicativo do Objeto do Verbo Chamar com Preposição \"DE\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Predicativo do Objeto do Verbo Chamar com Preposição \"DE\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Predicativo do Objeto do Verbo Chamar com Preposição \"DE\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Predicativo do Objeto do Verbo Chamar com Preposição \"DE\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Predicativo do Objeto do Verbo Chamar com Preposição \"DE\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Predicativo do Objeto do Verbo Chamar com Preposição \"DE\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Classificar de Dri ou de a ordem... como Objeto Indireto após o verbo chamar.",
+                "Forma Correta: Trata-se de Predicativo do Objeto, pois qualifica o objeto direto com uma denominação ou título."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Bancas (como a FUNDEP) colocam complementos com artigo definido feminino (\"...reorganiza a vivência...\") e afirmam ser Objeto Indireto.",
+            "Forma Correta: A letra a que antecede substantivos femininos é mero artigo definidor. Sem preposição regente, o complemento é estritamente Objeto Direto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Assumir que o pronome lhe é sempre Objeto Indireto.",
+            "Exceção: Na frase \"...basta olhar-lhe para a cara\", -lhe equivale a a cara dele (posse sobre substantivo), exercendo função de Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Divergência:",
+            "CEBRASPE: ir a, chegar a, voltar a são Verbos Intransitivos (V.I.) + Adjunto Adverbial de Lugar.",
+            "FUNDEP / FCC: Quando o destino é pessoa (\"chegara a ele\"), a FCC classifica o termo como Objeto Indireto (O.I.) e o verbo como V.T.I."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Fazer a pergunta \"é o quê?\" ou \"era o quê?\" ao verbo ser e marcar o termo como Objeto Direto.",
+            "Forma Correta: O verbo ser não aceita objeto direto; seu termo atributivo é Predicativo do Sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Achar que o termo ligado a existir é Objeto Direto.",
+            "Forma Correta: Haver (existencial) é V.T.D. e não tem sujeito (rege O.D.). Existir é V.I. e tem sujeito (o elemento que existe)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Classificar de Dri ou de a ordem... como Objeto Indireto após o verbo chamar.",
+            "Forma Correta: Trata-se de Predicativo do Objeto, pois qualifica o objeto direto com uma denominação ou título."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Complemento verbal não regido por preposição obrigatória, associado a um Verbo Transitivo Direto ou V.T.D.I.",
+            "Relações: Diferencia-se de TERM-A05-G02-TRANSITIVIDADE-QUESTOES-002."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Complemento verbal introduzido obrigatoriamente por preposição regida pelo verbo, representando o destinatário ou paciente da ação, sem veicular valor circunstancial.",
+            "Relações: Diferencia-se de TERM-A05-G02-TRANSITIVIDADE-QUESTOES-003."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Termo acessório de valor circunstancial (tempo, modo, lugar, causa, condição, finalidade, preço) que modifica um verbo, adjetivo ou advérbio. Se preposicionado, possui \"cheiro de circunstância\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Termo que atribui um estado, qualidade ou classificação ao sujeito, intermediado caracteristicamente por um Verbo de Ligação (SER, estar, ficar, parecer)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Termo que atribui uma qualificação, estado ou denominação ao Objeto Direto (ou Indireto), admitindo preposição facultativa de em verbos denominativos (chamar, nomear, declarar)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Verbo defectivo que não admite sujeito gramatical, mantendo-se conjugado na 3ª pessoa do singular (ex.: verbo haver no sentido existencial)."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O bloco consolidado (material de origem, 007 e 008) estabelece uma metodologia pragmática e rigorosa para o domínio da predicação e transitividade verbal em concursos públicos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Bancas Variadas (AOCP, FUNDEP, VUNESP): Fixação do Mantra 10 (\"Preposições trazem cheiro de circunstância\" $\\rightarrow$ Adjuntos Adverbiais) e do Mantra 11 (\"Com o verbo SER, eu sou feliz!\" $\\rightarrow$ Verbo de Ligação e Predicativo do Sujeito). Distinção rigorosa entre artigos e preposições e análise de sujeito estendido.",
+            "Fundação Carlos Chagas (FCC): Aplicação de transitividade em textos complexos. Confirmação de que o pronome lhe atua como Objeto Indireto e que termos preposicionados sem valor circunstancial voltados a pessoas (\"chegara a ele\") são tratados como O.I. Consolidação da regra do verbo Haver (V.T.D., oração sem sujeito, rege O.D.) e do comando da transitividade pelo verbo principal em locuções verbais (Mantra 7).",
+            "CEBRASPE / CESPE: Aplicação do \"Método das Setas\" para rastreamento de relações sintáticas diretas. Confirmação de que verbos como estar e ficar tornam-se Intransitivos quando acompanhados de lugar; diferenciação de sujeitos de verbos intransitivos (existir) rotulados como complementos; e desmistificação da sintaxe do verbo chamar (V.T.D. + O.D. + Predicativo do Objeto)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula05.q0035",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INPI",
+      "year": 2024,
+      "prompt": "Assim, em 1421, foi concedida ao inventor Filippo Brunelleschi, em Veneza, a primeira patente,\ncom prazo de três anos, pela invenção de um modelo de embarcação para transportar mármore.\nNo segundo período do primeiro parágrafo, o segmento “a primeira patente” funciona como\ncomplemento direto da locução verbal “foi concedida”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "A voz passiva analítica é formada por \"SER + PARTICÍPIO\". O segmento \"a primeira patente\" é\nsujeito passivo da locução \"foi concedida\". Questão incorreta.",
+      "questionSha256": "ecef731b7873bf739ecb26146612eb5428d8ebea53b258b6d3aae0f61b5ad1df",
+      "answerSha256": "43b46a0e5f590758f45349aa93a34df4e82606ff68ac01299bc8820b219683c5",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0057",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INPI",
+      "year": 2024,
+      "prompt": "Assim, em 1421, foi concedida ao inventor Filippo Brunelleschi, em Veneza, a primeira patente,\ncom prazo de três anos, pela invenção de um modelo de embarcação para transportar mármore.\nNo segundo período do primeiro parágrafo, o segmento “a primeira patente” funciona como\ncomplemento direto da locução verbal “foi concedida”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "5c6898f77d5b7cacb5b201eb845a856e6688988b59914d4b100f25178f221143",
+      "answerSha256": "7ae07c6a56a5f45e200a91c76c0a26a78c465608c6de92ce406e43d13aab3234",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0030",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "CGM - JOÃO PESSOA",
+      "year": 2018,
+      "prompt": "Nesse futuro não tão remoto, teremos conquistado a utopia de uma verdadeira justiça social.\nA substituição de “teremos conquistado” por conquistaremos manteria os sentidos originais do\ntexto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "“Teremos conquistado” é forma de futuro do presente composto e indica que ação estará\nconcluída no momento futuro sugerido.\nTrazendo para um exemplo mais simples, compare:\nÀs 21h, jantarei (começarei a comer).\nÀs 21h, terei jantado (já terei terminado de comer).\nEntão, “teremos conquistados” indica que a ação de conquistar já estará completa,\nperfeitamente concluída. “Conquistaremos” não tem esse sentido, apenas indica a ação como\nalgo que ocorrerá no futuro, sem esse valor de ação “já concluída” naquele momento.\nQuestão incorreta.",
+      "questionSha256": "463d95dd6b62e2918416a3edbacee211069cff979d78b3669f58f3b718ee12d9",
+      "answerSha256": "c5cbdeb92cafb54e78d3e6e7e6e01709a1d033659f0163e4631eb19ee42e4c30",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0052",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "CGM - JOÃO PESSOA",
+      "year": 2018,
+      "prompt": "Nesse futuro não tão remoto, teremos conquistado a utopia de uma verdadeira justiça social.\nA substituição de “teremos conquistado” por conquistaremos manteria os sentidos originais do\ntexto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "5d2d274bab465ec718ea59ee17155572c7d6596a3ff6634be050ad1320af836e",
+      "answerSha256": "86368d8cd0d971d6204c1649002360813b84d663133e1f95637cb94099b4cfa0",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0031",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Enquanto se diz que os pobres da cidade são violentos, a atenção da violência que eles sofrem é\ninvertida.\nA forma verbal “diz” poderia ser substituída por disser, sem prejuízo da correção gramatical do\ntexto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Aqui temos aplicação da correlação clássica: Se eu puder, farei\nSe o verbo for usado no futuro do subjuntivo “disser”, para manter a correlação rígida, teremos\nuso do futuro do presente:\nEnquanto se DISSER que os pobres da cidade são violentos, a atenção da violência que eles\nsofrem SERÁ invertida.\nQuestão incorreta.",
+      "questionSha256": "3d6dd51372a42f2d9dbe2136c4e963c56d6b22154cbf3e90a83b1aaa6bd7776a",
+      "answerSha256": "fa8182a45d8cdfc26a5894359969883dd607412ebd71185631a159bcae1509af",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula05.q0053",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Enquanto se diz que os pobres da cidade são violentos, a atenção da violência que eles sofrem é\ninvertida.\nA forma verbal “diz” poderia ser substituída por disser, sem prejuízo da correção gramatical do\ntexto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "119b5d9bb07189d87193d7025fe45b92a059aaa90ea0cec41f0812c88b958693",
+      "answerSha256": "115f865c49500d6b441b71dba2763bfea8228a2ff5a06bc74e6e46b91cdad080",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Transitividade Verbal - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

@@ -1,0 +1,2676 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A12-G03",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.116Z"
+  },
+  "unit": {
+    "unitId": "IP-A12-G03",
+    "lessonId": "A12",
+    "groupId": "G03",
+    "title": "Hiperonímia e Hiponímia",
+    "variant": "development",
+    "canonicalTopicId": "pt:a12:hiperonimia-e-hiponimia",
+    "learningObjectives": [
+      "OBJ-IP-A12-G03-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "strong",
+      "label": "Conexão forte",
+      "summary": "Hiperônimos e hipônimos podem construir coesão e referenciação entre orações; a SuVeCA localiza as funções, e a hierarquia lexical explica a retomada.",
+      "steps": [
+        "Reconstrua apenas as relações sintáticas relevantes para a decisão.",
+        "Acrescente o critério próprio do tema — morfológico, semântico, coesivo ou discursivo.",
+        "Confirme que estrutura e contexto sustentam a mesma conclusão."
+      ],
+      "limits": [
+        "A análise sintática é necessária, mas não substitui a regra específica desta matéria."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia Básica: Classes de palavras (substantivo, adjetivo, pronome pessoal/demonstrativo, conjunção).",
+            "Semântica Fundamental: Noções preliminares de sinonímia (equivalência de sentido) e antonímia (oposição de sentido).",
+            "Linguística Textual: Noção elementar de cadeia referencial (retomada de ideias para evitar repetição)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ANÁLISE LINGUÍSTICA E RELAÇÕES SEMÂNTICO-COESIVAS ├── 1. Critérios de Análise │ ├── Morfologia (Classe da palavra isolada) │ ├── Semântica (Sentido, valor discursivo e relações de significado) │ └── Sintaxe (Função estrutural/relacional na oração) │ ├── 2. Relações Semânticas Lexicais │ ├── Hiperonímia (Hiperônimo: Geral / Gênero / Superordenado / Ampla Extensão) │ └── Hiponímia (Hipônimo: Específico / Espécie / Subordenado / Restrita Extensão) │ └── Chave de Validação: Teste Lógico-Categorial \"TIPO DE\" │ ├── 3. Fronteiras e Distinções Semânticas Críticas │ ├── Hiperonímia / Hiponímia (Níveis hierárquicos assimétricos: Geral ↔ Específico) │ ├── Sinonímia Contextual (Mesmo nível semântico: Equivalência sem relação \"tipo de\") │ └── Campo Semântico (Mesmo domínio temático sem subordinação taxonômica ou sinonímia) │ ├── 4. Aplicações em Mecanismos Coesivos │ ├── Vetores Direcionais Básicos │ │ ├── Elemento Coesivo (\"Manda a Seta\" / Emissor) │ │ ├── Referente (\"Recebe a Seta\" / Alvo) │ │ ├── Anáfora (Vetor Retrospectivo: Aponta para trás / Antes) │ │ └── Catáfora (Vetor Prospectivo: Aponta para frente / Depois) │ ├── Tipologia Coesiva Lexical │ │ ├── Anáfora por Hiperônimo (Termo Geral retoma Termo Específico antecedente) │ │ ├── Anáfora Especificativa / Especificadora (Hipônimo retoma e particulariza Hiperônimo) │ │ ├── Anáfora Associativa (Retomada por contiguidade temática de Campo Semântico) │ │ └── Sumarização / Encapsulamento (Termo sintético condensa enumeração prévia) │ └── Distinções Funcionais de Coesão │ ├── Coesão por Substituição Real (Termo anafórico ocupa o lugar do referente) │ ├── Coesão Explicativa / Aposição (Termo geral coexiste lado a lado com o nome próprio) │ └── Coesão Pronominal (Morfológica) vs. Coesão Lexical (Semântica) │ └── 5. Aplicações Lexicográficas e em Provas ├── Estrutura de Verbetes: [Entrada] — [Hiperônimo de Abertura] + [Particularizações] ├── Direcionalidade Obrigatória: [Específico -> Geral = Hiponímia] vs. [Geral -> Específico = Hiperonímia] └── Distinção CEBRASPE: Adjetivação Sintagmática (Qualificação) ≠ Coesão Lexical por Hiperonímia"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A12-G03-001",
+          "title": "Mapa de conexão — Hiperonímia e Hiponímia",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a12:hiperonimia-e-hiponimia",
+              "label": "Hiperonímia e Hiponímia",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a12:hiperonimia-e-hiponimia",
+              "relation": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Toda análise da Língua Portuguesa em concursos públicos estrutura-se sob três critérios interdependentes que se acumulam e não se excluem: Morfologia (classe da palavra isolada), Semântica (sentido e valor contextual) e Sintaxe (função relacional na oração)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na tradição escolar estanque, os três eixos são tratados separadamente. Em provas modernas, as bancas exigem o trânsito simultâneo entre eles:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia: Enquadra o vocábulo em uma das dez classes gramaticais formais.",
+            "Semântica: Analisa a carga significativa contextual, a intenção discursiva e os valores assumidos (objetivo, opinativo, modalizador).",
+            "Sintaxe: Determina a função relacional exercida pelo termo na estrutura oracional (sujeito, predicativo, adjunto, etc.)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A acumulação de critérios permite que uma palavra preserve sua classe morfológica original enquanto assume valor semântico próprio de outra classe em virtude da função sintática que exerce."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Demonstrativo: Na oração \"João é um amor\":",
+            "Morfologia: Substantivo (admite flexão: um amor, dois amores).",
+            "Semântica: Valor de adjetivo / opinativo (funciona como qualificador e elogio atribuído a João).",
+            "Sintaxe: Predicativo do sujeito (termo ligado ao sujeito por verbo de ligação).",
+            "Limite: O fato de amor possuir valor semântico de adjetivo não transmuta sua classe morfológica de origem para adjetivo; trata-se de um substantivo exercendo função predicativa com valor adjetivado."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Base para: KB-A12-G03-002, KB-A12-G03-007",
+            "Exemplificado por: EX-A12-G03-001",
+            "Citação: QUOTE-A12-G03-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A hiperonímia e a hiponímia constituem relações semânticas hierárquicas e assimétricas de inclusão conceitual baseadas no grau de extensão e abrangência de termos pertencentes ao mesmo domínio léxico. O hiperônimo é a palavra superordenada de sentido mais amplo/geral (gênero/classe); o hipônimo é a palavra subordenada de sentido mais restrito/específico (espécie/membro). A relação é validada universalmente pela aplicação do teste lógico-categorial do \"tipo de\"."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hiperônimo (hiper- = sobre, além): Categoria inclusiva de maior extensão conceitual que engloba outros seres ou ideias.",
+            "Hipônimo (hipo- = sob, abaixo): Unidade restrita de menor extensão e maior intensão conceitual que integra a classe superior."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A chave de validação consiste na proposição afirmativa: [Termo A] é um TIPO DE [Termo B]. Se a proposição for verdadeira, $A$ é categoricamente o hipônimo e $B$ é o hiperônimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "┌────────────────────────────────────────┐ │ HIPERÔNIMO (Geral) │ │ ex.: Animais, Veículo, Alimento │ └───────────────────┬────────────────────┘ │ engloba / inclui │ ┌───────────────────▼────────────────────┐ │ HIPÔNIMO (Específico) │ ──> Teste: \"Pássaro é um │ ex.: Pássaros, Carro, Gelatina │ TIPO DE animal\" └────────────────────────────────────────┘"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Animais (Hiperônimo) ↔ Pássaros (Hipônimo): pássaro é um tipo de animal.",
+            "Transporte (Hiperônimo) ↔ Navio, Avião (Hipônimos): navio é um tipo de transporte.",
+            "Tecnologia (Hiperônimo) ↔ Computador, Tablet (Hipônimos): computador é um tipo de tecnologia.",
+            "Profissão (Hiperônimo) ↔ Médico, Professor, Bailarino (Hipônimos): médico é um tipo de profissão."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A relação é estritamente relacional e relativa. Um termo pode comportar-se como hipônimo de uma classe superior e, simultaneamente, como hiperônimo de uma subcategoria inferior (ex.: ave é hipônimo de animal, mas hiperônimo de canário)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diferencia-se de: KB-A12-G03-003, KB-A12-G03-006",
+            "Operacionalizado por: PROC-A12-G03-001, TIP-A12-G03-001",
+            "Exemplificado por: EX-A12-G03-002, EX-A12-G03-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A sinonímia contextual opera em igualdade de nível semântico (termos com sentidos equivalentes no cotexto, sem hierarquia categorial), enquanto a hiperonímia e hiponímia operam em níveis semânticos assimétricos e verticais (relação de gênero e espécie validada pelo teste \"tipo de\")."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sinônimos: Vocábulos que compartilham o mesmo patamar semântico em determinado discurso. Um termo não engloba o outro e nenhum deles é \"tipo do\" outro ($A = B$). Substituem-se contextualmente para evitar repetição lexical mantendo o mesmo referente em nível equivalente.",
+            "Hiperônimos e Hipônimos: Vocábulos em patamares hierárquicos distintos ($A \\subset B$). O hiperônimo é superordenado; o hipônimo é a subcategoria."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Se falhar o teste \"X é um tipo de Y\", mas os vocábulos mantiverem equivalência referencial plena no contexto, a relação é de sinonímia, e não de hiperonímia/hiponímia."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Caso 1 (FGV — Telas vs. Quadros): \"As telas de Van Gogh encantaram o público. Seus quadros foram leiloados.\"Quadro não é um \"tipo de\" tela; ambas as palavras designam o mesmo objeto no mesmo nível de sentido $\\rightarrow$ Sinonímia Contextual.",
+            "Caso 2 (VUNESP / Dicionários — Jantar vs. Ceia): \"...do latim coena, última refeição do dia, o nosso popular jantar. A ceia de Natal...\"No plano denotativo e dicionarizado formal (Michaelis e Caldas Aulete), ceia e jantar definem rigorosamente a \"última refeição noturna do dia\". A limitação de ceia ao Natal é mero costume cultural/pragmático. Logo, no texto, jantar e ceia são Sinônimos.",
+            "Caso 3 (Hiperonímia Autêntica — Batata vs. Legume): \"A batata foi cara... O legume está raro.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Batata é categoricamente um \"tipo de\" legume $\\rightarrow$ Hiperonímia (o termo geral retoma o termo específico)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A12-G03-002",
+            "Contrasta com: KB-A12-G03-006",
+            "Possui alerta: WARN-A12-G03-001, WARN-A12-G03-002",
+            "Exemplificado por: EX-A12-G03-004, EX-A12-G03-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão referencial estabelece conexões discursivas por meio de vetores direcionais de referência: o elemento coesivo emite a referência (\"manda a seta\"), e o referente é a entidade textual apontada (\"recebe a seta\"). Se o vetor aponta para trás no texto, ocorre anáfora; se aponta para a frente, ocorre catáfora."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Elemento Coesivo: Termo que necessita de recuperação contextual para completar seu sentido pleno (Emissor da seta).",
+            "Referente: Objeto, conceito ou vocábulo visado no texto (Alvo da seta).",
+            "Anáfora (Sentido Retrospectivo): O elemento coesivo recupera um referente prévio (Coesivo ──> [Referente Anterior]).",
+            "Catáfora (Sentido Prospectivo): O elemento coesivo antecipa um referente que só será explicitado posteriormente (Coesivo ──> [Referente Posterior]). Mnemônico oral herdado: \"catar\" a informação que vem adiante no texto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Anáfora: \"O menino chegou. Ele estava feliz.\"Elemento Coesivo: Ele (pronome). Referente: O menino. Vetor: Retrospectivo $\\rightarrow$ Anáfora.",
+            "Catáfora: \"Este é meu objetivo: a aprovação.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elemento Coesivo: Este (pronome demonstrativo). Referente: a aprovação. Vetor: Prospectivo $\\rightarrow$ Catáfora."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Base para: KB-A12-G03-005, KB-A12-G03-006, KB-A12-G03-007",
+            "Operacionalizado por: PROC-A12-G03-002",
+            "Exemplificado por: EX-A12-G03-006, EX-A12-G03-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão anafórica operada por relações de inclusão semântica desdobra-se em duas direções simétricas e opostas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Retomada por Hiperônimo (Generalizadora): O hiperônimo (termo geral) retoma um termo específico prévio ($HIPO \\longrightarrow HIPER$).",
+            "Anáfora Especificativa ou Especificadora (Particularizadora): O hipônimo (termo específico) retoma um termo geral prévio, promovendo a particularização do referente ($HIPER \\longrightarrow HIPO$)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Retomada por Hiperônimo: O autor introduz uma entidade específica e, na sequência, para evitar repetição lexical ou generalizar a asserção, retoma-a por meio de sua classe/gênero superordenado.",
+            "Exemplo clássico da cadela Laika (Texto 7 da FGV): \"cadela\" (hipônimo) é retomada no período subsequente por \"a ave\" / \"o animal\" (hiperônimo).",
+            "Anáfora Especificativa (Especificadora): O autor introduz uma categoria geral e, em seguida, retoma a cadeia discursiva selecionando um exemplar restrito. Sob a perspectiva semântica, trata-se de coesão por hiponímia; sob a nomenclatura das bancas examinadoras (VUNESP, FGV, Cesgranrio), trata-se de anáfora especificativa, pois \"especificar é particularizar (sair do geral e ir ao específico)\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Retomada por Hiperônimo: \"A estalajadeira vende-lhes um ganso... sopra as penas da ave.\"Referente: ganso (específico). Elemento coesivo: ave (geral) $\\rightarrow$ Retomada por Hiperônimo.",
+            "Anáfora Especificativa: \"As frutas estão caras. Essa banana custou uma fortuna.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Referente: frutas (geral). Elemento coesivo: banana (específico particularizado) $\\rightarrow$ Anáfora Especificativa / Coesão por Hipônimo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A12-G03-002, KB-A12-G03-004",
+            "Exemplificado por: EX-A12-G03-008, EX-A12-G03-010, EX-A12-G03-011"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A anáfora associativa é o mecanismo de coesão textual em que dois ou mais vocábulos conectam-se pelo pertencimento ao mesmo campo semântico (mesmo domínio conceitual/temático de ideias), sem que haja entre eles relação de equivalência (sinonímia) ou relação de inclusão hierárquica (\"tipo de\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para blindar a análise contra distratores de bancas examinadoras:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sinonímia: $A = B$ (mesmo nível semântico, equivalência contextual).",
+            "Hiperonímia / Hiponímia: $A \\subset B$ ($A$ é um tipo de $B$).",
+            "Anáfora Associativa (Campo Semântico): $A, B \\in \\text{Domínio } D$, porém $A \\neq B$ e $A$ não é tipo de $B$. As palavras coabitam o mesmo universo discursivo por contiguidade temática ou relação parte-todo (meronímia)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Aviação / Transportes: Pista e aeroporto (pista é parte do aeroporto; não é tipo de aeroporto); piloto e comissário (cargos distintos da tripulação aérea).",
+            "Ambiente Hospitalar: Visitação e parentes; enfermeiros e plantonista; leito e médico.",
+            "A Pegadinha Clássica de Concursos — Doença vs. Febre:Febre não é uma doença; febre é um sintoma, sinal clínico ou resposta do sistema imunológico a uma patologia. Logo, doença não é hiperônimo de febre. Trata-se unicamente de associação por campo semântico médico/patológico.",
+            "Educação e Sociedade: Alunos e crianças (nem todo aluno é criança; há alunos adultos/idosos); história e conhecimento; luz e calor; líquido e refeição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diferencia-se de: KB-A12-G03-002, KB-A12-G03-003, KB-A12-G03-005",
+            "Possui alerta: WARN-A12-G03-003, WARN-A12-G03-004",
+            "Exemplificado por: EX-A12-G03-009, EX-A12-G03-012, EX-A12-G03-015"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão textual pode ser processada por via gramatical/pronominal (quando sustentada por pronomes especializados em apontar referentes) ou por via semântica/lexical (quando a cadeia de referência é sustentada pelo significado pleno das palavras: hiperonímia, hiponímia, sinonímia ou sumarização)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Coesão Pronominal / Morfológica: Opera pela classe gramatical dos pronomes (ele, ela, este, aquele, o qual).",
+            "Coesão Semântica / Lexical (Relações Semântico-Coesivas): Opera pelo conteúdo significativo e pela hierarquia dos substantivos e termos lexicais plenos.",
+            "Sumarização / Encapsulamento Lexical: Processo de coesão lexical anafórica no qual um único vocábulo (um pronome indefinido sintetizador como tudo ou um substantivo hiperonímico rotulador) condensa, sintetiza e engloba uma série enumerativa anterior.",
+            "Exemplo 1: \"Comprei banana, pera e uva; tudo estava caro.\" (Tudo é o sumarizador).",
+            "Exemplo 2 (CEPERJ): \"Decência e genuína seriedade são os requisitos...\" (Requisitos atua como hiperônimo encapsulador).",
+            "Exemplo 3 (FUNRIO): \"Caneta, prancheta e bloco de papel... Todo esse material...\" (Material é o hiperônimo englobador)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A12-G03-001, KB-A12-G03-004, KB-A12-G03-005",
+            "Exemplificado por: EX-A12-G03-013, EX-A12-G03-014"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão lexical por hiperonímia exige a substituição efetiva de um termo antecedente no discurso (o vocábulo entra no lugar do outro para evitar repetição). A mera presença de um substantivo de sentido geral ao lado de um nome específico em aposto explicativo imediato, em qualificação predicativa ou em coordenação aditiva não constitui substituição anafórica."
+        },
+        {
+          "type": "paragraph",
+          "text": "No texto da Questão 09 da FGV:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Substituição Real (Gabarito Correto): Cita-se a enumeração frutas, sal, mariscos, farinha e, em seguida, utiliza-se a expressão hiperonímica diversos outros alimentos para englobá-los e substituí-los no fluxo do texto.",
+            "Aposto Explicativo Imediato (Distrator Errado): Em \"O Rio de Janeiro, de hoje, cidade abastecida...\", a palavra cidade não substitui Rio de Janeiro; ambos coexistem na mesma unidade sintática em que cidade funciona como aposto explicativo imediato.",
+            "Qualificação Predicativa (Distrator Errado): Em \"o peixe como principal elemento de abastecimento\", a palavra elemento atua como qualificador/predicativo do peixe, sem qualquer substituição textual.",
+            "Coordenação Aditiva (Distrator Errado): Em \"punir os emigrantes e liberar os imigrantes\", os parônimos/antônimos emigrantes e imigrantes estão somados por conjunção aditiva (\"e\"), designando grupos distintos no mundo real; um não substitui o outro."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A12-G03-005, KB-A12-G03-007",
+            "Possui alerta: WARN-A12-G03-005, WARN-A12-G03-006",
+            "Exemplificado por: EX-A12-G03-016, EX-A12-G03-018"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na técnica lexicográfica (verbetes de dicionários como Houaiss e Aurélio), uma definição formal estrutura-se obrigatoriamente a partir de um termo geral de abertura (hiperônimo / gênero próximo) que enquadra ontologicamente o conceito, seguido de suas explicitações ou particularizações (diferenças específicas)."
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Verbete (Hipônimo)} \\longrightarrow \\mathbf{\\text{Hiperônimo de Abertura (Gênero Próximo)}} + \\text{Particularizações (Diferença Específica)}"
+        },
+        {
+          "type": "paragraph",
+          "text": "A banca FGV elabora itens em que a parte final da definição (particularização) é perfeita e sedutora, mas a primeira palavra (o hiperônimo de abertura) comete um erro de categorização:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mesa — imóvel [...] $\\rightarrow$ Incorreto: mesa é um móvel (objeto), não um imóvel.",
+            "Biblioteca — construção [...] $\\rightarrow$ Incorreto: biblioteca categoriza-se formalmente como lugar / local / espaço, não mera construção.",
+            "Cubo — desenho [...] $\\rightarrow$ Incorreto: cubo é uma figura geométrica tridimensional / sólido, não um desenho.",
+            "Livraria — casa editorial [...] $\\rightarrow$ Incorreto: livraria é um estabelecimento comercial / loja; casa editorial é uma editora.",
+            "Caderno — utensílio [...] $\\rightarrow$ Incorreto: utensílio aplica-se a cozinha/ferramentas; caderno é material escolar.",
+            "Martelo — objeto [...] $\\rightarrow$ Incorreto: hiperônimo vago demais; a categoria funcional exata é ferramenta.",
+            "Cachorro — réptil [...] $\\rightarrow$ Incorreto: erro de classe biológica; cachorro é mamífero / animal.",
+            "Grafiteiro — escultor [...] $\\rightarrow$ Incorreto: erro de modalidade artística; grafiteiro é artista visual / pintor."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Bailarino — profissional [...] $\\rightarrow$ Correto: bailarino é uma espécie da classe profissional.",
+            "Jogador — personagem do futebol [...] $\\rightarrow$ Correto: no sentido formal de dicionário, personagem designa qualquer indivíduo com relevância ou papel atuante em uma atividade social/esportiva, não se restringindo à ficção/dramaturgia."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A12-G03-004",
+            "Possui alerta: WARN-A12-G03-007, WARN-A12-G03-008",
+            "Exemplificado por: EX-A12-G03-019, EX-A12-G03-020"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A classificação semântica de um par de palavras depende estritamente da ordem em que os termos são solicitados no enunciado. Uma relação conceitualmente correta deve ser sumariamente descartada se apresentar os polos hierárquicos invertidos."
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Regra: \"Olhe sempre para o primeiro termo citado no comando.\"}"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Se o 1º termo for o Específico e o 2º for o Geral ($\\text{Específico} \\rightarrow \\text{Geral}$): a relação é de HIPONÍMIA (ex.: Flamengo $\\rightarrow$ clube; dezembro $\\rightarrow$ mês; sala $\\rightarrow$ cômodo).",
+            "Se o 1º termo for o Geral e o 2º for o Específico ($\\text{Geral} \\rightarrow \\text{Específico}$): a relação é de HIPERONÍMIA (ex.: animais $\\rightarrow$ espécies em extinção; objeto $\\rightarrow$ garfo; aeronave $\\rightarrow$ jatinho; autor $\\rightarrow$ Shakespeare)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na Questão 01 da VUNESP (pede Geral $\\rightarrow$ Específico): a opção flor / planta foi eliminada porque apresentava Específico $\\rightarrow$ Geral.",
+            "Na Questão 11 da FGV (pede Específico $\\rightarrow$ Geral: casa / lugar): a opção tecnologia / computador foi eliminada porque apresentava Geral $\\rightarrow$ Específico.",
+            "Na Questão 15 da FGV (pede Geral $\\rightarrow$ Específico): a opção serrote / ferramenta foi eliminada porque apresentava Específico $\\rightarrow$ Geral."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A12-G03-001, TIP-A12-G03-002",
+            "Exemplificado por: EX-A12-G03-001, EX-A12-G03-017, EX-A12-G03-021"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A modificação direta de um substantivo por um adjetivo adjacente dentro do mesmo sintagma nominal (\"um conforto admirável\") constitui adjetivação sintagmática (qualificação), e não coesão lexical por hiperonímia. A coesão lexical anafórica exige necessariamente mecanismo de correferência e substituição entre termos discursivos distintos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Caso do \"Conforto Admirável\" (Item ERRADO):O CEBRASPE afirmou que em \"é um conforto admirável\" ocorreria coesão lexical por hiperonímia porque conforto conteria o sentido mais específico de admirável. A assertiva é falsa: não há retomada/substituição anafórica e admirável não é espécie de conforto (são classes distintas exercendo papel de núcleo substantivo e adjunto adjetivo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contraexemplo de Coesão Autêntica: \"Aquele quarto é bonito. O cômodo é admirável.\" (Aqui, cômodo é hiperônimo que retoma anaforicamente quarto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Adjetivo Categorial como Hiperônimo (Item CERTO):Em \"...memória periférica da Ceilândia\", o adjetivo periférica (noção espacial/social abrangente) funciona contextualmente como hiperônimo da cidade específica Ceilândia (hipônimo).",
+            "Enumeração Concreta como Hipônimos de Termo Abstrato (Itens CERTOS):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gaveta de meias, lancheira do filho e boteco da esquina são hipônimos que exemplificam o conceito hiperonímico abstrato de detalhe.",
+            "Divulgação científica, informações e conhecimentos são hipônimos coordenados sintetizados pelo substantivo hiperonímico elementos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A12-G03-005, KB-A12-G03-008",
+            "Possui alerta: WARN-A12-G03-009",
+            "Exemplificado por: EX-A12-G03-022, EX-A12-G03-023, EX-A12-G03-024, EX-A12-G03-025"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A12-G03-001",
+          "title": "Tabela Sintética de Relações e Conceitos Canônicos",
+          "statement": "Tabela Sintética de Relações e Conceitos Canônicos",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela Sintética de Relações e Conceitos Canônicos."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A12-G03-001",
+              "table": {
+                "tableId": "TABLE-IP-A12-G03-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Conceito / Regra",
+                  "Definição Canônica",
+                  "Critério de Validação",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Hiperonímia (Hiperônimo)",
+                    "Termo superordenado de sentido amplo/geral que engloba outros seres ou classes (gênero).",
+                    "É a categoria inclusiva que responde à fórmula:[Espécie] é um tipo de [Gênero].",
+                    "KB-A12-G03-002"
+                  ],
+                  [
+                    "Hiponímia (Hipônimo)",
+                    "Termo subordenado de sentido restrito/específico contido no hiperônimo (espécie).",
+                    "É o elemento particularizador que ocupa a posição de \"tipo de\".",
+                    "KB-A12-G03-002"
+                  ],
+                  [
+                    "Sinonímia Contextual",
+                    "Relação de equivalência de sentido entre termos que operam nomesmo patamar semântico.",
+                    "Não há subordinação de classe nem relação de \"tipo de\" ($A = B$).",
+                    "KB-A12-G03-003"
+                  ],
+                  [
+                    "Campo Semântico (Anáfora Associativa)",
+                    "Conexão referencial estabelecida por termos domesmo domínio temático sem sinonímia ou inclusão.",
+                    "As palavras compartilham o mesmo universo discursivo sem relação de \"tipo de\".",
+                    "KB-A12-G03-006"
+                  ],
+                  [
+                    "Anáfora Especificativa",
+                    "Retomada anafórica em que umhipônimo específico particulariza um hiperônimo geral antecedente.",
+                    "Sentido: Geral$\\rightarrow$ Específico ($HIPER \\longrightarrow HIPO$).",
+                    "KB-A12-G03-005"
+                  ],
+                  [
+                    "Retomada por Hiperônimo",
+                    "Retomada anafórica em que umhiperônimo geral engloba um hipônimo específico antecedente.",
+                    "Sentido: Específico$\\rightarrow$ Geral ($HIPO \\longrightarrow HIPER$).",
+                    "KB-A12-G03-005"
+                  ],
+                  [
+                    "Sumarização / Encapsulamento",
+                    "Processo coesivo em que um termo sintético (hiperônimo ou pronome \"tudo\") condensa uma lista prévia.",
+                    "Capacidade de sintetizar em um único elemento múltiplos referentes antecedentes.",
+                    "KB-A12-G03-007"
+                  ],
+                  [
+                    "Substituição Coesiva Real",
+                    "O termo anafórico ocupa de fato o lugar do antecedente para evitar repetição.",
+                    "Distingue-se de aposto explicativo imediato, qualificação e coordenação aditiva.",
+                    "KB-A12-G03-008"
+                  ],
+                  [
+                    "Regra do Verbete (FGV)",
+                    "A definição lexicográfica deve abrir-se pelo hiperônimo de gênero mais adequado antes das diferenças.",
+                    "[Entrada] — [Hiperônimo Válido] + [Particularizações].",
+                    "KB-A12-G03-009"
+                  ],
+                  [
+                    "Regra da Direcionalidade",
+                    "A classificação semântica é regida estritamente pelo papel doprimeiro termo citado no comando.",
+                    "Específico$\\rightarrow$ Geral = Hiponímia; Geral $\\rightarrow$ Específico = Hiperonímia.",
+                    "KB-A12-G03-010"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A12-G03-001",
+          "title": "Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Finalidade: Identificar com precisão matemática se uma relação entre dois vocábulos configura Sinonímia, Hiperonímia, Hiponímia ou Campo Semântico (Anáfora Associativa)",
+              "explanation": "Procedimento operacional para Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Início: Identificar Termo 1 (T1) e Termo 2 (T2) │ ▼ ┌───────────────────────────────────────────┐ │ Passo 1: Avaliar Equivalência Semântica │ │ T1 e T2 estão no mesmo patamar │ │ de sentido no contexto da frase? │ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ SINONÍMIA │ │ Ir para Passo 2 │ │ (ex.: ceia/jantar│ └─────────┬────────┘ │ telas/quadros) │ │ └──────────────────┘ ▼ ┌───────────────────────────────────────────┐ │ Passo 2: Aplicar Teste Lógico \"TIPO DE\" │ │ \"T1 é tipo de T2\" OU \"T2 é tipo de T1\"?│ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐ │ Passo 2b: Checar Direcionalidade│ │ Passo 3: Avaliar Campo Semântico │ │ - Se T1=Específico e T2=Geral: │ │ T1 e T2 pertencem ao mesmo tema │ │ ──> HIPONÍMIA │ │ sem relação taxonômica de gênero?│ │ - Se T1=Geral e T2=Específico: │ └──────────────────┬───────────────┘ │ ──> HIPERONÍMIA │ │ └──────────────────────────────────┘ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ CAMPO SEMÂNTICO │ │ Relações Lógicas │ │ Anáfora │ │ Distintas │ │ Associativa │ │ (Antonímia, │ │ (ex.: febre/ │ │ Paronímia, │ │ doença; pista/ │ │ Coordenação) │ │ aeroporto) │ └──────────────────┘ └──────────────────┘",
+              "explanation": "Procedimento operacional para Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas.",
+              "test": "Início: Identificar Termo 1 (T1) e Termo 2 (T2) │ ▼ ┌───────────────────────────────────────────┐ │ Passo 1: Avaliar Equivalência Semântica │ │ T1 e T2 estão no mesmo patamar │ │ de sentido no contexto da frase? │ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ SINONÍMIA │ │ Ir para Passo 2 │ │ (ex.: ceia/jantar│ └─────────┬────────┘ │ telas/quadros) │ │ └──────────────────┘ ▼ ┌───────────────────────────────────────────┐ │ Passo 2: Aplicar Teste Lógico \"TIPO DE\" │ │ \"T1 é tipo de T2\" OU \"T2 é tipo de T1\"?│ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐ │ Passo 2b: Checar Direcionalidade│ │ Passo 3: Avaliar Campo Semântico │ │ - Se T1=Específico e T2=Geral: │ │ T1 e T2 pertencem ao mesmo tema │ │ ──> HIPONÍMIA │ │ sem relação taxonômica de gênero?│ │ - Se T1=Geral e T2=Específico: │ └──────────────────┬───────────────┘ │ ──> HIPERONÍMIA │ │ └──────────────────────────────────┘ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ CAMPO SEMÂNTICO │ │ Relações Lógicas │ │ Anáfora │ │ Distintas │ │ Associativa │ │ (Antonímia, │ │ (ex.: febre/ │ │ Paronímia, │ │ doença; pista/ │ │ Coordenação) │ │ aeroporto) │ └──────────────────┘ └──────────────────┘"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Algoritmo de Diagnóstico de Relações Semânticas Lexicais em Provas."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Finalidade: Identificar com precisão matemática se uma relação entre dois vocábulos configura Sinonímia, Hiperonímia, Hiponímia ou Campo Semântico (Anáfora Associativa)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Início: Identificar Termo 1 (T1) e Termo 2 (T2) │ ▼ ┌───────────────────────────────────────────┐ │ Passo 1: Avaliar Equivalência Semântica │ │ T1 e T2 estão no mesmo patamar │ │ de sentido no contexto da frase? │ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ SINONÍMIA │ │ Ir para Passo 2 │ │ (ex.: ceia/jantar│ └─────────┬────────┘ │ telas/quadros) │ │ └──────────────────┘ ▼ ┌───────────────────────────────────────────┐ │ Passo 2: Aplicar Teste Lógico \"TIPO DE\" │ │ \"T1 é tipo de T2\" OU \"T2 é tipo de T1\"?│ └─────────────────────┬─────────────────────┘ │ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐ │ Passo 2b: Checar Direcionalidade│ │ Passo 3: Avaliar Campo Semântico │ │ - Se T1=Específico e T2=Geral: │ │ T1 e T2 pertencem ao mesmo tema │ │ ──> HIPONÍMIA │ │ sem relação taxonômica de gênero?│ │ - Se T1=Geral e T2=Específico: │ └──────────────────┬───────────────┘ │ ──> HIPERONÍMIA │ │ └──────────────────────────────────┘ SIM ───────────┴─────────── NÃO │ │ ▼ ▼ ┌──────────────────┐ ┌──────────────────┐ │ CAMPO SEMÂNTICO │ │ Relações Lógicas │ │ Anáfora │ │ Distintas │ │ Associativa │ │ (Antonímia, │ │ (ex.: febre/ │ │ Paronímia, │ │ doença; pista/ │ │ Coordenação) │ │ aeroporto) │ └──────────────────┘ └──────────────────┘"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G03-002",
+          "title": "Método \"Manda a Seta / Recebe a Seta\" para Coesão Textual",
+          "objective": "Executar o algoritmo decisório para Método \"Manda a Seta / Recebe a Seta\" para Coesão Textual",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método \"Manda a Seta / Recebe a Seta\" para Coesão Textual."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar o Elemento Coesivo (Quem Manda a Seta)",
+              "explanation": "É a palavra gramatical ou lexical que necessita de contexto para completar seu sentido; coloque a base/cauda da seta nela.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Localizar o Referente (Quem Recebe a Seta)",
+              "explanation": "É a entidade original citada no texto; coloque a ponta da seta apontando para ele.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Determinar a Direção do Vetor",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Seta apontando para trás (esquerda no texto) $\\rightarrow$ Anáfora ([Referente Anterior] <─── Coesivo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Seta apontando para a frente (direita no texto) $\\rightarrow$ Catáfora (Coesivo ───> [Referente Posterior]).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método \"Manda a Seta / Recebe a Seta\" para Coesão Textual."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Finalidade: Identificar sem erro papéis referenciais e vetores direcionais (anáfora vs. catáfora).Evidências herdadas: TIP-A12-V007-002, KB-A12-V007-004."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localizar o Elemento Coesivo (Quem Manda a Seta): É a palavra gramatical ou lexical que necessita de contexto para completar seu sentido; coloque a base/cauda da seta nela.",
+                "Localizar o Referente (Quem Recebe a Seta): É a entidade original citada no texto; coloque a ponta da seta apontando para ele.",
+                "Determinar a Direção do Vetor:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Seta apontando para trás (esquerda no texto) $\\rightarrow$ Anáfora ([Referente Anterior] <─── Coesivo).",
+                "Seta apontando para a frente (direita no texto) $\\rightarrow$ Catáfora (Coesivo ───> [Referente Posterior])."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G03-003",
+          "title": "Método da Equação Lógica da FGV (Eliminação em Bloco de Distratores)",
+          "objective": "Executar o algoritmo decisório para Método da Equação Lógica da FGV (Eliminação em Bloco de Distratores)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método da Equação Lógica da FGV (Eliminação em Bloco de Distratores)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Mapear a Estrutura Semântica de Cada Alternativa",
+              "explanation": "Aplique o algoritmo de relações lexicais para cada par apresentado nas opções A a E.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Agrupar Alternativas Espelhadas",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se a Alternativa A for par de sinônimos e a Alternativa B também for par de sinônimos $\\rightarrow A = B$ (anulam-se mutuamente).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se a Alternativa D for par associativo de campo semântico e a Alternativa E também for par associativo $\\rightarrow D = E$ (anulam-se mutuamente).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Isolar a Alternativa Diferencial",
+              "explanation": "A única alternativa restante que apresenta a relação assimétrica requerida pelo enunciado ($\\text{Hiperonímia}$ ou $\\text{Hiponímia}$) será o gabarito.",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Validar a Ordem Final",
+              "explanation": "Certifique-se de que a alternativa isolada respeita a ordem exigida no comando ($\\text{Hipo} \\rightarrow \\text{Hiper}$ ou $\\text{Hiper} \\rightarrow \\text{Hipo}$).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método da Equação Lógica da FGV (Eliminação em Bloco de Distratores)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Finalidade: Resolver com agilidade e segurança itens da FGV agrupando alternativas estruturalmente equivalentes.Evidências herdadas: PROC-A12-V009-SEMANTICA-HIPERONIMIA-001, TIP-A12-V008-002, VIS-A12-V009-SEMANTICA-HIPERONIMIA-003."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mapear a Estrutura Semântica de Cada Alternativa: Aplique o algoritmo de relações lexicais para cada par apresentado nas opções A a E.",
+                "Agrupar Alternativas Espelhadas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se a Alternativa A for par de sinônimos e a Alternativa B também for par de sinônimos $\\rightarrow A = B$ (anulam-se mutuamente).",
+                "Se a Alternativa D for par associativo de campo semântico e a Alternativa E também for par associativo $\\rightarrow D = E$ (anulam-se mutuamente)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isolar a Alternativa Diferencial: A única alternativa restante que apresenta a relação assimétrica requerida pelo enunciado ($\\text{Hiperonímia}$ ou $\\text{Hiponímia}$) será o gabarito.",
+                "Validar a Ordem Final: Certifique-se de que a alternativa isolada respeita a ordem exigida no comando ($\\text{Hipo} \\rightarrow \\text{Hiper}$ ou $\\text{Hiper} \\rightarrow \\text{Hipo}$)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A12-G03-004",
+          "title": "Protocolo de Análise de Verbetes de Dicionário (FGV)",
+          "objective": "Executar o algoritmo decisório para Protocolo de Análise de Verbetes de Dicionário (FGV)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo de Análise de Verbetes de Dicionário (FGV)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar a Entrada e o Travessão",
+              "explanation": "Isole o vocábulo que está sendo conceituado.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Sublinhar a Primeira Palavra (Hiperônimo de Abertura)",
+              "explanation": "Isole o termo geral imediatamente após a cópula verbal (\"é um/uma...\").",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Exigir Rigor Taxonômico Ontológico",
+              "explanation": "Questione: \"A entrada é formalmente um tipo deste hiperônimo de abertura?\".",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se o termo for incorreto (ex.",
+              "explanation": "mesa = imóvel; cubo = desenho; livraria = casa editorial; caderno = utensílio), elimine a opção de imediato.",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Ignorar o Sedutor Texto Final se o Início Estiver Errado",
+              "explanation": "Nunca valide uma alternativa apenas porque a explicação final é bonita se o hiperônimo inicial for ontologicamente falso.",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Considerar a Amplitude Dicionarizada",
+              "explanation": "Lembre-se de que palavras como personagem possuem acepção ampla no dicionário (figura de destaque em qualquer meio), não se limitando à dramaturgia.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo de Análise de Verbetes de Dicionário (FGV)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Finalidade: Identificar a legitimidade de definições lexicográficas pelo hiperônimo de abertura.Evidências herdadas: PROC-A12-V010-001, PROC-A12-V011-002, KB-A12-V011-HIPERONIMIA-HIPONIMIA-003."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localizar a Entrada e o Travessão: Isole o vocábulo que está sendo conceituado.",
+                "Sublinhar a Primeira Palavra (Hiperônimo de Abertura): Isole o termo geral imediatamente após a cópula verbal (\"é um/uma...\").",
+                "Exigir Rigor Taxonômico Ontológico: Questione: \"A entrada é formalmente um tipo deste hiperônimo de abertura?\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se o termo for incorreto (ex.: mesa = imóvel; cubo = desenho; livraria = casa editorial; caderno = utensílio), elimine a opção de imediato."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Ignorar o Sedutor Texto Final se o Início Estiver Errado: Nunca valide uma alternativa apenas porque a explicação final é bonita se o hiperônimo inicial for ontologicamente falso.",
+                "Considerar a Amplitude Dicionarizada: Lembre-se de que palavras como personagem possuem acepção ampla no dicionário (figura de destaque em qualquer meio), não se limitando à dramaturgia."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A12-G03-001",
+          "title": "Tabela Comparativa de Fenômenos Semântico-Coesivos",
+          "contrastType": "mixed",
+          "conceptA": "Tabela Comparativa de Fenômenos Semântico-Coesivos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A12-G03-002",
+              "table": {
+                "tableId": "TABLE-IP-A12-G03-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério / Fenômeno",
+                  "Hiperonímia / Hiponímia",
+                  "Sinonímia Contextual",
+                  "Anáfora Associativa (Campo Semântico)",
+                  "Sumarização / Encapsulamento"
+                ],
+                "rows": [
+                  [
+                    "Estrutura Relacional",
+                    "Assimétrica / Hierárquica ($A \\subset B$ ou $B \\supset A$).",
+                    "Simétrica / Equivalente ($A = B$).",
+                    "Contígua / Temática ($A, B \\in \\text{Tema } D$).",
+                    "Sintética / Condensadora ($\\{A, B, C\\} \\rightarrow S$)."
+                  ],
+                  [
+                    "Teste de Validação",
+                    "Responde afirmativamente a:X é um tipo de Y.",
+                    "Responde a:X equivale a Y no cotexto.",
+                    "Não responde a \"tipo de\"; pertencem ao mesmo domínio.",
+                    "Um vocábulo único resume a lista anterior."
+                  ],
+                  [
+                    "Exemplo Típico da Aula",
+                    "Animal ↔ Pássaros; Aeronave ↔ Jatinho.",
+                    "Jantar ↔ Ceia; Telas ↔ Quadros.",
+                    "Pista ↔ Aeroporto; Doença ↔ Febre.",
+                    "Banana, pera, uva ↔ Tudo."
+                  ],
+                  [
+                    "Direção Coesiva",
+                    "Geral retoma Específico OU Específico retoma Geral.",
+                    "Termo equivalente substitui termo anterior.",
+                    "Termo do mesmo universo retoma por afinidade.",
+                    "Termo hiperonímico condensa múltiplos termos."
+                  ],
+                  [
+                    "Pegadinha Frequente",
+                    "Inversão da ordem pedida no comando.",
+                    "Achar que exige sinônimo perfeito fora do texto.",
+                    "Achar quefebre é espécie de doença.",
+                    "Confundir sumarização com mera sinonímia."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-001",
+          "title": "EX-A12-G03-001 — Demonstração Tripartite: Morfologia, Semântica e Sintaxe",
+          "prompt": "Enunciado/Estrutura: Análise do vocábulo \"amor\" na oração \"João é um amor.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "Análise do vocábulo \"amor\" na oração \"João é um amor.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Morfologia",
+              "rationale": "Substantivo (admite quantificação e artigo: um amor, dois amores)."
+            },
+            {
+              "order": 4,
+              "action": "Semântica",
+              "rationale": "Valor de adjetivo opinativo (elogio qualificador do sujeito)."
+            },
+            {
+              "order": 5,
+              "action": "Sintaxe",
+              "rationale": "Predicativo do sujeito (ligado a João por verbo de ligação)."
+            }
+          ],
+          "result": "Conceito Consolidado: Não exclusão mútua dos três níveis de análise linguística (KB-A12-G03-001).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-001 — Demonstração Tripartite: Morfologia, Semântica e Sintaxe sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-001 — Demonstração Tripartite: Morfologia, Semântica e Sintaxe.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-001 — Demonstração Tripartite: Morfologia, Semântica e Sintaxe.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: Análise do vocábulo \"amor\" na oração \"João é um amor.\".",
+                "Resolução e Desenvolvimento:",
+                "Morfologia: Substantivo (admite quantificação e artigo: um amor, dois amores).",
+                "Semântica: Valor de adjetivo opinativo (elogio qualificador do sujeito).",
+                "Sintaxe: Predicativo do sujeito (ligado a João por verbo de ligação).",
+                "Conceito Consolidado: Não exclusão mútua dos três níveis de análise linguística (KB-A12-G03-001)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-002",
+          "title": "EX-A12-G03-002 — O Exemplo Base da Relação Animal ↔ Pássaros",
+          "prompt": "Enunciado/Estrutura: \"De todos os animais, prefiro os pássaros.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"De todos os animais, prefiro os pássaros.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Animais = sentido abrangente (Hiperônimo); Pássaros = elemento específico contido na classe (Hipônimo). Teste: Pássaro é um tipo de animal (Verdadeiro)."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Aplicação direta do teste do \"tipo de\" (KB-A12-G03-002)."
+            }
+          ],
+          "result": "Conceito Consolidado: Aplicação direta do teste do \"tipo de\" (KB-A12-G03-002).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-002 — O Exemplo Base da Relação Animal ↔ Pássaros sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-002 — O Exemplo Base da Relação Animal ↔ Pássaros.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-002 — O Exemplo Base da Relação Animal ↔ Pássaros.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"De todos os animais, prefiro os pássaros.\".",
+                "Resolução e Desenvolvimento: Animais = sentido abrangente (Hiperônimo); Pássaros = elemento específico contido na classe (Hipônimo). Teste: Pássaro é um tipo de animal (Verdadeiro).",
+                "Conceito Consolidado: Aplicação direta do teste do \"tipo de\" (KB-A12-G03-002)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-003",
+          "title": "EX-A12-G03-003 — Exercício de Fixação (Associação de 10 Pares Conceituais)",
+          "prompt": "Enunciado/Estrutura: Correlacione 10 hiperônimos conceituais a seus 10 hipônimos específicos:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "Correlacione 10 hiperônimos conceituais a seus 10 hipônimos específicos:"
+            },
+            {
+              "order": 2,
+              "action": "Hiperônimos",
+              "rationale": "1. religião, 2. jogo, 3. animal, 4. ferramenta, 5. fruta, 6. Universo, 7. órgão, 8. sentimento, 9. moradia, 10. veículo."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito e Justificativas",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "pulmão ( 7 ) $\\rightarrow$ tipo de órgão; sobrado ( 9 ) $\\rightarrow$ tipo de moradia; catolicismo ( 1 ) $\\rightarrow$ tipo de religião; leão ( 3 ) $\\rightarrow$ tipo de animal; amizade ( 8 ) $\\rightarrow$ tipo de sentimento; truco ( 2 ) $\\rightarrow$ tipo de jogo; maçã ( 5 ) $\\rightarrow$ tipo de fruta; bicicleta ( 10 ) $\\rightarrow$ tipo de veículo; serrote ( 4 ) $\\rightarrow$ tipo de ferramenta; estrelas ( 6 ) $\\rightarrow$ constituintes do Universo.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Conceito Consolidado",
+              "rationale": "Categorização sistemática de gênero e espécie (KB-A12-G03-002)."
+            }
+          ],
+          "result": "Conceito Consolidado: Categorização sistemática de gênero e espécie (KB-A12-G03-002).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-003 — Exercício de Fixação (Associação de 10 Pares Conceituais) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-003 — Exercício de Fixação (Associação de 10 Pares Conceituais).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-003 — Exercício de Fixação (Associação de 10 Pares Conceituais).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: Correlacione 10 hiperônimos conceituais a seus 10 hipônimos específicos:",
+                "Hiperônimos: 1. religião, 2. jogo, 3. animal, 4. ferramenta, 5. fruta, 6. Universo, 7. órgão, 8. sentimento, 9. moradia, 10. veículo.",
+                "Gabarito e Justificativas:",
+                "pulmão ( 7 ) $\\rightarrow$ tipo de órgão; sobrado ( 9 ) $\\rightarrow$ tipo de moradia; catolicismo ( 1 ) $\\rightarrow$ tipo de religião; leão ( 3 ) $\\rightarrow$ tipo de animal; amizade ( 8 ) $\\rightarrow$ tipo de sentimento; truco ( 2 ) $\\rightarrow$ tipo de jogo; maçã ( 5 ) $\\rightarrow$ tipo de fruta; bicicleta ( 10 ) $\\rightarrow$ tipo de veículo; serrote ( 4 ) $\\rightarrow$ tipo de ferramenta; estrelas ( 6 ) $\\rightarrow$ constituintes do Universo.",
+                "Conceito Consolidado: Categorização sistemática de gênero e espécie (KB-A12-G03-002)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-004",
+          "title": "EX-A12-G03-004 — Exemplo FGV: Sinonímia Contextual (Telas vs. Quadros)",
+          "prompt": "Enunciado/Estrutura: \"As telas de Van Gogh... seus quadros...\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"As telas de Van Gogh... seus quadros...\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Quadro não é um tipo de tela. No contexto discursivo, ambos os termos designam o mesmo referente artístico no mesmo patamar referencial $\\rightarrow$ Sinonímia Contextual."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Distinção entre sinonímia e hierarquia hiperonímica (KB-A12-G03-003)."
+            }
+          ],
+          "result": "Conceito Consolidado: Distinção entre sinonímia e hierarquia hiperonímica (KB-A12-G03-003).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-004 — Exemplo FGV: Sinonímia Contextual (Telas vs. Quadros) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-004 — Exemplo FGV: Sinonímia Contextual (Telas vs. Quadros).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-004 — Exemplo FGV: Sinonímia Contextual (Telas vs. Quadros).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"As telas de Van Gogh... seus quadros...\".",
+                "Resolução e Desenvolvimento: Quadro não é um tipo de tela. No contexto discursivo, ambos os termos designam o mesmo referente artístico no mesmo patamar referencial $\\rightarrow$ Sinonímia Contextual.",
+                "Conceito Consolidado: Distinção entre sinonímia e hierarquia hiperonímica (KB-A12-G03-003)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-005",
+          "title": "EX-A12-G03-005 — Exemplo de Hiperonímia Coesiva (Batata vs. Legume)",
+          "prompt": "Enunciado/Estrutura: \"A batata foi cara... O legume está raro.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"A batata foi cara... O legume está raro.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Batata é um tipo de legume. O termo coesivo (legume) é mais abrangente do que o referente (batata) $\\rightarrow$ Hiperonímia Anafórica."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Retomada do específico pelo geral (KB-A12-G03-005)."
+            }
+          ],
+          "result": "Conceito Consolidado: Retomada do específico pelo geral (KB-A12-G03-005).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-005 — Exemplo de Hiperonímia Coesiva (Batata vs. Legume) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-005 — Exemplo de Hiperonímia Coesiva (Batata vs. Legume).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-005 — Exemplo de Hiperonímia Coesiva (Batata vs. Legume).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"A batata foi cara... O legume está raro.\".",
+                "Resolução e Desenvolvimento: Batata é um tipo de legume. O termo coesivo (legume) é mais abrangente do que o referente (batata) $\\rightarrow$ Hiperonímia Anafórica.",
+                "Conceito Consolidado: Retomada do específico pelo geral (KB-A12-G03-005)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-006",
+          "title": "EX-A12-G03-006 — Exemplo Básico de Anáfora",
+          "prompt": "Enunciado/Estrutura: \"O menino chegou. Ele estava feliz.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"O menino chegou. Ele estava feliz.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Coesivo: Ele. Referente: O menino. Vetor: Retrospectivo $\\rightarrow$ Anáfora."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Mecanismo básico anafórico (KB-A12-G03-004)."
+            }
+          ],
+          "result": "Conceito Consolidado: Mecanismo básico anafórico (KB-A12-G03-004).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-006 — Exemplo Básico de Anáfora sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-006 — Exemplo Básico de Anáfora.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-006 — Exemplo Básico de Anáfora.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"O menino chegou. Ele estava feliz.\".",
+                "Resolução e Desenvolvimento: Coesivo: Ele. Referente: O menino. Vetor: Retrospectivo $\\rightarrow$ Anáfora.",
+                "Conceito Consolidado: Mecanismo básico anafórico (KB-A12-G03-004)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-007",
+          "title": "EX-A12-G03-007 — Exemplo Básico de Catáfora",
+          "prompt": "Enunciado/Estrutura: \"Este é meu objetivo: a aprovação.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"Este é meu objetivo: a aprovação.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Coesivo: Este. Referente: a aprovação. Vetor: Prospectivo $\\rightarrow$ Catáfora."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Mecanismo básico catafórico (KB-A12-G03-004)."
+            }
+          ],
+          "result": "Conceito Consolidado: Mecanismo básico catafórico (KB-A12-G03-004).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-007 — Exemplo Básico de Catáfora sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-007 — Exemplo Básico de Catáfora.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-007 — Exemplo Básico de Catáfora.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"Este é meu objetivo: a aprovação.\".",
+                "Resolução e Desenvolvimento: Coesivo: Este. Referente: a aprovação. Vetor: Prospectivo $\\rightarrow$ Catáfora.",
+                "Conceito Consolidado: Mecanismo básico catafórico (KB-A12-G03-004)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-008",
+          "title": "EX-A12-G03-008 — Exemplo de Anáfora Especificativa (Frutas vs. Banana)",
+          "prompt": "Enunciado/Estrutura: \"As frutas estão caras. Essa banana custou uma fortuna.\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "\"As frutas estão caras. Essa banana custou uma fortuna.\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": "Referente prévio: frutas (geral/hiperônimo). Elemento coesivo: banana (específico/hipônimo). Particulariza a referência $\\rightarrow$ Anáfora Especificativa / Hiponímia Coesiva."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Retomada particularizadora do geral pelo específico (KB-A12-G03-005)."
+            }
+          ],
+          "result": "Conceito Consolidado: Retomada particularizadora do geral pelo específico (KB-A12-G03-005).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-008 — Exemplo de Anáfora Especificativa (Frutas vs. Banana) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-008 — Exemplo de Anáfora Especificativa (Frutas vs. Banana).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-008 — Exemplo de Anáfora Especificativa (Frutas vs. Banana).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: \"As frutas estão caras. Essa banana custou uma fortuna.\".",
+                "Resolução e Desenvolvimento: Referente prévio: frutas (geral/hiperônimo). Elemento coesivo: banana (específico/hipônimo). Particulariza a referência $\\rightarrow$ Anáfora Especificativa / Hiponímia Coesiva.",
+                "Conceito Consolidado: Retomada particularizadora do geral pelo específico (KB-A12-G03-005)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-009",
+          "title": "EX-A12-G03-009 — Contraste entre Campo Semântico (Anáfora Associativa) e Hiponímia",
+          "prompt": "Enunciado/Estrutura: Comparar o par 1 (pista / aeroporto) com o par 2 (veículo / carro).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado/Estrutura",
+              "rationale": "Comparar o par 1 (pista / aeroporto) com o par 2 (veículo / carro)."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Pista / Aeroporto",
+              "rationale": "Pertencem ao campo temático da aviação; não há relação de \"tipo de\" $\\rightarrow$ Anáfora Associativa (Campo Semântico)."
+            },
+            {
+              "order": 4,
+              "action": "Veículo / Carro",
+              "rationale": "Carro é categoricamente um tipo de veículo $\\rightarrow$ Hiponímia / Anáfora Especificativa."
+            },
+            {
+              "order": 5,
+              "action": "Conceito Consolidado",
+              "rationale": "Fronteira entre associação temática e inclusão lógica (KB-A12-G03-006)."
+            }
+          ],
+          "result": "Conceito Consolidado: Fronteira entre associação temática e inclusão lógica (KB-A12-G03-006).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-009 — Contraste entre Campo Semântico (Anáfora Associativa) e Hiponímia sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-009 — Contraste entre Campo Semântico (Anáfora Associativa) e Hiponímia.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-009 — Contraste entre Campo Semântico (Anáfora Associativa) e Hiponímia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado/Estrutura: Comparar o par 1 (pista / aeroporto) com o par 2 (veículo / carro).",
+                "Resolução e Desenvolvimento:",
+                "Pista / Aeroporto: Pertencem ao campo temático da aviação; não há relação de \"tipo de\" $\\rightarrow$ Anáfora Associativa (Campo Semântico).",
+                "Veículo / Carro: Carro é categoricamente um tipo de veículo $\\rightarrow$ Hiponímia / Anáfora Especificativa.",
+                "Conceito Consolidado: Fronteira entre associação temática e inclusão lógica (KB-A12-G03-006)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-010",
+          "title": "EX-A12-G03-010 — Questão 01: VUNESP / Pref. de Serrana - SP",
+          "prompt": "Enunciado: Com fundamento em Koch e Elias (2011), pede-se a alternativa que estabelece a mesma relação semântica e na mesma ordem observada entre os termos \"objeto\" e \"garfo\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Com fundamento em Koch e Elias (2011), pede-se a alternativa que estabelece a mesma relação semântica e na mesma ordem observada entre os termos \"objeto\" e \"garfo\"."
+            },
+            {
+              "order": 2,
+              "action": "Análise das Opções",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) \"mamífero\" e \"baleia\"",
+              "rationale": "Mamífero (Hiperônimo) $\\rightarrow$ Baleia (Hipônimo). Ordem idêntica: Geral $\\rightarrow$ Específico. (Gabarito: A)."
+            },
+            {
+              "order": 4,
+              "action": "B) \"coisa\" e \"negócio\"",
+              "rationale": "Palavras imprecisas, não configuram ambiguidade."
+            },
+            {
+              "order": 5,
+              "action": "C) \"flor\" e \"planta\"",
+              "rationale": "Ordem invertida (Específico $\\rightarrow$ Geral)."
+            }
+          ],
+          "result": "Gabarito: A (KB-A12-G03-002, KB-A12-G03-010).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-010 — Questão 01: VUNESP / Pref. de Serrana - SP sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-010 — Questão 01: VUNESP / Pref. de Serrana - SP.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-010 — Questão 01: VUNESP / Pref. de Serrana - SP.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Com fundamento em Koch e Elias (2011), pede-se a alternativa que estabelece a mesma relação semântica e na mesma ordem observada entre os termos \"objeto\" e \"garfo\".",
+                "Análise das Opções:",
+                "A) \"mamífero\" e \"baleia\": Mamífero (Hiperônimo) $\\rightarrow$ Baleia (Hipônimo). Ordem idêntica: Geral $\\rightarrow$ Específico. (Gabarito: A).",
+                "B) \"coisa\" e \"negócio\": Palavras imprecisas, não configuram ambiguidade.",
+                "C) \"flor\" e \"planta\": Ordem invertida (Específico $\\rightarrow$ Geral).",
+                "D) \"jantar\" e \"comer\": Campo semântico associativo, não sinonímia.",
+                "E) \"arco-íris\" e \"pôr-do-sol\": Campo semântico associativo, não sumarização.",
+                "Gabarito: A (KB-A12-G03-002, KB-A12-G03-010)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-011",
+          "title": "EX-A12-G03-011 — Questão 02: VUNESP / Pref. de Sertãozinho - SP",
+          "prompt": "Enunciado: Avaliação das passagens: 1) \"...última refeição do dia, o nosso popular jantar. A ceia de Natal...\"; 2) \"...vende-lhes um ganso... sopra as penas da barriga da ave...\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Avaliação das passagens: 1) \"...última refeição do dia, o nosso popular jantar. A ceia de Natal...\"; 2) \"...vende-lhes um ganso... sopra as penas da barriga da ave...\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução e Desenvolvimento",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passagem 1",
+              "rationale": "Jantar e ceia denotam a última refeição diária $\\rightarrow$ Sinonímia."
+            },
+            {
+              "order": 4,
+              "action": "Passagem 2",
+              "rationale": "Ave (geral/hiperônimo) retoma anaditicamente ganso (específico/hipônimo) $\\rightarrow$ Retomada por Hiperônimo."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "D (Sinonímia e retomada por hiperônimo) (KB-A12-G03-003, KB-A12-G03-005)."
+            }
+          ],
+          "result": "Gabarito: D (Sinonímia e retomada por hiperônimo) (KB-A12-G03-003, KB-A12-G03-005).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-011 — Questão 02: VUNESP / Pref. de Sertãozinho - SP sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-011 — Questão 02: VUNESP / Pref. de Sertãozinho - SP.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-011 — Questão 02: VUNESP / Pref. de Sertãozinho - SP.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Avaliação das passagens: 1) \"...última refeição do dia, o nosso popular jantar. A ceia de Natal...\"; 2) \"...vende-lhes um ganso... sopra as penas da barriga da ave...\".",
+                "Resolução e Desenvolvimento:",
+                "Passagem 1: Jantar e ceia denotam a última refeição diária $\\rightarrow$ Sinonímia.",
+                "Passagem 2: Ave (geral/hiperônimo) retoma anaditicamente ganso (específico/hipônimo) $\\rightarrow$ Retomada por Hiperônimo.",
+                "Gabarito: D (Sinonímia e retomada por hiperônimo) (KB-A12-G03-003, KB-A12-G03-005)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-012",
+          "title": "EX-A12-G03-012 — Questão 04: CESGRANRIO / Pref. de Salvador - BA",
+          "prompt": "Enunciado: Estabelece relação de hiperonímia/hiponímia, rigorosamente nessa ordem ($\\text{Geral} \\rightarrow \\text{Específico}$):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Estabelece relação de hiperonímia/hiponímia, rigorosamente nessa ordem ($\\text{Geral} \\rightarrow \\text{Específico}$):"
+            },
+            {
+              "order": 2,
+              "action": "A) estrondo – ruído",
+              "rationale": "Associação por intensidade acústica."
+            },
+            {
+              "order": 3,
+              "action": "B) pescador – trabalhador",
+              "rationale": "Ordem invertida ($\\text{Hipo} \\rightarrow \\text{Hiper}$)."
+            },
+            {
+              "order": 4,
+              "action": "C) pista – aeroporto",
+              "rationale": "Associação por parte-todo (meronímia)."
+            },
+            {
+              "order": 5,
+              "action": "D) piloto – comissário",
+              "rationale": "Associação profissional (mesmo campo)."
+            }
+          ],
+          "result": "Gabarito: E (KB-A12-G03-002, KB-A12-G03-006, KB-A12-G03-010).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-012 — Questão 04: CESGRANRIO / Pref. de Salvador - BA sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-012 — Questão 04: CESGRANRIO / Pref. de Salvador - BA.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-012 — Questão 04: CESGRANRIO / Pref. de Salvador - BA.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Estabelece relação de hiperonímia/hiponímia, rigorosamente nessa ordem ($\\text{Geral} \\rightarrow \\text{Específico}$):",
+                "A) estrondo – ruído: Associação por intensidade acústica.",
+                "B) pescador – trabalhador: Ordem invertida ($\\text{Hipo} \\rightarrow \\text{Hiper}$).",
+                "C) pista – aeroporto: Associação por parte-todo (meronímia).",
+                "D) piloto – comissário: Associação profissional (mesmo campo).",
+                "E) aeronave – jatinho: Aeronave (Hiperônimo) $\\rightarrow$ Jatinho (Hipônimo). (Gabarito: E).",
+                "Gabarito: E (KB-A12-G03-002, KB-A12-G03-006, KB-A12-G03-010)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-013",
+          "title": "EX-A12-G03-013 — Questão 06: CEPERJ / ALERJ",
+          "prompt": "Enunciado: \"Decência e genuína seriedade são os requisitos exigidos...\". Relação de requisitos com decência e seriedade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "\"Decência e genuína seriedade são os requisitos exigidos...\". Relação de requisitos com decência e seriedade."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Requisitos é o hiperônimo anafórico que engloba e encapsula as qualificações específicas antecedentes $\\rightarrow$ Hiperonímia."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "D (KB-A12-G03-007)."
+            }
+          ],
+          "result": "Gabarito: D (KB-A12-G03-007).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-013 — Questão 06: CEPERJ / ALERJ sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-013 — Questão 06: CEPERJ / ALERJ.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-013 — Questão 06: CEPERJ / ALERJ.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: \"Decência e genuína seriedade são os requisitos exigidos...\". Relação de requisitos com decência e seriedade.",
+                "Resolução: Requisitos é o hiperônimo anafórico que engloba e encapsula as qualificações específicas antecedentes $\\rightarrow$ Hiperonímia.",
+                "Gabarito: D (KB-A12-G03-007)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-014",
+          "title": "EX-A12-G03-014 — Questão 07: FUNRIO / SESAU-RO",
+          "prompt": "Enunciado: Item em que o segundo vocábulo é hiperônimo do anterior ($\\text{1º Hipo} \\rightarrow \\text{2º Hiper}$):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Item em que o segundo vocábulo é hiperônimo do anterior ($\\text{1º Hipo} \\rightarrow \\text{2º Hiper}$):"
+            },
+            {
+              "order": 2,
+              "action": "A) dezembro / mês",
+              "rationale": "Dezembro é hipônimo; mês é o hiperônimo posterior. (Gabarito: A)."
+            },
+            {
+              "order": 3,
+              "action": "B) semanas / dias",
+              "rationale": "Associação temporal / contagem."
+            },
+            {
+              "order": 4,
+              "action": "C) doença / febre",
+              "rationale": "Associação clínica (febre é sintoma)."
+            },
+            {
+              "order": 5,
+              "action": "D) região / estado",
+              "rationale": "Ordem inversa ($\\text{Hiper} \\rightarrow \\text{Hipo}$)."
+            }
+          ],
+          "result": "Gabarito: A (KB-A12-G03-006, KB-A12-G03-010).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-014 — Questão 07: FUNRIO / SESAU-RO sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-014 — Questão 07: FUNRIO / SESAU-RO.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-014 — Questão 07: FUNRIO / SESAU-RO.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Item em que o segundo vocábulo é hiperônimo do anterior ($\\text{1º Hipo} \\rightarrow \\text{2º Hiper}$):",
+                "A) dezembro / mês: Dezembro é hipônimo; mês é o hiperônimo posterior. (Gabarito: A).",
+                "B) semanas / dias: Associação temporal / contagem.",
+                "C) doença / febre: Associação clínica (febre é sintoma).",
+                "D) região / estado: Ordem inversa ($\\text{Hiper} \\rightarrow \\text{Hipo}$).",
+                "E) insetos / mosquitos: Ordem inversa ($\\text{Hiper} \\rightarrow \\text{Hipo}$).",
+                "Gabarito: A (KB-A12-G03-006, KB-A12-G03-010)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-015",
+          "title": "EX-A12-G03-015 — Questão 08: FUNRIO / DEPEN",
+          "prompt": "Enunciado: Finalidade do termo material em: \"...utilizar uma caneta, uma prancheta e um bloco de papel... Todo esse material...\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Finalidade do termo material em: \"...utilizar uma caneta, uma prancheta e um bloco de papel... Todo esse material...\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Englobar os hipônimos específicos citados anteriormente."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "A (KB-A12-G03-007)."
+            }
+          ],
+          "result": "Gabarito: A (KB-A12-G03-007).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-015 — Questão 08: FUNRIO / DEPEN sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-015 — Questão 08: FUNRIO / DEPEN.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-015 — Questão 08: FUNRIO / DEPEN.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Finalidade do termo material em: \"...utilizar uma caneta, uma prancheta e um bloco de papel... Todo esse material...\".",
+                "Resolução: Englobar os hipônimos específicos citados anteriormente.",
+                "Gabarito: A (KB-A12-G03-007)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-016",
+          "title": "EX-A12-G03-016 — Questão 09: FGV / Pref. São José dos Campos - SP",
+          "prompt": "Enunciado: Coesão por substituição de termo anterior equivalente a um hiperônimo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Coesão por substituição de termo anterior equivalente a um hiperônimo."
+            },
+            {
+              "order": 2,
+              "action": "Análise das Opções",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) cidade",
+              "rationale": "Aposto explicativo imediato de Rio de Janeiro (não substitui)."
+            },
+            {
+              "order": 4,
+              "action": "B) gêneros alimentícios / D) o único local",
+              "rationale": "Termos gerais que não substituem termo prévio."
+            },
+            {
+              "order": 5,
+              "action": "C) elemento",
+              "rationale": "Qualificador predicativo do peixe."
+            }
+          ],
+          "result": "Gabarito: E (KB-A12-G03-008).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-016 — Questão 09: FGV / Pref. São José dos Campos - SP sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-016 — Questão 09: FGV / Pref. São José dos Campos - SP.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-016 — Questão 09: FGV / Pref. São José dos Campos - SP.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Coesão por substituição de termo anterior equivalente a um hiperônimo.",
+                "Análise das Opções:",
+                "A) cidade: Aposto explicativo imediato de Rio de Janeiro (não substitui).",
+                "B) gêneros alimentícios / D) o único local: Termos gerais que não substituem termo prévio.",
+                "C) elemento: Qualificador predicativo do peixe.",
+                "E) diversos outros alimentos: Hiperônimo que substitui a enumeração frutas, sal, mariscos, farinha. (Gabarito: E).",
+                "Gabarito: E (KB-A12-G03-008)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-017",
+          "title": "EX-A12-G03-017 — Questão 10: FGV / Pref. Manaus - AM - Advogado",
+          "prompt": "Enunciado: Frase em que a palavra sublinhada corresponde a um hiperônimo de termo anterior:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Frase em que a palavra sublinhada corresponde a um hiperônimo de termo anterior:"
+            },
+            {
+              "order": 2,
+              "action": "A) doente... enfermo / B) pergunta... interrogação",
+              "rationale": "Pares de sinônimos ($A=B$)."
+            },
+            {
+              "order": 3,
+              "action": "D) visitação... parentes / E) enfermeiros... plantonista",
+              "rationale": "Anáfora associativa ($D=E$)."
+            },
+            {
+              "order": 4,
+              "action": "C) Melhoral... medicamento",
+              "rationale": "Medicamento é o hiperônimo que retoma a marca específica Melhoral. (Gabarito: C)."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "C (KB-A12-G03-005, PROC-A12-G03-003)."
+            }
+          ],
+          "result": "Gabarito: C (KB-A12-G03-005, PROC-A12-G03-003).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-017 — Questão 10: FGV / Pref. Manaus - AM - Advogado sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-017 — Questão 10: FGV / Pref. Manaus - AM - Advogado.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-017 — Questão 10: FGV / Pref. Manaus - AM - Advogado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Frase em que a palavra sublinhada corresponde a um hiperônimo de termo anterior:",
+                "A) doente... enfermo / B) pergunta... interrogação: Pares de sinônimos ($A=B$).",
+                "D) visitação... parentes / E) enfermeiros... plantonista: Anáfora associativa ($D=E$).",
+                "C) Melhoral... medicamento: Medicamento é o hiperônimo que retoma a marca específica Melhoral. (Gabarito: C).",
+                "Gabarito: C (KB-A12-G03-005, PROC-A12-G03-003)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-018",
+          "title": "EX-A12-G03-018 — Questão 11: FGV / TJ-CE - Técnico Judiciário",
+          "prompt": "Enunciado: \"Em minha casa e em todo outro lugar...\" (lugar [Hiper] substitui casa [Hipo]). Par com a mesma relação respectivamente ($\\text{Hipo} \\rightarrow \\text{Hiper}$):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "\"Em minha casa e em todo outro lugar...\" (lugar [Hiper] substitui casa [Hipo]). Par com a mesma relação respectivamente ($\\text{Hipo} \\rightarrow \\text{Hiper}$):"
+            },
+            {
+              "order": 2,
+              "action": "A) sala / cômodo",
+              "rationale": "Sala é tipo de cômodo ($\\text{Hipo} \\rightarrow \\text{Hiper}$). (Gabarito: A)."
+            },
+            {
+              "order": 3,
+              "action": "B) luz / calor / E) líquido / refeição",
+              "rationale": "Campo semântico associativo."
+            },
+            {
+              "order": 4,
+              "action": "C) tangerina / mexerica",
+              "rationale": "Sinônimos."
+            },
+            {
+              "order": 5,
+              "action": "D) tecnologia / computador",
+              "rationale": "Ordem invertida ($\\text{Hiper} \\rightarrow \\text{Hipo}$)."
+            }
+          ],
+          "result": "Gabarito: A (KB-A12-G03-010).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-018 — Questão 11: FGV / TJ-CE - Técnico Judiciário sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-018 — Questão 11: FGV / TJ-CE - Técnico Judiciário.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-018 — Questão 11: FGV / TJ-CE - Técnico Judiciário.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: \"Em minha casa e em todo outro lugar...\" (lugar [Hiper] substitui casa [Hipo]). Par com a mesma relação respectivamente ($\\text{Hipo} \\rightarrow \\text{Hiper}$):",
+                "A) sala / cômodo: Sala é tipo de cômodo ($\\text{Hipo} \\rightarrow \\text{Hiper}$). (Gabarito: A).",
+                "B) luz / calor / E) líquido / refeição: Campo semântico associativo.",
+                "C) tangerina / mexerica: Sinônimos.",
+                "D) tecnologia / computador: Ordem invertida ($\\text{Hiper} \\rightarrow \\text{Hipo}$).",
+                "Gabarito: A (KB-A12-G03-010)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-019",
+          "title": "EX-A12-G03-019 — Questão 12: FGV / PC-AM - Perito Legista",
+          "prompt": "Enunciado: Definição de verbete em que o termo geral inicial (hiperônimo) foi bem selecionado:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Definição de verbete em que o termo geral inicial (hiperônimo) foi bem selecionado:"
+            },
+            {
+              "order": 2,
+              "action": "A) caderno = utensílio escolar (Inadequado",
+              "rationale": "material)."
+            },
+            {
+              "order": 3,
+              "action": "B) jogador = personagem do futebol (CORRETO",
+              "rationale": "personagem = figura atuante). (Gabarito: B)."
+            },
+            {
+              "order": 4,
+              "action": "C) martelo = objeto (Inadequado",
+              "rationale": "ferramenta)."
+            },
+            {
+              "order": 5,
+              "action": "D) cachorro = réptil (Inadequado",
+              "rationale": "mamífero)."
+            }
+          ],
+          "result": "Gabarito: B (KB-A12-G03-009).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-019 — Questão 12: FGV / PC-AM - Perito Legista sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-019 — Questão 12: FGV / PC-AM - Perito Legista.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-019 — Questão 12: FGV / PC-AM - Perito Legista.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Definição de verbete em que o termo geral inicial (hiperônimo) foi bem selecionado:",
+                "A) caderno = utensílio escolar (Inadequado: material).",
+                "B) jogador = personagem do futebol (CORRETO: personagem = figura atuante). (Gabarito: B).",
+                "C) martelo = objeto (Inadequado: ferramenta).",
+                "D) cachorro = réptil (Inadequado: mamífero).",
+                "E) grafiteiro = escultor (Inadequado: artista visual).",
+                "Gabarito: B (KB-A12-G03-009)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-020",
+          "title": "EX-A12-G03-020 — Questão 14: FGV / SME-SP - Professor",
+          "prompt": "Enunciado: Identificação correta da estratégia para evitar repetição lexical:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Identificação correta da estratégia para evitar repetição lexical:"
+            },
+            {
+              "order": 2,
+              "action": "A) alunos $\\rightarrow$ essas crianças",
+              "rationale": "Associação por campo semântico."
+            },
+            {
+              "order": 3,
+              "action": "B) discos $\\rightarrow$ aqueles",
+              "rationale": "Pronominalização (não qualificação)."
+            },
+            {
+              "order": 4,
+              "action": "C) buquê de rosas $\\rightarrow$ essas flores",
+              "rationale": "Substituição por hiperônimo. (Gabarito: C)."
+            },
+            {
+              "order": 5,
+              "action": "D) jogadores inveterados $\\rightarrow$ alcoólatras/toxicômanos",
+              "rationale": "Campo semântico."
+            }
+          ],
+          "result": "Gabarito: C (KB-A12-G03-007, KB-A12-G03-008).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-020 — Questão 14: FGV / SME-SP - Professor sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-020 — Questão 14: FGV / SME-SP - Professor.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-020 — Questão 14: FGV / SME-SP - Professor.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Identificação correta da estratégia para evitar repetição lexical:",
+                "A) alunos $\\rightarrow$ essas crianças: Associação por campo semântico.",
+                "B) discos $\\rightarrow$ aqueles: Pronominalização (não qualificação).",
+                "C) buquê de rosas $\\rightarrow$ essas flores: Substituição por hiperônimo. (Gabarito: C).",
+                "D) jogadores inveterados $\\rightarrow$ alcoólatras/toxicômanos: Campo semântico.",
+                "E) emigrantes e imigrantes: Coordenação aditiva de parônimos em oposição.",
+                "Gabarito: C (KB-A12-G03-007, KB-A12-G03-008)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-021",
+          "title": "EX-A12-G03-021 — Questão 01: IBADE / Pref. de Aracruz - ES",
+          "prompt": "Enunciado: As palavras (FLAMENGO - CLUBE) nessa ordem estabelecem relação de:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "As palavras (FLAMENGO - CLUBE) nessa ordem estabelecem relação de:"
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Flamengo (1º termo) é espécie; clube (2º termo) é gênero. Olhando para o primeiro $\\rightarrow$ Hiponímia."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "A (KB-A12-G03-010)."
+            }
+          ],
+          "result": "Gabarito: A (KB-A12-G03-010).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-021 — Questão 01: IBADE / Pref. de Aracruz - ES sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-021 — Questão 01: IBADE / Pref. de Aracruz - ES.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-021 — Questão 01: IBADE / Pref. de Aracruz - ES.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: As palavras (FLAMENGO - CLUBE) nessa ordem estabelecem relação de:",
+                "Resolução: Flamengo (1º termo) é espécie; clube (2º termo) é gênero. Olhando para o primeiro $\\rightarrow$ Hiponímia.",
+                "Gabarito: A (KB-A12-G03-010)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-022",
+          "title": "EX-A12-G03-022 — Questão 05: CEBRASPE / PRF - Policial Rodoviário Federal",
+          "prompt": "Item: Em \"é um conforto admirável\", observa-se coesão lexical por hiperonímia, ou seja, o substantivo \"conforto\" abrange o sentido do adjetivo \"admirável\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item",
+              "rationale": "Em \"é um conforto admirável\", observa-se coesão lexical por hiperonímia, ou seja, o substantivo \"conforto\" abrange o sentido do adjetivo \"admirável\"."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "Errado"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "Não há substituição/retomada anafórica; trata-se de adjetivação sintagmática qualificadora interna ao sintagma (KB-A12-G03-011)."
+            }
+          ],
+          "result": "Justificativa: Não há substituição/retomada anafórica; trata-se de adjetivação sintagmática qualificadora interna ao sintagma (KB-A12-G03-011).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-022 — Questão 05: CEBRASPE / PRF - Policial Rodoviário Federal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-022 — Questão 05: CEBRASPE / PRF - Policial Rodoviário Federal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-022 — Questão 05: CEBRASPE / PRF - Policial Rodoviário Federal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item: Em \"é um conforto admirável\", observa-se coesão lexical por hiperonímia, ou seja, o substantivo \"conforto\" abrange o sentido do adjetivo \"admirável\".",
+                "Julgamento: Errado",
+                "Justificativa: Não há substituição/retomada anafórica; trata-se de adjetivação sintagmática qualificadora interna ao sintagma (KB-A12-G03-011)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-023",
+          "title": "EX-A12-G03-023 — Questão 06: CEBRASPE / TRF - 1ª Região - Analista Judiciário",
+          "prompt": "Item: Na expressão \"memória periférica da Ceilândia\", o adjetivo \"periférica\" assume a função de hiperônimo de \"Ceilândia\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item",
+              "rationale": "Na expressão \"memória periférica da Ceilândia\", o adjetivo \"periférica\" assume a função de hiperônimo de \"Ceilândia\"."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "Certo"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "Periférica define a categoria espacial ampla da periferia da qual Ceilândia é espécie/exemplar específico (KB-A12-G03-011)."
+            }
+          ],
+          "result": "Justificativa: Periférica define a categoria espacial ampla da periferia da qual Ceilândia é espécie/exemplar específico (KB-A12-G03-011).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-023 — Questão 06: CEBRASPE / TRF - 1ª Região - Analista Judiciário sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-023 — Questão 06: CEBRASPE / TRF - 1ª Região - Analista Judiciário.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-023 — Questão 06: CEBRASPE / TRF - 1ª Região - Analista Judiciário.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item: Na expressão \"memória periférica da Ceilândia\", o adjetivo \"periférica\" assume a função de hiperônimo de \"Ceilândia\".",
+                "Julgamento: Certo",
+                "Justificativa: Periférica define a categoria espacial ampla da periferia da qual Ceilândia é espécie/exemplar específico (KB-A12-G03-011)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-024",
+          "title": "EX-A12-G03-024 — Questão 07: CEBRASPE / TRF - 1ª Região - Analista Judiciário",
+          "prompt": "Item: Os termos \"gaveta de meias\", \"lancheira do filho\" e \"boteco da esquina\" são hipônimos que exemplificam aquilo que o autor denomina de \"detalhe\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item",
+              "rationale": "Os termos \"gaveta de meias\", \"lancheira do filho\" e \"boteco da esquina\" são hipônimos que exemplificam aquilo que o autor denomina de \"detalhe\"."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "Certo"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "Os elementos cotidianos concretos ilustram e particularizam o hiperônimo abstrato detalhe (KB-A12-G03-011)."
+            }
+          ],
+          "result": "Justificativa: Os elementos cotidianos concretos ilustram e particularizam o hiperônimo abstrato detalhe (KB-A12-G03-011).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-024 — Questão 07: CEBRASPE / TRF - 1ª Região - Analista Judiciário sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-024 — Questão 07: CEBRASPE / TRF - 1ª Região - Analista Judiciário.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-024 — Questão 07: CEBRASPE / TRF - 1ª Região - Analista Judiciário.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item: Os termos \"gaveta de meias\", \"lancheira do filho\" e \"boteco da esquina\" são hipônimos que exemplificam aquilo que o autor denomina de \"detalhe\".",
+                "Julgamento: Certo",
+                "Justificativa: Os elementos cotidianos concretos ilustram e particularizam o hiperônimo abstrato detalhe (KB-A12-G03-011)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A12-G03-025",
+          "title": "EX-A12-G03-025 — Questão 08: CEBRASPE / TJ-RJ - Analista Judiciário",
+          "prompt": "Item: O termo \"elementos\" funciona como hiperônimo de \"divulgação científica\", \"informações\" e \"conhecimentos\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item",
+              "rationale": "O termo \"elementos\" funciona como hiperônimo de \"divulgação científica\", \"informações\" e \"conhecimentos\"."
+            },
+            {
+              "order": 2,
+              "action": "Julgamento",
+              "rationale": "Certo"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa",
+              "rationale": "Elementos opera como hiperônimo sintetizador e englobador dos hipônimos coordenados antecedentes (KB-A12-G03-011)."
+            }
+          ],
+          "result": "Justificativa: Elementos opera como hiperônimo sintetizador e englobador dos hipônimos coordenados antecedentes (KB-A12-G03-011).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A12-G03-025 — Questão 08: CEBRASPE / TJ-RJ - Analista Judiciário sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A12-G03-025 — Questão 08: CEBRASPE / TJ-RJ - Analista Judiciário.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A12-G03-025 — Questão 08: CEBRASPE / TJ-RJ - Analista Judiciário.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item: O termo \"elementos\" funciona como hiperônimo de \"divulgação científica\", \"informações\" e \"conhecimentos\".",
+                "Julgamento: Certo",
+                "Justificativa: Elementos opera como hiperônimo sintetizador e englobador dos hipônimos coordenados antecedentes (KB-A12-G03-011)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação: Verificação categórica instantânea de gênero e espécie.",
+            "Regra: Hipônimo = Espécie (específico, pequeno) / Hiperônimo = Gênero (geral, hiper, grande). Aplique: [Palavra A] é um TIPO DE [Palavra B]?. Se sim, $A$ é hipônimo e $B$ é hiperônimo. Se não aceitar a estrutura, descarte hiperonímia imediatamente (007,; 010,; 011, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação: Comandos de prova que exigem relação \"nessa ordem\" ou \"respectivamente\".",
+            "Regra: Fixe os olhos no primeiro termo citado no enunciado/alternativa. Se o primeiro termo for o específico (ex.: Flamengo, dezembro, sala), classifique como Hiponímia. Se o primeiro for o geral (ex.: mamífero, animais, autor), classifique como Hiperonímia (008,; 011, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação: Questões conceituais avançadas de coesão textual.",
+            "Regra: Lembrar que \"especificar é particularizar (sair do geral e ir ao específico)\". Toda vez que um termo específico retoma um termo geral citado antes no texto, ocorre anáfora especificativa / coesão por hiponímia (007, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação: Produção textual para provas discursivas e redações de concurso.",
+            "Regra: Evite o excesso de pronomes (\"ele\", \"ela\", \"isso\"), que empobrece o estilo e gera ambiguidade. Utilize a coesão lexical por hiperonímia (substituir o termo específico por seu gênero superordenado) para demonstrar domínio vocabular e maturidade sintática (011, )."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A12-G03-001",
+          "title": "Confundir Sinonímia Contextual com Hiperonímia/Hiponímia",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Sinonímia Contextual com Hiperonímia/Hiponímia no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Sinonímia Contextual com Hiperonímia/Hiponímia.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Sinonímia Contextual com Hiperonímia/Hiponímia.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Sinonímia Contextual com Hiperonímia/Hiponímia para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Sinonímia Contextual com Hiperonímia/Hiponímia.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Sinonímia Contextual com Hiperonímia/Hiponímia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Classificar termos equivalentes no cotexto (telas/quadros, livro/obra) como hiperônimos/hipônimos.",
+                "Como evitar: Se ambos operam no mesmo patamar referencial sem que um seja \"tipo do outro\", a relação é de sinonímia contextual (007, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-002",
+          "title": "Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Limitar o Sentido de Palavras a Usos Culturais/Festivos (Jantar vs. Ceia).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Supor que ceia é espécie de jantar reservada exclusivamente ao Natal.",
+                "Forma correta: Dicionários formais (Michaelis, Aulete) definem ceia como a última refeição do dia, sendo sinônimo denotativo pleno de jantar (008,; 009, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-003",
+          "title": "A Pegadinha Médica Clássica: Febre Não É Doença",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Pegadinha Médica Clássica: Febre Não É Doença no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Pegadinha Médica Clássica: Febre Não É Doença.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Pegadinha Médica Clássica: Febre Não É Doença.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Pegadinha Médica Clássica: Febre Não É Doença para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Pegadinha Médica Clássica: Febre Não É Doença.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Pegadinha Médica Clássica: Febre Não É Doença.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Considerar o par doença / febre como relação de hiperonímia/hiponímia.",
+                "Forma correta: Febre é sinal clínico/sintoma de uma patologia; a relação é estritamente associativa (mesmo campo semântico) (008, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-004",
+          "title": "Confundir Campo Semântico com Hiponímia/Sinonímia",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Campo Semântico com Hiponímia/Sinonímia no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Campo Semântico com Hiponímia/Sinonímia.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Campo Semântico com Hiponímia/Sinonímia.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Campo Semântico com Hiponímia/Sinonímia para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Campo Semântico com Hiponímia/Sinonímia.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Campo Semântico com Hiponímia/Sinonímia.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Classificar aeroporto/pista, médico/hospital ou alunos/crianças como hipônimos.",
+                "Forma correta: Compartilham o mesmo universo de ideias (anáfora associativa), mas não mantêm relação hierárquica de gênero/espécie (007,; 010, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-005",
+          "title": "Nem Todo Termo Geral Exerce Coesão por Substituição (FGV)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Nem Todo Termo Geral Exerce Coesão por Substituição (FGV) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Nem Todo Termo Geral Exerce Coesão por Substituição (FGV).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Nem Todo Termo Geral Exerce Coesão por Substituição (FGV).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Nem Todo Termo Geral Exerce Coesão por Substituição (FGV) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Nem Todo Termo Geral Exerce Coesão por Substituição (FGV).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Nem Todo Termo Geral Exerce Coesão por Substituição (FGV).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Marcar termos gerais como cidade ou elemento achando que realizam hiperonímia, quando estão em aposto explicativo imediato ou qualificação.",
+                "Forma correta: O hiperônimo deve efetivamente substituir o referente antecedente no fluxo discursivo (009, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-006",
+          "title": "Confundir Coordenação Aditiva com Substituição Coesiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Coordenação Aditiva com Substituição Coesiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Coordenação Aditiva com Substituição Coesiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Coordenação Aditiva com Substituição Coesiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Coordenação Aditiva com Substituição Coesiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Coordenação Aditiva com Substituição Coesiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Coordenação Aditiva com Substituição Coesiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Achar que em \"punir emigrantes e liberar imigrantes\" houve substituição por parônimo.",
+                "Forma correta: Parônimos/antônimos somados por conjunção aditiva coordenam elementos distintos, não havendo substituição anafórica (010, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-007",
+          "title": "A Armadilha do Verbete Convincente na FGV",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha do Verbete Convincente na FGV no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha do Verbete Convincente na FGV.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha do Verbete Convincente na FGV.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha do Verbete Convincente na FGV para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha do Verbete Convincente na FGV.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha do Verbete Convincente na FGV.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Ler a particularização final correta de uma definição e deixar de perceber que o hiperônimo de abertura é ontologicamente falso (cubo = desenho; mesa = imóvel).",
+                "Forma correta: Cheque primeiro a exatidão categorial da primeira palavra após o travessão (011, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-008",
+          "title": "Restringir o Sentido de \"Personagem\" à Ficção",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Restringir o Sentido de \"Personagem\" à Ficção no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Restringir o Sentido de \"Personagem\" à Ficção.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Restringir o Sentido de \"Personagem\" à Ficção.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Restringir o Sentido de \"Personagem\" à Ficção para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Restringir o Sentido de \"Personagem\" à Ficção.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Restringir o Sentido de \"Personagem\" à Ficção.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Rejeitar a definição de que jogador é um personagem do futebol.",
+                "Forma correta: No dicionário, personagem é qualquer indivíduo com papel de destaque em um domínio (010, )."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A12-G03-009",
+          "title": "Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Adjetivação Sintagmática com Coesão Lexical (CEBRASPE).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Aceitar que em \"conforto admirável\" há coesão lexical por hiperonímia.",
+                "Forma correta: Modificador dentro do mesmo sintagma nominal é apenas qualificação adjetiva sintagmática; coesão lexical exige substituição anafórica de termos (011, )."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Classificar termos equivalentes no cotexto (telas/quadros, livro/obra) como hiperônimos/hipônimos.",
+            "Como evitar: Se ambos operam no mesmo patamar referencial sem que um seja \"tipo do outro\", a relação é de sinonímia contextual (007, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Supor que ceia é espécie de jantar reservada exclusivamente ao Natal.",
+            "Forma correta: Dicionários formais (Michaelis, Aulete) definem ceia como a última refeição do dia, sendo sinônimo denotativo pleno de jantar (008,; 009, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Considerar o par doença / febre como relação de hiperonímia/hiponímia.",
+            "Forma correta: Febre é sinal clínico/sintoma de uma patologia; a relação é estritamente associativa (mesmo campo semântico) (008, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Classificar aeroporto/pista, médico/hospital ou alunos/crianças como hipônimos.",
+            "Forma correta: Compartilham o mesmo universo de ideias (anáfora associativa), mas não mantêm relação hierárquica de gênero/espécie (007,; 010, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Marcar termos gerais como cidade ou elemento achando que realizam hiperonímia, quando estão em aposto explicativo imediato ou qualificação.",
+            "Forma correta: O hiperônimo deve efetivamente substituir o referente antecedente no fluxo discursivo (009, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Achar que em \"punir emigrantes e liberar imigrantes\" houve substituição por parônimo.",
+            "Forma correta: Parônimos/antônimos somados por conjunção aditiva coordenam elementos distintos, não havendo substituição anafórica (010, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Ler a particularização final correta de uma definição e deixar de perceber que o hiperônimo de abertura é ontologicamente falso (cubo = desenho; mesa = imóvel).",
+            "Forma correta: Cheque primeiro a exatidão categorial da primeira palavra após o travessão (011, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Rejeitar a definição de que jogador é um personagem do futebol.",
+            "Forma correta: No dicionário, personagem é qualquer indivíduo com papel de destaque em um domínio (010, )."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Aceitar que em \"conforto admirável\" há coesão lexical por hiperonímia.",
+            "Forma correta: Modificador dentro do mesmo sintagma nominal é apenas qualificação adjetiva sintagmática; coesão lexical exige substituição anafórica de termos (011, )."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vocábulo superordenado de sentido genérico, abrangente e inclusivo que representa uma classe ou gênero de maior extensão conceitual (ex.: animal, veículo, alimento, profissional, material, cômodo, autor, elementos)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vocábulo subordenado de sentido restrito, particular e específico que representa uma espécie, membro ou exemplar de menor extensão e maior intensão contido no hiperônimo; responde afirmativamente ao teste do \"tipo de\" (ex.: pássaro, carro, gelatina, bailarino, caneta, sala, Shakespeare)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Relação semântica de equivalência ou identidade de sentido entre vocábulos que operam no mesmo nível hierárquico dentro de determinado contexto, sem subordinação categorial de classe (ex.: telas / quadros, jantar / ceia, morrer / falecer)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mecanismo de coesão textual em que dois vocábulos conectam-se por pertencerem ao mesmo domínio temático de conhecimento ou universo de ideias, sem estabelecerem relação de sinonímia ou de gênero/espécie (ex.: pista / aeroporto, doença / febre, piloto / comissário, visitação / parentes)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recurso de coesão textual anafórica pelo qual um vocábulo sintético (substantivo hiperonímico rotulador ou pronome \"tudo\") resume e condensa uma série enumerativa antecedente (ex.: tudo para \"banana, pera, uva\"; material para \"caneta, prancheta, bloco\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Categoria geral imediata utilizada na técnica de redação de verbetes de dicionário para enquadrar ontologicamente a palavra definida antes da apresentação de suas diferenças específicas (ex.: bailarino — profissional...)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estratégia coesiva de substituição em que um termo nominal é retomado por um pronome gramatical (ex.: discos $\\rightarrow$ aqueles), distinguindo-se de qualificação adjetiva ou coesão lexical substantiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modificação qualificadora direta exercida por um adjetivo sobre um substantivo adjacente no mesmo sintagma nominal (\"conforto admirável\"), não constituindo mecanismo de coesão lexical anafórica."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo integrado deste grupo temático, o estudante deve ter desenvolvido as seguintes competências conceituais e procedimentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Dominar a Análise Integrada: Compreender que Morfologia, Semântica e Sintaxe coexistem e se acumulam nas questões modernas de concurso.",
+            "Aplicar com Rigor o Teste do \"Tipo de\": Identificar hiperônimos (classes/gêneros superordenados) e hipônimos (espécies/membros subordenados), reconhecendo que a relação é relativa e assimétrica.",
+            "Traçar Fronteiras Semânticas Invioláveis:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Não confundir sinonímia contextual (mesmo patamar de sentido, sem \"tipo de\") com hiperonímia.",
+            "Não confundir campo semântico / anáfora associativa (mesmo universo de ideias, ex.: febre/doença, pista/aeroporto) com hiperonímia."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Dominar a Coesão Lexical Anafórica:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reconhecer a retomada por hiperônimo ($HIPO \\longrightarrow HIPER$).",
+            "Reconhecer a anáfora especificativa ($HIPER \\longrightarrow HIPO$).",
+            "Identificar a sumarização como encapsulamento de listas prévias."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Decodificar Pegadinhas Específicas de Bancas:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "FGV: Exigir substituição anafórica real (descartando termos gerais em aposto explicativo imediato); avaliar verbetes de dicionário pela precisão ontológica do hiperônimo de abertura; aplicar a equação lógica de distratores ($A=B$, $D=E$).",
+            "CEBRASPE: Não aceitar adjetivação sintagmática interna (\"conforto admirável\") como coesão lexical por hiperonímia; validar adjetivos categoriais (periférica) e termos abstratos (detalhe, elementos) como hiperônimos englobadores.",
+            "VUNESP / Cesgranrio / FCC / IBADE: Controlar estritamente a direcionalidade do comando (\"olhe sempre para o primeiro termo\")."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula12.q0020",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "A cultura é algo que está no corpo, nos gestos, na memória, na forma de andar, no contorno das\nexpressões verbais e não verbais.\nO primeiro período do quarto parágrafo é construído com sentido conotativo.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "“cultura” é algo abstrato, é uma construção social. Naturalmente, em sentido literal, não pode\n“estar no corpo”. Isso é expressão metafórica para indicar que nossas ações refletem nossa\ncultura internalizada. Gabarito: Correto.",
+      "questionSha256": "f69aa4b4e5968fc99219ed699d6f882d46bc2c2aad94878353dccb6c3ad31bf3",
+      "answerSha256": "bfb80a76ddef23adaa9a40bc30daab683f3af62c2caeb7584fd5740f2086007a",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "correct",
+        "acceptedPedagogicalAnswers": [
+          "correct"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A12-G03-CONFLICT-001-89",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0090",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "A cultura é algo que está no corpo, nos gestos, na memória, na forma de andar, no contorno das\nexpressões verbais e não verbais.\nO primeiro período do quarto parágrafo é construído com sentido conotativo.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "f30b813c3f8caa4c0afecb925c94851223940903ec9467e582b3366929f8e7e9",
+      "answerSha256": "4fbf9f41bacb5353fb32884befc71afe4067616b16734cfedae3d08ec687f721",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0082",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. JOINVILLE",
+      "year": 2024,
+      "role": "Professor",
+      "prompt": "No texto 10A2-II, o emprego do verbo vencer, com sentidos diferentes, é um caso de",
+      "options": [
+        {
+          "label": "A",
+          "text": "polissemia."
+        },
+        {
+          "label": "B",
+          "text": "sinonímia."
+        },
+        {
+          "label": "C",
+          "text": "homonímia."
+        },
+        {
+          "label": "D",
+          "text": "antonímia."
+        },
+        {
+          "label": "E",
+          "text": "paronímia."
+        }
+      ],
+      "officialAnswer": "A",
+      "explanation": "A polissemia é a propriedade de a expressão apresentar vários sentidos.\nO cartão venceu= a fatura chegou, o prazo para pagamento expirou.\nO cartão me venceu= o cartão me derrotou.\n Gabarito letra A.",
+      "questionSha256": "1409426e50c1f6e0fd32832062fe27745a3dae8d00a8e9acf791744024e70903",
+      "answerSha256": "ba359eac2c3360c193ee3bce56baf7470d90337f8f520cb1aab8a56c3e957cd8",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "A",
+        "acceptedPedagogicalAnswers": [
+          "A"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A12-G03-CONFLICT-001-89",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "correct",
+          "explanation": "Opção A: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        }
+      ]
+    },
+    {
+      "questionId": "aula12.q0079",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "TRF-6a REGIÃO",
+      "year": 2025,
+      "prompt": "Julgue os itens que se seguem, relativos ao vocabulário e à estrutura linguística do texto.\nOs dois últimos períodos do texto retomam, por coesão lexical, o período inicial do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "Aqui, a banca resgata um conceito técnico: “coesão lexical”. Então, vale a pena uma revisão:\nA coesão lexical é um dos mecanismos de coesão textual e diz respeito à forma como as palavras\ne expressões são usadas para garantir a continuidade e a clareza do texto. Ela ocorre por meio da\nrepetição de termos, do uso de sinônimos, hiperônimos, hipônimos, antônimos e outros recursos\nque evitam ambiguidades e mantêm a progressão temática do texto.\nPrincipais mecanismos da coesão lexical:\nRepetição (Recorrência) – Reutilização de palavras para reforçar ideias e manter o fio condutor do\ntexto.\nExemplo: O professor explicou o conteúdo. O professor também tirou as dúvidas dos alunos.\nSinonímia – Substituição de palavras por sinônimos para evitar repetições excessivas.\nExemplo: O advogado apresentou seus argumentos. O jurista demonstrou grande conhecimento\njurídico.\nHiperonímia e Hiponímia – Uso de termos mais genéricos (hiperônimos) ou mais específicos\n(hipônimos).\nExemplo: A orquídea foi bem cuidada. A flor floresceu no outono.\n(Flor = hiperônimo de orquídea.)\nAntonímia – Uso de antônimos para reforçar contrastes no texto.\nExemplo: O problema não foi simples, mas extremamente complexo.\nParáfrase – Expressar a mesma ideia com palavras diferentes.\nExemplo: A educação de qualidade é essencial. Uma boa formação acadêmica contribui para o\nfuturo dos alunos.\nVoltando à questão, temos coesão lexical por repetição/reiteração. O autor repete as ideias\niniciais.\nTudo está interconectado. Na Amazônia [...]\nTudo está conectado. Para toda ação há uma reação.\nGabarito: Correto.",
+      "questionSha256": "aafac00a8fd3beb5308217100d8e298d779cafa459a869007c74fc965ee7c15b",
+      "answerSha256": "e823e264187de903459e9502009f1850fa04445e6849863da7367fe4549ec820",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "correct",
+        "acceptedPedagogicalAnswers": [
+          "correct"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A12-G03-CONFLICT-001-89",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0149",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "TRF-6a REGIÃO",
+      "year": 2025,
+      "prompt": "Julgue os itens que se seguem, relativos ao vocabulário e à estrutura linguística do texto.\nOs dois últimos períodos do texto retomam, por coesão lexical, o período inicial do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "715057717b4eba8d059a53ae387793cdf949368cfb7cfaa6230864ced056d1a2",
+      "answerSha256": "5c8d9ce99f03c7065e14e84b3286ef40191a2bc76eab16770f73585ae95dddb9",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula12.q0152",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. JOINVILLE",
+      "year": 2024,
+      "role": "Professor",
+      "prompt": "No texto 10A2-II, o emprego do verbo vencer, com sentidos diferentes, é um caso de",
+      "options": [
+        {
+          "label": "A",
+          "text": "polissemia."
+        },
+        {
+          "label": "B",
+          "text": "sinonímia."
+        },
+        {
+          "label": "C",
+          "text": "homonímia."
+        },
+        {
+          "label": "D",
+          "text": "antonímia."
+        },
+        {
+          "label": "E",
+          "text": "paronímia."
+        }
+      ],
+      "officialAnswer": "A",
+      "questionSha256": "e3ec948c14478273f3b719f1862c653042a24789487a74e40d82174c88390d2f",
+      "answerSha256": "d363e54494454d5704ce19f9c87d44310ffac31b245b0a9b665c5b1d783144c0",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Hiperonímia e Hiponímia; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "A",
+          "status": "correct",
+          "explanation": "Opção A: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "B",
+          "status": "incorrect",
+          "explanation": "Opção B: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "C",
+          "status": "incorrect",
+          "explanation": "Opção C: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "D",
+          "status": "incorrect",
+          "explanation": "Opção D: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        },
+        {
+          "optionLabel": "E",
+          "status": "incorrect",
+          "explanation": "Opção E: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Hiperonímia e Hiponímia."
+        }
+      ]
+    }
+  ]
+}

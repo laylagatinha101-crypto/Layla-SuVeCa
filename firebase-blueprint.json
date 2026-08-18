@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "users": {
+      "title": "User",
+      "description": "User profile data",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "caderno_erros": {
+      "title": "Caderno de Erros",
+      "description": "Error items registered by user",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "conteudo": { "type": "string" },
+        "erroCometido": { "type": "string" },
+        "regraDecisiva": { "type": "string" },
+        "novoExemplo": { "type": "string" },
+        "status": { "type": "string" },
+        "date": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "conteudo", "erroCometido", "regraDecisiva", "status"]
+    },
+    "study_checklist": {
+      "title": "Study Checklist Progress",
+      "description": "Topic statuses in the study planner",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "topicId": { "type": "string" },
+        "status": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "topicId", "status"]
+    },
+    "study_preferences": {
+      "title": "Study Preferences & FCM Reminders",
+      "description": "User preferences for daily study reminders and FCM push notifications",
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "reminderTime": { "type": "string" },
+        "secondaryReminderEnabled": { "type": "boolean" },
+        "secondaryReminderTime": { "type": "string" },
+        "daysOfWeek": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "topics": {
+          "type": "object",
+          "properties": {
+            "cadernoErros": { "type": "boolean" },
+            "dicasGramatica": { "type": "boolean" },
+            "simuladoMetas": { "type": "boolean" },
+            "dueloDesafios": { "type": "boolean" }
+          }
+        },
+        "emailBackupEnabled": { "type": "boolean" },
+        "soundEnabled": { "type": "boolean" },
+        "timeZone": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["enabled", "reminderTime"]
+    }
+  }
+}

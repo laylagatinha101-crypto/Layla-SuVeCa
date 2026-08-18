@@ -1,0 +1,1573 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A09-G05",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.081Z"
+  },
+  "unit": {
+    "unitId": "IP-A09-G05",
+    "lessonId": "A09",
+    "groupId": "G05",
+    "title": "Concordância Nominal - Parte 01",
+    "variant": "development",
+    "canonicalTopicId": "pt:a09:concordancia-nominal",
+    "learningObjectives": [
+      "OBJ-IP-A09-G05-001",
+      "OBJ-IP-A09-G05-002",
+      "OBJ-IP-A09-G05-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Na concordância nominal, conecte determinantes e qualificadores aos núcleos que controlam gênero e número, distinguindo adjunto e predicativo.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Classes Gramaticais: Diferenciação entre substantivo (núcleo) e classes determinantes (artigo, adjetivo, pronome adjetivo, numeral adjetivo).",
+            "Funções Sintáticas Básicas: Noção de adjunto adnominal, predicativo e sujeito composto.",
+            "Morfologia Flexional: Reconhecimento de desinências de gênero (masculino/feminino) e número (singular/plural)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "CONCORDÂNCIA NOMINAL: ADJUNTO ADNOMINAL E MÚLTIPLOS SUBSTANTIVOS │ ├── 1. Princípio Morfossintático Base │ ├── Determinado: Substantivo (núcleo que rege a concordância) │ └── Determinantes: Adjetivo, artigo, pronome adj., numeral adj. (orbitam o núcleo) │ ├── 2. Adjetivo Posposto (Substantivo 1 + Substantivo 2 + Adjetivo) │ ├── Concordância Total / Lógica: │ │ ├── Mesmo gênero (F + F) → Feminino Plural (\"faca e navalha afiadas\") │ │ ├── Mesmo gênero (M + M) → Masculino Plural (\"amor e agradecimento eternos\") │ │ └── Gêneros mistos (M + F / F + M) → Masculino Plural (\"cabelos e barba brancos\") │ ├── Concordância Atrativa / Gramatical: │ │ └── Flexiona em gênero e número estritamente com o mais próximo (\"cabelos e barba branca\") │ ├── Extensão Semântica: │ │ └── Regra Geral: Ambas as formas qualificam a totalidade dos substantivos │ └── Restrição Lógica / Semântica Exclusiva (Padrão FGV): │ └── Coerência contextual restringe o adjetivo a apenas um substantivo (\"preço baixo\", \"pão torrado\") │ ├── 3. Adjetivo Anteposto (Adjetivo + Substantivo 1 + Substantivo 2) │ └── Regra Estrita: APENAS Concordância Atrativa │ ├── Concorda unicamente com o primeiro substantivo (\"desconhecido clima e terra\") │ └── PROIBIDA a concordância total no plural (\"desconhecidos clima e terra\" = ERRO) │ ├── 4. Métodos Operacionais de Análise │ ├── \"Farejador de Núcleos\": Eliminar adjuntos preposicionados intermediários (\"de\", \"da\", \"dos\") │ └── \"Técnica das Setas\": Mapear a quais núcleos o adjetivo se refere semântica e sintaticamente │ └── 5. Nuances de Prova e Reescrita ├── Inversão de termos mantendo o adjetivo posposto → preserva sentido geral ├── Deslocamento do adjetivo para o meio dos substantivos → restringe sentido ao primeiro núcleo └── \"Relação de concordância\" (FGV) → exige apontar todos os substantivos modificados no texto"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A09-G05-001",
+          "title": "Mapa de conexão — Concordância Nominal - Parte 01",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a09:concordancia-nominal",
+              "label": "Concordância Nominal - Parte 01",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a09:concordancia-nominal",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A concordância nominal é o mecanismo morfossintático pelo qual as palavras determinantes (artigo, adjetivo, pronome adjetivo e numeral adjetivo) adaptam suas desinências de gênero (masculino/feminino) e número (singular/plural) para harmonizar-se com o termo determinado (substantivo ou vocábulo substantivado)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na arquitetura do sintagma nominal:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O substantivo opera como núcleo comandante e centro sintático.",
+            "Os determinantes gravitam em torno desse núcleo, sendo obrigados a refletir suas propriedades morfológicas.",
+            "Quando múltiplos substantivos coordenados dividem um único adjetivo na função de adjunto adnominal, a posição sintática relativa do adjetivo (anteposto ou posposto) determina o regime de flexão admitido pela norma culta."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: KB-A09-G05-002, KB-A09-G05-005, KB-A09-G05-006",
+            "Glossário: TERM-A09-G05-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o adjetivo funciona como adjunto adnominal e posiciona-se posposto (depois de) a dois ou mais substantivos, a norma gramatical faculta duas modalidades de flexão: a Concordância Total (lógica/gramatical) e a Concordância Atrativa (por proximidade)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Substantivos de mesmo gênero:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Concordância Total: O adjetivo assume a forma plural do gênero compartilhado pelos substantivos ($F + F \\rightarrow F.\\text{pl.}$; $M + M \\rightarrow M.\\text{pl.}$).",
+            "Concordância Atrativa: O adjetivo flexiona-se no gênero e número estritamente correspondentes ao substantivo mais próximo (o último da série)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Substantivos de gêneros diferentes ($M + F$ ou $F + M$):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Concordância Total: O adjetivo flexiona-se no masculino plural (princípio normativo da prevalência do gênero masculino).",
+            "Concordância Atrativa: O adjetivo concorda em gênero e número unicamente com o substantivo imediatamente vizinho."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura sintática: $\\text{Substantivo}1 + \\text{Substantivo}2 + \\dots + \\text{Adjetivo}$.",
+            "Na concordância total com gêneros mistos, a forma feminina plural é proibida (ex.: sala e quarto espaçosas = Incorreto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A09-G05-001",
+            "Contrasta com: KB-A09-G05-005",
+            "Exemplificado por: EX-A09-G05-001, EX-A09-G05-002, EX-A09-G05-005, EX-A09-G05-007",
+            "Dicas associadas: TIP-A09-G05-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A alternância entre a concordância total e a concordância atrativa de um adjetivo posposto a múltiplos substantivos não provoca alteração de sentido; em ambas as construções, a extensão semântica do modificador qualifica a totalidade dos substantivos antecedentes."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em itens de julgamento (frequentes em bancas como Cebraspe, FGV e FCC), afirma-se comumente que a substituição de \"cabelos e barba brancos\" por \"cabelos e barba branca\" restringiria a cor branca apenas à barba. Isso é uma falácia de prova.",
+            "Sintaticamente e semanticamente, a flexão atrativa é apenas uma concordância formal por contiguidade física; o escopo semântico do adjetivo permanece pleno sobre toda a enumeração.",
+            "Para haver restrição semântica deliberada a apenas um dos elementos, a ordem sintática precisaria isolar o modificador (ex.: antepondo-o diretamente ao substantivo pretendido: \"cabelos e branca barba\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A09-G05-001",
+            "Exemplificado por: EX-A09-G05-001, EX-A09-G05-006",
+            "Glossário: TERM-A09-G05-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A faculdade da dupla concordância (total ou atrativa) é anulada quando a coerência lógica e o contexto semântico impedem que o adjetivo seja atribuído a todos os substantivos da série, tornando obrigatória a concordância exclusiva com o substantivo ao qual se refere pragmaticamente."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em provas elaboradas pela FGV, pune-se a aplicação puramente mecânica das regras gramaticais.",
+            "No enunciado publicitário \"Supermercado X: qualidade e preço baixo\", um estabelecimento não apregoa \"baixa qualidade\"; logo, o adjetivo baixo restringe-se exclusivamente a preço. A flexão no plural baixos é semanticamente incorreta.",
+            "Analogamente, em \"café da manhã com leite e pão torrado\", apenas o pão pode ser torrado; flexionar no plural (\"leite e pão torrados\") geraria a anomalia semântica de \"leite torrado\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Analisar a plausibilidade semântica de associar o adjetivo a cada um dos substantivos isoladamente.",
+            "Se a qualificação for absurda ou contrária ao propósito do texto para um dos núcleos, proíbe-se a concordância total e flexiona-se o adjetivo unicamente de acordo com o substantivo compatível."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A09-G05-002",
+            "Possui alerta: WARN-A09-G05-003",
+            "Exemplificado por: EX-A09-G05-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o adjetivo na função de adjunto adnominal está posicionado anteposto (antes de) a dois ou mais substantivos, a concordância é obrigatoriamente atrativa, harmonizando-se em gênero e número estritamente com o primeiro substantivo da série."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diferentemente do adjetivo posposto, o adjetivo anteposto não admite concordância total na norma culta padrão.",
+            "O adjetivo anteposto \"não soma\": ele ignora os núcleos subsequentes e adapta-se formalmente apenas ao substantivo que lhe é adjacente imediato.",
+            "Estruturas no plural genérico anteposto a substantivo singular (ex.: \\*Desconhecidos clima e terra, \\*Espaçosos sala e quarto, \\*Contaminados mães e pais) constituem erro gramatical absoluto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A09-G05-002",
+            "Possui alerta: WARN-A09-G05-002",
+            "Exemplificado por: EX-A09-G05-004, EX-A09-G05-005, EX-A09-G05-008",
+            "Dicas associadas: TIP-A09-G05-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A concordância do adjetivo, particípio ou predicativo deve ser estabelecida sempre com o núcleo substantivo sem preposição, devendo o candidato isolar e neutralizar os adjuntos preposicionados e complementos intermediários."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em questões com períodos extensos (padrão Cesgranrio, FCC e Cebraspe), intercalam-se modificadores preposicionados no plural entre o núcleo singular e o termo concordante.",
+            "Na oração \"Fotografia dos alunos velha\", o adjetivo velha concorda com o núcleo feminino singular fotografia, e não com o adjunto plural preposicionado dos alunos.",
+            "Na oração \"A destruição de biomas e a redução da biodiversidade aceleradas\", os núcleos são destruição ($F$) e redução ($F$). Os termos preposicionados de biomas ($M.\\text{pl.}$) e da biodiversidade ($F.\\text{s.}$) não exercem atração sobre o adjetivo posposto, que deve flexionar-se no feminino plural (aceleradas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G05-001",
+            "Procedimento operacional: PROC-A09-G05-002",
+            "Exemplificado por: EX-A09-G05-007",
+            "Dicas associadas: TIP-A09-G05-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A banca Fundação Getulio Vargas (FGV) emprega o termo \"relação de concordância\" para testar se a alternativa apresentada identifica o conjunto completo de substantivos que recebem a qualificação sintático-semântica de um determinado adjetivo no texto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em itens textuais da FGV, o examinador não indaga apenas se uma desinência está correta, mas avalia o alcance das dependências sintáticas (as \"setas\").",
+            "No trecho \"porque as novas condições de vida em clima e terras diferentes...\", o adjetivo diferentes está no plural porque qualifica conjuntamente clima e terras (concordância total). Se uma alternativa mapeia a relação apenas como terras / diferentes, a relação indicada é falsa/incompleta por omissão de referente.",
+            "Por outro lado, em \"...característica ou estilo barroco\", o adjetivo barroco qualifica ambos os núcleos (característica e estilo), mesmo estando no masculino singular por concordância atrativa. A indicação barroco / característica ou estilo é correta."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G05-002, KB-A09-G05-003",
+            "Procedimento operacional: PROC-A09-G05-003",
+            "Exemplificado por: EX-A09-G05-009",
+            "Dicas associadas: TIP-A09-G05-004"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A09-G05-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G05-001",
+              "table": {
+                "tableId": "TABLE-IP-A09-G05-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "ID Canônico",
+                  "Conceito / Regra",
+                  "Formulação Canônica",
+                  "Restrições e Limites"
+                ],
+                "rows": [
+                  [
+                    "KB-A09-G05-001",
+                    "Princípio Fundamental",
+                    "Determinantes (artigo, adjetivo, pronome adj., numeral adj.) flexionam-se para harmonizar em gênero e número com o substantivo determinado.",
+                    "O substantivo atua como núcleo incondicional do sintagma nominal."
+                  ],
+                  [
+                    "KB-A09-G05-002",
+                    "Adjunto Posposto a Múltiplos Núcleos",
+                    "AdmiteConcordância Total (plural do gênero comum ou masculino plural para gêneros mistos) ou Concordância Atrativa (gênero e número do núcleo mais próximo).",
+                    "Na concordância total com gêneros diferentes ($M+F$), é proibida a flexão feminina plural."
+                  ],
+                  [
+                    "KB-A09-G05-003",
+                    "Extensão Semântica Posposta",
+                    "A alternância entre concordância total e atrativa com adjetivo pospostonão altera o sentido original da frase.",
+                    "Ambas as formas qualificam a totalidade dos substantivos antecedentes."
+                  ],
+                  [
+                    "KB-A09-G05-004",
+                    "Referenciação Semântica Exclusiva (FGV)",
+                    "Se o adjetivo for logicamente incompatível com um dos núcleos, a concordância total é proibida; concorda-se apenas com o núcleo compatível.",
+                    "Aplica-se a contextos pragmáticos claros (preço baixo, pão torrado)."
+                  ],
+                  [
+                    "KB-A09-G05-005",
+                    "Adjunto Anteposto a Múltiplos Núcleos",
+                    "Admiteobrigatoriamente apenas a Concordância Atrativa, flexionando com o primeiro substantivo imediatamente posterior.",
+                    "É proibida a concordância total no plural para adjetivo anteposto."
+                  ],
+                  [
+                    "KB-A09-G05-006",
+                    "Farejador de Núcleos",
+                    "A flexão do adjetivo/particípio rege-se pelo substantivo-núcleo sem preposição, descartando modificadores preposicionados intercalados.",
+                    "Impede atrações morfológicas indevidas por adjuntos plurais internos."
+                  ],
+                  [
+                    "KB-A09-G05-007",
+                    "Relação de Concordância (FGV)",
+                    "Mapeamento do conjunto integral de substantivos aos quais o modificador atribui estado ou atributo no texto.",
+                    "A alternativa que omite um dos núcleos qualificados comete erro conceitual."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A09-G05-001",
+          "title": "Algoritmo Decisório de Concordância de Adjunto Adnominal",
+          "objective": "Executar o algoritmo decisório para Algoritmo Decisório de Concordância de Adjunto Adnominal",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Algoritmo Decisório de Concordância de Adjunto Adnominal."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "[Início: Analisar a sentença proposta] │ ├── 1",
+              "explanation": "Procedimento operacional para Algoritmo Decisório de Concordância de Adjunto Adnominal.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Identificar a Posição Sintática do Adjetivo: │ │ │ ├── SE ANTEPOSTO: │ │ └── Aplicar OBRIGATORIAMENTE a CONCORDÂNCIA ATRATIVA: │ │ - Identificar o gênero e o número do 1º substantivo (o mais próximo)",
+              "explanation": "Procedimento operacional para Algoritmo Decisório de Concordância de Adjunto Adnominal.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "│ │ - Flexionar o adjetivo em estrita concordância com ele",
+              "explanation": "Procedimento operacional para Algoritmo Decisório de Concordância de Adjunto Adnominal.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "│ │ - ELIMINAR qualquer alternativa com plural total na anteposição",
+              "explanation": "Procedimento operacional para Algoritmo Decisório de Concordância de Adjunto Adnominal.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Algoritmo Decisório de Concordância de Adjunto Adnominal."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "[Início: Analisar a sentença proposta] │ ├── 1. Identificar a Posição Sintática do Adjetivo: │ │ │ ├── SE ANTEPOSTO: │ │ └── Aplicar OBRIGATORIAMENTE a CONCORDÂNCIA ATRATIVA: │ │ - Identificar o gênero e o número do 1º substantivo (o mais próximo). │ │ - Flexionar o adjetivo em estrita concordância com ele. │ │ - ELIMINAR qualquer alternativa com plural total na anteposição. │ │ │ └── SE POSPOSTO: │ └── Passo 2: Testar a Coerência Semântica Contextual: │ │ │ ├── O adjetivo cabe logicamente a APENAS UM substantivo? │ │ │ │ │ ├── SIM (Restrição Semântica / Ex.: preço baixo, pão torrado): │ │ │ └── Concordar EXCLUSIVAMENTE com o substantivo pertinente. │ │ │ │ │ └── NÃO (Qualificação Geral / Ex.: cabelos e barba, sala e quarto): │ │ └── Aplicar a DUPLA POSSIBILIDADE: │ │ ├── Opção 1 (Concordância Total): │ │ │ - Mesmo gênero → Plural desse gênero. │ │ │ - Gêneros diferentes → Masculino Plural. │ │ └── Opção 2 (Concordância Atrativa): │ │ - Concordar com o substantivo imediatamente adjacente. │ └── [Fim do procedimento]"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G05-002",
+          "title": "Método do \"Farejador de Núcleos\" em Sintagmas Complexos",
+          "objective": "Executar o algoritmo decisório para Método do \"Farejador de Núcleos\" em Sintagmas Complexos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método do \"Farejador de Núcleos\" em Sintagmas Complexos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar o termo modificador (adjetivo, particípio de voz passiva ou predicativo) na oração.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Isolar os termos preposicionados",
+              "explanation": "Eliminar mentalmente expressões iniciadas por preposição (de, da, do, dos, das, em, sobre).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Identificar o(s) núcleo(s) substantivo(s) sem preposição que encabeçam a estrutura sintática.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Catalogar o gênero e número de cada núcleo localizado ($F$ ou $M$; singular ou plural).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Calcular a flexão exigida",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se os núcleos forem $F + F \\rightarrow$ flexionar no Feminino Plural.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Se os núcleos forem $M + M \\rightarrow$ flexionar no Masculino Plural.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Se os núcleos forem de gêneros mistos ($M + F$) $\\rightarrow$ flexionar no Masculino Plural (ou no gênero do mais próximo, caso admitida a atração).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método do \"Farejador de Núcleos\" em Sintagmas Complexos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localizar o termo modificador (adjetivo, particípio de voz passiva ou predicativo) na oração.",
+                "Isolar os termos preposicionados: Eliminar mentalmente expressões iniciadas por preposição (de, da, do, dos, das, em, sobre).",
+                "Identificar o(s) núcleo(s) substantivo(s) sem preposição que encabeçam a estrutura sintática.",
+                "Catalogar o gênero e número de cada núcleo localizado ($F$ ou $M$; singular ou plural).",
+                "Calcular a flexão exigida:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se os núcleos forem $F + F \\rightarrow$ flexionar no Feminino Plural.",
+                "Se os núcleos forem $M + M \\rightarrow$ flexionar no Masculino Plural.",
+                "Se os núcleos forem de gêneros mistos ($M + F$) $\\rightarrow$ flexionar no Masculino Plural (ou no gênero do mais próximo, caso admitida a atração)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G05-003",
+          "title": "Técnica das Setas para Decodificação da \"Relação de Concordância\" (FGV)",
+          "objective": "Executar o algoritmo decisório para Técnica das Setas para Decodificação da \"Relação de Concordância\" (FGV)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Técnica das Setas para Decodificação da \"Relação de Concordância\" (FGV)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Ler o segmento no texto original, localizando o adjetivo em exame.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Substituir o comando \"relação de concordância\" pela pergunta operacional",
+              "explanation": "\"A quais palavras este adjetivo atribui qualidade ou estado?\"",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Desenhar as setas sintático-semânticas",
+              "explanation": "Traçar as linhas de dependência a partir do adjetivo para todos os substantivos por ele afetados.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Confrontar com as alternativas",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se o adjetivo qualificar dois substantivos e a alternativa citar apenas um, a alternativa é incorreta (relação mutilada/falsa).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se o adjetivo qualificar dois substantivos e a alternativa listar ambos (mesmo com concordância formal atrativa singular), a relação é correta.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Técnica das Setas para Decodificação da \"Relação de Concordância\" (FGV)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Ler o segmento no texto original, localizando o adjetivo em exame.",
+                "Substituir o comando \"relação de concordância\" pela pergunta operacional: \"A quais palavras este adjetivo atribui qualidade ou estado?\"",
+                "Desenhar as setas sintático-semânticas: Traçar as linhas de dependência a partir do adjetivo para todos os substantivos por ele afetados.",
+                "Confrontar com as alternativas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se o adjetivo qualificar dois substantivos e a alternativa citar apenas um, a alternativa é incorreta (relação mutilada/falsa).",
+                "Se o adjetivo qualificar dois substantivos e a alternativa listar ambos (mesmo com concordância formal atrativa singular), a relação é correta."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A09-G05-001",
+          "title": "Contrastes decisivos",
+          "contrastType": "mixed",
+          "conceptA": "Contrastes decisivos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G05-002",
+              "table": {
+                "tableId": "TABLE-IP-A09-G05-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério de Comparação",
+                  "Adjetivo Posposto a Múltiplos Substantivos",
+                  "Adjetivo Anteposto a Múltiplos Substantivos"
+                ],
+                "rows": [
+                  [
+                    "Concordância Total ($M.\\text{pl.}$)",
+                    "Permitida (\"sala e quarto espaçosos\" / \"cabelos e barba brancos\").",
+                    "Proibida (\"\\*espaçosos sala e quarto\" / \"\\*brancos cabelos e barba\")."
+                  ],
+                  [
+                    "Concordância Atrativa",
+                    "Permitida (\"sala e quarto espaçoso\" / \"cabelos e barba branca\").",
+                    "Obrigatória (\"espaçosa sala e quarto\" / \"desconhecido clima e terra\")."
+                  ],
+                  [
+                    "Extensão Semântica",
+                    "Abrange todos os núcleos antecedentes em ambas as concordâncias.",
+                    "Abrange os núcleos subsequentes por contiguidade inicial."
+                  ],
+                  [
+                    "Peculiaridade de Bancas",
+                    "FGV bloqueia a concordância total se houver incompatibilidade lógica.",
+                    "Bancas exploram o erro de candidatos que tentam \"somar\" no plural."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A09-G05-002",
+          "title": "Matriz de Contrastes Semânticos e Sintáticos em Reescrita",
+          "contrastType": "discursive",
+          "conceptA": "Matriz de Contrastes Semânticos e Sintáticos em Reescrita",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G05-003",
+              "table": {
+                "tableId": "TABLE-IP-A09-G05-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Estrutura Sintática",
+                  "Status Gramatical",
+                  "Impacto Semântico em Relação ao Original"
+                ],
+                "rows": [
+                  [
+                    "Roupas e calçados masculinos",
+                    "Correto",
+                    "Ambos são masculinos (concordância total ou atrativa)."
+                  ],
+                  [
+                    "Calçados e roupas masculinas",
+                    "Correto",
+                    "Ambos continuam masculinos por extensão semântica na inversão."
+                  ],
+                  [
+                    "Roupas masculinas e calçados",
+                    "Correto",
+                    "Alteração semântica: apenas roupas são caracterizadas como masculinas; calçados fica genérico."
+                  ],
+                  [
+                    "Masculinos roupas e calçados",
+                    "Incorreto",
+                    "Erro de concordância nominal (anteposição não admite plural masculino se o primeiro núcleo é feminino)."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-001",
+          "title": "EX-A09-G05-001 — Caso Piloto: Tiradentes (Adjetivo Posposto)",
+          "prompt": "Estrutura base: Tiradentes possuía cabelos (M.pl.) e barba (F.s.) [branco]",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura base",
+              "rationale": "Tiradentes possuía cabelos (M.pl.) e barba (F.s.) [branco]"
+            },
+            {
+              "order": 2,
+              "action": "Análise combinatória",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Concordância Total",
+              "rationale": "Núcleos de gêneros distintos ($M+F$) $\\rightarrow$ prevalece o masculino plural $\\rightarrow$ brancos."
+            },
+            {
+              "order": 4,
+              "action": "Concordância Atrativa",
+              "rationale": "Concorda com o núcleo mais próximo (barba, $F.\\text{s.}$) $\\rightarrow$ branca."
+            },
+            {
+              "order": 5,
+              "action": "Formas canônicas aceitas",
+              "rationale": ""
+            }
+          ],
+          "result": "Análise Semântica: Ambas informam textualmente que tanto os cabelos quanto a barba eram brancos.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-001 — Caso Piloto: Tiradentes (Adjetivo Posposto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-001 — Caso Piloto: Tiradentes (Adjetivo Posposto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-001 — Caso Piloto: Tiradentes (Adjetivo Posposto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura base: Tiradentes possuía cabelos (M.pl.) e barba (F.s.) [branco]",
+                "Análise combinatória:",
+                "Concordância Total: Núcleos de gêneros distintos ($M+F$) $\\rightarrow$ prevalece o masculino plural $\\rightarrow$ brancos.",
+                "Concordância Atrativa: Concorda com o núcleo mais próximo (barba, $F.\\text{s.}$) $\\rightarrow$ branca.",
+                "Formas canônicas aceitas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "\"Tiradentes possuía cabelos e barba brancos.\"",
+                "\"Tiradentes possuía cabelos e barba branca.\""
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise Semântica: Ambas informam textualmente que tanto os cabelos quanto a barba eram brancos."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-002",
+          "title": "EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7)",
+          "prompt": "EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (\".",
+              "rationale": "Constatação do elemento sob exame de EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7)."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7).",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"EX-A09-G05-002 — Bateria de Fixação de A\" com a norma culta de EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7).",
+          "decisivePoint": "Critério decisório de EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7) aplicado a \"EX-A09-G05-002 — Bateria de Fixação de A\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-002 — Bateria de Fixação de Adjetivos Pospostos (Itens 1 a 7).",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G05-004",
+              "table": {
+                "tableId": "TABLE-IP-A09-G05-004",
+                "caption": "Exemplos resolvidos",
+                "headers": [
+                  "Item",
+                  "Enunciado Base",
+                  "Gênero / Número",
+                  "Concordância Total (CT)",
+                  "Concordância Atrativa (CA)"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Faca e navalha  (afiado)",
+                    "$F.\\text{s.} + F.\\text{s.}$",
+                    "afiadas",
+                    "afiada"
+                  ],
+                  [
+                    "2",
+                    "...estética e época  (tedioso)",
+                    "$F.\\text{s.} + F.\\text{s.}$",
+                    "tediosas",
+                    "tediosa"
+                  ],
+                  [
+                    "3",
+                    "Amor e agradecimento  (eterno)",
+                    "$M.\\text{s.} + M.\\text{s.}$",
+                    "eternos",
+                    "eterno"
+                  ],
+                  [
+                    "4",
+                    "Códigos e senhas  (alterado)",
+                    "$M.\\text{pl.} + F.\\text{pl.}$",
+                    "alterados",
+                    "alteradas"
+                  ],
+                  [
+                    "5",
+                    "Mãe e pai  (moderno)",
+                    "$F.\\text{s.} + M.\\text{s.}$",
+                    "modernos",
+                    "moderno"
+                  ],
+                  [
+                    "6",
+                    "Argumentos e justificativas  (pífio)",
+                    "$M.\\text{pl.} + F.\\text{pl.}$",
+                    "pífios",
+                    "pífias"
+                  ],
+                  [
+                    "7",
+                    "Rio consome frutas e legumes  (contaminado)",
+                    "$F.\\text{pl.} + M.\\text{pl.}$",
+                    "contaminados",
+                    "contaminados (convergência gráfica)"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-003",
+          "title": "EX-A09-G05-003 — Casos FGV de Restrição Semântica Contextual",
+          "prompt": "Supermercado X: Supermercado X: qualidade e preço  (baixo)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Supermercado X",
+              "rationale": "Supermercado X: qualidade e preço  (baixo)"
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "O adjetivo baixo refere-se exclusivamente a preço (propaganda não divulga qualidade baixa)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "baixo (a forma baixos é incorreta contextualmente)."
+            },
+            {
+              "order": 4,
+              "action": "Café da Manhã",
+              "rationale": "Café da manhã com leite e pão  (torrado)"
+            },
+            {
+              "order": 5,
+              "action": "Análise",
+              "rationale": "Somente o pão pode ser torrado; leite não se torra."
+            }
+          ],
+          "result": "Gabarito: leite e pão torrado (a forma torrados é absurda semanticamente).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-003 — Casos FGV de Restrição Semântica Contextual sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-003 — Casos FGV de Restrição Semântica Contextual.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-003 — Casos FGV de Restrição Semântica Contextual.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Supermercado X: Supermercado X: qualidade e preço  (baixo)"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise: O adjetivo baixo refere-se exclusivamente a preço (propaganda não divulga qualidade baixa).",
+                "Gabarito: baixo (a forma baixos é incorreta contextualmente)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Café da Manhã: Café da manhã com leite e pão  (torrado)"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise: Somente o pão pode ser torrado; leite não se torra.",
+                "Gabarito: leite e pão torrado (a forma torrados é absurda semanticamente)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-004",
+          "title": "EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11)",
+          "prompt": "EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos \".",
+              "rationale": "Constatação do elemento sob exame de EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11)."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11).",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "Conformidade da estrutura \"EX-A09-G05-004 — Bateria de Fixação de A\" com a norma culta de EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11).",
+          "decisivePoint": "Critério decisório de EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11) aplicado a \"EX-A09-G05-004 — Bateria de Fixação de A\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-004 — Bateria de Fixação de Adjetivos Antepostos (Itens 9 a 11).",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G05-005",
+              "table": {
+                "tableId": "TABLE-IP-A09-G05-005",
+                "caption": "Exemplos resolvidos",
+                "headers": [
+                  "Item",
+                  "Enunciado Base",
+                  "Substantivo Mais Próximo",
+                  "Resposta Única Válida (CA)",
+                  "Forma Incorreta Proibida"
+                ],
+                "rows": [
+                  [
+                    "09",
+                    "clima e terra. (desconhecido)",
+                    "clima ($M.\\text{s.}$)",
+                    "Desconhecido",
+                    "\\*Desconhecidos"
+                  ],
+                  [
+                    "10",
+                    "faca e navalha. (afiado)",
+                    "faca ($F.\\text{s.}$)",
+                    "Afiada",
+                    "\\*Afiadas"
+                  ],
+                  [
+                    "11",
+                    "atitudes e gestos. (belicoso)",
+                    "atitudes ($F.\\text{pl.}$)",
+                    "Belicosas",
+                    "\\*Belicosos"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-005",
+          "title": "EX-A09-G05-005 — Questão 01: Objetiva Concursos (2021) — Pref. Cerro Largo/RS",
+          "prompt": "Enunciado: Assinalar a alternativa CORRETA quanto à concordância nominal:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinalar a alternativa CORRETA quanto à concordância nominal:"
+            },
+            {
+              "order": 2,
+              "action": "A) Sala e quarto espaçosas.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Sala e quarto espaçosos.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Espaçosos sala e quarto.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Espaçosas sala e quarto.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: B.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-005 — Questão 01: Objetiva Concursos (2021) — Pref. Cerro Largo/RS sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-005 — Questão 01: Objetiva Concursos (2021) — Pref. Cerro Largo/RS.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-005 — Questão 01: Objetiva Concursos (2021) — Pref. Cerro Largo/RS.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinalar a alternativa CORRETA quanto à concordância nominal:",
+                "A) Sala e quarto espaçosas.",
+                "B) Sala e quarto espaçosos.",
+                "C) Espaçosos sala e quarto.",
+                "D) Espaçosas sala e quarto.",
+                "Resolução Detalhada:",
+                "Núcleos: sala ($F$) e quarto ($M$).",
+                "Posposto: CT exige masculino plural (espaçosos); CA exige masculino singular (espaçoso). A opção A erra ao usar feminino plural com gêneros mistos.",
+                "Anteposto: Exige CA com o primeiro núcleo (espaçosa sala e quarto). As opções C e D erram ao flexionar no plural.",
+                "Gabarito: B."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-006",
+          "title": "EX-A09-G05-006 — Questão 02: Instituto AOCP (2019) — UFRB",
+          "prompt": "Enunciado: Com base na placa \"PRECISA-SE DE DOAÇÃO DE ROUPAS E CALÇADOS MASCULINOS\", assinalar a alternativa gramaticalmente correta e com o mesmo sentido:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Com base na placa \"PRECISA-SE DE DOAÇÃO DE ROUPAS E CALÇADOS MASCULINOS\", assinalar a alternativa gramaticalmente correta e com o mesmo sentido:"
+            },
+            {
+              "order": 2,
+              "action": "A) Roupas e calçados masculinas.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Masculinos roupas e calçados.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Calçados e roupas masculinas.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Roupas masculinas e calçados.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-006 — Questão 02: Instituto AOCP (2019) — UFRB sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-006 — Questão 02: Instituto AOCP (2019) — UFRB.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-006 — Questão 02: Instituto AOCP (2019) — UFRB.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Com base na placa \"PRECISA-SE DE DOAÇÃO DE ROUPAS E CALÇADOS MASCULINOS\", assinalar a alternativa gramaticalmente correta e com o mesmo sentido:",
+                "A) Roupas e calçados masculinas.",
+                "B) Masculinos roupas e calçados.",
+                "C) Calçados e roupas masculinas.",
+                "D) Roupas masculinas e calçados.",
+                "Resolução Detalhada:",
+                "Opção C: Ao inverter os substantivos (calçados e roupas), o adjetivo masculinas concorda por atração com roupas, mantendo a qualificação de ambos por extensão semântica.",
+                "Opção D: A frase é gramaticalmente correta, mas masculinas restringe apenas roupas, deixando calçados sem especificador (alteração semântica).",
+                "Gabarito: C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-007",
+          "title": "EX-A09-G05-007 — Questão 03: Cesgranrio (2018) — Transpetro",
+          "prompt": "Enunciado: Assinalar a forma destacada corretamente empregada:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinalar a forma destacada corretamente empregada:"
+            },
+            {
+              "order": 2,
+              "action": "A) A destruição de biomas e a redução da biodiversidade acelerados... $\\rightarrow$ Erro",
+              "rationale": "Núcleos destruição ($F$) + redução ($F$) exigem aceleradas."
+            },
+            {
+              "order": 3,
+              "action": "B) Os órgãos de proteção ambiental e as instituições de pesquisa brasileiros... $\\rightarrow$ CORRETO",
+              "rationale": "Núcleos órgãos ($M$) + instituições ($F$) em concordância total masculina plural brasileiros."
+            },
+            {
+              "order": 4,
+              "action": "C) As mudanças no uso do solo e o desaparecimento de florestas foram consideradas... $\\rightarrow$ Erro",
+              "rationale": "Núcleos mudanças ($F$) + desaparecimento ($M$) em voz passiva exigem considerados."
+            },
+            {
+              "order": 5,
+              "action": "D) As chuvas torrenciais e as ondas de calor são intensos... $\\rightarrow$ Erro",
+              "rationale": "Núcleos chuvas ($F$) + ondas ($F$) no predicativo exigem intensas."
+            }
+          ],
+          "result": "Gabarito: B.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-007 — Questão 03: Cesgranrio (2018) — Transpetro sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-007 — Questão 03: Cesgranrio (2018) — Transpetro.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-007 — Questão 03: Cesgranrio (2018) — Transpetro.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinalar a forma destacada corretamente empregada:",
+                "A) A destruição de biomas e a redução da biodiversidade acelerados... $\\rightarrow$ Erro: Núcleos destruição ($F$) + redução ($F$) exigem aceleradas.",
+                "B) Os órgãos de proteção ambiental e as instituições de pesquisa brasileiros... $\\rightarrow$ CORRETO: Núcleos órgãos ($M$) + instituições ($F$) em concordância total masculina plural brasileiros.",
+                "C) As mudanças no uso do solo e o desaparecimento de florestas foram consideradas... $\\rightarrow$ Erro: Núcleos mudanças ($F$) + desaparecimento ($M$) em voz passiva exigem considerados.",
+                "D) As chuvas torrenciais e as ondas de calor são intensos... $\\rightarrow$ Erro: Núcleos chuvas ($F$) + ondas ($F$) no predicativo exigem intensas.",
+                "E) As previsões dos cientistas e os estudos sobre a interação entre as espécies realizadas... $\\rightarrow$ Erro: Núcleos previsões ($F$) + estudos ($M$) exigem realizados.",
+                "Gabarito: B."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-008",
+          "title": "EX-A09-G05-008 — Questão 04: FGV — PGE-RO",
+          "prompt": "Enunciado: Assinalar a reescrita de \"mães e pais contaminados\" que apresenta um desvio da norma culta:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinalar a reescrita de \"mães e pais contaminados\" que apresenta um desvio da norma culta:"
+            },
+            {
+              "order": 2,
+              "action": "A) pais e mães contaminadas (Posposto, CA com mães — Correto).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) pais e mães contaminados (Posposto, CT masculina — Correto).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) contaminados pais e mães (Anteposto, CA com pais — Correto).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) contaminadas mães e pais (Anteposto, CA com mães — Correto).",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: E.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-008 — Questão 04: FGV — PGE-RO sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-008 — Questão 04: FGV — PGE-RO.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-008 — Questão 04: FGV — PGE-RO.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinalar a reescrita de \"mães e pais contaminados\" que apresenta um desvio da norma culta:",
+                "A) pais e mães contaminadas (Posposto, CA com mães — Correto).",
+                "B) pais e mães contaminados (Posposto, CT masculina — Correto).",
+                "C) contaminados pais e mães (Anteposto, CA com pais — Correto).",
+                "D) contaminadas mães e pais (Anteposto, CA com mães — Correto).",
+                "E) contaminados mães e pais (DESVIO / INCORRETO).",
+                "Resolução: O adjetivo contaminados está anteposto ao substantivo feminino plural mães. Como o adjunto anteposto só admite atração com o termo adjacente, a única forma válida seria contaminadas mães e pais.",
+                "Gabarito: E."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G05-009",
+          "title": "EX-A09-G05-009 — Questão 05: FGV (2019) — DPE-RJ",
+          "prompt": "Enunciado: Com base no texto literário de Luís Jardim, assinalar a opção em que a relação de concordância está errada:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Com base no texto literário de Luís Jardim, assinalar a opção em que a relação de concordância está errada:"
+            },
+            {
+              "order": 2,
+              "action": "A) integral / transplantação (transplantação integral — Relação correta).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) novas / condições (novas condições — Relação correta).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) terras / diferentes (GABARITO ERRADO/ESCOLHIDO).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) diferente / feição (feição... diferente — Relação correta).",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito: C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G05-009 — Questão 05: FGV (2019) — DPE-RJ sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G05-009 — Questão 05: FGV (2019) — DPE-RJ.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G05-009 — Questão 05: FGV (2019) — DPE-RJ.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Com base no texto literário de Luís Jardim, assinalar a opção em que a relação de concordância está errada:",
+                "A) integral / transplantação (transplantação integral — Relação correta).",
+                "B) novas / condições (novas condições — Relação correta).",
+                "C) terras / diferentes (GABARITO ERRADO/ESCOLHIDO).",
+                "D) diferente / feição (feição... diferente — Relação correta).",
+                "E) barroco / característica ou estilo (característica ou estilo barroco — Relação correta).",
+                "Resolução: No trecho original (\"...novas condições de vida em clima e terras diferentes...\"), o adjetivo diferentes qualifica conjuntamente clima e terras. Ao apontar unicamente terras, a alternativa C mutila a relação sintático-semântica de modificação do texto.",
+                "Gabarito: C."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em concordância total de substantivos de gêneros diferentes ($M+F$ ou $F+M$), basta somar as unidades e descarregar a flexão no masculino plural (-os). Nunca hesite aplicando feminino plural para pares mistos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Memorize a regra espacial:",
+            "Adjetivo DEPOIS (Posposto): Tem visão panorâmica (pode fazer a soma total no plural ou olhar apenas para o vizinho).",
+            "Adjetivo ANTES (Anteposto): Tem visão curta (só enxerga o primeiro substantivo imediatamente colado a ele). Nunca faça concordância total no plural na anteposição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em períodos extensos, risque mentalmente todas as preposições e termos preposicionados (de, do, da, dos, das). O elemento substantivo que sobra sem preposição é o núcleo legítimo que governa a flexão."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ao encontrar a exigência de \"relação de concordância\" na FGV, traduza imediatamente para \"alcance das setas de modificação\". Verifique se o adjetivo caracteriza um ou dois substantivos no texto e confira se a alternativa relacionou todos os núcleos correspondentes."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A09-G05-001",
+          "title": "A Ilusão da Restrição Semântica na Concordância Atrativa Posposta",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Ilusão da Restrição Semântica na Concordância Atrativa Posposta no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Ilusão da Restrição Semântica na Concordância Atrativa Posposta.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Ilusão da Restrição Semântica na Concordância Atrativa Posposta.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Ilusão da Restrição Semântica na Concordância Atrativa Posposta para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Ilusão da Restrição Semântica na Concordância Atrativa Posposta.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Ilusão da Restrição Semântica na Concordância Atrativa Posposta.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro Comum: Supor que em \"cabelos e barba branca\", apenas a barba é branca e os cabelos possuem outra coloração.",
+                "Verdade Gramatical: A extensão semântica continua integral (ambos são brancos). Bancas como Cebraspe e FGV consideram incorreto afirmar que essa troca gera alteração de sentido."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G05-002",
+          "title": "A Proibição Rígida de Plural com Adjetivo Anteposto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Proibição Rígida de Plural com Adjetivo Anteposto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Proibição Rígida de Plural com Adjetivo Anteposto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Proibição Rígida de Plural com Adjetivo Anteposto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Proibição Rígida de Plural com Adjetivo Anteposto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Proibição Rígida de Plural com Adjetivo Anteposto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Proibição Rígida de Plural com Adjetivo Anteposto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Construções Incorretas: \\*Desconhecidos clima e terra, \\*Espaçosos sala e quarto, \\*Contaminados mães e pais.",
+                "Por que ocorre: O candidato projeta a faculdade da concordância total do adjetivo posposto para a estrutura anteposta.",
+                "Formas Corretas: Desconhecido clima e terra, Espaçosa sala e quarto, Contaminadas mães e pais."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G05-003",
+          "title": "A Armadilha do Piloto Automático na Referenciação Semântica (FGV)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha do Piloto Automático na Referenciação Semântica (FGV) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha do Piloto Automático na Referenciação Semântica (FGV).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha do Piloto Automático na Referenciação Semântica (FGV).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha do Piloto Automático na Referenciação Semântica (FGV) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha do Piloto Automático na Referenciação Semântica (FGV).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha do Piloto Automático na Referenciação Semântica (FGV).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O candidato decora que adjetivo posposto \"sempre aceita plural\" e valida sentenças como \"qualidade e preço baixos\" ou \"leite e pão torrados\". A FGV anula a concordância total caso a relação gere contradição ou absurdo pragmático no texto."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G05-004",
+          "title": "Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Deslocamento do Modificador para o Meio do Sintagma (AOCP / FCC).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Em questões de reescrita, o deslocamento do adjetivo para o meio da enumeração (\"roupas masculinas e calçados\") mantém a correção gramatical da concordância com roupas, mas restringe o sentido, deixando calçados indeterminado. Se o comando exigir manutenção de sentido, a opção deve ser eliminada."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G05-005",
+          "title": "O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Perigo da Resolução por \"Bom Senso\" e Intuição Auditiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Confiar no \"ouvido\" em concordância nominal é uma armadilha em provas de alto nível. Formas perfeitamente corretas pela norma culta (como desconhecido clima e terra ou sala e quarto espaçoso) soam estranhas ao ouvido coloquial, ao passo que erros crassos de concordância lógica parecem intuitivamente aceitáveis."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Comum: Supor que em \"cabelos e barba branca\", apenas a barba é branca e os cabelos possuem outra coloração.",
+            "Verdade Gramatical: A extensão semântica continua integral (ambos são brancos). Bancas como Cebraspe e FGV consideram incorreto afirmar que essa troca gera alteração de sentido."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Construções Incorretas: \\*Desconhecidos clima e terra, \\*Espaçosos sala e quarto, \\*Contaminados mães e pais.",
+            "Por que ocorre: O candidato projeta a faculdade da concordância total do adjetivo posposto para a estrutura anteposta.",
+            "Formas Corretas: Desconhecido clima e terra, Espaçosa sala e quarto, Contaminadas mães e pais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O candidato decora que adjetivo posposto \"sempre aceita plural\" e valida sentenças como \"qualidade e preço baixos\" ou \"leite e pão torrados\". A FGV anula a concordância total caso a relação gere contradição ou absurdo pragmático no texto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em questões de reescrita, o deslocamento do adjetivo para o meio da enumeração (\"roupas masculinas e calçados\") mantém a correção gramatical da concordância com roupas, mas restringe o sentido, deixando calçados indeterminado. Se o comando exigir manutenção de sentido, a opção deve ser eliminada."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Confiar no \"ouvido\" em concordância nominal é uma armadilha em provas de alto nível. Formas perfeitamente corretas pela norma culta (como desconhecido clima e terra ou sala e quarto espaçoso) soam estranhas ao ouvido coloquial, ao passo que erros crassos de concordância lógica parecem intuitivamente aceitáveis."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relação de harmonia morfossintática de gênero e número estabelecida entre termos determinantes (adjetivos, pronomes adjetivos, numerais adjetivos, artigos) e o termo determinado (substantivo)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade principal: KB-A09-G05-001"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: Sala e quarto espaçosos.",
+            "Unidade principal: KB-A09-G05-002"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: Sala e quarto espaçoso / Espaçosa sala e quarto.",
+            "Unidade principal: KB-A09-G05-002, KB-A09-G05-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O alcance conceitual e o escopo de entidades referenciadas por um termo qualificador. Refere-se ao fato de o adjetivo estender sua caracterização a todos os substantivos da série, independentemente de estar flexionado no plural total ou no singular atrativo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade principal: KB-A09-G05-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Terminologia técnica utilizada em itens da FGV para indicar o mapeamento completo dos substantivos coordenados modificados por um determinado adjetivo no texto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade principal: KB-A09-G05-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Metodologia de análise sintática ensinada pela professora Adriana Figueiredo, consistente em descartar modificadores preposicionados intercalados para localizar a palavra-base sem preposição que comanda a concordância nominal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Unidade principal: KB-A09-G05-006"
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático, o estudante deve ter assimilado com clareza operacional os seguintes pilares da concordância nominal do adjunto adnominal:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Assimetria de Posição:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Posposto a múltiplos substantivos: Admite dupla concordância — Concordância Total (plural do gênero comum ou masculino plural prevalecente para pares mistos) ou Concordância Atrativa (gênero e número do mais próximo).",
+            "Anteposto a múltiplos substantivos: Admite unicamente a Concordância Atrativa com o primeiro núcleo consecutivo. Flexionar adjetivo anteposto no plural englobando todos os núcleos é erro gramatical absoluto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Plano Semântico vs. Plano Gramatical:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na regra geral de adjetivo posposto, a alternância entre concordância total e atrativa não altera o sentido da oração (a extensão semântica abrange todos os núcleos).",
+            "O deslocamento de adjetivos para o interior do sintagma nominal (entre substantivos) pode preservar a correção sintática, mas restringe o modificador apenas ao termo adjacente, causando alteração semântica."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Peculiaridades de Bancas de Elite:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "FGV: Pune o \"piloto automático\". Se o adjetivo for pragmaticamente incompatível com um dos termos (preço baixo, pão torrado), a concordância total é proibida. Além disso, a banca exige que a \"relação de concordância\" aponte todos os termos qualificados no texto original.",
+            "Cesgranrio / Cebraspe / FCC: Exploram períodos longos com adjuntos preposicionados intercalados, exigindo a técnica do \"farejador de núcleos\" para isolar o substantivo principal que governa o particípio ou predicativo."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "suveca-editorial-question-quality",
+  "buildId": "23090bf61625314a",
+  "questionSetVersion": "editorial-corpus-23090bf61625314a",
+  "sourceLessons": [
+    "A00",
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13"
+  ],
+  "filteringPolicy": {
+    "minimumQuestionConfidence": 0.9,
+    "minimumAnswerConfidence": 0.9,
+    "requiresPairedAnswer": true,
+    "requiresPrompt": true,
+    "requiresCommentary": true,
+    "requiresInterpretableAnswer": true,
+    "deduplication": [
+      "duplicate_of",
+      "duplicate_group_id",
+      "question_group_id",
+      "conceptual_question_id",
+      "conceptual_question_key",
+      "question_family_id",
+      "question_group",
+      "normalized_support_prompt_options_fingerprint"
+    ]
+  },
+  "totals": {
+    "sourceQuestionOccurrences": 2588,
+    "pairedSourceOccurrences": 2582,
+    "eligibleOccurrences": 1339,
+    "uniquePublishedQuestions": 1209,
+    "deduplicatedEligibleOccurrences": 130,
+    "quarantinedOccurrences": 2
+  },
+  "perLesson": {
+    "A00": 145,
+    "A01": 27,
+    "A02": 115,
+    "A03": 69,
+    "A04": 76,
+    "A05": 42,
+    "A06": 64,
+    "A07": 61,
+    "A08": 146,
+    "A09": 81,
+    "A10": 90,
+    "A11": 75,
+    "A12": 85,
+    "A13": 137
+  },
+  "quarantine": [
+    {
+      "sourceKey": "A01:aula01.q0001",
+      "reason": "O comentário incorpora uma segunda questão completa."
+    },
+    {
+      "sourceKey": "A13:aula13.q0001",
+      "reason": "As alternativas foram divididas incorretamente entre support_text e prompt."
+    }
+  ]
+}

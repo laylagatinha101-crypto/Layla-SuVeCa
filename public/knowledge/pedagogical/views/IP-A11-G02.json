@@ -1,0 +1,2499 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A11-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.108Z"
+  },
+  "unit": {
+    "unitId": "IP-A11-G02",
+    "lessonId": "A11",
+    "groupId": "G02",
+    "title": "Coesão Sequencial",
+    "variant": "development",
+    "canonicalTopicId": "pt:a11:coesao-sequencial",
+    "learningObjectives": [
+      "OBJ-IP-A11-G02-001",
+      "OBJ-IP-A11-G02-002",
+      "OBJ-IP-A11-G02-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "strong",
+      "label": "Conexão forte",
+      "summary": "A coesão sequencial liga orações e períodos por relações lógicas; o mapa delimita as estruturas, e o conector mais o contexto determina a progressão.",
+      "steps": [
+        "Reconstrua apenas as relações sintáticas relevantes para a decisão.",
+        "Acrescente o critério próprio do tema — morfológico, semântico, coesivo ou discursivo.",
+        "Confirme que estrutura e contexto sustentam a mesma conclusão."
+      ],
+      "limits": [
+        "A análise sintática é necessária, mas não substitui a regra específica desta matéria."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conhecimento morfológico das classes gramaticais conectivas: conjunções coordenativas (aditivas, adversativas, alternativas, conclusivas, explicativas), conjunções subordinativas adverbiais (especialmente causais e consecutivas), preposições e advérbios conectivos.",
+            "Distinção básica entre verbo significativo (transitivo/intransitivo) e verbo de ligação.",
+            "Noções de sintaxe de período simples e composto (coordenação e subordinação)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "TEXTUALIDADE (Texto com qualidade comunicativa global) │ ┌─────────────────────────┴─────────────────────────┐ ▼ ▼ COESÃO SEQUENCIAL COERÊNCIA (Mecanismo gramatical explícito) (Lógica interna / Sentido) │ │ ┌──────────────┴──────────────┐ │ ▼ ▼ │ Inventário de Conectores Regra de Posicionamento │"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunções - A conjunção recebe o nome │",
+            "Preposições da oração imediatamente seguinte │",
+            "Advérbios conectivos - Mantra: \"O que vem depois salva\" │"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "│ │ ┌──────────────┴──────────────┐ │ ▼ ▼ ▼ MÉTODO DOS 3 PASSOS TAXONOMIA DAS RELAÇÕES LÓGICAS 1º Resumo nuclear pelo verbo ├── OPOSIÇÃO / CONTRASTE (Sim vs Não) (\"O verbo salva\") │ └── Conectivos: mas, porém, não obstante 2º Identificação da relação lógica ├── EXPLICAÇÃO / JUSTIFICATIVA 3º Escolha e alocação do conector │ └── Marcador: Imperativo (\"Com imperativo, │ eu sou feliz\"); conectivo: pois, porque ├── CAUSA E CONSEQUÊNCIA / CONCLUSÃO │ ├── Fórmula: \"O fato de [1º] fez com que [2º]\" │ ├── Causa (1º cronológico) -> Conector Causal │ └── Efeito/Conclusão (2º) -> Consecutivo/Conclusivo └── EXEMPLIFICAÇÃO (Geral -> Específico) └── Conectivos: por exemplo, como exemplo └── Incompatível com conclusivos (portanto)"
+        },
+        {
+          "type": "paragraph",
+          "text": "SINTAXE E PONTUAÇÃO DE COORDENATIVAS ├── Posição Inicial: 1 vírgula facultativa (\"Portanto[,]...\") └── Posição Deslocada: 2 vírgulas obrigatórias (\"..., portanto,...\")"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Coesão depende da Coerência para ser válida: A coesão sem coerência é nula em provas de concurso (KB-A11-G02-002, KB-A11-G02-003).",
+            "Causa vs. Consequência: A causa é necessariamente o fato antecedente na linha do tempo real (1º fato), enquanto a consequência é o fato decorrente (2º fato). Conjunções causais encabeçam a causa; conjunções conclusivas e consecutivas encabeçam o efeito (KB-A11-G02-005).",
+            "Causa vs. Explicação: Se houver nexo físico/temporal determinante (\"o fato de... fez com que...\"), a classificação de causa/efeito sobrepõe-se à de explicação (KB-A11-G02-005, KB-A11-G02-007).",
+            "Conclusão vs. Exemplificação: Conclusão exige dedução ou efeito; a transição de um princípio amplo para um caso pontual é exemplificação, rejeitando conectivos conclusivos (KB-A11-G02-009).",
+            "Contraste vs. Reafirmação: Conectivos adversativos exigem contradição real (antagonismo semântico); se a segunda proposição reafirma ou justifica a primeira, o uso de conectivos opositivos é gramaticalmente incorreto (KB-A11-G02-008)."
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A11-G02-001",
+          "title": "Mapa de conexão — Coesão Sequencial",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a11:coesao-sequencial",
+              "label": "Coesão Sequencial",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a11:coesao-sequencial",
+              "relation": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A coesão sequencial é o mecanismo morfossintático e discursivo responsável por estabelecer o encadeamento lógico e linear entre os segmentos textuais (palavras, orações, períodos e parágrafos), assegurando a progressão temática por meio do emprego explícito de elementos conectores gramaticais."
+        },
+        {
+          "type": "paragraph",
+          "text": "A denominação \"sequencial\" fundamenta-se na dinâmica da progressão discursiva, estruturando a transição entre o que já foi afirmado e o que será enunciado em seguida. Essa costura textual é operada formalmente por conectores gramaticais, integrando primordialmente:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunções coordenativas e subordinativas;",
+            "Preposições e locuções prepositivas;",
+            "Advérbios e locuções adverbiais com valor conectivo/interoracional."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença explícita desses conectivos confere à superfície do texto a propriedade da ligação formal (coesão explícita)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reconhece-se a coesão sequencial pela identificação visual e morfossintática de conectivos unindo orações ou introduzindo novos períodos.",
+            "Quando duas orações estão separadas por pontuação (ponto, ponto e vírgula) sem nenhuma conjunção, há justaposição (ausência de coesão sequencial formal), mesmo que a relação de sentido permaneça evidente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Com coesão sequencial explícita: \"Estudamos bastante; por isso, tivemos um bom resultado.\" (Locução conjuntiva conclusiva explícita).",
+            "Sem coesão sequencial explícita (justaposição): \"Estudamos bastante; tivemos um bom resultado.\" (Ausência de conector formal)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A mera presença de um conectivo garante apenas a coesão formal de superfície. Se o conectivo empregado possuir valor semântico divergente da relação lógica real entre as proposições, a coesão existirá sintaticamente, mas o enunciado será incoerente."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande-se em: KB-A11-G02-002, KB-A11-G02-005, KB-A11-G02-006.",
+            "Aplicado em: PROC-A11-G02-001.",
+            "Termos associados: TERM-A11-G02-001, TERM-A11-G02-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A coesão atua no plano gramatical e formal da ligação explícita por conectivos, ao passo que a coerência atua no plano semântico e conceitual da harmonia lógica e da interpretabilidade da mensagem (\"fazer sentido\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para operacionalizar a resolução de questões de concurso público, estabelece-se a síntese mnemônica estrutural (\"colinha debaixo do braço\"):"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Coesão = Ligação: Avalia a existência de marcas linguísticas explícitas (conjunções, preposições conectivas, pronomes anafóricos).",
+            "Coerência = Lógica (\"Ter coerência é fazer sentido\"): Avalia se a proposição é inteligível, não contraditória e compatível com a relação semântica subjacente."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Essa distinção fundamenta o gabarito normativo das duas perguntas canônicas cobradas em provas:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pergunta 1: É possível haver coerência sem coesão? $\\rightarrow$ SIM. A relação lógica entre os fatos pode subsistir de forma implícita em estruturas justapostas ou assindéticas, sem prejuízo da compreensão.",
+            "Pergunta 2: É possível haver coesão sem coerência? $\\rightarrow$ NÃO (Inadmissível). Conectivos gramaticais empregados de forma errônea produzem nexos absurdos que corrompem o sentido global do texto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em questões que propõem reescrita por eliminação de conectivos, avalia-se se o sentido original permanece apreensível (manutenção da coerência sem coesão explícita).",
+            "Em questões que propõem inserção de conectivos, avalia-se se a conjunção introduzida coincide com o nexo lógico implícito do texto original (manutenção simultânea de coesão e coerência)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Coerência SIM / Coesão NÃO: \"Enfrentamos um trânsito intenso hoje pela manhã; chegamos atrasados para a primeira reunião.\" (Sem conector; sentido preservado).",
+            "Coerência SIM / Coesão SIM: \"Como enfrentamos um trânsito intenso hoje pela manhã, chegamos atrasados para a primeira reunião.\" (Conector causal adequado).",
+            "Coerência NÃO / Coesão Aparente: \"Enfrentamos um trânsito intenso hoje pela manhã, embora tenhamos chegado atrasados.\" (Uso absurdo de conectivo concessivo que rompe a lógica causal)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamenta: KB-A11-G02-003, KB-A11-G02-004.",
+            "Possui alerta: WARN-A11-G02-001.",
+            "Citações associadas: QUOTE-A11-G02-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Textualidade é a qualidade global que transforma um aglomerado de sentenças em uma unidade comunicativa íntegra, sendo definida no contexto da aula como o produto resultante da aplicação harmônica entre coesão formal e coerência semântica:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Textualidade} = \\text{Coesão} + \\text{Coerência} = \\text{Texto com Qualidade}"
+        },
+        {
+          "type": "paragraph",
+          "text": "Um texto não se define pela simples presença mecânica de conectivos eruditos ou rebuscados. A conjunção só desempenha sua função comunicativa e gramatical quando serve à explicitação da relação lógica verdadeira pretendida pelo autor. O uso puramente estético de conjunções desconectadas da semântica dos parágrafos (prática comum em modelos e \"esqueletos\" decorados para redação discursiva) gera anomalia textual, sendo severamente penalizado por bancas examinadoras."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Uma estrutura que apresenta conjunção formal, mas estabelece vínculo semântico falso ou contraditório, é considerada textual e gramaticalmente nula/defeituosa em avaliações de concurso.",
+            "A regra de ouro da textualidade estabelece: \"Conjunção boa é conjunção que traz coerência, que traz lógica\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Violação de textualidade por esqueleto artificial: Inserir outrossim (conector estritamente aditivo) no início de um parágrafo que conclui o tema, ou inserir destarte (conector estritamente conclusivo) em um período que introduz uma ressalva ou causa. Há conectivo formal, mas a coerência é destruída."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A11-G02-001, KB-A11-G02-002.",
+            "Possui alerta: WARN-A11-G02-006.",
+            "Conhecimento oral associado: ORAL-A11-G02-001.",
+            "Citações associadas: QUOTE-A11-G02-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O Método dos Três Passos (\"as rodinhas da bicicleta\") é um procedimento analítico algorítmico padronizado para identificar relações lógico-semânticas e aplicar conectivos com precisão matemática em questões de coesão textual."
+        },
+        {
+          "type": "paragraph",
+          "text": "A metodologia divide-se em três etapas operacionais sucessivas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "1º Passo — Resumo Nuclear pelo Verbo (\"O verbo salva\"): Ler cada período ou oração e extrair o seu núcleo informativo essencial (sujeito + verbo significativo). Em textos extensos, deve-se isolar os blocos com colchetes ([Bloco 1] vs. [Bloco 2]) e desconsiderar adjuntos ou orações intercaladas dispersivas. Verbos de ligação (ser, estar, permanecer) devem ser desconsiderados, sublinhando-se o predicativo.",
+            "2º Passo — Identificação da Relação Lógica Subjacente: Confrontar as ideias nucleares resumidas e enquadrá-las na taxonomia de relações lógicas fundamentais: Oposição (+ vs -), Explicação (justificativa de ordem/afirmação), Causa/Consequência (\"o fato de... fez com que...\") ou Exemplificação (geral $\\rightarrow$ específico).",
+            "3º Passo — Seleção e Alocação do Conectivo Vocacionado: Posicionar a conjunção aplicando o princípio sintático de que ela recebe a classificação da oração que vem imediatamente após ela (\"o que vem depois salva\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O método impede que a sobrecarga de vocabulário ou extensão do texto induza o candidato a recorrer a intuições auditivas (\"ler para ver se soa bem\").",
+            "O sucesso do método reside no rigor do 1º passo: se o candidato não resume os blocos em torno dos verbos, não consegue visualizar a relação lógica no 2º passo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gera procedimento: PROC-A11-G02-001.",
+            "Possui dicas: TIP-A11-G02-001, TIP-A11-G02-002.",
+            "Citações associadas: QUOTE-A11-G02-002, QUOTE-A11-G02-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A relação de causa e efeito articula dois eventos correlacionados no mundo real, definindo-se pelo teste mental: \"O fato de [Causa / 1º evento cronológico] fez com que [Consequência / 2º evento cronológico]\". No plano lógico-textual das bancas, \"conclusão\" e \"consequência\" operam como sinônimos funcionais."
+        },
+        {
+          "type": "paragraph",
+          "text": "A causalidade rege-se por três princípios fundamentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Critério Cronológico Universal: Na ordem ontológica dos fatos, a Causa ocorre sempre em 1º lugar no tempo (origem, motivo gerador); o Efeito / Consequência / Conclusão ocorre sempre em 2º lugar (desfecho, resultado). Essa ordem temporal independe da ordem sintática em que as frases estão escritas.",
+            "Equivalência Funcional Conclusão = Consequência: Conjunções conclusivas (portanto, logo, por isso, por conseguinte, assim) introduzem a consequência decorrente da premissa anterior.",
+            "Regra de Prevalência Semântica: A causalidade sobrepõe-se à mera relação de explicação. Se uma frase expressa determinação factual-física que responde ao teste \"o fato de... fez com que...\", ela é primariamente de causa e efeito.",
+            "Distribuição dos Conectivos conforme o Termo Posposto:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o conectivo introduz a Causa (1º fato): empregam-se conjunções subordinativas causais (porque, já que, visto que, uma vez que, como, porquanto).",
+            "Se o conectivo introduz o Efeito/Conclusão (2º fato): empregam-se conjunções subordinativas consecutivas (de modo que, de forma que, tanto... que) ou coordenativas conclusivas (logo, portanto, por isso, por conseguinte)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para validar uma conjunção conclusiva (portanto), o segmento que a sucede deve obrigatoriamente ser o 2º evento cronológico (a consequência). Se anteceder a causa geradora, configura-se inversão causal e o item está incorreto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Causal anteposto (conector na causa): \"Como enfrentamos um trânsito intenso [1º Causa], chegamos atrasados [2º Efeito].\"",
+            "Conclusivo no meio (conector no efeito): \"Enfrentamos um trânsito intenso [1º Causa], logo chegamos atrasados [2º Consequência].\"",
+            "Inversão causal incorreta: \"Enfrentamos um trânsito intenso, portanto o processo de chuvas foi severo.\" (Inversão: a chuva causou o trânsito; não se pode usar portanto antes da chuva)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplica procedimentos: PROC-A11-G02-002.",
+            "Possui alertas: WARN-A11-G02-002, WARN-A11-G02-003.",
+            "Dicas associadas: TIP-A11-G02-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A classificação sintático-semântica de uma conjunção e a validação de sua coerência são determinadas com exclusividade pela oração que se localiza imediatamente após o conectivo, sintetizada no mantra: \"A conjunção recebe o nome da oração que vem depois dela / O que vem depois salva\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conectivos subordinativos e coordenativos exercem função de vetores direcionados à oração que introduzem:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O conectivo não precisa estar posicionado no meio geométrico das duas orações; conjunções subordinativas podem encabeçar a primeira oração do período (oração subordinada anteposta).",
+            "Para determinar se uma conjunção está corretamente empregada, o estudante nunca deve analisar a oração anterior, mas sim inspecionar a natureza da oração subsequente:",
+            "Se a conjunção é causal, a oração seguinte deve ser a Causa;",
+            "Se a conjunção é consecutiva/conclusiva, a oração seguinte deve ser a Consequência/Conclusão;",
+            "Se a conjunção é concessiva/adversativa, a oração seguinte deve ser a Oposição/Ressalva;",
+            "Se a conjunção é explicativa, a oração seguinte deve ser a Justificativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Isolar o conectivo e ler exclusivamente o segmento posposto a ele.",
+            "Comparar a ideia desse segmento posposto com a lista oficial de valores da conjunção. Se houver correspondência exata, a colocação é coerente."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Como [oração 1: enfrentamos um trânsito], [oração 2: chegamos atrasados].\" $\\rightarrow$ O que vem depois de \"Como\" é o trânsito (causa). Como \"Como\" é conjunção causal, a frase é perfeita.",
+            "\"[Oração 1: Enfrentamos um trânsito], como [oração 2: chegamos atrasados].\" $\\rightarrow$ O que vem depois de \"como\" é o atraso (efeito). Alocar conjunção causal antes do efeito gera erro crasso e incoerência."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra complementar a: KB-A11-G02-005.",
+            "Aplicado em: PROC-A11-G02-001.",
+            "Citações associadas: QUOTE-A11-G02-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A relação lógica de explicação ocorre quando a segunda oração atua como esclarecimento, justificativa ou fundamentação discursiva de uma ordem, conselho, pedido ou afirmação categórica expressa na primeira oração, tendo como marcador sintático primordial o verbo no modo imperativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "No sistema de coesão textual:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Marcador do Imperativo (\"Com imperativo, eu sou feliz\"): A presença de verbo no modo imperativo na oração precedente (venha, faça, levem, não espere) é o mais forte indício de que a oração seguinte é explicativa, pois ordens e pedidos exigem justificativa comunicativa imediata.",
+            "Conectivos Explicativos Canônicos: pois (anteposto ao verbo), porque, que, já que, visto que, uma vez que, porquanto.",
+            "Diferenciação contra Causa: A explicação justifica o ato de fala ou conselho (dimensão discursiva), ao passo que a causa é o fato gerador que produz fisicamente o efeito (dimensão fenomenológica/ontológica)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Localizar o verbo da primeira oração; se estiver no imperativo, a articulação é de explicação.",
+            "A conjunção explicativa deve ser inserida imediatamente antes da justificativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Levem os casacos [1ª oração: verbo no imperativo = conselho/ordem], pois / porque poderá fazer frio [2ª oração: justificativa do conselho].\"",
+            "\"Não esperem por mim [imperativo], pois vou me atrasar [justificativa].\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Muitas conjunções explicativas compartilham o mesmo repertório das causais (porque, já que, uma vez que). A presença do imperativo desempata a análise em favor da explicação."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A11-G02-005 (Causalidade).",
+            "Dicas associadas: TIP-A11-G02-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conectivos opositivos (adversativos e concessivos, como mas, porém, contudo, todavia, entretanto, no entanto, não obstante) exigem uma relação semântica de antagonismo real entre proposições (Sim vs Não, (+) vs (-), expectativa vs quebra). Se a proposição posposta apenas reafirma, explica ou parafraseia a primeira, o emprego de conectivos opositivos é terminantemente proibido."
+        },
+        {
+          "type": "paragraph",
+          "text": "A validação de conectivos opositivos divide-se em dois cenários:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Contraste Real (Validação Positiva): Identificam-se polos semânticos excludentes entre os sujeitos ou predicados (ex.: ricos podem vs. pobres não podem / preparou-se muito vs. estava muito nervoso). Admite conjunções adversativas (mas, porém) ou concessivas (não obstante).",
+            "Falsa Oposição por Reafirmação (Validação Negativa): A banca apresenta dois períodos em que o segundo apenas reforça o conteúdo do primeiro sob outra formulação vocabular (ex.: \"Não eram jornalismo porque eram manifestações oficiais\" / \"Eram discurso oficial e discurso oficial é o oposto de jornalismo\"). Como \"discurso oficial oposto a jornalismo\" reafirma e justifica por que \"não eram jornalismo\", inexiste oposição; logo, unir tais períodos com mas destrói a coerência."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Resumir os dois blocos:",
+            "Se $A = \\text{positivo}$ e $B = \\text{negativo}$ $\\rightarrow$ Há contraste $\\rightarrow$ cabe conectivo opositivo.",
+            "Se $A = \\text{ideia } X$ e $B = \\text{reafirmação da ideia } X$ $\\rightarrow$ Não há contraste $\\rightarrow$ rejeita-se conectivo opositivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Oposição legítima: \"Os ricos podem comprar liberdade; os pobres, não obstante, precisam se virar sem ela.\" (Contraste: podem comprar vs. vivem sem).",
+            "Falsa oposição: \"Não eram jornalismo. Eram discurso oficial.\" $\\rightarrow$ Incorreto propor: \"Não eram jornalismo, mas eram discurso oficial\" (pois ser discurso oficial é a causa/prova de não ser jornalismo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A11-G02-007 (Explicação/Reafirmação).",
+            "Possui alerta: WARN-A11-G02-005.",
+            "Aplicado em: EX-A11-G02-012, EX-A11-G02-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A transição discursiva que parte de uma afirmação genérica/abrangente para a apresentação de uma ocorrência concreta e pontual caracteriza uma relação de exemplificação (movimento do geral para o específico), sendo incompatível com conjunções conclusivas (portanto)."
+        },
+        {
+          "type": "paragraph",
+          "text": "No encadeamento textual:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificação: O segundo período atua como prova fática, ilustração ou amostra particular da regra geral enunciada no primeiro. Conectivos vocacionados: por exemplo, a título de exemplo, como ilustração.",
+            "Conclusão: O segundo período atua como resultado, efeito ou dedução necessária decorrente de premissas causais antecedentes. Conectivos vocacionados: portanto, logo, por conseguinte.",
+            "A armadilha de concurso: As bancas propõem conectar a regra geral ao caso particular por meio de portanto, explorando a leitura ingênua do candidato. A inserção de portanto em relações de exemplificação falsifica a lógica textual e invalida o item."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Identificar se o Bloco 1 traz termo universalizante ou classe ampla (\"são raros os casos...\", \"muitos países...\", \"as instituições...\") e se o Bloco 2 traz um elemento singular pertencente a essa classe (\"o povo Fulniô...\", \"o Brasil...\", \"o tribunal X...\"). Se positivo, a relação é de exemplificação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Texto original: \"São raros os casos de nome distinto para a língua [Geral]. Há o povo Fulniô, cuja língua é o Iatê [Específico/Exemplo].\"",
+            "Proposta errada da banca: \"...um nome distinto para a língua, portanto temos o caso do povo Fulniô...\" (Errado: o povo Fulniô não existe em decorrência dos casos serem raros; ele é um exemplo).",
+            "Conexão correta: \"...um nome distinto para a língua; por exemplo, temos o caso do povo Fulniô...\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A11-G02-005 (Conclusão).",
+            "Possui alerta: WARN-A11-G02-004.",
+            "Aplicado em: EX-A11-G02-011."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A pontuação associada ao emprego de conjunções coordenativas (conclusivas, adversativas, etc.) é condicionada com rigor pela posição sintática do conectivo dentro do período:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Posição Inicial: A vírgula posposta à conjunção é facultativa (opcional).",
+            "Posição Deslocada (Intercalada/Meio do Período): O emprego de duas vírgulas é estritamente obrigatório."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunção na Abertura do Período: Quando conjunções como portanto, porém, todavia, entretanto abrem a oração ou período, a aposição de vírgula imediatamente após elas é facultativa segundo a norma culta (Portanto[,] o processo deve continuar.).",
+            "Conjunção Deslocada / Intercalada: Quando a conjunção é deslocada para o interior da oração (posicionada após o sujeito, após o verbo ou entre termos da oração principal), ocorre uma ruptura da ordem direta, exigindo isolamento sintático obrigatório por dupla vírgula (Sua importância, portanto, está na busca... / Os pobres, não obstante, precisam se virar...).",
+            "Comandos de Prova: Se a banca afirmar que a inserção de conectivo no meio do período dispensa vírgulas, ou se propuser a inserção deslocada sem prever as duas vírgulas, o item está incorreto por infração às regras gramaticais de pontuação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunção no início $\\rightarrow$ 1 vírgula facultativa (Conjunção,... ou Conjunção...).",
+            "Conjunção no meio $\\rightarrow$ 2 vírgulas obrigatórias (..., conjunção,...)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Inicial: \"Portanto, o capital social é fundamental.\" (Correto; a vírgula após Portanto é opcional).",
+            "Deslocada: \"Sua importância, portanto, está na busca de estratégias...\" (Correto; vírgulas antes e depois de portanto são mandatórias).",
+            "Erro de pontuação: \"Sua importância portanto está na busca...\" (Incorreto; ausência de vírgulas na intercalação)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunções adversativas puras como mas não admitem deslocamento sintático para o interior da oração; seu posicionamento é fixo na abertura da oração coordenada."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gera dica: TIP-A11-G02-005.",
+            "Gera procedimento: PROC-A11-G02-004.",
+            "Aplicado em: EX-A11-G02-009, EX-A11-G02-012."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conectivos especializados possuem carga semântica unívoca e restrita, devendo ser empregados estritamente de acordo com sua função etimológica e gramatical. Por outro lado, conectivos \"coringas\" (como e) possuem alta plasticidade polissêmica, mas são desconsiderados por bancas examinadoras que exigem conectores vocacionados."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conectivos Especializados e Eruditos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Outrossim: Conector de natureza estritamente aditiva (equivalente a além disso, do mesmo modo, igualmente). É erro crasso empregá-lo para introduzir conclusões ou contraposições.",
+            "Destarte / Dessarte: Conectores de natureza estritamente conclusiva (equivalentes a assim, portanto, por conseguinte, dessa forma). Não podem introduzir causas ou adições.",
+            "Não obstante: Conector de oposição/contraste, podendo atuar como concessivo ou adversativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Papel Coringa da Conjunção \"E\":"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A conjunção coordenativa \"e\" atua na língua cotidiana e literária como um coringa polissêmico, podendo expressar adição, oposição (valor adversativo) ou consequência (valor consecutivo).",
+            "Contudo, em questões de concurso público e redações oficiais, as bancas rejeitam soluções baseadas no \"e\" quando o objetivo do item é aferir o domínio do repertório de conectivos específicos (adversativos, causais, consecutivos, explicativos)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em provas discursivas, nunca utilizar outrossim ou destarte sem verificar o nexo semântico do parágrafo.",
+            "Em provas objetivas, desconsiderar o conectivo \"e\" se a banca buscar a conjunção própria da relação lógica em análise."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alertas: WARN-A11-G02-006, WARN-A11-G02-007.",
+            "Termos associados: TERM-A11-G02-003, TERM-A11-G02-004, TERM-A11-G02-007."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A11-G02-001",
+          "title": "Quadro sinótico de formulações canônicas",
+          "statement": "Quadro sinótico de formulações canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Quadro sinótico de formulações canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G02-001",
+              "table": {
+                "tableId": "TABLE-IP-A11-G02-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Conceito / Regra",
+                  "Formulação canônica",
+                  "ID de referência"
+                ],
+                "rows": [
+                  [
+                    "Coesão Sequencial",
+                    "Encadeamento lógico e linear entre segmentos textuais operado por conectivos gramaticais explícitos.",
+                    "KB-A11-G02-001"
+                  ],
+                  [
+                    "Coerência Textual",
+                    "Propriedade semântico-pragmática de interpretabilidade e conformidade lógica das ideias (\"fazer sentido\").",
+                    "KB-A11-G02-002"
+                  ],
+                  [
+                    "Textualidade",
+                    "Qualidade global resultante da integração harmoniosa de Coesão + Coerência (\"Texto com qualidade\").",
+                    "KB-A11-G02-003"
+                  ],
+                  [
+                    "Coerência sem Coesão",
+                    "Possível (SIM). Sentido lógico preservado por justaposição/assíndeto sem conectivos formais.",
+                    "KB-A11-G02-002"
+                  ],
+                  [
+                    "Coesão sem Coerência",
+                    "Inadmissível (NÃO). Conectivos empregados sem correspondência lógica anulam o texto.",
+                    "KB-A11-G02-002, KB-A11-G02-003"
+                  ],
+                  [
+                    "Regra do Posicionamento",
+                    "\"A conjunção recebe o nome da oração que vem depois dela / O que vem depois salva\".",
+                    "KB-A11-G02-006"
+                  ],
+                  [
+                    "Critério Cronológico Causal",
+                    "Causa = 1º evento temporal (origem); Consequência/Conclusão = 2º evento temporal (resultado).",
+                    "KB-A11-G02-005"
+                  ],
+                  [
+                    "Teste de Causalidade",
+                    "\"O fato de [Causa / 1º] fez com que [Consequência / 2º]\".",
+                    "KB-A11-G02-005"
+                  ],
+                  [
+                    "Marcador de Explicação",
+                    "Verbo no modo imperativo na oração anterior induz relação explicativa/justificativa.",
+                    "KB-A11-G02-007"
+                  ],
+                  [
+                    "Requisito de Oposição",
+                    "Exige contradição ou polaridade antagônica real (+ vs -); rejeita proposições que se reafirmam.",
+                    "KB-A11-G02-008"
+                  ],
+                  [
+                    "Exemplificação",
+                    "Transição do geral para o específico; requer conectivos ilustrativos (por exemplo) e rejeita portanto.",
+                    "KB-A11-G02-009"
+                  ],
+                  [
+                    "Pontuação de Coordenativas",
+                    "Posição inicial: 1 vírgula facultativa; Posição deslocada/intercalada: 2 vírgulas obrigatórias.",
+                    "KB-A11-G02-010"
+                  ],
+                  [
+                    "Semântica de Outrossim",
+                    "Conectivo estritamente aditivo (= além disso, do mesmo modo).",
+                    "KB-A11-G02-011"
+                  ],
+                  [
+                    "Semântica de Destarte",
+                    "Conectivo estritamente conclusivo (= portanto, por conseguinte, assim).",
+                    "KB-A11-G02-011"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A11-G02-001",
+          "title": "Protocolo Geral dos Três Passos com Segmentação por Colchetes e Destaque do Verbo",
+          "objective": "Executar o algoritmo decisório para Protocolo Geral dos Três Passos com Segmentação por Colchetes e Destaque do Verbo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo Geral dos Três Passos com Segmentação por Colchetes e Destaque do Verbo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Delimitação por Colchetes e Resumo Nuclear pelo Verbo",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Isolar com colchetes os dois blocos textuais sob exame",
+              "explanation": "[Bloco 1: período/oração anterior] e [Bloco 2: período/oração que receberá o conector].",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Ignorar termos secundários, adjuntos adverbiais extensos e orações intercaladas dispersivas.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Sublinhar o verbo significativo de cada bloco (\"o verbo salva\"). Se o verbo for de ligação (ser, estar), sublinhar o predicativo essencial.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Resumir mentalmente cada bloco em 2 ou 3 palavras-chave estruturadas em torno do verbo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 2 — Diagnóstico da Relação Lógica entre os Blocos",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Comparar os resumos nucleares e submetê-los aos testes diagnósticos",
+              "explanation": "",
+              "test": "Comparar os resumos nucleares e submetê-los aos testes diagnósticos:"
+            },
+            {
+              "order": 8,
+              "action": "Teste de Oposição",
+              "explanation": "Há polaridade contrária (Sim vs Não, (+) vs (-))? Se sim $\\rightarrow$ Relação de Oposição (Adversativa/Concessiva).",
+              "test": "Teste de Oposição: Há polaridade contrária (Sim vs Não, (+) vs (-))? Se sim $\\rightarrow$ Relação de Oposição (Adversativa/Concessiva)."
+            },
+            {
+              "order": 9,
+              "action": "Teste de Explicação",
+              "explanation": "O Bloco 1 possui verbo no imperativo e o Bloco 2 traz a justificativa? Se sim $\\rightarrow$ Relação de Explicação.",
+              "test": "Teste de Explicação: O Bloco 1 possui verbo no imperativo e o Bloco 2 traz a justificativa? Se sim $\\rightarrow$ Relação de Explicação."
+            },
+            {
+              "order": 10,
+              "action": "Teste de Causalidade",
+              "explanation": "Cabe perfeitamente a fórmula \"O fato de [Bloco A] fez com que [Bloco B]\"? Se sim $\\rightarrow$ Relação de Causa e Efeito/Conclusão.",
+              "test": "Teste de Causalidade: Cabe perfeitamente a fórmula \"O fato de [Bloco A] fez com que [Bloco B]\"? Se sim $\\rightarrow$ Relação de Causa e Efeito/Conclusão."
+            },
+            {
+              "order": 11,
+              "action": "Teste de Exemplificação",
+              "explanation": "O Bloco 1 traz um princípio geral e o Bloco 2 um caso específico? Se sim $\\rightarrow$ Relação de Exemplificação.",
+              "test": "Teste de Exemplificação: O Bloco 1 traz um princípio geral e o Bloco 2 um caso específico? Se sim $\\rightarrow$ Relação de Exemplificação."
+            },
+            {
+              "order": 12,
+              "action": "Teste de Reafirmação",
+              "explanation": "O Bloco 2 apenas repete ou parafraseia a ideia do Bloco 1? Se sim $\\rightarrow$ Reafirmação (rejeita conectivos adversativos).",
+              "test": "Teste de Reafirmação: O Bloco 2 apenas repete ou parafraseia a ideia do Bloco 1? Se sim $\\rightarrow$ Reafirmação (rejeita conectivos adversativos)."
+            },
+            {
+              "order": 13,
+              "action": "Passo 3 — Escolha, Posicionamento e Pontuação do Conectivo",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 14,
+              "action": "Identificar o local exato da inserção do conectivo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 15,
+              "action": "Aplicar a regra \"o que vem depois salva\"",
+              "explanation": "conferir se o valor do conectivo coincide com a função do bloco posposto.",
+              "test": null
+            },
+            {
+              "order": 16,
+              "action": "Checar a pontuação",
+              "explanation": "se a conjunção coordenativa for inserida no meio do período (deslocada), exigir duas vírgulas obrigatórias; se inserida no início, validar a vírgula como facultativa.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo Geral dos Três Passos com Segmentação por Colchetes e Destaque do Verbo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Resolver com precisão analítica e velocidade qualquer item de concurso público que envolva inserção, substituição, eliminação ou julgamento de conectivos e relações de coesão/coerência."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo estruturada"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Delimitação por Colchetes e Resumo Nuclear pelo Verbo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Isolar com colchetes os dois blocos textuais sob exame: [Bloco 1: período/oração anterior] e [Bloco 2: período/oração que receberá o conector].",
+                "Ignorar termos secundários, adjuntos adverbiais extensos e orações intercaladas dispersivas.",
+                "Sublinhar o verbo significativo de cada bloco (\"o verbo salva\"). Se o verbo for de ligação (ser, estar), sublinhar o predicativo essencial.",
+                "Resumir mentalmente cada bloco em 2 ou 3 palavras-chave estruturadas em torno do verbo."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2 — Diagnóstico da Relação Lógica entre os Blocos:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Comparar os resumos nucleares e submetê-los aos testes diagnósticos:",
+                "Teste de Oposição: Há polaridade contrária (Sim vs Não, (+) vs (-))? Se sim $\\rightarrow$ Relação de Oposição (Adversativa/Concessiva).",
+                "Teste de Explicação: O Bloco 1 possui verbo no imperativo e o Bloco 2 traz a justificativa? Se sim $\\rightarrow$ Relação de Explicação.",
+                "Teste de Causalidade: Cabe perfeitamente a fórmula \"O fato de [Bloco A] fez com que [Bloco B]\"? Se sim $\\rightarrow$ Relação de Causa e Efeito/Conclusão.",
+                "Teste de Exemplificação: O Bloco 1 traz um princípio geral e o Bloco 2 um caso específico? Se sim $\\rightarrow$ Relação de Exemplificação.",
+                "Teste de Reafirmação: O Bloco 2 apenas repete ou parafraseia a ideia do Bloco 1? Se sim $\\rightarrow$ Reafirmação (rejeita conectivos adversativos)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3 — Escolha, Posicionamento e Pontuação do Conectivo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Identificar o local exato da inserção do conectivo.",
+                "Aplicar a regra \"o que vem depois salva\": conferir se o valor do conectivo coincide com a função do bloco posposto.",
+                "Checar a pontuação: se a conjunção coordenativa for inserida no meio do período (deslocada), exigir duas vírgulas obrigatórias; se inserida no início, validar a vírgula como facultativa."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Validação do resultado"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fazer a releitura contínua da estrutura final verificando se a coesão gramatical e a coerência lógica foram estabelecidas simultaneamente."
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A11-G02-002",
+          "title": "Teste Cronológico e Fórmula Lógica da Causalidade (\"O Fato De... Fez Com Que...\")",
+          "objective": "Executar o algoritmo decisório para Teste Cronológico e Fórmula Lógica da Causalidade (\"O Fato De... Fez Com Que...\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Cronológico e Fórmula Lógica da Causalidade (\"O Fato De... Fez Com Que...\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Desconectar-se da ordem de disposição das palavras no papel.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Perguntar-se",
+              "explanation": "\"Na realidade cronológica do mundo fático, qual evento aconteceu em 1º lugar?\"",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "1º Fato no Tempo = CAUSA (fato gerador, motivo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "2º Fato no Tempo = CONSEQUÊNCIA / CONCLUSÃO / EFEITO (resultado decorrente).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Montar mentalmente a equação",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Validar o posicionamento do conectivo",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Conectivo posicionado antes da Causa $\\rightarrow$ deve ser Causal (como, já que, porque, visto que).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Conectivo posicionado antes da Consequência $\\rightarrow$ deve ser Consecutivo (de modo que) ou Conclusivo (logo, portanto, por isso).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Cronológico e Fórmula Lógica da Causalidade (\"O Fato De... Fez Com Que...\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "formulas": [
+            "\\text{O fato de } [\\text{1º Fato: Causa}] \\text{ fez com que } [\\text{2º Fato: Consequência}]"
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eliminar de forma infalível a inversão entre causa e consequência (prevenir a \"perda da coordenação motora\" sintática)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo estruturada"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Desconectar-se da ordem de disposição das palavras no papel.",
+                "Perguntar-se: \"Na realidade cronológica do mundo fático, qual evento aconteceu em 1º lugar?\""
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "1º Fato no Tempo = CAUSA (fato gerador, motivo).",
+                "2º Fato no Tempo = CONSEQUÊNCIA / CONCLUSÃO / EFEITO (resultado decorrente)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Montar mentalmente a equação:"
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "\\text{O fato de } [\\text{1º Fato: Causa}] \\text{ fez com que } [\\text{2º Fato: Consequência}]"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Validar o posicionamento do conectivo:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Conectivo posicionado antes da Causa $\\rightarrow$ deve ser Causal (como, já que, porque, visto que).",
+                "Conectivo posicionado antes da Consequência $\\rightarrow$ deve ser Consecutivo (de modo que) ou Conclusivo (logo, portanto, por isso)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A11-G02-003",
+          "title": "Rastreamento Anafórico e Dêitico para Validação de Coesão Interperiodal (\"Banca de Setas\")",
+          "objective": "Executar o algoritmo decisório para Rastreamento Anafórico e Dêitico para Validação de Coesão Interperiodal (\"Banca de Setas\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Rastreamento Anafórico e Dêitico para Validação de Coesão Interperiodal (\"Banca de Setas\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar pronomes possessivos (sua, seu), demonstrativos (essas, este, aquele) ou expressões sintetizadoras no Bloco 2.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Traçar visualmente uma seta do pronome até o substantivo/ideia correspondente no Bloco 1.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Substituir mentalmente o pronome pelo termo original para clarificar o sujeito do Bloco 2.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Proceder à análise da relação lógica entre os blocos com os referentes plenamente desempatados.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Rastreamento Anafórico e Dêitico para Validação de Coesão Interperiodal (\"Banca de Setas\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Garantir a correta identificação dos sujeitos e referentes em períodos compostos extensos típicos de bancas como o CEBRASPE."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo estruturada"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localizar pronomes possessivos (sua, seu), demonstrativos (essas, este, aquele) ou expressões sintetizadoras no Bloco 2.",
+                "Traçar visualmente uma seta do pronome até o substantivo/ideia correspondente no Bloco 1.",
+                "Substituir mentalmente o pronome pelo termo original para clarificar o sujeito do Bloco 2.",
+                "Proceder à análise da relação lógica entre os blocos com os referentes plenamente desempatados."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A11-G02-004",
+          "title": "Procedimento de Validação de Pontuação para Conjunções Coordenativas",
+          "objective": "Executar o algoritmo decisório para Procedimento de Validação de Pontuação para Conjunções Coordenativas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento de Validação de Pontuação para Conjunções Coordenativas."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Inspecionar a posição sintática em que a conjunção foi proposta",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Caso A — Posição Inicial",
+              "explanation": "A conjunção abre a oração após ponto final ou ponto e vírgula.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Validação",
+              "explanation": "A presença da vírgula imediatamente após a conjunção é facultativa. Ambas as grafias (Portanto,... ou Portanto...) são corretas.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Caso B — Posição Deslocada / Intercalada",
+              "explanation": "A conjunção está inserida no meio da oração (após sujeito, verbo ou adjunto).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Validação",
+              "explanation": "É mandatória a presença de duas vírgulas isolando o conectivo (..., portanto,...). Se houver apenas uma ou nenhuma vírgula, a assertiva é gramaticalmente incorreta.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento de Validação de Pontuação para Conjunções Coordenativas."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Avaliar se propostas de reescrita contendo inserção ou deslocamento de conjunções atendem estritamente às normas de pontuação."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sequência passo a passo estruturada"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Inspecionar a posição sintática em que a conjunção foi proposta:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Caso A — Posição Inicial: A conjunção abre a oração após ponto final ou ponto e vírgula.",
+                "Validação: A presença da vírgula imediatamente após a conjunção é facultativa. Ambas as grafias (Portanto,... ou Portanto...) são corretas.",
+                "Caso B — Posição Deslocada / Intercalada: A conjunção está inserida no meio da oração (após sujeito, verbo ou adjunto).",
+                "Validação: É mandatória a presença de duas vírgulas isolando o conectivo (..., portanto,...). Se houver apenas uma ou nenhuma vírgula, a assertiva é gramaticalmente incorreta."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A11-G02-001",
+          "title": "Tabela 1: Coesão vs. Coerência vs. Textualidade",
+          "contrastType": "discursive",
+          "conceptA": "Tabela 1: Coesão vs. Coerência vs. Textualidade",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G02-002",
+              "table": {
+                "tableId": "TABLE-IP-A11-G02-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Dimensão",
+                  "Coesão Sequencial",
+                  "Coerência Textual",
+                  "Textualidade"
+                ],
+                "rows": [
+                  [
+                    "Plano de atuação",
+                    "Gramatical, formal, de superfície.",
+                    "Semântico, lógico, conceitual.",
+                    "Pragmático, comunicativo global."
+                  ],
+                  [
+                    "Mecanismo",
+                    "Conectivos explícitos (conjunções, preposições).",
+                    "Encadeamento não contraditório de ideias.",
+                    "Coesão + Coerência em harmonia."
+                  ],
+                  [
+                    "Mantra operacional",
+                    "\"Coesão é Ligação\"",
+                    "\"Coerência é Lógica / Fazer Sentido\"",
+                    "\"Texto com Qualidade\""
+                  ],
+                  [
+                    "Status sem o outro",
+                    "Sem coerência: nula/inadmissível (NÃO).",
+                    "Sem coesão: viável por justaposição (SIM).",
+                    "Inexistente se faltar coerência."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A11-G02-002",
+          "title": "Tabela 2: Matriz Diferencial de Relações Lógicas",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 2: Matriz Diferencial de Relações Lógicas",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G02-003",
+              "table": {
+                "tableId": "TABLE-IP-A11-G02-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Relação Lógica",
+                  "Teste Diagnóstico Decisivo",
+                  "Posição Temporal / Semântica",
+                  "Conectivos Canônicos"
+                ],
+                "rows": [
+                  [
+                    "Causalidade",
+                    "\"O fato de [A] fez com que [B]\" (Foco no fato gerador)",
+                    "Conector introduz o 1º evento temporal (Causa).",
+                    "porque, já que, visto que, uma vez que, como, porquanto."
+                  ],
+                  [
+                    "Consequência / Conclusão",
+                    "\"O fato de [A] fez com que [B]\" (Foco no desfecho)",
+                    "Conector introduz o 2º evento temporal (Efeito).",
+                    "de modo que, logo, portanto, por isso, por conseguinte, assim, destarte."
+                  ],
+                  [
+                    "Explicação",
+                    "Justificativa de ordem/pedido; 1ª oração no imperativo",
+                    "Conector introduz a justificativa do ato de fala.",
+                    "pois (anteposto), porque, que, já que, uma vez que."
+                  ],
+                  [
+                    "Oposição / Contraste",
+                    "Polaridade antagônica (Sim vs Não, (+) vs (-))",
+                    "Conector introduz a quebra de expectativa ou ressalva.",
+                    "mas, porém, contudo, todavia, entretanto, no entanto, não obstante."
+                  ],
+                  [
+                    "Exemplificação",
+                    "Movimento dedutivo/ilustrativo Geral$\\rightarrow$ Específico",
+                    "Conector introduz a amostra concreta ou caso pontual.",
+                    "por exemplo, como exemplo, a título de exemplo."
+                  ],
+                  [
+                    "Reafirmação",
+                    "Paráfrase ou reforço conceituai ($A = A'$)",
+                    "Sem quebra de expectativa; não admite adversativas.",
+                    "(conectivos explicativos ou justaposição)."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A11-G02-003",
+          "title": "Tabela 3: Pontuação de Conjunções Coordenativas Conforme a Posição",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 3: Pontuação de Conjunções Coordenativas Conforme a Posição",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A11-G02-004",
+              "table": {
+                "tableId": "TABLE-IP-A11-G02-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Posição da Conjunção",
+                  "Exigência de Pontuação",
+                  "Exemplo de Aplicação",
+                  "Regra de Julgamento em Prova"
+                ],
+                "rows": [
+                  [
+                    "Inicial",
+                    "1 vírgulafacultativa (opcional)",
+                    "Portanto[,] o processo continuou.",
+                    "Certo com ou sem vírgula pós-posta."
+                  ],
+                  [
+                    "Deslocada / Intercalada",
+                    "2 vírgulasobrigatórias",
+                    "Sua importância, portanto, reside...",
+                    "Errado se omitir qualquer uma das duas vírgulas."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-001",
+          "title": "EX-A11-G02-001 — Demonstração Conceitual de Coerência sem Coesão Formal",
+          "prompt": "Trecho analisado: \"Enfrentamos um trânsito intenso hoje pela manhã; chegamos atrasados para a primeira reunião.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho analisado",
+              "rationale": "\"Enfrentamos um trânsito intenso hoje pela manhã; chegamos atrasados para a primeira reunião.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise estruturada",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Presença de conectivos",
+              "rationale": "Nenhuma conjunção une as duas orações; estão justapostas e articuladas apenas pelo sinal de ponto e vírgula (Coesão: NÃO)."
+            },
+            {
+              "order": 4,
+              "action": "Julgamento lógico",
+              "rationale": "A mensagem é compreensível e a relação de causa/efeito é captada imediatamente pelo leitor (Coerência: SIM)."
+            },
+            {
+              "order": 5,
+              "action": "Conceito demonstrado",
+              "rationale": "Prova cabal de que a coerência lógica nem sempre depende de mecanismos coesivos explícitos na superfície textual."
+            }
+          ],
+          "result": "Conceito demonstrado: Prova cabal de que a coerência lógica nem sempre depende de mecanismos coesivos explícitos na superfície textual.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-001 — Demonstração Conceitual de Coerência sem Coesão Formal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-001 — Demonstração Conceitual de Coerência sem Coesão Formal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-001 — Demonstração Conceitual de Coerência sem Coesão Formal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho analisado: \"Enfrentamos um trânsito intenso hoje pela manhã; chegamos atrasados para a primeira reunião.\"",
+                "Análise estruturada:",
+                "Presença de conectivos: Nenhuma conjunção une as duas orações; estão justapostas e articuladas apenas pelo sinal de ponto e vírgula (Coesão: NÃO).",
+                "Julgamento lógico: A mensagem é compreensível e a relação de causa/efeito é captada imediatamente pelo leitor (Coerência: SIM).",
+                "Conceito demonstrado: Prova cabal de que a coerência lógica nem sempre depende de mecanismos coesivos explícitos na superfície textual."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-002",
+          "title": "EX-A11-G02-002 — Demonstração de Coesão Causal Anteposta com \"Como\"",
+          "prompt": "Trecho analisado: \"Como enfrentamos um trânsito intenso hoje pela manhã, chegamos atrasados para a primeira reunião.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho analisado",
+              "rationale": "\"Como enfrentamos um trânsito intenso hoje pela manhã, chegamos atrasados para a primeira reunião.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise estruturada",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Conector presente",
+              "rationale": "\"Como\" (conjunção subordinativa adverbial causal anteposta, equivalente a já que, visto que)."
+            },
+            {
+              "order": 4,
+              "action": "Aplicação cronológica",
+              "rationale": "1º fato no tempo = trânsito intenso (Causa); 2º fato no tempo = atraso na reunião (Efeito)."
+            },
+            {
+              "order": 5,
+              "action": "Avaliação",
+              "rationale": "O conectivo causal encabeça a causa cronologicamente primária (Coesão: SIM e Coerência: SIM)."
+            }
+          ],
+          "result": "Conceito demonstrado: Posicionamento de conjunção causal na abertura do período (oração subordinada anteposta) e validação pelo mantra \"o que vem depois salva\".",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-002 — Demonstração de Coesão Causal Anteposta com \"Como\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-002 — Demonstração de Coesão Causal Anteposta com \"Como\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-002 — Demonstração de Coesão Causal Anteposta com \"Como\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho analisado: \"Como enfrentamos um trânsito intenso hoje pela manhã, chegamos atrasados para a primeira reunião.\"",
+                "Análise estruturada:",
+                "Conector presente: \"Como\" (conjunção subordinativa adverbial causal anteposta, equivalente a já que, visto que).",
+                "Aplicação cronológica: 1º fato no tempo = trânsito intenso (Causa); 2º fato no tempo = atraso na reunião (Efeito).",
+                "Avaliação: O conectivo causal encabeça a causa cronologicamente primária (Coesão: SIM e Coerência: SIM).",
+                "Conceito demonstrado: Posicionamento de conjunção causal na abertura do período (oração subordinada anteposta) e validação pelo mantra \"o que vem depois salva\"."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-003",
+          "title": "EX-A11-G02-003 — Demonstração de Coesão Conclusiva com \"Logo\" e \"Por Isso\"",
+          "prompt": "Trechos analisados:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trechos analisados",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "\"Estudamos bastante; por isso, tivemos um bom resultado.\"",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "\"Enfrentamos um trânsito intenso hoje pela manhã, logo chegamos atrasados para a primeira reunião.\"",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "Análise estruturada",
+              "rationale": ""
+            },
+            {
+              "order": 5,
+              "action": "Conectivos por isso e logo atuam como conjunções coordenativas conclusivas (equivalentes a portanto, por conseguinte).",
+              "rationale": null
+            }
+          ],
+          "result": "Conceito demonstrado: Equivalência funcional entre conclusão e consequência e alocação de conectivo conclusivo antes do efeito factual.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-003 — Demonstração de Coesão Conclusiva com \"Logo\" e \"Por Isso\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-003 — Demonstração de Coesão Conclusiva com \"Logo\" e \"Por Isso\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-003 — Demonstração de Coesão Conclusiva com \"Logo\" e \"Por Isso\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trechos analisados:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "\"Estudamos bastante; por isso, tivemos um bom resultado.\"",
+                "\"Enfrentamos um trânsito intenso hoje pela manhã, logo chegamos atrasados para a primeira reunião.\""
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise estruturada:",
+                "Conectivos por isso e logo atuam como conjunções coordenativas conclusivas (equivalentes a portanto, por conseguinte).",
+                "Ambos encabeçam a oração que expressa o segundo evento temporal (o efeito/conclusão da dedicação ou do trânsito).",
+                "Conceito demonstrado: Equivalência funcional entre conclusão e consequência e alocação de conectivo conclusivo antes do efeito factual."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-004",
+          "title": "EX-A11-G02-004 — Exercício de Fixação: Oposição e Contraste com Conectivo Adversativo",
+          "prompt": "Trecho original: \"Ele se preparou muito para a apresentação. Estava muito nervoso.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho original",
+              "rationale": "\"Ele se preparou muito para a apresentação. Estava muito nervoso.\""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvimento pelo Método dos 3 Passos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passo 1 (Resumo)",
+              "rationale": "Bloco 1 = preparou-se muito (polaridade + / expectativa de segurança); Bloco 2 = muito nervoso (polaridade - / quebra de expectativa). O verbo \"estava\" é ignorado por ser de ligação."
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Relação Lógica)",
+              "rationale": "Polaridade (+) vs (-) $\\rightarrow$ Oposição / Contraste."
+            },
+            {
+              "order": 5,
+              "action": "Passo 3 (Conectivo)",
+              "rationale": "Inserção de conjunção adversativa antes do Bloco 2."
+            }
+          ],
+          "result": "Resultado consolidado: \"Ele se preparou muito para a apresentação, porém / mas / contudo / todavia / entretanto / no entanto estava muito nervoso.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-004 — Exercício de Fixação: Oposição e Contraste com Conectivo Adversativo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-004 — Exercício de Fixação: Oposição e Contraste com Conectivo Adversativo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-004 — Exercício de Fixação: Oposição e Contraste com Conectivo Adversativo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho original: \"Ele se preparou muito para a apresentação. Estava muito nervoso.\"",
+                "Desenvolvimento pelo Método dos 3 Passos:",
+                "Passo 1 (Resumo): Bloco 1 = preparou-se muito (polaridade + / expectativa de segurança); Bloco 2 = muito nervoso (polaridade - / quebra de expectativa). O verbo \"estava\" é ignorado por ser de ligação.",
+                "Passo 2 (Relação Lógica): Polaridade (+) vs (-) $\\rightarrow$ Oposição / Contraste.",
+                "Passo 3 (Conectivo): Inserção de conjunção adversativa antes do Bloco 2.",
+                "Resultado consolidado: \"Ele se preparou muito para a apresentação, porém / mas / contudo / todavia / entretanto / no entanto estava muito nervoso.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-005",
+          "title": "EX-A11-G02-005 — Exercício de Fixação: Prevalência de Causalidade sobre Explicação",
+          "prompt": "Trecho original: \"A festa foi cancelada. Houve um problema na organização.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho original",
+              "rationale": "\"A festa foi cancelada. Houve um problema na organização.\""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvimento pelo Método dos 3 Passos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passo 1 (Resumo)",
+              "rationale": "Bloco 1 = festa cancelada; Bloco 2 = problema na organização."
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Relação Lógica)",
+              "rationale": "Teste mental: \"O fato de ter havido problema na organização fez com que a festa fosse cancelada\". Relação de Causa e Consequência."
+            },
+            {
+              "order": 5,
+              "action": "Ordenação Cronológica",
+              "rationale": "1º Problema na organização (Causa); 2º Cancelamento da festa (Consequência)."
+            }
+          ],
+          "result": "Resultado consolidado: \"A festa foi cancelada, porque / visto que / uma vez que / já que / pois / porquanto houve um problema na organização.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-005 — Exercício de Fixação: Prevalência de Causalidade sobre Explicação sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-005 — Exercício de Fixação: Prevalência de Causalidade sobre Explicação.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-005 — Exercício de Fixação: Prevalência de Causalidade sobre Explicação.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho original: \"A festa foi cancelada. Houve um problema na organização.\"",
+                "Desenvolvimento pelo Método dos 3 Passos:",
+                "Passo 1 (Resumo): Bloco 1 = festa cancelada; Bloco 2 = problema na organização.",
+                "Passo 2 (Relação Lógica): Teste mental: \"O fato de ter havido problema na organização fez com que a festa fosse cancelada\". Relação de Causa e Consequência.",
+                "Ordenação Cronológica: 1º Problema na organização (Causa); 2º Cancelamento da festa (Consequência).",
+                "Passo 3 (Conectivo): O conector antecede o Bloco 2 (que é a Causa). Logo, exige-se conectivo causal.",
+                "Resultado consolidado: \"A festa foi cancelada, porque / visto que / uma vez que / já que / pois / porquanto houve um problema na organização.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-006",
+          "title": "EX-A11-G02-006 — Exercício de Fixação: Causa e Efeito com Conector Consecutivo",
+          "prompt": "Trecho original: \"Marisa saiu de casa atrasada. Perdeu o ônibus.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho original",
+              "rationale": "\"Marisa saiu de casa atrasada. Perdeu o ônibus.\""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvimento pelo Método dos 3 Passos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passo 1 (Resumo)",
+              "rationale": "Bloco 1 = saiu atrasada; Bloco 2 = perdeu o ônibus."
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Relação Lógica)",
+              "rationale": "\"O fato de sair atrasada fez com que perdesse o ônibus\" $\\rightarrow$ Causa e Consequência."
+            },
+            {
+              "order": 5,
+              "action": "Ordenação Cronológica",
+              "rationale": "1º Saiu atrasada (Causa); 2º Perdeu o ônibus (Consequência)."
+            }
+          ],
+          "result": "Resultado consolidado: \"Marisa saiu de casa atrasada, de modo que / de forma que / logo / portanto / por conseguinte / assim perdeu o ônibus.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-006 — Exercício de Fixação: Causa e Efeito com Conector Consecutivo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-006 — Exercício de Fixação: Causa e Efeito com Conector Consecutivo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-006 — Exercício de Fixação: Causa e Efeito com Conector Consecutivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho original: \"Marisa saiu de casa atrasada. Perdeu o ônibus.\"",
+                "Desenvolvimento pelo Método dos 3 Passos:",
+                "Passo 1 (Resumo): Bloco 1 = saiu atrasada; Bloco 2 = perdeu o ônibus.",
+                "Passo 2 (Relação Lógica): \"O fato de sair atrasada fez com que perdesse o ônibus\" $\\rightarrow$ Causa e Consequência.",
+                "Ordenação Cronológica: 1º Saiu atrasada (Causa); 2º Perdeu o ônibus (Consequência).",
+                "Passo 3 (Conectivo): O conector antecede o Bloco 2 (Consequência). Logo, exige-se conectivo consecutivo ou conclusivo.",
+                "Resultado consolidado: \"Marisa saiu de casa atrasada, de modo que / de forma que / logo / portanto / por conseguinte / assim perdeu o ônibus.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-007",
+          "title": "EX-A11-G02-007 — Exercício de Fixação: Imperativo e Conectivo Explicativo",
+          "prompt": "Trecho original: \"Levem os casacos. Poderá fazer frio.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho original",
+              "rationale": "\"Levem os casacos. Poderá fazer frio.\""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvimento pelo Método dos 3 Passos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passo 1 (Resumo)",
+              "rationale": "Bloco 1 = Levem os casacos (verbo \"levem\" no modo imperativo = ordem/conselho); Bloco 2 = poderá fazer frio (justificativa)."
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Relação Lógica)",
+              "rationale": "Imperativo acoplado a justificativa $\\rightarrow$ Explicação."
+            },
+            {
+              "order": 5,
+              "action": "Passo 3 (Conectivo)",
+              "rationale": "Inserção de conjunção explicativa antes da justificativa."
+            }
+          ],
+          "result": "Resultado consolidado: \"Levem os casacos, pois / porque / uma vez que / já que / visto que poderá fazer frio.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-007 — Exercício de Fixação: Imperativo e Conectivo Explicativo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-007 — Exercício de Fixação: Imperativo e Conectivo Explicativo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-007 — Exercício de Fixação: Imperativo e Conectivo Explicativo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho original: \"Levem os casacos. Poderá fazer frio.\"",
+                "Desenvolvimento pelo Método dos 3 Passos:",
+                "Passo 1 (Resumo): Bloco 1 = Levem os casacos (verbo \"levem\" no modo imperativo = ordem/conselho); Bloco 2 = poderá fazer frio (justificativa).",
+                "Passo 2 (Relação Lógica): Imperativo acoplado a justificativa $\\rightarrow$ Explicação.",
+                "Passo 3 (Conectivo): Inserção de conjunção explicativa antes da justificativa.",
+                "Resultado consolidado: \"Levem os casacos, pois / porque / uma vez que / já que / visto que poderá fazer frio.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-008",
+          "title": "EX-A11-G02-008 — Exercício de Fixação: Consequência Factual com Conector Conclusivo",
+          "prompt": "Trecho original: \"Ana não trouxe guarda-chuva. Molhou-se na chuva.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho original",
+              "rationale": "\"Ana não trouxe guarda-chuva. Molhou-se na chuva.\""
+            },
+            {
+              "order": 2,
+              "action": "Desenvolvimento pelo Método dos 3 Passos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Passo 1 (Resumo)",
+              "rationale": "Bloco 1 = não trouxe guarda-chuva; Bloco 2 = molhou-se."
+            },
+            {
+              "order": 4,
+              "action": "Passo 2 (Relação Lógica)",
+              "rationale": "\"O fato de não trazer guarda-chuva fez com que se molhasse\" $\\rightarrow$ Causa e Consequência."
+            },
+            {
+              "order": 5,
+              "action": "Ordenação Cronológica",
+              "rationale": "1º Não trazer o guarda-chuva (Causa); 2º Molhar-se (Consequência)."
+            }
+          ],
+          "result": "Resultado consolidado: \"Ana não trouxe guarda-chuva, logo / portanto / por conseguinte / de modo que / de forma que molhou-se na chuva.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-008 — Exercício de Fixação: Consequência Factual com Conector Conclusivo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-008 — Exercício de Fixação: Consequência Factual com Conector Conclusivo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-008 — Exercício de Fixação: Consequência Factual com Conector Conclusivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho original: \"Ana não trouxe guarda-chuva. Molhou-se na chuva.\"",
+                "Desenvolvimento pelo Método dos 3 Passos:",
+                "Passo 1 (Resumo): Bloco 1 = não trouxe guarda-chuva; Bloco 2 = molhou-se.",
+                "Passo 2 (Relação Lógica): \"O fato de não trazer guarda-chuva fez com que se molhasse\" $\\rightarrow$ Causa e Consequência.",
+                "Ordenação Cronológica: 1º Não trazer o guarda-chuva (Causa); 2º Molhar-se (Consequência).",
+                "Passo 3 (Conectivo): O conector antecede a consequência $\\rightarrow$ conjunção consecutiva/conclusiva.",
+                "Resultado consolidado: \"Ana não trouxe guarda-chuva, logo / portanto / por conseguinte / de modo que / de forma que molhou-se na chuva.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-009",
+          "title": "EX-A11-G02-009 — Questão de Concurso CEBRASPE (BNB 2022): Inserção de \"Portanto\" Deslocado",
+          "prompt": "Dados da questão: CESPE / CEBRASPE - 2022 - BNB - Analista de Sistemas.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Dados da questão",
+              "rationale": "CESPE / CEBRASPE - 2022 - BNB - Analista de Sistemas."
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Avaliar se não haveria prejuízo do sentido original caso fosse inserida, entre vírgulas, a conjunção portanto imediatamente após \"Sua importância\", no último período do segundo parágrafo."
+            },
+            {
+              "order": 3,
+              "action": "Trecho",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Bloco 1",
+              "rationale": "\"Capital social... é o conjunto de normas, instituições e organizações que promovem a confiança... e facilitação da constituição de organizações de gestão de bases efetivas, de atores sociais e de sociedades civis saudáveis.\""
+            },
+            {
+              "order": 5,
+              "action": "Bloco 2",
+              "rationale": "\"[Sua importância] está na busca de estratégias de superação da pobreza...\""
+            }
+          ],
+          "result": "Gabarito oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-009 — Questão de Concurso CEBRASPE (BNB 2022): Inserção de \"Portanto\" Deslocado sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-009 — Questão de Concurso CEBRASPE (BNB 2022): Inserção de \"Portanto\" Deslocado.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-009 — Questão de Concurso CEBRASPE (BNB 2022): Inserção de \"Portanto\" Deslocado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dados da questão: CESPE / CEBRASPE - 2022 - BNB - Analista de Sistemas.",
+                "Enunciado: Avaliar se não haveria prejuízo do sentido original caso fosse inserida, entre vírgulas, a conjunção portanto imediatamente após \"Sua importância\", no último período do segundo parágrafo.",
+                "Trecho:",
+                "Bloco 1: \"Capital social... é o conjunto de normas, instituições e organizações que promovem a confiança... e facilitação da constituição de organizações de gestão de bases efetivas, de atores sociais e de sociedades civis saudáveis.\"",
+                "Bloco 2: \"[Sua importância] está na busca de estratégias de superação da pobreza...\"",
+                "Desenvolvimento analítico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Resumo: Bloco 1 = Capital social estrutura sociedades saudáveis (Causa / 1º cronológico); Bloco 2 = Relevância do capital social reside na superação da pobreza (Consequência / 2º cronológico).",
+                "Anáfora: \"Sua\" retoma \"Capital social\".",
+                "Teste Causal: O fato de promover confiança e gerir sociedades saudáveis faz com que sua importância resida na superação da pobreza. Conclusão validada.",
+                "Pontuação: Conjunção inserida no meio do período exige e recebeu as duas vírgulas obrigatórias."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-010",
+          "title": "EX-A11-G02-010 — Questão de Concurso CEBRASPE (PC-DF 2025): Desconstrução de Falsa Conclusão por Inversão Causal",
+          "prompt": "Dados da questão: CESPE / CEBRASPE - 2025 - PC-DF - Analista de Apoio às Atividades Policiais Civis.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Dados da questão",
+              "rationale": "CESPE / CEBRASPE - 2025 - PC-DF - Analista de Apoio às Atividades Policiais Civis."
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Afirma que o último período consiste em conclusão acerca do período anterior e que seu início poderia ser reescrito como: \"Portanto, o processo (...)\", mantendo a correção e os sentidos."
+            },
+            {
+              "order": 3,
+              "action": "Trecho",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Bloco 1",
+              "rationale": "\"Nas décadas posteriores, as interpretações relativas às preocupações ambientais foram gradualmente transformadas...\""
+            },
+            {
+              "order": 5,
+              "action": "Bloco 2",
+              "rationale": "\"O processo de redemocratização, o fortalecimento de organizações da sociedade civil, o avanço dos estudos científicos... favoreceram essas novas percepções...\""
+            }
+          ],
+          "result": "Gabarito oficial: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-010 — Questão de Concurso CEBRASPE (PC-DF 2025): Desconstrução de Falsa Conclusão por Inversão Causal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-010 — Questão de Concurso CEBRASPE (PC-DF 2025): Desconstrução de Falsa Conclusão por Inversão Causal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-010 — Questão de Concurso CEBRASPE (PC-DF 2025): Desconstrução de Falsa Conclusão por Inversão Causal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dados da questão: CESPE / CEBRASPE - 2025 - PC-DF - Analista de Apoio às Atividades Policiais Civis.",
+                "Enunciado: Afirma que o último período consiste em conclusão acerca do período anterior e que seu início poderia ser reescrito como: \"Portanto, o processo (...)\", mantendo a correção e os sentidos.",
+                "Trecho:",
+                "Bloco 1: \"Nas décadas posteriores, as interpretações relativas às preocupações ambientais foram gradualmente transformadas...\"",
+                "Bloco 2: \"O processo de redemocratização, o fortalecimento de organizações da sociedade civil, o avanço dos estudos científicos... favoreceram essas novas percepções...\"",
+                "Desenvolvimento analítico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Resumo: Bloco 1 = As percepções ambientais foram transformadas (Efeito / Consequência); Bloco 2 = A redemocratização e o avanço científico favoreceram tais percepções (Fatores geradores / Causas).",
+                "Anáfora: \"essas novas percepções\" retoma as \"interpretações transformadas\".",
+                "Detecção da armadilha: O Bloco 2 é a Causa do Bloco 1. Inserir portanto no Bloco 2 inverte a causalidade (faria parecer que a redemocratização decorreu das percepções ambientais)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito oficial: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-011",
+          "title": "EX-A11-G02-011 — Questão de Concurso CEBRASPE (MPE-RO 2023): Distinção entre Exemplificação e Conclusão",
+          "prompt": "Dados da questão: (ADAPTADO) CESPE / CEBRASPE - 2023 - MPE-RO - Analista Contábil.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Dados da questão",
+              "rationale": "(ADAPTADO) CESPE / CEBRASPE - 2023 - MPE-RO - Analista Contábil."
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Julgar se a união do 2º e 3º períodos mediante a conjunção portanto é correta e coerente."
+            },
+            {
+              "order": 3,
+              "action": "Proposta",
+              "rationale": "\"São raros os casos em que se fixou... um nome distinto para a língua, portanto temos o caso do povo fulniô, cuja língua é o iatê.\""
+            },
+            {
+              "order": 4,
+              "action": "Desenvolvimento analítico",
+              "rationale": ""
+            },
+            {
+              "order": 5,
+              "action": "Resumo",
+              "rationale": "Período 2 = Casos raros de nome distinto (Constatação Geral); Período 3 = O povo Fulniô/língua Iatê (Caso Particular / Exemplo)."
+            }
+          ],
+          "result": "Gabarito oficial: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-011 — Questão de Concurso CEBRASPE (MPE-RO 2023): Distinção entre Exemplificação e Conclusão sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-011 — Questão de Concurso CEBRASPE (MPE-RO 2023): Distinção entre Exemplificação e Conclusão.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-011 — Questão de Concurso CEBRASPE (MPE-RO 2023): Distinção entre Exemplificação e Conclusão.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dados da questão: (ADAPTADO) CESPE / CEBRASPE - 2023 - MPE-RO - Analista Contábil.",
+                "Enunciado: Julgar se a união do 2º e 3º períodos mediante a conjunção portanto é correta e coerente.",
+                "Proposta: \"São raros os casos em que se fixou... um nome distinto para a língua, portanto temos o caso do povo fulniô, cuja língua é o iatê.\"",
+                "Desenvolvimento analítico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Resumo: Período 2 = Casos raros de nome distinto (Constatação Geral); Período 3 = O povo Fulniô/língua Iatê (Caso Particular / Exemplo).",
+                "Diagnóstico: O 3º período não decorre dedutivamente do 2º; ele é uma exemplificação (Geral $\\rightarrow$ Específico).",
+                "Incompatibilidade: Conectivo exigido seria por exemplo. O uso de portanto falsifica a semântica textual."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito oficial: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-012",
+          "title": "EX-A11-G02-012 — Questão de Concurso CEBRASPE (PF 2025): Contraste Real com \"Não Obstante\" Intercalado",
+          "prompt": "Dados da questão: CESPE / CEBRASPE - 2025 - Polícia Federal - Administrador.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Dados da questão",
+              "rationale": "CESPE / CEBRASPE - 2025 - Polícia Federal - Administrador."
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Avaliar se seria coerente e gramaticalmente correto inserir, entre vírgulas, a expressão não obstante logo após a palavra \"pobres\"."
+            },
+            {
+              "order": 3,
+              "action": "Trecho",
+              "rationale": "\"Os ricos podem comprar vastas quantidades de liberdade; os pobres [não obstante] precisam se virar sem ela...\""
+            },
+            {
+              "order": 4,
+              "action": "Desenvolvimento analítico",
+              "rationale": ""
+            },
+            {
+              "order": 5,
+              "action": "Delimitação por verbos",
+              "rationale": "Oração 1 = \"Os ricos podem comprar...\"; Oração 2 = \"os pobres precisam se virar...\"."
+            }
+          ],
+          "result": "Gabarito oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-012 — Questão de Concurso CEBRASPE (PF 2025): Contraste Real com \"Não Obstante\" Intercalado sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-012 — Questão de Concurso CEBRASPE (PF 2025): Contraste Real com \"Não Obstante\" Intercalado.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-012 — Questão de Concurso CEBRASPE (PF 2025): Contraste Real com \"Não Obstante\" Intercalado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dados da questão: CESPE / CEBRASPE - 2025 - Polícia Federal - Administrador.",
+                "Enunciado: Avaliar se seria coerente e gramaticalmente correto inserir, entre vírgulas, a expressão não obstante logo após a palavra \"pobres\".",
+                "Trecho: \"Os ricos podem comprar vastas quantidades de liberdade; os pobres [não obstante] precisam se virar sem ela...\"",
+                "Desenvolvimento analítico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Delimitação por verbos: Oração 1 = \"Os ricos podem comprar...\"; Oração 2 = \"os pobres precisam se virar...\".",
+                "Diagnóstico de polaridade: Ricos podem vs. Pobres não podem (vivem sem). Configura-se nítida relação de Oposição / Contraste.",
+                "Validação: Não obstante expressa contraste/ressalva e foi intercalado entre vírgulas após o sujeito."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A11-G02-013",
+          "title": "EX-A11-G02-013 — Questão de Concurso CEBRASPE (EBC): Falsa Oposição com \"Mas\" em Reafirmação Semântica",
+          "prompt": "Dados da questão: CESPE - EBC - Jornalista.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Dados da questão",
+              "rationale": "CESPE - EBC - Jornalista."
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Julgar se os dois últimos períodos do 1º parágrafo poderiam ser unidos pelo emprego da conjunção adversativa mas."
+            },
+            {
+              "order": 3,
+              "action": "Trecho",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Período 1",
+              "rationale": "\"Não eram jornalismo porque eram manifestações oficiais de uma instituição do poder político.\""
+            },
+            {
+              "order": 5,
+              "action": "Período 2",
+              "rationale": "\"Elas eram discurso oficial — e discurso oficial é o oposto de jornalismo.\""
+            }
+          ],
+          "result": "Gabarito oficial: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A11-G02-013 — Questão de Concurso CEBRASPE (EBC): Falsa Oposição com \"Mas\" em Reafirmação Semântica sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A11-G02-013 — Questão de Concurso CEBRASPE (EBC): Falsa Oposição com \"Mas\" em Reafirmação Semântica.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A11-G02-013 — Questão de Concurso CEBRASPE (EBC): Falsa Oposição com \"Mas\" em Reafirmação Semântica.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dados da questão: CESPE - EBC - Jornalista.",
+                "Enunciado: Julgar se os dois últimos períodos do 1º parágrafo poderiam ser unidos pelo emprego da conjunção adversativa mas.",
+                "Trecho:",
+                "Período 1: \"Não eram jornalismo porque eram manifestações oficiais de uma instituição do poder político.\"",
+                "Período 2: \"Elas eram discurso oficial — e discurso oficial é o oposto de jornalismo.\"",
+                "Desenvolvimento analítico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Resumo: Período 1 = Não eram jornalismo por serem manifestação oficial; Período 2 = Eram discurso oficial e isso é o oposto de jornalismo.",
+                "Diagnóstico: O Período 2 não contraria o Período 1; ele reafirma e justifica a mesma proposição sob outros termos vocabulares.",
+                "Incompatibilidade: Inexistindo contradição, o emprego de conjunção adversativa (mas) é incorreto."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito oficial: ERRADO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Nunca classifique uma conjunção pelo que você leu antes dela. Olhe exclusivamente para a oração introduzida imediatamente após o conectivo. Se a oração seguinte expressa a causa, a conjunção deve ser causal; se expressa a consequência, deve ser consecutiva/conclusiva; se expressa ressalva, adversativa/concessiva."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Diante de períodos longos e truncados de concurso, não tente compreender a frase inteira de uma vez. Vá diretamente ao verbo significativo de cada período. Sublinhe o verbo e seus complementos diretos. Se o verbo for de ligação (ser, estar), ignore o verbo e sublinhe o predicativo. Reduzir a frase a Sujeito + Verbo + Predicado torna a relação lógica imediatamente visível."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Encontrou verbo no modo imperativo (faça, venha, levem, não espere) na oração anterior a uma lacuna ou ponto final? Trata-se de uma relação de explicação/justificativa. A conjunção a ser aplicada será explicativa (pois, porque, que, já que)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Para validar conjunções conclusivas (portanto, logo), aplique a equação mental:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{O fato de } [\\text{Causa / 1º evento}] \\text{ fez com que } [\\text{Consequência / 2º evento}]"
+        },
+        {
+          "type": "paragraph",
+          "text": "O conectivo portanto só pode introduzir o 2º evento. Se estiver introduzindo o 1º evento, trata-se de pegadinha de inversão causal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Memorize o padrão espacial:",
+            "Início de período: Conjunção[,]... $\\rightarrow$ 1 vírgula facultativa.",
+            "Meio de período (deslocada): ..., conjunção,... $\\rightarrow$ 2 vírgulas obrigatórias."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicação prática: Ao resolver questões do CEBRASPE, desenhe setas ligando pronomes possessivos (sua, seu) e demonstrativos (essas, este) aos substantivos antecedentes no período anterior. Isso evita que você confunda os sujeitos das causas e das consequências."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A11-G02-001",
+          "title": "Supor que a Ausência de Conectivo Implica Falta de Coerência",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Supor que a Ausência de Conectivo Implica Falta de Coerência no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Supor que a Ausência de Conectivo Implica Falta de Coerência.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Supor que a Ausência de Conectivo Implica Falta de Coerência.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Supor que a Ausência de Conectivo Implica Falta de Coerência para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Supor que a Ausência de Conectivo Implica Falta de Coerência.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Supor que a Ausência de Conectivo Implica Falta de Coerência.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Julgar que períodos justapostos ou assindéticos são gramaticalmente errados ou incoerentes por não terem conjunções explícitas.",
+                "Como evitar: Lembrar que a coerência reside no sentido lógico global; textos assindéticos mantêm coerência plena (Coesão: NÃO, Coerência: SIM)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-002",
+          "title": "Perda da Coordenação Motora e Inversão Causal",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Perda da Coordenação Motora e Inversão Causal no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Perda da Coordenação Motora e Inversão Causal.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Perda da Coordenação Motora e Inversão Causal.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Perda da Coordenação Motora e Inversão Causal para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Perda da Coordenação Motora e Inversão Causal.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Perda da Coordenação Motora e Inversão Causal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Inserir conectivo causal antes da consequência ou conectivo conclusivo antes da causa (ex.: \"Choveu muito, visto que alagou a rua\").",
+                "Como evitar: Aplicar rigorosamente a linha do tempo: 1º Causa $\\rightarrow$ 2º Consequência. A conjunção causal só pode anteceder o 1º evento."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-003",
+          "title": "A Armadilha da \"Conclusão no Último Período\" do CEBRASPE",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da \"Conclusão no Último Período\" do CEBRASPE no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da \"Conclusão no Último Período\" do CEBRASPE.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da \"Conclusão no Último Período\" do CEBRASPE.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha da \"Conclusão no Último Período\" do CEBRASPE para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha da \"Conclusão no Último Período\" do CEBRASPE.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da \"Conclusão no Último Período\" do CEBRASPE.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Marcar como certa a inserção de portanto no último período do texto apenas porque ele está no final do parágrafo, acreditando no mito escolar de que \"o último período é sempre a conclusão\".",
+                "Como evitar: Analisar a microestrutura semântica do parágrafo; o último período frequentemente expressa a causa geradora dos fatos citados no início do parágrafo (como visto na PC-DF 2025)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-004",
+          "title": "Confundir Exemplificação (Geral para o Específico) com Conclusão",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Exemplificação (Geral para o Específico) com Conclusão no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Exemplificação (Geral para o Específico) com Conclusão.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Exemplificação (Geral para o Específico) com Conclusão.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Exemplificação (Geral para o Específico) com Conclusão para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Exemplificação (Geral para o Específico) com Conclusão.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Exemplificação (Geral para o Específico) com Conclusão.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Aceitar a conjunção portanto na transição de uma afirmação genérica para um caso pontual.",
+                "Como evitar: Se o período 1 expressa uma regra ampla e o período 2 cita uma entidade/caso que ilustra essa regra, a relação é de exemplificação (por exemplo), rejeitando conectivos conclusivos."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-005",
+          "title": "Confundir Reafirmação/Justificativa com Oposição",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Reafirmação/Justificativa com Oposição no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Reafirmação/Justificativa com Oposição.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Reafirmação/Justificativa com Oposição.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Reafirmação/Justificativa com Oposição para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Reafirmação/Justificativa com Oposição.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Reafirmação/Justificativa com Oposição.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Inserir a conjunção adversativa mas entre dois períodos que expressam a mesma ideia por meio de paráfrases ou justificativas complementares.",
+                "Como evitar: Exigir contradição lógica real (+ vs -). Se a segunda frase apenas reforça ou explica a primeira, a adversativa é proibida."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-006",
+          "title": "Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Uso Incorreto de Conectivos Eruditos (*Outrossim*, *Destarte*) em Esqueletos Prontos.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Memorizar modelos prontos de redação e inserir outrossim ou destarte mecanicamente para tentar impressionar o corretor.",
+                "Como evitar: Outrossim só pode ser usado para adicionar argumentos (adição); destarte só pode ser usado para fechar deduções/consequências (conclusão). Usá-los fora desses valores destrói a textualidade e zera o critério coesivo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A11-G02-007",
+          "title": "Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Julgamento Intuitivo pelo Som (\"Pelo Ouvido\") e Uso Abusivo do Coringa \"E\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro: Tentar resolver questões lendo a frase com a conjunção proposta para ver se \"soa bonito\", ou tentar usar a conjunção \"e\" para resolver todas as conexões.",
+                "Como evitar: Substituir a intuição auditiva pelo Método dos 3 Passos e selecionar conectivos especializados vocacionados para cada relação semântica."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Julgar que períodos justapostos ou assindéticos são gramaticalmente errados ou incoerentes por não terem conjunções explícitas.",
+            "Como evitar: Lembrar que a coerência reside no sentido lógico global; textos assindéticos mantêm coerência plena (Coesão: NÃO, Coerência: SIM)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Inserir conectivo causal antes da consequência ou conectivo conclusivo antes da causa (ex.: \"Choveu muito, visto que alagou a rua\").",
+            "Como evitar: Aplicar rigorosamente a linha do tempo: 1º Causa $\\rightarrow$ 2º Consequência. A conjunção causal só pode anteceder o 1º evento."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Marcar como certa a inserção de portanto no último período do texto apenas porque ele está no final do parágrafo, acreditando no mito escolar de que \"o último período é sempre a conclusão\".",
+            "Como evitar: Analisar a microestrutura semântica do parágrafo; o último período frequentemente expressa a causa geradora dos fatos citados no início do parágrafo (como visto na PC-DF 2025)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Aceitar a conjunção portanto na transição de uma afirmação genérica para um caso pontual.",
+            "Como evitar: Se o período 1 expressa uma regra ampla e o período 2 cita uma entidade/caso que ilustra essa regra, a relação é de exemplificação (por exemplo), rejeitando conectivos conclusivos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Inserir a conjunção adversativa mas entre dois períodos que expressam a mesma ideia por meio de paráfrases ou justificativas complementares.",
+            "Como evitar: Exigir contradição lógica real (+ vs -). Se a segunda frase apenas reforça ou explica a primeira, a adversativa é proibida."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Memorizar modelos prontos de redação e inserir outrossim ou destarte mecanicamente para tentar impressionar o corretor.",
+            "Como evitar: Outrossim só pode ser usado para adicionar argumentos (adição); destarte só pode ser usado para fechar deduções/consequências (conclusão). Usá-los fora desses valores destrói a textualidade e zera o critério coesivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro: Tentar resolver questões lendo a frase com a conjunção proposta para ver se \"soa bonito\", ou tentar usar a conjunção \"e\" para resolver todas as conexões.",
+            "Como evitar: Substituir a intuição auditiva pelo Método dos 3 Passos e selecionar conectivos especializados vocacionados para cada relação semântica."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mecanismo gramatical e linear de estruturação textual responsável pelo encadeamento entre partes do texto (palavras, orações, períodos e parágrafos), garantindo a progressão temática por meio do emprego explícito de elementos conectores gramaticais (KB-A11-G02-001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classe ampla de vocábulos gramaticais funcionais (principalmente conjunções coordenativas e subordinativas, preposições, locuções e advérbios conectivos) que operam a articulação sintática e semântica entre partes de um texto (KB-A11-G02-001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade semântico-pragmática do texto relacionada à conformidade lógica das ideias, à não contradição interna e à capacidade de produzir sentido inteligível para o leitor em um determinado contexto comunicativo (KB-A11-G02-002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunto de propriedades que fazem com que uma sequência de enunciados seja percebida como uma unidade comunicativa íntegra e eficiente, sintetizada como o produto resultante da aplicação conjunta de coesão formal e coerência lógica (\"texto com qualidade\") (KB-A11-G02-003)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção subordinativa adverbial que introduz uma oração que expressa o motivo, a razão ou o fato gerador (ocorrido cronologicamente em 1º lugar) que provocou o evento da oração principal (ex.: como, porque, já que, visto que, uma vez que, porquanto) (KB-A11-G02-005)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção coordenativa que introduz uma oração que expressa a dedução, a consequência factual ou o desfecho decorrente da proposição anterior (ex.: logo, portanto, por isso, por conseguinte, assim, destarte) (KB-A11-G02-005)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção coordenativa que introduz ideia de oposição, quebra de expectativa ou contraste real em relação à proposição anterior (ex.: mas, porém, contudo, todavia, entretanto, no entanto) (KB-A11-G02-008)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção coordenativa que introduz uma justificativa, esclarecimento ou motivo para a ordem, pedido ou afirmação enunciada na oração anterior, comumente associada ao verbo no imperativo (ex.: pois, porque, que, uma vez que) (KB-A11-G02-007)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção subordinativa adverbial que introduz o efeito, resultado ou consequência factual decorrente da intensidade ou ação expressa na oração principal (ex.: de modo que, de forma que, tanto... que) (KB-A11-G02-005)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunção coordenativa que não ocupa a posição de abertura do período, aparecendo inserida no interior da oração (normalmente após o sujeito ou verbo), o que exige obrigatoriamente isolamento sintático por duas vírgulas (KB-A11-G02-010)."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo deste grupo temático consolidado, o estudante adquire o domínio teórico, procedimental e estratégico necessário para resolver qualquer questão de coesão textual em concursos públicos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Compreensão Epistêmica: O estudante compreende que coesão é ligação formal de superfície e coerência é harmonia lógica de sentido. Sabe que períodos sem conectivos possuem coerência plena (justaposição), mas que o emprego de conectivos errados gera incoerência e destrói a textualidade.",
+            "Domínio Metodológico: Aplica com rapidez o Método dos Três Passos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Isola blocos com colchetes e extrai o resumo nuclear em torno do verbo significativo (\"o verbo salva\", ignorando termos acessórios).",
+            "Identifica com clareza a relação lógica real entre as ideias resumidas (Oposição, Explicação, Causa/Efeito, Exemplificação).",
+            "Seleciona e posiciona o conectivo adequado aplicando o princípio de que a conjunção recebe a classificação da oração imediatamente subsequente (\"o que vem depois salva\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio da Causalidade: Domina o teste cronológico (Causa = 1º fato no tempo; Consequência/Conclusão = 2º fato no tempo) e a fórmula \"O fato de... fez com que...\", blindando-se contra armadilhas de inversão causal.",
+            "Domínio da Pontuação: Conhece as regras de pontuação para conjunções coordenativas (1 vírgula facultativa na abertura vs. 2 vírgulas obrigatórias quando intercaladas/deslocadas).",
+            "Imunidade a Pegadinhas de Banca: Sabe desconstruir o mito de que o último período de um texto é sempre conclusivo, diferencia relações de exemplificação (geral $\\rightarrow$ específico) de conclusões dedutivas, não confunde reafirmação com oposição e evita o uso ingênuo de conectivos coringas (e) ou fórmulas prontas de redação (outrossim, destarte)."
+          ]
+        }
+      ]
+    }
+  }
+}

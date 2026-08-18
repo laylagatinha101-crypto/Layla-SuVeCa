@@ -1,0 +1,2815 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A10-G04",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.096Z"
+  },
+  "unit": {
+    "unitId": "IP-A10-G04",
+    "lessonId": "A10",
+    "groupId": "G04",
+    "title": "Regência e Pronomes Pessoais",
+    "variant": "development",
+    "canonicalTopicId": "pt:a10:regencia-e-pronomes-pessoais",
+    "learningObjectives": [
+      "OBJ-IP-A10-G04-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "A escolha entre pronomes pessoais decorre da função de complemento e da regência do verbo, não da posição ou da referência a pessoa.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Distinção entre classes morfológicas (substantivo, verbo, pronome, preposição) e funções sintáticas (sujeito, predicado, complementos verbais, complementos nominais, adjuntos).",
+            "Conceito fundamental de transitividade verbal (intransitivo, transitivo direto, transitivo indireto, transitivo direto e indireto).",
+            "Noções gerais de colocação pronominal (próclise, mesóclise e ênclise) e fatores de atração gramatical.",
+            "Reconhecimento de orações subordinadas adjetivas e valor anafórico dos pronomes relativos."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Regência e Sintaxe dos Pronomes (G04) ├── 1. Seleção de Pronomes Pessoais Oblíquos │ ├── Sem Preposição ──────► O / A / OS / AS ──────────────► Objeto Direto (VTD / VTDI) │ ├── Com Preposição ──────► LHE / LHES ───────────────────► O.I. (VTI/VTDI) / C.N. / Adj. Adnominal │ │ └── Invariância de Gênero ────► Retoma termos masculinos ou femininos │ └── Pronomes Coringas ───► ME / TE / SE / NOS / VOS ─────► O.D. ou O.I. (conforme o regente) │ ├── 2. Sintaxe de Verbos Bitransitivos (VTDI) │ ├── Moldura Obrigatória ─► 1 Objeto Direto + 1 Objeto Indireto │ └── Proibição Normativa ─► Vedado duplo O.D. ou duplo O.I. (exceção: objeto pleonástico estilístico) │ ├── 3. Sintaxe de Coordenação Verbal │ ├── Mesma Regência ──────► Compartilhamento de objeto único VÁLIDO │ └── Regências Distintas ─► Compartilhamento INVÁLIDO ────► Reescrita \"Cada um na sua\" │ ├── 4. Regência de Verbos Notáveis │ ├── IMPLICAR ────────────► VTD (acarretar) vs. VTI pronominal \"em\" (envolver-se) vs. VTI \"com\" (antipatizar) │ ├── ASPIRAR ─────────────► VTI com \"a\" (almejar) vs. VTD (inalar) │ ├── ANSIAR ──────────────► VTI de dupla regência: com \"por\" ou com \"de\" (rejeita \"com\") │ ├── ASSISTIR ────────────► VTI com \"a\" (presenciar) vs. VTD/VTI (socorrer) │ ├── OBEDECER ────────────► VTI com \"a\" (exige \"lhe/lhes\" ou \"a ele/ela\") │ ├── INFORMAR ────────────► VTDI simétrico (informar alguém DE algo OU algo A alguém) │ ├── NAMORAR ─────────────► VTD na norma tradicional (namorar alguém, sem \"com\") │ └── ENTENDER ────────────► VTD (compreender) vs. VTI com \"de\" (ter domínio/conhecimento) │ ├── 5. Morfossintaxe e Colocação │ ├── Alomorfia Enclítica ─► -r, -s, -z ➔ -lo/-la | Som nasal ➔ -no/-na │ ├── Fator Atrativo ──────► Palavra negativa / Conjunção ➔ Próclise Obrigatória (bloqueia alomorfe) │ └── Intercalação ────────► Vírgula pós-intercalada não impede próclise em sujeito anteposto │ └── 6. Regência com Pronomes Relativos ├── Equivalências ────────► em que = no qual | de que = do qual └── Restrições ───────────► \"Aonde\" exige verbo de movimento + prep. \"a\" (incompatível com \"investir\")"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A10-G04-001",
+          "title": "Mapa de conexão — Regência e Pronomes Pessoais",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a10:regencia-e-pronomes-pessoais",
+              "label": "Regência e Pronomes Pessoais",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a10:regencia-e-pronomes-pessoais",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A escolha entre os pronomes oblíquos átonos de terceira pessoa (o, a, os, as versus lhe, lhes) é rigidamente determinada pela transitividade sintática do termo regente, configurando uma regra de exclusão mútua: complementos verbais não preposicionados exigem o/a, enquanto complementos preposicionados exigem lhe/lhes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na norma-padrão da Língua Portuguesa:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Série O, A, OS, AS (e alomorfes -lo, -la, -los, -las, -no, -na, -nos, -nas): Atuam exclusivamente como Objeto Direto (O.D.), completando verbos transitivos diretos (VTD) ou a parcela direta de verbos bitransitivos (VTDI). Rejeitam qualquer preposição regente.",
+            "Série LHE, LHES: Atuam exclusivamente como complementos de natureza preposicionada, preenchendo a função de Objeto Indireto (O.I.) com verbos transitivos indiretos (VTI/VTDI) que regem tipicamente a preposição a.",
+            "Inadmissibilidade do LHE com VTD: O uso de lhe com verbos transitivos diretos (como amar, estimar, respeitar, ver, ajudar, incomodar) constitui erro de regência, a despeito de sua frequência na modalidade coloquial e de sua aparente polidez auditiva."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Vi o menino no cinema $\\rightarrow$ Vi-o no cinema (Correto — ver é VTD).",
+            "\\*Vi-lhe no cinema (Incorreto — emprego indevido de lhe em VTD).",
+            "Obedeci ao menino prontamente $\\rightarrow$ Obedeci-lhe prontamente (Correto — obedecer é VTI).",
+            "\\*Obedeci-o prontamente (Incorreto — emprego de pronome direto em VTI)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A10-G04-004 (Pronomes Coringas).",
+            "Aplicado em: PROC-A10-G04-001, PROC-A10-G04-005.",
+            "Possui alerta: WARN-A10-G04-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome lhe / lhes não se restringe à função de objeto indireto verbal; ele é uma forma preposicionada polivalente capaz de exercer três funções sintáticas na oração: Objeto Indireto (O.I.), Complemento Nominal (C.N.) ou Adjunto Adnominal (Adj.Adn.)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A classificação sintática do pronome lhe depende estritamente do termo ao qual ele se subordina morfossintática e semanticamente:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Como Objeto Indireto (O.I.): Subordina-se a um verbo transitivo indireto (VTI) ou bitransitivo (VTDI), preenchendo a vaga de complemento verbal regido por preposição (obedeci-lhe = obedeci ao menino).",
+            "Como Complemento Nominal (C.N.): Subordina-se a um nome (substantivo abstrato, adjetivo ou advérbio) que rege preposição, mesmo que o pronome esteja colocado por ênclise junto a um verbo transitivo direto (Tenho-lhe respeito = tenho respeito ao menino; respeito é substantivo, logo lhe é C.N.).",
+            "Como Adjunto Adnominal (Adj.Adn.): Subordina-se a um substantivo exercendo valor semântico de posse (dele/dela, seu/sua), qualificando ou determinando o elemento nominal (Beijou-lhe a mão = beijou a sua mão)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o termo regente for verbo $\\rightarrow$ lhe é Objeto Indireto.",
+            "Se o termo regente for substantivo abstrato/adjetivo sem relação de posse $\\rightarrow$ lhe é Complemento Nominal.",
+            "Se o pronome expressar posse sobre um substantivo $\\rightarrow$ lhe é Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A10-G04-001.",
+            "Possui alerta: WARN-A10-G04-002.",
+            "Aplicado em: PROC-A10-G04-002, EX-A10-G04-003, EX-A10-G04-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toda vez que um pronome oblíquo átono (lhe, me, te, se, nos, vos) estabelecer uma relação semântica de posse sobre um substantivo da oração (equivalendo a dele, dela, seu, sua, meu, teu, nosso), sua classificação sintática será invariavelmente de Adjunto Adnominal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesmo estando fonética e morfologicamente acoplado ao verbo por ênclise ou próclise, o pronome não integra a regência do predicado verbal quando delimita a posse de um objeto ou ser (geralmente partes do corpo, pertences ou vestimentas):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na oração \"Beijou-lhe a mão\", o verbo beijar é transitivo direto e tem como objeto direto a expressão \"a mão\". O pronome lhe indica a quem pertence a mão (a mão dele), vinculando-se sintaticamente ao substantivo mão.",
+            "A regra aplica-se de forma geral a todos os pronomes oblíquos átonos: \"Puxou-me os cabelos\" (os meus cabelos $\\rightarrow$ me = Adjunto Adnominal)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Subordinado a: KB-A10-G04-002.",
+            "Aplicado em: PROC-A10-G04-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os pronomes oblíquos átonos de 1ª e 2ª pessoas do singular e plural, juntamente com o reflexivo de 3ª pessoa (me, te, se, nos, vos), são denominados didaticamente pronomes coringas, pois não possuem função sintática prefixada por sua morfologia, podendo atuar tanto como complementos não preposicionados (O.D.) quanto como complementos preposicionados (O.I., C.N. ou Adj.Adn.)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diferentemente de o (100% direto) e lhe (100% preposicionado), os pronomes coringas operam em qualquer direção sintática:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A classificação sintática de um pronome coringa decorre integralmente da transitividade do termo regente com o qual interage na oração:",
+            "Regente VTD $\\implies$ Pronome Coringa é Objeto Direto (O.D.).",
+            "Regente VTI $\\implies$ Pronome Coringa é Objeto Indireto (O.I.).",
+            "Regente Nome $\\implies$ Pronome Coringa é Complemento Nominal (C.N.)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Viu-me no cinema.\" $\\rightarrow$ Quem vê, vê alguém (o menino $\\rightarrow$ VTD) $\\implies$ me = Objeto Direto.",
+            "\"Obedeceu-me prontamente.\" $\\rightarrow$ Quem obedece, obedece a alguém (ao menino $\\rightarrow$ VTI) $\\implies$ me = Objeto Indireto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A10-G04-001.",
+            "Aplicado em: PROC-A10-G04-003, EX-A10-G04-005, EX-A10-G04-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na norma culta da Língua Portuguesa, um verbo transitivo direto e indireto (VTDI ou bitransitivo) exige obrigatoriamente um Objeto Direto (sem preposição) e um Objeto Indireto (com preposição). É estritamente proibido atribuir a um mesmo verbo bitransitivo dois objetos diretos ou dois objetos indiretos autônomos."
+        },
+        {
+          "type": "paragraph",
+          "text": "A distribuição dos complementos em verbos bitransitivos opera sob um princípio de complementaridade obrigatória:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{VTDI} \\iff \\text{1 Objeto Direto (O.D.)} + \\text{1 Objeto Indireto (O.I.)}"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regra Operacional de Substituição: Se um dos complementos da oração já se encontra preenchido por um termo preposicionado (O.I.), o pronome associado deve ser necessariamente de caso direto (o, a, os, as). Inversamente, se o complemento substantivo expresso for direto (O.D.), o pronome inserido deve ser de caso indireto (lhe, lhes ou forma tônica a ele/ela).",
+            "Exceção Estilística: A única circunstância admitida pela gramática normativa que aparenta duplicar um objeto é a figura do Objeto Pleonástico (direto ou indireto), que consiste na reiteração enfática de um termo já introduzido (\"Aos amigos, não lhes disse nada\"), não se tratando de um segundo complemento lógico."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Comprei o romance e dei-o [O.D.] ao Hermes [O.I.]. (Correto).",
+            "\\*Presenteei-lhe [O.I.] ao Hermes [O.I.]. (Incorreto — duplicidade de O.I.).",
+            "\\*Dei-o [O.D.] um romance [O.D.]. (Incorreto — duplicidade de O.D.; forma correta: Dei-lhe um romance).",
+            "\\*Dá-lo [O.D.] ordens [O.D.]. (Incorreto — forma correta: Dar-lhe ordens)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A10-G04-001.",
+            "Aplicado em: PROC-A10-G04-007, EX-A10-G04-007, EX-A10-G04-010."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dois ou mais verbos coordenados só podem compartilhar legitimamente um único complemento se possuírem exatamente a mesma regência verbal. Se os verbos apresentarem transitividades distintas (um VTD e outro VTI), o compartilhamento de um único termo constitui erro sintático de paralelismo, exigindo a distribuição individualizada dos complementos (\"cada um na sua\")."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Caso Válido (Mesma Regência):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Eu conheço e respeito aquele professor. $\\rightarrow$ Conhecer é VTD e respeitar é VTD. Ambos regem complemento direto sem preposição. O sintagma \"aquele professor\" satisfaz plenamente ambos os verbos.",
+            "Não conheço e não quero conhecer o candidato. $\\rightarrow$ VTD + VTD (Válido)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Caso Inválido (Regências Distintas):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\*Eu vi e gostei do filme. $\\rightarrow$ Ver é VTD (exige O.D. sem preposição); gostar é VTI (exige O.I. com preposição de). O termo \"do filme\" atende apenas a gostar, deixando ver sintaticamente mutilado ou impondo-lhe preposição indevida."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Procedimento de Correção (\"Cada Um na Sua\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Deve-se desmembrar a coordenação fornecendo o complemento pleno ao primeiro verbo e retomando-o no segundo mediante pronome ou forma preposicionada apropriada:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Forma Corrigida: } \\text{\\textit{Eu vi o filme [O.D.] e gostei dele [O.I.].}}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A10-G04-004.",
+            "Possui alerta: WARN-A10-G04-003.",
+            "Exemplificado por: EX-A10-G04-008, EX-A10-G04-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sistematização da transitividade e do regime de pronominalização de verbos recorrentes em provas de concursos que frequentemente induzem a erros de eufonia ou desvios da linguagem cotidiana:"
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A10-G04-001",
+          "table": {
+            "tableId": "TABLE-IP-A10-G04-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Verbo",
+              "Transitividade Culta",
+              "Exigência Preposicional",
+              "Pronome de 3ª Pessoa",
+              "Exemplo Padrão"
+            ],
+            "rows": [
+              [
+                "Acarretar",
+                "VTDI",
+                "Rege O.D. de coisa + O.I. de pessoa",
+                "O.D. =o/a \\",
+                "O.I. = lhe"
+              ],
+              [
+                "Desobedecer",
+                "VTI",
+                "Rege preposiçãoa",
+                "Exigelhe / lhes",
+                "Não lhe desobedecerei jamais."
+              ],
+              [
+                "Ajudar",
+                "VTD",
+                "Sem preposição (norma tradicional)",
+                "Exigeo / a / os / as",
+                "Eu o ajudei na tarefa."
+              ],
+              [
+                "Incomodar",
+                "VTD",
+                "Sem preposição",
+                "Exigeo / a / os / as",
+                "O barulho incomodou-os."
+              ],
+              [
+                "Satisfazer",
+                "VTD",
+                "Sem preposição (com pessoa)",
+                "Exigeo / a / os / as",
+                "A resposta não o satisfez."
+              ],
+              [
+                "Presentear",
+                "VTD / VTDI",
+                "Presentear alguém (O.D.) com algo (Adj.)",
+                "Exigeo / a (a pessoa)",
+                "Presenteou-o com o carro."
+              ],
+              [
+                "Namorar",
+                "VTD",
+                "Sem preposição (rejeitacom)",
+                "Exigeo / a",
+                "Eu a namorei. (não: namorei com ela)"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ajudar e Incomodar: Sofrem forte atração eufônica pelo pronome lhe na linguagem coloquial (\"eu lhe ajudo\", \"incomodou-lhes\"). Em provas, deve-se aplicar friamente a transitividade direta: o, a, os, as.",
+            "Namorar: Na norma culta estrita cobrada em concursos, namorar é VTD. A construção Namorei, noivei e casei com ela viola o paralelismo sintático, devendo ser corrigida para Eu a namorei [O.D.], noivei e casei com ela [O.I. com \"com\"]."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alertas: WARN-A10-G04-001, WARN-A10-G04-004.",
+            "Exemplificado por: EX-A10-G04-007, EX-A10-G04-008, EX-A10-G04-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quatro verbos notáveis da língua portuguesa sofrem alteração semântica ou exigem preposições específicas conforme a acepção:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "IMPLICAR:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No sentido de acarretar, produzir como efeito, resultar: é Transitivo Direto (VTD), rejeitando categoricamente a preposição em (\"A decisão implicou demissões\", e nunca \\*\"implicou em demissões\").",
+            "Na forma pronominal implicar-se: assume o sentido de envolver-se, comprometer-se e passa a ser Transitivo Indireto (VTI) regido pela preposição em (\"Ele se implicou em confusão\").",
+            "No sentido coloquial de ter implicância, importunar: é Transitivo Indireto (VTI) com preposição com (\"Implicava com os vizinhos\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ANSIAR:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No sentido de desejar ardentemente: é Transitivo Indireto (VTI) de dupla regência preposicional, aceitando legitimamente a preposição por (mais comum) ou a preposição de (abonada por Celso Pedro Luft). Rejeita categoricamente a preposição com (\"Anseia pelo momento\" ou \"Anseia do momento\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ASPIRAR:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No sentido de almejar, pretender: é Transitivo Indireto (VTI) regido pela preposição a (\"Aspira ao cargo\"). Rejeita o pronome lhe para coisas (exige a ele / a ela).",
+            "No sentido de inalar, sorver: é Transitivo Direto (VTD) (\"Aspirou o aroma\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "ASSISTIR:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No sentido de ver, presenciar: é Transitivo Indireto (VTI) regido pela preposição a (\"Assistir ao desmatamento / ao jogo\"). Rejeita o pronome lhe em provas tradicionais.",
+            "No sentido de prestar socorro, amparar: é Transitivo Direto (VTD) ou Transitivo Indireto (VTI) (\"Assistir o paciente\" ou \"Assistir ao paciente\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alertas: WARN-A10-G04-005.",
+            "Exemplificado por: EX-A10-G04-011."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo informar (bem como avisar, certificar, notificar, cientificar) é Transitivo Direto e Indireto (VTDI) e admite duas construções simétricas e intercambiáveis na norma culta, desde que respeitado o princípio da não duplicidade de preposições:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Construção A (Pessoa como O.D. + Coisa como O.I.):"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\\textit{Informar alguém [O.D.] de / sobre alguma coisa [O.I.]}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemplo: \"Informou Rosinha [O.D.] de sua partida [O.I.].\"\\"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Construção B (Coisa como O.D. + Pessoa como O.I.):"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\\textit{Informar alguma coisa [O.D.] a alguém [O.I.]}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemplo: \"Informou sua partida [O.D.] a Rosinha / informou-lhe [O.I.].\"\\"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A10-G04-005.",
+            "Aplicado em: EX-A10-G04-011."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome pessoal oblíquo átono lhe / lhes é completamente invariável em gênero, flexionando-se estritamente em número (singular/plural). Consequentemente, a forma lhes substitui com idêntica correção sintática e gramatical complementos preposicionados plurais masculinos (aos pais) ou femininos (às ordens)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bancas organizadoras (com destaque para a FGV) exploram a falsa intuição do candidato de que o substantivo feminino plural (as ordens) exigiria o pronome as junto a verbos transitivos indiretos como obedecer:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O verbo obedecer é VTI (exige preposição a $\\rightarrow$ obedecer às ordens).",
+            "O pronome as é exclusivo de Objeto Direto e geraria erro grave de regência sintática.",
+            "Como lhes não possui desinência feminina, ele assume a função de Objeto Indireto sem distinção de gênero:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\\textit{Os chefes deram as ordens, por isso }} \\mathbf{lhes} \\text{\\textit{ obedeci / obedeci }} \\mathbf{a\\ elas}\\text{\\textit{.}}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A10-G04-006.",
+            "Exemplificado por: EX-A10-G04-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nas orações subordinadas adjetivas encabeçadas por pronome relativo (que, o qual, quem, cujo), a preposição que antecede o pronome é exigida pela regência sintática de um termo regente (verbo ou nome) localizado depois do pronome relativo (dentro da oração adjetiva), operando uma regência da direita para a esquerda."
+        },
+        {
+          "type": "paragraph",
+          "text": "O termo antecedente atua exclusivamente como referente semântico/sintático do pronome relativo, não tendo qualquer poder regencial sobre a preposição que encabeça a oração adjetiva:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No trecho \"...estado de que meu coração precisava...\":",
+            "O pronome que retoma o antecedente estado.",
+            "O verbo posposto precisava rege a preposição de (meu coração precisava do estado).",
+            "A preposição de desloca-se obrigatoriamente para antes do relativo (de + que).",
+            "No trecho \"...das quais surge o adulto...\":",
+            "A preposição de (em das quais) é regida pelo verbo posposto surge (quem surge, surge de), e não pelo substantivo antecedente origem."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A10-G04-006.",
+            "Exemplificado por: EX-A10-G04-014, EX-A10-G04-015."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome relativo que atua como forma neutra universal e pode substituir as formas compostas o qual / a qual / os quais / as quais, desde que mantidas as preposições regenciais exigidas:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{em} + \\text{o qual} = \\mathbf{no\\ qual} \\iff \\text{em} + \\text{que} = \\mathbf{em\\ que}"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{de} + \\text{o qual} = \\mathbf{do\\ qual} \\iff \\text{de} + \\text{que} = \\mathbf{de\\ que}"
+        },
+        {
+          "type": "paragraph",
+          "text": "O pronome relativo aonde é composto pela contração da preposição $a + onde$, sendo estritamente restrito a referências de lugar físico combinadas com verbos que regem a preposição a (verbos de movimento/direção como ir, chegar, levar). Não se pode utilizar aonde com verbos que regem a preposição em (como investir em empresas nas quais investem)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A10-G04-011.",
+            "Exemplificado por: EX-A10-G04-016, EX-A10-G04-017, EX-A10-G04-018."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A dupla regência e a bitransitividade são estruturas sintáticas mutuamente exclusivas e inconfundíveis:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Dupla Regência: Ocorre quando o verbo admite duas molduras sintáticas alternativas e excludentes em orações distintas (ex.: atuar como VTD puro em um contexto ou como VTI puro em outro, como em entender ou aspirar).",
+            "Bitransitividade (VTDI): Ocorre quando o verbo possui uma única moldura sintática que exige simultaneamente dois complementos complementares (um O.D. e um O.I., como em oferecer, reduzir, dar)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bancas examinadoras frequentemente tentam justificar a troca errônea de lhe por os em verbos bitransitivos afirmando ser possível \"dada a dupla regência do verbo\". Em oferecendo-lhes algo, o verbo oferecer é VTDI fixo; trocar lhes por os geraria dois objetos diretos (oferecendo-os algo), o que é inadmissível."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A10-G04-014.",
+            "Possui alerta: WARN-A10-G04-010.",
+            "Exemplificado por: EX-A10-G04-020."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo entender é um caso canônico de dupla regência associada à variação semântica:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Como Transitivo Direto (VTD — entender algo): Sentido de compreender, decodificar intelectualmente (\"Não entendi o texto\").",
+            "Como Transitivo Indireto (VTI com preposição \"de\" — entender de algo): Sentido de ter conhecimento prático, experiência, domínio ou competência (\"Não entende de música clássica\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A substituição de coisas das quais não entende (VTI) por coisas que não entende (VTD) mantém a correção sintática, mas altera o sentido original, tornando falsas as afirmações de itens que alegam preservação simultânea de correção e sentido."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A10-G04-013.",
+            "Possui alerta: WARN-A10-G04-009.",
+            "Exemplificado por: EX-A10-G04-017."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As variantes alomórficas dos pronomes diretos o, a, os, as são recursos fonéticos estritamente enclíticos (pospostos ao verbo com hífen). A presença de fator atrativo impõe a próclise obrigatória, cancelando as acomodações fonéticas alomórficas e restaurando a forma pronominal padrão."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Terminação em -R, -S, -Z + Ênclise: Elimina-se a consoante e acrescenta-se -lo, -la, -los, -las (revender + o $\\rightarrow$ revendê-lo; ler + os $\\rightarrow$ lê-los).",
+            "Terminação em Som Nasal (-am, -em, -ão, -õe) + Ênclise: Acrescenta-se -no, -na, -nos, -nas (viram + o $\\rightarrow$ viram-no).",
+            "Prevalência da Próclise: Havendo palavra negativa (não) ou conjunção subordinativa (quando), a ênclise é proibida:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "não + viram + o $\\rightarrow$ não o viram (e nunca \\*não no viram).",
+            "não + encontrei + as $\\rightarrow$ não as encontrei (e nunca \\*não encontrei-las)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A10-G04-007.",
+            "Exemplificado por: EX-A10-G04-012, EX-A10-G04-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de vírgula imediatamente antes de um pronome oblíquo não proíbe a próclise caso essa vírgula represente apenas o fechamento de uma oração subordinada adjetiva ou termo adverbial intercalado entre o sujeito e o predicado da oração principal."
+        },
+        {
+          "type": "paragraph",
+          "text": "A regra que veda iniciar oração com pronome oblíquo átono aplica-se ao início absoluto do período. Na sentença:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\\textit{Seu pai [sujeito/início], que é libanês... [intercalada], }} \\mathbf{o}\\text{\\textit{ presenteou com o Maverick.}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo presenteou pertence à oração principal já iniciada por \"Seu pai\". A vírgula encerra a intercalação e não delimita fronteira de nova oração absoluta, tornando a próclise (o presenteou) plenamente válida e culta."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A10-G04-007."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A10-G04-001",
+          "title": "Tabela canônica de consulta rápida",
+          "statement": "Tabela canônica de consulta rápida",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela canônica de consulta rápida."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G04-002",
+              "table": {
+                "tableId": "TABLE-IP-A10-G04-002",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Código da Regra",
+                  "Conceito / Regra Canônica",
+                  "Formulação Sintética",
+                  "Unidade Detalhada"
+                ],
+                "rows": [
+                  [
+                    "CANON-G04-001",
+                    "Seleção de 3ª Pessoa",
+                    "Complemento sem preposição (O.D.)$\\implies$ o/a/os/as; com preposição $\\implies$ lhe/lhes.",
+                    "KB-A10-G04-001"
+                  ],
+                  [
+                    "CANON-G04-002",
+                    "Tríplice Função do LHE",
+                    "lhe pode ser Objeto Indireto (verbo), Complemento Nominal (nome) ou Adjunto Adnominal (posse).",
+                    "KB-A10-G04-002"
+                  ],
+                  [
+                    "CANON-G04-003",
+                    "Pronomes Coringas",
+                    "me, te, se, nos, vos não têm função fixa; espelham a transitividade do regente (O.D., O.I. ou C.N.).",
+                    "KB-A10-G04-004"
+                  ],
+                  [
+                    "CANON-G04-004",
+                    "Bitransitividade (VTDI)",
+                    "VTDI exige obrigatoriamente 1 O.D. + 1 O.I. É vedado duplo O.D. ou duplo O.I. na norma padrão.",
+                    "KB-A10-G04-005"
+                  ],
+                  [
+                    "CANON-G04-005",
+                    "Coordenação Verbal",
+                    "Verbos de mesma regência compartilham objeto; verbos de regências distintas exigem \"cada um na sua\".",
+                    "KB-A10-G04-006"
+                  ],
+                  [
+                    "CANON-G04-006",
+                    "Invariância de LHE",
+                    "lhe / lhes não varia em gênero; lhes substitui complementos masculinos ou femininos (às ordens).",
+                    "KB-A10-G04-010"
+                  ],
+                  [
+                    "CANON-G04-007",
+                    "Preposição com Relativo",
+                    "A preposição antes do pronome relativo é exigida pelo termo regente posposto na oração adjetiva.",
+                    "KB-A10-G04-011"
+                  ],
+                  [
+                    "CANON-G04-008",
+                    "Dupla Regência vs. VTDI",
+                    "Dupla regência = opções alternativas; VTDI = complementos simultâneos (rejeita troca de OI por OD).",
+                    "KB-A10-G04-013"
+                  ],
+                  [
+                    "CANON-G04-009",
+                    "Alomorfia e Próclise",
+                    "Alomorfia (-lo/-no) ocorre apenas em ênclise; palavra atrativa impõe próclise e restaura a forma base.",
+                    "KB-A10-G04-015"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A10-G04-001",
+          "title": "Teste Operacional do Substantivo Masculino (\"O Menino\" vs. \"Ao Menino\")",
+          "objective": "Executar o algoritmo decisório para Teste Operacional do Substantivo Masculino (\"O Menino\" vs. \"Ao Menino\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Operacional do Substantivo Masculino (\"O Menino\" vs. \"Ao Menino\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole a forma verbal e monte mentalmente uma frase simples inserindo o sintagma masculino \"o menino\" após o verbo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Observe a junção sintática",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se a ligação ocorrer sem preposição (\"o menino\"), o verbo é VTD $\\implies$ selecione a família O, A, OS, AS (ou alomorfes -lo, -no).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se a regência exigir a preposição a (\"ao menino\"), o verbo é VTI $\\implies$ selecione a família LHE, LHES (ou pronome coringa em função de O.I.).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Em verbos bitransitivos (VTDI), verifique o outro complemento expresso na frase para garantir a alternância obrigatória entre O.D. e O.I.",
+              "explanation": null,
+              "test": "Em verbos bitransitivos (VTDI), verifique o outro complemento expresso na frase para garantir a alternância obrigatória entre O.D. e O.I."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Operacional do Substantivo Masculino (\"O Menino\" vs. \"Ao Menino\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Determinar instantaneamente se um verbo exige complemento direto sem preposição ou indireto com preposição, anulando dúvidas decorrentes de eufonia coloquial."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole a forma verbal e monte mentalmente uma frase simples inserindo o sintagma masculino \"o menino\" após o verbo.",
+                "Observe a junção sintática:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se a ligação ocorrer sem preposição (\"o menino\"), o verbo é VTD $\\implies$ selecione a família O, A, OS, AS (ou alomorfes -lo, -no).",
+                "Se a regência exigir a preposição a (\"ao menino\"), o verbo é VTI $\\implies$ selecione a família LHE, LHES (ou pronome coringa em função de O.I.)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Em verbos bitransitivos (VTDI), verifique o outro complemento expresso na frase para garantir a alternância obrigatória entre O.D. e O.I."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-002",
+          "title": "Teste de Reescrita Possessiva para Adjunto Adnominal",
+          "objective": "Executar o algoritmo decisório para Teste de Reescrita Possessiva para Adjunto Adnominal",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Reescrita Possessiva para Adjunto Adnominal."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize o pronome oblíquo na oração associado a um verbo transitivo que já possua substantivo como objeto direto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Substitua o pronome oblíquo por um pronome possessivo (seu, sua, meu) ou pela locução dele / dela junto ao substantivo.",
+              "explanation": null,
+              "test": "Substitua o pronome oblíquo por um pronome possessivo (seu, sua, meu) ou pela locução dele / dela junto ao substantivo."
+            },
+            {
+              "order": 3,
+              "action": "Se a frase mantiver sentido idêntico (\"Beijou-lhe a mão\" $\\rightarrow$ \"Beijou a mão dele / a sua mão\"), o pronome exerce valor possessivo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Conclusão",
+              "explanation": "Todo pronome oblíquo com valor possessivo é sintaticamente um Adjunto Adnominal.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Reescrita Possessiva para Adjunto Adnominal."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identificar se o pronome oblíquo (lhe, me, te, etc.) acoplado a um verbo atua como adjunto adnominal de posse."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize o pronome oblíquo na oração associado a um verbo transitivo que já possua substantivo como objeto direto.",
+                "Substitua o pronome oblíquo por um pronome possessivo (seu, sua, meu) ou pela locução dele / dela junto ao substantivo.",
+                "Se a frase mantiver sentido idêntico (\"Beijou-lhe a mão\" $\\rightarrow$ \"Beijou a mão dele / a sua mão\"), o pronome exerce valor possessivo.",
+                "Conclusão: Todo pronome oblíquo com valor possessivo é sintaticamente um Adjunto Adnominal."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-003",
+          "title": "Determinação da Função Sintática de Pronomes Coringas",
+          "objective": "Executar o algoritmo decisório para Determinação da Função Sintática de Pronomes Coringas",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Determinação da Função Sintática de Pronomes Coringas."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole o pronome coringa na oração (me, te, se, nos, vos).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Identifique o termo regente imediato (o verbo da oração).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Aplique o teste do substantivo masculino (\"o menino\") no regente",
+              "explanation": "",
+              "test": "Aplique o teste do substantivo masculino (\"o menino\") no regente:"
+            },
+            {
+              "order": 4,
+              "action": "Verbo rege sem preposição (VTD) $\\implies$ Pronome coringa é Objeto Direto (O.D.).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Verbo rege preposição a (VTI) $\\implies$ Pronome coringa é Objeto Indireto (O.I.).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Regente é um nome que exige preposição $\\implies$ Pronome coringa é Complemento Nominal (C.N.).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Determinação da Função Sintática de Pronomes Coringas."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole o pronome coringa na oração (me, te, se, nos, vos).",
+                "Identifique o termo regente imediato (o verbo da oração).",
+                "Aplique o teste do substantivo masculino (\"o menino\") no regente:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Verbo rege sem preposição (VTD) $\\implies$ Pronome coringa é Objeto Direto (O.D.).",
+                "Verbo rege preposição a (VTI) $\\implies$ Pronome coringa é Objeto Indireto (O.I.).",
+                "Regente é um nome que exige preposição $\\implies$ Pronome coringa é Complemento Nominal (C.N.)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-004",
+          "title": "Reestruturação Sintática de Verbos Coordenados (\"Cada Um na Sua\")",
+          "objective": "Executar o algoritmo decisório para Reestruturação Sintática de Verbos Coordenados (\"Cada Um na Sua\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Reestruturação Sintática de Verbos Coordenados (\"Cada Um na Sua\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identifique dois ou mais verbos ligados por conjunção coordenativa compartilhando um único sintagma nominal como objeto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Analise a transitividade individual de cada verbo ($V1$ e $V2$).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Compare as regências",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se $\\text{Regência}(V1) = \\text{Regência}(V2)$, o compartilhamento é válido (\"Conheço e respeito aquele professor\").",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se $\\text{Regência}(V1) \\neq \\text{Regência}(V2)$, condene a frase como vício sintático (\"Vi e gostei do filme\").",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Aplique a técnica \"cada um na sua\"",
+              "explanation": "mantenha o substantivo pleno no primeiro verbo e insira no segundo verbo o pronome ou forma preposicionada correspondente (\"Vi o filme e gostei dele\").",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Reestruturação Sintática de Verbos Coordenados (\"Cada Um na Sua\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identifique dois ou mais verbos ligados por conjunção coordenativa compartilhando um único sintagma nominal como objeto.",
+                "Analise a transitividade individual de cada verbo ($V1$ e $V2$).",
+                "Compare as regências:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se $\\text{Regência}(V1) = \\text{Regência}(V2)$, o compartilhamento é válido (\"Conheço e respeito aquele professor\").",
+                "Se $\\text{Regência}(V1) \\neq \\text{Regência}(V2)$, condene a frase como vício sintático (\"Vi e gostei do filme\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplique a técnica \"cada um na sua\": mantenha o substantivo pleno no primeiro verbo e insira no segundo verbo o pronome ou forma preposicionada correspondente (\"Vi o filme e gostei dele\")."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-005",
+          "title": "Método de Resolução Vertical para Questões de Pronomes e Regência",
+          "objective": "Executar o algoritmo decisório para Método de Resolução Vertical para Questões de Pronomes e Regência",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Resolução Vertical para Questões de Pronomes e Regência."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Coluna 1 (Transitividade / Família Pronominal)",
+              "explanation": "Identifique se a lacuna exige O.D. (o/a) ou O.I. (lhe). Risque verticalmente em bloco todas as alternativas com família pronominal incorreta.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Coluna 2 (Colocação Pronominal)",
+              "explanation": "Inspecione a presença de palavras atrativas (negação, conjunção subordinativa, pronomes relativos/indefinidos). Se houver fator de próclise, risque todas as alternativas que utilizarem ênclise.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Coluna 3 (Alomorfia e Concordância)",
+              "explanation": "Se a ênclise for válida, verifique a terminação (-R/-S/-Z $\\rightarrow$ -lo; nasal $\\rightarrow$ -no). Em próclise, confirme se o pronome retornou à sua forma padrão.",
+              "test": "Coluna 3 (Alomorfia e Concordância): Se a ênclise for válida, verifique a terminação (-R/-S/-Z $\\rightarrow$ -lo; nasal $\\rightarrow$ -no). Em próclise, confirme se o pronome retornou à sua forma padrão."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Resolução Vertical para Questões de Pronomes e Regência."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Coluna 1 (Transitividade / Família Pronominal): Identifique se a lacuna exige O.D. (o/a) ou O.I. (lhe). Risque verticalmente em bloco todas as alternativas com família pronominal incorreta.",
+                "Coluna 2 (Colocação Pronominal): Inspecione a presença de palavras atrativas (negação, conjunção subordinativa, pronomes relativos/indefinidos). Se houver fator de próclise, risque todas as alternativas que utilizarem ênclise.",
+                "Coluna 3 (Alomorfia e Concordância): Se a ênclise for válida, verifique a terminação (-R/-S/-Z $\\rightarrow$ -lo; nasal $\\rightarrow$ -no). Em próclise, confirme se o pronome retornou à sua forma padrão."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-006",
+          "title": "Teste de Validação de Preposição com Pronome Relativo",
+          "objective": "Executar o algoritmo decisório para Teste de Validação de Preposição com Pronome Relativo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Validação de Preposição com Pronome Relativo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize o pronome relativo (que, o qual, cujo, onde) e a preposição imediatamente anteposta.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Ignore os termos que antecedem o relativo e localize o verbo ou nome regente situado no predicado da oração subordinada adjetiva (termo posposto).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Faça a pergunta de regência ao regente posposto (\"precisava de quê?\", \"surge de onde?\").",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Verifique a afirmativa da banca",
+              "explanation": "se atribuir a preposição ao antecedente, julgue como ERRADO; se atribuir ao regente posposto, julgue como CORRETO.",
+              "test": "Verifique a afirmativa da banca: se atribuir a preposição ao antecedente, julgue como ERRADO; se atribuir ao regente posposto, julgue como CORRETO."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Validação de Preposição com Pronome Relativo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize o pronome relativo (que, o qual, cujo, onde) e a preposição imediatamente anteposta.",
+                "Ignore os termos que antecedem o relativo e localize o verbo ou nome regente situado no predicado da oração subordinada adjetiva (termo posposto).",
+                "Faça a pergunta de regência ao regente posposto (\"precisava de quê?\", \"surge de onde?\").",
+                "Verifique a afirmativa da banca: se atribuir a preposição ao antecedente, julgue como ERRADO; se atribuir ao regente posposto, julgue como CORRETO."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G04-007",
+          "title": "Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI)",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI)."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar e isolar o segmento oracional em que opera Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI).",
+              "test": "Identificar o termo regente e os elementos subordinados."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os critérios de diferenciação e regras canônicas de Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI).",
+              "test": "Executar o teste de comutação ou análise categorial."
+            },
+            {
+              "order": 3,
+              "action": "Concluir o julgamento sintático-morfológico definitivo.",
+              "test": "Validar a concordância com o padrão culto."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Algoritmo de Bloqueio de Duplo Complemento em Verbos Bitransitivos (VTDI)."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "┌──────────────────────────────────────────────┐ │ Verbo Bitransitivo (VTDI) com Pronome │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ Qual complemento já está explícito no texto? │ └──────┬────────────────────────────────┬──────┘ │ │ [Objeto Direto] [Objeto Indireto] (sem preposição) (com preposição) │ │ ▼ ▼ ┌──────────────────────┐ ┌──────────────────────┐ │ O pronome inserido │ │ O pronome inserido │ │ DEVE SER INDIRETO │ │ DEVE SER DIRETO │ │ (lhe / lhes / a ele) │ │ (o / a / os / as) │ └──────────────────────┘ └──────────────────────┘ │ │ ▼ ▼ ┌──────────────────────┐ ┌──────────────────────┐ │ Proibido inserir: │ │ Proibido inserir: │ │ o / a / os / as │ │ lhe / lhes │ └──────────────────────┘ └──────────────────────┘"
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A10-G04-001",
+          "title": "1. O/A/OS/AS vs. LHE/LHES vs. Pronomes Coringas",
+          "contrastType": "morphological",
+          "conceptA": "1. O/A/OS/AS vs. LHE/LHES vs. Pronomes Coringas",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G04-003",
+              "table": {
+                "tableId": "TABLE-IP-A10-G04-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério",
+                  "O / A / OS / AS",
+                  "LHE / LHES",
+                  "Pronomes Coringas (ME, TE, SE, NOS, VOS)"
+                ],
+                "rows": [
+                  [
+                    "Exigência Preposicional",
+                    "100% Sem Preposição",
+                    "100% Com Preposição",
+                    "Neutro (com ou sem preposição)"
+                  ],
+                  [
+                    "Funções Sintáticas",
+                    "Exclusivamente Objeto Direto",
+                    "Objeto Indireto, C.N. ou Adj. Adnominal",
+                    "Objeto Direto, Objeto Indireto ou C.N."
+                  ],
+                  [
+                    "Flexão de Gênero",
+                    "Varia (masculino/feminino)",
+                    "Invariável (apenas singular/plural)",
+                    "Invariável em gênero"
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "Vi-o (VTD)",
+                    "Obedeci-lhe (VTI) / Beijou-lhe a mão",
+                    "Viu-me (OD) / Obedeceu-me (OI)"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G04-002",
+          "title": "2. As Três Caselas Sintáticas do Pronome LHE",
+          "contrastType": "morphological",
+          "conceptA": "2. As Três Caselas Sintáticas do Pronome LHE",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G04-004",
+              "table": {
+                "tableId": "TABLE-IP-A10-G04-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Função Sintática",
+                  "Termo Regente",
+                  "Relação Semântica / Sintática",
+                  "Teste Diagnóstico",
+                  "Exemplo Canônico"
+                ],
+                "rows": [
+                  [
+                    "Objeto Indireto (O.I.)",
+                    "Verbo (VTI ou VTDI)",
+                    "Completa a regência verbal com preposiçãoa",
+                    "Obedeci ao menino",
+                    "Obedeci-lhe prontamente."
+                  ],
+                  [
+                    "Complemento Nominal (C.N.)",
+                    "Substantivo abstrato / Adjetivo",
+                    "Completa o sentido de um nome preposicionado",
+                    "Tenho respeito ao menino",
+                    "Tenho-lhe respeito."
+                  ],
+                  [
+                    "Adjunto Adnominal (Adj.Adn.)",
+                    "Substantivo (concreto/abstrato)",
+                    "Expressa posse sobre o substantivo",
+                    "Beijou a mão dele / sua mão",
+                    "Beijou-lhe a mão."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G04-003",
+          "title": "3. Dupla Regência vs. Bitransitividade (VTDI)",
+          "contrastType": "mixed",
+          "conceptA": "3. Dupla Regência vs. Bitransitividade (VTDI)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G04-005",
+              "table": {
+                "tableId": "TABLE-IP-A10-G04-005",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério",
+                  "Dupla Regência",
+                  "Bitransitividade (VTDI)"
+                ],
+                "rows": [
+                  [
+                    "Estrutura Oracional",
+                    "Aceita duas opções de transitividade independentes e alternativas.",
+                    "Exige simultaneamente dois complementos (1 O.D. + 1 O.I.) na mesma oração."
+                  ],
+                  [
+                    "Variação de Sentido",
+                    "Frequente (ex.:entender algo vs. entender de algo).",
+                    "Não há alteração semântica; a moldura sintática é fixa."
+                  ],
+                  [
+                    "Substituição Pronominal",
+                    "O pronome segue a opção escolhida em cada oração.",
+                    "Se a oração já tem O.D., o pronome DEVE ser O.I. (vedado trocar O.I. por O.D.)."
+                  ],
+                  [
+                    "Verbos Canônicos",
+                    "Entender, aspirar, ansiar, assistir.",
+                    "Oferecer, reduzir, dar, informar, presentear, acarretar."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G04-004",
+          "title": "4. Verbos com Variação Semântica por Regência",
+          "contrastType": "mixed",
+          "conceptA": "4. Verbos com Variação Semântica por Regência",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G04-006",
+              "table": {
+                "tableId": "TABLE-IP-A10-G04-006",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Verbo",
+                  "Regência A",
+                  "Significado A",
+                  "Regência B",
+                  "Significado B"
+                ],
+                "rows": [
+                  [
+                    "Implicar",
+                    "VTD (sem preposição)",
+                    "Acarretar, ter como consequência (implicou a demissão).",
+                    "VTI pronominal (em)",
+                    "Envolver-se (implicou-se em confusão)."
+                  ],
+                  [
+                    "Entender",
+                    "VTD (sem preposição)",
+                    "Compreender, assimilar intelectualmente (entendi o texto).",
+                    "VTI (com preposição de)",
+                    "Ter conhecimento, competência (entende de leis)."
+                  ],
+                  [
+                    "Aspirar",
+                    "VTI (com preposição a)",
+                    "Almejar, pretender (aspira ao cargo).",
+                    "VTD (sem preposição)",
+                    "Inalar, sorver (aspirou o perfume)."
+                  ],
+                  [
+                    "Assistir",
+                    "VTI (com preposição a)",
+                    "Ver, presenciar (assistiu ao jogo).",
+                    "VTD / VTI",
+                    "Socorrer, amparar (assistiu o paciente)."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-001",
+          "title": "EX-A10-G04-001 — Demonstração de Objeto Direto de 3ª Pessoa (Verbo Ver)",
+          "prompt": "Estrutura: \"Vi-o no cinema.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Vi-o no cinema.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Ver é VTD (quem vê, vê alguém $\\rightarrow$ o menino). Não há preposição regente."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "Emprego obrigatório do pronome direto o (O.D.)."
+            }
+          ],
+          "result": "Resultado: Emprego obrigatório do pronome direto o (O.D.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-001 — Demonstração de Objeto Direto de 3ª Pessoa (Verbo Ver) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-001 — Demonstração de Objeto Direto de 3ª Pessoa (Verbo Ver).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-001 — Demonstração de Objeto Direto de 3ª Pessoa (Verbo Ver).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Vi-o no cinema.\"",
+                "Análise Sintática: Ver é VTD (quem vê, vê alguém $\\rightarrow$ o menino). Não há preposição regente.",
+                "Resultado: Emprego obrigatório do pronome direto o (O.D.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-002",
+          "title": "EX-A10-G04-002 — Demonstração de Objeto Indireto de 3ª Pessoa (Verbo Obedecer)",
+          "prompt": "Estrutura: \"Obedeci-lhe prontamente.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Obedeci-lhe prontamente.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Obedecer é VTI e rege preposição a (quem obedece, obedece ao menino)."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "Emprego obrigatório do pronome indireto lhe (O.I.)."
+            }
+          ],
+          "result": "Resultado: Emprego obrigatório do pronome indireto lhe (O.I.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-002 — Demonstração de Objeto Indireto de 3ª Pessoa (Verbo Obedecer) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-002 — Demonstração de Objeto Indireto de 3ª Pessoa (Verbo Obedecer).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-002 — Demonstração de Objeto Indireto de 3ª Pessoa (Verbo Obedecer).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Obedeci-lhe prontamente.\"",
+                "Análise Sintática: Obedecer é VTI e rege preposição a (quem obedece, obedece ao menino).",
+                "Resultado: Emprego obrigatório do pronome indireto lhe (O.I.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-003",
+          "title": "EX-A10-G04-003 — Demonstração de LHE como Complemento Nominal",
+          "prompt": "Estrutura: \"Tenho-lhe respeito.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Tenho-lhe respeito.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O verbo ter é VTD e tem como objeto direto a palavra respeito. O termo respeito é substantivo abstrato que exige complemento preposicionado (respeito ao menino)."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "O pronome lhe liga-se ao substantivo respeito, exercendo a função de Complemento Nominal (C.N.)."
+            }
+          ],
+          "result": "Resultado: O pronome lhe liga-se ao substantivo respeito, exercendo a função de Complemento Nominal (C.N.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-003 — Demonstração de LHE como Complemento Nominal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-003 — Demonstração de LHE como Complemento Nominal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-003 — Demonstração de LHE como Complemento Nominal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Tenho-lhe respeito.\"",
+                "Análise Sintática: O verbo ter é VTD e tem como objeto direto a palavra respeito. O termo respeito é substantivo abstrato que exige complemento preposicionado (respeito ao menino).",
+                "Resultado: O pronome lhe liga-se ao substantivo respeito, exercendo a função de Complemento Nominal (C.N.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-004",
+          "title": "EX-A10-G04-004 — Demonstração de LHE como Adjunto Adnominal Possessivo",
+          "prompt": "Estrutura: \"Beijou-lhe a mão.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Beijou-lhe a mão.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Beijar é VTD e tem como O.D. \"a mão\". O pronome lhe equivale a \"a mão dele / sua mão\", expressando posse sobre o substantivo."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "lhe exerce a função de Adjunto Adnominal (Adj.Adn.)."
+            }
+          ],
+          "result": "Resultado: lhe exerce a função de Adjunto Adnominal (Adj.Adn.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-004 — Demonstração de LHE como Adjunto Adnominal Possessivo sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-004 — Demonstração de LHE como Adjunto Adnominal Possessivo.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-004 — Demonstração de LHE como Adjunto Adnominal Possessivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Beijou-lhe a mão.\"",
+                "Análise Sintática: Beijar é VTD e tem como O.D. \"a mão\". O pronome lhe equivale a \"a mão dele / sua mão\", expressando posse sobre o substantivo.",
+                "Resultado: lhe exerce a função de Adjunto Adnominal (Adj.Adn.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-005",
+          "title": "EX-A10-G04-005 — Demonstração de Pronome Coringa como Objeto Indireto",
+          "prompt": "Estrutura: \"Obedeceu-me.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Obedeceu-me.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Obedecer é VTI (obedeceu ao menino)."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "O pronome coringa me assume a função de Objeto Indireto (O.I.)."
+            }
+          ],
+          "result": "Resultado: O pronome coringa me assume a função de Objeto Indireto (O.I.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-005 — Demonstração de Pronome Coringa como Objeto Indireto sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-005 — Demonstração de Pronome Coringa como Objeto Indireto.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-005 — Demonstração de Pronome Coringa como Objeto Indireto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Obedeceu-me.\"",
+                "Análise Sintática: Obedecer é VTI (obedeceu ao menino).",
+                "Resultado: O pronome coringa me assume a função de Objeto Indireto (O.I.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-006",
+          "title": "EX-A10-G04-006 — Demonstração de Pronome Coringa como Objeto Direto",
+          "prompt": "Estrutura: \"Viu-me.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "\"Viu-me.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Ver é VTD (viu o menino)."
+            },
+            {
+              "order": 3,
+              "action": "Resultado",
+              "rationale": "O pronome coringa me assume a função de Objeto Direto (O.D.)."
+            }
+          ],
+          "result": "Resultado: O pronome coringa me assume a função de Objeto Direto (O.D.).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-006 — Demonstração de Pronome Coringa como Objeto Direto sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-006 — Demonstração de Pronome Coringa como Objeto Direto.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-006 — Demonstração de Pronome Coringa como Objeto Direto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: \"Viu-me.\"",
+                "Análise Sintática: Ver é VTD (viu o menino).",
+                "Resultado: O pronome coringa me assume a função de Objeto Direto (O.D.)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-007",
+          "title": "EX-A10-G04-007 — Bateria de Exercícios de Fixação 1 a 6 (Verbos Notáveis)",
+          "prompt": "A reincidência poderá acarretar-lhe penalidades severas. (Acarretar é VTDI; como \"penalidades severas\" é O.D., o pronome deve ser O.I. $\\rightarrow$ lhe).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "A reincidência poderá acarretar-lhe penalidades severas. (Acarretar é VTDI; como \"penalidades severas\" é O.D., o pronome deve ser O.I. $\\rightarrow$ lhe).",
+              "rationale": null
+            },
+            {
+              "order": 2,
+              "action": "Não lhe desobedecerei jamais. (Desobedecer é VTI com preposição a $\\rightarrow$ lhe).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "Eu o ajudei naquela árdua tarefa. (Ajudar é VTD na norma padrão $\\rightarrow$ o; rejeita o eufônico lhe).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "Por que um mendigo dormindo incomodou-os tanto? (Incomodar é VTD $\\rightarrow$ os; rejeita o eufônico lhes).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "A minha resposta não o satisfez. (Satisfazer é VTD $\\rightarrow$ o).",
+              "rationale": null
+            }
+          ],
+          "result": "Seu pai, que é libanês..., o presenteou com o Maverick 74 da família. (Presentear é VTD com adjunto com com $\\rightarrow$ o).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-007 — Bateria de Exercícios de Fixação 1 a 6 (Verbos Notáveis) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-007 — Bateria de Exercícios de Fixação 1 a 6 (Verbos Notáveis).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-007 — Bateria de Exercícios de Fixação 1 a 6 (Verbos Notáveis).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "A reincidência poderá acarretar-lhe penalidades severas. (Acarretar é VTDI; como \"penalidades severas\" é O.D., o pronome deve ser O.I. $\\rightarrow$ lhe).",
+                "Não lhe desobedecerei jamais. (Desobedecer é VTI com preposição a $\\rightarrow$ lhe).",
+                "Eu o ajudei naquela árdua tarefa. (Ajudar é VTD na norma padrão $\\rightarrow$ o; rejeita o eufônico lhe).",
+                "Por que um mendigo dormindo incomodou-os tanto? (Incomodar é VTD $\\rightarrow$ os; rejeita o eufônico lhes).",
+                "A minha resposta não o satisfez. (Satisfazer é VTD $\\rightarrow$ o).",
+                "Seu pai, que é libanês..., o presenteou com o Maverick 74 da família. (Presentear é VTD com adjunto com com $\\rightarrow$ o)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-008",
+          "title": "EX-A10-G04-008 — Compartilhamento Válido (Mesma Regência) vs. Inválido (Regências Distintas)",
+          "prompt": "Sentença Válida: Eu conheço [VTD] e respeito [VTD] aquele professor [O.D.]. (Correta).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Sentença Válida",
+              "rationale": "Eu conheço [VTD] e respeito [VTD] aquele professor [O.D.]. (Correta)."
+            },
+            {
+              "order": 2,
+              "action": "Sentença Inválida",
+              "rationale": "\\*Eu vi [VTD] e gostei [VTI] do filme [O.I.]. (Incorreta)."
+            },
+            {
+              "order": 3,
+              "action": "Sentença Reestruturada (\"Cada Um na Sua\")",
+              "rationale": "Eu vi o filme [O.D.] e gostei dele [O.I.]. (Correta)."
+            }
+          ],
+          "result": "Sentença Reestruturada (\"Cada Um na Sua\"): Eu vi o filme [O.D.] e gostei dele [O.I.]. (Correta).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-008 — Compartilhamento Válido (Mesma Regência) vs. Inválido (Regências Distintas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-008 — Compartilhamento Válido (Mesma Regência) vs. Inválido (Regências Distintas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-008 — Compartilhamento Válido (Mesma Regência) vs. Inválido (Regências Distintas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Sentença Válida: Eu conheço [VTD] e respeito [VTD] aquele professor [O.D.]. (Correta).",
+                "Sentença Inválida: \\*Eu vi [VTD] e gostei [VTI] do filme [O.I.]. (Incorreta).",
+                "Sentença Reestruturada (\"Cada Um na Sua\"): Eu vi o filme [O.D.] e gostei dele [O.I.]. (Correta)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-009",
+          "title": "EX-A10-G04-009 — Caso Especial de Regência Coordenada (Namorar, Noivar e Casar)",
+          "prompt": "Formulação Coloquial Incorreta: \\*Namorei, noivei e casei com ela.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Formulação Coloquial Incorreta",
+              "rationale": "\\*Namorei, noivei e casei com ela."
+            },
+            {
+              "order": 2,
+              "action": "Formulação Culta Padrão",
+              "rationale": "Eu a namorei [O.D.], noivei e casei com ela [O.I.]."
+            }
+          ],
+          "result": "Formulação Culta Padrão: Eu a namorei [O.D.], noivei e casei com ela [O.I.].",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-009 — Caso Especial de Regência Coordenada (Namorar, Noivar e Casar) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-009 — Caso Especial de Regência Coordenada (Namorar, Noivar e Casar).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-009 — Caso Especial de Regência Coordenada (Namorar, Noivar e Casar).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Formulação Coloquial Incorreta: \\*Namorei, noivei e casei com ela.",
+                "Formulação Culta Padrão: Eu a namorei [O.D.], noivei e casei com ela [O.I.]."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-010",
+          "title": "EX-A10-G04-010 — Questão 36 (VUNESP — Pref. São Bernardo do Campo) & Dúvida 36B",
+          "prompt": "Trecho Base: \"o que lhe permitiu se livrar da conta de luz\" (Permitir é VTDI $\\rightarrow$ lhe = O.I.; oração reduzida = O.D.).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho Base",
+              "rationale": "\"o que lhe permitiu se livrar da conta de luz\" (Permitir é VTDI $\\rightarrow$ lhe = O.I.; oração reduzida = O.D.)."
+            },
+            {
+              "order": 2,
+              "action": "Análise das Alternativas",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) \\*lhe transformou em um lago $\\rightarrow$ Erro",
+              "rationale": "transformar é VTDI; com \"em um lago\" (preposicionado), exige O.D. (o transformou)."
+            },
+            {
+              "order": 4,
+              "action": "B) \\*usando-lhe para iluminar $\\rightarrow$ Erro",
+              "rationale": "usar é VTD $\\rightarrow$ correto: usando-a (retomando energia)."
+            },
+            {
+              "order": 5,
+              "action": "C) CORRETA (Gabarito)",
+              "rationale": "\"...o que lhe dará independência...\" (Dar é VTDI: independência = O.D.; lhe = O.I.)."
+            }
+          ],
+          "result": "E) \\*lhe aproveita $\\rightarrow$ Erro: aproveitar é VTD $\\rightarrow$ a aproveita.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-010 — Questão 36 (VUNESP — Pref. São Bernardo do Campo) & Dúvida 36B sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-010 — Questão 36 (VUNESP — Pref. São Bernardo do Campo) & Dúvida 36B.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-010 — Questão 36 (VUNESP — Pref. São Bernardo do Campo) & Dúvida 36B.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho Base: \"o que lhe permitiu se livrar da conta de luz\" (Permitir é VTDI $\\rightarrow$ lhe = O.I.; oração reduzida = O.D.).",
+                "Análise das Alternativas:",
+                "A) \\*lhe transformou em um lago $\\rightarrow$ Erro: transformar é VTDI; com \"em um lago\" (preposicionado), exige O.D. (o transformou).",
+                "B) \\*usando-lhe para iluminar $\\rightarrow$ Erro: usar é VTD $\\rightarrow$ correto: usando-a (retomando energia).",
+                "C) CORRETA (Gabarito): \"...o que lhe dará independência...\" (Dar é VTDI: independência = O.D.; lhe = O.I.).",
+                "D) \\*não lhe conhecem $\\rightarrow$ Erro: conhecer é VTD $\\rightarrow$ não a conhecem.",
+                "E) \\*lhe aproveita $\\rightarrow$ Erro: aproveitar é VTD $\\rightarrow$ a aproveita."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-011",
+          "title": "EX-A10-G04-011 — Questão 37 e Questão 38 (VUNESP — Pref. Ribeirão Preto)",
+          "prompt": "Questão 37 — Gabarito D: \"Comprei um belo romance... e o dei ao Hermes.\" (Distribuição perfeita: o = O.D.; ao Hermes = O.I.). Elimina-se A por duplo O.I. (presenteei-lhe ao Hermes) e C por pronome reto (ler eles).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Questão 37 — Gabarito D",
+              "rationale": "\"Comprei um belo romance... e o dei ao Hermes.\" (Distribuição perfeita: o = O.D.; ao Hermes = O.I.). Elimina-se A por duplo O.I. (presenteei-lhe ao Hermes) e C por pronome reto (ler eles)."
+            },
+            {
+              "order": 2,
+              "action": "Questão 38 — Gabarito D",
+              "rationale": "\"O sertanejo informou Rosinha [O.D.] de sua partida [O.I.], deixando-lhe [O.I.] seu coração [O.D.].\""
+            },
+            {
+              "order": 3,
+              "action": "Elimina-se A",
+              "rationale": "\\*implicaram na partida (correto: implicaram a partida)."
+            },
+            {
+              "order": 4,
+              "action": "Elimina-se B",
+              "rationale": "\\*aspira o momento (correto: aspira ao momento)."
+            },
+            {
+              "order": 5,
+              "action": "Elimina-se C",
+              "rationale": "\\*anseia com o momento (correto: anseia pelo / do momento)."
+            }
+          ],
+          "result": "Elimina-se E: \\*assistir o desmatamento (correto: assistir ao desmatamento).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-011 — Questão 37 e Questão 38 (VUNESP — Pref. Ribeirão Preto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-011 — Questão 37 e Questão 38 (VUNESP — Pref. Ribeirão Preto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-011 — Questão 37 e Questão 38 (VUNESP — Pref. Ribeirão Preto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Questão 37 — Gabarito D: \"Comprei um belo romance... e o dei ao Hermes.\" (Distribuição perfeita: o = O.D.; ao Hermes = O.I.). Elimina-se A por duplo O.I. (presenteei-lhe ao Hermes) e C por pronome reto (ler eles).",
+                "Questão 38 — Gabarito D: \"O sertanejo informou Rosinha [O.D.] de sua partida [O.I.], deixando-lhe [O.I.] seu coração [O.D.].\"",
+                "Elimina-se A: \\*implicaram na partida (correto: implicaram a partida).",
+                "Elimina-se B: \\*aspira o momento (correto: aspira ao momento).",
+                "Elimina-se C: \\*anseia com o momento (correto: anseia pelo / do momento).",
+                "Elimina-se E: \\*assistir o desmatamento (correto: assistir ao desmatamento)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-012",
+          "title": "EX-A10-G04-012 — Questão 39 (VUNESP — Pref. Campinas — Auditor Fiscal)",
+          "prompt": "Enunciado: Substituir \"mesmo quando o incomoda\" por construção com o verbo causar e o substantivo incômodo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Substituir \"mesmo quando o incomoda\" por construção com o verbo causar e o substantivo incômodo."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Causar é VTDI (causa incômodo [O.D.] a alguém [O.I. $\\rightarrow$ lhe]). A conjunção quando exige próclise."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito C",
+              "rationale": "\"mesmo quando lhe causa incômodo\"."
+            }
+          ],
+          "result": "Gabarito C: \"mesmo quando lhe causa incômodo\".",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-012 — Questão 39 (VUNESP — Pref. Campinas — Auditor Fiscal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-012 — Questão 39 (VUNESP — Pref. Campinas — Auditor Fiscal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-012 — Questão 39 (VUNESP — Pref. Campinas — Auditor Fiscal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Substituir \"mesmo quando o incomoda\" por construção com o verbo causar e o substantivo incômodo.",
+                "Resolução: Causar é VTDI (causa incômodo [O.D.] a alguém [O.I. $\\rightarrow$ lhe]). A conjunção quando exige próclise.",
+                "Gabarito C: \"mesmo quando lhe causa incômodo\"."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-013",
+          "title": "EX-A10-G04-013 — Questão 40 (FGV — TJ-RS — Oficial de Justiça)",
+          "prompt": "Gabarito B: \"Comprei o livro ontem, mas vou revendê-lo;\" (revender + o $\\rightarrow$ revendê-lo).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Gabarito B",
+              "rationale": "\"Comprei o livro ontem, mas vou revendê-lo;\" (revender + o $\\rightarrow$ revendê-lo)."
+            },
+            {
+              "order": 2,
+              "action": "Análise dos Erros",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) \\*lhes condenaram $\\rightarrow$ Erro",
+              "rationale": "condenar é VTD $\\rightarrow$ os condenaram."
+            },
+            {
+              "order": 4,
+              "action": "C) \\*as ordens, por isso os obedeci $\\rightarrow$ Erro",
+              "rationale": "obedecer é VTI $\\rightarrow$ lhes obedecia ou obedeci a elas."
+            },
+            {
+              "order": 5,
+              "action": "D) \\*não no viram sair $\\rightarrow$ Erro",
+              "rationale": "negação atrai próclise $\\rightarrow$ não o viram."
+            }
+          ],
+          "result": "E) \\*não encontrei-las $\\rightarrow$ Erro: negação atrai próclise $\\rightarrow$ não as encontrei.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-013 — Questão 40 (FGV — TJ-RS — Oficial de Justiça) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-013 — Questão 40 (FGV — TJ-RS — Oficial de Justiça).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-013 — Questão 40 (FGV — TJ-RS — Oficial de Justiça).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito B: \"Comprei o livro ontem, mas vou revendê-lo;\" (revender + o $\\rightarrow$ revendê-lo).",
+                "Análise dos Erros:",
+                "A) \\*lhes condenaram $\\rightarrow$ Erro: condenar é VTD $\\rightarrow$ os condenaram.",
+                "C) \\*as ordens, por isso os obedeci $\\rightarrow$ Erro: obedecer é VTI $\\rightarrow$ lhes obedecia ou obedeci a elas.",
+                "D) \\*não no viram sair $\\rightarrow$ Erro: negação atrai próclise $\\rightarrow$ não o viram.",
+                "E) \\*não encontrei-las $\\rightarrow$ Erro: negação atrai próclise $\\rightarrow$ não as encontrei."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-014",
+          "title": "EX-A10-G04-014 — Questão 41 (CESPE — STM — Analista Judiciário)",
+          "prompt": "Trecho: \"estado de que meu coração precisava\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"estado de que meu coração precisava\"."
+            },
+            {
+              "order": 2,
+              "action": "Item",
+              "rationale": "A preposição de é regida pela forma verbal precisava, não pela palavra estado."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO. (Quem precisa, precisa de algo $\\rightarrow$ regência posposta)."
+            }
+          ],
+          "result": "Gabarito: CERTO. (Quem precisa, precisa de algo $\\rightarrow$ regência posposta).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-014 — Questão 41 (CESPE — STM — Analista Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-014 — Questão 41 (CESPE — STM — Analista Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-014 — Questão 41 (CESPE — STM — Analista Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"estado de que meu coração precisava\".",
+                "Item: A preposição de é regida pela forma verbal precisava, não pela palavra estado.",
+                "Gabarito: CERTO. (Quem precisa, precisa de algo $\\rightarrow$ regência posposta)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-015",
+          "title": "EX-A10-G04-015 — Questão 42 (CESPE — ANS — Técnico em Regulação)",
+          "prompt": "Trecho: \"...dão origem às pupas, das quais surge o adulto.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"...dão origem às pupas, das quais surge o adulto.\""
+            },
+            {
+              "order": 2,
+              "action": "Item",
+              "rationale": "O emprego de preposição em \"das quais\" é exigido pela regência de \"origem\"."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO. (A preposição de é regida pelo verbo posposto surge)."
+            }
+          ],
+          "result": "Gabarito: ERRADO. (A preposição de é regida pelo verbo posposto surge).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-015 — Questão 42 (CESPE — ANS — Técnico em Regulação) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-015 — Questão 42 (CESPE — ANS — Técnico em Regulação).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-015 — Questão 42 (CESPE — ANS — Técnico em Regulação).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"...dão origem às pupas, das quais surge o adulto.\"",
+                "Item: O emprego de preposição em \"das quais\" é exigido pela regência de \"origem\".",
+                "Gabarito: ERRADO. (A preposição de é regida pelo verbo posposto surge)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-016",
+          "title": "EX-A10-G04-016 — Questão 43 (CESPE — TCE-MG) & Questão 44 (CESPE — FUB)",
+          "prompt": "Q43 — Gabarito CERTO: Substituição de de que por do qual em \"...o meio ambiente de que dependem\". Preserva correção e sentido.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Q43 — Gabarito CERTO",
+              "rationale": "Substituição de de que por do qual em \"...o meio ambiente de que dependem\". Preserva correção e sentido."
+            },
+            {
+              "order": 2,
+              "action": "Q44 — Gabarito ERRADO",
+              "rationale": "O item afirmava que substituir no qual por em que em \"contexto no qual está inserida\" prejudicaria o texto. A troca é perfeitamente válida."
+            }
+          ],
+          "result": "Q44 — Gabarito ERRADO: O item afirmava que substituir no qual por em que em \"contexto no qual está inserida\" prejudicaria o texto. A troca é perfeitamente válida.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-016 — Questão 43 (CESPE — TCE-MG) & Questão 44 (CESPE — FUB) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-016 — Questão 43 (CESPE — TCE-MG) & Questão 44 (CESPE — FUB).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-016 — Questão 43 (CESPE — TCE-MG) & Questão 44 (CESPE — FUB).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Q43 — Gabarito CERTO: Substituição de de que por do qual em \"...o meio ambiente de que dependem\". Preserva correção e sentido.",
+                "Q44 — Gabarito ERRADO: O item afirmava que substituir no qual por em que em \"contexto no qual está inserida\" prejudicaria o texto. A troca é perfeitamente válida."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-017",
+          "title": "EX-A10-G04-017 — Questão 45 (CESPE — SEFAZ-AL — Auditor Fiscal)",
+          "prompt": "Trecho: \"...coisas das quais não entende.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"...coisas das quais não entende.\""
+            },
+            {
+              "order": 2,
+              "action": "Item",
+              "rationale": "A substituição de \"das quais\" por \"que\" preservaria tanto o sentido quanto a correção gramatical."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO. (Altera o sentido de \"não ter conhecimento/domínio\" para \"não compreender\")."
+            }
+          ],
+          "result": "Gabarito: ERRADO. (Altera o sentido de \"não ter conhecimento/domínio\" para \"não compreender\").",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-017 — Questão 45 (CESPE — SEFAZ-AL — Auditor Fiscal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-017 — Questão 45 (CESPE — SEFAZ-AL — Auditor Fiscal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-017 — Questão 45 (CESPE — SEFAZ-AL — Auditor Fiscal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"...coisas das quais não entende.\"",
+                "Item: A substituição de \"das quais\" por \"que\" preservaria tanto o sentido quanto a correção gramatical.",
+                "Gabarito: ERRADO. (Altera o sentido de \"não ter conhecimento/domínio\" para \"não compreender\")."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-018",
+          "title": "EX-A10-G04-018 — Questão 46 (CESPE — SEFAZ-DF — Auditor Fiscal)",
+          "prompt": "Trecho: \"das empresas nas quais investem\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"das empresas nas quais investem\"."
+            },
+            {
+              "order": 2,
+              "action": "Item",
+              "rationale": "A substituição de \"nas quais\" por \"aonde\" prejudicaria a correção gramatical do texto."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO. (Investir rege em; aonde exige preposição a e movimento)."
+            }
+          ],
+          "result": "Gabarito: CERTO. (Investir rege em; aonde exige preposição a e movimento).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-018 — Questão 46 (CESPE — SEFAZ-DF — Auditor Fiscal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-018 — Questão 46 (CESPE — SEFAZ-DF — Auditor Fiscal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-018 — Questão 46 (CESPE — SEFAZ-DF — Auditor Fiscal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"das empresas nas quais investem\".",
+                "Item: A substituição de \"nas quais\" por \"aonde\" prejudicaria a correção gramatical do texto.",
+                "Gabarito: CERTO. (Investir rege em; aonde exige preposição a e movimento)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-019",
+          "title": "EX-A10-G04-019 — Questão 47 e Questão 48 (CESPE)",
+          "prompt": "Q47 (FUNPRESP) — Gabarito ERRADO: Proposta de trocar -o por lhe em \"reduziu-o a artigos\". Como \"a artigos\" é O.I., lhe geraria duplicidade de O.I.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Q47 (FUNPRESP) — Gabarito ERRADO",
+              "rationale": "Proposta de trocar -o por lhe em \"reduziu-o a artigos\". Como \"a artigos\" é O.I., lhe geraria duplicidade de O.I."
+            },
+            {
+              "order": 2,
+              "action": "Q48 (SUFRAMA) — Gabarito ERRADO",
+              "rationale": "Proposta de trocar os por lhes em \"os levou consigo\". Levar é VTD e repele lhes."
+            }
+          ],
+          "result": "Q48 (SUFRAMA) — Gabarito ERRADO: Proposta de trocar os por lhes em \"os levou consigo\". Levar é VTD e repele lhes.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-019 — Questão 47 e Questão 48 (CESPE) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-019 — Questão 47 e Questão 48 (CESPE).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-019 — Questão 47 e Questão 48 (CESPE).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Q47 (FUNPRESP) — Gabarito ERRADO: Proposta de trocar -o por lhe em \"reduziu-o a artigos\". Como \"a artigos\" é O.I., lhe geraria duplicidade de O.I.",
+                "Q48 (SUFRAMA) — Gabarito ERRADO: Proposta de trocar os por lhes em \"os levou consigo\". Levar é VTD e repele lhes."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G04-020",
+          "title": "EX-A10-G04-020 — Questão 49 (CESPE — FUB) & Questão 50 (CESPE — TCE-RJ)",
+          "prompt": "Q49 — Gabarito ERRADO: Afirmação de que lhes poderia ser trocado por os em \"oferecendo-lhes algo\" por \"dupla regência de oferecer\". Oferecer é VTDI fixo; trocar geraria dois objetos diretos.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Q49 — Gabarito ERRADO",
+              "rationale": "Afirmação de que lhes poderia ser trocado por os em \"oferecendo-lhes algo\" por \"dupla regência de oferecer\". Oferecer é VTDI fixo; trocar geraria dois objetos diretos."
+            },
+            {
+              "order": 2,
+              "action": "Q50 — Gabarito ERRADO",
+              "rationale": "Reescrita de dar ordens para dá-lo ordens. Acumula dois objetos diretos (-lo e ordens); a forma correta é dar-lhe ordens."
+            }
+          ],
+          "result": "Q50 — Gabarito ERRADO: Reescrita de dar ordens para dá-lo ordens. Acumula dois objetos diretos (-lo e ordens); a forma correta é dar-lhe ordens.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A10-G04-020 — Questão 49 (CESPE — FUB) & Questão 50 (CESPE — TCE-RJ) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A10-G04-020 — Questão 49 (CESPE — FUB) & Questão 50 (CESPE — TCE-RJ).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A10-G04-020 — Questão 49 (CESPE — FUB) & Questão 50 (CESPE — TCE-RJ).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Q49 — Gabarito ERRADO: Afirmação de que lhes poderia ser trocado por os em \"oferecendo-lhes algo\" por \"dupla regência de oferecer\". Oferecer é VTDI fixo; trocar geraria dois objetos diretos.",
+                "Q50 — Gabarito ERRADO: Reescrita de dar ordens para dá-lo ordens. Acumula dois objetos diretos (-lo e ordens); a forma correta é dar-lhe ordens."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em caso de hesitação, teste o verbo com \"o menino\":",
+            "Resultou \"o menino\" (sem preposição) $\\implies$ marque O, A, OS, AS.",
+            "Resultou \"ao menino\" (com preposição) $\\implies$ marque LHE, LHES."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O pronome lhe soa falsamente culto e polido em verbos como ajudar, amar, respeitar, incomodar. Nunca decida uma questão pelo \"ouvido\" ou beleza sonora; decida pela análise sintática estrita da transitividade."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ao redigir períodos com verbos coordenados, verifique se um pede preposição e o outro não (ver e gostar). Se forem de regências distintas, forneça um complemento substantivo ao primeiro e retome-o com pronome/preposição no segundo (\"Assisti ao filme e gostei dele\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em questões com pronome relativo antecedido de preposição (de que, em que, do qual), olhe imediatamente para o verbo que vem depois do relativo. A flecha da regência sempre corre da direita para a esquerda."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A10-G04-001",
+          "title": "O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro de Empregar \"LHE\" com Verbos Transitivos Diretos.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Frases como \\*\"Eu lhe amo\", \\*\"Eu lhe ajudei\", \\*\"Isso não lhe incomoda\".",
+                "Correção: Amar, ajudar e incomodar são VTDs $\\implies$ Eu o amo, eu o ajudei, isso não o incomoda."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-002",
+          "title": "Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Armadilha do Pronome Enclítico Parecer Complemento Verbal sem Sê-lo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Julgar que todo pronome com hífen completa o verbo antecedente.",
+                "Pegadinha: Em \"Tenho-lhe respeito\", o pronome lhe completa o substantivo respeito (Complemento Nominal), e não o verbo ter. Em \"Beijou-lhe a mão\", lhe qualifica mão (Adjunto Adnominal)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-003",
+          "title": "Erro de Paralelismo por Compartilhamento Híbrido de Complemento",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro de Paralelismo por Compartilhamento Híbrido de Complemento no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro de Paralelismo por Compartilhamento Híbrido de Complemento.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro de Paralelismo por Compartilhamento Híbrido de Complemento.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro de Paralelismo por Compartilhamento Híbrido de Complemento para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro de Paralelismo por Compartilhamento Híbrido de Complemento.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro de Paralelismo por Compartilhamento Híbrido de Complemento.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Unir um VTD e um VTI associados a um único complemento preposicionado (\"Vi e gostei do filme\").",
+                "Correção: Desmembrar a estrutura: \"Vi o filme e gostei dele\"."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-004",
+          "title": "Regência Culta Tradicional do Verbo Namorar",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Regência Culta Tradicional do Verbo Namorar no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Regência Culta Tradicional do Verbo Namorar.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Regência Culta Tradicional do Verbo Namorar.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Regência Culta Tradicional do Verbo Namorar para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Regência Culta Tradicional do Verbo Namorar.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Regência Culta Tradicional do Verbo Namorar.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Empregar namorar com alguém.",
+                "Correção: Na norma tradicional de concursos, namorar é VTD $\\implies$ João namora Maria (e não com Maria)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-005",
+          "title": "O Erro Clássico de \"Implicar em\" no Sentido de Acarretar",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro Clássico de \"Implicar em\" no Sentido de Acarretar no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro Clássico de \"Implicar em\" no Sentido de Acarretar.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro Clássico de \"Implicar em\" no Sentido de Acarretar.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Erro Clássico de \"Implicar em\" no Sentido de Acarretar para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro Clássico de \"Implicar em\" no Sentido de Acarretar.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro Clássico de \"Implicar em\" no Sentido de Acarretar.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Redigir \\*\"A medida implicará em demissões\".",
+                "Correção: No sentido de acarretar, implicar é VTD $\\implies$ A medida implicará demissões. A preposição em só é legítima na forma pronominal reflexiva (implicar-se em = envolver-se)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-006",
+          "title": "Preconceito de Gênero com o Pronome LHE / LHES",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Preconceito de Gênero com o Pronome LHE / LHES no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Preconceito de Gênero com o Pronome LHE / LHES.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Preconceito de Gênero com o Pronome LHE / LHES.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Preconceito de Gênero com o Pronome LHE / LHES para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Preconceito de Gênero com o Pronome LHE / LHES.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Preconceito de Gênero com o Pronome LHE / LHES.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Achar que, por \"ordens\" ser feminino plural, o pronome substitutivo com obedecer deva ser as (\"as obedeci\").",
+                "Correção: Obedecer é VTI. O pronome lhes não tem feminino e atua perfeitamente no feminino plural: lhes obedeci (ou obedeci a elas)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-007",
+          "title": "Alomorfia Indevida em Estruturas Proclíticas",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Alomorfia Indevida em Estruturas Proclíticas no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Alomorfia Indevida em Estruturas Proclíticas.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Alomorfia Indevida em Estruturas Proclíticas.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Alomorfia Indevida em Estruturas Proclíticas para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Alomorfia Indevida em Estruturas Proclíticas.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Alomorfia Indevida em Estruturas Proclíticas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Aplicar acomodações enclíticas em contexto de próclise (\"não no viram\", \"não encontrei-las\").",
+                "Correção: Com palavra atrativa (não), o pronome retorna à forma base: não o viram, não as encontrei."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-008",
+          "title": "Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\")",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\") no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\").",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\").",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\") para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\").",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pronome Reto como Complemento Verbal (\"ler eles\", \"ver eles\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: O uso coloquial consagrou pronomes retos como objetos (\"não gosta de ler eles\").",
+                "Correção: Na norma culta, pronomes retos exercem função de sujeito. Use oblíquos: não gosta de os ler ou de lê-los."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-009",
+          "title": "Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha de \"Preservação de Sentido\" em Verbos de Dupla Regência.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Assinalar como correta a troca de regência em verbos como entender.",
+                "Correção: Trocar coisas das quais não entende por coisas que não entende mantém a correção sintática, mas altera o sentido semântico original."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A10-G04-010",
+          "title": "A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Falácia da \"Dupla Regência\" em Verbos Bitransitivos (Cebraspe).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Aceitar a troca de lhes por os em verbos como oferecer ou dar sob a alegação de \"dupla regência\".",
+                "Correção: VTDI exige concomitância de O.D. e O.I. Não se pode substituir o O.I. por pronome de O.D. se a frase já possui O.D. (oferecendo-os algo e dá-lo ordens são erros graves)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Frases como \\*\"Eu lhe amo\", \\*\"Eu lhe ajudei\", \\*\"Isso não lhe incomoda\".",
+            "Correção: Amar, ajudar e incomodar são VTDs $\\implies$ Eu o amo, eu o ajudei, isso não o incomoda."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Julgar que todo pronome com hífen completa o verbo antecedente.",
+            "Pegadinha: Em \"Tenho-lhe respeito\", o pronome lhe completa o substantivo respeito (Complemento Nominal), e não o verbo ter. Em \"Beijou-lhe a mão\", lhe qualifica mão (Adjunto Adnominal)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Unir um VTD e um VTI associados a um único complemento preposicionado (\"Vi e gostei do filme\").",
+            "Correção: Desmembrar a estrutura: \"Vi o filme e gostei dele\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Empregar namorar com alguém.",
+            "Correção: Na norma tradicional de concursos, namorar é VTD $\\implies$ João namora Maria (e não com Maria)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Redigir \\*\"A medida implicará em demissões\".",
+            "Correção: No sentido de acarretar, implicar é VTD $\\implies$ A medida implicará demissões. A preposição em só é legítima na forma pronominal reflexiva (implicar-se em = envolver-se)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Achar que, por \"ordens\" ser feminino plural, o pronome substitutivo com obedecer deva ser as (\"as obedeci\").",
+            "Correção: Obedecer é VTI. O pronome lhes não tem feminino e atua perfeitamente no feminino plural: lhes obedeci (ou obedeci a elas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Aplicar acomodações enclíticas em contexto de próclise (\"não no viram\", \"não encontrei-las\").",
+            "Correção: Com palavra atrativa (não), o pronome retorna à forma base: não o viram, não as encontrei."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: O uso coloquial consagrou pronomes retos como objetos (\"não gosta de ler eles\").",
+            "Correção: Na norma culta, pronomes retos exercem função de sujeito. Use oblíquos: não gosta de os ler ou de lê-los."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Assinalar como correta a troca de regência em verbos como entender.",
+            "Correção: Trocar coisas das quais não entende por coisas que não entende mantém a correção sintática, mas altera o sentido semântico original."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Aceitar a troca de lhes por os em verbos como oferecer ou dar sob a alegação de \"dupla regência\".",
+            "Correção: VTDI exige concomitância de O.D. e O.I. Não se pode substituir o O.I. por pronome de O.D. se a frase já possui O.D. (oferecendo-os algo e dá-lo ordens são erros graves)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relação sintática e semântica de subordinação que se estabelece entre um verbo (termo regente) e seus complementos (termos regidos), mediada ou não por preposições obrigatórias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronomes pessoais (me, te, se, o, a, lhe, nos, vos, os, as, lhes) que desempenham funções sintáticas de complementos verbais ou nominais sem serem introduzidos por preposição própria na sua forma morfológica básica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conceito didático criado pela professora Adriana Figueiredo para designar o conjunto me, te, se, nos, vos, caracterizados pela ausência de função sintática fixa, atuando como O.D., O.I. ou C.N. conforme a regência do termo associado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo que exige simultaneamente dois complementos de naturezas distintas: um Objeto Direto (sem preposição) e um Objeto Indireto (com preposição). Não admite dois objetos diretos nem dois indiretos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade de determinados verbos que admitem duas molduras sintáticas alternativas e independentes em orações distintas, podendo manter o mesmo sentido ou alterar o significado lexical (como em entender)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Construção de coordenação sintática em que dois ou mais verbos associam-se a um único sintagma nominal como objeto. Só é admitido pela norma padrão se todos os verbos possuírem idêntica regência."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modificação na forma gráfica e fonética dos pronomes o, a, os, as, convertendo-se em -lo, -la, -los, -las (após R, S, Z) ou -no, -na, -nos, -nas (após som nasal) exclusivamente em posição enclítica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriedade morfológica do pronome lhe / lhes, que varia unicamente em número (singular/plural), sendo apto a substituir complementos preposicionados masculinos ou femininos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classe de pronomes (que, quem, onde, cujo, o qual) que substitui um termo antecedente na oração subordinada adjetiva, projetando para antes de si as preposições exigidas pelo termo regente posposto."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo do Grupo G04, o estudante deve dominar as seguintes competências práticas e teóricas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Diferenciação Mecânica e Precisa de 3ª Pessoa: Identificar que o, a, os, as são complementos diretos (sem preposição) e que lhe, lhes são complementos indiretos/preposicionados, sabendo que lhe pode ser Objeto Indireto, Complemento Nominal ou Adjunto Adnominal de posse.",
+            "Operação dos Pronomes Coringas: Analisar que me, te, se, nos, vos não possuem transitividade própria, espelhando fielmente a regência do verbo ou nome com o qual se combinam.",
+            "Manejo Seguro da Bitransitividade: Aplicar a regra da não duplicidade em verbos VTDI (dar, oferecer, informar, presentear, reduzir, acarretar), garantindo que a presença de um O.D. imponha pronome indireto (lhe) e vice-versa.",
+            "Aplicação do Paralelismo Sintático em Coordenação: Reconhecer e reescrever frases com verbos coordenados de regências distintas pela regra \"cada um na sua\" (Vi o filme e gostei dele).",
+            "Domínio de Verbos Notáveis e Peculiaridades Semânticas: Dominar as regências de implicar (VTD no sentido de acarretar), aspirar (VTI com a no sentido de almejar), ansiar (VTI com por ou de), assistir (VTI com a no sentido de presenciar), namorar (VTD sem com) e entender (VTD = compreender vs. VTI com de = conhecer).",
+            "Morfossintaxe e Colocação Pronominal: Aplicar alomorfias (-lo, -no) somente em ênclise, reconhecer a força atrativa da próclise obrigatória (palavras negativas e conjunções subordinativas) e validar a próclise após orações intercaladas.",
+            "Regência em Orações Adjetivas com Relativos: Identificar que a preposição que precede o pronome relativo é regida exclusivamente pelo verbo ou nome posposto na oração adjetiva, dominando a comutabilidade entre no qual/em que e as restrições do pronome aonde.",
+            "Neutralização de Pegadinhas de Bancas: Desmontar armadilhas de eufonia, reconhecer que lhes retoma substantivos femininos plurais (às ordens) e refutar falsas alegações de \"dupla regência\" em verbos bitransitivos no Cebraspe."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula10.q0045",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "No setor Palavras Cruzadas do museu, por exemplo, visualizam-se palavras que nos ensinaram a\nnomear determinados comportamentos, como: bagunça lengalenga, dengo.\nNo trecho “que nos ensinaram a nomear determinados comportamentos” (segundo período do\nterceiro parágrafo), completam o sentido do verbo da primeira oração um complemento direto\n— “nos” — e um complemento indireto — a oração regida pela preposição “a”.",
+      "options": [],
+      "officialAnswer": "option_C",
+      "explanation": "A regência de “ensinar” admite basicamente duas análises:\nEnsinar (algo: OD) (a alguém: OI).\nEnsinar (alguém: OD) (a fazer algo: OI).\nAqui, temos a segunda análise:\nEnsinar (alguém: OD) (a fazer algo: OI).\nEnsinar (nos: OD) (a nomear determinados comportamentos: OI).\nGabarito: Correto.",
+      "questionSha256": "ca44e99f1d040afa572e91171d5b54b3d37d31ca391d5484a2bacad2f6e15dc9",
+      "answerSha256": "7fc3d138f22c7bc869df5d3025dfbf728d772e956558615b1befab0341d4aac8",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0138",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "No setor Palavras Cruzadas do museu, por exemplo, visualizam-se palavras que nos ensinaram a\nnomear determinados comportamentos, como: bagunça lengalenga, dengo.\nNo trecho “que nos ensinaram a nomear determinados comportamentos” (segundo período do\nterceiro parágrafo), completam o sentido do verbo da primeira oração um complemento direto\n— “nos” — e um complemento indireto — a oração regida pela preposição “a”.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "7c83106e3c1d64bd9060fb62fbee42f0846c465777b7944a5e64bf3c3a4fa9b6",
+      "answerSha256": "08c0fec2652ac49756164d4a11fba836d0ef3b17b81398b69a0abb4305e97abf",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0011",
+      "questionType": "other",
+      "examBoard": "FUNPRESP",
+      "organization": "2016",
+      "year": 2016,
+      "prompt": "A substituição do pronome “o”, em “reduziu-o a artigos”, por “lhe” preservaria a correção\ngramatical do texto.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "O verbo reduzir, no caso, é VTDI: Reduzir uma coisa (OD) a outra coisa (OI). Ex.:vou reduzir você a\npó! Assim sendo, sabemos que o pronome oblíquo “o” faz o papel de objeto direto. Portanto,\nnão poderia ser substituído por “lhe”, que só pode ser objeto indireto. Questão incorreta.\n9. Chegar\nEx.: O Natal chegou cedo! (VI)\nO verbo chegar funciona como o verbo ir, é intransitivo. Contudo, por seu sentido de\ndeslocamento, vem acompanhado com uma circunstância de lugar (adjunto adverbial de tempo).\nA FCC, porém, já considerou esse verbo como transitivo indireto, regido pela preposição “a”,\nembasada na obra de Celso Pedro Luft. Veremos essa questão logo abaixo. Então, pode ser\ntambém transitivo indireto, regendo a preposição “a”.\nEx.: Sua paciência chegou ao extremo.\nEx.: A produtividade pode chegar a limites improváveis.\nSaliento que o verbo chegar deve utilizar a preposição “a”, não “em”. Embora soe comum na\ncoloquialidade, estaria errada a expressão “chegou em Brasília”.\n10.Caber\nO verbo caber pede preposição “a”, no sentido de que algo deve ser feito por alguém.\nGeralmente traz um sujeito oracional, representando uma ação.\nEx.: Cabe a nós aproveitar nosso tempo. (VTI: “a”; competir, ser de direito)\nO verbo caber também pode ser intransitivo.\nEx.: No seu caso, não cabe recurso. (VI; convir, ter admissibilidade, cabimento)\n11.Constar\n“Constar” pode ter várias regências; seu sentido geralmente envolve composição ou\nconhecimento.\nEx.: O Código Civil consta de mais de 2045 artigos. (VTI: “de”; conter, consistir em; ser\nconstituído de)\nEx.: “Consta nos autos, consta no mundo”... (VTI: “de” ou “em”; estar incluído; estar\ncontido em)\nEx.: Não constava a ele que tinha outro filho. (VTI: “a”; saber, ter ciência)\nEx.: Consta a mim que o papa ficou preocupado com a crise. (VTI: “a”; ser do\nconhecimento de; ser sabido; ter ciência; geralmente traz sujeito oracional: aquilo que\nconsta tem formato de uma oração)\n12.Referir-se\nEsse verbo é pronominal e tem preposição “a”. A banca gosta de sugerir a troca por um\nsinônimo. Cai bastante!\nEx.: O texto refere-se ao atentado de 11 de setembro. (VTI, “a”; mencionar, aludir a algo)\nPense também no verbo “aludir”, que pede preposição “a”, e em seu sinônimo “mencionar”,\nque não pede.\nEx.: Mencionei a questão/Aludi à questão. (há preposição, por isso há crase)\n13.Contribuir\nEx.: Não vou mais contribuir para a Igreja. (VTI: “para”; ajudar; doar)\nEx.: Não vou mais contribuir com dinheiro. (VTI: “com”; ajudar, doar)\n14.Obedecer e Desobedecer\n(VTI: “a”; (não) seguir ordens, acatar; VTI especial, que aceita voz passiva)\nEx: O brasileiro obedece a leis absurdas.\nEx: O servidor não deve obedecer a ordens ilegais.\nEx: Ele obedecia ao pai e à mãe.\nEx.: Desobedeci ao patrão e à patroa.\nEx.: O decreto foi obedecido pelos cidadãos.\nOBS: Alguns verbos transitivos indiretos admitem voz passiva (obedecer, atender, pagar, perdoar,\napelar, abusar)\nAs leis não são obedecidas.\nOs alunos foram atendidos.\nOs funcionários foram pagos/perdoados pelo patrão.\n15.Lembrar e esquecer\nMUITA ATENÇÃO AQUI!!\nEsses verbos podem ser usados como pronominais, ou seja, com um pronome “colado” nele.\nNesse caso, opera-se em par: OU é VTI pronominal e traz as duas partes –SE + DE ou é só VTD.\nÉ tudo (pronome + preposição) ou nada.\nEx.: Lembrei/Esqueci a fórmula. (VTD; na forma não pronominal)\nEx.: Lembrei-me/Esqueci-me da fórmula. (VTI, na forma pronominal)\nPara esses verbos, opera-se em pares, ou usa pronome + preposição, ou se omitem os dois.\nEsses verbos acima são muito importantes e mostram a lógica dos verbos\npronominais! Ou trazem pronome + preposição ou nada!!",
+      "questionSha256": "93d255abd1747f9ee6050ac357c51b5791e6f0fd789c42a95c76682a8a053e07",
+      "answerSha256": "cb79665842f8fedbc30cc06ad43abfd04402f6e3664ded576d9c0aec49c79ba9",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de FUNPRESP; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0158",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "SEFAZ-DF",
+      "year": 2020,
+      "role": "AUDITOR FISCAL",
+      "prompt": "Dada a regência do verbo tender, é facultativo o emprego do sinal indicativo de crase no\nvocábulo “a” em “tendem a ser menos efetivas”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "0e44cec04b990f84e2ca710e636f6ec9290d4531417bf3c672153ef82475dfe1",
+      "answerSha256": "4c309ce63077cc68f5ad5235d987a7d239ba7b340875157524aad34c13cd2366",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0065",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "SEFAZ-DF",
+      "year": 2020,
+      "role": "AUDITOR FISCAL",
+      "prompt": "Dada a regência do verbo tender, é facultativo o emprego do sinal indicativo de crase no\nvocábulo “a” em “tendem a ser menos efetivas”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Considerando o termo a que se liga a expressão “tendem a”, o emprego do acento grave\nindicativo da crase seria inadequado em termos de correção gramatical. Questão incorreta.",
+      "questionSha256": "75ff37e060d9e9aebc53846a3cf5b87d96d11e7403b37c99ff1612d00201e25c",
+      "answerSha256": "842eb3d8cc54a6b3ae46c84bc55a56fa452685b643f97dfe27f97822b2b9889e",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0049",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. CACHOEIRO ITAPEMIRIM",
+      "year": 2024,
+      "prompt": "No trecho “responder a questões” (último período do segundo parágrafo), a supressão da\npreposição “a” não prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "\"Responder\" pode ser transitivo direto (sem preposição) ou indireto (com preposição \"a\"). Então,\na supressão da preposição não prejudicaria a correção.\nQuestão correta.",
+      "questionSha256": "a7ea83cdc6fd06800d1910b5d8ead5d9ebe8734c1376d382edc9c242e6af246c",
+      "answerSha256": "7e91cfb8731e3c31c37a93b08101e4fe49c204caffdb2b96a6eaf074bc97bdae",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência e Pronomes Pessoais; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

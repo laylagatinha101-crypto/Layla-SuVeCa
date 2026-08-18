@@ -1,0 +1,45 @@
+# Dependencies and generated builds
+node_modules/
+functions/node_modules/
+dist/
+coverage/
+.vite/
+.firebase/
+playwright-report/
+test-results/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+functions/.env
+functions/.env.*
+
+# Raw editorial source and audit trail stay local; the app's method contract is versioned here
+knowledge/editorial/*
+!knowledge/editorial/suveca-method.json
+!knowledge/editorial/suveca-group-connections.json
+!knowledge/editorial/suveca-connections-editorial.json
+knowledge/schema/
+knowledge/kb.config.json
+scripts/*
+!scripts/build-deployment-shards.mjs
+!scripts/audit-deployment-shards.mjs
+!scripts/consolidate-modules-v3.mjs
+!scripts/run-ai-evals.mjs
+!scripts/build-pedagogical-curriculum.mjs
+!scripts/audit-pedagogical-curriculum.mjs
+!scripts/audit-pedagogical-markdown.mjs
+!scripts/lib/
+!scripts/lib/pedagogical-markdown.mjs
+
+# Keep only the consolidated runtime knowledge artifact
+knowledge/generated/*
+!knowledge/generated/knowledge-base.json
+
+# Logs, caches and local archives
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+.tmp-*/

@@ -1,0 +1,2049 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A04-G06",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.982Z"
+  },
+  "unit": {
+    "unitId": "IP-A04-G06",
+    "lessonId": "A04",
+    "groupId": "G06",
+    "title": "Verbos Irregulares - Questões",
+    "variant": "practice",
+    "canonicalTopicId": "pt:a04:verbos-irregulares",
+    "learningObjectives": [
+      "OBJ-IP-A04-G06-001",
+      "OBJ-IP-A04-G06-002",
+      "OBJ-IP-A04-G06-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "indirect",
+      "label": "Apoio indireto",
+      "summary": "Questões de conjugação irregular são resolvidas pelo paradigma e pelas marcas flexionais, com apoio contextual do sujeito e do valor verbal quando necessário.",
+      "steps": [
+        "Resolva o fenômeno pela regra própria da matéria.",
+        "Se houver uma oração relevante, use a SuVeCA apenas para localizar a forma ou o efeito no contexto.",
+        "Mantenha separadas a justificativa principal e a observação sintática auxiliar."
+      ],
+      "limits": [
+        "Aplicar o mapa a todos os casos deste grupo criaria uma relação artificial com a sintaxe."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Noção de Verbo Primitivo e Prefixo Derivacional: Compreender que verbos como propor, intervir, manter e rever são estruturados por prefixos acoplados a raízes primitivas (pôr, vir, ter, ver).",
+            "Conjugação Básica dos Modelos Primitivos: Conhecer as formas dos líderes nos tempos mais exigidos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "TER: tive, tivera, tivesse, tiver, tenham, tinham;",
+            "VER: vi, vira, visse, vir, vejam, veem;",
+            "VIR: vim, veio, vieram, viera, viesse, vier, venham, vinham;",
+            "PÔR: pus, pôs, puseram, pusera, pusesse, puser, ponham, punham."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Noções Sintáticas Elementares: Identificar orações condicionais (se...), temporais (quando...), concessivas (caso...) e orações reduzidas com preposição (depois de...)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ARQUITETURA DA DERIVAÇÃO VERBAL │ ┌────────────────────────────────┴────────────────────────────────┐ ▼ ▼ VERBOS PRIMITIVOS (LÍDERES) VERBOS DERIVADOS ├─ TER (tiver, tivesse, tiveram...) ├─ manter, conter, reter, deter, abster, entreter, obter ├─ VER (vir, visse, viram, veem...) ├─ prever, antever, rever ├─ VIR (vier, viesse, vieram, vim, veio...) ├─ intervir, convir, advir └─ PÔR (puser, pusesse, puseram, ponham...) └─ propor, repor, sobrepor, compor, dispor │ │ └────────────────────────────────┬────────────────────────────────┘ ▼ O MÉTODO DOS 4 PASSOS [1. Isolar/Infinitivo] ──> [2. Identificar Líder] │ [4. Acoplar Prefixo]  Futuro do Pretérito ├─ VIR no Pretérito Perfeito (\"Ontem eu VIM\") │ └─ + Futuro Subj. ──> Futuro do Presente ├─ Falso Amigo PROVER (provejo) vs. PROVAR (provo) ├─ Preposição Simples + Sujeito -> Infinitivo Pessoal └─ Confusão SER/VER com verbos de movimento IR/VIR └─ Aspecto Nominal: VINDO = Particípio / Origem"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A04-G06-001",
+          "title": "Mapa de conexão — Verbos Irregulares - Questões",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a04:verbos-irregulares",
+              "label": "Verbos Irregulares - Questões",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a04:verbos-irregulares",
+              "relation": "indirect"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Todo verbo derivado deve reproduzir obrigatoriamente e com exatidão a mesma flexão, raiz, tema e desinências do seu verbo primitivo (líder) em todas as pessoas gramaticais, modos e tempos. A formação do verbo derivado consiste exclusivamente na adição do prefixo correspondente à forma flexionada do verbo líder."
+        },
+        {
+          "type": "paragraph",
+          "text": "As bancas examinadoras exploram a tendência do falante comum de regularizar os verbos derivados (tratando-os como verbos regulares de 2ª ou 3ª conjugação). A aplicação da regra de fidelidade anula essa armadilha:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Família do PÔR (propor, repor, sobrepor, dispor, compor):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se pôr faz puseram (pret. perfeito), sobrepor faz sobrepuseram (e não sobreporam).",
+            "Se pôr faz puser (fut. subjuntivo), propor faz propuser (e não propor); repor faz repuser; propor na 1ª p. pl. faz propusermos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Família do VIR (intervir, convir, advir):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se vir faz veio (pret. perfeito), intervir faz interveio (e não interviu); convir faz conveio (e não conviu).",
+            "Se vir faz viesse (imp. subjuntivo), intervir faz interviesse (e não intervissem).",
+            "Se vir faz vierem (fut. subjuntivo), advir faz advierem (e não advirem); convir na 1ª p. pl. faz conviermos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Família do TER (manter, conter, reter, deter, abster-se, entreter, obter):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se ter faz tiveram (pret. perfeito), reter faz retiveram (e não reteram); obter faz obtiveram (e não obteram); entreter faz entretiveram (e não entreteram).",
+            "Se ter faz tivesse (imp. subjuntivo), deter faz detivesse; abster faz abstivessem; conter faz contivéssemos (e não contêssemos).",
+            "Se ter faz tiver (fut. subjuntivo), conter faz contiver (e não conter); manter faz mantiverem; obter faz obtiverem.",
+            "Se ter faz tinham (pret. imperfeito indicativo), entreter faz entretinham (e não entretenham)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Família do VER (prever, rever, antever):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se ver faz vir (fut. subjuntivo), prever faz previr (e não prever); rever faz revirmos na 1ª p. pl. (e não revermos).",
+            "Se ver faz vissem (imp. subjuntivo), rever faz revissem; prever faz previssem.",
+            "Se ver faz veem (pres. indicativo 3ª pl.), prever faz preveem (sem acento circunflexo).",
+            "Se ver faz vejam (pres. subjuntivo 3ª pl.), prever faz prevejam.",
+            "Se ver faz vira (pret. mais-que-perfeito), prever faz previra."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A04-G06-001",
+            "Contrasta com as falhas em: WARN-A04-G06-001, WARN-A04-G06-002",
+            "Exemplificado em: EX-A04-G06-002, EX-A04-G06-003, EX-A04-G06-004, EX-A04-G06-006, EX-A04-G06-007, EX-A04-G06-008, EX-A04-G06-010, EX-A04-G06-011"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As formas conjugadas de VER (percepção visual/compreensão) e VIR (deslocamento/aproximação espacial) cruzam-se graficamente e foneticamente no Futuro do Subjuntivo e no Pretérito Perfeito, gerando as pegadinhas de maior índice de erro em concursos."
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A04-G06-001",
+          "table": {
+            "tableId": "TABLE-IP-A04-G06-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Tempo / Modo Verbal",
+              "Verbo VER (Enxergar)",
+              "Verbo VIR (Chegar / Deslocar-se)"
+            ],
+            "rows": [
+              [
+                "Futuro do Subjuntivo (1ª/3ª sing.)",
+                "Quando/Se eu/eleVIR",
+                "Quando/Se eu/eleVIER"
+              ],
+              [
+                "Futuro do Subjuntivo (1ª plural)",
+                "Quando/Se nósVIRMOS",
+                "Quando/Se nósVIERMOS"
+              ],
+              [
+                "Futuro do Subjuntivo (3ª plural)",
+                "Quando/Se elesVIREM",
+                "Quando/Se elesVIEREM"
+              ],
+              [
+                "Pretérito Perfeito (1ª singular)",
+                "Ontem euVI",
+                "Ontem euVIM"
+              ],
+              [
+                "Pretérito Perfeito (3ª singular)",
+                "Ontem eleVIU",
+                "Ontem eleVEIO"
+              ],
+              [
+                "Pretérito Perfeito (3ª plural)",
+                "Ontem elesVIRAM",
+                "Ontem elesVIERAM"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Percepção vs. Deslocamento: Substitua mentalmente a forma por enxergar ou chegar:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Assim que [vir/vier] a seta piscar\" -> Trata-se de enxergar -> Verbo VER -> Forma: vir.",
+            "\"Assim que os convidados [virem/vierem]\" -> Trata-se de chegar -> Verbo VIR -> Forma: vierem."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Desbloqueio Psicológico da Forma \"Vim\": A forma \"vim\" não é substantivo ou vício coloquial; é a 1ª pessoa do singular do Pretérito Perfeito do Indicativo de vir (confirmada pelo teste \"Ontem eu vim\").",
+            "Formas Chulas / Inexistentes: A forma \"vinherem\" é um vício de linguagem totalmente rejeitado pela norma-padrão."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A04-G06-001, EX-A04-G06-012, EX-A04-G06-013",
+            "Macetes associados: TIP-A04-G06-001, TIP-A04-G06-004",
+            "Alertas de risco: WARN-A04-G06-003, WARN-A04-G06-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de uma preposição simples (ex.: de, para, por, sem, após) regendo uma oração reduzida que possui sujeito explícito exige obrigatoriamente o Infinitivo Pessoal Flexionado, sendo gramaticalmente proibido o emprego direto do Futuro do Subjuntivo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Construção Incorreta da Banca: \"Talvez seja melhor ir depois de vierem as mães...\" (A banca funde a preposição de com o futuro do subjuntivo vierem).",
+            "Construção Correta na Norma-Padrão: \"Talvez seja melhor ir depois de virem as mães...\" (Preposição de + Infinitivo Pessoal Flexionado do verbo vir: vir, vires, vir, virmos, virdes, virem).",
+            "Contraste Estrutural:",
+            "Com conjunção temporal: \"Depois que as mães vierem...\" (Conjunção que -> Futuro do Subjuntivo).",
+            "Com preposição simples: \"Depois de as mães virem...\" (Preposição de -> Infinitivo Pessoal flexionado)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A04-G06-004",
+            "Exemplificado em: EX-A04-G06-001 (Opção E)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando uma questão de concurso exige a flexão de um verbo regular cuja terminação gere insegurança no candidato (verbos não derivados de ter, ver, vir, pôr), adota-se o modelo dos três verbos líderes regulares universais, cujas terminações são cristalinas:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "1ª Conjugação (-AR): Líder = AMAR (ex.: analisar, comunicar, julgar).",
+            "2ª Conjugação (-ER): Líder = BEBER (ex.: abranger, vender, escrever).",
+            "3ª Conjugação (-IR): Líder = PARTIR (ex.: dividir, cumprir, assistir)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbo sob teste: ABRANGER (2ª conjugação).",
+            "Líder correspondente: BEBER.",
+            "Acomodação: \"O relatório bebeu os aspectos...\"",
+            "Substituição direta: Logo, \"O relatório abrangeu os aspectos...\" (eliminando opções incorretas como \"abrangiou\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado por: PROC-A04-G06-002",
+            "Aplicado em: EX-A04-G06-002 (Opção A)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A conjunção subordinativa condicional SE não se liga unicamente ao Pretérito Imperfeito do Subjuntivo (terminação em -sse). O tempo exigido na oração condicional é determinado pela correlação com o verbo da oração principal:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "SE + Pretérito Imperfeito do Subjuntivo $\\longrightarrow$ correlaciona-se com o Futuro do Pretérito do Indicativo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Haveria solução... se o orientador interviesse.\" / \"Se ele pudesse/viesse, viria.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "SE + Futuro do Subjuntivo $\\longrightarrow$ correlaciona-se com o Futuro do Presente do Indicativo (ou Presente):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Haverá solução... se o governo propuser planejamento.\" / \"Se advierem resultados, não será o caso...\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Empregar o Futuro do Presente do Indicativo imediatamente após \"SE\" condicional (\"se o cidadão saberá\" $\\rightarrow$ Incorreto; o correto é se souber).",
+            "Empregar o Infinitivo Pessoal no lugar do Futuro do Subjuntivo (\"se as pessoas terem / se todos manterem\" $\\rightarrow$ Incorreto; o correto é se tiverem / se mantiverem)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A04-G06-005, EX-A04-G06-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo PROVER (abastecer, suprir) é uma anomalia na morfologia verbal:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Não deriva do verbo PROVAR: O Presente do Indicativo na 1ª pessoa de provar é eu provo. O de prover é eu provejo.",
+            "Não segue o verbo VER em todos os tempos: Embora faça provejo, provês, provê, provemos, provedes, proveem no presente, nos tempos do pretérito perfeito e derivados ele conjuga-se como verbo regular (provi, proveu, provido, provesse, prover no futuro do subjuntivo), diferentemente de ver."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A04-G06-006",
+            "Aplicado em: EX-A04-G06-009"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A forma verbal vindo pode desempenhar duas funções aspectuais distintas dependendo do contexto sintático:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Gerúndio (Aspecto Imperfectivo / Contínuo): Indica ação durativa em curso de realização (\"O trem está vindo nos trilhos\").",
+            "Particípio / Adjetivo de Origem (Aspecto Perfectivo / Concluído): Expressa a condição de recém-chegado, proveniente ou tendo vindo (\"Vindo de fornecedores selecionados, o bacalhau pode ser encontrado em nossas lojas...\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Afirmações de bancas (como Cespe/Cebraspe) que associam mecanicamente a terminação -ndo a gerúndio e \"prolongamento de ação\" devem ser julgadas como erradas quando o termo qualifica o produto como já disponível e procedente de determinado local."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A04-G06-014"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A04-G06-001",
+          "title": "Quadro Resumo das Formulações Canônicas",
+          "statement": "Quadro Resumo das Formulações Canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Quadro Resumo das Formulações Canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A04-G06-002",
+              "table": {
+                "tableId": "TABLE-IP-A04-G06-002",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Conceito / Regra",
+                  "Formulação Canônica Consolidada",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Princípio da Derivação Verbal",
+                    "Verbos derivados copiam integralmente a conjugação do verbo líder primitivo (TER, VER, VIR, PÔR), recebendo apenas o prefixo.",
+                    "KB-A04-G06-001"
+                  ],
+                  [
+                    "Diferença VER vs. VIR no Futuro Subjuntivo",
+                    "VER $\\rightarrow$ quando eles VIREM / quando ele VIR.VIR $\\rightarrow$ quando eles VIEREM / quando ele VIER.",
+                    "KB-A04-G06-002"
+                  ],
+                  [
+                    "Pretérito Perfeito de VIR",
+                    "1ª pessoa do singular:VIM (\"Ontem eu vim\").",
+                    "KB-A04-G06-002"
+                  ],
+                  [
+                    "Regência de Preposição Simples",
+                    "Preposição + Sujeito explícito$\\rightarrow$ Infinitivo Pessoal Flexionado (depois de virem), vedado o Futuro do Subjuntivo (depois de vierem).",
+                    "KB-A04-G06-003"
+                  ],
+                  [
+                    "Líderes de Verbos Regulares",
+                    "1ª conj. (-AR) =AMAR; 2ª conj. (-ER) = BEBER; 3ª conj. (-IR) = PARTIR.",
+                    "KB-A04-G06-004"
+                  ],
+                  [
+                    "Correlação com \"SE\" Condicional",
+                    "\"SE\" + Imperfeito do Subjuntivo$\\rightarrow$ Futuro do Pretérito (se viesse, viria).\"SE\" + Futuro do Subjuntivo $\\rightarrow$ Futuro do Presente (se vier, virá).",
+                    "KB-A04-G06-005"
+                  ],
+                  [
+                    "Conjugação de PROVER",
+                    "Presente do Indicativo:eu provejo (diferente de provar $\\rightarrow$ eu provo).",
+                    "KB-A04-G06-006"
+                  ],
+                  [
+                    "Aspecto de VINDO",
+                    "Em contexto de procedência/característica de produto, equivale a particípio (\"recém-chegado / proveniente\"), sem valor de prolongamento.",
+                    "KB-A04-G06-007"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A04-G06-001",
+          "title": "O Algoritmo Universal dos 4 Passos para Verbos Derivados",
+          "objective": "Executar o algoritmo decisório para O Algoritmo Universal dos 4 Passos para Verbos Derivados",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de O Algoritmo Universal dos 4 Passos para Verbos Derivados."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "ALGORITMO DOS 4 PASSOS DE CONJUGAÇÃO ┌────────────────────────────────────────────────────────────────────────┐ │ PASSO 1: ISOLAMENTO DO INFINITIVO │ │ Identifique o verbo no texto e determine seu infinitivo impessoal",
+              "explanation": "Procedimento operacional para O Algoritmo Universal dos 4 Passos para Verbos Derivados.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "│ │ Exemplo: \"interviu\" -> verbo INTERVIR",
+              "explanation": "Procedimento operacional para O Algoritmo Universal dos 4 Passos para Verbos Derivados.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "│ └──────────────────────────────────┬─────────────────────────────────────┘ │ ┌──────────────────────────────────▼─────────────────────────────────────┐ │ PASSO 2: IDENTIFICAÇÃO DO VERBO LÍDER PRIMITIVO │ │ Extraia o verbo primitivo gerador do radical: TER, VER, VIR ou PÔR",
+              "explanation": "Procedimento operacional para O Algoritmo Universal dos 4 Passos para Verbos Derivados.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "│ │ Exemplo: INTERVIR -> Verbo líder VIR",
+              "explanation": "Procedimento operacional para O Algoritmo Universal dos 4 Passos para Verbos Derivados.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de O Algoritmo Universal dos 4 Passos para Verbos Derivados."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ALGORITMO DOS 4 PASSOS DE CONJUGAÇÃO ┌────────────────────────────────────────────────────────────────────────┐ │ PASSO 1: ISOLAMENTO DO INFINITIVO │ │ Identifique o verbo no texto e determine seu infinitivo impessoal. │ │ Exemplo: \"interviu\" -> verbo INTERVIR. │ └──────────────────────────────────┬─────────────────────────────────────┘ │ ┌──────────────────────────────────▼─────────────────────────────────────┐ │ PASSO 2: IDENTIFICAÇÃO DO VERBO LÍDER PRIMITIVO │ │ Extraia o verbo primitivo gerador do radical: TER, VER, VIR ou PÔR. │ │ Exemplo: INTERVIR -> Verbo líder VIR. │ └──────────────────────────────────┬─────────────────────────────────────┘ │ ┌──────────────────────────────────▼─────────────────────────────────────┐ │ PASSO 3: ACOMODAÇÃO DO LÍDER NO CONTEXTO ORACIONAL │ │ Encaixe APENAS o verbo líder na oração, respeitando sujeito, tempo, │ │ modo e conectivos. (Dica: a desinência do erro da banca revela o tempo)│ │ Exemplo: \"O governo [líder no passado]...\" -> \"O governo VEIO\". │ └──────────────────────────────────┬─────────────────────────────────────┘ │ ┌──────────────────────────────────▼─────────────────────────────────────┐ │ PASSO 4: SUBSTITUIÇÃO E ACOPLAMENTO DO PREFIXO │ │ Reanexe o prefixo derivado à forma flexionada do líder obtida. │ │ Exemplo: Prefixo INTER- + VEIO = INTERVEIO. (Forma correta). │ └────────────────────────────────────────────────────────────────────────┘"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A04-G06-002",
+          "title": "Teste dos Líderes Regulares para Verbos Não Derivados",
+          "objective": "Executar o algoritmo decisório para Teste dos Líderes Regulares para Verbos Não Derivados",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste dos Líderes Regulares para Verbos Não Derivados."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1",
+              "explanation": "Identifique a terminação do infinitivo do verbo regular sob dúvida (-ar, -er, -ir).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 2",
+              "explanation": "Selecione o líder universal da conjugação:",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "1ª Conjugação (-AR) $\\rightarrow$ AMAR",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "2ª Conjugação (-ER) $\\rightarrow$ BEBER",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "3ª Conjugação (-IR) $\\rightarrow$ PARTIR",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Passo 3",
+              "explanation": "Conjugue o verbo líder na frase com o mesmo sujeito e tempo.",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Passo 4",
+              "explanation": "Transfira a desinência exata do líder para a raiz do verbo em análise.",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Exemplo",
+              "explanation": "\"O fiscal [analisar]...\" $\\rightarrow$ \"O fiscal amou\" $\\rightarrow$ \"O fiscal analisou\".",
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Exemplo",
+              "explanation": "\"O texto [abranger]...\" $\\rightarrow$ \"O texto bebeu\" $\\rightarrow$ \"O texto abrangeu\".",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste dos Líderes Regulares para Verbos Não Derivados."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1: Identifique a terminação do infinitivo do verbo regular sob dúvida (-ar, -er, -ir).",
+                "Passo 2: Selecione o líder universal da conjugação:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "1ª Conjugação (-AR) $\\rightarrow$ AMAR",
+                "2ª Conjugação (-ER) $\\rightarrow$ BEBER",
+                "3ª Conjugação (-IR) $\\rightarrow$ PARTIR"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3: Conjugue o verbo líder na frase com o mesmo sujeito e tempo.",
+                "Passo 4: Transfira a desinência exata do líder para a raiz do verbo em análise."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Exemplo: \"O fiscal [analisar]...\" $\\rightarrow$ \"O fiscal amou\" $\\rightarrow$ \"O fiscal analisou\".",
+                "Exemplo: \"O texto [abranger]...\" $\\rightarrow$ \"O texto bebeu\" $\\rightarrow$ \"O texto abrangeu\"."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A04-G06-003",
+          "title": "Decodificação Estrutural de Enunciados da FGV sobre Relações Verbais",
+          "objective": "Executar o algoritmo decisório para Decodificação Estrutural de Enunciados da FGV sobre Relações Verbais",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Decodificação Estrutural de Enunciados da FGV sobre Relações Verbais."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 (Desmontagem do Modelo)",
+              "explanation": "Isole as formas destacadas no enunciado e classifique formalmente cada uma (ex.: ver = Infinitivo Impessoal; vejo = Presente do Indicativo, 1ª pessoa do singular).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 2 (Estabelecimento do Padrão)",
+              "explanation": "Defina o par sintático-morfológico alvo: [Infinitivo Impessoal] / [Presente do Indicativo, 1ª p. sing. (Eu)].",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 3 (Varredura das Opções)",
+              "explanation": "Teste as alternativas eliminando pares com tempos alterados (pretérito perfeito, imperfeito) ou pessoas distintas (3ª pessoa), até encontrar a correspondência exata (fazer / faço).",
+              "test": "Passo 3 (Varredura das Opções): Teste as alternativas eliminando pares com tempos alterados (pretérito perfeito, imperfeito) ou pessoas distintas (3ª pessoa), até encontrar a correspondência exata (fazer / faço)."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Decodificação Estrutural de Enunciados da FGV sobre Relações Verbais."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 (Desmontagem do Modelo): Isole as formas destacadas no enunciado e classifique formalmente cada uma (ex.: ver = Infinitivo Impessoal; vejo = Presente do Indicativo, 1ª pessoa do singular).",
+                "Passo 2 (Estabelecimento do Padrão): Defina o par sintático-morfológico alvo: [Infinitivo Impessoal] / [Presente do Indicativo, 1ª p. sing. (Eu)].",
+                "Passo 3 (Varredura das Opções): Teste as alternativas eliminando pares com tempos alterados (pretérito perfeito, imperfeito) ou pessoas distintas (3ª pessoa), até encontrar a correspondência exata (fazer / faço)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A04-G06-001",
+          "title": "Tabela de Formas Incorretas (Vícios Populares de Prova) vs. Formas Corretas Consolidadas",
+          "contrastType": "mixed",
+          "conceptA": "Tabela de Formas Incorretas (Vícios Populares de Prova) vs. Formas Corretas Consolidadas",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A04-G06-003",
+              "table": {
+                "tableId": "TABLE-IP-A04-G06-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Verbo Derivado",
+                  "Tempo / Modo Exigido",
+                  "Forma Falsa de Prova (Armadilha)",
+                  "Verbo Líder Aplicado",
+                  "Forma Correta na Norma-Padrão"
+                ],
+                "rows": [
+                  [
+                    "Intervir",
+                    "Pretérito Perfeito Indicativo",
+                    "interviu",
+                    "Vir$\\rightarrow$ veio",
+                    "interveio"
+                  ],
+                  [
+                    "Intervir",
+                    "Pretérito Imperfeito Subjuntivo",
+                    "intervissem",
+                    "Vir$\\rightarrow$ viessem",
+                    "interviessem"
+                  ],
+                  [
+                    "Obter",
+                    "Futuro do Subjuntivo",
+                    "obterem",
+                    "Ter$\\rightarrow$ tiverem",
+                    "obtiverem"
+                  ],
+                  [
+                    "Obter",
+                    "Pretérito Perfeito Indicativo",
+                    "obteram",
+                    "Ter$\\rightarrow$ tiveram",
+                    "obtiveram"
+                  ],
+                  [
+                    "Propor",
+                    "Futuro do Subjuntivo",
+                    "propor / proporem",
+                    "Pôr$\\rightarrow$ puser / puserem",
+                    "propuser / propuserem"
+                  ],
+                  [
+                    "Propor",
+                    "Pretérito Perfeito Indicativo",
+                    "proporam",
+                    "Pôr$\\rightarrow$ puseram",
+                    "propuseram"
+                  ],
+                  [
+                    "Prever",
+                    "Futuro do Subjuntivo",
+                    "prever",
+                    "Ver$\\rightarrow$ vir",
+                    "previr"
+                  ],
+                  [
+                    "Rever",
+                    "Futuro do Subjuntivo (1ª pl.)",
+                    "revermos",
+                    "Ver$\\rightarrow$ virmos",
+                    "revirmos"
+                  ],
+                  [
+                    "Conter",
+                    "Imperfeito do Subjuntivo",
+                    "contêssemos / contessem",
+                    "Ter$\\rightarrow$ tivéssemos / tivessem",
+                    "contivéssemos / contivessem"
+                  ],
+                  [
+                    "Conter",
+                    "Futuro do Subjuntivo",
+                    "conter",
+                    "Ter$\\rightarrow$ tiver",
+                    "contiver"
+                  ],
+                  [
+                    "Deter",
+                    "Imperfeito do Subjuntivo",
+                    "detesse",
+                    "Ter$\\rightarrow$ tivesse",
+                    "detivesse"
+                  ],
+                  [
+                    "Deter",
+                    "Futuro do Subjuntivo",
+                    "deterem",
+                    "Ter$\\rightarrow$ tiverem",
+                    "detiverem"
+                  ],
+                  [
+                    "Abster-se",
+                    "Imperfeito do Subjuntivo",
+                    "abstessem",
+                    "Ter$\\rightarrow$ tivessem",
+                    "abstivessem"
+                  ],
+                  [
+                    "Reter",
+                    "Pretérito Perfeito Indicativo",
+                    "reteram",
+                    "Ter$\\rightarrow$ tiveram",
+                    "retiveram"
+                  ],
+                  [
+                    "Entreter",
+                    "Pretérito Imperfeito Indicativo",
+                    "entretenham",
+                    "Ter$\\rightarrow$ tinham",
+                    "entretinham"
+                  ],
+                  [
+                    "Entreter",
+                    "Pretérito Perfeito Indicativo",
+                    "entreteram",
+                    "Ter$\\rightarrow$ tiveram",
+                    "entretiveram"
+                  ],
+                  [
+                    "Convir",
+                    "Pretérito Perfeito Indicativo",
+                    "conviu",
+                    "Vir$\\rightarrow$ veio",
+                    "conveio"
+                  ],
+                  [
+                    "Convir",
+                    "Futuro do Subjuntivo (1ª pl.)",
+                    "convirmos",
+                    "Vir$\\rightarrow$ viermos",
+                    "conviermos"
+                  ],
+                  [
+                    "Advir",
+                    "Futuro do Subjuntivo (3ª sing.)",
+                    "advir",
+                    "Vir$\\rightarrow$ vier",
+                    "advier"
+                  ],
+                  [
+                    "Advir",
+                    "Futuro do Subjuntivo (3ª pl.)",
+                    "advirem",
+                    "Vir$\\rightarrow$ vierem",
+                    "advierem"
+                  ],
+                  [
+                    "Sobrepor",
+                    "Pretérito Perfeito Indicativo",
+                    "sobreporam",
+                    "Pôr$\\rightarrow$ puseram",
+                    "sobrepuseram"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-001",
+          "title": "EX-A04-G06-001 — Questão 01: Cesgranrio - LIQUIGÁS (Assistente Administrativo)",
+          "prompt": "Enunciado: Considere o trecho \"Depois vieram as mães e avós doentes.\" (l. 8-9). A frase em que se emprega uma flexão do verbo destacado, de acordo com a norma-padrão da língua portuguesa, é:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Considere o trecho \"Depois vieram as mães e avós doentes.\" (l. 8-9). A frase em que se emprega uma flexão do verbo destacado, de acordo com a norma-padrão da língua portuguesa, é:"
+            },
+            {
+              "order": 2,
+              "action": "A) Não sei o que fazer depois que vinherem as mães e avós doentes.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Depois que as mães e avós doentes virem, faremos alguma coisa.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Depois que eu vim, as mães e avós doentes ficaram curadas.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Depois, as mães e avós doentes tiveram vindo até aqui.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-001 — Questão 01: Cesgranrio - LIQUIGÁS (Assistente Administrativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-001 — Questão 01: Cesgranrio - LIQUIGÁS (Assistente Administrativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-001 — Questão 01: Cesgranrio - LIQUIGÁS (Assistente Administrativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Considere o trecho \"Depois vieram as mães e avós doentes.\" (l. 8-9). A frase em que se emprega uma flexão do verbo destacado, de acordo com a norma-padrão da língua portuguesa, é:",
+                "A) Não sei o que fazer depois que vinherem as mães e avós doentes.",
+                "B) Depois que as mães e avós doentes virem, faremos alguma coisa.",
+                "C) Depois que eu vim, as mães e avós doentes ficaram curadas.",
+                "D) Depois, as mães e avós doentes tiveram vindo até aqui.",
+                "E) Talvez seja melhor ir depois de vierem as mães e avós doentes.",
+                "Análise das Alternativas:",
+                "A) Incorreta. \"Vinherem\" é forma chula inexistente. Correto: vierem.",
+                "B) Incorreta. \"Virem\" é futuro do subjuntivo de VER. O verbo em pauta é VIR, cujo futuro do subjuntivo é vierem.",
+                "C) CORRETA. \"Vim\" é 1ª pessoa do singular do Pretérito Perfeito do Indicativo de VIR (\"Ontem eu vim\").",
+                "D) Incorreta. Correlação inadequada no tempo composto (tiverem vindo).",
+                "E) Incorreta. A preposição de exige Infinitivo Pessoal flexionado (depois de virem), sendo proibido o futuro do subjuntivo (vierem).",
+                "Gabarito Oficial: Opção C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-002",
+          "title": "EX-A04-G06-002 — Questão 02: Cesgranrio - IBGE (Agente de Pesquisas)",
+          "prompt": "Enunciado: A frase em que a palavra destacada está flexionada de acordo com a norma-padrão da língua portuguesa é:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A frase em que a palavra destacada está flexionada de acordo com a norma-padrão da língua portuguesa é:"
+            },
+            {
+              "order": 2,
+              "action": "A) Para comunicar a seus acionistas o resultado financeiro semestral, o relatório abrangeu os aspectos principais relacionados à produção da empresa.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Quando o Congresso propor que as lâmpadas incandescentes não sejam mais vendidas no país, a população terá de se acostumar ao novo padrão.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) O governo interviu na fabricação de lâmpadas quando decidiu que novos modelos deveriam tornar-se obrigatórios no nosso país.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Se os moradores obterem lâmpadas modernas para iluminar suas casas, farão economia de eletricidade.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção A.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-002 — Questão 02: Cesgranrio - IBGE (Agente de Pesquisas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-002 — Questão 02: Cesgranrio - IBGE (Agente de Pesquisas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-002 — Questão 02: Cesgranrio - IBGE (Agente de Pesquisas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A frase em que a palavra destacada está flexionada de acordo com a norma-padrão da língua portuguesa é:",
+                "A) Para comunicar a seus acionistas o resultado financeiro semestral, o relatório abrangeu os aspectos principais relacionados à produção da empresa.",
+                "B) Quando o Congresso propor que as lâmpadas incandescentes não sejam mais vendidas no país, a população terá de se acostumar ao novo padrão.",
+                "C) O governo interviu na fabricação de lâmpadas quando decidiu que novos modelos deveriam tornar-se obrigatórios no nosso país.",
+                "D) Se os moradores obterem lâmpadas modernas para iluminar suas casas, farão economia de eletricidade.",
+                "E) Se você ver águas paradas, tome uma providência para evitar a proliferação do mosquito.",
+                "Análise das Alternativas:",
+                "A) CORRETA. Verbo regular de 2ª conj. (abranger). Líder beber $\\rightarrow$ \"o relatório bebeu\" $\\rightarrow$ \"o relatório abrangeu\".",
+                "B) Incorreta. Derivado de pôr. Futuro do subjuntivo: quando puser $\\rightarrow$ propuser.",
+                "C) Incorreta. Derivado de vir. Pretérito perfeito: veio $\\rightarrow$ interveio.",
+                "D) Incorreta. Derivado de ter. Futuro do subjuntivo: se tiverem $\\rightarrow$ obtiverem.",
+                "E) Incorreta. Verbo ver no futuro do subjuntivo: se você vir.",
+                "Gabarito Oficial: Opção A."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-003",
+          "title": "EX-A04-G06-003 — Questão 03: Vunesp - Prefeitura de São Roque (Secretário de Escola)",
+          "prompt": "Enunciado: A alternativa em que os verbos estão conjugados de acordo com a norma-padrão é:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A alternativa em que os verbos estão conjugados de acordo com a norma-padrão é:"
+            },
+            {
+              "order": 2,
+              "action": "A) Se prever conflitos entre as torcidas, o organizador do torneio poderá suspendê-lo por prazo indeterminado.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) O docente que repor as aulas suspensas em razão do racionamento de água receberá o pagamento no mês seguinte ao da reposição.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Quando os fornecedores virem trazer os equipamentos de informática, serão orientados a entrar pela porta principal.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Para resolver a crise, os administradores proporam medidas de contenção de gastos e a suspensão de contratações.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção E.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-003 — Questão 03: Vunesp - Prefeitura de São Roque (Secretário de Escola) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-003 — Questão 03: Vunesp - Prefeitura de São Roque (Secretário de Escola).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-003 — Questão 03: Vunesp - Prefeitura de São Roque (Secretário de Escola).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A alternativa em que os verbos estão conjugados de acordo com a norma-padrão é:",
+                "A) Se prever conflitos entre as torcidas, o organizador do torneio poderá suspendê-lo por prazo indeterminado.",
+                "B) O docente que repor as aulas suspensas em razão do racionamento de água receberá o pagamento no mês seguinte ao da reposição.",
+                "C) Quando os fornecedores virem trazer os equipamentos de informática, serão orientados a entrar pela porta principal.",
+                "D) Para resolver a crise, os administradores proporam medidas de contenção de gastos e a suspensão de contratações.",
+                "E) Haveria menos atritos entre os participantes da gincana, se o orientador interviesse com energia para coibir excessos.",
+                "Análise das Alternativas:",
+                "A) Incorreta. Derivado de ver. Futuro do subjuntivo: se vir $\\rightarrow$ previr.",
+                "B) Incorreta. Derivado de pôr. Futuro do subjuntivo: que puser $\\rightarrow$ repuser.",
+                "C) Incorreta. Verbo vir no futuro do subjuntivo: quando vierem.",
+                "D) Incorreta. Derivado de pôr. Pretérito perfeito: puseram $\\rightarrow$ propuseram.",
+                "E) CORRETA. Derivado de vir. Imperfeito do subjuntivo: se viesse $\\rightarrow$ interviesse.",
+                "Gabarito Oficial: Opção E."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-004",
+          "title": "EX-A04-G06-004 — Questão 04: Vunesp - MPE-SP (Analista de Promotoria)",
+          "prompt": "Enunciado: Considere a passagem: \"ele se mantém atualizável\". Assinale a alternativa em que o verbo está corretamente conjugado, seguindo o padrão de conjugação de \"manter\" (líder TER):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Considere a passagem: \"ele se mantém atualizável\". Assinale a alternativa em que o verbo está corretamente conjugado, seguindo o padrão de conjugação de \"manter\" (líder TER):"
+            },
+            {
+              "order": 2,
+              "action": "A) Chegaria a conclusões mais acertadas, caso se detesse a examinar os dados com o cuidado necessário.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Para que se abstessem de votar, seria necessário que os convencessem com bons argumentos.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Acusam-nas de desonestas, porque reteram informações que teriam de ter disponibilizado.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Pediu que nos contivéssemos diante das provocações, pois elas poderiam nos desestabilizar.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção D.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-004 — Questão 04: Vunesp - MPE-SP (Analista de Promotoria) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-004 — Questão 04: Vunesp - MPE-SP (Analista de Promotoria).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-004 — Questão 04: Vunesp - MPE-SP (Analista de Promotoria).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Considere a passagem: \"ele se mantém atualizável\". Assinale a alternativa em que o verbo está corretamente conjugado, seguindo o padrão de conjugação de \"manter\" (líder TER):",
+                "A) Chegaria a conclusões mais acertadas, caso se detesse a examinar os dados com o cuidado necessário.",
+                "B) Para que se abstessem de votar, seria necessário que os convencessem com bons argumentos.",
+                "C) Acusam-nas de desonestas, porque reteram informações que teriam de ter disponibilizado.",
+                "D) Pediu que nos contivéssemos diante das provocações, pois elas poderiam nos desestabilizar.",
+                "E) Em vez de atender aos clientes, alguns dos rapazes se entretenham com o celular, trocando mensagens.",
+                "Análise das Alternativas:",
+                "A) Incorreta. Líder ter: caso tivesse $\\rightarrow$ detivesse.",
+                "B) Incorreta. Líder ter: para que tivessem $\\rightarrow$ abstivessem.",
+                "C) Incorreta. Líder ter: porque tiveram $\\rightarrow$ retiveram.",
+                "D) CORRETA. Líder ter: pediu que tivéssemos $\\rightarrow$ contivéssemos.",
+                "E) Incorreta. Líder ter: contexto de pretérito imperfeito do indicativo (tinham) $\\rightarrow$ entretinham.",
+                "Gabarito Oficial: Opção D."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-005",
+          "title": "EX-A04-G06-005 — Questão 05: Vunesp - CODEN-SP (Almoxarife)",
+          "prompt": "Enunciado: Assinale a alternativa que completa corretamente a frase: – Haverá solução para a humanidade, se...",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa que completa corretamente a frase: – Haverá solução para a humanidade, se..."
+            },
+            {
+              "order": 2,
+              "action": "A) todos se manterem conscientes dessa necessidade.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) o governo propuser planejamento urbano adequado.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) a população conter seus impulsos consumistas.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) o cidadão saberá cuidar bem da natureza.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção B.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-005 — Questão 05: Vunesp - CODEN-SP (Almoxarife) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-005 — Questão 05: Vunesp - CODEN-SP (Almoxarife).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-005 — Questão 05: Vunesp - CODEN-SP (Almoxarife).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa que completa corretamente a frase: – Haverá solução para a humanidade, se...",
+                "A) todos se manterem conscientes dessa necessidade.",
+                "B) o governo propuser planejamento urbano adequado.",
+                "C) a população conter seus impulsos consumistas.",
+                "D) o cidadão saberá cuidar bem da natureza.",
+                "E) as pessoas terem consciência do coletivo.",
+                "Análise das Alternativas:",
+                "A) Incorreta. \"SE\" condicional exige Futuro do Subjuntivo: se tiverem $\\rightarrow$ mantiverem.",
+                "B) CORRETA. Líder pôr: se puser $\\rightarrow$ propuser.",
+                "C) Incorreta. Líder ter: se tiver $\\rightarrow$ contiver.",
+                "D) Incorreta. Futuro do presente inadequado após \"se\". Correto: se o cidadão souber.",
+                "E) Incorreta. Infinitivo pessoal inadequado após \"se\". Correto: se as pessoas tiverem.",
+                "Gabarito Oficial: Opção B."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-006",
+          "title": "EX-A04-G06-006 — Questão 06: FCC - 2018 - SABESP (Estagiário Nível Superior)",
+          "prompt": "Enunciado: Estão corretos o emprego e a flexão de todas as formas verbais na frase:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Estão corretos o emprego e a flexão de todas as formas verbais na frase:"
+            },
+            {
+              "order": 2,
+              "action": "A) O projeto foi relegado porque nele as prioridades humanas não se sobreporam às demais.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Caso não intervissem as restrições ambientais, a lei acabaria sendo incrementada.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Se advierem resultados insatisfatórios, não será o caso de revogar a lei, mas de aperfeiçoá-la.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Seria preciso que as medidas jurídicas contessem maior relevância para que se as aprovasse.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-006 — Questão 06: FCC - 2018 - SABESP (Estagiário Nível Superior) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-006 — Questão 06: FCC - 2018 - SABESP (Estagiário Nível Superior).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-006 — Questão 06: FCC - 2018 - SABESP (Estagiário Nível Superior).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Estão corretos o emprego e a flexão de todas as formas verbais na frase:",
+                "A) O projeto foi relegado porque nele as prioridades humanas não se sobreporam às demais.",
+                "B) Caso não intervissem as restrições ambientais, a lei acabaria sendo incrementada.",
+                "C) Se advierem resultados insatisfatórios, não será o caso de revogar a lei, mas de aperfeiçoá-la.",
+                "D) Seria preciso que as medidas jurídicas contessem maior relevância para que se as aprovasse.",
+                "E) À medida que se deterem no exame dessa, haverá de me constatar-se se ela apresenta falhas.",
+                "Análise das Alternativas:",
+                "A) Incorreta. Líder pôr: não puseram $\\rightarrow$ sobrepuseram.",
+                "B) Incorreta. Líder vir: caso não viessem $\\rightarrow$ interviessem.",
+                "C) CORRETA. Líder vir: se vierem $\\rightarrow$ advierem.",
+                "D) Incorreta. Líder ter: que medidas tivessem $\\rightarrow$ contivessem.",
+                "E) Incorreta. Líder ter: à medida que tiverem $\\rightarrow$ detiverem.",
+                "Gabarito Oficial: Opção C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-007",
+          "title": "EX-A04-G06-007 — Questão 07: FCC - TCE-AM (Analista de Controle Externo)",
+          "prompt": "Enunciado: Está correta a flexão de todas as formas verbais em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Está correta a flexão de todas as formas verbais em:"
+            },
+            {
+              "order": 2,
+              "action": "A) Se não deterem a escalada da censura moralista, os Estados Unidos tornar-se-ão um país cada vez mais problemático...",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Quando todos convirmos em que é necessária uma linha divisória entre a moral pública e a privada...",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Toda promessa hipócrita que advir de uma falsa moralidade deverá ser denunciada...",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Os candidatos sempre se entreteram com os números das campanhas...",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção E.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-007 — Questão 07: FCC - TCE-AM (Analista de Controle Externo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-007 — Questão 07: FCC - TCE-AM (Analista de Controle Externo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-007 — Questão 07: FCC - TCE-AM (Analista de Controle Externo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Está correta a flexão de todas as formas verbais em:",
+                "A) Se não deterem a escalada da censura moralista, os Estados Unidos tornar-se-ão um país cada vez mais problemático...",
+                "B) Quando todos convirmos em que é necessária uma linha divisória entre a moral pública e a privada...",
+                "C) Toda promessa hipócrita que advir de uma falsa moralidade deverá ser denunciada...",
+                "D) Os candidatos sempre se entreteram com os números das campanhas...",
+                "E) Quando revirmos os valores morais que sempre costumamos defender, dar-nos-emos conta...",
+                "Análise das Alternativas:",
+                "A) Incorreta. Líder ter: se não tiverem $\\rightarrow$ detiverem.",
+                "B) Incorreta. Líder vir: quando viermos $\\rightarrow$ conviermos.",
+                "C) Incorreta. Líder vir: que vier $\\rightarrow$ advier.",
+                "D) Incorreta. Líder ter: sempre se tiveram $\\rightarrow$ entretiveram.",
+                "E) CORRETA. Líder ver: quando virmos $\\rightarrow$ revirmos.",
+                "Gabarito Oficial: Opção E."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-008",
+          "title": "EX-A04-G06-008 — Questão 08: FCC - TRF-5ª Região (Analista Judiciário)",
+          "prompt": "Enunciado: Todas as formas verbais estão corretamente flexionadas na frase:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Todas as formas verbais estão corretamente flexionadas na frase:"
+            },
+            {
+              "order": 2,
+              "action": "A) O marido enciumado conviu, por fim, em depor a arma e libertar a esposa...",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Seria preciso que se revissem os parâmetros éticos de alguns violentos noticiários...",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Serão bem-vindas todas as iniciativas que se proporem a melhorar a qualidade dos noticiários...",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) A independência que os habitantes do Timor Leste obteram foi reconhecida pela ONU...",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção B.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-008 — Questão 08: FCC - TRF-5ª Região (Analista Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-008 — Questão 08: FCC - TRF-5ª Região (Analista Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-008 — Questão 08: FCC - TRF-5ª Região (Analista Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Todas as formas verbais estão corretamente flexionadas na frase:",
+                "A) O marido enciumado conviu, por fim, em depor a arma e libertar a esposa...",
+                "B) Seria preciso que se revissem os parâmetros éticos de alguns violentos noticiários...",
+                "C) Serão bem-vindas todas as iniciativas que se proporem a melhorar a qualidade dos noticiários...",
+                "D) A independência que os habitantes do Timor Leste obteram foi reconhecida pela ONU...",
+                "E) Se um otimista não se conter, sua expectativa de êxtase cresce tanto que ele acaba por se juntar aos pessimistas.",
+                "Análise das Alternativas:",
+                "A) Incorreta. Líder vir: veio $\\rightarrow$ conveio.",
+                "B) CORRETA. Líder ver: que se vissem $\\rightarrow$ revissem.",
+                "C) Incorreta. Líder pôr: que se puserem $\\rightarrow$ propuserem.",
+                "D) Incorreta. Líder ter: tiveram $\\rightarrow$ obtiveram.",
+                "E) Incorreta. Líder ter: se não se tiver $\\rightarrow$ contiver.",
+                "Gabarito Oficial: Opção B."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-009",
+          "title": "EX-A04-G06-009 — Questão 09: FGV - 2021 - IMBEL (Nível Médio)",
+          "prompt": "Enunciado: “Não sei ver nada do que vejo; vejo bem apenas o que relembro.” A mesma relação entre as formas verbais sublinhadas se repete de forma correta em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "“Não sei ver nada do que vejo; vejo bem apenas o que relembro.” A mesma relação entre as formas verbais sublinhadas se repete de forma correta em:"
+            },
+            {
+              "order": 2,
+              "action": "A) fazer / faço.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) prover / provo.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) comprar / comprei.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) trazer / trazia.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção A.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-009 — Questão 09: FGV - 2021 - IMBEL (Nível Médio) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-009 — Questão 09: FGV - 2021 - IMBEL (Nível Médio).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-009 — Questão 09: FGV - 2021 - IMBEL (Nível Médio).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: “Não sei ver nada do que vejo; vejo bem apenas o que relembro.” A mesma relação entre as formas verbais sublinhadas se repete de forma correta em:",
+                "A) fazer / faço.",
+                "B) prover / provo.",
+                "C) comprar / comprei.",
+                "D) trazer / trazia.",
+                "E) dizer / diz.",
+                "Análise das Alternativas:",
+                "Padrão do Enunciado: Infinitivo Impessoal (ver) / Presente do Indicativo 1ª p. sing. (vejo).",
+                "A) CORRETA. fazer (Infinitivo) / faço (Pres. Ind. 1ª pessoa: eu faço).",
+                "B) Incorreta. prover faz provejo; provo pertence a provar.",
+                "C) Incorreta. comprei está no pretérito perfeito.",
+                "D) Incorreta. trazia está no pretérito imperfeito.",
+                "E) Incorreta. diz está na 3ª pessoa do singular.",
+                "Gabarito Oficial: Opção A."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-010",
+          "title": "EX-A04-G06-010 — Questão 10: FGV - CGE-MA (Auditor)",
+          "prompt": "Enunciado: Assinale a frase em que o verbo prever está conjugado de forma ERRADA:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a frase em que o verbo prever está conjugado de forma ERRADA:"
+            },
+            {
+              "order": 2,
+              "action": "A) Quando ele prever o resultado, todos se espantarão.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) Elas preveem coisas impossíveis.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) Espero que elas prevejam boas coisas.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) Ela já previra o resultado, antes de a partida terminar.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção A.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-010 — Questão 10: FGV - CGE-MA (Auditor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-010 — Questão 10: FGV - CGE-MA (Auditor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-010 — Questão 10: FGV - CGE-MA (Auditor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a frase em que o verbo prever está conjugado de forma ERRADA:",
+                "A) Quando ele prever o resultado, todos se espantarão.",
+                "B) Elas preveem coisas impossíveis.",
+                "C) Espero que elas prevejam boas coisas.",
+                "D) Ela já previra o resultado, antes de a partida terminar.",
+                "E) Se todos previssem a vida, ela seria diferente.",
+                "Análise das Alternativas:",
+                "A) INCORRETA (Gabarito da questão). Líder ver no futuro do subjuntivo: quando ele vir $\\rightarrow$ previr. A forma prever é infinitivo indevido.",
+                "B) Correta. Líder ver: veem $\\rightarrow$ preveem.",
+                "C) Correta. Líder ver: vejam $\\rightarrow$ prevejam.",
+                "D) Correta. Líder ver: vira $\\rightarrow$ previra.",
+                "E) Correta. Líder ver: vissem $\\rightarrow$ previssem.",
+                "Gabarito Oficial: Opção A."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-011",
+          "title": "EX-A04-G06-011 — Questão 11: CESPE / CEBRASPE - 2021 - IBGE (Agente de Pesquisas)",
+          "prompt": "Enunciado: No trecho: \"Se formos propor uma hermenêutica acerca do tema...\", a locução “formos propor” poderia ser corretamente substituída pela forma verbal:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho: \"Se formos propor uma hermenêutica acerca do tema...\", a locução “formos propor” poderia ser corretamente substituída pela forma verbal:"
+            },
+            {
+              "order": 2,
+              "action": "A) propuséssemos.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "B) proporemos.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "C) propusermos.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "D) proporíamos.",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: Opção C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-011 — Questão 11: CESPE / CEBRASPE - 2021 - IBGE (Agente de Pesquisas) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-011 — Questão 11: CESPE / CEBRASPE - 2021 - IBGE (Agente de Pesquisas).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-011 — Questão 11: CESPE / CEBRASPE - 2021 - IBGE (Agente de Pesquisas).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho: \"Se formos propor uma hermenêutica acerca do tema...\", a locução “formos propor” poderia ser corretamente substituída pela forma verbal:",
+                "A) propuséssemos.",
+                "B) proporemos.",
+                "C) propusermos.",
+                "D) proporíamos.",
+                "E) propúnhamos.",
+                "Análise: Locução no futuro do subjuntivo (1ª p. pl.: nós). Líder pôr: se nós pusermos $\\rightarrow$ se nós propusermos.",
+                "Gabarito Oficial: Opção C."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-012",
+          "title": "EX-A04-G06-012 — Questão 12: Quadrix - CRO-PB (Agente Administrativo)",
+          "prompt": "Trecho: \"No trânsito, vai dar passagem a todos os outros carros assim que vir uma seta piscar...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"No trânsito, vai dar passagem a todos os outros carros assim que vir uma seta piscar...\""
+            },
+            {
+              "order": 2,
+              "action": "Comando",
+              "rationale": "No trecho, o “vir” corresponde à conjugação no futuro do verbo ver, e não ao verbo vir."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento",
+              "rationale": "CERTO. A oração trata da percepção visual da luz (\"seta piscar\"). O futuro do subjuntivo da 3ª pessoa do singular do verbo VER é exatamente vir."
+            }
+          ],
+          "result": "Julgamento: CERTO. A oração trata da percepção visual da luz (\"seta piscar\"). O futuro do subjuntivo da 3ª pessoa do singular do verbo VER é exatamente vir.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-012 — Questão 12: Quadrix - CRO-PB (Agente Administrativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-012 — Questão 12: Quadrix - CRO-PB (Agente Administrativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-012 — Questão 12: Quadrix - CRO-PB (Agente Administrativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"No trânsito, vai dar passagem a todos os outros carros assim que vir uma seta piscar...\"",
+                "Comando: No trecho, o “vir” corresponde à conjugação no futuro do verbo ver, e não ao verbo vir.",
+                "Julgamento: CERTO. A oração trata da percepção visual da luz (\"seta piscar\"). O futuro do subjuntivo da 3ª pessoa do singular do verbo VER é exatamente vir."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-013",
+          "title": "EX-A04-G06-013 — Questão 13: CESPE - SEDF (Professor de Português)",
+          "prompt": "Cartaz Institucional: \"ASSÉDIO SEXUAL NO ÔNIBUS É CRIME. Se você for vítima ou vir alguém sendo assediado, ligue 190 e denuncie.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Cartaz Institucional",
+              "rationale": "\"ASSÉDIO SEXUAL NO ÔNIBUS É CRIME. Se você for vítima ou vir alguém sendo assediado, ligue 190 e denuncie.\""
+            },
+            {
+              "order": 2,
+              "action": "Comando",
+              "rationale": "Afirma que “for” e “vir” são formas flexionadas no modo subjuntivo dos verbos de movimento ir e vir."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento",
+              "rationale": "ERRADO. Trata-se do verbo de ligação SER (ser vítima) e do verbo transitivo de percepção VER (enxergar alguém sendo assediado), sem qualquer correlação com verbos de movimento."
+            }
+          ],
+          "result": "Julgamento: ERRADO. Trata-se do verbo de ligação SER (ser vítima) e do verbo transitivo de percepção VER (enxergar alguém sendo assediado), sem qualquer correlação com verbos de movimento.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-013 — Questão 13: CESPE - SEDF (Professor de Português) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-013 — Questão 13: CESPE - SEDF (Professor de Português).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-013 — Questão 13: CESPE - SEDF (Professor de Português).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Cartaz Institucional: \"ASSÉDIO SEXUAL NO ÔNIBUS É CRIME. Se você for vítima ou vir alguém sendo assediado, ligue 190 e denuncie.\"",
+                "Comando: Afirma que “for” e “vir” são formas flexionadas no modo subjuntivo dos verbos de movimento ir e vir.",
+                "Julgamento: ERRADO. Trata-se do verbo de ligação SER (ser vítima) e do verbo transitivo de percepção VER (enxergar alguém sendo assediado), sem qualquer correlação com verbos de movimento."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A04-G06-014",
+          "title": "EX-A04-G06-014 — Questão 14: CESPE / CEBRASPE - 2019 - Prefeitura de São Cristóvão (Professor)",
+          "prompt": "Trecho: \"Vindo de fornecedores selecionados de Portugal e da Noruega, salgado ou dessalgado, o bacalhau pode ser encontrado em nossas lojas...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho",
+              "rationale": "\"Vindo de fornecedores selecionados de Portugal e da Noruega, salgado ou dessalgado, o bacalhau pode ser encontrado em nossas lojas...\""
+            },
+            {
+              "order": 2,
+              "action": "Comando",
+              "rationale": "O termo “Vindo” corresponde ao gerúndio do verbo vir e, no texto, indica um prolongamento da ação de que trata a última oração do texto."
+            },
+            {
+              "order": 3,
+              "action": "Julgamento",
+              "rationale": "ERRADO. O termo possui valor sintático-semântico de particípio passado (\"recém-chegado / proveniente / tendo vindo\"), indicando origem/estado concluído do produto, sem aspecto durativo de prolongamento de ação."
+            }
+          ],
+          "result": "Julgamento: ERRADO. O termo possui valor sintático-semântico de particípio passado (\"recém-chegado / proveniente / tendo vindo\"), indicando origem/estado concluído do produto, sem aspecto durativo de prolongamento de ação.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A04-G06-014 — Questão 14: CESPE / CEBRASPE - 2019 - Prefeitura de São Cristóvão (Professor) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A04-G06-014 — Questão 14: CESPE / CEBRASPE - 2019 - Prefeitura de São Cristóvão (Professor).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A04-G06-014 — Questão 14: CESPE / CEBRASPE - 2019 - Prefeitura de São Cristóvão (Professor).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho: \"Vindo de fornecedores selecionados de Portugal e da Noruega, salgado ou dessalgado, o bacalhau pode ser encontrado em nossas lojas...\"",
+                "Comando: O termo “Vindo” corresponde ao gerúndio do verbo vir e, no texto, indica um prolongamento da ação de que trata a última oração do texto.",
+                "Julgamento: ERRADO. O termo possui valor sintático-semântico de particípio passado (\"recém-chegado / proveniente / tendo vindo\"), indicando origem/estado concluído do produto, sem aspecto durativo de prolongamento de ação."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diante de formas curtas como VIM, insira mentalmente o advérbio \"ONTEM\" antes de \"EU\":",
+            "\"Ontem eu VIM\" $\\rightarrow$ confirmação do pretérito perfeito de VIR.",
+            "\"Ontem eu VI\" $\\rightarrow$ pretérito perfeito de VER.",
+            "\"Ontem eu PUS\" $\\rightarrow$ pretérito perfeito de PÔR.",
+            "\"Ontem eu FIZ\" $\\rightarrow$ pretérito perfeito de FAZER."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Leia as alternativas em bloco vertical isolando apenas os verbos sublinhados. Isso permite identificar instantaneamente qual é a família verbal predominante (ter, vir, pôr, ver) e o tempo visado, poupando tempo na aplicação dos 4 passos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Caso sinta dúvida sobre qual tempo/modo aplicar no Passo 3, observe a terminação da palavra incorreta formulada pela própria banca:",
+            "Se a banca escreveu contessem, a terminação -ssem indica Pretérito Imperfeito do Subjuntivo. Aplique ao líder ter (tivessem) $\\rightarrow$ contivessem.",
+            "Se escreveu proporem, a terminação indica Futuro do Subjuntivo. Aplique ao líder pôr (puserem) $\\rightarrow$ propuserem."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Para certificar-se do Presente do Indicativo na 1ª pessoa, coloque a palavra \"HOJE\":",
+            "\"Hoje eu vejo\", \"Hoje eu faço\", \"Hoje eu provejo\", \"Hoje eu trago\", \"Hoje eu digo\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Substitua a forma sob dúvida por ENXERGAR (para VER) ou CHEGAR (para VIR):",
+            "\"Assim que [vir/vier] o aviso\" = \"Assim que [enxergar] o aviso\" $\\rightarrow$ Verbo VER (vir).",
+            "\"Assim que [vir/vier] o carteiro\" = \"Assim que [chegar] o carteiro\" $\\rightarrow$ Verbo VIR (vier)."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A04-G06-001",
+          "title": "Pegadinha da Falsa Regularização Verbal",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha da Falsa Regularização Verbal no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha da Falsa Regularização Verbal.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha da Falsa Regularização Verbal.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha da Falsa Regularização Verbal para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha da Falsa Regularização Verbal.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha da Falsa Regularização Verbal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: O candidato confia na sonoridade coloquial e aceita formas falsas como \"interviu\", \"obteram\", \"sobreporam\", \"conviu\", \"proporam\".",
+                "Como Evitar: A intuição auditiva falha em verbos derivados. A aplicação mecânica do algoritmo dos 4 passos é o único critério seguro de acerto."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G06-002",
+          "title": "O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro Clássico do Verbo PREVER no Futuro do Subjuntivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Dizer e aceitar em prova \"quando o diretor prever o problema\".",
+                "Correção: Como VER faz vir, o derivado PREVER faz previr (\"quando o diretor previr o problema\"). A forma prever é infinitivo e está errada no futuro do subjuntivo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G06-003",
+          "title": "Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre VIREM (do Verbo VER) e VIEREM (do Verbo VIR).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: A banca emprega virem em frases que indicam deslocamento/chegada.",
+                "Regra: Virem vem de VER (quando eles virem o edital). Para VIR, a forma correta é vierem (quando eles vierem à cidade)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G06-004",
+          "title": "Proibição de Futuro do Subjuntivo após Preposição Simples",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Proibição de Futuro do Subjuntivo após Preposição Simples no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Proibição de Futuro do Subjuntivo após Preposição Simples.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Proibição de Futuro do Subjuntivo após Preposição Simples.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Proibição de Futuro do Subjuntivo após Preposição Simples para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Proibição de Futuro do Subjuntivo após Preposição Simples.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Proibição de Futuro do Subjuntivo após Preposição Simples.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Estruturas do tipo \"depois de vierem as encomendas\".",
+                "Regra: Preposição simples exige Infinitivo Pessoal flexionado (depois de virem as encomendas)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G06-005",
+          "title": "Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Armadilha Contextual em Cartazes Publicitários (Cespe/Cebraspe).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: A banca tenta justificar morfologia verbal incorreta alegando metáforas ou \"campos semânticos de transporte/movimento\" (afirmando que for e vir seriam de ir e vir em cartazes de ônibus).",
+                "Como Evitar: Analise sempre a predicação sintática: \"for vítima\" possui predicativo $\\rightarrow$ verbo SER; \"vir alguém\" possui objeto direto $\\rightarrow$ verbo VER."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A04-G06-006",
+          "title": "Falso Amigo: PROVER vs. PROVAR",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falso Amigo: PROVER vs. PROVAR no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falso Amigo: PROVER vs. PROVAR.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falso Amigo: PROVER vs. PROVAR.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falso Amigo: PROVER vs. PROVAR para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falso Amigo: PROVER vs. PROVAR.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falso Amigo: PROVER vs. PROVAR.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Problema: Supor que prover faz provo.",
+                "Correção: Provar $\\rightarrow$ eu provo. Prover $\\rightarrow$ eu provejo."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: O candidato confia na sonoridade coloquial e aceita formas falsas como \"interviu\", \"obteram\", \"sobreporam\", \"conviu\", \"proporam\".",
+            "Como Evitar: A intuição auditiva falha em verbos derivados. A aplicação mecânica do algoritmo dos 4 passos é o único critério seguro de acerto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Dizer e aceitar em prova \"quando o diretor prever o problema\".",
+            "Correção: Como VER faz vir, o derivado PREVER faz previr (\"quando o diretor previr o problema\"). A forma prever é infinitivo e está errada no futuro do subjuntivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: A banca emprega virem em frases que indicam deslocamento/chegada.",
+            "Regra: Virem vem de VER (quando eles virem o edital). Para VIR, a forma correta é vierem (quando eles vierem à cidade)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Estruturas do tipo \"depois de vierem as encomendas\".",
+            "Regra: Preposição simples exige Infinitivo Pessoal flexionado (depois de virem as encomendas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: A banca tenta justificar morfologia verbal incorreta alegando metáforas ou \"campos semânticos de transporte/movimento\" (afirmando que for e vir seriam de ir e vir em cartazes de ônibus).",
+            "Como Evitar: Analise sempre a predicação sintática: \"for vítima\" possui predicativo $\\rightarrow$ verbo SER; \"vir alguém\" possui objeto direto $\\rightarrow$ verbo VER."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Problema: Supor que prover faz provo.",
+            "Correção: Provar $\\rightarrow$ eu provo. Prover $\\rightarrow$ eu provejo."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Definição: Verbo matriz (ter, ver, vir, pôr, amar, beber, partir) cujo radical e desinências servem de modelo paradigmático absoluto para a conjugação de todos os seus derivados e cognatos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definição: Verbo formado pelo acoplamento de um prefixo a uma raiz primitiva (ex.: man-ter, con-ter, in-ter-vir, pro-por, pre-ver, re-ver), subordinado rigorosamente à flexão do primitivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definição: Forma nominal flexionada nas pessoas gramaticais (para eu vir, tu vires, ele vir, nós virmos, vós virdes, eles virem), de uso obrigatório após preposições simples quando há sujeito próprio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definição: Tempo verbal que expressa eventualidade ou condição futura (quando ele vir, se eles propuserem, quando nós revirmos), frequentemente regido por conjunções como se e quando."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definição: Vício morfossintático consistente em conjugar um verbo irregular derivado como se fosse regular de 2ª ou 3ª conjugação (ex.: interviu, obteram, conviu, sobreporam)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definição: Distinção semântica entre o processo em curso durativo (gerúndio/imperfectivo) e o estado/origem já concluído (particípio/perfectivo), como na forma vindo com valor de procedência (\"recém-chegado\")."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir este grupo temático, o estudante terá desenvolvido o domínio prático e conceitual necessário para:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Eliminar a dependência da intuição auditiva: Reconhecer que o \"som\" coloquial induz ao erro e aplicar de forma autônoma o Método dos 4 Passos para qualquer verbo derivado.",
+            "Dominar as famílias dos 4 líderes fundamentais:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjugação precisa dos derivados de TER (manter, conter, reter, deter, abster, entreter, obter).",
+            "Conjugação dos derivados de PÔR (propor, repor, sobrepor, dispor, compor).",
+            "Conjugação dos derivados de VIR (intervir, convir, advir).",
+            "Conjugação dos derivados de VER (prever, rever, antever)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Diferenciar imediatamente VER e VIR: Reconhecer com precisão matemática as formas no Futuro do Subjuntivo (vir/virem vs. vier/vierem) e no Pretérito Perfeito (vi/viu vs. vim/veio).",
+            "Dominar a sintaxe do Infinitivo Pessoal: Identificar a presença de preposição simples exigindo o infinitivo flexionado (depois de virem) em vez do futuro do subjuntivo.",
+            "Compreender as correlações com a partícula \"SE\": Reconhecer o duplo comportamento do \"SE\" condicional com o Imperfeito do Subjuntivo (se fizesse) e com o Futuro do Subjuntivo (se fizer).",
+            "Enfrentar as particularidades de cada banca examinadora:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cesgranrio / Vunesp: Foco direto nos derivados clássicos e leitura vertical.",
+            "FCC: Frases longas, períodos compostos densos e armadilhas de regularização.",
+            "FGV: Decodificação prévia do enunciado sobre relações de pares temporais.",
+            "Cespe / Cebraspe / Quadrix: Julgamento contextual semântico, distinção de verbos homônimos e análise de aspectos verbais."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula04.q0107",
+      "questionType": "multiple_choice",
+      "examBoard": "CORE-PE",
+      "year": 2019,
+      "prompt": "... autora do livro Toque, clique e Leia com Michael Levine...\n\nNo título do livro de Lisa Guernsey mencionado no texto, os verbos estão no:\na) Infinitivo pessoal. ​          ​          ​       c) Particípio.\nb) Presente do indicativo. ​​      d) Presente do subjuntivo. ​       e) Imperativo.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Infinitivo pessoal. ​ ​ ​ c) Particípio."
+        },
+        {
+          "label": "b",
+          "text": "Presente do indicativo. ​​ d) Presente do subjuntivo. ​ e) Imperativo."
+        }
+      ],
+      "officialAnswer": "E",
+      "explanation": "Observem que temos um comando, uma ordem: Toque, clique e leia. O modo responsável por comandos em geral é imperativo e é nesse modo que os verbos estão conjugados. Gabarito letra E.",
+      "questionSha256": "3ecc94f4d0c20f010d777d88df65b0a076e8c0eaed19baffd08f381a0c9c3664",
+      "answerSha256": "1447481373c8ddf11976781e449bd810ca2e46062e4c7839c683c6f9bdfac459",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CORE-PE; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "incorrect",
+          "explanation": "Opção a: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Irregulares - Questões."
+        },
+        {
+          "optionLabel": "b",
+          "status": "incorrect",
+          "explanation": "Opção b: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Verbos Irregulares - Questões."
+        }
+      ]
+    },
+    {
+      "questionId": "aula04.q0030",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "STJ",
+      "year": 2018,
+      "prompt": "Embora haja semelhança de sentido entre os verbos divergir e diferir, a substituição da forma\nverbal “divirja” (L. 14) por difere prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "No presente do subjuntivo, a forma do verbo ‘diferir’ vai ser “difirA” (que eu di“fira”). Questão correta.",
+      "questionSha256": "36d1982fc06d901b7f18b15eca5c6ef5e40af44fac6474b45da46212263c6f41",
+      "answerSha256": "c907b0a0b9e095a9b9e10b101bbd349ab15dc26f3e564388bdfada1ba98938ab",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0069",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "STJ",
+      "year": 2018,
+      "prompt": "Embora haja semelhança de sentido entre os verbos divergir e diferir, a substituição da forma\nverbal “divirja” (L. 14) por difere prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "CORRETA",
+      "questionSha256": "174ddd65ec917697eda2718bdea8e1088a9e51003825208dc429cdf421355b74",
+      "answerSha256": "524a51da53f63a861e982671f738c02e8f55c912090638c88778f44fdc5b598c",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0038",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Susanita emprega verbos no imperativo em todas as falas dirigidas a Mafalda, pois, a todo momento, dá\nordens a ela.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Há alguns verbos no imperativo e de fato indicam ordens: “Use” e “Use”. Porém, nem todos estão no modo imperativo: “Entende”, “são” e “querem”, por exemplo, estão no presente do modo indicativo. Questão incorreta. BACEN - Língua Portuguesa 104 www.estrategiaconcursos.com.br 154",
+      "questionSha256": "9cc8a353a5d698682e3275ee36144b763cf471107adf8fed1a6f3301fa135dc6",
+      "answerSha256": "8ab94557c699a8e2dd57d3d461c2b03c6347071c71385128755a435f3fd80f01",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0105",
+      "questionType": "true_false_or_statement",
+      "examBoard": "SEDF",
+      "year": 2017,
+      "prompt": "O transporte é público, o corpo da mulher não.\n\nAsssédio sexual no ônibus é crime.\n\nSe você for ou vir alguém sendo assediado, ligue 190 e denuncie.\n\nNo terceiro período, “for” e “vir” são formas flexionadas no modo subjuntivo dos verbos de\nmovimento ir e vir, empregadas em um jogo de palavras que aproxima o campo semântico do\nmovimento com o campo semântico do transporte.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Na verdade, “for” e “vir” são formas flexionadas no modo subjuntivo dos verbos de movimento ser e vEr. O modo subjuntivo do verbo “vir” seria “vier”. Questão incorreta.",
+      "questionSha256": "47a10eef54dc934b27fc93be860373db984d458eb2759310b0258b0f8f3ca33e",
+      "answerSha256": "d78cb7a952d5a3d503d56222e02b0faaf481588fd7c4c242c026212e8cfc5235",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de SEDF; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula04.q0077",
+      "questionType": "true_false_or_statement",
+      "examBoard": "CEBRASPE",
+      "organization": "PM-AL",
+      "year": 2017,
+      "prompt": "Susanita emprega verbos no imperativo em todas as falas dirigidas a Mafalda, pois, a todo\nmomento, dá ordens a ela.",
+      "options": [],
+      "officialAnswer": "INCORRETA",
+      "questionSha256": "0deedea68525abdb56b32eef21dd49fc7d107e79c5abe119c9c47a809ec9ba3e",
+      "answerSha256": "4b51388af5ffad547397ea834d8a1e5f34f1334cae84354bf756351e1535fefb",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Verbos Irregulares - Questões; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

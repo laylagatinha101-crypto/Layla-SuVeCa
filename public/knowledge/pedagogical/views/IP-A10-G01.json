@@ -1,0 +1,1885 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A10-G01",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.090Z"
+  },
+  "unit": {
+    "unitId": "IP-A10-G01",
+    "lessonId": "A10",
+    "groupId": "G01",
+    "title": "Regência Verbal - Fundamentos",
+    "variant": "foundation",
+    "canonicalTopicId": "pt:a10:regencia-verbal",
+    "learningObjectives": [
+      "OBJ-IP-A10-G01-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "A regência verbal nasce da relação entre o sentido contextual de Ve e o C exigido, incluindo a preposição que realiza essa ligação.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Distinção entre Termo Regente (verbo) e Termo Regido (complemento ou adjunto).",
+            "Conceito de Transitividade Verbal (VTD, VTI, VTDI, VI).",
+            "Reconhecimento morfológico de Preposições (a, de, em, com, por) e ocorrência do fenômeno da Crase ($a\\ \\text{prep.} + a\\ \\text{art.} = \\text{à}$).",
+            "Diferenciação entre Sintagmas Nominais Simples e Orações Subordinadas Substantivas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "REGÊNCIA VERBAL (NORMA CULTA) │ ┌─────────────────────────────────┴─────────────────────────────────┐ ▼ ▼"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "VERBOS COM MUDANÇA DE SENTIDO 2. VERBOS SEM MUDANÇA DE SENTIDO"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "│ │ ├─ ASPIRAR ├─ ATENDER (Pessoa ou Coisa) │ ├─ VTD: Sorver / Inalar │ ├─ VTD: Atender o chamado / o cliente │ └─ VTI (a): Almejar [≠ Almejar/Cobiçar (VTD)] │ └─ VTI (a): Atender ao chamado / ao cliente │ │ ├─ VISAR ├─ SISTEMA COISA (OD) vs. PESSOA/ESTÍMULO (OI) │ ├─ VTD: Mirar / Pôr visto │ ├─ RESPONDER: OD (a resposta) / OI em \"a\" (a quem/a quê) │ └─ VTI (a): Almejar (O.I. Oracional = Prep. Facultativa) │ ├─ PAGAR: OD (a dívida) / OI em \"a\" (ao credor) │ │ └─ PERDOAR: OD (o erro) / OI em \"a\" (ao ofensor) ├─ ASSISTIR │ │ ├─ VTI (a): Ver / Presenciar ├─ PEDIR │ ├─ VTI (a): Caber / Competir (sujeito posposto) │ └─ VTDI: Pedir algo (OD) a alguém (OI) [Rejeita \"para\"] │ ├─ VTD (pref.): Dar assistência / Cuidar │ │ └─ VI + Prep. EM: Morar / Residir ├─ ESQUECER / LEMBRAR │ │ ├─ Padrão Não Pronominal: VTD (Esqueci o fato) ├─ IMPLICAR │ ├─ Padrão Pronominal: VTI em \"de\" (Esqueci-me do fato) │ ├─ VTD: Acarretar [Vedado \"implicar em\"] │ └─ Clássica / Arcaica: Coisa é SUJEITO + OI (\"Esqueceu-me\") │ ├─ VTI (com): Ter implicância │ │ └─ VTI Pronominal (em): Implicar-se (Envolver-se) ├─ DEPARAR / DEPARAR-SE │ │ ├─ VTD: Deparar o amigo ├─ CHAMAR │ ├─ VTI (com): Deparar com o amigo │ ├─ VTD: Convocar │ └─ VTI Pronominal (com): Deparar-se com o amigo │ ├─ VTI (por): Invocar / Clamar │ │ └─ \"VALE TUDO\": Apelidar (VTD/VTI + Predicativo c/ ou s/ \"de\") └─ REGRA DOS PRONOMINAIS: Em regra, exigem preposição (VTI) │ ├─ PROCEDER │ ├─ VI: Ter fundamento / Comportar-se │ └─ VTI (a): Dar início / Executar │ └─ NÃO PRONOMINAIS: SIMPATIZAR / ANTIPATIZAR └─ VTI (com): Rejeitam pronome reflexivo (\"simpatizar-se\" = ERRO)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A10-G01-001",
+          "title": "Mapa de conexão — Regência Verbal - Fundamentos",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a10:regencia-verbal",
+              "label": "Regência Verbal - Fundamentos",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a10:regencia-verbal",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A regência é a parte da sintaxe que estuda as relações de subordinação e dependência sintática entre termos na oração, determinando se um termo regente (verbo ou nome) exige termo regido (complemento) e qual preposição específica deve mediar essa ligação."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Regência Verbal vs. Nominal: Na regência verbal, o termo regente é um verbo conectando-se a seus objetos diretos, indiretos ou adjuntos. Na nominal, o regente é um substantivo, adjetivo ou advérbio que exige complemento nominal preposicionado.",
+            "Natureza Convencional e Arbitrária: A regência na norma culta não é fruto de dedução lógica ou intuição imediata; trata-se de um registro histórico fixado e catalogado pela tradição lexicográfica (ex.: Dicionário de Regência Verbal de Celso Pedro Luft).",
+            "Metodologia do \"Caderno de Regência\": O estudante deve dominar os verbos clássicos de concurso e manter um caderno evolutivo no qual registra cada verbo inédito encontrado nas questões resolvidas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimentos: PROC-A10-G01-001",
+            "Glossário: TERM-A10-G01-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo aspirar muda de transitividade conforme o sentido: é Transitivo Direto (VTD) quando significa sorver/inalar e Transitivo Indireto (VTI regido por a) quando significa almejar/desejar."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sentido Físico (Sorver / Inalar / Cheirar):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Transitividade: VTD (sem preposição).",
+            "Exemplo: Naquela fazenda, aspirávamos o ar puro."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sentido Figurado (Almejar / Desejar / Pretender):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Transitividade: VTI (exige preposição a).",
+            "Ocorrência de crase: Se o complemento for feminino determinado por artigo definido feminino, ocorre fusão obrigatória ($a + a = \\text{à}$).",
+            "Exemplos: Aspiro à felicidade; O estudante aspirava à carreira diplomática; Todos aspiram a uma vida mais justa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Contraste Crítico com Sinônimos: Almejar, desejar e cobiçar são Transitivos Diretos (Almejo a aprovação; Cobiço o cargo), enquanto aspirar é Transitivo Indireto (Aspiro à aprovação)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-001, EX-A10-G01-002, EX-A10-G01-003, EX-A10-G01-019, EX-A10-G01-020",
+            "Possui alerta: WARN-A10-G01-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo visar possui três acepções normativas: mirar/apontar (VTD), pôr visto/rubricar (VTD) e almejar/pretender (VTI regido pela preposição a)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sentido de Mirar / Apontar: VTD. Exemplo: O policial visava o alvo.",
+            "Sentido de Pôr Visto / Rubricar / Validar: VTD. Exemplo: O funcionário visou o passaporte do professor.",
+            "Sentido de Almejar / Desejar / Ter como objetivo: VTI (rege a preposição a). Exemplos: Aquele candidato visava à aprovação; Eles só visam ao lucro.",
+            "Visão Normativa em Bancas: Embora usos contemporâneos coloquiais utilizem visar (almejar) como VTD, bancas de concurso cobram rigorosamente o padrão tradicional (VTI com preposição a)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande em: KB-A10-G01-004",
+            "Exemplificado por: EX-A10-G01-004, EX-A10-G01-005, EX-A10-G01-006, EX-A10-G01-007, EX-A10-G01-019"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o complemento de um verbo transitivo indireto (como visar, precisar, necessitar) é estruturado como uma oração (objeto indireto oracional, desenvolvida ou reduzida de infinitivo), a presença da preposição torna-se facultativa."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Objeto Indireto Substantivo (Não Oracional): A preposição é estritamente obrigatória.",
+            "Exemplo: Eles visam à conquista da vaga. (conquista é substantivo $\\rightarrow$ preposição a obrigatória com crase).",
+            "Exemplo: Eu preciso de ajuda. (ajuda é substantivo $\\rightarrow$ preposição de obrigatória).",
+            "Objeto Indireto Oracional (Com Verbo): A preposição é facultativa, sendo habitualmente suprimida por elegância e eufonia.",
+            "Exemplo reduzido: Eles visam conquistar a vaga. (Correto sem preposição) OU Eles visam a conquistar a vaga.",
+            "Exemplo desenvolvido: Eu necessito que você chegue cedo. OU Eu necessito de que você chegue cedo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A10-G01-003",
+            "Exemplificado por: EX-A10-G01-008, EX-A10-G01-009",
+            "Dica associada: TIP-A10-G01-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo assistir possui quatro regências clássicas na norma-padrão: ver/presenciar (VTI com a), caber/competir (VTI com a), prestar assistência/cuidar (preferencialmente VTD em concursos) e morar/residir (intransitivo com adjunto adverbial regido por em)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ver / Presenciar / Testemunhar: VTI regido pela preposição a. Exemplo: Assisti ao programa de entrevistas horrorizado; Assistiram ao jogo milhares de pessoas.",
+            "Caber / Competir / Pertencer por direito: VTI regido pela preposição a. Apresenta-se tipicamente com sujeito posposto. Exemplo: Assiste aos trabalhadores o direito à greve. (o direito à greve = sujeito; aos trabalhadores = objeto indireto).",
+            "Dar Assistência / Ajudar / Cuidar: Classificado preferencialmente como VTD nas bancas de concurso tradicionais (CESGRANRIO, IBADE). Exemplo: O médico assistiu o enfermo; Os governantes devem assistir os pobres.",
+            "Morar / Residir / Domiciliar-se: Verbo Intransitivo (VI), exigindo adjunto adverbial de lugar regido pela preposição em. Exemplo: Assisto em Búzios; O patrão assiste em Paris; Ele assiste em Belém."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-010, EX-A10-G01-011, EX-A10-G01-012, EX-A10-G01-013, EX-A10-G01-018, EX-A10-G01-019, EX-A10-G01-020, EX-A10-G01-022",
+            "Possui alerta: WARN-A10-G01-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No sentido de acarretar ou produzir como consequência, implicar é Transitivo Direto (VTD), sendo categoricamente vedado o uso de \"implicar em\". Ele só admite preposição em quando empregado como verbo pronominal (implicar-se em), no sentido de envolver-se."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Acarretar / Ocasionar / Trazer como consequência: VTD puro (sem preposição). Exemplos: Sua atitude implicará demissão; Qualquer escolha implicava um desgaste; A pobreza implica muito sofrimento; O combate à corrupção implica medidas éticas.",
+            "Ter implicância / Embirrar / Perturbar: VTI regido pela preposição com. Exemplo: Todos implicavam com ele.",
+            "Envolver-se / Comprometer-se: Verbo Pronominal (implicar-se) + VTI regido pela preposição em. Exemplo: O diretor implicou-se em negócios escusos.",
+            "Teoria do Cruzamento Sintático: O vício comum de redigir \"implicar em\" advém da projeção indevida da regência da forma pronominal (implicar-se em) sobre a forma não pronominal transitiva direta (implicar)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-014, EX-A10-G01-015, EX-A10-G01-016, EX-A10-G01-020, EX-A10-G01-022",
+            "Possui alerta: WARN-A10-G01-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo chamar é VTD para convocar e VTI com por para invocar. No sentido de apelidar, qualificar ou dar nome, rege o mantra do \"Vale Tudo\", aceitando tanto objeto direto quanto indireto (com a), combinados livremente com predicativo do objeto preposicionado (com de) ou direto."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Convocar / Mandar vir: VTD. Exemplo: Chamei os meninos.",
+            "Invocar / Clamar: VTI com preposição por. Exemplo: Chamei por você; Chamei por socorro.",
+            "Apelidar / Qualificar (\"Vale Tudo\"): Admite 4 construções sintáticas perfeitamente equivalentes:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "$1^a$ fórmula (VTD + Predicativo direto): Chamei o José Zé. (Pronome: Chamei-o Zé.)",
+            "$2^a$ fórmula (VTD + Predicativo com \"de\"): Chamei o José de Zé. (Pronome: Chamei-o de Zé.)",
+            "$3^a$ fórmula (VTI com \"a\" + Predicativo direto): Chamei ao José Zé. (Pronome: Chamei-lhe Zé.)",
+            "$4^a$ fórmula (VTI com \"a\" + Predicativo com \"de\"): Chamei ao José de Zé. (Pronome: Chamei-lhe de Zé.)"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Alerta de Análise: A construção Chamei ao José de Zé não tem dois objetos; compõe-se de um Objeto Indireto (ao José) e um Predicativo do Objeto preposicionado facultativamente (de Zé)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-017",
+            "Dica associada: TIP-A10-G01-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos simpatizar e antipatizar são Transitivos Indiretos que regem obrigatoriamente a preposição com e não são verbos pronominais."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regência Correta: Simpatizo com ele; Muitos catadores antipatizam com os projetos da prefeitura.",
+            "Erro de Prova: Empregar pronome reflexivo (\"eu me simpatizo com\"; \"eles se antipatizam com\"). A norma culta condena a pronominalidade nesses verbos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-020",
+            "Possui alerta: WARN-A10-G01-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A regência verbal comporta um grupo de verbos que aceitam mais de uma estrutura de complementação (VTD, VTI ou VTDI) sem que isso produza qualquer alteração no seu sentido lexical original."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diferentemente de aspirar ou assistir, nos quais a preposição muda o sentido, nos verbos deste grupo a alternância sintática é uma variação puramente formal/estilística. Bancas como Cebraspe e Vunesp tentam induzir o candidato ao erro afirmando que \"a troca de regência alterou o sentido original do texto\", afirmativa que é falsa para verbos como atender, esquecer/lembrar e deparar."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande em: KB-A10-G01-010, KB-A10-G01-011, KB-A10-G01-012, KB-A10-G01-014, KB-A10-G01-016"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo atender admite facultativamente a regência direta (VTD) ou indireta (VTI com preposição a), independentemente de seu complemento se referir a uma pessoa ou a uma coisa, mantendo rigorosamente o mesmo significado."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Complemento Pessoa: Atendia os advogados (VTD) = Atendia aos advogados (VTI com a).",
+            "Complemento Coisa: Atendeu as reivindicações (VTD) = Atendeu às reivindicações (VTI com crase); Atendeu o telefone (VTD) = Atendeu ao telefone (VTI).",
+            "Objeto Contextual Elíptico: Em frases contextuais como \"A campainha toca. Você pode atender?\", o verbo funciona como VTD com objeto implícito (atender a campainha).",
+            "Evolução nas Bancas: No passado, exigia-se VTI para coisas. O Cebraspe pacificou a dupla regência irrestrita para coisas e pessoas, posicionamento hoje adotado unanimemente por todas as bancas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-023, EX-A10-G01-024, EX-A10-G01-033",
+            "Dica associada: TIP-A10-G01-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo responder rege Objeto Direto para a resposta emitida e Objeto Indireto regido pela preposição a para a pessoa, pergunta, questionário, carta ou estímulo a que se remete a resposta."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Transitivo Direto (VTD): Aquilo que se diz/escreve como resposta (a réplica emitida). Frequentemente ocorre como oração subordinada: Respondi que não iria ao jogo (OD); Respondi um sim (OD).",
+            "Transitivo Indireto (VTI com \"a\"): O destinatário ou estímulo motivador. Exemplos: Respondi aos ataques; Respondeu aos pais; Responda ao questionário; Respondi ao e-mail.",
+            "Bitransitivo (VTDI): Quando ambos coexistem. Exemplo: Respondeu aos filhos (OI) que não perturbasse (OD oracional).",
+            "Desvio Pejorativo: Construir responder alguém com pessoa como OD (\"Ela responde os pais\") existe na língua, mas adquire o sentido pejorativo de grosseria ou desrespeito (\"ser respondão\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-025, EX-A10-G01-026",
+            "Possui alerta: WARN-A10-G01-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos pagar e perdoar seguem a regra semântica estrita: o complemento coisa (o que se paga/perdoa: dívida, imposto, desvio, erro) é Objeto Direto (VTD); o complemento pessoa/entidade (a quem se paga/perdoa) é Objeto Indireto regido por a (VTI)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Coisa (VTD): Paguei os impostos; Perdoei a dívida; Perdoei o delito. (Sem preposição; sem crase).",
+            "Pessoa / Entidade (VTI com \"a\"): Paguei aos funcionários; Paguei ao Estratégia; Perdoei ao funcionário; Perdoei-lhe (pronome lhe para pessoa).",
+            "Bitransitivo (VTDI): Paguei a despesa (OD) ao gerente (OI); Perdoei a mentira (OD) ao meu namorado (OI).",
+            "Armadilha de Prova: Preposicionar a coisa (\"perdoaram aos desvios de conduta\" $\\rightarrow$ INCORRETO) ou deixar a pessoa sem preposição (\"pagou o empregado\" $\\rightarrow$ INCORRETO)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-027, EX-A10-G01-034, EX-A10-G01-036, EX-A10-G01-037",
+            "Possui procedimento: PROC-A10-G01-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo pedir é Transitivo Direto e Indireto (VTDI), regendo Objeto Direto para a coisa pedida e Objeto Indireto regido pela preposição a para a pessoa a quem se pede. A norma culta rejeita categoricamente a preposição para."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura Correta (VTDI): Pedia ajuda (OD) aos amigos (OI); Pedia calma (OD) aos mais alterados (OI); Pedi autorização (OD) à minha mãe (OI).",
+            "Erro Coloquial: \"Pedi para minha mãe para sair\" $\\rightarrow$ Incorreto. O correto é Pedi à minha mãe que me deixasse sair."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-028",
+            "Possui alerta: WARN-A10-G01-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos esquecer e lembrar operam sob regime simétrico estrito: sem pronome são Transitivos Diretos (VTD); com pronome integrante (PIV) são Transitivos Indiretos (VTI) regidos pela preposição de."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Forma Não Pronominal (VTD): Sujeito + esquecer/lembrar + Objeto Direto (sem preposição). Exemplo: Esqueci os livros; A população esquece os menos favorecidos.",
+            "Forma Pronominal (VTI): Sujeito + Pronome (PIV) + esquecer-se/lembrar-se + [de + termo]. Exemplo: Esqueci-me dos livros; A população esquece-se dos menos favorecidos.",
+            "Proibição de Formas Híbridas: É erro grave cruzar as regências:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Esqueci dos livros. (ERRADO — faltou o pronome).",
+            "Esqueci-me os livros. (ERRADO — faltou a preposição)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-029, EX-A10-G01-035, EX-A10-G01-037",
+            "Dica associada: TIP-A10-G01-004",
+            "Possui alerta: WARN-A10-G01-007"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Existe uma terceira construção legítima para esquecer e lembrar, de cunho erudito/arcaico, na qual a coisa esquecida ou lembrada funciona como o SUJEITO sintático da oração, o verbo atua como VTI regido por a e a pessoa é o Objeto Indireto."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Estrutura Sintática:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A coisa esquecida/lembrada = Sujeito (NÃO pode receber preposição).",
+            "Verbo = Flexionado na 3ª pessoa, concordando com o sujeito inanimado.",
+            "A pessoa = Objeto Indireto (pronome me, te, lhe, nos ou sintagma ao rapaz)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Exemplos Canônicos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Esqueceu-me o compromisso. (o compromisso = Sujeito; me = OI [= esqueceu a mim / escapou da minha mente]).",
+            "Esqueceu-me o seu nome. (o seu nome = Sujeito; me = OI).",
+            "Esqueceu ao rapaz o acidente. (o acidente = Sujeito; ao rapaz = OI)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Função Discursiva e Pegadinha de Prova: Essa construção promove um afastamento discursivo da responsabilidade do falante. Candidatos tendem a estranhar a ausência da preposição de e julgam a frase errada (acham que falta \"de\"). Contudo, inserir a preposição de gera a aberração de preposicionar o sujeito sintático (\"Esqueceu-me do compromisso\" $\\rightarrow$ ERRO)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A10-G01-014",
+            "Exemplificado por: EX-A10-G01-030",
+            "Possui procedimento: PROC-A10-G01-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No sentido de encontrar casualmente ou topar de repente, o verbo deparar comporta três construções sintáticas legítimas de idêntico significado:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Não pronominal Transitivo Direto (VTD): Deparei o meu amigo.",
+            "Não pronominal Transitivo Indireto (VTI com com): Deparei com o meu amigo.",
+            "Pronominal Transitivo Indireto (VTI com com): Deparei-me com um conhecido."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o verbo for conjugado com pronome integrante (deparei-me), o uso da preposição com torna-se estritamente obrigatório.",
+            "A alternância entre qualquer uma das três formas preserva integralmente a correção gramatical e o sentido do texto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-031, EX-A10-G01-032",
+            "Possui procedimento: PROC-A10-G01-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na língua portuguesa, os verbos pronominais autênticos (conjugados com pronome integrante do verbo — PIV) operam, como regra geral de valência, como Transitivos Indiretos (VTI), exigindo preposição específica."
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença do pronome satura o espaço direto, demandando complemento preposicionado:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Deparar-se com",
+            "Esquecer-se / Lembrar-se de",
+            "Referir-se a",
+            "Implicar-se em",
+            "Apegar-se a / Queixar-se de"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamenta: KB-A10-G01-006, KB-A10-G01-014, KB-A10-G01-016"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo proceder altera sua transitividade ao mudar de sentido: é Intransitivo (VI) quando expressa fundamento, modo ou procedência; e é Transitivo Indireto (VTI regido por a) quando significa dar início ou realizar formalmente uma ação."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Intransitivo (VI):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sentido de ter fundamento / procedência lógica: Seu argumento não procede.",
+            "Sentido de comportar-se / agir: Ele procedia mal. (mal = adjunto adverbial de modo).",
+            "Sentido de originar-se: rege adjunto adverbial com de (Ele procede de família nobre)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Transitivo Indireto (VTI com preposição \"a\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sentido de dar início / executar / realizar: A aeromoça procedeu à chamada dos passageiros; O juiz procedeu ao julgamento."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplificado por: EX-A10-G01-034"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nem toda preposição que surge após um verbo indica Objeto Indireto. Termos preposicionados que exprimem posse ou restrição acoplados a um substantivo núcleo atuam internamente como Adjuntos Adnominais, integrando um Objeto Direto complexo de um verbo transitivo direto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em Perdoou o delito [da filha]: o núcleo do complemento é delito (coisa = OD). O termo da filha é Adjunto Adnominal de posse (\"o delito dela\"), não objeto indireto. O verbo é VTD puro.",
+            "Em Perdoem os desvios gramaticais [dos artistas]: desvios é o núcleo do OD; dos artistas é Adjunto Adnominal.",
+            "Em O povo esquece o passado [dos políticos]: passado é o núcleo do OD; dos políticos é Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A10-G01-008",
+            "Exemplificado por: EX-A10-G01-036, EX-A10-G01-037"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A10-G01-001",
+          "title": "Tabela Sintética de Transitividade e Preposições",
+          "statement": "Tabela Sintética de Transitividade e Preposições",
+          "scope": "government_and_regency",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de government_and_regency no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela Sintética de Transitividade e Preposições."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A10-G01-001",
+              "table": {
+                "tableId": "TABLE-IP-A10-G01-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Verbo",
+                  "Acepção Semântica",
+                  "Transitividade",
+                  "Preposição",
+                  "Regra Sintática Fundamental",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Aspirar",
+                    "Inalar / Sorver",
+                    "VTD",
+                    "—",
+                    "Sem preposição",
+                    "KB-A10-G01-002"
+                  ],
+                  [
+                    "Aspirar",
+                    "Almejar / Desejar",
+                    "VTI",
+                    "a",
+                    "Admite crase diante de femininos",
+                    "KB-A10-G01-002"
+                  ],
+                  [
+                    "Visar",
+                    "Mirar / Pôr visto",
+                    "VTD",
+                    "—",
+                    "Sem preposição",
+                    "KB-A10-G01-003"
+                  ],
+                  [
+                    "Visar",
+                    "Almejar / Pretender",
+                    "VTI",
+                    "a",
+                    "Prep. facultativa se o OI for oracional",
+                    "KB-A10-G01-003"
+                  ],
+                  [
+                    "Assistir",
+                    "Ver / Presenciar",
+                    "VTI",
+                    "a",
+                    "Exige preposiçãoa",
+                    "KB-A10-G01-005"
+                  ],
+                  [
+                    "Assistir",
+                    "Caber / Competir",
+                    "VTI",
+                    "a",
+                    "Comum com sujeito posposto",
+                    "KB-A10-G01-005"
+                  ],
+                  [
+                    "Assistir",
+                    "Prestar assistência",
+                    "VTD",
+                    "—",
+                    "Padrão clássico preferido em bancas",
+                    "KB-A10-G01-005"
+                  ],
+                  [
+                    "Assistir",
+                    "Morar / Residir",
+                    "VI",
+                    "em",
+                    "Rege Adjunto Adverbial de Lugar",
+                    "KB-A10-G01-005"
+                  ],
+                  [
+                    "Implicar",
+                    "Acarretar",
+                    "VTD",
+                    "—",
+                    "Vedado terminantemente \"implicar em\"",
+                    "KB-A10-G01-006"
+                  ],
+                  [
+                    "Implicar",
+                    "Ter implicância",
+                    "VTI",
+                    "com",
+                    "Exige preposiçãocom",
+                    "KB-A10-G01-006"
+                  ],
+                  [
+                    "Implicar-se",
+                    "Envolver-se",
+                    "VTI",
+                    "em",
+                    "Forma pronominal com preposiçãoem",
+                    "KB-A10-G01-006"
+                  ],
+                  [
+                    "Chamar",
+                    "Convocar",
+                    "VTD",
+                    "—",
+                    "Sem preposição",
+                    "KB-A10-G01-007"
+                  ],
+                  [
+                    "Chamar",
+                    "Invocar / Clamar",
+                    "VTI",
+                    "por",
+                    "Exige preposiçãopor",
+                    "KB-A10-G01-007"
+                  ],
+                  [
+                    "Chamar",
+                    "Apelidar / Qualificar",
+                    "VTD / VTI",
+                    "(a) / (de)",
+                    "\"Vale Tudo\" (OD/OI + Pred. c/ ou s/de)",
+                    "KB-A10-G01-007"
+                  ],
+                  [
+                    "Proceder",
+                    "Ter fundamento / Agir",
+                    "VI",
+                    "—",
+                    "Sem complemento objeto",
+                    "KB-A10-G01-018"
+                  ],
+                  [
+                    "Proceder",
+                    "Dar início / Realizar",
+                    "VTI",
+                    "a",
+                    "Exige preposiçãoa",
+                    "KB-A10-G01-018"
+                  ],
+                  [
+                    "Simpatizar",
+                    "Ter simpatia",
+                    "VTI",
+                    "com",
+                    "Não pronominal (vedado pronome)",
+                    "KB-A10-G01-008"
+                  ],
+                  [
+                    "Antipatizar",
+                    "Ter antipatia",
+                    "VTI",
+                    "com",
+                    "Não pronominal (vedado pronome)",
+                    "KB-A10-G01-008"
+                  ],
+                  [
+                    "Atender",
+                    "Pessoa ou Coisa",
+                    "VTD / VTI",
+                    "(a)",
+                    "Facultativo com ou sem preposiçãoa",
+                    "KB-A10-G01-010"
+                  ],
+                  [
+                    "Responder",
+                    "A resposta dada",
+                    "VTD",
+                    "—",
+                    "Objeto Direto (ou oracional)",
+                    "KB-A10-G01-011"
+                  ],
+                  [
+                    "Responder",
+                    "Destinatário / Pergunta",
+                    "VTI",
+                    "a",
+                    "Objeto Indireto coma",
+                    "KB-A10-G01-011"
+                  ],
+                  [
+                    "Pagar / Perdoar",
+                    "Coisa (dívida/erro)",
+                    "VTD",
+                    "—",
+                    "Objeto Direto (sem preposição)",
+                    "KB-A10-G01-012"
+                  ],
+                  [
+                    "Pagar / Perdoar",
+                    "Pessoa / Credor",
+                    "VTI",
+                    "a",
+                    "Objeto Indireto coma (pronome lhe)",
+                    "KB-A10-G01-012"
+                  ],
+                  [
+                    "Pedir",
+                    "Pedir algo a alguém",
+                    "VTDI",
+                    "a",
+                    "Rejeita preposiçãopara",
+                    "KB-A10-G01-013"
+                  ],
+                  [
+                    "Esquecer / Lembrar",
+                    "Não pronominal",
+                    "VTD",
+                    "—",
+                    "Sem pronome, sem preposição",
+                    "KB-A10-G01-014"
+                  ],
+                  [
+                    "Esquecer-se",
+                    "Pronominal",
+                    "VTI",
+                    "de",
+                    "Com pronome, com preposiçãode",
+                    "KB-A10-G01-014"
+                  ],
+                  [
+                    "Esquecer / Lembrar",
+                    "Construção Arcaica",
+                    "VTI",
+                    "a",
+                    "Coisa é Sujeito; Pessoa é OI",
+                    "KB-A10-G01-015"
+                  ],
+                  [
+                    "Deparar",
+                    "Topar por acaso",
+                    "VTD / VTI",
+                    "— /com",
+                    "Deparar X ou Deparar com X",
+                    "KB-A10-G01-016"
+                  ],
+                  [
+                    "Deparar-se",
+                    "Topar por acaso",
+                    "VTI",
+                    "com",
+                    "Pronominal exige preposiçãocom",
+                    "KB-A10-G01-016"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A10-G01-001",
+          "title": "Método de Construção do Caderno de Regência",
+          "objective": "Executar o algoritmo decisório para Método de Construção do Caderno de Regência",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método de Construção do Caderno de Regência."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Fixar os Verbos da Base",
+              "explanation": "Iniciar o caderno registrando as regras dos verbos clássicos (aspirar, visar, assistir, implicar, chamar, atender, responder, pagar, perdoar, esquecer, lembrar, proceder).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Resolução Diária",
+              "explanation": "Resolver baterias contínuas de questões de bancas variadas.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Catalogação de Inéditos",
+              "explanation": "Ao deparar com um verbo não dominado, anotar imediatamente o verbo, o sentido contextual e a preposição regida.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Revisão Periódica",
+              "explanation": "Utilizar o caderno como checklist antes de simulados e provas.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método de Construção do Caderno de Regência."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Fixar os Verbos da Base: Iniciar o caderno registrando as regras dos verbos clássicos (aspirar, visar, assistir, implicar, chamar, atender, responder, pagar, perdoar, esquecer, lembrar, proceder).",
+                "Resolução Diária: Resolver baterias contínuas de questões de bancas variadas.",
+                "Catalogação de Inéditos: Ao deparar com um verbo não dominado, anotar imediatamente o verbo, o sentido contextual e a preposição regida.",
+                "Revisão Periódica: Utilizar o caderno como checklist antes de simulados e provas."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G01-002",
+          "title": "Teste Prático do \"Menino\" para Verbos Cotidianos",
+          "objective": "Executar o algoritmo decisório para Teste Prático do \"Menino\" para Verbos Cotidianos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Prático do \"Menino\" para Verbos Cotidianos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Conecte o verbo sob análise ao sintagma masculino simples \"o menino\".",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Observe se a frase natural exige \"o menino\" (VTD) ou \"ao menino\" (VTI)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Elogiou quem? $\\rightarrow$ Elogiou o menino (VTD).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Cobiçou o quê? $\\rightarrow$ Cobiçou o menino / o objeto (VTD).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Ludibriou quem? $\\rightarrow$ Ludibriou o menino (VTD).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Limite de Aplicação",
+              "explanation": "O macete aplica-se a verbos do vocabulário comum. Não funciona para verbos polissêmicos eruditos (aspirar, visar, assistir), os quais exigem aplicação da regra gramatical memorizada.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Prático do \"Menino\" para Verbos Cotidianos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Conecte o verbo sob análise ao sintagma masculino simples \"o menino\".",
+                "Observe se a frase natural exige \"o menino\" (VTD) ou \"ao menino\" (VTI):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Elogiou quem? $\\rightarrow$ Elogiou o menino (VTD).",
+                "Cobiçou o quê? $\\rightarrow$ Cobiçou o menino / o objeto (VTD).",
+                "Ludibriou quem? $\\rightarrow$ Ludibriou o menino (VTD)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Limite de Aplicação: O macete aplica-se a verbos do vocabulário comum. Não funciona para verbos polissêmicos eruditos (aspirar, visar, assistir), os quais exigem aplicação da regra gramatical memorizada."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G01-003",
+          "title": "Identificação de OD e OI em Responder, Pagar e Perdoar",
+          "objective": "Executar o algoritmo decisório para Identificação de OD e OI em Responder, Pagar e Perdoar",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Identificação de OD e OI em Responder, Pagar e Perdoar."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificar o núcleo do complemento (desconsiderando termos preposicionados internos de posse).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Avaliar o traço semântico",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "O que foi dito, pago ou perdoado é uma coisa (resposta, dívida, imposto, delito, erro)? $\\rightarrow$ Classifique como Objeto Direto (sem preposição).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Para quem se dirigiu o pagamento, o perdão ou a resposta é uma pessoa / destinatário / estímulo (credor, funcionário, namorado, questionário, e-mail)? $\\rightarrow$ Classifique como Objeto Indireto (com preposição a).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se ambos estiverem presentes, a oração é bitransitiva (VTDI",
+              "explanation": "pagar algo a alguém).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Identificação de OD e OI em Responder, Pagar e Perdoar."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificar o núcleo do complemento (desconsiderando termos preposicionados internos de posse).",
+                "Avaliar o traço semântico:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O que foi dito, pago ou perdoado é uma coisa (resposta, dívida, imposto, delito, erro)? $\\rightarrow$ Classifique como Objeto Direto (sem preposição).",
+                "Para quem se dirigiu o pagamento, o perdão ou a resposta é uma pessoa / destinatário / estímulo (credor, funcionário, namorado, questionário, e-mail)? $\\rightarrow$ Classifique como Objeto Indireto (com preposição a)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Se ambos estiverem presentes, a oração é bitransitiva (VTDI: pagar algo a alguém)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G01-004",
+          "title": "Algoritmo Decisório para as Três Estruturas de Esquecer e Lembrar",
+          "objective": "Executar o algoritmo decisório para Algoritmo Decisório para as Três Estruturas de Esquecer e Lembrar",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo Decisório para as Três Estruturas de Esquecer e Lembrar."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Verificar a posição da coisa na frase",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Caso 1",
+              "explanation": "A pessoa é o sujeito e a coisa está após o verbo sem preposição $\\rightarrow$ VTD Não Pronominal (Eu esqueci o compromisso).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Caso 2",
+              "explanation": "A pessoa é o sujeito, há pronome integrante (PIV) e a coisa vem com a preposição de $\\rightarrow$ VTI Pronominal (Eu me esqueci do compromisso).",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Caso 3",
+              "explanation": "A coisa é o sujeito sintático que comanda o verbo na 3ª pessoa e a pessoa aparece como OI (me, te, lhe, ao rapaz) $\\rightarrow$ Construção Clássica / Arcaica (Esqueceu-me o compromisso). A coisa não pode ser preposicionada.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo Decisório para as Três Estruturas de Esquecer e Lembrar."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Verificar a posição da coisa na frase:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Caso 1: A pessoa é o sujeito e a coisa está após o verbo sem preposição $\\rightarrow$ VTD Não Pronominal (Eu esqueci o compromisso).",
+                "Caso 2: A pessoa é o sujeito, há pronome integrante (PIV) e a coisa vem com a preposição de $\\rightarrow$ VTI Pronominal (Eu me esqueci do compromisso).",
+                "Caso 3: A coisa é o sujeito sintático que comanda o verbo na 3ª pessoa e a pessoa aparece como OI (me, te, lhe, ao rapaz) $\\rightarrow$ Construção Clássica / Arcaica (Esqueceu-me o compromisso). A coisa não pode ser preposicionada."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G01-005",
+          "title": "Aplicação da Tríplice Regência de Deparar",
+          "objective": "Executar o algoritmo decisório para Aplicação da Tríplice Regência de Deparar",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Aplicação da Tríplice Regência de Deparar."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Constatar o sentido de \"encontrar ou topar por acaso\".",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Selecionar qualquer uma das três formas válidas",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Deparar + termo sem preposição (VTD).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Deparar + com + termo (VTI).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Deparar-se + com + termo (VTI pronominal).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Bloqueio",
+              "explanation": "Se houver pronome (deparar-se), a preposição com é obrigatória.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Aplicação da Tríplice Regência de Deparar."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Constatar o sentido de \"encontrar ou topar por acaso\".",
+                "Selecionar qualquer uma das três formas válidas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Deparar + termo sem preposição (VTD).",
+                "Deparar + com + termo (VTI).",
+                "Deparar-se + com + termo (VTI pronominal)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Bloqueio: Se houver pronome (deparar-se), a preposição com é obrigatória."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A10-G01-006",
+          "title": "Análise e Filtro de Enunciados Extensos (Padrão FGV)",
+          "objective": "Executar o algoritmo decisório para Análise e Filtro de Enunciados Extensos (Padrão FGV)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Análise e Filtro de Enunciados Extensos (Padrão FGV)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Leitura Operacional do Comando",
+              "explanation": "Converter enunciados prolixos da FGV (que elogiam um texto inicial e terminam pedindo onde isso não ocorreu) para a ordem direta: \"A banca busca a alternativa INCORRETA / o ERRO de regência\".",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Varredura Seletiva",
+              "explanation": "Buscar prioritariamente as pegadinhas clássicas (implicar em, assistir morar sem em, esquecer de sem pronome, pagar pessoa sem preposição).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Análise e Filtro de Enunciados Extensos (Padrão FGV)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Leitura Operacional do Comando: Converter enunciados prolixos da FGV (que elogiam um texto inicial e terminam pedindo onde isso não ocorreu) para a ordem direta: \"A banca busca a alternativa INCORRETA / o ERRO de regência\".",
+                "Varredura Seletiva: Buscar prioritariamente as pegadinhas clássicas (implicar em, assistir morar sem em, esquecer de sem pronome, pagar pessoa sem preposição)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A10-G01-001",
+          "title": "1. Aspirar (Almejar) vs. Almejar / Desejar / Cobiçar",
+          "contrastType": "mixed",
+          "conceptA": "1. Aspirar (Almejar) vs. Almejar / Desejar / Cobiçar",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Aspirar (almejar): VTI regido por a (Aspiro ao cargo; Aspiro à vaga).",
+                "Almejar / Desejar / Cobiçar: VTD direto (Almejo o cargo; Desejo a aprovação; Cobiço o posto)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G01-002",
+          "title": "2. Atender vs. Verbos de Regência Condicionada",
+          "contrastType": "mixed",
+          "conceptA": "2. Atender vs. Verbos de Regência Condicionada",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Atender: Aceita VTD ou VTI com a indistintamente para pessoas (o/ao cliente) ou coisas (o/ao telefone).",
+                "Assistir / Visar / Proceder: A presença ou ausência da preposição altera radicalmente o significado semântico."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G01-003",
+          "title": "3. Responder vs. Pagar / Perdoar",
+          "contrastType": "mixed",
+          "conceptA": "3. Responder vs. Pagar / Perdoar",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Ambos compartilham a mesma matriz: Coisa = Objeto Direto; Pessoa/Destinatário = Objeto Indireto com a.",
+                "Responder: A resposta dita é o OD (Respondi [que sim]); o questionário ou a pessoa a quem se responde é o OI (Respondi [ao questionário / ao pai]).",
+                "Pagar/Perdoar: A dívida/falta é o OD (Paguei a conta; Perdoei o erro); o credor/infrator é o OI (Paguei ao banco; Perdoei ao namorado)."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A10-G01-004",
+          "title": "4. Objeto Indireto vs. Adjunto Adnominal de Posse",
+          "contrastType": "syntactic",
+          "conceptA": "4. Objeto Indireto vs. Adjunto Adnominal de Posse",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Perdoou ao médico. $\\rightarrow$ ao médico é Objeto Indireto de pessoa (VTI).",
+                "Perdoou o erro do médico. $\\rightarrow$ o erro do médico é um Objeto Direto inteiro (VTD), no qual erro é o núcleo e do médico é Adjunto Adnominal restritivo de posse."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G01-001",
+          "title": "Grupo A: Verbos que Mudam de Sentido (material de origem)",
+          "prompt": "EX-A10-G01-001 (Aspirar físico): Naquela fazenda, aspirávamos o ar puro. (VTD + OD).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "EX-A10-G01-001 (Aspirar físico)",
+              "rationale": "Naquela fazenda, aspirávamos o ar puro. (VTD + OD)."
+            },
+            {
+              "order": 2,
+              "action": "EX-A10-G01-002 (Aspirar figurado)",
+              "rationale": "Aspiro à felicidade. (VTI + OI com crase $a + a = \\text{à}$)."
+            },
+            {
+              "order": 3,
+              "action": "EX-A10-G01-003 (Almejar vs. Aspirar)",
+              "rationale": "Almejo a felicidade. (VTD + OD, sem preposição / sem crase)."
+            },
+            {
+              "order": 4,
+              "action": "EX-A10-G01-004 (Visar mirar)",
+              "rationale": "O policial visava o alvo. (VTD + OD)."
+            },
+            {
+              "order": 5,
+              "action": "EX-A10-G01-005 (Visar visto)",
+              "rationale": "Visou o passaporte. (VTD + OD)."
+            }
+          ],
+          "result": "Chamei ao José de Zé. (VTI + OI + Predicativo preposicionado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Grupo A: Verbos que Mudam de Sentido (material de origem) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Grupo A: Verbos que Mudam de Sentido (material de origem).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Grupo A: Verbos que Mudam de Sentido (material de origem).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "EX-A10-G01-001 (Aspirar físico): Naquela fazenda, aspirávamos o ar puro. (VTD + OD).",
+                "EX-A10-G01-002 (Aspirar figurado): Aspiro à felicidade. (VTI + OI com crase $a + a = \\text{à}$).",
+                "EX-A10-G01-003 (Almejar vs. Aspirar): Almejo a felicidade. (VTD + OD, sem preposição / sem crase).",
+                "EX-A10-G01-004 (Visar mirar): O policial visava o alvo. (VTD + OD).",
+                "EX-A10-G01-005 (Visar visto): Visou o passaporte. (VTD + OD).",
+                "EX-A10-G01-006 (Visar almejar fem.): Aquele candidato visava à aprovação. (VTI + OI com crase).",
+                "EX-A10-G01-007 (Visar almejar masc.): Eles só visam ao lucro. (VTI + OI com contração a + o = ao).",
+                "EX-A10-G01-008 (Visar substantivo vs. oracional):",
+                "Eles visam à conquista da vaga. (Substantivo $\\rightarrow$ preposição a obrigatória / crase).",
+                "Eles visam conquistar a vaga. (Oracional $\\rightarrow$ preposição a facultativa).",
+                "EX-A10-G01-009 (Precisar / Necessitar oracional):",
+                "Eu preciso de ajuda. (Substantivo $\\rightarrow$ preposição de obrigatória).",
+                "Eu necessito que você chegue cedo. (Oracional $\\rightarrow$ preposição de facultativa).",
+                "EX-A10-G01-010 (Assistir ver): Assisti ao programa de entrevistas horrorizado. (VTI + OI).",
+                "EX-A10-G01-011 (Assistir caber): Assiste aos trabalhadores o direito à greve. (o direito à greve = Sujeito; aos trabalhadores = OI).",
+                "EX-A10-G01-012 (Assistir cuidar): Assistiu o enfermo com dedicação. (VTD + OD).",
+                "EX-A10-G01-013 (Assistir morar): Assisto em Búzios. (VI + Adjunto Adverbial de Lugar).",
+                "EX-A10-G01-014 (Implicar acarretar): ...qualquer escolha implicava um desgaste. (VTD + OD; proibido \"num\").",
+                "EX-A10-G01-015 (Implicar implicância): Quando era pequeno todos implicavam com ele. (VTI + OI).",
+                "EX-A10-G01-016 (Implicar-se envolver): O diretor implicou-se em negócios escusos. (VTI pronominal + OI).",
+                "EX-A10-G01-017 (Chamar apelidar):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Chamei o José Zé. (VTD + OD + Predicativo direto).",
+                "Chamei o José de Zé. (VTD + OD + Predicativo preposicionado).",
+                "Chamei ao José Zé. (VTI + OI + Predicativo direto).",
+                "Chamei ao José de Zé. (VTI + OI + Predicativo preposicionado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G01-002",
+          "title": "Grupo B: Questões de Concurso do material de origem",
+          "prompt": "EX-A10-G01-018 (Questão 01 — IBADE / SEE-AC):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "EX-A10-G01-018 (Questão 01 — IBADE / SEE-AC)",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Enunciado",
+              "rationale": "Assinale a opção que apresenta erro de regência com o verbo assistir."
+            },
+            {
+              "order": 3,
+              "action": "Opções",
+              "rationale": "A) assiste em Paris (certo); B) assistiu um filme incrível (ERRADO); C) assistiu o filho (certo); D) assistiu ao acidente (certo); E) assistiu a um show (certo)."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito",
+              "rationale": "B (assistir ver é VTI $\\rightarrow$ assistiu a um filme)."
+            },
+            {
+              "order": 5,
+              "action": "EX-A10-G01-019 (Questão 02 — CESGRANRIO / Banco do Brasil)",
+              "rationale": ""
+            }
+          ],
+          "result": "Gabarito: B (Apenas o item II está correto).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Grupo B: Questões de Concurso do material de origem sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Grupo B: Questões de Concurso do material de origem.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Grupo B: Questões de Concurso do material de origem.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "EX-A10-G01-018 (Questão 01 — IBADE / SEE-AC):",
+                "Enunciado: Assinale a opção que apresenta erro de regência com o verbo assistir.",
+                "Opções: A) assiste em Paris (certo); B) assistiu um filme incrível (ERRADO); C) assistiu o filho (certo); D) assistiu ao acidente (certo); E) assistiu a um show (certo).",
+                "Gabarito: B (assistir ver é VTI $\\rightarrow$ assistiu a um filme).",
+                "EX-A10-G01-019 (Questão 02 — CESGRANRIO / Banco do Brasil):",
+                "Enunciado: Assinale a frase com regência verbal correta.",
+                "Opções: A) infringem aos regulamentos (errado, é VTD); B) elogiaram aos bancos (errado, é VTD); C) cobiçam aos estágios (errado, é VTD); D) aspiram aos melhores cargos (CORRETO); E) ludibriam aos princípios (errado, é VTD).",
+                "Gabarito: D (aspirar almejar é VTI com a).",
+                "EX-A10-G01-020 (Questão 03 — VUNESP / TJ-SP):",
+                "Enunciado: Analise os itens: I. assistiram o simpósio (errado, VTI); II. antipatizam com os projetos (CORRETO, não pronominal); III. visa uma política (errado, VTI); IV. aspiram uma cidade (errado, VTI).",
+                "Gabarito: B (Apenas o item II está correto)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G01-003",
+          "title": "Grupo C: Verbos sem Alteração Semântica (material de origem)",
+          "prompt": "EX-A10-G01-023 (Atender pessoa): Atendia com paciência os advogados = Atendia com paciência aos advogados. (Ambas corretas).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "EX-A10-G01-023 (Atender pessoa)",
+              "rationale": "Atendia com paciência os advogados = Atendia com paciência aos advogados. (Ambas corretas)."
+            },
+            {
+              "order": 2,
+              "action": "EX-A10-G01-024 (Atender coisa)",
+              "rationale": "Atendeu as reivindicações = Atendeu às reivindicações. (Ambas corretas)."
+            },
+            {
+              "order": 3,
+              "action": "EX-A10-G01-025 (Responder OD oracional)",
+              "rationale": "Respondi que não iria ao jogo. (VTD + OD oracional; vedado \"de que\")."
+            },
+            {
+              "order": 4,
+              "action": "EX-A10-G01-026 (Responder estímulo/destinatário)",
+              "rationale": "Respondi aos ataques (OI); Respondeu aos pais (OI); Respondeu aos filhos (OI) que não perturbasse (OD)."
+            },
+            {
+              "order": 5,
+              "action": "EX-A10-G01-027 (Pagar e Perdoar)",
+              "rationale": ""
+            }
+          ],
+          "result": "EX-A10-G01-032 (Deparar pronominal): Ao chegar deparei-me com um conhecido. (VTI pronominal com com obrigatório).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Grupo C: Verbos sem Alteração Semântica (material de origem) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Grupo C: Verbos sem Alteração Semântica (material de origem).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Grupo C: Verbos sem Alteração Semântica (material de origem).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "EX-A10-G01-023 (Atender pessoa): Atendia com paciência os advogados = Atendia com paciência aos advogados. (Ambas corretas).",
+                "EX-A10-G01-024 (Atender coisa): Atendeu as reivindicações = Atendeu às reivindicações. (Ambas corretas).",
+                "EX-A10-G01-025 (Responder OD oracional): Respondi que não iria ao jogo. (VTD + OD oracional; vedado \"de que\").",
+                "EX-A10-G01-026 (Responder estímulo/destinatário): Respondi aos ataques (OI); Respondeu aos pais (OI); Respondeu aos filhos (OI) que não perturbasse (OD).",
+                "EX-A10-G01-027 (Pagar e Perdoar):",
+                "Paguei a despesa (OD) ao gerente (OI).",
+                "Paguei os impostos. (OD).",
+                "Perdoei a dívida. (OD).",
+                "Paguei aos funcionários. (OI).",
+                "Perdoei ao funcionário. (OI).",
+                "EX-A10-G01-028 (Pedir): Pedia ajuda (OD) aos amigos (OI); Pedia calma (OD) aos mais alterados (OI).",
+                "EX-A10-G01-029 (Esquecer e Lembrar padrão):",
+                "Esqueci os livros. (Não pronominal $\\rightarrow$ VTD).",
+                "Esqueci-me dos livros. (Pronominal $\\rightarrow$ VTI com de).",
+                "EX-A10-G01-030 (Esquecer arcaico com coisa como sujeito):",
+                "Esqueci o compromisso (Forma 1: VTD).",
+                "Esqueci-me do compromisso (Forma 2: VTI pronominal).",
+                "Esqueceu-me o compromisso (Forma 3: o compromisso = Sujeito; me = OI).",
+                "Esqueceu ao rapaz o acidente (o acidente = Sujeito; ao rapaz = OI).",
+                "EX-A10-G01-031 (Deparar não pronominal): Ao chegar deparei meu amigo (VTD) = Ao chegar deparei com meu amigo (VTI).",
+                "EX-A10-G01-032 (Deparar pronominal): Ao chegar deparei-me com um conhecido. (VTI pronominal com com obrigatório)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A10-G01-004",
+          "title": "Grupo D: Questões de Concurso do material de origem",
+          "prompt": "EX-A10-G01-033 (Questão 04 — CAIP-IMES / IPREM):",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "EX-A10-G01-033 (Questão 04 — CAIP-IMES / IPREM)",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Itens",
+              "rationale": "I. atendeu o pessoal (VTD); II. atendeu ao pedido (VTI); III. atenda o telefone (VTD); IV. Você pode atender? (VTD elíptico)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "B (Todos os itens I, II, III e IV estão corretos)."
+            },
+            {
+              "order": 4,
+              "action": "EX-A10-G01-034 (Questão 05 — CESGRANRIO / Transpetro)",
+              "rationale": ""
+            },
+            {
+              "order": 5,
+              "action": "Enunciado",
+              "rationale": "Assinale a frase com desvio de regência."
+            }
+          ],
+          "result": "Gabarito: C.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Grupo D: Questões de Concurso do material de origem sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Grupo D: Questões de Concurso do material de origem.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Grupo D: Questões de Concurso do material de origem.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "EX-A10-G01-033 (Questão 04 — CAIP-IMES / IPREM):",
+                "Itens: I. atendeu o pessoal (VTD); II. atendeu ao pedido (VTI); III. atenda o telefone (VTD); IV. Você pode atender? (VTD elíptico).",
+                "Gabarito: B (Todos os itens I, II, III e IV estão corretos).",
+                "EX-A10-G01-034 (Questão 05 — CESGRANRIO / Transpetro):",
+                "Enunciado: Assinale a frase com desvio de regência.",
+                "Opções: A) Assistiram ao jogo... (certo); B) visou o passaporte... (certo); C) procedeu à chamada... (certo, proceder dar início = VTI); D) pagar o empregado (DESVIO — pessoa exige a $\\rightarrow$ pagar ao empregado); E) aspirava à carreira... (certo).",
+                "Gabarito: D.",
+                "EX-A10-G01-035 (Questão 06 — CESGRANRIO / IBGE):",
+                "Enunciado: Obediência à norma-padrão em regência verbal.",
+                "Opções: A) implica em muito sofrimento (errado, VTD); B) assistir aos pobres (errado em bancas tradicionais, VTD); C) Todos aspiram a uma vida mais justa (CORRETO); D) esquece dos menos favorecidos (errado, VTD sem pronome); E) desejarmos ao fim (errado, VTD).",
+                "Gabarito: C.",
+                "EX-A10-G01-036 (Questão 07 — IBFC / PC-RJ):",
+                "Enunciado: Identificar erro de regência com o verbo perdoar.",
+                "Opções: A) perdoou o delito da filha (certo, coisa = OD); B) perdoaram aos meninos (certo, pessoa = OI); C) Perdoem os desvios... (certo, coisa = OD); D) Perdoei à minha amiga (certo, pessoa = OI); E) perdoarem aos desvios de conduta (ERRO — preposicionou a coisa).",
+                "Gabarito: E.",
+                "EX-A10-G01-037 (Questão 08 — FGV / TRE-PA):",
+                "Enunciado: Assinale onde NÃO houve obediência à regência correta.",
+                "Opções: A) aspira a governos... (certo); B) assiste em Belém (certo, morar); C) combate à corrupção implica em medidas éticas (ERRO — implicar é VTD); D) pagaram aos funcionários (certo); E) esquece o passado dos políticos (certo, VTD).",
+                "Gabarito: C."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "TIP-A10-G01-001 (Objeto Indireto Oracional Dispensa Preposição): Diante de orações com verbos transitivos indiretos (visar, precisar, necessitar), a supressão da preposição antes de verbos no infinitivo ou da conjunção que é um recurso legítimo e culto (visam conquistar em vez de visam a conquistar).",
+            "TIP-A10-G01-002 (Mantra do \"Vale Tudo\" para o Verbo Chamar): No sentido de qualificar ou apelidar, qualquer combinação é correta: direto ou indireto, predicativo com ou sem de, pronomes o/a ou lhe. Se uma assertiva disser que a construção está errada por \"falta de preposição\" ou \"dois objetos\", marque como falsa.",
+            "TIP-A10-G01-003 (Mantra do \"Vale Tudo\" para o Verbo Atender): Não perca tempo classificando se o complemento de atender é pessoa ou coisa: ambas as regências (com ou sem preposição a) são válidas na norma padrão moderna.",
+            "TIP-A10-G01-004 (Regra da Simetria para Esquecer e Lembrar): \"Com pronome, com preposição de; sem pronome, sem preposição\" (Lembrei o fato / Lembrei-me do fato).",
+            "TIP-A10-G01-005 (Mnemônica de Pagar e Perdoar: \"O Atraso ao Namorado\"): Lembre-se de que se perdoa o atraso (coisa = OD) ao namorado (pessoa = OI com a / pronome lhe).",
+            "TIP-A10-G01-006 (Teste de Isolamento do Núcleo): Em complementos extensos com preposições internas (o passado dos políticos), isole o substantivo central (o passado) para verificar se ele é coisa ou pessoa, ignorando locuções acessórias."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "WARN-A10-G01-001 (Contaminação entre Sinônimos): Cada verbo possui registro sintático próprio. Almejar e cobiçar são VTD (Almejo a vaga); aspirar no mesmo sentido é VTI (Aspiro à vaga).",
+            "WARN-A10-G01-002 (Assistir \"Cuidar\" em Bancas Tradicionalistas): Em bancas tradicionais (CESGRANRIO, IBADE), assistir no sentido de prestar assistência deve ser tratado rigorosamente como VTD (assistir os enfermos / os pobres).",
+            "WARN-A10-G01-003 (O Vício Incorreto de \"Implicar em\"): No sentido de acarretar, implicar é estritamente VTD. A preposição em é erro clássico em provas e redações (\"implica em mudanças\" $\\rightarrow$ INCORRETO; o correto é implica mudanças).",
+            "WARN-A10-G01-004 (Uso Indevido de Pronome em Simpatizar/Antipatizar): É incorreto dizer \"eu me simpatizo\" ou \"eles se antipatizam\". São verbos VTI não pronominais (Simpatizo com ele).",
+            "WARN-A10-G01-005 (O Vício de \"Responda o E-mail / Questionário\"): Documentos, cartas e e-mails são os estímulos a que se responde, devendo ser regidos por a (Responda ao e-mail; Responda ao questionário).",
+            "WARN-A10-G01-006 (Emprego Indevido de \"Para\" com o Verbo Pedir): A norma culta condena a locução \"pedir para alguém\". Deve-se pedir algo a alguém (Pedi ao professor autorização).",
+            "WARN-A10-G01-007 (Cruzamento Indevido em Esquecer/Lembrar): Rejeite construções híbridas como Esqueci do livro (faltou o pronome) ou Esqueci-me o livro (faltou a preposição).",
+            "WARN-A10-G01-008 (Confundir Adjunto Adnominal com Objeto Indireto): Não confunda a preposição de indicadora de posse (o delito da filha, o passado dos políticos) com objeto indireto. Trata-se de Adjunto Adnominal dentro de um Objeto Direto."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "TERM-A10-G01-001 (Regência Verbal): Relação sintática de subordinação entre um verbo regente e seus complementos regidos, disciplinando a presença e o valor da preposição.",
+            "TERM-A10-G01-002 (Objeto Indireto Oracional): Oração subordinada substantiva que exerce a função de objeto indireto, marcada pela facultatividade da preposição que a introduz.",
+            "TERM-A10-G01-003 (Cruzamento Sintático): Fenômeno em que o falante contamina mentalmente uma estrutura sintática com a regência de outra correlata (ex.: misturar implicar com implicar-se em).",
+            "TERM-A10-G01-004 (Predicativo do Objeto): Termo que atribui um estado, qualidade ou nome ao objeto direto ou indireto, podendo ser preposicionado facultativamente por de (como em chamar de sábio).",
+            "TERM-A10-G01-005 (Parte Integrante do Verbo — PIV): Pronome oblíquo reflexivo (me, te, se, nos) que integra a estrutura morfológica de verbos pronominais autênticos, saturando a transitividade direta e exigindo complemento preposicionado.",
+            "TERM-A10-G01-006 (Construção Arcaica / Clássica de Esquecer e Lembrar): Estrutura na qual o elemento inanimado esquecido atua como sujeito sintático da oração e o experienciador humano funciona como objeto indireto.",
+            "TERM-A10-G01-007 (Transitividade Dupla / Facultativa): Propriedade de verbos que selecionam indiferentemente complementos diretos ou indiretos mantendo rigorosamente idêntico o sentido lexical (atender).",
+            "TERM-A10-G01-008 (Adjunto Adnominal Preposicionado): Termo acessório que se vincula a um substantivo núcleo por preposição para exprimir posse ou especificação, integrando a arquitetura interna do sintagma nominal.",
+            "TERM-A10-G01-009 (Caderno de Regência): Metodologia de estudo ativo recomendada para catalogação sistemática de regências verbais a partir da resolução diária de questões de concurso."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir este grupo temático (G01), o estudante adquire domínio completo sobre os seguintes eixos estruturais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Compreensão Epistêmica: Reconhecer que a regência verbal é uma convenção normativa catalogada, cujo aprendizado exige a memorização dos regimes de verbos estruturais e o registro contínuo em um Caderno de Regência.",
+            "Domínio dos Verbos com Mudança de Sentido: Manejar com precisão a alternância de transitividade e exigência preposicional de aspirar, visar, assistir, implicar, chamar e proceder, identificando as armadilhas clássicas de bancas (implicar em, assistir morar com em, sinônimos diretos como almejar).",
+            "Domínio dos Verbos sem Mudança de Sentido: Aplicar com segurança a dupla transitividade de atender, a matriz Coisa (OD) vs. Pessoa (OI) para responder, pagar e perdoar, a bitransitividade de pedir, a simetria pronominal de esquecer/lembrar e a tríplice regência de deparar.",
+            "Resolução de Estruturas Eruditas e Pronominais: Analisar a construção arcaica de esquecer/lembrar (reconhecendo a coisa inanimada como sujeito sintático não preposicionado) e aplicar o princípio de que verbos pronominais exigem complementos preposicionados.",
+            "Discriminação Sintática Fina em Concursos: Distinguir prontamente termos preposicionados internos (adjuntos adnominais de posse) de verdadeiros objetos indiretos do verbo."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula10.q0075",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEDF – 2017",
+      "year": 2017,
+      "prompt": "Considerando-se as regências do verbo esquecer prescritas para o português, estaria correta a\nseguinte reescrita para a oração “Já esqueci a língua”: Já esqueci da língua.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "O verbo “esquecer” muda de regência dependendo de seu uso. Como verbo não pronominal, é\ntransitivo direto, isto é, pede complemento sem preposição. Se for usado como pronominal, é\num verbo transitivo indireto e exige o uso da preposição “de”. Portanto, temos duas\npossibilidades:\n“Já esqueci a língua” (uso não pronominal, como VTD)\n“Já me esqueci da língua” (uso pronominal, como VTI)\nA sugestão da banca está errada, pois usou o verbo como pronominal, sem utilizar paralelamente\na preposição. Questão incorreta.",
+      "questionSha256": "cb31800f147b1db799aafcffff17e3dafd55a6e7670d994015bce45e049a3b02",
+      "answerSha256": "b32771fce42b2018ea486a98f541e336d4290653df7179523c72482dbe6d5e80",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0168",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "SEDF – 2017",
+      "year": 2017,
+      "prompt": "Considerando-se as regências do verbo esquecer prescritas para o português, estaria correta a\nseguinte reescrita para a oração “Já esqueci a língua”: Já esqueci da língua.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "593517fb3a05be78c16917df3b2af05ed0e794a893484bf6d1ab9ae5de06c09c",
+      "answerSha256": "d1930e8e29cb056d3368095cf19d4e5a1a13a51b838d57d90b97770fe7e69872",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0076",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "DPE-RS",
+      "year": 2022,
+      "prompt": "Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a ordem\ndas propriedades, tanto em um sentido jurídico — o que fundamenta a propriedade literária e o\ncopyright — quanto em um sentido textual — o que define as características ou propriedades\ndos textos.\nNo trecho “Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a\nordem das propriedades” (primeiro parágrafo), o verbo chamar, que está empregado com o\nmesmo sentido de classificar, denominar, tem dois complementos: um direto, que está elíptico, e\noutro indireto, que é o termo “de a ordem das propriedades”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Questão muito técnica de regência dos verbos transobjetivos.\nNão custa lembrar, na sentença:\nChamei ao homem de burro.\nNão há dois complementos!\nao homem é objeto indireto\nde burro é predicativo do objeto indireto\nAh, Felipe! Mas e aquela análise: “quem chama chama alguém de alguma coisa”??\nPessoal, sinto informar... Essas análises só funcionam se você já conhece a regência do verbo\nanteriormente, não dá pra adivinhar a regência com essas perguntas, ou nem seria necessário\nestudar regência, nem haveria manuais de regência, ok?\nQuestão incorreta.",
+      "questionSha256": "6a2c99f56a2adf26409f1c136d4d3227cdd05b80224a0bafab78cfc01fad5c8c",
+      "answerSha256": "0e97eec25a7b9d94854f5627ab68632953e9cc16fb119aeeb5109cc4db47711c",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0169",
+      "questionType": "other",
+      "examBoard": "CEBRASPE",
+      "organization": "DPE-RS",
+      "year": 2022,
+      "prompt": "Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a ordem\ndas propriedades, tanto em um sentido jurídico — o que fundamenta a propriedade literária e o\ncopyright — quanto em um sentido textual — o que define as características ou propriedades\ndos textos.\nNo trecho “Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a\nordem das propriedades” (primeiro parágrafo), o verbo chamar, que está empregado com o\nmesmo sentido de classificar, denominar, tem dois complementos: um direto, que está elíptico, e\noutro indireto, que é o termo “de a ordem das propriedades”.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "f64cd59465be9f54fcfa3db303f4976ba2ec3cf9cafc0e1990ec098665f9ac8c",
+      "answerSha256": "779d4a2ba3595e73c1717c371ed607edd9f26f6f51716e61420ec4537320e1e3",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0049",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. CACHOEIRO ITAPEMIRIM",
+      "year": 2024,
+      "prompt": "No trecho “responder a questões” (último período do segundo parágrafo), a supressão da\npreposição “a” não prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "\"Responder\" pode ser transitivo direto (sem preposição) ou indireto (com preposição \"a\"). Então,\na supressão da preposição não prejudicaria a correção.\nQuestão correta.",
+      "questionSha256": "a7ea83cdc6fd06800d1910b5d8ead5d9ebe8734c1376d382edc9c242e6af246c",
+      "answerSha256": "7e91cfb8731e3c31c37a93b08101e4fe49c204caffdb2b96a6eaf074bc97bdae",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula10.q0142",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "PREF. CACHOEIRO ITAPEMIRIM",
+      "year": 2024,
+      "prompt": "No trecho “responder a questões” (último período do segundo parágrafo), a supressão da\npreposição “a” não prejudicaria a correção gramatical do texto.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "22f1800c98ae13a323f0e933b36023aa6023726ca553dd6e857e39094a0576d5",
+      "answerSha256": "8c3723f8e28cb41d74ced8bdfa3db9d459de1c250780310dfbf145a377d3713e",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Regência Verbal - Fundamentos; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "2.0.0",
+  "kind": "suveca-question-taxonomy-rules",
+  "policy": "Regras determinísticas aplicadas somente à camada derivada SuVeCA. Tópicos e demais classificações oficiais permanecem inalterados.",
+  "rules": [
+    {"id":"interpretacao","terms":["interpretação de texto","compreensão","inferência","tipologia textual","gênero textual","ironia"],"moduleIds":["mod1"]},
+    {"id":"semantica_coesao","terms":["semântica","coesão","coerência","sinônimo","antônimo","parônimo","homônimo","campo semântico","acepções","denotação","conotação","figuras de pensamento","gradação"],"moduleIds":["mod2"]},
+    {"id":"textualidade_referencia","terms":["anáfora","catáfora","referenciação","progressão textual","cadeia referencial","coesão lexical","elipse"],"moduleIds":["mod16"]},
+    {"id":"discurso_pragmatica","terms":["funções da linguagem","modalização","pragmática","intertextualidade","discurso direto","discurso indireto","fato e opinião"],"moduleIds":["mod17"]},
+    {"id":"argumentacao","terms":["argumentação","estratégias argumentativas","método de raciocínio","métodos de raciocínio","tese","silogismo","falácia","contra-argumento"],"moduleIds":["mod18"]},
+    {"id":"ortografia","terms":["ortografia","fonética","fonologia","acentuação","acento","hífen","grafia","por que / porque","abreviaturas","siglas","emprego da letra","problemas da língua culta"],"moduleIds":["mod3"]},
+    {"id":"morfologia","terms":["morfologia","classes de palavras","substantivo","adjetivo","advérbio","artigo","numeral","preposição","interjeição","formação de palavras","estrutura das palavras"],"moduleIds":["mod4"]},
+    {"id":"pronomes","terms":["pronome","pronomes","referente do pronome","emprego do pronome relativo","pronome relativo","pronome pessoal","pronome demonstrativo"],"moduleIds":["mod5"]},
+    {"id":"verbos","terms":["verbo -","verbos","tempos verbais","modos verbais","flexões verbais","correlação verbal","particípio","gerúndio","infinitivo","vozes verbais"],"moduleIds":["mod6"]},
+    {"id":"sintaxe_oracao","terms":["sintaxe da oração","análise sintática","frase","oração","termos da oração","sujeito","predicado","objeto direto","objeto indireto","verbo impessoal","predicativo"],"moduleIds":["mod7"]},
+    {"id":"contrastes_sintaticos","terms":["complemento nominal","adjunto adnominal","agente da passiva","aposto","vocativo"],"moduleIds":["mod8"]},
+    {"id":"concordancia","terms":["concordância verbal","concordância nominal","sintaxe de concordância"],"moduleIds":["mod9"]},
+    {"id":"regencia_crase","terms":["regência","crase","acento grave","há / a / à"],"moduleIds":["mod10"]},
+    {"id":"periodo_conectores","terms":["período composto","orações coordenadas","orações subordinadas","conjunção","conjunções","conectores","coordenação","subordinação"],"moduleIds":["mod11"]},
+    {"id":"pontuacao","terms":["pontuação","vírgula","dois-pontos","ponto e vírgula","aspas","travessão","parênteses"],"moduleIds":["mod12"]},
+    {"id":"colocacao_se_que","terms":["colocação pronominal","vocábulo \"se\"","vocábulo \"que\"","vocábulo \"como\"","funções e empregos"],"moduleIds":["mod13"]},
+    {"id":"reescrita","terms":["reescritura","reescrita","substituição de palavras","mudança de posição","clareza e correção","paralelismo","transformação de oração"],"moduleIds":["mod14"]},
+    {"id":"redacao","terms":["redação","texto dissertativo","dissertação","estrutura do parágrafo"],"moduleIds":["apendice-d"]},
+    {"id":"override_1659163805","questionIds":["1659163805"],"terms":[],"moduleIds":["mod8"],"note":"Classificação oficial é apenas Língua Portuguesa; o vínculo derivado usa a função sintática dos termos preposicionados apresentada no próprio enunciado."}
+  ]
+}

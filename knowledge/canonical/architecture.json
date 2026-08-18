@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "2.0.0",
+  "kind": "suveca-understanding-architecture",
+  "corePrinciple": "A SuVeCA não é a fonte da verdade gramatical. A SuVeCA é a arquitetura de entendimento pela qual o conhecimento gramatical validado é organizado, relacionado e ensinado.",
+  "editorialQuestion": "Como usar o conhecimento validado para ensinar Português a partir da SuVeCA como estrutura mental central?",
+  "boundaries": {
+    "must": [
+      "Preservar as regras e distinções sustentadas pelo corpus especializado.",
+      "Usar Sujeito, Verbo, Complementos e Adjuntos como interface cognitiva da oração.",
+      "Explicitar quando a análise sobe da oração para o período, texto ou discurso.",
+      "Criar ou reorganizar módulos quando um fenômeno não tiver representação pedagógica adequada."
+    ],
+    "mustNot": [
+      "Forçar fenômenos textuais ou discursivos a caber literalmente em S + V + C + A.",
+      "Apresentar um mnemônico SuVeCA como regra normativa da língua.",
+      "Reduzir a SuVeCA a uma sigla decorativa sem função no raciocínio do aluno."
+    ]
+  },
+  "layers": [
+    {
+      "id": "form",
+      "title": "Forma e ortografia",
+      "purpose": "Garantir a forma gráfica que materializa palavras e relações.",
+      "moduleIds": ["mod3"]
+    },
+    {
+      "id": "morphology",
+      "title": "Classes e morfologia",
+      "purpose": "Reconhecer que tipo de peça pode ocupar cada posição e como ela varia.",
+      "moduleIds": ["mod4", "mod5", "mod6", "mod13"]
+    },
+    {
+      "id": "suveca_core",
+      "title": "SuVeCA Understanding Core",
+      "purpose": "Decompor a oração, reconstruir dependências e tornar visíveis Sujeito, Verbo, Complementos e Adjuntos.",
+      "moduleIds": ["mod0", "mod7", "mod8"]
+    },
+    {
+      "id": "syntax",
+      "title": "Sintaxe e período",
+      "purpose": "Relacionar funções dentro da oração e entre orações.",
+      "moduleIds": ["mod7", "mod8", "mod11", "mod12", "mod13"]
+    },
+    {
+      "id": "grammatical_relations",
+      "title": "Relações gramaticais",
+      "purpose": "Projetar concordância, regência, crase, colocação e pontuação sobre a estrutura reconstruída.",
+      "moduleIds": ["mod9", "mod10", "mod12", "mod13", "mod14"]
+    },
+    {
+      "id": "semantics",
+      "title": "Semântica",
+      "purpose": "Interpretar valores, contrastes e efeitos de sentido das escolhas estruturais e lexicais.",
+      "moduleIds": ["mod2", "mod11", "mod14"]
+    },
+    {
+      "id": "text",
+      "title": "Texto",
+      "purpose": "Tratar compreensão, inferência, coesão, referenciação e progressão para além da oração isolada.",
+      "moduleIds": ["mod1", "mod16", "mod18"]
+    },
+    {
+      "id": "discourse",
+      "title": "Discurso",
+      "purpose": "Tratar situação comunicativa, vozes, modalização, intenção e argumentação.",
+      "moduleIds": ["mod17", "mod18", "apendice-d"]
+    },
+    {
+      "id": "practice",
+      "title": "Prática, diagnóstico e transferência",
+      "purpose": "Aplicar a arquitetura a questões, revisão de erros e produção textual.",
+      "moduleIds": ["mod15", "simulado", "apendice-a", "apendice-b", "apendice-c", "apendice-d"]
+    }
+  ],
+  "canonicalExtensions": [
+    { "id": "mod16", "title": "Textualidade, referenciação e progressão" },
+    { "id": "mod17", "title": "Discurso, pragmática e modalização" },
+    { "id": "mod18", "title": "Argumentação e organização textual" }
+  ],
+  "semanticReviewV3": {
+    "status": "complete",
+    "scope": "284 fontes, 924 passagens e 7.263.483 caracteres",
+    "principle": "Toda afirmação incorporada mantém proveniência exata; divergências de teoria, uso e banca são rotuladas, não apagadas.",
+    "sourceFactsSeparatedFromSuvecaDerived": true
+  }
+}

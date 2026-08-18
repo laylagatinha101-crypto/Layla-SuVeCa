@@ -1,0 +1,489 @@
+{
+  "schemaVersion": "1.0.0",
+  "methodId": "suveca-analysis-map-v1",
+  "scope": "Conexão pedagógica explícita entre o método SuVeCA e os 102 grupos temáticos integrados das aulas A00–A13.",
+  "taxonomy": {
+    "central": {
+      "label": "Método central",
+      "description": "A reconstrução SuVeCA é o caminho principal para compreender, aplicar e justificar o conteúdo.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ]
+    },
+    "strong": {
+      "label": "Conexão forte",
+      "description": "A SuVeCA organiza uma parte decisiva da análise, em conjunto com a camada própria do tema.",
+      "steps": [
+        "Reconstrua apenas as relações sintáticas relevantes para a decisão.",
+        "Acrescente o critério próprio do tema — morfológico, semântico, coesivo ou discursivo.",
+        "Confirme que estrutura e contexto sustentam a mesma conclusão."
+      ],
+      "limits": [
+        "A análise sintática é necessária, mas não substitui a regra específica desta matéria."
+      ]
+    },
+    "support": {
+      "label": "Apoio estrutural",
+      "description": "A SuVeCA funciona como instrumento de diagnóstico, contraste ou organização; a regra decisiva pertence a outra camada linguística.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ]
+    },
+    "indirect": {
+      "label": "Apoio indireto",
+      "description": "A SuVeCA pode esclarecer exemplos ou efeitos contextuais, mas não é o procedimento normal de resolução.",
+      "steps": [
+        "Resolva o fenômeno pela regra própria da matéria.",
+        "Se houver uma oração relevante, use a SuVeCA apenas para localizar a forma ou o efeito no contexto.",
+        "Mantenha separadas a justificativa principal e a observação sintática auxiliar."
+      ],
+      "limits": [
+        "Aplicar o mapa a todos os casos deste grupo criaria uma relação artificial com a sintaxe."
+      ]
+    },
+    "outside_core": {
+      "label": "Camada própria, fora do núcleo SuVeCA",
+      "description": "O conteúdo possui método de aprendizagem próprio e não deve ser convertido em análise SuVeCA.",
+      "steps": [
+        "Aplique diretamente a regra fonológica, ortográfica, lexical ou discursiva pertinente.",
+        "Use frases completas como contexto de aplicação, sem obrigar sua decomposição sintática.",
+        "Recorra à SuVeCA apenas se uma questão específica introduzir uma dependência funcional real."
+      ],
+      "limits": [
+        "A SuVeCA não é fonte da regra deste grupo e sua ausência na resolução pode ser pedagogicamente correta."
+      ]
+    },
+    "review": {
+      "label": "Revisão transversal",
+      "description": "A SuVeCA é recuperada conforme a camada linguística revisada.",
+      "steps": [
+        "Identifique se a questão pertence à forma, à classe, à oração, ao período ou ao texto.",
+        "Reconstrua o mapa SuVeCA somente quando houver uma decisão sintática relevante.",
+        "Aplique a regra específica e justifique por que o método é central, auxiliar ou dispensável naquele caso."
+      ],
+      "limits": [
+        "Uma revisão geral não transforma todos os conteúdos de língua portuguesa em sintaxe."
+      ]
+    }
+  },
+  "connections": {
+    "A00/G01": {
+      "level": "outside_core",
+      "summary": "Fonemas, grafemas, dígrafos e encontros vocálicos são decididos pela camada fonético-fonológica; a estrutura SuVeCA não produz essas classificações."
+    },
+    "A00/G02": {
+      "level": "outside_core",
+      "summary": "Divisão, estrutura e classificação silábicas obedecem a critérios fonológicos próprios, independentemente das funções Su, Ve, C, A e Pred."
+    },
+    "A00/G03": {
+      "level": "outside_core",
+      "summary": "As questões de sílaba devem ser resolvidas pelos testes fonológicos do tema; uma oração pode fornecer contexto, mas não o critério decisivo."
+    },
+    "A00/G04": {
+      "level": "indirect",
+      "summary": "A acentuação é regida por tonicidade e estrutura silábica. A SuVeCA auxilia apenas em casos contextuais, como formas verbais ligadas a pronomes enclíticos."
+    },
+    "A00/G05": {
+      "level": "outside_core",
+      "summary": "O emprego do hífen depende de regras ortográficas, prefixos e constituintes morfológicos; não deve ser deduzido do mapa sintático."
+    },
+    "A00/G06": {
+      "level": "outside_core",
+      "summary": "As questões de hífen exigem reconhecer a formação da palavra e aplicar a norma ortográfica, sem converter o procedimento em análise oracional."
+    },
+    "A00/G07": {
+      "level": "strong",
+      "summary": "Nos porquês, a reconstrução da oração distingue pronome relativo ou interrogativo, conjunção integrante, causa, explicação e finalidade; tonicidade e posição gráfica completam a decisão."
+    },
+    "A01/G01": {
+      "level": "support",
+      "summary": "Variabilidade e invariabilidade são propriedades morfológicas. O mapa ajuda a mostrar como cada classe realiza funções diferentes, sem identificar classe e função."
+    },
+    "A01/G02": {
+      "level": "strong",
+      "summary": "O emprego das classes fica mais claro quando a palavra é ligada ao núcleo e à função que exerce como Su, C, A, Pred ou elemento interno de um sintagma."
+    },
+    "A01/G03": {
+      "level": "strong",
+      "summary": "A SuVeCA localiza o advérbio ou a locução como modificador do verbo, do adjetivo, de outro advérbio ou da oração e ajuda a separar valor adverbial de emprego adjetivo."
+    },
+    "A01/G04": {
+      "level": "support",
+      "summary": "O artigo é reconhecido morfologicamente e observado dentro do sintagma nominal; a SuVeCA mostra a função do conjunto, não transforma o artigo em componente autônomo do mapa."
+    },
+    "A01/G05": {
+      "level": "indirect",
+      "summary": "Numerais podem integrar núcleos e modificadores do mapa, enquanto interjeições normalmente permanecem fora da oração; o contraste entre integração e autonomia é o ganho da SuVeCA."
+    },
+    "A02/G01": {
+      "level": "strong",
+      "summary": "A preposição é interpretada pela relação que introduz: pode completar verbo ou nome em C, ou acrescentar valor nocional em A. A regência e o sentido confirmam a função."
+    },
+    "A02/G02": {
+      "level": "strong",
+      "summary": "Monte o mapa interno das orações coordenadas e, em seguida, classifique a relação aditiva, adversativa, alternativa, conclusiva ou explicativa criada entre elas."
+    },
+    "A02/G03": {
+      "level": "strong",
+      "summary": "A SuVeCA delimita e organiza as orações; a semântica do conector determina causa, condição, concessão, consequência, finalidade, comparação ou outro valor subordinativo."
+    },
+    "A02/G04": {
+      "level": "strong",
+      "summary": "Os valores de “e” e “pois” só são definidos depois de reconstruir os segmentos conectados, sua posição e a relação lógico-discursiva efetivamente construída."
+    },
+    "A02/G05": {
+      "level": "strong",
+      "summary": "Os diferentes empregos de “como” e de outros conectores exigem uma SuVeCA por oração e uma segunda análise para a relação semântica entre os mapas."
+    },
+    "A03/G01": {
+      "level": "central",
+      "summary": "A função do pronome pessoal como sujeito ou complemento nasce de sua posição relacional no mapa, e a regência do verbo decide entre formas como o, a e lhe."
+    },
+    "A03/G02": {
+      "level": "central",
+      "summary": "Nas questões de pronomes pessoais, reconstrua verbo, sujeito e complementos antes de escolher a forma pronominal ou julgar uma substituição."
+    },
+    "A03/G03": {
+      "level": "strong",
+      "summary": "Possessivos, indefinidos e interrogativos combinam morfologia, função e referenciação; a SuVeCA localiza o papel sintático, enquanto o contexto resolve referente e valor."
+    },
+    "A03/G04": {
+      "level": "strong",
+      "summary": "Demonstrativos exigem rastreamento contextual, e relativos exigem reconstruir a lacuna na oração subordinada; o mapa liga referente e função sem confundi-los."
+    },
+    "A03/G05": {
+      "level": "central",
+      "summary": "Recoloque o antecedente na oração relativa, descubra a função deixada pela lacuna e aplique a regência para selecionar que, quem, onde, aonde, donde, cujo ou formas preposicionadas."
+    },
+    "A03/G06": {
+      "level": "central",
+      "summary": "Regência e reescrita de relativos são resolvidas pela dupla ligação: função dentro da subordinada e retomada do antecedente no período."
+    },
+    "A03/G07": {
+      "level": "central",
+      "summary": "A colocação dos pronomes átonos parte da locução ou forma verbal, dos limites da oração e dos fatores de atração, preservando a função do pronome no mapa."
+    },
+    "A03/G08": {
+      "level": "central",
+      "summary": "Nas questões de colocação, delimite a oração, identifique verbo e pronome, teste atração, início oracional e locuções, e só então julgue próclise, mesóclise ou ênclise."
+    },
+    "A04/G01": {
+      "level": "central",
+      "summary": "Tempos e modos são estudados a partir do verbo que ancora cada oração e das relações temporais, modais e aspectuais que sua forma constrói no período."
+    },
+    "A04/G02": {
+      "level": "central",
+      "summary": "O mapa localiza o verbo e seus participantes; a camada semântico-discursiva determina hipótese, certeza, ordem, possibilidade, habitualidade e demais valores contextuais."
+    },
+    "A04/G03": {
+      "level": "support",
+      "summary": "Desinências verbais são analisadas morfologicamente. A SuVeCA fornece o contexto de concordância e permite relacionar marcas de pessoa, número, tempo e modo ao sujeito e à predicação."
+    },
+    "A04/G04": {
+      "level": "central",
+      "summary": "Infinitivo, gerúndio e particípio precisam ser localizados na predicação para distinguir locução, oração reduzida, valor nominal e relação com sujeitos, complementos ou predicativos."
+    },
+    "A04/G05": {
+      "level": "indirect",
+      "summary": "Os paradigmas de verbos irregulares exigem aprendizagem morfológica própria; a SuVeCA apenas mostra em que oração, pessoa e relação a forma conjugada está sendo usada."
+    },
+    "A04/G06": {
+      "level": "indirect",
+      "summary": "Questões de conjugação irregular são resolvidas pelo paradigma e pelas marcas flexionais, com apoio contextual do sujeito e do valor verbal quando necessário."
+    },
+    "A04/G07": {
+      "level": "indirect",
+      "summary": "Falsos amigos e verbos de difícil conjugação pertencem principalmente à morfologia verbal; o mapa impede apenas que contexto sintático e forma flexionada sejam confundidos."
+    },
+    "A04/G08": {
+      "level": "indirect",
+      "summary": "Verbos em -ear, -iar e defectivos exigem regras de formação e disponibilidade de formas; a SuVeCA ajuda a verificar pessoa, sujeito e emprego, mas não gera o paradigma."
+    },
+    "A04/G09": {
+      "level": "central",
+      "summary": "A correlação verbal é reconstruída entre as orações: identifique os verbos, seus valores e a relação temporal-modal que torna a combinação coerente."
+    },
+    "A05/G01": {
+      "level": "central",
+      "summary": "A valência do verbo em seu sentido contextual determina quais complementos integram C e quais circunstâncias permanecem em A."
+    },
+    "A05/G02": {
+      "level": "central",
+      "summary": "Nas questões de transitividade, reconstrua o mapa completo e teste regência, indispensabilidade e sentido, sem atribuir ao verbo uma etiqueta fixa."
+    },
+    "A05/G03": {
+      "level": "central",
+      "summary": "Objetos, complementos e construções pleonásticas são identificados pelas relações de completude, regência, retomada e ênfase que se ligam ao verbo ou ao nome."
+    },
+    "A05/G04": {
+      "level": "central",
+      "summary": "As vozes verbais redistribuem sujeito, complemento e agente; compare os mapas para compreender a mudança estrutural sem pressupor ordem direta."
+    },
+    "A05/G05": {
+      "level": "central",
+      "summary": "Nas questões de voz, verifique transitividade, papel do “se”, sujeito paciente, concordância e agente antes de aceitar qualquer classificação."
+    },
+    "A05/G06": {
+      "level": "central",
+      "summary": "A reescrita de voz é validada pela preservação dos participantes e pela redistribuição correta de Su, Ve, C e agente da passiva."
+    },
+    "A05/G07": {
+      "level": "central",
+      "summary": "Compare origem e reescrita por mapas relacionais, verificando concordância, tempo, regência e papéis semânticos em cada transformação de voz."
+    },
+    "A05/G08": {
+      "level": "central",
+      "summary": "Reescritas complexas exigem reconstruir cada oração e confirmar que participantes, foco, relações e correção gramatical foram preservados."
+    },
+    "A05/G09": {
+      "level": "central",
+      "summary": "A etapa final de reescrita consolida o uso do mapa para comparar estruturas superficiais diferentes que mantêm, alteram ou apagam relações sintáticas."
+    },
+    "A05/G10": {
+      "level": "central",
+      "summary": "Verbos impessoais exigem registrar sujeito inexistente; nas locuções, o auxiliar carrega flexão e pessoalidade conforme a relação com o verbo principal."
+    },
+    "A05/G11": {
+      "level": "central",
+      "summary": "As questões de impessoalidade e auxiliares são resolvidas delimitando a locução, identificando o principal e testando se há sujeito capaz de controlar a concordância."
+    },
+    "A05/G12": {
+      "level": "central",
+      "summary": "Nos verbos pronominais, determine se o pronome integra o verbo, realiza complemento, marca voz ou produz outro efeito a partir da valência e do mapa contextual."
+    },
+    "A06/G01": {
+      "level": "central",
+      "summary": "Esta unidade introduz diretamente a SuVeCA como mapa relacional: funções, constituintes e ordem superficial são distinguidos desde o início."
+    },
+    "A06/G02": {
+      "level": "central",
+      "summary": "O sujeito é reconstruído pela concordância e pelo sentido, podendo ser anteposto, posposto, oculto, indeterminado ou inexistente."
+    },
+    "A06/G03": {
+      "level": "central",
+      "summary": "Predicação verbal e tipos de predicado organizam Ve, complementos e predicativos e mostram que a configuração real depende das relações, não de uma fórmula linear."
+    },
+    "A06/G04": {
+      "level": "central",
+      "summary": "Objetos e transitividade materializam a conexão Ve → C, decidida pelo sentido e pela regência de cada emprego verbal."
+    },
+    "A06/G05": {
+      "level": "central",
+      "summary": "Complemento nominal e agente da passiva ampliam o mapa para relações ligadas a nomes e à voz passiva, evitando classificações baseadas apenas na preposição."
+    },
+    "A06/G06": {
+      "level": "strong",
+      "summary": "Vocativo e aposto são registrados ao redor do núcleo SuVeCA: um é termo independente de chamamento, o outro explica ou especifica um referente da estrutura."
+    },
+    "A06/G07": {
+      "level": "central",
+      "summary": "Adjuntos adverbiais e adnominais são conectados ao verbo, ao nome ou à oração que modificam, com atenção a deslocamento, escopo e pontuação."
+    },
+    "A06/G08": {
+      "level": "central",
+      "summary": "Predicativo e adjunto adnominal são separados pela relação de atribuição construída na predicação, não pela simples proximidade do adjetivo ao substantivo."
+    },
+    "A07/G01": {
+      "level": "central",
+      "summary": "O período composto exige delimitar os núcleos verbais, montar uma SuVeCA por oração e representar depois as relações entre elas."
+    },
+    "A07/G02": {
+      "level": "central",
+      "summary": "Nas coordenadas, cada oração mantém mapa próprio e a conjunção acrescenta a relação semântica que articula estruturas sintaticamente independentes."
+    },
+    "A07/G03": {
+      "level": "central",
+      "summary": "Orações substantivas ocupam posições de Su, C ou outras funções; adjetivas ligam-se a um nome. O mapa torna visível o encaixe de cada subordinada."
+    },
+    "A07/G04": {
+      "level": "central",
+      "summary": "Orações adverbiais funcionam como A da oração principal, mas seu valor de causa, condição, concessão ou outro depende do conector e do contexto."
+    },
+    "A07/G05": {
+      "level": "central",
+      "summary": "Orações reduzidas são delimitadas pelas formas nominais e encaixadas no mapa conforme a função que exercem no período."
+    },
+    "A07/G06": {
+      "level": "central",
+      "summary": "Nas questões de reduzidas, reconstrua o verbo implícito ou desenvolvido, o sujeito e a função da oração antes de classificá-la."
+    },
+    "A07/G07": {
+      "level": "central",
+      "summary": "Revisão e reescrita de reduzidas usam mapas paralelos para verificar se desenvolvimento, conectivo, tempo e relação sintática foram preservados."
+    },
+    "A07/G08": {
+      "level": "central",
+      "summary": "Desenvolver uma oração reduzida é explicitar conectivo e forma verbal sem alterar seu encaixe funcional nem as relações com a oração principal."
+    },
+    "A07/G09": {
+      "level": "central",
+      "summary": "A função de “que” é decidida delimitando as orações, identificando antecedente ou regente e verificando a posição funcional ocupada no mapa."
+    },
+    "A07/G10": {
+      "level": "central",
+      "summary": "A função de “se” depende da transitividade, voz, sujeito e completude do verbo; a classificação emerge da reconstrução da oração."
+    },
+    "A08/G01": {
+      "level": "central",
+      "summary": "A visão geral dos sinais combina estrutura, semântica e convenções gráficas; a SuVeCA organiza limites e relações, mas nem todo sinal é puramente sintático."
+    },
+    "A08/G02": {
+      "level": "central",
+      "summary": "A vírgula é decidida depois de identificar Su, Ve, C, A, termos intercalados e limites oracionais, nunca apenas pela pausa percebida."
+    },
+    "A08/G03": {
+      "level": "central",
+      "summary": "Casos avançados de vírgula exigem comparar posição canônica, deslocamento, intercalação, coordenação, subordinação e mudança de sentido."
+    },
+    "A08/G04": {
+      "level": "strong",
+      "summary": "Ponto e vírgula e dois-pontos dependem da relação entre segmentos; aspas também envolvem citação, destaque e sentido, exigindo camada discursiva além do mapa."
+    },
+    "A08/G05": {
+      "level": "support",
+      "summary": "Travessões e parênteses isolam ou destacam segmentos cuja função deve ser reconstruída, mas efeitos de voz, ênfase e comentário pertencem também ao discurso."
+    },
+    "A08/G06": {
+      "level": "strong",
+      "summary": "Na revisão e reescrita, compare mapas antes e depois da pontuação para verificar correção, escopo e preservação ou alteração de sentido."
+    },
+    "A09/G01": {
+      "level": "central",
+      "summary": "A concordância verbal parte da seta entre Ve e o núcleo de Su, mesmo quando o sujeito está distante, posposto, oculto ou possui estrutura complexa."
+    },
+    "A09/G02": {
+      "level": "central",
+      "summary": "O aprofundamento testa sujeito oracional, expressões quantitativas, relativos e outros controladores sem se deixar enganar pela proximidade linear."
+    },
+    "A09/G03": {
+      "level": "central",
+      "summary": "Nas questões, localize o verbo, reconstrua o sujeito e seu núcleo e somente então aplique a regra geral ou o caso especial de concordância."
+    },
+    "A09/G04": {
+      "level": "central",
+      "summary": "Casos especiais são incorporados ao mapa como exceções controladas por estrutura, referente, porcentagem, pessoa, coordenação ou valor contextual."
+    },
+    "A09/G05": {
+      "level": "central",
+      "summary": "Na concordância nominal, conecte determinantes e qualificadores aos núcleos que controlam gênero e número, distinguindo adjunto e predicativo."
+    },
+    "A09/G06": {
+      "level": "central",
+      "summary": "Predicativos e particípios exigem setas para sujeito ou objeto; o mapa evita concordância mecânica com o termo mais próximo."
+    },
+    "A09/G07": {
+      "level": "central",
+      "summary": "Expressões especiais de concordância nominal são resolvidas depois de identificar classe, referente e função no sintagma ou na predicação."
+    },
+    "A09/G08": {
+      "level": "central",
+      "summary": "O fechamento integra classes variáveis e invariáveis à estrutura, mostrando quando uma forma concorda com um núcleo e quando modifica sem flexão."
+    },
+    "A10/G01": {
+      "level": "central",
+      "summary": "A regência verbal nasce da relação entre o sentido contextual de Ve e o C exigido, incluindo a preposição que realiza essa ligação."
+    },
+    "A10/G02": {
+      "level": "central",
+      "summary": "No aprofundamento, compare acepções do verbo e redes de complementos para evitar memorizar uma regência única fora do contexto."
+    },
+    "A10/G03": {
+      "level": "central",
+      "summary": "Com relativos, recoloque o antecedente na lacuna, identifique a regência dentro da subordinada e leve a preposição exigida para diante do pronome."
+    },
+    "A10/G04": {
+      "level": "central",
+      "summary": "A escolha entre pronomes pessoais decorre da função de complemento e da regência do verbo, não da posição ou da referência a pessoa."
+    },
+    "A10/G05": {
+      "level": "central",
+      "summary": "A regência nominal amplia C para completar substantivos, adjetivos e advérbios; o mapa explicita o núcleo regente e o termo preposicionado que o completa."
+    },
+    "A10/G06": {
+      "level": "central",
+      "summary": "A crase é verificada depois do mapa: primeiro confirme a exigência da preposição a pelo regente; depois teste se o termo seguinte admite artigo a."
+    },
+    "A10/G07": {
+      "level": "central",
+      "summary": "Casos proibidos, facultativos e questões de crase são resolvidos combinando regência, estrutura do termo seguinte, paralelismo e preservação de sentido."
+    },
+    "A11/G01": {
+      "level": "support",
+      "summary": "A SuVeCA reconstrói participantes e relações locais; a coesão textual conecta esses mapas por retomadas, substituições, conectores e progressão."
+    },
+    "A11/G02": {
+      "level": "strong",
+      "summary": "A coesão sequencial liga orações e períodos por relações lógicas; o mapa delimita as estruturas, e o conector mais o contexto determina a progressão."
+    },
+    "A11/G03": {
+      "level": "strong",
+      "summary": "Na coesão referencial, a análise combina a função do termo na oração com o rastreamento anafórico, catafórico, dêitico ou lexical ao longo do texto."
+    },
+    "A12/G01": {
+      "level": "indirect",
+      "summary": "Sentido próprio e figurado dependem principalmente de contexto e interpretação semântica; a SuVeCA apenas localiza onde a transferência de sentido incide."
+    },
+    "A12/G02": {
+      "level": "indirect",
+      "summary": "Sinonímia e antonímia são relações lexicais e contextuais. O mapa pode controlar compatibilidade de função numa substituição, mas não estabelece equivalência de sentido."
+    },
+    "A12/G03": {
+      "level": "strong",
+      "summary": "Hiperônimos e hipônimos podem construir coesão e referenciação entre orações; a SuVeCA localiza as funções, e a hierarquia lexical explica a retomada."
+    },
+    "A12/G04": {
+      "level": "strong",
+      "summary": "Na polissemia de verbos, preposições e conectores, compare mapas e regências possíveis, mas use o contexto semântico para selecionar a acepção efetiva."
+    },
+    "A12/G05": {
+      "level": "support",
+      "summary": "Ambiguidades estruturais podem ser representadas por mapas concorrentes; homônimos e parônimos, porém, exigem critérios lexicais e ortográficos próprios."
+    },
+    "A12/G06": {
+      "level": "support",
+      "summary": "Elipse, zeugma, anacoluto, silepse, hipérbato e pleonasmo dialogam com a estrutura; metáfora, metonímia e outras figuras exigem também leitura semântica e discursiva."
+    },
+    "A12/G07": {
+      "level": "indirect",
+      "summary": "Figuras aprofundadas, ironia, eufemismo, hipérbole, sinestesia e efeitos sonoros são interpretados sobretudo no plano semântico-discursivo, com apoio sintático apenas pontual."
+    },
+    "A13/G01": {
+      "level": "support",
+      "summary": "Na recorrência e na paráfrase, o mapa ajuda a verificar participantes, ações e relações preservadas; equivalência global ainda depende de contexto e escopo."
+    },
+    "A13/G02": {
+      "level": "support",
+      "summary": "A inferência pode usar pistas de sujeito, verbo, negação, quantificação e circunstância, mas a conclusão emerge da articulação textual e do conhecimento autorizado pelo enunciado."
+    },
+    "A13/G03": {
+      "level": "support",
+      "summary": "Na narração e descrição, a SuVeCA acompanha agentes, eventos, estados, tempos e circunstâncias; a tipologia resulta do funcionamento global do texto."
+    },
+    "A13/G04": {
+      "level": "support",
+      "summary": "Mapear verbos, participantes e relações ajuda a comparar narração e exposição, sem substituir critérios de organização, finalidade e progressão textual."
+    },
+    "A13/G05": {
+      "level": "support",
+      "summary": "Na exposição e argumentação, a SuVeCA esclarece proposições e conectores; tese, argumentos, modalização e estratégia discursiva pertencem à camada textual."
+    },
+    "A13/G06": {
+      "level": "support",
+      "summary": "Questões variadas de interpretação usam o mapa para testar assertivas locais, escopo e relações lógicas, mas exigem sempre retorno ao texto completo."
+    },
+    "A13/G07": {
+      "level": "indirect",
+      "summary": "Funções da linguagem são definidas por foco comunicativo, intenção e situação de uso; a SuVeCA pode analisar enunciados, mas não decide a função predominante."
+    }
+  }
+}

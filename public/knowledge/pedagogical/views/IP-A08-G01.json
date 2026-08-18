@@ -1,0 +1,1381 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A08-G01",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.063Z"
+  },
+  "unit": {
+    "unitId": "IP-A08-G01",
+    "lessonId": "A08",
+    "groupId": "G01",
+    "title": "Sinais de Pontuação - Visão Geral",
+    "variant": "development",
+    "canonicalTopicId": "pt:a08:sinais-de-pontuacao-visao-geral",
+    "learningObjectives": [
+      "OBJ-IP-A08-G01-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "A visão geral dos sinais combina estrutura, semântica e convenções gráficas; a SuVeCA organiza limites e relações, mas nem todo sinal é puramente sintático.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reconhecimento do Verbo e identificação de Predicado.",
+            "Noções fundamentais de Sintaxe da Oração: Sujeito (simples e composto), Objeto Direto (OD) e Objeto Indireto (OI).",
+            "Distinção básica de Classes Gramaticais: Substantivo versus Adjetivo versus Advérbio."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "PONTUAÇÃO: REGRAS FUNDAMENTAIS DA VÍRGULA │ ├── 1. ESTRUTURA DIRETA (PROIBIÇÃO - REGRA DO SVC) │ ├── Sujeito  Verbo │ └── Verbo  Complemento (OD / OI) │ └── Aplicação: Método \"Diante do Verbo\" │ ├── 2. TERMO EXTERNO INDEPENDENTE (VOCATIVO) │ ├── Definição: Chamamento / Invocação do interlocutor │ ├── Pontuação: Obrigatoriamente ISOLADO por vírgula(s) │ └── Variações: Início (Vrg após), Intercalado (Entre vírgulas), Fim (Vrg antes) │ ├── 3. TERMO EXPLICATIVO SUBSTANTIVO (APOSTO EXPLICATIVO) │ ├── Mantra: \"Aposto é caso de SUBSTANTIVO\" (Substantivo explica Substantivo) │ ├── Pontuação: Obrigatoriamente entre vírgulas, travessões ou parênteses │ ├── Teste de Validação: Inserção de \"[que é]\" mantendo a equivalência (A = B) │ └── Distinções Críticas: │ ├── Adjetivo entre vírgulas = Predicativo do Sujeito Deslocado (NÃO é aposto) │ └── Advérbio / Data entre vírgulas = Adjunto Adverbial (NÃO é aposto) │ └── 4. TERMOS COORDENADOS (ENUMERAÇÃO E DOIS-PONTOS) ├── Enumeração: Separação por vírgulas de termos de mesma função sintática ├── Presença do conectivo \"e\": Marca adição/enumeração, afastando a ideia de aposto └── Sintaxe dos Dois-Pontos (:): ├── Verbo + [: ] + Lista = ✗ INCORRETO (Violação do SVC) └── Verbo + Substantivo Genérico (OD) + [: ] + Lista = ✓ CORRETO (Aposto Enumerativo)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A08-G01-001",
+          "title": "Mapa de conexão — Sinais de Pontuação - Visão Geral",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a08:sinais-de-pontuacao-visao-geral",
+              "label": "Sinais de Pontuação - Visão Geral",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a08:sinais-de-pontuacao-visao-geral",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "É gramaticalmente proibido separar por vírgula simples (ou por qualquer outro sinal de pontuação individual) o Sujeito do Verbo ou o Verbo do seu Complemento (Objeto Direto ou Objeto Indireto). Trata-se do princípio estrutural basilar da pontuação oracional em Língua Portuguesa."
+        },
+        {
+          "type": "paragraph",
+          "text": "A estrutura oracional direta organiza-se canonicamente pelo encadeamento sintático:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Sujeito (S)} \\longrightarrow \\text{Verbo (V)} \\longrightarrow \\text{Complementos Verbais (C)}"
+        },
+        {
+          "type": "paragraph",
+          "text": "Como existe uma dependência sintática intrínseca e direta entre o sujeito e seu predicado verbal, bem como entre o verbo transitivo e seus argumentos internos obrigatórios (objetos), a inserção de uma vírgula simples intermediária fratura a unidade da frase."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nas provas de concurso público (especialmente organizadas pelo Cebraspe), essa quebra sintática raramente é apresentada em frases curtas. As bancas utilizam:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sujeitos compostos extensos ou modificados por adjuntos adnominais longos;",
+            "Orações subordinadas substantivas objetivas diretas iniciadas pela conjunção integrante que;",
+            "Inversões sintáticas parciais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Localize a forma verbal principal do período.",
+            "Isole todo o bloco que responde à pergunta \"Quem/O que é que + Verbo?\". Nenhuma vírgula simples pode existir imediatamente após o término desse bloco sujeito antes do verbo.",
+            "Identifique a exigência de transitividade verbal. Nenhuma vírgula simples pode existir entre o verbo e o substantivo ou oração subordinada integrante que atua como seu complemento."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Incorreto (S-V): A aluna, passou no concurso. (Vírgula cindindo Sujeito e Verbo).",
+            "Incorreto (V-C): A aluna passou, no concurso. (Vírgula cindindo Verbo e Complemento/OI).",
+            "Correto: A aluna passou no concurso.",
+            "Incorreto em Prova (S Composto extenso): \"...as discussões, os relatórios, as publicações, apontaram...\" (A vírgula após publicações rompe o sujeito composto em relação ao verbo apontaram).",
+            "Incorreto em Prova (V-Oracional): \"...saibam, que essa é a única emergência global real...\" (A vírgula após a forma verbal rompe o verbo transitivo direto de sua oração subordinada substantiva objetiva direta)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A proibição diz respeito à pontuação simples direta entre os termos imediatos. Caso ocorra a inserção de um elemento interveniente (como um adjunto adverbial de tempo/lugar ou uma oração adjetiva explicativa), este deve vir obrigatoriamente delimitado por duas vírgulas (uma antes e outra depois), funcionando como termo intercalado sem ferir o nexo entre S-V ou V-C."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: PROC-A08-G01-PONTUACAO-001",
+            "Possui alerta: WARN-A08-G01-PONTUACAO-001",
+            "Exemplificado em: EX-A08-G01-PONTUACAO-003, EX-A08-G01-PONTUACAO-005, EX-A08-G01-PONTUACAO-008, EX-A08-G01-PONTUACAO-009"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O vocativo é o termo sintático de chamamento, invocação ou interpelação direta ao interlocutor. Por ser um elemento autônomo e sem conexão estrutural direta com os elementos do sujeito ou do predicado, seu isolamento por vírgula(s) é estritamente obrigatório em qualquer posição que ocupe na frase."
+        },
+        {
+          "type": "paragraph",
+          "text": "O vocativo não pertence ao predicado nem ao sujeito; é um termo independente de apelo. Por essa natureza, exige demarcação gráfica inequívoca:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Posição Inicial: Vírgula imediatamente após o vocativo.",
+            "Posição Medial (Intercalado/Deslocado): Duas vírgulas obrigatórias (uma antecedendo e outra sucedendo o termo).",
+            "Posição Final: Vírgula imediatamente antes do vocativo, seguida de pontuação terminativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verificar se a palavra ou expressão é utilizada para chamar a atenção da pessoa ou entidade com quem se dialoga.",
+            "Não confundir vocativo com sujeito: o sujeito realiza ou sofre a ação verbal, concordando com o verbo; o vocativo é apenas a menção à segunda pessoa do discurso."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Inicial: Luiz, venha me visitar!",
+            "Intercalado: Venha, Luiz, me visitar!",
+            "Final: Venha me visitar, Luiz!",
+            "Coloquial / Discursivo: \"Gente, meu celular tem tantos aplicativos interessantes!\" (O termo Gente funciona como chamamento aos ouvintes/leitores, exigindo vírgula obrigatória)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O fato de um termo estar isolado por duas vírgulas no meio da oração não garante que seja aposto ou adjunto adverbial; a identificação da intenção de chamamento define a função exclusiva de vocativo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A08-G01-PONTUACAO-003",
+            "Exemplificado em: EX-A08-G01-PONTUACAO-001, EX-A08-G01-PONTUACAO-012"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O aposto explicativo é uma função sintática de natureza estritamente substantiva que tem por finalidade esclarecer, detalhar, identificar ou reescrever outro substantivo ou pronome antecedente. É obrigatoriamente grafado entre sinais de pontuação (vírgulas, travessões ou parênteses)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A professora sintetiza essa regra por meio da diretriz canônica: \"Aposto é caso de substantivo\". Para que um termo intercalado entre vírgulas seja classificado como aposto explicativo, seu núcleo gramatical deve ser obrigatoriamente um substantivo ou palavra substantivada."
+        },
+        {
+          "type": "paragraph",
+          "text": "As bancas de concurso elaboram pegadinhas recorrentes isolando outros termos entre vírgulas para induzir o candidato a classificá-los erroneamente como aposto:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Adjetivo isolado entre vírgulas: Não é aposto; trata-se de um predicativo do sujeito deslocado.",
+            "Advérbio, data ou expressão circunstancial isolada entre vírgulas: Não é aposto; trata-se de um adjunto adverbial.",
+            "Substantivo que esclarece outro substantivo: Configura legitimamente um aposto explicativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Critério Morfológico: Analisar a classe da palavra-núcleo do termo intercalado. Se for adjetivo ou advérbio, rejeita-se a função apositiva.",
+            "Critério Sintático-Semântico de Equivalência ($A = B$): O aposto atua como uma relação de identidade conceitual com o termo ao qual se refere.",
+            "Teste do \"Que é\": O aposto explicativo comporta a inserção imediata da expressão explicativa \"que é\" (ou que era / que são) antes de si, preservando integralmente o nexo da oração."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aposto Explicativo: Lia, minha amiga de infância, está estudando Português. (Núcleo: amiga [substantivo]. Teste: Lia, [que é] minha amiga de infância...).",
+            "Contraexemplo 1 (Adjunto Adverbial de Tempo): Lia, sábado, estudou Português. (sábado expressa tempo circunstancial; o teste \"Lia, [que é] sábado...\" é absurdo sintaticamente).",
+            "Contraexemplo 2 (Predicativo do Sujeito): Lia, empolgada, estudou Português. (empolgada é classe adjetiva; não é aposto, mas predicativo do sujeito em posição intercalada).",
+            "Aposto Explicativo Complexo/Extenso (Cebraspe): \"O direito dos mais miseráveis dos homens, o direito do mendigo, do escravo, do criminoso, não é menos sagrado...\" (O núcleo substantivo direito retoma e explica o substantivo antecedente direito)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A08-G01-PONTUACAO-002",
+            "Possui alerta: WARN-A08-G01-PONTUACAO-002",
+            "Possui dica: TIP-A08-G01-PONTUACAO-001",
+            "Exemplificado em: EX-A08-G01-PONTUACAO-002, EX-A08-G01-PONTUACAO-006, EX-A08-G01-PONTUACAO-010"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A vírgula deve ser empregada para separar termos coordenados que desempenham idêntica função sintática em uma enumeração. O uso do sinal de dois-pontos (:) antes de uma enumeração é expressamente proibido entre o verbo e seus complementos, sendo gramaticalmente válido apenas quando inserido após um termo substantivo genérico, configurando um aposto enumerativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na enumeração padrão, separam-se os termos por vírgulas sucessivas, ligando-se o último elemento tipicamente por meio da conjunção aditiva e (ex.: A, B, C e D). A presença da conjunção e demarca coordenação aditiva de itens e descaracteriza qualquer relação de aposto explicativo entre os termos da lista."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Regra Estrutural dos Dois-Pontos (:):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro Grave de Sintaxe: Colocar dois-pontos diretamente após o verbo (ex.: Ganhou de aniversário: roupas, perfumes...). Nessa configuração, os dois-pontos separam o verbo transitivo direto (Ganhou) do seu objeto direto enumerado (roupas, perfumes...), violando diretamente a regra de ouro do SVC.",
+            "Estrutura Sintática Correta: Fornecer ao verbo o seu objeto direto lexical antes dos dois-pontos (ex.: Ganhou presentes: roupas, perfumes...). O substantivo presentes assume a função de Objeto Direto de Ganhou, e os termos que vêm após os dois-pontos (roupas, perfumes...) passam a constituir legitimamente um Aposto Enumerativo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se houver dois-pontos após uma forma verbal, avalie se a oração já possui objeto direto preenchido. Se a lista for o próprio objeto, a pontuação é incorreta.",
+            "Ao analisar termos separados por vírgula em questões que alegam \"relação de explicação\", busque a presença da conjunção e final. Havendo conjunção aditiva, trata-se de enumeração coordenada e não de explicação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Enumeração Sujeito: Baratas, ratos, moscas e mosquitos são elos fundamentais da cadeia alimentar.",
+            "Enumeração Complemento: Ganhou de aniversário roupas, perfumes, brincos e chocolates.",
+            "Uso Incorreto de Dois-Pontos: Ganhou: roupas, perfumes e chocolates. (Incorreto — rompe a ligação V-C).",
+            "Uso Correto com Aposto Enumerativo: Ganhou presentes: roupas, perfumes e chocolates. (Correto — presentes = OD; roupas... = Aposto Enumerativo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A08-G01-PONTUACAO-001",
+            "Possui alerta: WARN-A08-G01-PONTUACAO-001",
+            "Exemplificado em: EX-A08-G01-PONTUACAO-004, EX-A08-G01-PONTUACAO-007, EX-A08-G01-PONTUACAO-011"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A08-G01-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A08-G01-001",
+              "table": {
+                "tableId": "TABLE-IP-A08-G01-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Identificador",
+                  "Conceito / Regra Canônica",
+                  "Natureza / Exigência",
+                  "Formulação Sintética da Aula",
+                  "Unidade Detalhada"
+                ],
+                "rows": [
+                  [
+                    "CANON-PONT-001",
+                    "Proibição de Vírgula no Esquema SVC",
+                    "Proibição Absoluta",
+                    "É proibido separar por vírgula simples o Sujeito do Verbo ou o Verbo do seu Complemento.",
+                    "KB-A08-G01-PONTUACAO-001"
+                  ],
+                  [
+                    "CANON-PONT-002",
+                    "Isolamento do Vocativo",
+                    "Obrigatoriedade",
+                    "O vocativo (chamamento/invocação) deve vir obrigatoriamente isolado por vírgula(s).",
+                    "KB-A08-G01-PONTUACAO-002"
+                  ],
+                  [
+                    "CANON-PONT-003",
+                    "Natureza Substantiva do Aposto",
+                    "Exigência Categorial",
+                    "O aposto explicativo é estritamente substantivo (\"Aposto é caso de substantivo\"). Adjetivo entre vírgulas é predicativo; advérbio é adjunto adverbial.",
+                    "KB-A08-G01-PONTUACAO-003"
+                  ],
+                  [
+                    "CANON-PONT-004",
+                    "Separação em Enumeração",
+                    "Regra de Coordenação",
+                    "Termos coordenados de mesma função sintática são separados por vírgula e encerrados com conectivo.",
+                    "KB-A08-G01-PONTUACAO-004"
+                  ],
+                  [
+                    "CANON-PONT-005",
+                    "Emprego Válido de Dois-Pontos",
+                    "Condição Sintática",
+                    "Dois-pontos só introduzem enumeração se houver termo antecedente (OD), formando aposto enumerativo.",
+                    "KB-A08-G01-PONTUACAO-004"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A08-G01-PONTUACAO-001",
+          "title": "Método Analítico \"Diante do Verbo\" para Identificação de Vírgula Proibida",
+          "objective": "Executar o algoritmo decisório para Método Analítico \"Diante do Verbo\" para Identificação de Vírgula Proibida",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método Analítico \"Diante do Verbo\" para Identificação de Vírgula Proibida."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificar o Verbo Principal",
+              "explanation": "Localize a forma verbal que rege a oração em análise.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Perguntar pelo Sujeito",
+              "explanation": "Formule a pergunta \"Quem é que...?\" ou \"O que é que...?\" direcionada ao verbo.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Todo o segmento da resposta constitui o Sujeito da oração (mesmo que contenha enumeração de vários substantivos).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Verificação 1",
+              "explanation": "Observe o final do bloco do sujeito. Se houver uma vírgula simples imediatamente antes do verbo, a frase está INCORRETA (ou o item que propõe sua inserção comete erro).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Perguntar pelos Complementos Verbais",
+              "explanation": "Determine a transitividade do verbo (Transitivo Direto ou Indireto) e localize seus argumentos complementares (\"Quem?\", \"O quê?\", \"A quem?\").",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Verificação 2",
+              "explanation": "Observe a transição entre a forma verbal e o complemento (seja ele um substantivo ou uma oração introduzida por que/se). Se houver uma vírgula simples intermediária, a estrutura está INCORRETA.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método Analítico \"Diante do Verbo\" para Identificação de Vírgula Proibida."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Detectar instantaneamente proibições de vírgula em frases extensas, sujeitos compostos enumerados ou orações subordinadas substantivas em provas de concursos."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos Operacionais"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificar o Verbo Principal: Localize a forma verbal que rege a oração em análise.",
+                "Perguntar pelo Sujeito: Formule a pergunta \"Quem é que...?\" ou \"O que é que...?\" direcionada ao verbo."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Todo o segmento da resposta constitui o Sujeito da oração (mesmo que contenha enumeração de vários substantivos).",
+                "Verificação 1: Observe o final do bloco do sujeito. Se houver uma vírgula simples imediatamente antes do verbo, a frase está INCORRETA (ou o item que propõe sua inserção comete erro)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Perguntar pelos Complementos Verbais: Determine a transitividade do verbo (Transitivo Direto ou Indireto) e localize seus argumentos complementares (\"Quem?\", \"O quê?\", \"A quem?\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Verificação 2: Observe a transição entre a forma verbal e o complemento (seja ele um substantivo ou uma oração introduzida por que/se). Se houver uma vírgula simples intermediária, a estrutura está INCORRETA."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "[ PASSO 1: LOCALIZAR O VERBO ] │ ▼ [ PASSO 2: PERGUNTAR PELO SUJEITO ] ───► Há vírgula antes do Verbo? ───► SIM: ERRO (Quebra S-V) │ NÃO: Válido ▼ [ PASSO 3: PERGUNTAR PELO COMPLEMENTO ] ─► Há vírgula após o Verbo? ───► SIM: ERRO (Quebra V-C) NÃO: Válido"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A08-G01-PONTUACAO-002",
+          "title": "Procedimento Diagnóstico de Validação do Aposto Explicativo",
+          "objective": "Executar o algoritmo decisório para Procedimento Diagnóstico de Validação do Aposto Explicativo",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento Diagnóstico de Validação do Aposto Explicativo."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificar o Elemento Intercalado",
+              "explanation": "Isole o termo grafado entre as duas vírgulas.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Inspeção de Classe Gramatical",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "O núcleo do termo é um Adjetivo? $\\rightarrow$ Classifique como Predicativo do Sujeito Deslocado. Não é aposto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "O termo expressa circunstância de Tempo, Lugar, Modo? $\\rightarrow$ Classifique como Adjunto Adverbial Intercalado. Não é aposto.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "O núcleo do termo é um Substantivo? $\\rightarrow$ Prossiga para o teste de equivalência.",
+              "explanation": null,
+              "test": "O núcleo do termo é um Substantivo? $\\rightarrow$ Prossiga para o teste de equivalência."
+            },
+            {
+              "order": 6,
+              "action": "Aplicação do Teste do \"Que é\"",
+              "explanation": "Insira mentalmente a expressão explicativa \"que é\" (ou flexões que era / que são) imediatamente antes do termo intercalado.",
+              "test": "Aplicação do Teste do \"Que é\": Insira mentalmente a expressão explicativa \"que é\" (ou flexões que era / que são) imediatamente antes do termo intercalado."
+            },
+            {
+              "order": 7,
+              "action": "A frase manteve coerência semântica e relação de igualdade (Termo A = Termo B)? $\\rightarrow$ Confirma-se Aposto Explicativo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "O termo intercalado faz parte de uma sequência com outros núcleos finalizada pela conjunção e? $\\rightarrow$ Confirma-se Enumeração.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento Diagnóstico de Validação do Aposto Explicativo."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Diferenciar com precisão categorial se um elemento intercalado entre vírgulas trata-se de um Aposto Explicativo, um Predicativo do Sujeito, um Adjunto Adverbial ou uma Enumeração."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos Operacionais"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificar o Elemento Intercalado: Isole o termo grafado entre as duas vírgulas.",
+                "Inspeção de Classe Gramatical:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O núcleo do termo é um Adjetivo? $\\rightarrow$ Classifique como Predicativo do Sujeito Deslocado. Não é aposto.",
+                "O termo expressa circunstância de Tempo, Lugar, Modo? $\\rightarrow$ Classifique como Adjunto Adverbial Intercalado. Não é aposto.",
+                "O núcleo do termo é um Substantivo? $\\rightarrow$ Prossiga para o teste de equivalência."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação do Teste do \"Que é\": Insira mentalmente a expressão explicativa \"que é\" (ou flexões que era / que são) imediatamente antes do termo intercalado."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A frase manteve coerência semântica e relação de igualdade (Termo A = Termo B)? $\\rightarrow$ Confirma-se Aposto Explicativo.",
+                "O termo intercalado faz parte de uma sequência com outros núcleos finalizada pela conjunção e? $\\rightarrow$ Confirma-se Enumeração."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A08-G01-001",
+          "title": "Quadro de Diferenciação de Termos Isolados por Vírgula",
+          "contrastType": "mixed",
+          "conceptA": "Quadro de Diferenciação de Termos Isolados por Vírgula",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A08-G01-002",
+              "table": {
+                "tableId": "TABLE-IP-A08-G01-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Termo Intercalado / Isolado",
+                  "Classe do Núcleo",
+                  "Função Sintática Real",
+                  "Comportamento ao Teste do \"Que é\"",
+                  "Exemplo de Aplicação"
+                ],
+                "rows": [
+                  [
+                    "Aposto Explicativo",
+                    "Substantivo",
+                    "Esclarecer/identificar substantivo antecedente",
+                    "Admite perfeitamente (\"que é...\") mantendo $A = B$",
+                    "Lia, minha amiga de infância, estuda."
+                  ],
+                  [
+                    "Predicativo do Sujeito",
+                    "Adjetivo",
+                    "Atribuir estado/qualidade transitória ao sujeito",
+                    "Incompatível (adjetivo isolado)",
+                    "Lia, empolgada, estuda."
+                  ],
+                  [
+                    "Adjunto Adverbial",
+                    "Advérbio / Substantivo circunstancial",
+                    "Modificar verbo indicando tempo, lugar, etc.",
+                    "Incompatível (gera ilogicidade semântica)",
+                    "Lia, no sábado, estuda."
+                  ],
+                  [
+                    "Vocativo",
+                    "Substantivo / Pronome",
+                    "Interpelar/chamar diretamente o interlocutor",
+                    "Incompatível (não se refere a termo oracional)",
+                    "Lia, venha estudar agora!"
+                  ],
+                  [
+                    "Termo em Enumeração",
+                    "Substantivo (coordenado)",
+                    "Elemento de lista com mesma função",
+                    "Incompatível se houver conectivo aditivoe",
+                    "Comprou livros, cadernos e lápis."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-001",
+          "title": "EX-A08-G01-PONTUACAO-001 — Exercício de Fixação 1 (Identificação de Vocativo)",
+          "prompt": "Frase Analisada: \"Muito bom dia, senhora!\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Muito bom dia, senhora!\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O vocábulo senhora atua como chamamento direto à pessoa com quem se fala, não possuindo conexão sintática com sujeito ou verbo."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Vocativo (Obrigatória a vírgula)."
+            }
+          ],
+          "result": "Classificação: Vocativo (Obrigatória a vírgula).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-001 — Exercício de Fixação 1 (Identificação de Vocativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-001 — Exercício de Fixação 1 (Identificação de Vocativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-001 — Exercício de Fixação 1 (Identificação de Vocativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Muito bom dia, senhora!\"",
+                "Análise Sintática: O vocábulo senhora atua como chamamento direto à pessoa com quem se fala, não possuindo conexão sintática com sujeito ou verbo.",
+                "Classificação: Vocativo (Obrigatória a vírgula)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-002",
+          "title": "EX-A08-G01-PONTUACAO-002 — Exercício de Fixação 2 (Identificação de Aposto Explicativo)",
+          "prompt": "Frase Analisada: \"Pedro, o gerente do banco, ligou e deixou um recado.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Pedro, o gerente do banco, ligou e deixou um recado.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O segmento o gerente do banco tem como núcleo o substantivo gerente, que explica a identidade do sujeito substantivo Pedro (Pedro = o gerente)."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Aposto Explicativo (Obrigatório isolamento por vírgulas)."
+            }
+          ],
+          "result": "Classificação: Aposto Explicativo (Obrigatório isolamento por vírgulas).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-002 — Exercício de Fixação 2 (Identificação de Aposto Explicativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-002 — Exercício de Fixação 2 (Identificação de Aposto Explicativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-002 — Exercício de Fixação 2 (Identificação de Aposto Explicativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Pedro, o gerente do banco, ligou e deixou um recado.\"",
+                "Análise Sintática: O segmento o gerente do banco tem como núcleo o substantivo gerente, que explica a identidade do sujeito substantivo Pedro (Pedro = o gerente).",
+                "Classificação: Aposto Explicativo (Obrigatório isolamento por vírgulas)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-003",
+          "title": "EX-A08-G01-PONTUACAO-003 — Exercício de Fixação 3 (Identificação de Vírgula Proibida entre V e C)",
+          "prompt": "Frase Analisada: \"Muitos alunos estudaram, a matéria da prova com afinco.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Muitos alunos estudaram, a matéria da prova com afinco.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O verbo estudaram é transitivo direto e exige o complemento a matéria da prova (Objeto Direto). A inserção da vírgula após o verbo cinde o vínculo V-C."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Vírgula Proibida (Violação da regra do SVC)."
+            }
+          ],
+          "result": "Classificação: Vírgula Proibida (Violação da regra do SVC).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-003 — Exercício de Fixação 3 (Identificação de Vírgula Proibida entre V e C) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-003 — Exercício de Fixação 3 (Identificação de Vírgula Proibida entre V e C).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-003 — Exercício de Fixação 3 (Identificação de Vírgula Proibida entre V e C).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Muitos alunos estudaram, a matéria da prova com afinco.\"",
+                "Análise Sintática: O verbo estudaram é transitivo direto e exige o complemento a matéria da prova (Objeto Direto). A inserção da vírgula após o verbo cinde o vínculo V-C.",
+                "Classificação: Vírgula Proibida (Violação da regra do SVC)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-004",
+          "title": "EX-A08-G01-PONTUACAO-004 — Exercício de Fixação 4 (Identificação de Enumeração de Sujeito)",
+          "prompt": "Frase Analisada: \"Baratas, ratos, moscas e mosquitos são elos fundamentais da cadeia alimentar.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Baratas, ratos, moscas e mosquitos são elos fundamentais da cadeia alimentar.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Sequência coordenada de termos que desempenham a mesma função sintática (núcleos do sujeito composto), separados por vírgula e unidos ao último núcleo pelo conectivo e."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Enumeração."
+            }
+          ],
+          "result": "Classificação: Enumeração.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-004 — Exercício de Fixação 4 (Identificação de Enumeração de Sujeito) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-004 — Exercício de Fixação 4 (Identificação de Enumeração de Sujeito).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-004 — Exercício de Fixação 4 (Identificação de Enumeração de Sujeito).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Baratas, ratos, moscas e mosquitos são elos fundamentais da cadeia alimentar.\"",
+                "Análise Sintática: Sequência coordenada de termos que desempenham a mesma função sintática (núcleos do sujeito composto), separados por vírgula e unidos ao último núcleo pelo conectivo e.",
+                "Classificação: Enumeração."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-005",
+          "title": "EX-A08-G01-PONTUACAO-005 — Exercício de Fixação 5 (Identificação de Vírgula Proibida entre S e V)",
+          "prompt": "Frase Analisada: \"Muitos imigrantes europeus, chegaram ao Brasil naquele ano.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Muitos imigrantes europeus, chegaram ao Brasil naquele ano.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O termo Muitos imigrantes europeus é o sujeito da forma verbal chegaram. A vírgula intermediária separa indevidamente o sujeito do seu verbo."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Vírgula Proibida (Violação da regra do SVC)."
+            }
+          ],
+          "result": "Classificação: Vírgula Proibida (Violação da regra do SVC).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-005 — Exercício de Fixação 5 (Identificação de Vírgula Proibida entre S e V) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-005 — Exercício de Fixação 5 (Identificação de Vírgula Proibida entre S e V).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-005 — Exercício de Fixação 5 (Identificação de Vírgula Proibida entre S e V).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Muitos imigrantes europeus, chegaram ao Brasil naquele ano.\"",
+                "Análise Sintática: O termo Muitos imigrantes europeus é o sujeito da forma verbal chegaram. A vírgula intermediária separa indevidamente o sujeito do seu verbo.",
+                "Classificação: Vírgula Proibida (Violação da regra do SVC)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-006",
+          "title": "EX-A08-G01-PONTUACAO-006 — Exercício de Fixação 6 (Aposto com Núcleo Substantivo)",
+          "prompt": "Frase Analisada: \"Matias, cônego honorário, estava compondo um sermão.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Matias, cônego honorário, estava compondo um sermão.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "O segmento cônego honorário possui como núcleo o substantivo cônego, detalhando o substantivo antecedente Matias."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Aposto Explicativo."
+            }
+          ],
+          "result": "Classificação: Aposto Explicativo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-006 — Exercício de Fixação 6 (Aposto com Núcleo Substantivo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-006 — Exercício de Fixação 6 (Aposto com Núcleo Substantivo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-006 — Exercício de Fixação 6 (Aposto com Núcleo Substantivo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Matias, cônego honorário, estava compondo um sermão.\"",
+                "Análise Sintática: O segmento cônego honorário possui como núcleo o substantivo cônego, detalhando o substantivo antecedente Matias.",
+                "Classificação: Aposto Explicativo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-007",
+          "title": "EX-A08-G01-PONTUACAO-007 — Exercício de Fixação 7 (Enumeração em Adjunto)",
+          "prompt": "Frase Analisada: \"Para psiquiatras, psicólogos e sociólogos o conflito familiar é inevitável.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Frase Analisada",
+              "rationale": "\"Para psiquiatras, psicólogos e sociólogos o conflito familiar é inevitável.\""
+            },
+            {
+              "order": 2,
+              "action": "Análise Sintática",
+              "rationale": "Termos coordenados distribuídos em série aditiva (psiquiatras, psicólogos e sociólogos)."
+            },
+            {
+              "order": 3,
+              "action": "Classificação",
+              "rationale": "Enumeração."
+            }
+          ],
+          "result": "Classificação: Enumeração.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-007 — Exercício de Fixação 7 (Enumeração em Adjunto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-007 — Exercício de Fixação 7 (Enumeração em Adjunto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-007 — Exercício de Fixação 7 (Enumeração em Adjunto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase Analisada: \"Para psiquiatras, psicólogos e sociólogos o conflito familiar é inevitável.\"",
+                "Análise Sintática: Termos coordenados distribuídos em série aditiva (psiquiatras, psicólogos e sociólogos).",
+                "Classificação: Enumeração."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-008",
+          "title": "EX-A08-G01-PONTUACAO-008 — Questão CEBRASPE 1 (Separar Sujeito Composto de Verbo)",
+          "prompt": "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Professor de Educação Básica",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Banca / Órgão / Cargo / Ano",
+              "rationale": "CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Professor de Educação Básica"
+            },
+            {
+              "order": 2,
+              "action": "Texto da Prova",
+              "rationale": "\"...Também nesse caso, as discussões, os relatórios, as publicações apontaram que o problema não estava na illiteracy...\""
+            },
+            {
+              "order": 3,
+              "action": "Item Proposto",
+              "rationale": "\"É facultativo o emprego de vírgula após a expressão 'as publicações' (segundo período).\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução Detalhada",
+              "rationale": "Aplicando o método PROC-A08-G01-PONTUACAO-001, identifica-se o verbo apontaram. Pergunta-se: \"O que é que apontou?\" $\\rightarrow$ Resposta: \"as discussões, os relatórios, as publicações\". Trata-se de um sujeito composto por três núcleos. A inserção de vírgula após o último núcleo (as publicações) separaria o sujeito do seu verbo regente. A vírgula é terminantemente proibida, não facultativa."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "ERRADO"
+            }
+          ],
+          "result": "Gabarito: ERRADO",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-008 — Questão CEBRASPE 1 (Separar Sujeito Composto de Verbo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-008 — Questão CEBRASPE 1 (Separar Sujeito Composto de Verbo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-008 — Questão CEBRASPE 1 (Separar Sujeito Composto de Verbo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Professor de Educação Básica",
+                "Texto da Prova: \"...Também nesse caso, as discussões, os relatórios, as publicações apontaram que o problema não estava na illiteracy...\"",
+                "Item Proposto: \"É facultativo o emprego de vírgula após a expressão 'as publicações' (segundo período).\"",
+                "Resolução Detalhada: Aplicando o método PROC-A08-G01-PONTUACAO-001, identifica-se o verbo apontaram. Pergunta-se: \"O que é que apontou?\" $\\rightarrow$ Resposta: \"as discussões, os relatórios, as publicações\". Trata-se de um sujeito composto por três núcleos. A inserção de vírgula após o último núcleo (as publicações) separaria o sujeito do seu verbo regente. A vírgula é terminantemente proibida, não facultativa.",
+                "Gabarito: ERRADO"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-009",
+          "title": "EX-A08-G01-PONTUACAO-009 — Questão CEBRASPE 2 (Separar Verbo de Oração Substantiva)",
+          "prompt": "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Procurador Municipal",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Banca / Órgão / Cargo / Ano",
+              "rationale": "CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Procurador Municipal"
+            },
+            {
+              "order": 2,
+              "action": "Texto da Prova",
+              "rationale": "\"...saibam que essa é a única emergência global real...\""
+            },
+            {
+              "order": 3,
+              "action": "Item Proposto",
+              "rationale": "\"A inserção de uma vírgula imediatamente depois da forma verbal 'saibam' comprometeria a correção gramatical do texto.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução Detalhada",
+              "rationale": "A forma verbal saibam é transitiva direta e rege a oração subordinada substantiva objetiva direta introduzida pela conjunção integrante que (\"que essa é a única emergência...\"). Inserir vírgula após saibam quebra a relação sintática entre o verbo e seu complemento oracional. A inserção de fato compromete (prejudica) a correção gramatical da frase."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "CERTO"
+            }
+          ],
+          "result": "Gabarito: CERTO",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-009 — Questão CEBRASPE 2 (Separar Verbo de Oração Substantiva) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-009 — Questão CEBRASPE 2 (Separar Verbo de Oração Substantiva).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-009 — Questão CEBRASPE 2 (Separar Verbo de Oração Substantiva).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - Prefeitura de Cachoeiro de Itapemirim - ES — Procurador Municipal",
+                "Texto da Prova: \"...saibam que essa é a única emergência global real...\"",
+                "Item Proposto: \"A inserção de uma vírgula imediatamente depois da forma verbal 'saibam' comprometeria a correção gramatical do texto.\"",
+                "Resolução Detalhada: A forma verbal saibam é transitiva direta e rege a oração subordinada substantiva objetiva direta introduzida pela conjunção integrante que (\"que essa é a única emergência...\"). Inserir vírgula após saibam quebra a relação sintática entre o verbo e seu complemento oracional. A inserção de fato compromete (prejudica) a correção gramatical da frase.",
+                "Gabarito: CERTO"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-010",
+          "title": "EX-A08-G01-PONTUACAO-010 — Questão CEBRASPE 3 (Aposto Explicativo Extenso)",
+          "prompt": "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - MPE-TO — Analista Ministerial Especializado",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Banca / Órgão / Cargo / Ano",
+              "rationale": "CEBRASPE - 2024 - MPE-TO — Analista Ministerial Especializado"
+            },
+            {
+              "order": 2,
+              "action": "Texto da Prova",
+              "rationale": "\"O direito dos mais miseráveis dos homens, o direito do mendigo, do escravo, do criminoso, não é menos sagrado, perante a justiça...\""
+            },
+            {
+              "order": 3,
+              "action": "Item Proposto",
+              "rationale": "\"No terceiro período do primeiro parágrafo do texto, as vírgulas empregadas, respectivamente, depois de 'homens' e de 'criminoso' justificam-se por isolar trecho com função apositiva.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução Detalhada",
+              "rationale": "O trecho entre as vírgulas tem como núcleo substantivo a palavra direito (o direito do mendigo, do escravo...), que retoma e detalha o substantivo antecedente O direito dos mais miseráveis dos homens. Aplicando o procedimento PROC-A08-G01-PONTUACAO-002, comprova-se o encaixe explicativo (\"O direito dos mais miseráveis dos homens, [que é] o direito do mendigo...\"). Trata-se de um aposto explicativo expandido."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "CERTO"
+            }
+          ],
+          "result": "Gabarito: CERTO",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-010 — Questão CEBRASPE 3 (Aposto Explicativo Extenso) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-010 — Questão CEBRASPE 3 (Aposto Explicativo Extenso).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-010 — Questão CEBRASPE 3 (Aposto Explicativo Extenso).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Banca / Órgão / Cargo / Ano: CEBRASPE - 2024 - MPE-TO — Analista Ministerial Especializado",
+                "Texto da Prova: \"O direito dos mais miseráveis dos homens, o direito do mendigo, do escravo, do criminoso, não é menos sagrado, perante a justiça...\"",
+                "Item Proposto: \"No terceiro período do primeiro parágrafo do texto, as vírgulas empregadas, respectivamente, depois de 'homens' e de 'criminoso' justificam-se por isolar trecho com função apositiva.\"",
+                "Resolução Detalhada: O trecho entre as vírgulas tem como núcleo substantivo a palavra direito (o direito do mendigo, do escravo...), que retoma e detalha o substantivo antecedente O direito dos mais miseráveis dos homens. Aplicando o procedimento PROC-A08-G01-PONTUACAO-002, comprova-se o encaixe explicativo (\"O direito dos mais miseráveis dos homens, [que é] o direito do mendigo...\"). Trata-se de um aposto explicativo expandido.",
+                "Gabarito: CERTO"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-011",
+          "title": "EX-A08-G01-PONTUACAO-011 — Questão CEBRASPE 4 (Diferença entre Enumeração e Explicação)",
+          "prompt": "Banca / Órgão / Cargo / Ano: CEBRASPE - 2023 - SEE-PE — Professor Braillista",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Banca / Órgão / Cargo / Ano",
+              "rationale": "CEBRASPE - 2023 - SEE-PE — Professor Braillista"
+            },
+            {
+              "order": 2,
+              "action": "Texto da Prova",
+              "rationale": "\"Com altos índices de evasão escolar, baixo engajamento e conteúdos pouco conectados à realidade dos alunos...\""
+            },
+            {
+              "order": 3,
+              "action": "Item Proposto",
+              "rationale": "\"A vírgula em 'evasão escolar, baixo engajamento' marca uma relação de explicação entre os termos separados por ela.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução Detalhada",
+              "rationale": "A presença do conectivo aditivo e ao final da série (\"evasão escolar, baixo engajamento e conteúdos...\") evidencia que os itens constituem uma enumeração de termos coordenados (causas/fatores associados aos altos índices). Não há equivalência semântica ($A = B$) nem relação explicativa entre evasão escolar e baixo engajamento."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "ERRADO"
+            }
+          ],
+          "result": "Gabarito: ERRADO",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-011 — Questão CEBRASPE 4 (Diferença entre Enumeração e Explicação) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-011 — Questão CEBRASPE 4 (Diferença entre Enumeração e Explicação).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-011 — Questão CEBRASPE 4 (Diferença entre Enumeração e Explicação).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Banca / Órgão / Cargo / Ano: CEBRASPE - 2023 - SEE-PE — Professor Braillista",
+                "Texto da Prova: \"Com altos índices de evasão escolar, baixo engajamento e conteúdos pouco conectados à realidade dos alunos...\"",
+                "Item Proposto: \"A vírgula em 'evasão escolar, baixo engajamento' marca uma relação de explicação entre os termos separados por ela.\"",
+                "Resolução Detalhada: A presença do conectivo aditivo e ao final da série (\"evasão escolar, baixo engajamento e conteúdos...\") evidencia que os itens constituem uma enumeração de termos coordenados (causas/fatores associados aos altos índices). Não há equivalência semântica ($A = B$) nem relação explicativa entre evasão escolar e baixo engajamento.",
+                "Gabarito: ERRADO"
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A08-G01-012",
+          "title": "EX-A08-G01-PONTUACAO-012 — Questão CESPE 5 (Isolamento Obrigatório de Vocativo)",
+          "prompt": "Banca / Órgão / Cargo / Ano: CESPE - ANATEL — Conhecimentos Básicos",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Banca / Órgão / Cargo / Ano",
+              "rationale": "CESPE - ANATEL — Conhecimentos Básicos"
+            },
+            {
+              "order": 2,
+              "action": "Texto da Prova",
+              "rationale": "'\"Gente, meu celular tem tantos aplicativos interessantes!\"'"
+            },
+            {
+              "order": 3,
+              "action": "Item Proposto",
+              "rationale": "\"O emprego de vírgula após o vocábulo 'Gente' é obrigatório, visto que separa expressão de chamamento.\""
+            },
+            {
+              "order": 4,
+              "action": "Resolução Detalhada",
+              "rationale": "O vocábulo Gente é utilizado discursivamente como uma interpelação aos ouvintes (chamamento = vocativo). Pela regra canônica (KB-A08-G01-PONTUACAO-002), o vocativo exige isolamento obrigatório por vírgula."
+            },
+            {
+              "order": 5,
+              "action": "Gabarito",
+              "rationale": "CERTO"
+            }
+          ],
+          "result": "Gabarito: CERTO",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A08-G01-PONTUACAO-012 — Questão CESPE 5 (Isolamento Obrigatório de Vocativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A08-G01-PONTUACAO-012 — Questão CESPE 5 (Isolamento Obrigatório de Vocativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A08-G01-PONTUACAO-012 — Questão CESPE 5 (Isolamento Obrigatório de Vocativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Banca / Órgão / Cargo / Ano: CESPE - ANATEL — Conhecimentos Básicos",
+                "Texto da Prova: '\"Gente, meu celular tem tantos aplicativos interessantes!\"'",
+                "Item Proposto: \"O emprego de vírgula após o vocábulo 'Gente' é obrigatório, visto que separa expressão de chamamento.\"",
+                "Resolução Detalhada: O vocábulo Gente é utilizado discursivamente como uma interpelação aos ouvintes (chamamento = vocativo). Pela regra canônica (KB-A08-G01-PONTUACAO-002), o vocativo exige isolamento obrigatório por vírgula.",
+                "Gabarito: CERTO"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Para verificar rapidamente se uma estrutura intercalada entre vírgulas em uma prova é um aposto ou uma enumeração, utilize o modelo matemático da igualdade semântica:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o Termo B colocado entre vírgulas representa uma redefinição ou equivalência absoluta do Termo A ($A = B$), a estrutura é um Aposto Explicativo.",
+            "Se o Termo B for apenas mais um elemento agregado a uma lista de itens somados pelo conectivo aditivo e ($A + B + C$), a estrutura é uma Enumeração."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A08-G01-PONTUACAO-001",
+          "title": "Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos.",
+          "correctReasoning": "O candidato tende a achar natural empregar dois-pontos logo após uma forma verbal quando ela anuncia uma série de itens (ex.: \"Comprei no mercado: arroz, feijão e carne.\").",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Quebra do Esquema SVC pelo Uso Indevido de Dois-Pontos.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Erro Comum"
+            },
+            {
+              "type": "paragraph",
+              "text": "O candidato tende a achar natural empregar dois-pontos logo após uma forma verbal quando ela anuncia uma série de itens (ex.: \"Comprei no mercado: arroz, feijão e carne.\")."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mecanismo do Erro"
+            },
+            {
+              "type": "paragraph",
+              "text": "Os dois-pontos separam o verbo transitivo direto (Comprei) dos seus próprios objetos diretos (arroz, feijão e carne), violando a regra de proibição de pontuação intermediária no esquema SVC."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Como Evitar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Só utilize dois-pontos antes de enumerações caso a oração já apresente um objeto direto genérico precedente, transformando a lista subsequente em aposto enumerativo:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Incorreto: Ganhou de presente: flores, livros e doces.",
+                "Correto: Ganhou presentes: flores, livros e doces."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A08-G01-PONTUACAO-002",
+          "title": "Armadilha do Adjetivo ou Advérbio Intercalado tomado por Aposto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Armadilha do Adjetivo ou Advérbio Intercalado tomado por Aposto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Armadilha do Adjetivo ou Advérbio Intercalado tomado por Aposto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Armadilha do Adjetivo ou Advérbio Intercalado tomado por Aposto.",
+          "correctReasoning": "A banca Cebraspe isola uma palavra ou oração entre duas vírgulas e propõe no item que o termo possui \"função apositiva\", confiando que o candidato associa superficialmente \"termo entre vírgulas = aposto\".",
+          "decisiveTest": "Aplique o mantra da aula: \"Aposto é caso de substantivo\". Se o termo isolado for adjetivo, marque como Predicativo do Sujeito; se for expressão circunstancial, marque como Adjunto Adverbial.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Armadilha do Adjetivo ou Advérbio Intercalado tomado por Aposto.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Erro Comum"
+            },
+            {
+              "type": "paragraph",
+              "text": "A banca Cebraspe isola uma palavra ou oração entre duas vírgulas e propõe no item que o termo possui \"função apositiva\", confiando que o candidato associa superficialmente \"termo entre vírgulas = aposto\"."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mecanismo do Erro"
+            },
+            {
+              "type": "paragraph",
+              "text": "O termo intercalado frequentemente possui núcleo adjetivo (qualificando o sujeito) ou indica circunstância de tempo/lugar (advérbio). O aposto exige obrigatoriamente núcleo de base substantiva."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Como Evitar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aplique o mantra da aula: \"Aposto é caso de substantivo\". Se o termo isolado for adjetivo, marque como Predicativo do Sujeito; se for expressão circunstancial, marque como Adjunto Adverbial."
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "O candidato tende a achar natural empregar dois-pontos logo após uma forma verbal quando ela anuncia uma série de itens (ex.: \"Comprei no mercado: arroz, feijão e carne.\")."
+        },
+        {
+          "type": "paragraph",
+          "text": "Os dois-pontos separam o verbo transitivo direto (Comprei) dos seus próprios objetos diretos (arroz, feijão e carne), violando a regra de proibição de pontuação intermediária no esquema SVC."
+        },
+        {
+          "type": "paragraph",
+          "text": "Só utilize dois-pontos antes de enumerações caso a oração já apresente um objeto direto genérico precedente, transformando a lista subsequente em aposto enumerativo:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Incorreto: Ganhou de presente: flores, livros e doces.",
+            "Correto: Ganhou presentes: flores, livros e doces."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A banca Cebraspe isola uma palavra ou oração entre duas vírgulas e propõe no item que o termo possui \"função apositiva\", confiando que o candidato associa superficialmente \"termo entre vírgulas = aposto\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "O termo intercalado frequentemente possui núcleo adjetivo (qualificando o sujeito) ou indica circunstância de tempo/lugar (advérbio). O aposto exige obrigatoriamente núcleo de base substantiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aplique o mantra da aula: \"Aposto é caso de substantivo\". Se o termo isolado for adjetivo, marque como Predicativo do Sujeito; se for expressão circunstancial, marque como Adjunto Adverbial."
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição Sintática: Sigla representativa da sequência estrutural Sujeito (S), Verbo (V) e Complemento Verbal (C). Na Língua Portuguesa, é estritamente proibido inserir vírgula simples entre os elementos contíguos dessa cadeia.",
+            "Unidade Relacionada: KB-A08-G01-PONTUACAO-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição Sintática: Termo oracional independente empregado para interpelar, chamar ou invocar a segunda pessoa do discurso. Exige isolamento gráfico compulsório por vírgula em qualquer posição da oração.",
+            "Unidade Relacionada: KB-A08-G01-PONTUACAO-002."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição Sintática: Termo de base e núcleo substantivos que detalha, esclarece ou identifica um substantivo antecedente por relação de equivalência semântica ($A = B$). Deve vir isolado por vírgulas, travessões ou parênteses.",
+            "Unidade Relacionada: KB-A08-G01-PONTUACAO-003."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição Sintática: Desdobramento substantivo em múltiplos elementos que especifica um termo genérico antecedente (usualmente após dois-pontos), mantendo preservada a integridade sintática do verbo regente.",
+            "Unidade Relacionada: KB-A08-G01-PONTUACAO-004."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir este grupo temático, o estudante deve ter desenvolvido o domínio operacional das quatro regras seminais da pontuação oracional:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reconhecimento da Proibição do SVC: Compreender que o nexo entre Sujeito e Verbo e entre Verbo e seus Objetos não aceita cisão por vírgula simples. Diante de qualquer período em prova, o candidato deve localizar o verbo, rastrear o sujeito e delimitar os complementos antes de julgar a legitimidade de uma vírgula.",
+            "Identificação Imprevista de Vocativo: Isolar compulsoriamente termos de invocação/chamamento, reconhecendo sua presença tanto no início de períodos quanto intercalados no meio de orações.",
+            "Domínio Categorial do Aposto Explicativo: Fixar que \"aposto é caso de substantivo\". Termos intercalados formados por adjetivos qualificadores são predicativos do sujeito, e termos indicativos de circunstâncias temporais/espaciais são adjuntos adverbiais, não admitindo classificação apositiva. O aposto explicativo sempre aceita a inserção diagnóstica de \"que é\".",
+            "Governança Sintática de Enumerações e Dois-Pontos: Compreender que dois-pontos não podem suceder diretamente formas verbais transitivas sem que o objeto genérico antecedente esteja expresso, sob pena de infração direta ao esquema SVC."
+          ]
+        }
+      ]
+    }
+  }
+}

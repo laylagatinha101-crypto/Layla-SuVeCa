@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "3.0.0",
+  "kind": "suveca-editorial-enrichments",
+  "reviewVersion": "semantic-review-v3",
+  "policy": "Overlay editorial derivado exclusivamente dos reviews aceitos batch-001 a batch-008. Preserva questões oficiais, separa regra canônica de convenções de banca e de variação de uso e emprega a SuVeCA como interface de diagnóstico, não como fonte autônoma da norma.",
+  "operations": [
+    {
+      "moduleId": "mod2",
+      "modulePatch": {
+        "title": "Semântica, coesão e coerência",
+        "subtitle": "Relações de sentido, conectores, referenciação e ambiguidade"
+      },
+      "sections": [
+        {
+          "title": "2.3 Coerência e valor dos conectores",
+          "changeType": "expand",
+          "contentMarkdown": "Conectores não recebem valor apenas pela forma. Primeiro delimite os segmentos, reconstrua a SuVeCA de cada oração e formule em linguagem simples a relação entre eles; só depois nomeie causa, consequência, conclusão, explicação, oposição, concessão, condição ou finalidade.\n\nEm reescrita, confira quatro dimensões: relação lógica, orientação argumentativa, modalidade e escopo. Uma troca pode produzir frase gramatical e ainda alterar a conclusão, a ressalva ou o grau de certeza. Formas polifuncionais como **e, ou, mas, pois, se, como, quando, enquanto, para** e **por isso** exigem contexto.\n\n```text\nSEGMENTO 1 + CONECTOR + SEGMENTO 2\n→ conteúdo de cada bloco\n→ relação efetivamente construída\n→ rótulo gramatical adotado pela banca\n```",
+          "limitsAndExceptions": [
+            "Conclusão, consequência e explicação podem aproximar-se discursivamente, mas não devem ser fundidas sem examinar a estrutura e o ponto de vista.",
+            "A mesma forma pode pertencer a classes diferentes ou realizar relações diferentes; listas forma→sentido são apenas triagem.",
+            "Jurisprudência terminológica de banca deve ser registrada sem substituir a descrição canônica."
+          ],
+          "contrasts": [
+            "Causa factual explica um evento; justificativa enunciativa sustenta uma afirmação ou ordem.",
+            "Conjunção coordenativa relaciona segmentos independentes; preposição ou conjunção subordinativa integra estrutura dependente.",
+            "Coerência é a relação interpretável; coesão é sua marcação linguística, quando presente."
+          ],
+          "examTraps": [
+            "Classificar pelo conector isolado.",
+            "Trocar por isso por contudo apenas porque ambos podem iniciar período.",
+            "Aceitar uma relação causal criada entre informações apenas justapostas."
+          ],
+          "evidenceRefs": [
+            "source:57c8e193-5894-4157-9312-17e7e338bbca#9292-17910",
+            "source:57c8e193-5894-4157-9312-17e7e338bbca#17910-22606",
+            "source:3a1beec4-0e56-4530-abcf-2c0675f6bfa8#18094-27219",
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#79571-89148"
+          ]
+        },
+        {
+          "title": "2.4 Coesão referencial: introdução, retomada e dêixis",
+          "changeType": "correct",
+          "contentMarkdown": "Referenciação não é apenas repetir um substantivo. O texto introduz referentes, mantém-nos por pronomes, elipses e expressões nominais, pode recategorizá-los e pode resumir uma oração ou proposição inteira.\n\n- **Anáfora:** recupera conteúdo anterior.\n- **Catáfora:** anuncia conteúdo posterior.\n- **Dêixis:** depende da situação de enunciação — pessoa, tempo, espaço ou organização do próprio discurso.\n- **Elipse:** omite material recuperável pela estrutura e pelo contexto.\n\nPara encontrar o referente, não escolha automaticamente o nome mais próximo. Liste os candidatos e teste concordância, compatibilidade semântica, papel discursivo e continuidade temática. O antecedente pode ser uma palavra, um sintagma, uma oração ou um conjunto de proposições.\n\n```text\nFORMA REFERENCIAL → candidatos → concordância → sentido → progressão\n```",
+          "limitsAndExceptions": [
+            "Dêixis e anáfora podem combinar-se; categorias referenciais não são sempre mutuamente exclusivas.",
+            "Eu e você permanecem indexicais mesmo quando um nome ou vocativo próximo identifica o participante.",
+            "Proximidade é pista auxiliar, não regra de antecedente."
+          ],
+          "contrasts": [
+            "Referente situacional versus antecedente textual.",
+            "Retomada de nome versus retomada resumiva de proposição.",
+            "Ambiguidade potencial da frase isolada versus ambiguidade efetiva após considerar o contexto."
+          ],
+          "examTraps": [
+            "Definir termo sintático como uma única palavra.",
+            "Transformar pronome pessoal dêitico em anafórico só porque há nome próximo.",
+            "Fazer a seta sempre para o antecedente imediatamente anterior."
+          ],
+          "evidenceRefs": [
+            "source:9c736bb1-1608-4c15-b531-f18ac863971a#0-9473",
+            "source:9c736bb1-1608-4c15-b531-f18ac863971a#9473-18832",
+            "source:32ab048a-03d2-4452-817d-45bca8880ca5#0-9285",
+            "source:c6e0e7dc-3d97-445b-a611-5d65122faddf#9508-18940"
+          ]
+        },
+        {
+          "title": "2.5 Ambiguidade lexical, estrutural e referencial",
+          "changeType": "expand",
+          "contentMarkdown": "A ambiguidade pode nascer de uma palavra polissêmica, de mais de uma estrutura sintática possível ou de referentes concorrentes. O diagnóstico precisa produzir as leituras, não apenas afirmar que a frase é ambígua.\n\nProcedimento SuVeCA:\n1. identifique o elemento potencialmente ambíguo;\n2. reconstrua uma SuVeCA para cada leitura;\n3. explicite o que muda — sentido lexical, encaixe, função ou referente;\n4. verifique se o contexto elimina alguma leitura;\n5. proponha reescrita que explicite o sentido pretendido.\n\nEm **O servidor informou ao chefe que seu relatório estava pronto**, a flexão de *seu* não identifica o possuidor. A reescrita pode empregar *o relatório do servidor* ou *o relatório do chefe*, conforme o sentido.",
+          "limitsAndExceptions": [
+            "Uma leitura apenas imaginável, mas incompatível com regência ou contexto, não configura ambiguidade efetiva.",
+            "A concordância pode excluir candidatos, mas nem sempre resolve sozinha a referência.",
+            "Ambiguidade não é sinônimo de erro; pode ser recurso expressivo, embora prejudique textos que exigem precisão."
+          ],
+          "contrasts": [
+            "Polissemia mantém uma forma e alterna sentidos relacionados; ambiguidade estrutural alterna encaixes.",
+            "Possessivo concorda com o possuído, mas aponta para o possuidor.",
+            "Frase isolada potencialmente ambígua pode tornar-se inequívoca no texto."
+          ],
+          "examTraps": [
+            "Buscar o possuidor pela concordância do possessivo.",
+            "Inventar verbo implícito para forçar segunda leitura.",
+            "Confundir simples vagueza com duas análises linguisticamente estruturadas."
+          ],
+          "evidenceRefs": [
+            "source:d218aba7-bfe5-43f8-9ae2-3ecffbda6ffc#116003-125491",
+            "source:722d6a3f-0270-479c-bab8-624d42291f5a#0-9534",
+            "source:32ab048a-03d2-4452-817d-45bca8880ca5#0-9285",
+            "source:326d714a-1907-452e-b4f8-275fc05946a1#0-9039"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod3",
+      "sections": [
+        {
+          "title": "3.0 Fundamentos: letra, fonema, dígrafo e sílaba",
+          "changeType": "new_section",
+          "contentMarkdown": "Antes de acentuar ou contar sons, separe forma gráfica e estrutura fonológica. **Letra** é unidade da escrita; **fonema**, unidade distintiva do som; **dígrafo**, sequência de letras que pode representar um único fonema; encontros vocálicos e consonantais exigem divisão silábica contextual.\n\nEm **qu/gu**, a presença de duas letras não determina sozinha a quantidade de fonemas: é preciso verificar se *u* é pronunciado. Dígrafos nasais podem marcar nasalização sem equivaler a duas unidades sonoras independentes.\n\nFluxo inicial:\n```text\nPALAVRA → pronúncia no contexto → sílabas → tônica → letras/fonemas → regra gráfica\n```",
+          "limitsAndExceptions": [
+            "Contagem fonológica depende da pronúncia considerada; variação regional deve ser separada da grafia normativa.",
+            "Toda sequência de duas consoantes não é dígrafo.",
+            "A transcrição automática não é fonte segura para pronúncia ou acentuação."
+          ],
+          "contrasts": [
+            "Letra pertence à escrita; fonema, ao sistema sonoro.",
+            "Dígrafo representa unidade sonora; encontro consonantal preserva sons distinguíveis no recorte adotado.",
+            "Acento tônico é prosódico; acento gráfico é sinal ortográfico."
+          ],
+          "examTraps": [
+            "Contar letras e declarar o mesmo número de fonemas.",
+            "Tratar todo qu/gu como dígrafo sem verificar a pronúncia de u.",
+            "Aplicar regra de acentuação antes da divisão silábica."
+          ],
+          "evidenceRefs": [
+            "source:731b4c60-4819-4fa7-abad-d7ed225bac09#0-7275",
+            "source:57708d38-2e79-4b25-9af1-59be685f6b01#0-9477",
+            "source:57708d38-2e79-4b25-9af1-59be685f6b01#9477-17519"
+          ]
+        },
+        {
+          "title": "3.1 Protocolo de acentuação gráfica",
+          "changeType": "correct",
+          "contentMarkdown": "Acentuação resolve-se por diagnóstico, não pela aparência da terminação.\n\n1. Separe as sílabas.\n2. Localize a sílaba tônica.\n3. Classifique como monossílabo tônico, oxítona, paroxítona ou proparoxítona.\n4. Identifique a terminação ou a regra especial aplicável.\n5. Verifique hiato, ditongo aberto, acento diferencial e efeitos do Acordo Ortográfico.\n\nPares como **hífen/hifens** e **item/itens** mostram que singular e plural podem mudar a posição ou a leitura relevante para a regra. Paroxítonas terminadas em ditongo crescente são o enquadramento dominante em provas; a análise alternativa como proparoxítonas aparentes deve ser registrada como variação teórica, não como erro automático.",
+          "limitsAndExceptions": [
+            "Mnemônicos de terminações só funcionam depois da tonicidade.",
+            "A classificação paroxítona em ditongo crescente versus proparoxítona aparente varia entre descrições.",
+            "Gabarito extraído de tabela ou imagem desalinhada deve ser conferido no original antes de virar exemplo."
+          ],
+          "contrasts": [
+            "Oxítona concentra tonicidade na última sílaba; paroxítona, na penúltima; proparoxítona, na antepenúltima.",
+            "Regra geral por terminação versus regra especial de hiato ou ditongo.",
+            "Forma singular versus plural quando a prosódia ou terminação muda."
+          ],
+          "examTraps": [
+            "Classificar pela última letra antes de separar sílabas.",
+            "Aplicar simultaneamente regra geral e especial sem precedência.",
+            "Usar a acentuação da forma singular para justificar automaticamente o plural."
+          ],
+          "evidenceRefs": [
+            "source:e2e58e32-7c21-41cd-b16a-1a4f9ae10cdf#0-9109",
+            "source:e2e58e32-7c21-41cd-b16a-1a4f9ae10cdf#9109-15705",
+            "source:03b4eaf2-038c-4067-bcc3-6b6955bd7f3f#0-9512",
+            "source:57708d38-2e79-4b25-9af1-59be685f6b01#17519-25032"
+          ]
+        },
+        {
+          "title": "3.2 Hiatos, ditongos e sinais diacríticos",
+          "changeType": "correct",
+          "contentMarkdown": "Nos hiatos, **i/u** tônicos recebem acento quando formam sílaba sozinhos ou seguidos de *s*, observadas as restrições de posição, sequência e *nh*. O Acordo eliminou o acento de **i/u** tônicos em certas paroxítonas depois de ditongo, como *feiura* e *baiuca*, mas preservou formas cuja estrutura e tonicidade satisfazem outra regra, como *Piauí*.\n\nDitongos abertos **éi, éu, ói** mantêm acento em monossílabos tônicos e oxítonas, mas não em paroxítonas como *ideia* e *heroico*. Sequências **-oo** e **-eem** perderam o circunflexo em formas como *voo, creem, leem, veem*.\n\nO **til** marca nasalidade e não deve ser transformado em acento gráfico por regra geral. Acentos diferenciais devem ser ensinados por inventário próprio: *pôr/por*, *pôde/pode*, formas de *ter/vir* e derivados, além dos casos facultativos reconhecidos pela norma adotada.",
+          "limitsAndExceptions": [
+            "Til, acento agudo, circunflexo e trema têm funções distintas.",
+            "A máxima acento diferencial é sempre plural só vale para um subconjunto verbal e falha em pôr/por e pôde/pode.",
+            "Piauí não deve ser equiparado mecanicamente a feiura; a posição da tonicidade muda o diagnóstico."
+          ],
+          "contrasts": [
+            "Hiato separa vogais em sílabas; ditongo as reúne na mesma sílaba no recorte adotado.",
+            "Ditongo aberto oxítono mantém acento; paroxítono perdeu-o pelo Acordo.",
+            "Têm/vêm marcam plural; pôde/pode distinguem tempo; pôr/por distinguem classes."
+          ],
+          "examTraps": [
+            "Contar o til como acento gráfico para aplicar regra de tonicidade.",
+            "Retirar o acento de herói por analogia com heroico.",
+            "Generalizar a perda pós-ditongo a toda palavra com i/u."
+          ],
+          "evidenceRefs": [
+            "source:677e1f0c-ca42-4259-9bb6-ffbd58d5f137#0-9570",
+            "source:a496850f-26a8-4944-bed8-3726e8d0aeac#0-9318",
+            "source:ad148421-e73b-481e-a84e-397653275076#0-9439",
+            "source:ad148421-e73b-481e-a84e-397653275076#9439-18880"
+          ]
+        },
+        {
+          "title": "3.5 Hífen com prefixos: árvore de precedência",
+          "changeType": "correct",
+          "contentMarkdown": "Antes de aplicar a regra produtiva, identifique se há **prefixação**, **composição lexical**, **locução** ou **ligação de clítico**. Na prefixação comum:\n\n1. famílias com comportamento próprio são verificadas primeiro;\n2. diante de *h*, usa-se hífen nos casos gerais;\n3. vogais iguais tendem a manter hífen (*micro-ondas*);\n4. vogais diferentes tendem à aglutinação (*autoescola*);\n5. vogal seguida de *r/s* normalmente se une com duplicação (*antirracista, ultrassom*).\n\n**Co-** é família especial: aglutina-se e pode suprimir o *h* inicial do segundo elemento, como em *coerdeiro* e *coabitar*. Prefixos e elementos como *bem-/mal-*, *pré-/pre-*, *pós-/pos-*, *pró-*, *ex-*, *vice-* e *recém-* exigem regra e lexicalização próprias. Em dúvida lexical, consulte o VOLP; não resolva divergência por maioria de transcrições.",
+          "limitsAndExceptions": [
+            "Diante de h sempre há hífen é falsa sem a precedência de famílias especiais como co-.",
+            "Pré- tônico e pre- átono não formam uma única regra gráfica.",
+            "A regra de letras iguais/diferentes não resolve compostos nem locuções."
+          ],
+          "contrasts": [
+            "Micro-ondas mantém hífen por vogais iguais; autoescola aglutina por vogais diferentes.",
+            "Anti-higiênico segue o caso geral de h; coerdeiro segue família especial.",
+            "Antissocial duplica s; super-homem conserva hífen por outra configuração."
+          ],
+          "examTraps": [
+            "Aplicar o caso geral antes de verificar a família prefixal.",
+            "Escrever co-herdeiro por analogia com anti-higiênico.",
+            "Tratar grafia registrada no VOLP como dedutível apenas por uma regra escolar."
+          ],
+          "evidenceRefs": [
+            "source:9b2e8db1-f068-4256-9936-88b2a3c28b09#0-8906",
+            "source:805c4a78-d43b-4416-9c67-2bb98f69d5ed#0-9436",
+            "source:805c4a78-d43b-4416-9c67-2bb98f69d5ed#9436-18887",
+            "source:01b98b56-534a-486b-989b-b1a1d7b684c7#9544-16191"
+          ]
+        },
+        {
+          "title": "3.6 Compostos, locuções e elementos de ligação",
+          "changeType": "new_section",
+          "contentMarkdown": "Compostos não seguem automaticamente a árvore dos prefixos. Verifique se os elementos mantêm unidade lexical e acentuação própria, se há elemento de ligação, se a expressão é locução e se existe grafia lexicalizada. Locuções com elemento de ligação tendem a ser grafadas sem hífen, mas há formas consagradas como **cor-de-rosa**. Nomes de espécies, encadeamentos vocabulares e formações com **-açu, -guaçu, -mirim** possuem condições específicas e não admitem uma fórmula invariável.\n\n```text\nÉ prefixação? → árvore prefixal\nÉ composição? → estrutura e lexicalização\nÉ locução? → regra geral + formas consagradas\nÉ clítico? → colocação pronominal, não formação de palavra\n```",
+          "limitsAndExceptions": [
+            "Elemento de ligação não implica sempre ausência de hífen.",
+            "-açu, -guaçu e -mirim não recebem hífen incondicionalmente.",
+            "A grafia de composto lexicalizado deve ser confirmada em fonte ortográfica autorizada."
+          ],
+          "contrasts": [
+            "Composto lexical versus locução sintática.",
+            "Regra produtiva versus forma consagrada.",
+            "Hífen lexical versus hífen sintático de ênclise e mesóclise."
+          ],
+          "examTraps": [
+            "Aplicar letras iguais/diferentes a mão de obra ou cor-de-rosa.",
+            "Retirar hífen de forma consagrada apenas porque há preposição.",
+            "Usar a mesma justificativa para micro-ondas e entregou-lhe."
+          ],
+          "evidenceRefs": [
+            "source:0714221b-2469-47db-9959-4af5f10188f4#0-7609",
+            "source:57708d38-2e79-4b25-9af1-59be685f6b01#52678-60743",
+            "source:5c41623c-40ee-403c-8c5e-06ad7b9cfe54#9304-13567"
+          ]
+        },
+        {
+          "title": "3.7 Hífen sintático com pronomes átonos",
+          "changeType": "new_section",
+          "contentMarkdown": "Na **próclise**, o clítico é escrito separado e sem hífen: *não me avisou*. Na **ênclise**, liga-se ao verbo por hífen: *avisou-me*. Na **mesóclise**, intercala-se na forma futura com dois hífens: *avisar-me-á*.\n\nEssa convenção gráfica pertence à colocação pronominal. Ela não é caso de prefixação ou composição. Em locuções verbais, o hífen revela a qual verbo o clítico está ligado: *devo-me calar* liga-o ao auxiliar; *devo me calar* representa, no padrão brasileiro, próclise ao principal.",
+          "limitsAndExceptions": [
+            "A grafia depende da análise de posição; transcrição de áudio frequentemente apaga hífens.",
+            "Clítico sem hífen no meio da locução não deve ser chamado de ênclise ao auxiliar.",
+            "A aceitabilidade das posições varia por norma e registro, assunto desenvolvido no módulo 13."
+          ],
+          "contrasts": [
+            "Não me avisou: próclise sem hífen.",
+            "Avisou-me: ênclise com um hífen.",
+            "Avisar-me-á: mesóclise com dois hífens."
+          ],
+          "examTraps": [
+            "Inserir hífen na próclise.",
+            "Aplicar regras de prefixos ao vínculo verbo-clítico.",
+            "Reconstruir grafia de clítico diretamente de ASR."
+          ],
+          "evidenceRefs": [
+            "source:bd8aef79-1949-42c7-85d3-5052a1e803af#0-2536",
+            "source:b7f998ee-a2f5-4e82-b954-2b1602d966b2#0-5727",
+            "source:e3fa84c8-6f6d-4161-b159-c9a971f42eac#0-9381",
+            "source:aa73fde7-0a3e-48f0-a7df-4f9daea12b81#0-9541"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod4",
+      "sections": [
+        {
+          "title": "4.1 Sintagma nominal e setas de dependência",
+          "changeType": "expand",
+          "contentMarkdown": "Classe morfológica e função sintática são camadas diferentes. No sintagma nominal, localize primeiro o núcleo; depois ligue a ele artigos, numerais, pronomes, adjetivos e locuções. O grupo inteiro poderá exercer sujeito, complemento, predicativo ou adjunto no mapa SuVeCA.\n\n```text\n[os] → [dois] → [novos] → RELATÓRIOS ← [técnicos]\n                     grupo nominal inteiro → função na oração\n```\n\nA seta não é decidida pela palavra mais próxima. Use concordância, posição, compatibilidade semântica e estrutura. Um item pode ter classe invariável e ainda participar de sintagma com valor circunstancial; a função do todo não apaga a classe de cada constituinte.",
+          "limitsAndExceptions": [
+            "Artigo é classe morfológica e pode exercer função de adjunto adnominal; os rótulos não competem.",
+            "Termo sintático pode conter várias palavras.",
+            "Posição antes ou depois do nome é pista, não diagnóstico suficiente."
+          ],
+          "contrasts": [
+            "Classe da palavra versus função do sintagma.",
+            "Núcleo nominal expresso versus núcleo elíptico recuperável.",
+            "Modificador do nome versus modificador do verbo, adjetivo ou advérbio."
+          ],
+          "examTraps": [
+            "Classificar o sintagma inteiro pela classe de um constituinte.",
+            "Desenhar a seta apenas por adjacência.",
+            "Confundir substantivação contextual com função nominal de uma expressão."
+          ],
+          "evidenceRefs": [
+            "source:0895a881-82d8-4fff-91e1-e199ed9dc393#0-5163",
+            "source:adae58b7-0a25-45a6-9f94-c34b443795e5#0-9566",
+            "source:bc32490b-7a17-4f7b-a1fa-e8b2a4099ee2#9350-18602",
+            "source:32ab048a-03d2-4452-817d-45bca8880ca5#0-9285"
+          ]
+        },
+        {
+          "title": "4.3 Formação, derivação e conversão",
+          "changeType": "correct",
+          "contentMarkdown": "Na derivação prefixal e sufixal, os afixos podem participar de etapas independentes: *infeliz* e *felizmente* confirmam a análise de *infelizmente*. Na parassíntese, prefixo e sufixo participam conjuntamente da formação e não há palavra intermediária válida pela retirada de apenas um deles no processo analisado: *envelhecer* não se explica por supostos vocábulos *velhecer* ou *envelho*.\n\nConversão ou derivação imprópria ocorre quando uma forma passa a funcionar em outra classe sem afixo derivacional expresso, como **um não**. Isso não se confunde com substantivos já lexicalizados nem com formas nominais do verbo que preservam propriedades verbais.\n\nO teste deve comparar palavras e usos reais, não formas flexionadas inventadas.",
+          "limitsAndExceptions": [
+            "A existência de forma flexionada do verbo não prova palavra intermediária na derivação.",
+            "Substantivos lexicalizados como dever não precisam ser tratados sincronicamente como conversão em todo contexto.",
+            "Sufixos formadores de nomes e de verbos não podem ser trocados pela semelhança gráfica."
+          ],
+          "contrasts": [
+            "Prefixação e sufixação independentes versus anexação parassintética.",
+            "Derivação por afixo versus conversão contextual.",
+            "Vocábulo lexicalizado versus forma verbal empregada nominalmente."
+          ],
+          "examTraps": [
+            "Usar envelho como palavra intermediária de envelhecer.",
+            "Chamar toda palavra com artigo de substantivo derivado.",
+            "Afirmar que -ção forma verbos."
+          ],
+          "evidenceRefs": [
+            "source:0895a881-82d8-4fff-91e1-e199ed9dc393#0-5163",
+            "source:adae58b7-0a25-45a6-9f94-c34b443795e5#9566-19005",
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#0-8875"
+          ]
+        },
+        {
+          "title": "4.4 Adjetivo: relação, característica, estado e avaliação",
+          "changeType": "new_section",
+          "contentMarkdown": "Adjetivos podem classificar o referente por **relação** (*produção industrial*), descrever **característica** observável, apresentar **estado** ou realizar **qualificação avaliativa**. A leitura depende do nome modificado, da posição, do grau e do cotexto.\n\nAdjetivos relacionais tendem a ocorrer depois do nome e a resistir a grau em sua leitura classificatória; são tendências, não definições. A anteposição pode alterar foco ou produzir avaliação, mas não torna qualquer adjetivo automaticamente subjetivo. Em predicativos como **uma mãe é uma mãe**, o substantivo pode adquirir leitura qualificativa sem mudar necessariamente para a classe adjetivo.\n\nEm prova, separe classe, função sintática e efeito de sentido.",
+          "limitsAndExceptions": [
+            "Posição pós-nominal e resistência a muito são testes auxiliares.",
+            "Predicativo pode ser substantivo, adjetivo ou outra expressão; verbo de ligação não decide a classe.",
+            "A classificação FGV de função adjetiva para certos substantivos predicativos é jurisprudência de banca, não consenso universal."
+          ],
+          "contrasts": [
+            "Aldeia indígena classifica por relação; grande trabalho pode avaliar.",
+            "Vida vivida apresenta particípio adjetival; tenho vivido forma locução verbal.",
+            "Nome próprio/comum é classificação nominal; sentido próprio/figurado é classificação semântica."
+          ],
+          "examTraps": [
+            "Chamar todo adjetivo anteposto de qualificador.",
+            "Transformar função predicativa em classe adjetivo.",
+            "Inferir avaliação sem pista no cotexto."
+          ],
+          "evidenceRefs": [
+            "source:29409116-e686-405e-adb2-132da79109b3#0-9393",
+            "source:29409116-e686-405e-adb2-132da79109b3#9393-18938",
+            "source:f8fe1f85-7e9c-4fe0-a7b7-22b076ecdcdf#9503-18876",
+            "source:adae58b7-0a25-45a6-9f94-c34b443795e5#19005-28489"
+          ]
+        },
+        {
+          "title": "4.5 Classe em contexto: forma não é classe",
+          "changeType": "expand",
+          "contentMarkdown": "Para classificar uma forma polifuncional, aplique o protocolo: localizar o núcleo, identificar o termo modificado, testar flexão, verificar posição e reconstruir o sentido.\n\n- **Falou baixo:** *baixo* modifica verbo e funciona como advérbio.\n- **Muro baixo:** *baixo* caracteriza nome e funciona como adjetivo.\n- **Recebi um não:** *não* ocupa posição nominal por conversão.\n- **Vivida experiência:** particípio com uso adjetival.\n- **Tenho vivido:** particípio dentro de locução verbal.\n\nForma invariável não equivale automaticamente a advérbio, e forma variável não identifica sozinha pronome ou adjetivo. A classe emerge da relação morfossintática no contexto.",
+          "limitsAndExceptions": [
+            "Flexão é diagnóstico auxiliar, não definição completa.",
+            "O artigo pode acompanhar núcleo elíptico sem substantivar lexicalmente o adjetivo.",
+            "A forma nominal mantém propriedades verbais quando rege complementos ou integra construção verbal."
+          ],
+          "contrasts": [
+            "Advérbio modifica verbo, adjetivo, outro advérbio ou enunciado; adjetivo liga-se a nome.",
+            "Conversão contextual versus derivação lexical.",
+            "Particípio verbal versus particípio adjetival."
+          ],
+          "examTraps": [
+            "Classificar pela forma isolada.",
+            "Chamar toda expressão precedida de artigo de substantivo lexical.",
+            "Contar oração adjetiva como vocábulo adjetivo quando o comando pede palavras."
+          ],
+          "evidenceRefs": [
+            "source:e87ddfd1-dcc8-46aa-97c2-da7ceaa131bf#0-9375",
+            "source:adae58b7-0a25-45a6-9f94-c34b443795e5#0-9566",
+            "source:adae58b7-0a25-45a6-9f94-c34b443795e5#9566-19005",
+            "source:bc32490b-7a17-4f7b-a1fa-e8b2a4099ee2#9350-18602"
+          ]
+        },
+        {
+          "title": "4.6 Quantificadores, indefinidos e advérbios polifuncionais",
+          "changeType": "new_section",
+          "contentMarkdown": "Formas como **muito, pouco, bastante, mais, menos** e **todo** precisam de seta e escopo. Ligadas a substantivo, podem quantificar de modo indefinido e variar: *muitas provas, bastantes recursos*. Ligadas a verbo, adjetivo ou advérbio, funcionam adverbialmente: *estudou muito, muito difícil, bem mais longe*.\n\n**Mais** também pode marcar cessação temporal em *não trabalha mais*, duração em *queria ficar mais* e adição como operador em *dois mais dois*. O valor do sintagma inteiro não determina a classe interna: em *muitas vezes*, o grupo é adverbial, mas *muitas* quantifica o substantivo *vezes*.\n\n```text\nFORMA → o que modifica? → flexiona? → qual o escopo? → classe e valor\n```",
+          "limitsAndExceptions": [
+            "Quantidade nominal versus intensidade adverbial é boa triagem, mas não inventário semântico completo.",
+            "Negação favorece leitura temporal de mais, sem torná-la automática em toda frase.",
+            "Operador matemático mais não deve ser forçado à classe pronome indefinido."
+          ],
+          "contrasts": [
+            "Mais dinheiro quantifica nome; mais cansada intensifica adjetivo; não aparece mais marca cessação.",
+            "Bastantes recursos varia; estudaram bastante permanece invariável.",
+            "Muitas vezes tem constituinte nominal interno e função adverbial externa."
+          ],
+          "examTraps": [
+            "Classificar muito sempre como advérbio.",
+            "Usar a classe do sintagma inteiro para classificar cada palavra.",
+            "Chamar queria ficar mais de intensidade sem testar duração."
+          ],
+          "evidenceRefs": [
+            "source:b5d1b846-bf94-4eaa-bacc-859806c25fed#9179-18638",
+            "source:85caef3d-c6c8-49b4-9742-4914f04c7b0c#9566-19073",
+            "source:85caef3d-c6c8-49b4-9742-4914f04c7b0c#19073-28631",
+            "source:85caef3d-c6c8-49b4-9742-4914f04c7b0c#28631-31263"
+          ]
+        },
+        {
+          "title": "4.7 Interrogativos, indefinidos e exclamativos",
+          "changeType": "new_section",
+          "contentMarkdown": "**Que, quem, qual, quanto** podem introduzir perguntas diretas ou indiretas. Quando acompanham nome, exercem emprego adjetivo; quando ocupam posição nominal, emprego substantivo. **Quando** e **onde**, no quadro tradicional adotado, são advérbios interrogativos porque exercem função circunstancial na oração.\n\nInterrogativos aproximam-se historicamente dos indefinidos, e gramáticas variam entre os rótulos *pronome interrogativo* e *indefinido interrogativo*. O conteúdo canônico deve mostrar a tradição escolhida. Exclamativos compartilham formas, mas realizam ato e estrutura diferentes: **Que semana!** não é pergunta indireta.\n\nA pontuação ajuda, mas perguntas indiretas e retóricas exigem sintaxe e contexto.",
+          "limitsAndExceptions": [
+            "Nem toda interrogativa usa ponto de interrogação.",
+            "Quando e onde não viram conjunções integrantes apenas porque a oração inteira pode equivaler a isso.",
+            "Pergunta retórica conserva estrutura interrogativa sem solicitar necessariamente informação nova."
+          ],
+          "contrasts": [
+            "Que semana? é interrogativo adjetivo; que felicidade! é exclamativo ligado ao nome.",
+            "Não sei quando virá contém advérbio interrogativo; quando vier, avise contém conjunção temporal.",
+            "Referência indefinida não é igual a força interrogativa."
+          ],
+          "examTraps": [
+            "Classificar que semana? como pronome indefinido comum.",
+            "Depender apenas do ponto de interrogação.",
+            "Tratar todo que intensificador como pronome."
+          ],
+          "evidenceRefs": [
+            "source:ce362f58-dff0-4c11-9385-f13b8e06e9ee#0-9498",
+            "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15#9410-18822",
+            "source:b600ecb5-55da-4ebf-8e79-03c6f37903d3#0-9382"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod5",
+      "sections": [
+        {
+          "title": "5.1 Pronomes pessoais: pessoa, forma e função",
+          "changeType": "correct",
+          "contentMarkdown": "A escolha pronominal começa pela função. Pronomes retos ocupam tipicamente o sujeito; oblíquos átonos e tônicos realizam complementos e outras relações previstas pela construção. **Ele/ela/nós/vós/eles/elas** podem ser retos ou oblíquos tônicos conforme função e presença de preposição.\n\nPessoa discursiva e pessoa gramatical não coincidem sempre: **você** designa o interlocutor, mas seleciona concordância de terceira pessoa. Misturas como *você te* são correntes no português brasileiro, enquanto questões de uniformidade formal podem exigir o paradigma de *tu* ou o de *você*.\n\nFluxo SuVeCA:\n```text\nverbo → função → regência → pessoa/referente → forma pronominal → colocação\n```",
+          "limitsAndExceptions": [
+            "Reto igual sujeito e oblíquo igual complemento são tendências centrais, com construções específicas a verificar.",
+            "Átono/tônico descreve dependência prosódica, não valor sintático por si.",
+            "Norma de concurso e uso brasileiro devem ser rotulados separadamente."
+          ],
+          "contrasts": [
+            "Tu é segunda pessoa morfológica; você é forma de tratamento com concordância de terceira.",
+            "Ele chegou tem pronome reto sujeito; falei com ele tem oblíquo tônico preposicionado.",
+            "Emprego identifica a forma; colocação decide sua posição."
+          ],
+          "examTraps": [
+            "Escolher pronome por proximidade.",
+            "Conjugar tu na terceira pessoa em questão de norma formal.",
+            "Tratar mistura de paradigmas como erro universal de toda variedade."
+          ],
+          "evidenceRefs": [
+            "source:f2d9a4c5-7030-437c-9899-66b05b54f383#0-9233",
+            "source:f2d9a4c5-7030-437c-9899-66b05b54f383#9233-17015",
+            "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#0-9397"
+          ]
+        },
+        {
+          "title": "5.2 Para eu, para mim e oblíquos tônicos",
+          "changeType": "expand",
+          "contentMarkdown": "Use **eu/tu** quando o pronome exerce sujeito do infinitivo: *o relatório é para eu analisar*. Use **mim/ti** quando a preposição rege o pronome como complemento: *o relatório veio para mim*.\n\nO teste não é olhar se há infinitivo depois do pronome; é reconstruir quem realiza o processo. Oblíquos tônicos preservam a preposição exigida: *de mim, em ti, com ele, a nós*. As formas *comigo, contigo, conosco, convosco* já incorporam a preposição.\n\n```text\npara + pronome + infinitivo\n→ o pronome é sujeito do infinitivo? eu/tu\n→ a preposição rege o pronome? mim/ti\n```",
+          "limitsAndExceptions": [
+            "A mera sequência para + pronome + infinitivo não resolve a função sem reconstrução sintática.",
+            "Infinitivo pode ter sujeito controlado ou expresso; não equivale automaticamente a sujeito indeterminado.",
+            "Explicações devem descrever função, sem estigmatizar variantes de uso."
+          ],
+          "contrasts": [
+            "Trouxe para mim: complemento da preposição.",
+            "Trouxe para eu revisar: eu é sujeito de revisar.",
+            "Com mim é inadequado na combinação comum; comigo já incorpora com."
+          ],
+          "examTraps": [
+            "Usar mim como sujeito de infinitivo.",
+            "Trocar automaticamente mim por eu sempre que houver verbo depois.",
+            "Chamar todo infinitivo de impessoal."
+          ],
+          "evidenceRefs": [
+            "source:12ec4fa8-223c-41ab-b347-5d6932a95409#9560-12796",
+            "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#9397-18939",
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#0-8875"
+          ]
+        },
+        {
+          "title": "5.3 Pronominalização: o/a, lhe e formas tônicas",
+          "changeType": "new_section",
+          "contentMarkdown": "Pronominalizar exige identificar exatamente o constituinte destacado. **O/a/os/as** retomam objeto direto no quadro central; **lhe/lhes** realizam dativo, tipicamente complemento introduzido por **a/para** quando a construção o licencia; formas tônicas preservam a preposição exigida: *dele, com ela, para nós, a ele*.\n\nNão basta encontrar uma preposição dentro do sintagma. Descubra qual núcleo rege o termo e qual é o papel semântico. **Lhe** não substitui automaticamente qualquer complemento preposicionado e não se limita a referente humano: *obedecer-lhe* pode retomar uma norma. Verbos mudam de regência conforme o sentido; consulte a construção efetiva.\n\n```text\nconstituinte → função → preposição regida → papel → referente → pronome\n```",
+          "limitsAndExceptions": [
+            "Objeto direto preposicionado existe; presença de preposição não prova objeto indireto.",
+            "Me/te/se/nos/vos podem realizar funções distintas conforme regência e reflexividade.",
+            "O teste com o/lhe é diagnóstico sintático e pode não preservar sozinho pessoa, reflexividade ou naturalidade."
+          ],
+          "contrasts": [
+            "Vi o relatório → vi-o; obedeci à norma → obedeci-lhe.",
+            "Gosto dela preserva de; não se substitui por lhe.",
+            "O/a codifica objeto direto; lhe codifica dativo licenciado, não qualquer termo com preposição."
+          ],
+          "examTraps": [
+            "Usar lhe para complemento em de ou em.",
+            "Escolher o pronome pelo gênero de palavra interna, não pelo núcleo retomado.",
+            "Copiar a função que o referente exercia em outra oração."
+          ],
+          "evidenceRefs": [
+            "source:f2d9a4c5-7030-437c-9899-66b05b54f383#9233-17015",
+            "source:556f901b-ac7a-4398-b286-44efe4746e06#0-9437",
+            "source:f8f129f8-b843-47ad-be73-c2faf8ac87c6#0-9289",
+            "source:4a05a404-0e63-4bca-a378-9a159ff544a6#28401-37731"
+          ]
+        },
+        {
+          "title": "5.4 Alomorfia de o/a e dativo possessivo",
+          "changeType": "new_section",
+          "contentMarkdown": "Na ênclise, **o/a/os/as** mudam conforme o final verbal:\n\n- final **r/s/z**: cai a consoante e surgem *lo/la/los/las* — *fazer + o → fazê-lo*;\n- final nasal: surgem *no/na/nos/nas* — *tem + os → tem-nos*;\n- demais finais: mantém-se *o/a/os/as*.\n\nEssas alterações são exclusivas da ênclise e não se aplicam a **lhe** nem à próclise.\n\nO clítico também pode ter leitura possessiva: *consultar-lhe as preferências* pode equivaler a *consultar as suas preferências*. Teste **seu/dele** para posse e **a ele/para ele** para dativo. Registre que gramáticas e bancas variam entre os rótulos *dativo possessivo*, *adjunto adnominal* e outras análises.",
+          "limitsAndExceptions": [
+            "A nasalidade relevante é a do final verbal, não qualquer som interno.",
+            "Lo/no não aparecem na próclise.",
+            "O teste possessivo deve preservar o sentido, não apenas produzir frase gramatical."
+          ],
+          "contrasts": [
+            "Fazer + o → fazê-lo; tem + os → tem-nos; viu + a → viu-a.",
+            "Não o fez mantém o em próclise.",
+            "Lhe como dativo a ele versus lhe como possuidor seu/dele."
+          ],
+          "examTraps": [
+            "Aplicar -lo/-no a lhe.",
+            "Acrescentar n na próclise.",
+            "Classificar todo lhe ao lado do verbo como objeto indireto."
+          ],
+          "evidenceRefs": [
+            "source:12ec4fa8-223c-41ab-b347-5d6932a95409#0-9560",
+            "source:b7323ee8-1c2a-4c7e-947a-4d95dc95cb6c#28230-34320",
+            "source:9332096a-c785-44b6-abba-bb6e904a034d#0-9461",
+            "source:9332096a-c785-44b6-abba-bb6e904a034d#9461-12301"
+          ]
+        },
+        {
+          "title": "5.5 Demonstrativos, possessivos, indefinidos e interrogativos",
+          "changeType": "correct",
+          "contentMarkdown": "Demonstrativos podem localizar no espaço, no tempo e no texto. A tradição formal associa **este** ao que será anunciado e **esse** ao que já foi retomado; em contraste de dois referentes, **este** tende a recuperar o mais próximo e **aquele**, o mais distante. O uso brasileiro neutraliza parte dessas oposições, portanto a Base deve separar convenção normativa, preferência de clareza e uso efetivo.\n\nPossessivos têm duas relações: concordam com a coisa possuída e remetem ao possuidor. Indefinidos introduzem quantidade ou identidade imprecisa; interrogativos estruturam perguntas diretas ou indiretas. Cada forma deve ser classificada no contexto.\n\nEm enumerações de três ou mais referentes, repetir nomes ou usar ordinais é estratégia de clareza, não obrigação gramatical universal.",
+          "limitsAndExceptions": [
+            "Não se deve proibir esse apenas porque há dois referentes; saliência discursiva pode resolver a retomada.",
+            "Naqueles tempos pode combinar anáfora e orientação temporal.",
+            "Que semana? é interrogativo, não indefinido comum."
+          ],
+          "contrasts": [
+            "Concordância do possessivo aponta para o possuído; referência aponta para o possuidor.",
+            "Este catafórico/esse anafórico é convenção formal; o uso real admite neutralização.",
+            "Interrogativo busca ou estrutura informação; indefinido mantém referência vaga."
+          ],
+          "examTraps": [
+            "Buscar o possuidor pela flexão do pronome.",
+            "Transformar recomendação de desambiguação em proibição absoluta.",
+            "Classificar demonstrativo pela forma sem localizar seu referente."
+          ],
+          "evidenceRefs": [
+            "source:aa45b8a7-a6b1-4140-920d-2300013c5e9d#9225-18792",
+            "source:b2d48344-79ad-47c1-b7d8-0d196e3f262b#0-9563",
+            "source:c6e0e7dc-3d97-445b-a611-5d65122faddf#18940-27747",
+            "source:722d6a3f-0270-479c-bab8-624d42291f5a#0-9534"
+          ]
+        },
+        {
+          "title": "5.6 Pronomes relativos: antecedente, função e regência",
+          "changeType": "expand",
+          "contentMarkdown": "Pronome relativo realiza duas operações: retoma antecedente e exerce função dentro da oração que introduz.\n\n1. delimite a oração relativa;\n2. localize candidatos a antecedente;\n3. substitua o relativo pelo antecedente dentro da subordinada;\n4. reconstrua a SuVeCA da subordinada;\n5. preserve a preposição exigida pela função.\n\n```text\nA norma [a que obedeci]\n→ obedeci à norma\n→ que = objeto indireto; a = preposição regida\n```\n\n**Que** relativo distingue-se de **que** integrante: o relativo tem antecedente e função interna; a integrante apenas introduz oração substantiva. **Quando** pode ser relativo com antecedente temporal, advérbio interrogativo ou conjunção temporal. **Onde/aonde/de onde** dependem de antecedente locativo e das preposições **em/a/de** exigidas pela construção.",
+          "limitsAndExceptions": [
+            "Substituição por o qual é teste auxiliar e pode exigir preposição ou ajuste de artigo.",
+            "Antecedente não é decidido só por proximidade nem pela coordenação com e.",
+            "Onde para antecedente abstrato recebe tratamentos diferentes; em prova normativa, priorize referência locativa."
+          ],
+          "contrasts": [
+            "O livro que li: relativo e objeto direto; espero que venha: integrante sem função interna.",
+            "O dia quando chegou: relativo temporal; não sei quando chegou: advérbio interrogativo.",
+            "Onde responde a em; aonde, a; de onde, de."
+          ],
+          "examTraps": [
+            "Trocar a oração inteira por isso e concluir que todo introdutor é conjunção integrante.",
+            "Usar aonde apenas porque há ideia de movimento.",
+            "Olhar para o verbo da principal quando o relativo pertence à subordinada."
+          ],
+          "evidenceRefs": [
+            "source:b712371c-6e5f-40a7-bad1-e64cdea2fc33#0-9496",
+            "source:b712371c-6e5f-40a7-bad1-e64cdea2fc33#9496-18984",
+            "source:1fba790d-13e2-4e9b-961e-bfb6c06f8ed4#0-9470",
+            "source:1fba790d-13e2-4e9b-961e-bfb6c06f8ed4#9470-14227"
+          ]
+        },
+        {
+          "title": "5.7 Cujo e referenciação possessiva",
+          "changeType": "expand",
+          "contentMarkdown": "**Cujo** conecta possuidor e coisa possuída. Retoma o antecedente possuidor, concorda com o nome possuído que vem depois e não admite artigo imediatamente após. A preposição exigida pelo termo da oração relativa vem antes do relativo.\n\n- *o autor cujo livro li*;\n- *a autora cujas ideias discutimos*;\n- *a norma a cujas regras obedeci*.\n\nPara analisar, desenhe duas setas: **cujo → antecedente possuidor** e **cujo → nome possuído para concordância**. Depois reconstrua a função do grupo possuído dentro da subordinada e verifique a regência.",
+          "limitsAndExceptions": [
+            "A relação de posse pode abranger autoria, pertencimento e relações associativas licenciadas pelo contexto.",
+            "A preposição antes de cujo decorre da função posterior, não do antecedente.",
+            "Coordenação de relativos favorece paralelismo, mas não obriga identidade de antecedente em toda estrutura."
+          ],
+          "contrasts": [
+            "Cujo livro concorda com livro, mas retoma o autor.",
+            "Cujo não aceita artigo: cujo livro, não cujo o livro.",
+            "A cujas regras preserva obedecer a."
+          ],
+          "examTraps": [
+            "Concordar cujo com o possuidor.",
+            "Inserir artigo depois de cujo.",
+            "Omitir a preposição regida pelo termo da relativa."
+          ],
+          "evidenceRefs": [
+            "source:326d714a-1907-452e-b4f8-275fc05946a1#0-9039",
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#8875-18152"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod13",
+      "sections": [
+        {
+          "title": "13.1 Próclise, ênclise e mesóclise",
+          "changeType": "correct",
+          "contentMarkdown": "Colocação pronominal trata apenas de clíticos átonos. **Próclise** posiciona-os antes do verbo; **ênclise**, depois; **mesóclise**, no interior de futuro do presente ou do pretérito. Antes de posicionar, confirme que o pronome escolhido é compatível com função, regência, pessoa e referente.\n\nNa norma formal tradicional, evita-se clítico no início de período e não se faz ênclise a forma futura nem a particípio. Sem atração, o futuro pode receber mesóclise em registro conservador; fora do início, a próclise também pode ser possível. A fala e a escrita brasileira corrente usam próclise inicial com frequência, o que deve ser descrito como variação, não como defeito linguístico universal.\n\n```text\nEMPREGO correto → fator de atração → forma verbal → posição → grafia\n```",
+          "limitsAndExceptions": [
+            "Mesóclise é possibilidade formal em contexto delimitado, não obrigação geral com futuro.",
+            "A restrição tradicional incide sobre início de período, não automaticamente sobre toda oração depois de vírgula.",
+            "Pronomes tônicos como mim/ti não entram nas regras de colocação de clíticos."
+          ],
+          "contrasts": [
+            "Me diga é corrente no português brasileiro; diga-me é a forma conservadora esperada sem atração.",
+            "Não me dirá usa próclise; dir-me-á usa mesóclise; dirá-me é vedado na norma tradicional.",
+            "Emprego responde qual pronome; colocação responde onde ele fica."
+          ],
+          "examTraps": [
+            "Afirmar que futuro sempre exige mesóclise.",
+            "Fazer ênclise ao particípio.",
+            "Tratar qualquer vírgula como reinício absoluto de período."
+          ],
+          "evidenceRefs": [
+            "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#0-8964",
+            "source:c717d05b-f5ad-4aad-89ef-f510c4eb1ca1#0-9360",
+            "source:439678f2-6362-47e1-87e1-fccecc70aa38#9498-18988",
+            "source:76e21868-e017-4e16-bf42-c3876f109c92#9591-19085"
+          ]
+        },
+        {
+          "title": "13.2 Fatores de próclise e seu alcance",
+          "changeType": "correct",
+          "contentMarkdown": "Favorecem ou exigem próclise, quando ligados ao verbo e sem pausa que encerre seu alcance:\n\n1. negação: *não, nunca, jamais, ninguém, nada*;\n2. relativos: *que, quem, cujo, o qual, onde*;\n3. interrogativos e indefinidos;\n4. demonstrativos em construções reconhecidas pela tradição normativa;\n5. conjunções subordinativas;\n6. advérbios pertinentes sem pausa.\n\nA regra não é **toda palavra invariável atrai**. Preposições e conjunções coordenativas não formam um bloco uniforme de atração. A pausa, a distância, a forma verbal e a estrutura da oração precisam ser consideradas. Em *Hoje, disseram-me o resultado*, a pausa separa o advérbio; em *Hoje me disseram*, ele permanece no mesmo domínio.",
+          "limitsAndExceptions": [
+            "A lista tradicional mistura casos obrigatórios e preferenciais; o material deve rotular a força de cada fator.",
+            "Preposição + infinitivo e em + gerúndio exigem análises próprias, não regra geral de atração.",
+            "Demonstrativos podem favorecer próclise; sua variabilidade não é argumento para excluí-los."
+          ],
+          "contrasts": [
+            "Não me avisou tem negação atrativa; porém avisou-me pode admitir ênclise porque porém é coordenativo.",
+            "Hoje me disseram mantém domínio; hoje, disseram-me introduz pausa.",
+            "Pronome relativo atrai; pronome reto sujeito não é fator obrigatório por si."
+          ],
+          "examTraps": [
+            "Aplicar atração a qualquer palavra invariável.",
+            "Ignorar a pausa depois do advérbio.",
+            "Justificar atração ou não atração apenas pela variabilidade da palavra."
+          ],
+          "evidenceRefs": [
+            "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#8964-18204",
+            "source:6d96727f-7295-45b1-b0a8-daecc96a94ed#9545-14662",
+            "source:c717d05b-f5ad-4aad-89ef-f510c4eb1ca1#0-9360",
+            "source:439678f2-6362-47e1-87e1-fccecc70aa38#18988-28417"
+          ]
+        },
+        {
+          "title": "13.3 Infinitivo, gerúndio, particípio e futuro",
+          "changeType": "new_section",
+          "contentMarkdown": "Formas verbais criam restrições próprias. O infinitivo admite frequentemente próclise ou ênclise: *para me enviar / para enviar-me*. O gerúndio admite ênclise em construções adequadas. O particípio rejeita clítico enclítico: não se escreve *contado-lhe*. Formas de futuro rejeitam ênclise; com fator atrativo recebem próclise, e sem atração podem receber mesóclise no padrão conservador.\n\nA grafia confirma a análise:\n- *não me encontrarão* — próclise;\n- *encontrar-me-ão* — mesóclise;\n- *encontrarão-me* — inadequada na norma tradicional.\n\nApossínclise, com clítico entre dois elementos atrativos, é construção rara e avançada; deve ser indexada por registro, não ensinada como padrão produtivo.",
+          "limitsAndExceptions": [
+            "Infinitivo sempre aceita ênclise é atalho útil, não licença para ignorar forma, regência e construção.",
+            "Ênclise ao gerúndio distante pode ser formalmente possível, mas naturalidade e banca variam.",
+            "Apossínclise pertence a registro formal raro ou lusitano."
+          ],
+          "contrasts": [
+            "Para me enviar e para enviar-me são variantes formais no caso central.",
+            "Tinha-lhe contado liga o clítico ao auxiliar; tinha contado-lhe é vedado pelo particípio.",
+            "Não se reportará usa próclise; reportar-se-á usa mesóclise."
+          ],
+          "examTraps": [
+            "Fazer ênclise ao futuro.",
+            "Fazer ênclise ao particípio.",
+            "Transformar licença do infinitivo em obrigação de ênclise."
+          ],
+          "evidenceRefs": [
+            "source:b70a4e33-8796-43b9-a6ab-ca358c6e3f05#18204-22343",
+            "source:aa73fde7-0a3e-48f0-a7df-4f9daea12b81#9541-18817",
+            "source:76e21868-e017-4e16-bf42-c3876f109c92#9591-19085",
+            "source:76e21868-e017-4e16-bf42-c3876f109c92#19085-25665"
+          ]
+        },
+        {
+          "title": "13.4 Colocação em locuções verbais",
+          "changeType": "new_section",
+          "contentMarkdown": "Em locuções, identifique auxiliar, principal, forma nominal e fator de atração. O clítico pode relacionar-se ao auxiliar ou ao principal, mas as posições não têm igual aceitação em todas as normas.\n\nSem atração, compare:\n- *devo-me calar* — ênclise ao auxiliar;\n- *devo me calar* — próclise ao principal no padrão brasileiro;\n- *devo calar-me* — ênclise ao infinitivo;\n- *me devo calar* — próclise ao auxiliar, dependente da posição e do registro.\n\nCom atração, evita-se ênclise ao auxiliar: *ninguém me queria ouvir*, *ninguém queria me ouvir*, *ninguém queria ouvir-me*. Em auxiliar futuro, diferencie *ter-lhe-iam contado* de *teriam lhe contado*; **teriam-lhe contado** é ênclise indevida ao futuro, e **teriam contado-lhe** é ênclise indevida ao particípio.",
+          "limitsAndExceptions": [
+            "Locução verbal não se define apenas por dois verbos com o mesmo sujeito.",
+            "A posição medial sem hífen representa análise brasileira junto ao principal; com hífen, liga-se ao auxiliar.",
+            "Atração, distância e forma nominal devem ser avaliadas em conjunto."
+          ],
+          "contrasts": [
+            "Devo-me calar liga ao auxiliar; devo me calar liga ao principal.",
+            "Ter-lhe-iam contado é mesóclise no auxiliar; teriam lhe contado é posição medial brasileira.",
+            "Ninguém queria-me ouvir é inadequado sob atração; ninguém queria ouvir-me usa ênclise ao infinitivo."
+          ],
+          "examTraps": [
+            "Aceitar teriam-lhe contado.",
+            "Confundir clítico medial sem hífen com ênclise ao auxiliar.",
+            "Tratar todas as posições como equivalentes em qualquer variedade."
+          ],
+          "evidenceRefs": [
+            "source:aa73fde7-0a3e-48f0-a7df-4f9daea12b81#0-9541",
+            "source:aa73fde7-0a3e-48f0-a7df-4f9daea12b81#9541-18817",
+            "source:76e21868-e017-4e16-bf42-c3876f109c92#0-9591",
+            "source:65a8d3c1-027d-43cc-9e8f-8b29b15e6804#18609-27791"
+          ]
+        },
+        {
+          "title": "13.5 Funções de se",
+          "changeType": "expand",
+          "contentMarkdown": "**Se** pode ser pronome reflexivo ou recíproco, parte integrante do verbo, partícula apassivadora, índice de indeterminação, conjunção integrante, conjunção condicional e assumir outros valores conectivos. A classificação exige delimitar a oração antes de olhar a transitividade.\n\nProtocolo:\n1. verifica se *se* introduz oração;\n2. testa reflexividade ou reciprocidade;\n3. identifica o sentido e a transitividade do verbo;\n4. procura termo paciente;\n5. tenta passiva com **ser + particípio**;\n6. confirma concordância.\n\n*Vendem-se livros → livros são vendidos*: partícula apassivadora e concordância com sujeito paciente. *Precisa-se de servidores*: índice de indeterminação e verbo no singular. *Se chover, sairemos*: conjunção condicional.",
+          "limitsAndExceptions": [
+            "Transitividade sozinha não classifica se reflexivo, recíproco ou integrante do verbo.",
+            "Se factual pode adquirir leituras causal, concessiva, temporal ou contrastiva conforme o período.",
+            "A paráfrase passiva deve preservar o sentido e não apenas produzir sequência gramatical."
+          ],
+          "contrasts": [
+            "Vendem-se casas admite passiva; precisa-se de técnicos não.",
+            "Os colegas se abraçaram é recíproco, não passivo.",
+            "Não sei se virá contém integrante; se vier, avise contém condicional."
+          ],
+          "examTraps": [
+            "Classificar por VTD antes de testar reflexividade.",
+            "Flexionar o verbo com termo preposicionado após índice de indeterminação.",
+            "Chamar todo se introdutor de condição."
+          ],
+          "evidenceRefs": [
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#45496-52861",
+            "source:5e778723-4680-46c5-a39a-50df45a51d03#79571-89148"
+          ]
+        },
+        {
+          "title": "13.6 Funções de que",
+          "changeType": "correct",
+          "contentMarkdown": "**Que** pode ser pronome relativo, conjunção integrante, pronome interrogativo, intensificador/exclamativo, partícula de realce ou conjunção com valores causal, consecutivo, comparativo, concessivo, final e outros.\n\nTriagem ordenada:\n1. há antecedente retomado e função dentro da oração? → relativo;\n2. a oração inteira substitui-se por **isso**, sem antecedente retomado? → integrante;\n3. há estrutura interrogativa ou exclamativa? → examine pronome/advérbio e termo modificado;\n4. há correlação como *tanto... que*? → relação consecutiva;\n5. a retirada é estruturalmente possível? → examine realce/clivagem e o efeito de foco;\n6. nos demais casos, reconstrua a relação entre orações.\n\nO teste de supressão pode preservar a proposição e alterar foco ou expressividade; expletivo não significa semanticamente invisível em qualquer camada.",
+          "limitsAndExceptions": [
+            "Troca por isso recai sobre a oração inteira, não sobre que isolado.",
+            "Imperativo favorece leitura explicativa em certos períodos, mas não é algoritmo infalível.",
+            "Clivagem e realce possuem estrutura informacional mesmo quando o conteúdo básico permanece."
+          ],
+          "contrasts": [
+            "O livro que li: relativo; sei que passou: integrante.",
+            "Que semana? é interrogativo; que felicidade! é exclamativo.",
+            "Estudou tanto que passou forma correlação consecutiva."
+          ],
+          "examTraps": [
+            "Classificar todo que sem antecedente como integrante.",
+            "Chamar que semana? de indefinido comum.",
+            "Dizer que estrutura de realce não altera nenhum efeito de sentido."
+          ],
+          "evidenceRefs": [
+            "source:b712371c-6e5f-40a7-bad1-e64cdea2fc33#9496-18984",
+            "source:b712371c-6e5f-40a7-bad1-e64cdea2fc33#18984-25045",
+            "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15#0-9410",
+            "source:770ef84c-e18a-43a0-8057-eca8c5bc7c15#9410-18822"
+          ]
+        }
+      ]
+    }
+  ]
+}

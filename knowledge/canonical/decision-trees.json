@@ -1,0 +1,1324 @@
+{
+  "schemaVersion": "2.0.0",
+  "kind": "suveca-canonical-decision-trees",
+  "trees": {
+    "crase": {
+      "id": "crase",
+      "title": "Fluxo Central da Crase (À / ÀS)",
+      "description": "Analise a fusão de preposição e artigo/demonstrativo nos casos centrais; locuções e casos especiais exigem verificação própria.",
+      "startNodeId": "node_1",
+      "nodes": {
+        "node_1": {
+          "id": "node_1",
+          "title": "Passo 1 — Exigência de Preposição",
+          "question": "O termo anterior (verbo ou nome) exige a preposição \"A\"?",
+          "options": [
+            {
+              "label": "NÃO (ex: VTD \"Comprei\", \"Vi\", \"Analisei\")",
+              "result": "SEM CRASE POR REGÊNCIA NESTE FLUXO.",
+              "ruleExplanation": "Sem preposição exigida pelo termo regente, não ocorre a fusão analisada por este caminho. Antes de concluir, verifique locuções femininas, horas e demais casos especiais, que não dependem apenas desta pergunta."
+            },
+            {
+              "label": "SIM (ex: \"Obedeceu\", \"Refiro-me\", \"Favorável\")",
+              "targetNodeId": "node_2"
+            }
+          ]
+        },
+        "node_2": {
+          "id": "node_2",
+          "title": "Passo 2 — Natureza do Termo Seguinte",
+          "question": "O termo seguinte aceita artigo feminino \"A/AS\" ou é um demonstrativo (Aquele/Aquela/Aquilo)?",
+          "options": [
+            {
+              "label": "É VERBO, PALAVRA MASCULINA ou PRONOME PESSOAL/INDEFINIDO",
+              "result": "SEM CRASE NESTE CASO CENTRAL.",
+              "ruleExplanation": "Não ocorre a fusão antes de verbo (\"começou a falar\"), da maioria das palavras masculinas (\"a prazo\") nem de pronomes que rejeitam artigo (\"referiu-se a ela\", \"a qualquer norma\"). Expressões especiais, como \"à moda de\" subentendida, devem ser verificadas separadamente."
+            },
+            {
+              "label": "É NOME FEMININO DETERMINADO ou DEMONSTRATIVO (Aquele/Aquela)",
+              "targetNodeId": "node_3"
+            }
+          ]
+        },
+        "node_3": {
+          "id": "node_3",
+          "title": "Passo 3 — Testes Rápidos de Confirmação",
+          "question": "Ao substituir a palavra feminina por uma masculina equivalente, surge \"AO\"? (Ou: Ir A, voltar DA?)",
+          "options": [
+            {
+              "label": "SIM! (\"Obedeceu à norma\" -> \"Obedeceu ao regulamento\")",
+              "result": "CRASE CONFIRMADA NESTE CONTEXTO (À / ÀS)",
+              "ruleExplanation": "A equivalência confirma a união da preposição a exigida pelo termo regente com o artigo feminino a admitido pelo termo regido.",
+              "examples": [
+                "Obedeceu à norma.",
+                "Refiro-me àquelas diretrizes."
+              ]
+            },
+            {
+              "label": "NÃO! Surge apenas \"O\" ou \"DE\"",
+              "result": "SEM CRASE!",
+              "ruleExplanation": "Não houve a presença do artigo feminino.",
+              "examples": [
+                "Vou a Brasília (volto de Brasília)."
+              ]
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "crase",
+          "regência",
+          "preposição"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v1.",
+          "Parecer auditável: semantic-review-v3."
+        ]
+      }
+    },
+    "que": {
+      "id": "que",
+      "title": "Classificação da Palavra \"QUE\"",
+      "description": "Classifique QUE por construção, antecedente, função interna, substituição e relação contextual; a forma isolada não determina a classe.",
+      "startNodeId": "node_precheck",
+      "nodes": {
+        "node_precheck": {
+          "id": "node_precheck",
+          "title": "Passo 1 — Construção antes da palavra isolada",
+          "question": "O QUE integra uma construção fixa ou correlativa identificável, como ter que, tanto... que, mais... que, por que ou é que?",
+          "options": [
+            {
+              "label": "SIM — há uma construção maior",
+              "targetNodeId": "node_construcao"
+            },
+            {
+              "label": "NÃO — o QUE introduz sozinho uma oração ou pergunta",
+              "targetNodeId": "node_1"
+            }
+          ]
+        },
+        "node_construcao": {
+          "id": "node_construcao",
+          "title": "Resultado — analisar a construção completa",
+          "question": "Qual relação a construção completa realiza no contexto?",
+          "options": [
+            {
+              "label": "TER QUE + infinitivo ou construção focal É QUE",
+              "result": "CONSTRUÇÃO VERBAL OU FOCAL; NÃO CLASSIFICAR QUE ISOLADAMENTE",
+              "ruleExplanation": "Em ter que, a análise de auxiliaridade e obrigação depende da construção verbal; em é que, o segmento pode focalizar um constituinte. Registre a análise teórica adotada pela banca."
+            },
+            {
+              "label": "CORRELATIVA ou LOCUÇÃO CONJUNTIVA (tanto... que, ainda que, desde que)",
+              "result": "PARTE DE CONSTRUÇÃO CONJUNTIVA/CORRELATIVA",
+              "ruleExplanation": "Classifique a relação produzida pelo conjunto — consequência, concessão, condição, comparação — e não por QUE sozinho."
+            },
+            {
+              "label": "A segmentação admite mais de uma análise",
+              "result": "AMBÍGUO / DEPENDE DA CONVENÇÃO TEÓRICA",
+              "ruleExplanation": "Preserve as duas segmentações, formule paráfrases e registre a nomenclatura específica da banca quando houver."
+            }
+          ]
+        },
+        "node_1": {
+          "id": "node_1",
+          "title": "Passo 2 — Antecedente e função interna",
+          "question": "O QUE retoma antecedente nominal expresso ou recuperável e ocupa uma função sintática na oração que introduz?",
+          "options": [
+            {
+              "label": "SIM! Retoma um nome anterior (\"O livro que li\")",
+              "targetNodeId": "node_relativo"
+            },
+            {
+              "label": "NÃO! Não retoma antecedente (\"Espero que você venha\")",
+              "targetNodeId": "node_2"
+            }
+          ]
+        },
+        "node_2": {
+          "id": "node_2",
+          "title": "Passo 3 — O teste do ISSO",
+          "question": "É possível substituir toda a oração iniciada pelo \"QUE\" pela palavra \"ISSO\"?",
+          "options": [
+            {
+              "label": "SIM! (\"Espero que você venha\" -> \"Espero ISSO\")",
+              "result": "CONJUNÇÃO INTEGRANTE!",
+              "ruleExplanation": "O \"QUE\" atua como conjunção integrante introduzindo oração subordinada substantiva.",
+              "examples": [
+                "Sei que você passou.",
+                "É fundamental que todos leiam."
+              ]
+            },
+            {
+              "label": "NÃO!",
+              "targetNodeId": "node_outros"
+            }
+          ]
+        },
+        "node_relativo": {
+          "id": "node_relativo",
+          "title": "Resultado — pronome relativo",
+          "question": "Qual função o QUE exerce dentro da oração relativa e o verbo dessa oração exige preposição?",
+          "options": [
+            {
+              "label": "A função e a regência foram reconstruídas",
+              "result": "PRONOME RELATIVO",
+              "ruleExplanation": "Separe a função do antecedente na oração principal da função de QUE na subordinada. Se o regente interno exigir preposição, ela deve anteceder o relativo.",
+              "examples": [
+                "O candidato QUE estudou passou.",
+                "A regra DE QUE preciso..."
+              ]
+            },
+            {
+              "label": "Não há antecedente nominal expresso, mas há estrutura relativa livre ou antecedente resumitivo",
+              "result": "RELATIVA LIVRE/SEMILIVRE OU ANÁLISE DEPENDENTE DA CONVENÇÃO",
+              "ruleExplanation": "Não descarte automaticamente a leitura relativa. Explicite a estrutura recuperada e a terminologia adotada."
+            }
+          ]
+        },
+        "node_outros": {
+          "id": "node_outros",
+          "title": "Outras Funções do QUE",
+          "question": "O QUE introduz pergunta, estabelece relação adverbial ou apenas participa de focalização/realce?",
+          "options": [
+            {
+              "label": "Equivale a que coisa/qual e introduz pergunta direta ou indireta",
+              "result": "PRONOME OU DETERMINANTE INTERROGATIVO",
+              "ruleExplanation": "Confirme a função sintática que a forma exerce na pergunta."
+            },
+            {
+              "label": "Liga proposições com valor causal, consecutivo, comparativo ou outro valor adverbial",
+              "result": "CONJUNÇÃO OU PARTE DE LOCUÇÃO CONJUNTIVA",
+              "ruleExplanation": "Use a relação entre as proposições e a construção completa; a palavra isolada não basta."
+            },
+            {
+              "label": "Pode ser realce/expletivo ou a evidência não decide",
+              "result": "REALCE/EXPLETIVO OU AMBÍGUO — DEPENDE DO CONTEXTO E DA CONVENÇÃO",
+              "ruleExplanation": "Teste a retirada, o foco e a preservação de sentido. Não force rótulo único quando duas análises permanecem viáveis."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "funções do que",
+          "pronome relativo",
+          "conjunção integrante",
+          "orações subordinadas"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:5536abac-3c88-4434-a8ed-9e0e1389929f#0-9415; source:5536abac-3c88-4434-a8ed-9e0e1389929f#9415-15381; source:3a8a4728-ca82-4241-9d65-c680dd9604bb#0-9575; source:3a8a4728-ca82-4241-9d65-c680dd9604bb#9575-19059."
+        ]
+      }
+    },
+    "se": {
+      "id": "se",
+      "title": "Funções da Palavra \"SE\"",
+      "description": "Classifique SE por sentido, correferência, lexicalização, estrutura argumental, paráfrase e concordância, admitindo voz média e análises concorrentes.",
+      "startNodeId": "node_semantico",
+      "nodes": {
+        "node_semantico": {
+          "id": "node_semantico",
+          "title": "Passo 1 — Correferência e reciprocidade",
+          "question": "O sujeito pratica o processo sobre si mesmo ou os participantes agem uns sobre os outros?",
+          "options": [
+            {
+              "label": "SIM — admite a si mesmo/a si mesmos",
+              "result": "PRONOME REFLEXIVO",
+              "ruleExplanation": "Confirme a correferência entre sujeito e complemento e a função sintática exercida por SE."
+            },
+            {
+              "label": "SIM — admite um ao outro/uns aos outros",
+              "result": "PRONOME RECÍPROCO",
+              "ruleExplanation": "A leitura exige participantes plurais e ação recíproca; a transitividade isolada não decide."
+            },
+            {
+              "label": "NÃO ou os testes não preservam o sentido",
+              "targetNodeId": "node_lexical_medio"
+            }
+          ]
+        },
+        "node_lexical_medio": {
+          "id": "node_lexical_medio",
+          "title": "Passo 2 — Verbo pronominal, voz média ou anticausativa",
+          "question": "Retirar SE altera o lexema/a regência, ou a construção apresenta mudança espontânea sem agente expresso?",
+          "options": [
+            {
+              "label": "A retirada altera o verbo, o sentido ou a regência (arrepender-se, referir-se)",
+              "result": "PARTE INTEGRANTE DE VERBO PRONOMINAL",
+              "ruleExplanation": "Registre o verbo com sua pronominalidade e moldura de regência; não aplique o teste de passiva."
+            },
+            {
+              "label": "O evento ocorre com o participante afetado, sem agente focalizado (a porta se abriu)",
+              "result": "VOZ MÉDIA / CONSTRUÇÃO ANTICAUSATIVA",
+              "ruleExplanation": "A nomenclatura varia entre gramáticas. Registre o perfil teórico e não confunda automaticamente com passiva sintética."
+            },
+            {
+              "label": "NÃO — SE não é exigido pelo lexema e não há leitura média clara",
+              "targetNodeId": "node_1"
+            },
+            {
+              "label": "As duas análises permanecem possíveis",
+              "result": "AMBÍGUO — VERBO PRONOMINAL, MÉDIO OU OUTRA FUNÇÃO",
+              "ruleExplanation": "Compare as paráfrases, a presença de agente e o comportamento lexical; mantenha a divergência se o contexto não resolver."
+            }
+          ]
+        },
+        "node_1": {
+          "id": "node_1",
+          "title": "Passo 3 — Estrutura argumental",
+          "question": "Há VTD/VTDI e um termo sem preposição que possa ser paciente e sujeito da paráfrase passiva?",
+          "options": [
+            {
+              "label": "SIM — há candidato a sujeito paciente",
+              "targetNodeId": "node_passiva_teste"
+            },
+            {
+              "label": "NÃO — a construção é VTI, VI ou copulativa e admite agente humano genérico",
+              "targetNodeId": "node_indeterminacao_teste"
+            },
+            {
+              "label": "A transitividade ou o papel do termo é controvertido",
+              "result": "AMBÍGUO / DEPENDE DA CONVENÇÃO DE ANÁLISE",
+              "ruleExplanation": "Não decida por presença de preposição apenas. Registre regência, concordância, paráfrases e posição documentada da banca."
+            }
+          ]
+        },
+        "node_passiva_teste": {
+          "id": "node_passiva_teste",
+          "title": "Passo 2 — Teste da passiva",
+          "question": "É possível transformar a construção em SER + PARTICÍPIO, preservando o sentido e convertendo o termo sem preposição em sujeito paciente?",
+          "options": [
+            {
+              "label": "SIM (\"Vendem-se casas\" -> \"Casas são vendidas\")",
+              "targetNodeId": "node_apassivador"
+            },
+            {
+              "label": "NÃO (por exemplo, \"Os colegas se abraçaram\")",
+              "targetNodeId": "node_outros_usos"
+            },
+            {
+              "label": "A paráfrase é formalmente possível, mas muda foco, aspecto ou leitura lexical",
+              "result": "PASSIVIZAÇÃO DUVIDOSA — DEPENDE DO CONTEXTO/CONVENÇÃO",
+              "ruleExplanation": "Objeto direto favorece passivização, mas não é condição suficiente. Registre as alterações de sentido e a orientação da banca."
+            }
+          ]
+        },
+        "node_indeterminacao_teste": {
+          "id": "node_indeterminacao_teste",
+          "title": "Passo 4 — Sujeito humano genérico",
+          "question": "A construção afirma genericamente que alguém pratica o processo, sem referente recuperável, e mantém o verbo na terceira pessoa do singular?",
+          "options": [
+            {
+              "label": "SIM — agente humano não identificado",
+              "targetNodeId": "node_indeterminado"
+            },
+            {
+              "label": "NÃO — há leitura lexical, média, impessoal ou sujeito recuperável",
+              "targetNodeId": "node_outros_usos"
+            }
+          ]
+        },
+        "node_apassivador": {
+          "id": "node_apassivador",
+          "title": "Resultado: PARTÍCULA APASSIVADORA",
+          "question": "A paráfrase passiva confirmou que o termo sem preposição é sujeito paciente.",
+          "options": [
+            {
+              "label": "Confirmar regra de concordância",
+              "result": "PARTÍCULA APASSIVADORA (Verbo concorda com o Sujeito)",
+              "ruleExplanation": "O verbo concorda em número com o sujeito paciente. Exemplo: \"Alugam-se CASAS\" (casas são alugadas).",
+              "examples": [
+                "Vende-se casa.",
+                "Publicaram-se os resultados."
+              ]
+            }
+          ]
+        },
+        "node_indeterminado": {
+          "id": "node_indeterminado",
+          "title": "Resultado: ÍNDICE DE INDETERMINAÇÃO DO SUJEITO",
+          "question": "Os testes de sujeito genérico e estrutura não passiva convergem para indeterminação?",
+          "options": [
+            {
+              "label": "Confirmar regra de concordância",
+              "result": "ÍNDICE DE INDETERMINAÇÃO DO SUJEITO",
+              "ruleExplanation": "Nessa análise normativa, o verbo permanece na terceira pessoa do singular: \"Precisa-se de técnicos\". A conclusão pressupõe que usos lexicais, médios e reflexivos já foram excluídos.",
+              "examples": [
+                "Precisa-se de novos fiscais.",
+                "Trata-se de questões sérias."
+              ]
+            }
+          ]
+        },
+        "node_outros_usos": {
+          "id": "node_outros_usos",
+          "title": "Resultado: OUTRO USO PRONOMINAL",
+          "question": "Os testes anteriores falharam ou produziram análises concorrentes?",
+          "options": [
+            {
+              "label": "Reexaminar o sentido no contexto",
+              "result": "OUTRO USO PRONOMINAL OU RESULTADO INDETERMINADO",
+              "ruleExplanation": "Teste dativo de interesse, realce, sujeito acusativo de infinitivo e outras construções previstas pela gramática adotada. Se nenhuma análise dominar, registre resultado ambíguo."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "funções do se",
+          "partícula apassivadora",
+          "índice de indeterminação",
+          "concordância"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#9258-18500; source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#18500-27962; source:1390ed0f-2078-4cfb-be7b-6296fa5c74ac#140362-149079; source:c592e00d-8f79-47b1-90d1-b86efc2d2058#134613-142480; source:c592e00d-8f79-47b1-90d1-b86efc2d2058#142480-150797."
+        ]
+      }
+    },
+    "cn_aa": {
+      "id": "cn_aa",
+      "title": "Complemento Nominal vs Adjunto Adnominal",
+      "description": "Diferencie complemento nominal e adjunto adnominal por classe do regente, seleção e papel semântico; concreto/abstrato e agente/paciente são pistas, não decisões automáticas.",
+      "startNodeId": "node_1",
+      "nodes": {
+        "node_1": {
+          "id": "node_1",
+          "title": "Passo 1 — Classe do termo regente",
+          "question": "O termo preposicionado liga-se a qual classe gramatical?",
+          "options": [
+            {
+              "label": "LIGA-SE A ADJETIVO ou ADVÉRBIO (\"favorável ao projeto\", \"longe de casa\")",
+              "result": "COMPLEMENTO NOMINAL (CN)",
+              "ruleExplanation": "Na classificação normativa adotada pelo material, termos preposicionados que completam o sentido de adjetivos e advérbios são complementos nominais, não adjuntos adnominais."
+            },
+            {
+              "label": "LIGA-SE A SUBSTANTIVO",
+              "targetNodeId": "node_2"
+            }
+          ]
+        },
+        "node_2": {
+          "id": "node_2",
+          "title": "Passo 2 — Estrutura do substantivo",
+          "question": "O substantivo é deverbal/relacional e seleciona participante ou conteúdo, ou o termo apenas determina/classifica o nome?",
+          "options": [
+            {
+              "label": "O nome projeta evento, relação ou conteúdo (construção, resposta, necessidade, certeza)",
+              "targetNodeId": "node_3"
+            },
+            {
+              "label": "O termo indica posse, origem, matéria, tipo, autor ou delimitação do referente",
+              "result": "ADJUNTO ADNOMINAL FAVORECIDO",
+              "ruleExplanation": "Esses papéis normalmente determinam ou classificam o substantivo. Confirme a estrutura completa e a tradição gramatical adotada."
+            },
+            {
+              "label": "A distinção concreto/abstrato ou a relação semântica não é clara",
+              "targetNodeId": "node_3"
+            }
+          ]
+        },
+        "node_3": {
+          "id": "node_3",
+          "title": "Passo 3 — Papel e seleção",
+          "question": "Qual papel o termo realiza em relação ao nome e ele é selecionado para completar seu sentido?",
+          "options": [
+            {
+              "label": "PACIENTE, ALVO, TEMA ou CONTEÚDO selecionado",
+              "result": "COMPLEMENTO NOMINAL FAVORECIDO",
+              "ruleExplanation": "O termo completa uma relação projetada pelo nome. A paráfrase verbal pode ajudar, mas não precisa produzir passiva literal."
+            },
+            {
+              "label": "AGENTE, POSSUIDOR, ORIGEM, MATÉRIA, AUTOR ou TIPO",
+              "result": "ADJUNTO ADNOMINAL FAVORECIDO",
+              "ruleExplanation": "O termo caracteriza, determina ou situa o referente. Não reduza todos esses papéis à noção de agente."
+            },
+            {
+              "label": "O termo admite papéis concorrentes ou a metáfora impede paráfrase segura",
+              "result": "AMBÍGUO / DEPENDE DA CONVENÇÃO GRAMATICAL",
+              "ruleExplanation": "Registre as duas leituras, o tipo de substantivo, a preposição, as paráfrases e a nomenclatura cobrada pela banca."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "complemento nominal",
+          "adjunto adnominal",
+          "substantivo abstrato",
+          "agente paciente"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:68b86382-ad8b-47b8-bc17-70938c86ccae#9537-15478; source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#9449-19014; source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#19014-25535; source:c901c4d1-d9ac-49f5-980f-7e6816296093#28578-37433."
+        ]
+      }
+    },
+    "forma_verbal_oracao": {
+      "id": "forma_verbal_oracao",
+      "title": "Forma verbal, locução e oração reduzida",
+      "description": "Conte núcleos predicativos sem confundir sequência verbal, locução, forma nominal e oração reduzida; depois separe forma morfológica de valor temporal, aspectual ou modal.",
+      "startNodeId": "node_inventario",
+      "nodes": {
+        "node_inventario": {
+          "id": "node_inventario",
+          "title": "Passo 1 — Inventário de formas",
+          "question": "O segmento contém verbo finito, forma nominal ou sequência de verbos?",
+          "options": [
+            {
+              "label": "Nenhuma forma verbal",
+              "result": "FRASE NOMINAL / SEM ORAÇÃO VERBAL",
+              "ruleExplanation": "Frase não se confunde com oração nem com período. Verifique se há núcleo predicativo não verbal apenas para a descrição exigida."
+            },
+            {
+              "label": "Um verbo finito, sem outra forma verbal associada",
+              "targetNodeId": "node_finito"
+            },
+            {
+              "label": "Verbo finito + infinitivo, gerúndio ou particípio",
+              "targetNodeId": "node_auxiliaridade"
+            },
+            {
+              "label": "Infinitivo, gerúndio ou particípio sem verbo finito local",
+              "targetNodeId": "node_forma_nominal"
+            }
+          ]
+        },
+        "node_finito": {
+          "id": "node_finito",
+          "title": "Passo 2 — Forma e valor contextual",
+          "question": "A tarefa pede identificação morfológica ou interpretação temporal/aspectual/modal?",
+          "options": [
+            {
+              "label": "Identificação morfológica",
+              "result": "UM NÚCLEO VERBAL FINITO",
+              "ruleExplanation": "Registre pessoa, número, tempo e modo pela forma; não derive automaticamente o valor discursivo."
+            },
+            {
+              "label": "Valor no contexto",
+              "result": "ANALISAR TEMPO, ASPECTO, MODALIDADE E CENTRO DÊITICO",
+              "ruleExplanation": "Presente, imperfeito, futuro e demais formas admitem valores contextuais. Correlações frequentes não são fórmulas universais."
+            }
+          ]
+        },
+        "node_auxiliaridade": {
+          "id": "node_auxiliaridade",
+          "title": "Passo 2 — Auxiliaridade ou duas predicações",
+          "question": "O primeiro verbo perde autonomia lexical, carrega a flexão e compartilha sujeito/predicação com a forma nominal?",
+          "options": [
+            {
+              "label": "SIM — há unidade verbal e o principal seleciona os complementos",
+              "result": "LOCUÇÃO VERBAL / UM NÚCLEO PREDICATIVO",
+              "ruleExplanation": "Conte a cadeia como um núcleo para delimitar a oração, preservando tempo, aspecto, modalidade e voz expressos pelos auxiliares."
+            },
+            {
+              "label": "NÃO — os verbos mantêm predicações distinguíveis ou a forma nominal admite desenvolvimento",
+              "targetNodeId": "node_forma_nominal"
+            },
+            {
+              "label": "Os testes divergem",
+              "result": "AMBÍGUO — LOCUÇÃO OU DUAS PREDICAÇÕES",
+              "ruleExplanation": "Compare autonomia lexical, sujeito, negação, seleção de complementos e paráfrase desenvolvida. Registre a convenção da banca se o caso permanecer limítrofe."
+            }
+          ]
+        },
+        "node_forma_nominal": {
+          "id": "node_forma_nominal",
+          "title": "Passo 3 — Função da forma nominal",
+          "question": "A forma nominal introduz processo próprio, com sujeito expresso/controlado/genérico ou relação circunstancial desenvolvível?",
+          "options": [
+            {
+              "label": "SIM — pode ser desenvolvida com conector e verbo finito",
+              "result": "ORAÇÃO REDUZIDA / NÚCLEO PREDICATIVO ADICIONAL",
+              "ruleExplanation": "Classifique a função da oração e preserve sujeito, tempo, aspecto e relação semântica ao desenvolvê-la."
+            },
+            {
+              "label": "NÃO — integra nome, adjetivo, tempo composto ou passiva já confirmada",
+              "result": "USO NOMINAL/ADJETIVAL OU PARTE DA CADEIA VERBAL",
+              "ruleExplanation": "Particípio e infinitivo podem lexicalizar-se; confirme concordância e função antes de contar nova oração."
+            },
+            {
+              "label": "Há leitura de modo/circunstância e leitura de segunda predicação",
+              "result": "AMBÍGUO — ORAÇÃO REDUZIDA OU PREDICAÇÃO SECUNDÁRIA",
+              "ruleExplanation": "Mantenha as duas paráfrases quando o contexto não decide, como em certas construções gerundivas."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "forma verbal",
+          "locução verbal",
+          "oração reduzida",
+          "infinitivo",
+          "gerúndio",
+          "particípio",
+          "tempo e aspecto"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:d41dd648-5f65-420a-beea-83fae025b624#0-9546; source:cb0d944d-5d83-4294-8d42-8611cc6358ab#27927-33179; source:b643f8b6-0a08-4c8c-811c-8474b8213e87#0-9551; source:8ffa117e-f170-462c-837e-3d24c67ec03f#0-9276; source:459a0c80-0c58-489d-a3ab-333f5ee3263e#0-9549."
+        ]
+      }
+    },
+    "predicacao_valencia": {
+      "id": "predicacao_valencia",
+      "title": "Predicação, valência e termos ligados ao verbo",
+      "description": "Classifique cópula, verbo pleno, predicação secundária, complementos e adjuntos a partir da acepção realizada, sem transformar circunstância ou preposição em diagnóstico automático.",
+      "startNodeId": "node_sentido",
+      "nodes": {
+        "node_sentido": {
+          "id": "node_sentido",
+          "title": "Passo 1 — Acepção e predicação",
+          "question": "O verbo apenas relaciona o sujeito a uma propriedade/estado ou preserva conteúdo lexical de ação, processo, mudança, posição ou deslocamento?",
+          "options": [
+            {
+              "label": "Apenas relaciona sujeito e propriedade",
+              "targetNodeId": "node_copula"
+            },
+            {
+              "label": "Preserva conteúdo lexical",
+              "targetNodeId": "node_predicativo_secundario"
+            },
+            {
+              "label": "Acepção copulativa e locativa/resultativa competem",
+              "result": "AMBÍGUO / DEPENDE DA ANÁLISE TEÓRICA",
+              "ruleExplanation": "Explicite as duas estruturas e a nomenclatura da banca; não use a lista lexical de verbos de ligação como decisão."
+            }
+          ]
+        },
+        "node_copula": {
+          "id": "node_copula",
+          "title": "Resultado — predicação primária",
+          "question": "Há predicativo que atribui estado, propriedade ou identificação ao sujeito?",
+          "options": [
+            {
+              "label": "SIM",
+              "result": "CÓPULA/VERBO DE LIGAÇÃO + PREDICATIVO DO SUJEITO",
+              "ruleExplanation": "A concordância e a relação predicativa confirmam o predicado nominal; ser, estar e parecer também possuem usos não copulativos."
+            },
+            {
+              "label": "NÃO — o termo expressa localização selecionada ou existência",
+              "targetNodeId": "node_dependencia"
+            }
+          ]
+        },
+        "node_predicativo_secundario": {
+          "id": "node_predicativo_secundario",
+          "title": "Passo 2 — Segunda predicação",
+          "question": "Além do evento verbal, há expressão que atribui estado ao sujeito ou ao objeto durante ou como resultado do evento?",
+          "options": [
+            {
+              "label": "Estado concomitante do sujeito/objeto",
+              "result": "VERBO NOCIONAL + PREDICATIVO DEPICTIVO",
+              "ruleExplanation": "A função pode ser opcional e concorda com o referente; sua presença não transforma o verbo em cópula."
+            },
+            {
+              "label": "Estado produzido pelo evento",
+              "result": "CONSTRUÇÃO RESULTATIVA / PREDICATIVO RESULTATIVO",
+              "ruleExplanation": "Registre resultado e seleção da construção; gramáticas escolares podem usar nomenclatura diferente."
+            },
+            {
+              "label": "Não há segunda predicação",
+              "targetNodeId": "node_dependencia"
+            },
+            {
+              "label": "Depictivo, resultativo e cópula são concorrentes",
+              "result": "AMBÍGUO / DEPENDE DA CONVENÇÃO",
+              "ruleExplanation": "Use paráfrases, aspecto, compatibilidade do verbo e orientação da banca."
+            }
+          ]
+        },
+        "node_dependencia": {
+          "id": "node_dependencia",
+          "title": "Passo 3 — Seleção ou circunstância",
+          "question": "O termo é selecionado pela acepção verbal e necessário para completar direção, localização, conteúdo ou participante?",
+          "options": [
+            {
+              "label": "SIM — participante/argumento selecionado",
+              "targetNodeId": "node_tipo_complemento"
+            },
+            {
+              "label": "NÃO — acrescenta tempo, modo, causa, lugar ou outra circunstância livre",
+              "result": "ADJUNTO ADVERBIAL FAVORECIDO",
+              "ruleExplanation": "Mobilidade e retirada são pistas graduais; confirme que o sentido nuclear permanece recuperável."
+            },
+            {
+              "label": "Seleção e circunstância não se separam com segurança",
+              "result": "COMPLEMENTO OBLÍQUO OU ADJUNTO — DEPENDE DA CONVENÇÃO",
+              "ruleExplanation": "Registre acepção, possibilidade de omissão, mobilidade, papel semântico e classificação exigida pela banca."
+            }
+          ]
+        },
+        "node_tipo_complemento": {
+          "id": "node_tipo_complemento",
+          "title": "Passo 4 — Forma do complemento",
+          "question": "Como o argumento se liga ao verbo na acepção analisada?",
+          "options": [
+            {
+              "label": "Sem preposição estrutural",
+              "result": "OBJETO DIRETO FAVORECIDO",
+              "ruleExplanation": "Confirme pronominalização, papel e possibilidade de passiva; nenhum teste isolado é suficiente."
+            },
+            {
+              "label": "Com preposição regida e leitura de destinatário/dativo",
+              "result": "OBJETO INDIRETO FAVORECIDO",
+              "ruleExplanation": "A nomenclatura tradicional costuma reservar OI ao complemento regido, especialmente dativo."
+            },
+            {
+              "label": "Com preposição selecionada de lugar, direção, origem ou medida",
+              "result": "COMPLEMENTO OBLÍQUO / ARGUMENTO PREPOSICIONADO",
+              "ruleExplanation": "Algumas bancas o chamam de adjunto ou objeto indireto. Exiba a dependência antes do rótulo."
+            },
+            {
+              "label": "A construção admite mais de uma segmentação",
+              "result": "AMBÍGUO — REGISTRAR AS ANÁLISES CONCORRENTES",
+              "ruleExplanation": "Não resolva por pergunta mnemônica ou apagamento."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "predicação",
+          "valência",
+          "verbo de ligação",
+          "predicativo",
+          "objeto",
+          "complemento oblíquo",
+          "adjunto"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:c575c2bd-f987-4362-8474-0a6050dd9c17#9013-18569; source:504d8a4f-b690-4cc6-9802-83ac5af4b523#9053-18590; source:9a18ae68-8fd4-40b2-b006-075a9746b9ed#8949-18329; source:9a18ae68-8fd4-40b2-b006-075a9746b9ed#27329-36707; source:e16cc507-c683-4202-9796-6cddb86f3255#9369-18776."
+        ]
+      }
+    },
+    "periodo_composto": {
+      "id": "periodo_composto",
+      "title": "Delimitação e classificação do período composto",
+      "description": "Conte núcleos predicativos após agrupar locuções, reconheça orações reduzidas e só então classifique coordenação ou subordinação pela dependência estrutural e pela relação contextual.",
+      "startNodeId": "node_nucleos",
+      "nodes": {
+        "node_nucleos": {
+          "id": "node_nucleos",
+          "title": "Passo 1 — Núcleos predicativos",
+          "question": "Depois de aplicar os testes de locução e forma nominal, quantos núcleos predicativos há?",
+          "options": [
+            {
+              "label": "Nenhum",
+              "result": "FRASE NOMINAL, NÃO PERÍODO VERBAL",
+              "ruleExplanation": "Não equipare frase a oração; verifique apenas a classificação específica pedida."
+            },
+            {
+              "label": "Um",
+              "result": "PERÍODO SIMPLES / UMA ORAÇÃO",
+              "ruleExplanation": "Uma cadeia auxiliar confirmada conta como um núcleo; formas nominalizadas ou adjetivais não criam oração automaticamente."
+            },
+            {
+              "label": "Dois ou mais",
+              "targetNodeId": "node_limites"
+            },
+            {
+              "label": "A sequência verbal é limítrofe",
+              "result": "CONTAGEM AMBÍGUA — RETORNAR À ÁRVORE FORMA_VERBAL_ORACAO",
+              "ruleExplanation": "Não classifique o período antes de decidir, ou registrar como ambígua, a fronteira entre locução e duas predicações."
+            }
+          ]
+        },
+        "node_limites": {
+          "id": "node_limites",
+          "title": "Passo 2 — Limites e função",
+          "question": "Uma oração ocupa função sintática dentro de outra ou modifica termo/or ação principal?",
+          "options": [
+            {
+              "label": "SIM — funciona como sujeito, complemento, predicativo, modificador nominal ou circunstância",
+              "targetNodeId": "node_subordinacao"
+            },
+            {
+              "label": "NÃO — as orações têm funções externas paralelas",
+              "targetNodeId": "node_coordenacao"
+            },
+            {
+              "label": "Há justaposição ou elipse que permite duas leituras",
+              "result": "RELAÇÃO AMBÍGUA / ASSINDÉTICA — DEPENDE DO CONTEXTO",
+              "ruleExplanation": "Reconstrua conectores possíveis e verifique se mudam a estrutura ou apenas explicitam relação discursiva."
+            }
+          ]
+        },
+        "node_subordinacao": {
+          "id": "node_subordinacao",
+          "title": "Passo 3 — Função subordinada",
+          "question": "Qual função a oração exerce e sua forma é desenvolvida ou reduzida?",
+          "options": [
+            {
+              "label": "Ocupa posição de nome: sujeito, objeto, complemento, predicativo ou aposto",
+              "result": "ORAÇÃO SUBORDINADA SUBSTANTIVA",
+              "ruleExplanation": "Use o teste de ISSO apenas depois de delimitar toda a oração e confirme a função na SuVeCA principal."
+            },
+            {
+              "label": "Modifica antecedente nominal e possui relativo com função interna",
+              "result": "ORAÇÃO SUBORDINADA ADJETIVA/RELATIVA",
+              "ruleExplanation": "Pontuação distingue leituras restritivas e explicativas, mas antecedente, escopo e função interna também precisam ser reconstruídos."
+            },
+            {
+              "label": "Estabelece circunstância em relação à principal",
+              "result": "ORAÇÃO SUBORDINADA ADVERBIAL",
+              "ruleExplanation": "Classifique causa, condição, concessão, tempo e demais relações por paráfrase contextual, não pela conjunção isolada."
+            },
+            {
+              "label": "Usa infinitivo, gerúndio ou particípio sem conector explícito",
+              "result": "ORAÇÃO REDUZIDA — DESENVOLVIMENTO CONTROLADO",
+              "ruleExplanation": "Preserve sujeito, tempo, aspecto, modalidade e relação semântica; mais de um desenvolvimento pode ser possível."
+            }
+          ]
+        },
+        "node_coordenacao": {
+          "id": "node_coordenacao",
+          "title": "Passo 3 — Coordenação",
+          "question": "Há conector expresso e qual relação proposicional ele realiza no contexto?",
+          "options": [
+            {
+              "label": "Sem conector",
+              "result": "ORAÇÕES COORDENADAS ASSINDÉTICAS",
+              "ruleExplanation": "A pontuação não fixa sozinha a relação; registre as paráfrases compatíveis."
+            },
+            {
+              "label": "Com conector",
+              "result": "ORAÇÕES COORDENADAS SINDÉTICAS — CLASSIFICAR PELA RELAÇÃO",
+              "ruleExplanation": "Adição, oposição, alternativa, conclusão e explicação dependem do encadeamento; prossiga pela árvore CONECTORES."
+            },
+            {
+              "label": "A segunda oração também pode ser lida como subordinada/explicativa",
+              "result": "AMBÍGUO / DEPENDE DA ANÁLISE E DA BANCA",
+              "ruleExplanation": "Compare dependência sintática, escopo e paráfrase; não use apenas a lista da conjunção."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "frase",
+          "oração",
+          "período simples",
+          "período composto",
+          "coordenação",
+          "subordinação",
+          "oração reduzida"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:4fffa686-4df3-4b97-a33f-86504944d945#0-9533; source:4fffa686-4df3-4b97-a33f-86504944d945#27958-29575; source:acbe38cd-abf8-441c-8845-2177e5d93d88#0-8707; source:acbe38cd-abf8-441c-8845-2177e5d93d88#8707-17943; source:459a0c80-0c58-489d-a3ab-333f5ee3263e#9549-19124."
+        ]
+      }
+    },
+    "concordancia": {
+      "id": "concordancia",
+      "title": "Concordância verbal e nominal por estrutura",
+      "description": "Localize o controlador e sua função antes de flexionar; trate impessoais, SE, relativos, quantificadores e palavras multifuncionais em rotas próprias.",
+      "startNodeId": "node_alvo",
+      "nodes": {
+        "node_alvo": {
+          "id": "node_alvo",
+          "title": "Passo 1 — Alvo da concordância",
+          "question": "A forma a verificar é verbo/auxiliar, adjetivo/particípio/determinante ou palavra potencialmente adverbial?",
+          "options": [
+            {
+              "label": "Verbo ou auxiliar",
+              "targetNodeId": "node_sujeito"
+            },
+            {
+              "label": "Adjetivo, particípio, artigo, pronome ou numeral",
+              "targetNodeId": "node_nominal"
+            },
+            {
+              "label": "Palavra multifuncional como meio, bastante, só, alerta, caro ou barato",
+              "targetNodeId": "node_classe"
+            }
+          ]
+        },
+        "node_sujeito": {
+          "id": "node_sujeito",
+          "title": "Passo 2 — Controlador verbal",
+          "question": "Qual é o sujeito depois de reconstruir a ordem e retirar intercalações?",
+          "options": [
+            {
+              "label": "Sujeito simples, expresso ou recuperável",
+              "result": "VERBO CONCORDA COM O NÚCLEO DO SUJEITO",
+              "ruleExplanation": "Posição posterior e distância não alteram a relação; confirme pessoa e número."
+            },
+            {
+              "label": "Sujeito composto ou coordenação de núcleos",
+              "targetNodeId": "node_especial_verbal"
+            },
+            {
+              "label": "Partitivo, coletivo, percentual, decimal ou expressão quantitativa",
+              "targetNodeId": "node_quantitativo"
+            },
+            {
+              "label": "Pronome relativo QUE/QUEM ou expressão um dos que",
+              "targetNodeId": "node_relativo"
+            },
+            {
+              "label": "Oração sem sujeito ou construção com SE",
+              "targetNodeId": "node_impessoal_se"
+            },
+            {
+              "label": "Não foi possível identificar controlador único",
+              "result": "CONCORDÂNCIA AMBÍGUA — EXPLICITAR CONTROLADORES POSSÍVEIS",
+              "ruleExplanation": "Liste os candidatos e verifique estrutura, sentido, pessoa, posição e regra específica; não decida por proximidade."
+            }
+          ]
+        },
+        "node_especial_verbal": {
+          "id": "node_especial_verbal",
+          "title": "Passo 3 — Sujeito composto",
+          "question": "Os núcleos estão antepostos ou pospostos e designam referentes distintos ou uma unidade semântica?",
+          "options": [
+            {
+              "label": "Núcleos distintos antepostos",
+              "result": "PLURAL FAVORECIDO PELA REGRA GERAL",
+              "ruleExplanation": "Verifique pessoa gramatical e casos especiais previstos pela norma."
+            },
+            {
+              "label": "Núcleos pospostos ou leitura unitária/gradativa",
+              "result": "VARIAÇÃO POSSÍVEL CONFORME ESTRUTURA E SENTIDO",
+              "ruleExplanation": "Enumere as formas licenciadas pela norma aplicável e preserve a diferença de leitura."
+            }
+          ]
+        },
+        "node_quantitativo": {
+          "id": "node_quantitativo",
+          "title": "Passo 3 — Estrutura quantitativa",
+          "question": "Quais elementos podem controlar a concordância: núcleo partitivo, numeral, unidade, percentual ou especificador preposicionado?",
+          "options": [
+            {
+              "label": "Há um controlador inequívoco",
+              "result": "CONCORDAR COM O CONTROLADOR ESTRUTURAL IDENTIFICADO",
+              "ruleExplanation": "Registre o núcleo e não use apenas o valor matemático."
+            },
+            {
+              "label": "A norma admite concordância com o núcleo ou com o especificador",
+              "result": "DUPLA CONCORDÂNCIA LICENCIADA",
+              "ruleExplanation": "Explique os dois controladores; partitivo, percentual e decimal não compartilham uma única fórmula."
+            },
+            {
+              "label": "Numeral, unidade e complemento apontam para números diferentes",
+              "result": "DEPENDE DA CONSTRUÇÃO E DA FONTE NORMATIVA",
+              "ruleExplanation": "Separe 1,5, milhão/milhões e complemento antes de decidir; registre variantes documentadas."
+            }
+          ]
+        },
+        "node_relativo": {
+          "id": "node_relativo",
+          "title": "Passo 3 — Relativo e antecedente",
+          "question": "O relativo retoma qual antecedente e ele próprio ou o antecedente controla a pessoa/número do verbo?",
+          "options": [
+            {
+              "label": "QUE com antecedente identificado",
+              "result": "CONCORDÂNCIA COM O ANTECEDENTE DO RELATIVO",
+              "ruleExplanation": "Reconstrua a função interna de QUE e o número/pessoa do antecedente."
+            },
+            {
+              "label": "QUEM ou expressão UM DOS QUE",
+              "result": "APLICAR REGRA ESPECÍFICA E REGISTRAR VARIAÇÃO",
+              "ruleExplanation": "A tradição normativa e a ênfase semântica podem admitir alternativas; não transportar mecanicamente a regra de QUE."
+            }
+          ]
+        },
+        "node_impessoal_se": {
+          "id": "node_impessoal_se",
+          "title": "Passo 3 — Impessoalidade e SE",
+          "question": "Há verbo impessoal confirmado ou construção com SE ainda não classificada?",
+          "options": [
+            {
+              "label": "Haver existencial, fazer temporal/climático ou outra impessoal confirmada",
+              "result": "TERCEIRA PESSOA DO SINGULAR; AUXILIAR HERDA A IMPESSOALIDADE",
+              "ruleExplanation": "Diferencie existir/ocorrer, que possuem sujeito e concordam normalmente."
+            },
+            {
+              "label": "Construção com SE",
+              "result": "APLICAR ÁRVORE SE ANTES DE CONCLUIR",
+              "ruleExplanation": "Apassivador projeta sujeito paciente e concordância; indeterminador mantém terceira pessoa do singular. Outros usos seguem outra análise."
+            }
+          ]
+        },
+        "node_nominal": {
+          "id": "node_nominal",
+          "title": "Passo 2 — Referente nominal",
+          "question": "A forma está dentro do sintagma nominal ou funciona como predicativo/particípio ligado a um ou mais referentes?",
+          "options": [
+            {
+              "label": "Integra um sintagma com núcleo único",
+              "result": "CONCORDÂNCIA COM O NÚCLEO NOMINAL",
+              "ruleExplanation": "Identifique gênero e número do referente, não apenas o termo mais próximo."
+            },
+            {
+              "label": "Refere-se a mais de um núcleo",
+              "result": "APLICAR REGRAS DE POSIÇÃO, GÊNERO E FUNÇÃO",
+              "ruleExplanation": "Adjunto anteposto/posposto e predicativo possuem possibilidades distintas; enumere apenas as licenciadas."
+            },
+            {
+              "label": "Particípio em cadeia verbal ou construção passiva",
+              "result": "SEPARAR TEMPO COMPOSTO, PASSIVA E USO ADJETIVAL",
+              "ruleExplanation": "Particípio invariável com auxiliar de tempo composto não segue a mesma concordância do particípio passivo/adjetival."
+            }
+          ]
+        },
+        "node_classe": {
+          "id": "node_classe",
+          "title": "Passo 2 — Classe em contexto",
+          "question": "A palavra modifica nome ou modifica verbo, adjetivo, advérbio ou toda a predicação?",
+          "options": [
+            {
+              "label": "Modifica nome e exerce função adjetiva/determinativa",
+              "result": "FORMA VARIÁVEL FAVORECIDA",
+              "ruleExplanation": "Confirme referente e sentido; não aplique lista fixa de palavras variáveis."
+            },
+            {
+              "label": "Modifica verbo, adjetivo, advérbio ou oração",
+              "result": "USO ADVERBIAL INVARIÁVEL FAVORECIDO",
+              "ruleExplanation": "A posição é pista, mas classe, escopo e sentido decidem."
+            },
+            {
+              "label": "O uso lexical ou a norma registra variantes",
+              "result": "DEPENDE DO SENTIDO, REGISTRO E FONTE NORMATIVA",
+              "ruleExplanation": "Apresente o par mínimo e marque variante rara ou controvertida em vez de tratá-la como equivalente neutra."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "concordância verbal",
+          "concordância nominal",
+          "sujeito composto",
+          "porcentagem",
+          "decimal",
+          "relativo",
+          "palavras especiais"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#0-9362; source:0e900611-a753-4810-a38a-b392d344a13a#0-9568; source:0e900611-a753-4810-a38a-b392d344a13a#9568-19128; source:593c58f5-555d-43f9-b67a-00c24b84fb98#0-9450; source:cedf00a5-c87b-4bed-8217-bea66697a6c1#9535-18262."
+        ]
+      }
+    },
+    "conectores": {
+      "id": "conectores",
+      "title": "Relações semânticas dos conectores",
+      "description": "Classifique conectores pela relação entre proposições, escopo, posição e paráfrase; a mesma forma pode realizar valores diferentes.",
+      "startNodeId": "node_proposicoes",
+      "nodes": {
+        "node_proposicoes": {
+          "id": "node_proposicoes",
+          "title": "Passo 1 — Reconstruir os membros",
+          "question": "Quais proposições ou termos o conector articula e eles ocupam funções comparáveis?",
+          "options": [
+            {
+              "label": "Os dois membros foram delimitados",
+              "targetNodeId": "node_relacao"
+            },
+            {
+              "label": "Há elipse, pontuação ou escopo incerto",
+              "result": "RELAÇÃO AINDA INDETERMINADA",
+              "ruleExplanation": "Reconstrua o material elíptico e produza mais de uma segmentação antes de nomear o conector."
+            }
+          ]
+        },
+        "node_relacao": {
+          "id": "node_relacao",
+          "title": "Passo 2 — Paráfrase relacional",
+          "question": "Qual paráfrase preserva melhor o encadeamento no contexto?",
+          "options": [
+            {
+              "label": "E também / soma / sequência compatível",
+              "result": "ADIÇÃO FAVORECIDA",
+              "ruleExplanation": "E e nem podem somar, mas também adquirir contraste, consequência ou progressão; confira a expectativa criada."
+            },
+            {
+              "label": "Mas / apesar disso / quebra de expectativa",
+              "result": "OPOSIÇÃO OU CONCESSÃO FAVORECIDA",
+              "ruleExplanation": "Diferencie coordenação adversativa de subordinação concessiva pela dependência estrutural."
+            },
+            {
+              "label": "Ou isto, ou aquilo / alternativas",
+              "result": "ALTERNATIVA FAVORECIDA",
+              "ruleExplanation": "Verifique se as opções são exclusivas, inclusivas, corretivas ou equivalentes."
+            },
+            {
+              "label": "Portanto / daí se conclui",
+              "result": "CONCLUSÃO OU CONSEQUÊNCIA FAVORECIDA",
+              "ruleExplanation": "Teste a direção da inferência; sequência temporal não basta para provar consequência."
+            },
+            {
+              "label": "Porque / razão / justificativa",
+              "targetNodeId": "node_causa_explicacao"
+            },
+            {
+              "label": "Se, embora, quando, para que ou relação circunstancial equivalente",
+              "targetNodeId": "node_adverbial"
+            },
+            {
+              "label": "Duas ou mais paráfrases permanecem naturais",
+              "targetNodeId": "node_ambiguo"
+            }
+          ]
+        },
+        "node_causa_explicacao": {
+          "id": "node_causa_explicacao",
+          "title": "Passo 3 — Causa, explicação ou justificativa",
+          "question": "A oração apresenta causa do evento, fundamento da afirmação/ordem ou justificativa discursiva?",
+          "options": [
+            {
+              "label": "Produz o evento descrito",
+              "result": "RELAÇÃO CAUSAL FAVORECIDA",
+              "ruleExplanation": "Confirme que a causa recai sobre o conteúdo proposicional e não apenas sobre o ato de enunciar."
+            },
+            {
+              "label": "Justifica afirmação, avaliação, conselho ou ordem",
+              "result": "RELAÇÃO EXPLICATIVA/JUSTIFICATIVA FAVORECIDA",
+              "ruleExplanation": "A nomenclatura coordenativa ou subordinativa pode variar; registre estrutura e relação separadamente."
+            },
+            {
+              "label": "As duas leituras são sustentáveis",
+              "result": "AMBÍGUO — CAUSA OU EXPLICAÇÃO",
+              "ruleExplanation": "Preserve as duas paráfrases e a terminologia da banca."
+            }
+          ]
+        },
+        "node_adverbial": {
+          "id": "node_adverbial",
+          "title": "Passo 3 — Relação circunstancial",
+          "question": "A oração estabelece condição, concessão, tempo, finalidade, proporção, conformidade, comparação ou consequência?",
+          "options": [
+            {
+              "label": "Uma paráfrase e a correlação verbal convergem",
+              "result": "RELAÇÃO ADVERBIAL CONTEXTUAL CONFIRMADA",
+              "ruleExplanation": "Nomeie a relação demonstrada e registre tempo/modo verbal; não classifique pela conjunção isolada."
+            },
+            {
+              "label": "A forma admite valores diferentes no período",
+              "result": "AMBÍGUO / DEPENDE DO CONTEXTO",
+              "ruleExplanation": "Compare condições de verdade, pressupostos e substituições; não escolha pelo valor mais frequente."
+            }
+          ]
+        },
+        "node_ambiguo": {
+          "id": "node_ambiguo",
+          "title": "Resultado — relação concorrente",
+          "question": "Posição, escopo ou pontuação elimina alguma das paráfrases?",
+          "options": [
+            {
+              "label": "SIM — uma leitura perde compatibilidade",
+              "result": "ADOTAR A RELAÇÃO SOBREVIVENTE E REGISTRAR O TESTE",
+              "ruleExplanation": "Explique qual pista contextual eliminou a alternativa."
+            },
+            {
+              "label": "NÃO — ambas permanecem",
+              "result": "AMBÍGUO / DEPENDE DA CONVENÇÃO DA BANCA",
+              "ruleExplanation": "Apresente relação sintática e efeito discursivo separadamente; não converta ambiguidade em erro."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "conectores",
+          "coordenação",
+          "subordinação",
+          "causa",
+          "explicação",
+          "conclusão",
+          "concessão",
+          "paralelismo"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:0099885d-ff20-40c4-a520-8ba6bce8463e#0-9279; source:0099885d-ff20-40c4-a520-8ba6bce8463e#9279-17721; source:f02ffa7f-7aa9-4712-ac83-8f1dc558b479#0-8406; source:f02ffa7f-7aa9-4712-ac83-8f1dc558b479#17773-27290; source:5ef17242-31ca-4412-84df-a89e3606604e#37326-46831."
+        ]
+      }
+    },
+    "analise_sintatica": {
+      "id": "analise_sintatica",
+      "title": "Orquestrador v3 da análise sintática",
+      "description": "Aplique as árvores especializadas na ordem correta: formas verbais, limites oracionais, sujeito, predicação/valência, termos e relações gramaticais.",
+      "startNodeId": "node_formas",
+      "nodes": {
+        "node_formas": {
+          "id": "node_formas",
+          "title": "Etapa 1 — Verbo e núcleos",
+          "question": "As formas verbais já foram separadas em verbo simples, locução e predicações adicionais?",
+          "options": [
+            {
+              "label": "NÃO ou há dúvida",
+              "result": "APLICAR PRIMEIRO FORMA_VERBAL_ORACAO",
+              "ruleExplanation": "A contagem de orações e todo o restante dependem de não confundir auxiliar, forma nominal e segunda predicação."
+            },
+            {
+              "label": "SIM — há um núcleo predicativo",
+              "targetNodeId": "node_sujeito"
+            },
+            {
+              "label": "SIM — há dois ou mais núcleos",
+              "targetNodeId": "node_periodo"
+            }
+          ]
+        },
+        "node_periodo": {
+          "id": "node_periodo",
+          "title": "Etapa 2 — Período",
+          "question": "As orações e suas relações já foram delimitadas?",
+          "options": [
+            {
+              "label": "NÃO",
+              "result": "APLICAR PERIODO_COMPOSTO E, SE HOUVER CONECTOR, CONECTORES",
+              "ruleExplanation": "Depois, retorne a esta árvore e analise cada oração separadamente."
+            },
+            {
+              "label": "SIM",
+              "targetNodeId": "node_sujeito"
+            }
+          ]
+        },
+        "node_sujeito": {
+          "id": "node_sujeito",
+          "title": "Etapa 3 — Sujeito por oração",
+          "question": "O sujeito foi localizado por concordância, regência, recuperabilidade e impessoalidade, sem depender da posição?",
+          "options": [
+            {
+              "label": "SIM",
+              "targetNodeId": "node_predicacao"
+            },
+            {
+              "label": "NÃO — há SE",
+              "result": "APLICAR SE; DEPOIS RETORNAR À ETAPA DE SUJEITO",
+              "ruleExplanation": "A função de SE altera sujeito, voz e concordância."
+            },
+            {
+              "label": "NÃO — pode haver impessoalidade, sujeito oracional, controlado ou indeterminado",
+              "result": "RECONSTRUIR A ORAÇÃO E TESTAR CADA HIPÓTESE",
+              "ruleExplanation": "Não use preposição, posição ou infinitivo impessoal como regra automática. Se duas hipóteses sobreviverem, registre ambiguidade."
+            }
+          ]
+        },
+        "node_predicacao": {
+          "id": "node_predicacao",
+          "title": "Etapa 4 — Predicação e valência",
+          "question": "A acepção verbal, os argumentos e eventuais predicativos já foram classificados?",
+          "options": [
+            {
+              "label": "NÃO",
+              "result": "APLICAR PREDICACAO_VALENCIA",
+              "ruleExplanation": "Distinguir cópula, verbo pleno, segunda predicação, complementos oblíquos e adjuntos antecede a rotulação dos termos."
+            },
+            {
+              "label": "SIM",
+              "targetNodeId": "node_termos"
+            }
+          ]
+        },
+        "node_termos": {
+          "id": "node_termos",
+          "title": "Etapa 5 — Termos e dependências nominais",
+          "question": "Os termos preposicionados e modificadores foram ligados ao verbo, nome ou oração que realmente regem/modificam?",
+          "options": [
+            {
+              "label": "Há contraste CN/AA",
+              "result": "APLICAR CN_AA E REGISTRAR PAPEL SEMÂNTICO",
+              "ruleExplanation": "Classe do regente e papel são cumulativos; admita resultado dependente da convenção."
+            },
+            {
+              "label": "Há QUE ainda não classificado",
+              "result": "APLICAR QUE E IDENTIFICAR SUA FUNÇÃO INTERNA",
+              "ruleExplanation": "A função do antecedente na principal não substitui a função de QUE na subordinada."
+            },
+            {
+              "label": "Termos classificados",
+              "targetNodeId": "node_projecoes"
+            }
+          ]
+        },
+        "node_projecoes": {
+          "id": "node_projecoes",
+          "title": "Etapa 6 — Projetar regras relacionais",
+          "question": "Qual problema a questão pede resolver sobre a estrutura já reconstruída?",
+          "options": [
+            {
+              "label": "Concordância",
+              "result": "APLICAR CONCORDANCIA",
+              "ruleExplanation": "Leve sujeito, referente, classe e controlador já identificados."
+            },
+            {
+              "label": "Regência ou crase",
+              "result": "IDENTIFICAR REGENTE E ACEPÇÃO; APLICAR CRASE SOMENTE DEPOIS",
+              "ruleExplanation": "Preposição da esquerda e determinante da direita são verificações independentes."
+            },
+            {
+              "label": "Relação entre orações/conectores",
+              "result": "APLICAR PERIODO_COMPOSTO E CONECTORES",
+              "ruleExplanation": "Estrutura e valor semântico são camadas distintas."
+            },
+            {
+              "label": "Reescrita ou pontuação",
+              "result": "PRESERVAR SUJEITO, VALÊNCIA, ESCOPO, TEMPO E RELAÇÃO",
+              "ruleExplanation": "Compare camada por camada; mudança de sentido não é automaticamente erro gramatical."
+            },
+            {
+              "label": "A questão admite análises concorrentes",
+              "result": "REGISTRAR AMBÍGUO / DEPENDE DA CONVENÇÃO",
+              "ruleExplanation": "Exponha evidências de cada análise e preserve separadamente o gabarito oficial quando aplicável."
+            }
+          ]
+        }
+      },
+      "knowledge": {
+        "routingTerms": [
+          "análise sintática",
+          "suveca",
+          "verbo primeiro",
+          "sujeito",
+          "predicação",
+          "termos da oração",
+          "período composto"
+        ],
+        "editorialStatus": "approved_ai_reviewed",
+        "reviewer": "Codex (IA)",
+        "reviewedAt": "2026-08-10",
+        "notes": [
+          "Parecer auditável: semantic-review-v3.",
+          "EvidenceRefs: source:4fffa686-4df3-4b97-a33f-86504944d945#9533-18377; source:9e0279f5-f126-4dfa-b66e-03b1cd757c4c#0-8833; source:5dd87de6-78e0-4d8a-b305-3979e3750e2d#0-9407; source:8e2c4b39-b72e-4d00-bbde-b8c9b2e4e5e0#0-9559; source:f9f5a74e-d4a0-4ac3-a960-77a2bdd06d1e#0-9362."
+        ]
+      }
+    }
+  }
+}

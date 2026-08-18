@@ -1,0 +1,1810 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A02-G01",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.927Z"
+  },
+  "unit": {
+    "unitId": "IP-A02-G01",
+    "lessonId": "A02",
+    "groupId": "G01",
+    "title": "Preposições",
+    "variant": "development",
+    "canonicalTopicId": "pt:a02:preposicoes",
+    "learningObjectives": [
+      "OBJ-IP-A02-G01-001",
+      "OBJ-IP-A02-G01-002",
+      "OBJ-IP-A02-G01-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "strong",
+      "label": "Conexão forte",
+      "summary": "A preposição é interpretada pela relação que introduz: pode completar verbo ou nome em C, ou acrescentar valor nocional em A. A regência e o sentido confirmam a função.",
+      "steps": [
+        "Reconstrua apenas as relações sintáticas relevantes para a decisão.",
+        "Acrescente o critério próprio do tema — morfológico, semântico, coesivo ou discursivo.",
+        "Confirme que estrutura e contexto sustentam a mesma conclusão."
+      ],
+      "limits": [
+        "A análise sintática é necessária, mas não substitui a regra específica desta matéria."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia Básica: Conceito de classes invariáveis (preposição, conjunção, advérbio) vs. variáveis (substantivo, adjetivo, verbo).",
+            "Noções de Sintaxe Oracional: Distinção elementar entre termos integrantes (Objeto Indireto, Complemento Nominal) e termos acessórios (Adjunto Adverbial, Adjunto Adnominal, Agente da Passiva).",
+            "Período Composto: Compreensão introdutória da diferença entre orações reduzidas (infinitivo) e orações desenvolvidas (verbo conjugado)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "PREPOSIÇÃO (Palavra invariável conectiva) │ ├── 1. NATUREZA CONECTIVA │ ├── Conecta Termos (ex.: \"Casa [de] José\") │ └── Conecta Orações (ex.: \"Correu [para] chegar a tempo\") │ ├── 2. PREPOSIÇÕES ESSENCIAIS (18 vocábulos) │ ├── Lista: a, ante, até, após, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás. │ ├── Distinção Morfológica: │ │ ├── Preposição isolada (\"após\") vs. Locução adverbial (\"após o jantar\") │ │ └── Preposição (\"com\") vs. Conjunção (\"e\") │ └── Vedação de Crase: Proibida fusão com 'a' após preposição essencial (exceção: \"até\" = facultativa). │ ├── 3. ESTRUTURAÇÃO DE LOCUÇÕES & REESCRITA │ ├── Locução Prepositiva (Termina em preposição) ──► Rege Infinitivo (Oração Reduzida) │ ├── Locução Conjuntiva (Termina em \"que\") ──► Rege Subjuntivo (Oração Desenvolvida) │ └── Princípio da Reescrita: Sentido semântico idêntico com ajuste obrigatório da flexão verbal. │ ├── 4. DICOTOMIA FUNCIONAL │ ├── VALOR RELACIONAL (Gramatical / Sintático / Obrigatório) │ │ ├── Carga Semântica: NULA (não introduz sentido próprio). │ │ └── Funções Regidas: Objeto Indireto (OI) e Complemento Nominal (CN). │ │ │ └── VALOR NOCIONAL (Semântico / Circunstancial / Não Obrigatório) │ ├── Critério de Identificação: \"O que vem depois salva\" (Natureza do termo regido). │ └── Funções Sintáticas Não Regidas: │ ├── Adjunto Adverbial (tempo, lugar, modo, causa, finalidade, etc.) │ ├── Adjunto Adnominal (matéria, posse, conteúdo, companhia) │ └── Agente da Passiva (agente) │ └── 5. POLISSEMIA DA PREPOSIÇÃO \"PARA\" & ESTRATÉGIAS DE PROVA ├── Valências: Finalidade, Direção/Lugar, Destinatário, Conformidade, Tempo. ├── Teste Canônico de Finalidade: Substituição por \"a fim de\" / \"com o propósito de\". ├── Desarme de Armadilha: \"para [sempre permitirem]\" = Finalidade (não locução temporal). └── Paralelismo Correlativo: Cadeia aditiva (\"não apenas... mas também...\") impõe simetria semântica."
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A02-G01-001",
+          "title": "Mapa de conexão — Preposições",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a02:preposicoes",
+              "label": "Preposições",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a02:preposicoes",
+              "relation": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A preposição é uma classe gramatical de palavras invariáveis cuja função primordial é atuar como conectivo ou conector, estabelecendo vínculo sintático e semântico entre dois termos no interior de uma mesma oração ou entre duas orações em um período composto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sintaticamente, o conector une um elemento determinado (termo principal) a um elemento determinante (termo dependente):"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Conexão no nível dos termos (palavras isoladas): A preposição liga vocábulos nominais subordinando o segundo ao primeiro. Exemplo: em \"Casa de José\", a preposição de liga o substantivo \"Casa\" ao substantivo \"José\".",
+            "Conexão no nível das orações: A preposição liga uma oração principal a uma oração subordinada. Exemplo: em \"Correu para chegar a tempo\", a preposição para conecta a oração \"Correu\" à oração subordinada \"chegar a tempo\"."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A faculdade de ligar tanto palavras isoladas quanto orações inteiras não é prerrogativa exclusiva da preposição, sendo uma propriedade funcional perfeitamente compartilhada com a classe das conjunções:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conjunção ligando termos: \"João e José\" (conjunção aditiva ligando dois núcleos nominais).",
+            "Conjunção ligando orações: \"Acordou e saiu\" (conjunção aditiva ligando duas orações coordenadas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Preposição ligando termos: Mesa de madeira, Café com leite.",
+            "Preposição ligando orações: Estudou para passar, Saiu sem falar nada.",
+            "Conjunção ligando termos: Mesa e cadeira, Você ou eu.",
+            "Conjunção ligando orações: Estudou, mas não passou, Disse que viria."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande em: KB-A02-G01-PREPOSICOES-002",
+            "Evidenciado visualmente por: VIS-A02-G01-PREPOSICOES-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As preposições essenciais constituem o rol fechado de 18 vocábulos da Língua Portuguesa que desempenham nativa e precipuamente a função de preposição. A memorização estrita dessa lista constitui um mecanismo operacional indispensável para não incorrer em erros de classificação morfológica nas bancas examinadoras."
+        },
+        {
+          "type": "paragraph",
+          "text": "O rol normativo das 18 preposições essenciais é composto por:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\\{a, ante, até, após, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás\\}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "A memorização da lista resolve dois conflitos morfológicos frequentes em provas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Preposição isolada vs. Advérbio / Locução Adverbial (Caso Cesgranrio):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na frase \"Sairei após o jantar\", a banca frequentemente sublinha apenas o vocábulo após e induz o candidato a assinalar \"advérbio de tempo\" em virtude da carga semântica temporal.",
+            "Critério decifrador: Se a palavra sublinhada constar na lista das essenciais, sua classe morfológica isolada é preposição (com valor semântico de tempo). Para ser classificada como locução adverbial de tempo, a banca deve obrigatoriamente sublinhar o conjunto sintático inteiro (após o jantar)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Preposição vs. Conjunção Coordenativa (Caso FGV):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Na comparação entre \"Comerei pipoca e guaraná\" e \"Comerei pipoca com guaraná\":",
+            "O vocábulo e figura na lista das conjunções (conjunção coordenativa aditiva).",
+            "O vocábulo com figura na lista das preposições essenciais (preposição que introduz adjunto adnominal com valor semântico de companhia)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verifique a delimitação gráfica do sublinhado na questão de prova.",
+            "Sublinhado restrito ao conector essencial $\\rightarrow$ Classificação morfológica: Preposição.",
+            "Sublinhado abrangendo conector + substantivo circunstancial $\\rightarrow$ Classificação sintática/locucional: Locução Adverbial."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A02-G01-PREPOSICOES-001",
+            "Exemplificado por: EX-A02-G01-PREPOSICOES-001, EX-A02-G01-PREPOSICOES-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "É gramaticalmente vedado o emprego do acento grave indicativo de crase imediatamente após qualquer preposição essencial. A única preposição essencial que configura exceção à regra geral, admitindo crase facultativa, é a preposição \"até\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "O fenômeno da crase na norma culta requer a fusão de duas preposições idênticas ($a + a = \\grave{a}$), em que a primeira é a preposição $a$ regida por um termo regente anterior e a segunda é o artigo definido feminino $a(s)$ ou pronome demonstrativo/relativo iniciado por $a$."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se uma preposição essencial (como desde, ante, para, contra, sob, perante) já rege o termo subsequente, não há espaço sintático para a inserção de uma segunda preposição a. O elemento feminino que a segue é unicamente o artigo definido, tornando a crase proibida:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Construção Incorreta: Ante à ausência do réu...",
+            "Construção Correta: Ante a ausência do réu... (ante = preposição; a = artigo definido).",
+            "Construção Incorreta: Estou no escritório desde às 9 horas.",
+            "Construção Correta: Estou no escritório desde as 9 horas. (desde = preposição; as = artigo definido plural)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A preposição até é o único caso do rol essencial que admite facultativamente a presença da preposição a após si. Assim, diante de substantivo feminino acompanhado de artigo, a ocorrência de crase é facultativa:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\"Caminhou até a praça\" (Uso apenas da preposição até + artigo a).",
+            "\"Caminhou até à praça\" (Uso da preposição até + preposição a + artigo a)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A02-G01-PREPOSICOES-002",
+            "Possui alerta: WARN-A02-G01-PREPOSICOES-002",
+            "Registro oral associado: ORAL-A02-G01-PREPOSICOES-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Uma locução é um agrupamento de duas ou mais palavras que desempenha a função de uma classe gramatical única. A locução prepositiva termina obrigatoriamente em preposição e rege oração reduzida no infinitivo. A locução conjuntiva termina pelo vocábulo conetivo \"que\" e rege oração desenvolvida com verbo conjugado."
+        },
+        {
+          "type": "paragraph",
+          "text": "A correlação morfológica entre as locuções acarreta repercussões sintáticas automáticas no predicado subordinado:"
+        },
+        {
+          "type": "paragraph",
+          "text": "|:------------------------------ |:------------------------------------ |:------------------------------------- |:------------------------------ |:-------------------------------------------------------------- |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| Locução Prepositiva | Preposição essencial (de, a...) | Verbo no Infinitivo | Oração Reduzida de Infinitivo | Chegou cedo a fim de conversar com a irmã. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "| Locução Conjuntiva | Conjunção integrante\"que\" | Verbo Conjugado (Subjuntivo) | Oração Desenvolvida | Chegou cedo a fim de que conversasse com a irmã. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "A substituição de uma locução prepositiva por uma locução conjuntiva equivalente (ou de uma preposição isolada por uma locução conjuntiva de mesmo sentido):"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Mantém integralmente o sentido semântico e a coerência textual.",
+            "Exige alteração sintática obrigatória na forma verbal acoplada:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Preposição / Locução Prepositiva} + \\text{Infinitivo} \\quad\\equiv\\quad \\text{Locução Conjuntiva} + \\text{Verbo no Subjuntivo}"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se a reescrita mantiver a locução conjuntiva preservando o verbo no infinitivo (ou usar locução prepositiva com verbo conjugado), a frase apresentará erro sintático de estruturação gramatical."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplica procedimento: PROC-A02-G01-PREPOSICOES-001",
+            "Evidenciado visualmente por: VIS-A02-G01-PREPOSICOES-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A preposição desempenha dois papéis estruturais e funcionais mutuamente excludentes na oração:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Valor Relacional (Gramatical / Obrigatório): Presença imposta pelas regras de regência verbal ou nominal; atua como mero ligame sintático destituído de valor semântico próprio.",
+            "Valor Nocional (Semântico / Não Obrigatório): Presença não exigida pela regência; introduz circunstâncias conceituais, sentidos e noções interpretativas na oração."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "DICOTOMIA DA PREPOSIÇÃO │ ┌─────────────────────────────┴─────────────────────────────┐ ▼ ▼ VALOR RELACIONAL (GRAMATICAL) VALOR NOCIONAL (SEMÂNTICO) • Obrigatória por Regência Verbal/Nominal • Não obrigatória por Regência • Carga Semântica: NULA • Carga Semântica: PLENA (introduz noções) • Inicia Termos Integrantes Regidos: • Inicia Termos Acessórios / Não Regidos:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Objeto Indireto (OI) - Adjunto Adverbial (tempo, lugar, causa...)",
+            "Complemento Nominal (CN) - Adjunto Adnominal (posse, matéria...)",
+            "Agente da Passiva (agente)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aparece na frase estritamente para satisfazer a transitividade de um verbo transitivo indireto (VTI) ou a complementação de um substantivo/adjetivo/advérbio transitivo:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regência Verbal: \"Precisava de apoio.\" (O verbo precisar exige a preposição de; \"de apoio\" é Objeto Indireto).",
+            "Regência Verbal: \"Assistiu a vários jogos.\" (O verbo assistir no sentido de ver exige a preposição a).",
+            "Regência Nominal: \"Tinha medo de escuro.\" (O substantivo medo rege a preposição de; \"de escuro\" é Complemento Nominal).",
+            "Propriedade Crítica: Se a questão de concurso indagar qual é o valor semântico de de em \"precisava de apoio\", a resposta é nenhum, pois seu papel é puramente gramatical/relacional."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocorre quando o conector é inserido para atribuir um traço semântico contextual independente da exigência sintática de termos anteriores:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Porta de madeira: Preposição de veicula noção de Matéria.",
+            "Carro do João: Preposição de veicula noção de Posse.",
+            "Bolo de milho: Preposição de veicula noção de Conteúdo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande em: KB-A02-G01-PREPOSICOES-006",
+            "Evidenciado visualmente por: VIS-A02-G01-PREPOSICOES-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As preposições dotadas de valor nocional correlacionam-se rigidamente na sintaxe a funções que não representam complementos oracionais obrigatórios, introduzindo termos com as funções sintáticas de Adjunto Adverbial, Adjunto Adnominal e Agente da Passiva."
+        },
+        {
+          "type": "paragraph",
+          "text": "A professora esquematizou o mapeamento da relação entre valor semântico e função sintática:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Adjunto Adverbial (Preposição Nocional):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Frase: \"Estuda pela [por + a] manhã.\"",
+            "Análise Sintática: \"pela manhã\" exerce função de Adjunto Adverbial de Tempo.",
+            "Análise Semântica: A preposição por carrega a noção de tempo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Adjunto Adnominal (Preposição Nocional):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Frase: \"Comi pipoca com guaraná.\"",
+            "Análise Sintática: \"com guaraná\" é Adjunto Adnominal (modificador caracterizador do substantivo \"pipoca\").",
+            "Análise Semântica: A preposição com veicula a noção de companhia (a pipoca acompanhada de guaraná)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Agente da Passiva (Preposição Nocional):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Frase: \"Foi elogiado pelo [por + o] professor.\"",
+            "Análise Sintática: \"pelo professor\" atua como Agente da Passiva.",
+            "Análise Semântica: A preposição por expressa a noção de agente (o executor da ação na voz passiva analítica)."
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\begin{cases}\n\\text{\\textbf{Preposição Relacional (Obrigatória)}} & \\longrightarrow \\text{Objeto Indireto / Complemento Nominal} \\\\\n\\text{\\textbf{Preposição Nocional (Não Obrigatória)}} & \\longrightarrow \\text{Adjunto Adverbial / Adjunto Adnominal / Agente da Passiva}\n\\end{cases}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A02-G01-PREPOSICOES-005",
+            "Aplica procedimento: PROC-A02-G01-PREPOSICOES-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A preposição \"PARA\" é uma das mais cobradas em concursos públicos por possuir expressiva polissemia nocional, assumindo cinco valores semânticos principais a depender da natureza semântica do termo regido que a sucede."
+        },
+        {
+          "type": "paragraph",
+          "text": "Os cinco valores semânticos fundamentais assumidos pela preposição \"PARA\" compreendem:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "FINALIDADE: Expressa objetivo, propósito, meta ou intuito. Equivale a \"a fim de\", \"com o objetivo de\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Estudava para passar no concurso.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "DIREÇÃO / LUGAR: Indica orientação espacial, vetor de deslocamento ou ponto de destino físico."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Não olhe para cima.\" / \"Saíram cedo para o trabalho.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "DESTINATÁRIO: Indica o ser recipiente, o beneficiário ou recebedor de um objeto/ação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Trouxe flores para a namorada.\" / \"Enviarei um presente para minha amiga.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "CONFORMIDADE: Expressa concordância com uma opinião, ponto de vista ou consonância de pensamento. Equivale a \"conforme\", \"segundo\", \"de acordo com\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Para o político, a nova lei será boa.\" / \"Para os colaboradores, as normas são sólidas.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "TEMPO: Indica limite temporal, prazo final ou momento determinado no tempo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: \"Deixamos a decisão para o final do ano.\" / \"A reunião foi adiada para a próxima segunda.\" / \"Prazo de adequação para só depois de 2025.\""
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A02-G01-PREPOSICOES-003, EX-A02-G01-PREPOSICOES-004, EX-A02-G01-PREPOSICOES-005",
+            "Possui dica: TIP-A02-G01-PREPOSICOES-001",
+            "Evidenciado visualmente por: VIS-A02-G01-PREPOSICOES-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao formular itens que solicitam a \"noção\", o \"valor semântico\", o \"sentido\" ou a \"circunstância\" de uma preposição destacada, bancas como Cebraspe, Instituto AOCP, FGV e Cesgranrio exigem interpretação semântico-contextual, tornando ineficiente a tentativa do candidato de despender tempo com classificações sintáticas exaustivas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A professora orienta uma postura mental pragmática:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o comando da questão usa vocábulos como \"expressa circunstância de...\", \"tem valor semântico de...\" ou \"veicula ideia de...\", o examinador já assume que a preposição é nocional no contexto.",
+            "O aluno não deve debater se a oração é subordinada adverbial final reduzida de infinitivo ou complemento nominal. O foco decisório deve ser a leitura do termo regido e a aplicação do teste de substituição por conectivo sinônimo (para = a fim de; para = conforme)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui dica: TIP-A02-G01-PREPOSICOES-003, TIP-A02-G01-PREPOSICOES-004",
+            "Possui alerta: WARN-A02-G01-PREPOSICOES-005"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Estruturas oracionais encadeadas por conectores correlativos aditivos (tais como \"não apenas..., mas também..., e sobretudo...\") exigem paralelismo sintático e semântico. Consequentemente, múltiplos segmentos introduzidos pela preposição \"para\" sob coordenação aditiva compartilham compulsoriamente a mesma natureza semântica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em períodos complexos com múltiplos conectores:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Oração Principal} + \\text{\\textbf{não apenas} [para...]} + \\text{\\textbf{mas também} [para...]} + \\text{\\textbf{e, sobretudo,} [para...]}"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A coordenação aditiva soma exclusivamente elementos de mesma função e mesma natureza conceitual.",
+            "Se a análise semântica comprovar que a primeira ocorrência da preposição \"para\" veicula o valor de finalidade (a fim de permitirem), o princípio do paralelismo atesta que a segunda (mas também para não restringirem) e a terceira ocorrência (e sobretudo para manterem) veiculam obrigatoriamente a mesma circunstância de finalidade."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A02-G01-PREPOSICOES-007",
+            "Aplica procedimento: PROC-A02-G01-PREPOSICOES-004",
+            "Evidenciado visualmente por: VIS-A02-G01-PREPOSICOES-006"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A02-G01-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A02-G01-001",
+              "table": {
+                "tableId": "TABLE-IP-A02-G01-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "ID Canônico",
+                  "Conceito / Regra",
+                  "Formulação Sintética Canônica",
+                  "ID Detalhado de Referência"
+                ],
+                "rows": [
+                  [
+                    "DEF-01",
+                    "Preposição",
+                    "Palavra invariável que funciona como conector entre termos de uma oração ou entre orações de um período.",
+                    "KB-A02-G01-PREPOSICOES-001"
+                  ],
+                  [
+                    "CLASS-01",
+                    "Preposições Essenciais",
+                    "Conjunto de 18 palavras invariáveis puramente prepositivas:a, ante, até, após, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás.",
+                    "KB-A02-G01-PREPOSICOES-002"
+                  ],
+                  [
+                    "REG-01",
+                    "Vedação de Crase",
+                    "É proibida a crase após preposição essencial, pois o conector impede a fusão da preposiçãoa com o artigo; a única exceção facultativa é até.",
+                    "KB-A02-G01-PREPOSICOES-003"
+                  ],
+                  [
+                    "REG-02",
+                    "Reescrita de Locuções",
+                    "Preposição/Locução Prepositiva (+ Infinitivo) equivale semanticamente a Locução Conjuntiva (+ Subjuntivo), exigindo flexão verbal adequada.",
+                    "KB-A02-G01-PREPOSICOES-004"
+                  ],
+                  [
+                    "DIST-01",
+                    "Preposição Relacional",
+                    "Preposição imposta por regência verbal ou nominal; sem valor semântico próprio; inicia Objeto Indireto e Complemento Nominal.",
+                    "KB-A02-G01-PREPOSICOES-005"
+                  ],
+                  [
+                    "DIST-02",
+                    "Preposição Nocional",
+                    "Preposição não obrigatória por regência; introduz circunstâncias e noções; inicia Adjunto Adverbial, Adjunto Adnominal e Agente da Passiva.",
+                    "KB-A02-G01-PREPOSICOES-005"
+                  ],
+                  [
+                    "CLASS-02",
+                    "Valências do \"PARA\"",
+                    "A preposiçãopara assume 5 valores semânticos: Finalidade, Direção/Lugar, Destinatário, Conformidade e Tempo.",
+                    "KB-A02-G01-PREPOSICOES-007"
+                  ],
+                  [
+                    "REG-03",
+                    "Paralelismo Aditivo",
+                    "Elementos introduzidos por preposição ligados por pares correlativos aditivos (não apenas... mas também...) possuem idêntico valor semântico.",
+                    "KB-A02-G01-PREPOSICOES-009"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A02-G01-PREPOSICOES-001",
+          "title": "Procedimento de Validação Sintático-Semântica em Reescrita de Locuções",
+          "objective": "Executar o algoritmo decisório para Procedimento de Validação Sintático-Semântica em Reescrita de Locuções",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Procedimento de Validação Sintático-Semântica em Reescrita de Locuções."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificar o Conectivo Original",
+              "explanation": "Determine se a frase original emprega preposição isolada/locução prepositiva (a fim de, apesar de, para) ou locução conjuntiva (a fim de que, apesar de que, para que).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Verificar a Equivalência Semântica",
+              "explanation": "Certifique-se de que o conector substituto carrega a mesma noção circunstancial do original (ex.: finalidade com finalidade, concessão com concessão).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Inspecionar a Flexão Verbal (Passo Decisivo)",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se a proposta de reescrita usar locução prepositiva (terminada em preposição)",
+              "explanation": "o verbo subordinado deve estar obrigatoriamente na forma nominal de infinitivo (oração reduzida).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se a proposta de reescrita usar locução conjuntiva (terminada em \"que\")",
+              "explanation": "o verbo subordinado deve estar obrigatoriamente flexionado/conjugado no modo subjuntivo (oração desenvolvida).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Julgamento",
+              "explanation": "Se a correlação temporal e modal do verbo foi devidamente adaptada, considere a reescrita correta e com sentido preservado.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Procedimento de Validação Sintático-Semântica em Reescrita de Locuções."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Validar a correção gramatical e a preservação semântica em questões que propõem substituir locuções prepositivas por locuções conjuntivas (ou vice-versa)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a Passo Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificar o Conectivo Original: Determine se a frase original emprega preposição isolada/locução prepositiva (a fim de, apesar de, para) ou locução conjuntiva (a fim de que, apesar de que, para que).",
+                "Verificar a Equivalência Semântica: Certifique-se de que o conector substituto carrega a mesma noção circunstancial do original (ex.: finalidade com finalidade, concessão com concessão).",
+                "Inspecionar a Flexão Verbal (Passo Decisivo):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se a proposta de reescrita usar locução prepositiva (terminada em preposição): o verbo subordinado deve estar obrigatoriamente na forma nominal de infinitivo (oração reduzida).",
+                "Se a proposta de reescrita usar locução conjuntiva (terminada em \"que\"): o verbo subordinado deve estar obrigatoriamente flexionado/conjugado no modo subjuntivo (oração desenvolvida)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Julgamento: Se a correlação temporal e modal do verbo foi devidamente adaptada, considere a reescrita correta e com sentido preservado."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A02-G01-PREPOSICOES-002",
+          "title": "Algoritmo do \"Termo Posterior Salva\" para Identificação do Valor Nocional",
+          "objective": "Executar o algoritmo decisório para Algoritmo do \"Termo Posterior Salva\" para Identificação do Valor Nocional",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo do \"Termo Posterior Salva\" para Identificação do Valor Nocional."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isolar os Termos Conectados",
+              "explanation": "Delimite o termo anterior regente e o termo posterior regido (ex.: [porta] de [madeira], [saíram cedo] para [o trabalho]).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Descartar a Preposição Relacional",
+              "explanation": "Verifique se o termo não é objeto indireto exigido por VTI ou complemento nominal. Se não for exigido por regência, trata-se de valor nocional.",
+              "test": "Descartar a Preposição Relacional: Verifique se o termo não é objeto indireto exigido por VTI ou complemento nominal. Se não for exigido por regência, trata-se de valor nocional."
+            },
+            {
+              "order": 3,
+              "action": "Analisar a Carga do Termo Posterior (\"O que vem depois salva\")",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Termo posterior indica material constitutivo $\\rightarrow$ Matéria (mesa de vidro).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Termo posterior indica possuidor $\\rightarrow$ Posse (casa da Maria).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Termo posterior indica conteúdo preenchedor $\\rightarrow$ Conteúdo (lata de óleo).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Termo posterior indica ponto de destino/espaço físico $\\rightarrow$ Direção / Lugar (olhe para cima, foi para casa).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Termo posterior indica pessoa recebedora $\\rightarrow$ Destinatário (flores para a mãe).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Termo posterior indica parecer/opinião $\\rightarrow$ Conformidade (para os cientistas...).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Termo posterior indica marco temporal/prazo $\\rightarrow$ Tempo (para o mês que vem).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 11,
+              "action": "Termo posterior indica ação/meta a atingir $\\rightarrow$ Finalidade (para conseguir vaga).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 12,
+              "action": "Termo posterior indica companhia associada $\\rightarrow$ Companhia (pipoca com refrigerante).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 13,
+              "action": "Termo posterior indica sujeito agente da passiva $\\rightarrow$ Agente (derrotado pelo rival).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo do \"Termo Posterior Salva\" para Identificação do Valor Nocional."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Determinar com exatidão a circunstância semântica veiculada por uma preposição nocional em questões de múltipla escolha ou certo/errado."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a Passo Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isolar os Termos Conectados: Delimite o termo anterior regente e o termo posterior regido (ex.: [porta] de [madeira], [saíram cedo] para [o trabalho]).",
+                "Descartar a Preposição Relacional: Verifique se o termo não é objeto indireto exigido por VTI ou complemento nominal. Se não for exigido por regência, trata-se de valor nocional.",
+                "Analisar a Carga do Termo Posterior (\"O que vem depois salva\"):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Termo posterior indica material constitutivo $\\rightarrow$ Matéria (mesa de vidro).",
+                "Termo posterior indica possuidor $\\rightarrow$ Posse (casa da Maria).",
+                "Termo posterior indica conteúdo preenchedor $\\rightarrow$ Conteúdo (lata de óleo).",
+                "Termo posterior indica ponto de destino/espaço físico $\\rightarrow$ Direção / Lugar (olhe para cima, foi para casa).",
+                "Termo posterior indica pessoa recebedora $\\rightarrow$ Destinatário (flores para a mãe).",
+                "Termo posterior indica parecer/opinião $\\rightarrow$ Conformidade (para os cientistas...).",
+                "Termo posterior indica marco temporal/prazo $\\rightarrow$ Tempo (para o mês que vem).",
+                "Termo posterior indica ação/meta a atingir $\\rightarrow$ Finalidade (para conseguir vaga).",
+                "Termo posterior indica companhia associada $\\rightarrow$ Companhia (pipoca com refrigerante).",
+                "Termo posterior indica sujeito agente da passiva $\\rightarrow$ Agente (derrotado pelo rival)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A02-G01-PREPOSICOES-003",
+          "title": "Teste Canônico de Substituição para Circunstância de Finalidade",
+          "objective": "Executar o algoritmo decisório para Teste Canônico de Substituição para Circunstância de Finalidade",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Canônico de Substituição para Circunstância de Finalidade."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar a preposição \"para\" e identificar a oração subordinada por ela introduzida.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Substituir mentalmente \"para\" por \"a fim de\" ou \"com o objetivo de\".",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Avaliar a fluidez semântica",
+              "explanation": "Se a substituição mantiver perfeito sentido de meta/propósito da oração anterior, a circunstância é estritamente de finalidade.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Canônico de Substituição para Circunstância de Finalidade."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Validar com rapidez e segurança se a preposição \"para\" introduz circunstância de finalidade em itens do Cebraspe ou Instituto AOCP."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a Passo Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localizar a preposição \"para\" e identificar a oração subordinada por ela introduzida.",
+                "Substituir mentalmente \"para\" por \"a fim de\" ou \"com o objetivo de\".",
+                "Avaliar a fluidez semântica: Se a substituição mantiver perfeito sentido de meta/propósito da oração anterior, a circunstância é estritamente de finalidade."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A02-G01-PREPOSICOES-004",
+          "title": "Teste de Paralelismo em Estruturas Correlativas com Múltiplas Preposições",
+          "objective": "Executar o algoritmo decisório para Teste de Paralelismo em Estruturas Correlativas com Múltiplas Preposições",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Paralelismo em Estruturas Correlativas com Múltiplas Preposições."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Destacar as ocorrências de \"para\" e identificar os conectores correlativos que as unem (não apenas... mas também... e sobretudo...).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Testar o valor de finalidade na primeira ocorrência (para sempre permitirem = a fim de sempre permitirem).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Aplicar a propriedade de simetria do paralelismo aditivo",
+              "explanation": "Elementos sob adição correlativa possuem compulsoriamente a mesma natureza semântica.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Validar o item como Certo sem necessidade de decomposição exaustiva das ocorrências intermediárias.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Paralelismo em Estruturas Correlativas com Múltiplas Preposições."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Julgar itens que afirmam que múltiplas ocorrências da preposição \"para\" em um período longo veiculam a mesma ideia de finalidade."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a Passo Operacional"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Destacar as ocorrências de \"para\" e identificar os conectores correlativos que as unem (não apenas... mas também... e sobretudo...).",
+                "Testar o valor de finalidade na primeira ocorrência (para sempre permitirem = a fim de sempre permitirem).",
+                "Aplicar a propriedade de simetria do paralelismo aditivo: Elementos sob adição correlativa possuem compulsoriamente a mesma natureza semântica.",
+                "Validar o item como Certo sem necessidade de decomposição exaustiva das ocorrências intermediárias."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A02-G01-001",
+          "title": "8.1. Preposição Relacional (Gramatical) vs. Preposição Nocional (Semântica)",
+          "contrastType": "morphological",
+          "conceptA": "8.1. Preposição Relacional (Gramatical) vs. Preposição Nocional (Semântica)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A02-G01-002",
+              "table": {
+                "tableId": "TABLE-IP-A02-G01-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro Comparativo",
+                  "Preposição Relacional (Gramatical)",
+                  "Preposição Nocional (Semântica)"
+                ],
+                "rows": [
+                  [
+                    "Valor Semântico Próprio",
+                    "Nulo (não introduz nova noção circunstancial).",
+                    "Pleno (tempo, lugar, causa, posse, matéria, etc.)."
+                  ],
+                  [
+                    "Funções Sintáticas Típicas",
+                    "Objeto Indireto (OI) e Complemento Nominal (CN).",
+                    "Adjunto Adverbial (AA), Adjunto Adnominal (ADN), Agente da Passiva."
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "\"Gosto de você\" / \"Tinha medo de chuva\".",
+                    "\"Casa de tijolo\" / \"Saiu de manhã\"."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A02-G01-002",
+          "title": "8.2. Locução Prepositiva vs. Locução Conjuntiva",
+          "contrastType": "mixed",
+          "conceptA": "8.2. Locução Prepositiva vs. Locução Conjuntiva",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A02-G01-003",
+              "table": {
+                "tableId": "TABLE-IP-A02-G01-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério",
+                  "Locução Prepositiva",
+                  "Locução Conjuntiva"
+                ],
+                "rows": [
+                  [
+                    "Terminação Obrigatória",
+                    "Preposição essencial (de, a, com...).",
+                    "Conjunção integrante (que)."
+                  ],
+                  [
+                    "Exemplos",
+                    "a fim de, apesar de, devido a, antes de",
+                    "a fim de que, apesar de que, visto que, antes que"
+                  ],
+                  [
+                    "Estrutura Verbal Regida",
+                    "Verbo noInfinitivo (Oração Reduzida).",
+                    "VerboConjugado no Subjuntivo (Oração Desenvolvida)."
+                  ],
+                  [
+                    "Sentido em Reescrita",
+                    "Idêntico ao da locução conjuntiva correspondente.",
+                    "Idêntico ao da locução prepositiva correspondente."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A02-G01-003",
+          "title": "8.3. Distinções Semânticas Contextuais da Preposição \"PARA\"",
+          "contrastType": "morphological",
+          "conceptA": "8.3. Distinções Semânticas Contextuais da Preposição \"PARA\"",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A02-G01-004",
+              "table": {
+                "tableId": "TABLE-IP-A02-G01-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Construção Contrastada 1",
+                  "Construção Contrastada 2",
+                  "Critério Distintivo"
+                ],
+                "rows": [
+                  [
+                    "\"Saíram cedo para o trabalho.\" $\\rightarrow$ Lugar / Direção",
+                    "\"Saíram cedo para trabalhar.\" $\\rightarrow$ Finalidade",
+                    "No primeiro caso,trabalho é substantivo (destino físico); no segundo, trabalhar é verbo no infinitivo (objetivo/meta)."
+                  ],
+                  [
+                    "\"Livro para o aluno.\" $\\rightarrow$ Destinatário",
+                    "\"Para o aluno, a prova foi fácil.\" $\\rightarrow$ Conformidade",
+                    "No primeiro caso, o aluno recebe o objeto; no segundo, expressa sua opinião/ponto de vista (segundo o aluno)."
+                  ],
+                  [
+                    "\"Decisão para o final do ano.\" $\\rightarrow$ Tempo",
+                    "\"Correu para o final da rua.\" $\\rightarrow$ Lugar / Direção",
+                    "Final do ano é marco cronológico; final da rua é coordenada espacial."
+                  ],
+                  [
+                    "\"Trabalhou para sempre.\" $\\rightarrow$ Tempo (Locução Adverbial)",
+                    "\"Implementadas para sempre permitirem...\" $\\rightarrow$ Finalidade (Oração)",
+                    "No primeiro caso,para sempre indica perpetuidade; no segundo, para rege a oração com sentido de a fim de permitirem perpetuamente."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-001",
+          "title": "EX-A02-G01-PREPOSICOES-001 — Estudo de Caso Cesgranrio: \"Sairei após o jantar\"",
+          "prompt": "Contexto / Frase: Sairei após o jantar.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Contexto / Frase",
+              "rationale": "Sairei após o jantar."
+            },
+            {
+              "order": 2,
+              "action": "Problema Proposto",
+              "rationale": "A banca sublinhou o vocábulo após e perguntou sua classificação morfológica, colocando \"advérbio de tempo\" entre as opções."
+            },
+            {
+              "order": 3,
+              "action": "Resolução Consolidada",
+              "rationale": "A palavra isolada após pertence à lista memorizada das preposições essenciais. Embora veicule semântica temporal, sua classe morfológica é preposição. Apenas se o segmento sublinhado fosse o bloco completo após o jantar a classificação correta seria locução adverbial de tempo."
+            }
+          ],
+          "result": "Resolução Consolidada: A palavra isolada após pertence à lista memorizada das preposições essenciais. Embora veicule semântica temporal, sua classe morfológica é preposição. Apenas se o segmento sublinhado fosse o bloco completo após o jantar a classificação correta seria locução adverbial de tempo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-001 — Estudo de Caso Cesgranrio: \"Sairei após o jantar\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-001 — Estudo de Caso Cesgranrio: \"Sairei após o jantar\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-001 — Estudo de Caso Cesgranrio: \"Sairei após o jantar\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Contexto / Frase: Sairei após o jantar.",
+                "Problema Proposto: A banca sublinhou o vocábulo após e perguntou sua classificação morfológica, colocando \"advérbio de tempo\" entre as opções.",
+                "Resolução Consolidada: A palavra isolada após pertence à lista memorizada das preposições essenciais. Embora veicule semântica temporal, sua classe morfológica é preposição. Apenas se o segmento sublinhado fosse o bloco completo após o jantar a classificação correta seria locução adverbial de tempo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-002",
+          "title": "EX-A02-G01-PREPOSICOES-002 — Estudo de Caso FGV: \"Pipoca e guaraná\" vs. \"Pipoca com guaraná\"",
+          "prompt": "Construções Analisadas:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Construções Analisadas",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Comerei pipoca e guaraná. $\\rightarrow$ e = Conjunção coordenativa aditiva (liga dois núcleos de objeto direto).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "Comerei pipoca com guaraná. $\\rightarrow$ com = Preposição essencial com valor nocional de companhia, introduzindo um Adjunto Adnominal.",
+              "rationale": null
+            }
+          ],
+          "result": "Comerei pipoca com guaraná. $\\rightarrow$ com = Preposição essencial com valor nocional de companhia, introduzindo um Adjunto Adnominal.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-002 — Estudo de Caso FGV: \"Pipoca e guaraná\" vs. \"Pipoca com guaraná\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-002 — Estudo de Caso FGV: \"Pipoca e guaraná\" vs. \"Pipoca com guaraná\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-002 — Estudo de Caso FGV: \"Pipoca e guaraná\" vs. \"Pipoca com guaraná\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Construções Analisadas:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Comerei pipoca e guaraná. $\\rightarrow$ e = Conjunção coordenativa aditiva (liga dois núcleos de objeto direto).",
+                "Comerei pipoca com guaraná. $\\rightarrow$ com = Preposição essencial com valor nocional de companhia, introduzindo um Adjunto Adnominal."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-003",
+          "title": "EX-A02-G01-PREPOSICOES-003 — Bloco de Fixação: Valores Semânticos da Preposição \"PARA\"",
+          "prompt": "\"Estudou com afinco para conseguir boas notas.\" $\\rightarrow$ Finalidade (a fim de conseguir).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "\"Estudou com afinco para conseguir boas notas.\" $\\rightarrow$ Finalidade (a fim de conseguir).",
+              "rationale": null
+            },
+            {
+              "order": 2,
+              "action": "\"Saíram cedo para o trabalho.\" $\\rightarrow$ Direção / Lugar (substantivo espacial de destino).",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "\"Enviarei um presente para minha amiga.\" $\\rightarrow$ Destinatário (ser receptor da ação/presente).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "\"Para os colaboradores, são sólidas as normas da instituição.\" $\\rightarrow$ Conformidade (conforme / segundo os colaboradores).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "\"Guardou dinheiro para comprar uma casa.\" $\\rightarrow$ Finalidade (para que comprasse uma casa).",
+              "rationale": null
+            }
+          ],
+          "result": "\"A reunião foi adiada para a próxima segunda-feira.\" $\\rightarrow$ Tempo (prazo/data limite futura).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-003 — Bloco de Fixação: Valores Semânticos da Preposição \"PARA\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-003 — Bloco de Fixação: Valores Semânticos da Preposição \"PARA\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-003 — Bloco de Fixação: Valores Semânticos da Preposição \"PARA\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "\"Estudou com afinco para conseguir boas notas.\" $\\rightarrow$ Finalidade (a fim de conseguir).",
+                "\"Saíram cedo para o trabalho.\" $\\rightarrow$ Direção / Lugar (substantivo espacial de destino).",
+                "\"Enviarei um presente para minha amiga.\" $\\rightarrow$ Destinatário (ser receptor da ação/presente).",
+                "\"Para os colaboradores, são sólidas as normas da instituição.\" $\\rightarrow$ Conformidade (conforme / segundo os colaboradores).",
+                "\"Guardou dinheiro para comprar uma casa.\" $\\rightarrow$ Finalidade (para que comprasse uma casa).",
+                "\"A reunião foi adiada para a próxima segunda-feira.\" $\\rightarrow$ Tempo (prazo/data limite futura)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-004",
+          "title": "EX-A02-G01-PREPOSICOES-004 — Questão de Concurso: Instituto AOCP (EBSERH - Pedagogo)",
+          "prompt": "Trecho da Prova: \"Para evitar que as consequências do aquecimento global 'saiam de controle'...\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho da Prova",
+              "rationale": "\"Para evitar que as consequências do aquecimento global 'saiam de controle'...\""
+            },
+            {
+              "order": 2,
+              "action": "Comando",
+              "rationale": "O termo destacado expressa: (A) finalidade; (B) condição; (C) concessão; (D) conformidade; (E) proporção."
+            },
+            {
+              "order": 3,
+              "action": "Resolução",
+              "rationale": "O conector Para introduz oração reduzida que equivale a \"A fim de evitar que...\", indicando o objetivo de conter os danos climáticos."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito Oficial",
+              "rationale": "A (Finalidade)."
+            }
+          ],
+          "result": "Gabarito Oficial: A (Finalidade).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-004 — Questão de Concurso: Instituto AOCP (EBSERH - Pedagogo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-004 — Questão de Concurso: Instituto AOCP (EBSERH - Pedagogo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-004 — Questão de Concurso: Instituto AOCP (EBSERH - Pedagogo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho da Prova: \"Para evitar que as consequências do aquecimento global 'saiam de controle'...\"",
+                "Comando: O termo destacado expressa: (A) finalidade; (B) condição; (C) concessão; (D) conformidade; (E) proporção.",
+                "Resolução: O conector Para introduz oração reduzida que equivale a \"A fim de evitar que...\", indicando o objetivo de conter os danos climáticos.",
+                "Gabarito Oficial: A (Finalidade)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-005",
+          "title": "EX-A02-G01-PREPOSICOES-005 — Questão de Concurso: Instituto AOCP (EBSERH - Enfermeiro)",
+          "prompt": "Comando: Assinale a alternativa cujo \"para\" em destaque NÃO tem função de introduzir uma ideia de finalidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Comando",
+              "rationale": "Assinale a alternativa cujo \"para\" em destaque NÃO tem função de introduzir uma ideia de finalidade."
+            },
+            {
+              "order": 2,
+              "action": "Análise das Alternativas",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "A) \"...gasta um grande valor para obter informações...\" $\\rightarrow$ Finalidade (a fim de obter).",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "B) \"...obter informações para poder definir estratégias...\" $\\rightarrow$ Finalidade (a fim de poder definir).",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "C) \"...cada membro tenha seu banco (...) para que o governo federal construa...\" $\\rightarrow$ Finalidade (locução conjuntiva final).",
+              "rationale": null
+            }
+          ],
+          "result": "Gabarito Oficial: D.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-005 — Questão de Concurso: Instituto AOCP (EBSERH - Enfermeiro) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-005 — Questão de Concurso: Instituto AOCP (EBSERH - Enfermeiro).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-005 — Questão de Concurso: Instituto AOCP (EBSERH - Enfermeiro).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Comando: Assinale a alternativa cujo \"para\" em destaque NÃO tem função de introduzir uma ideia de finalidade.",
+                "Análise das Alternativas:",
+                "A) \"...gasta um grande valor para obter informações...\" $\\rightarrow$ Finalidade (a fim de obter).",
+                "B) \"...obter informações para poder definir estratégias...\" $\\rightarrow$ Finalidade (a fim de poder definir).",
+                "C) \"...cada membro tenha seu banco (...) para que o governo federal construa...\" $\\rightarrow$ Finalidade (locução conjuntiva final).",
+                "D) \"Porém, há uma disputa em jogo que pode levar o prazo de adequação para só depois de 2025.\" $\\rightarrow$ O termo regido \"só depois de 2025\" indica marco cronológico (prazo/quando). Expressa TEMPO.",
+                "E) \"...construa seu próprio banco para armazenar e consultar...\" $\\rightarrow$ Finalidade (a fim de armazenar).",
+                "Gabarito Oficial: D."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-006",
+          "title": "EX-A02-G01-PREPOSICOES-006 — Questão Cebraspe: CODEVASF 2024 (Analista)",
+          "prompt": "Trecho da Prova: [...] reconhecer e abordar as maneiras como se manifesta o racismo institucional é fundamental para promover a igualdade racial nos espaços de trabalho.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho da Prova",
+              "rationale": "[...] reconhecer e abordar as maneiras como se manifesta o racismo institucional é fundamental para promover a igualdade racial nos espaços de trabalho."
+            },
+            {
+              "order": 2,
+              "action": "Item Julgado",
+              "rationale": "No último período do texto, a preposição “para” introduz uma oração que expressa finalidade."
+            },
+            {
+              "order": 3,
+              "action": "Resolução",
+              "rationale": "A oração introduzida por para responde ao objetivo da ação anterior (é fundamental a fim de promover a igualdade racial)."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito Oficial",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-006 — Questão Cebraspe: CODEVASF 2024 (Analista) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-006 — Questão Cebraspe: CODEVASF 2024 (Analista).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-006 — Questão Cebraspe: CODEVASF 2024 (Analista).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho da Prova: [...] reconhecer e abordar as maneiras como se manifesta o racismo institucional é fundamental para promover a igualdade racial nos espaços de trabalho.",
+                "Item Julgado: No último período do texto, a preposição “para” introduz uma oração que expressa finalidade.",
+                "Resolução: A oração introduzida por para responde ao objetivo da ação anterior (é fundamental a fim de promover a igualdade racial).",
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-007",
+          "title": "EX-A02-G01-PREPOSICOES-007 — Questão Cebraspe: SME Recife (Professor II)",
+          "prompt": "Trecho da Prova: [...] faltam docentes para lecionar disciplinas específicas em áreas de ciências exatas e da natureza.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho da Prova",
+              "rationale": "[...] faltam docentes para lecionar disciplinas específicas em áreas de ciências exatas e da natureza."
+            },
+            {
+              "order": 2,
+              "action": "Item Julgado",
+              "rationale": "No segundo período do terceiro parágrafo, a oração introduzida pela preposição “para” expressa circunstância de finalidade."
+            },
+            {
+              "order": 3,
+              "action": "Resolução",
+              "rationale": "O termo introduzido indica a finalidade da contratação/existência dos docentes (docentes a fim de lecionar disciplinas). Foco estritamente semântico."
+            },
+            {
+              "order": 4,
+              "action": "Gabarito Oficial",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-007 — Questão Cebraspe: SME Recife (Professor II) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-007 — Questão Cebraspe: SME Recife (Professor II).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-007 — Questão Cebraspe: SME Recife (Professor II).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho da Prova: [...] faltam docentes para lecionar disciplinas específicas em áreas de ciências exatas e da natureza.",
+                "Item Julgado: No segundo período do terceiro parágrafo, a oração introduzida pela preposição “para” expressa circunstância de finalidade.",
+                "Resolução: O termo introduzido indica a finalidade da contratação/existência dos docentes (docentes a fim de lecionar disciplinas). Foco estritamente semântico.",
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A02-G01-008",
+          "title": "EX-A02-G01-PREPOSICOES-008 — Questão Cebraspe: DPE-RS (Defensor Público)",
+          "prompt": "Trecho da Prova: [...] todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Trecho da Prova",
+              "rationale": "[...] todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça."
+            },
+            {
+              "order": 2,
+              "action": "Item Julgado",
+              "rationale": "No último período do texto, a preposição “para”, em suas três ocorrências, veicula uma ideia de finalidade."
+            },
+            {
+              "order": 3,
+              "action": "Resolução",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "Ocorrência 1 (para sempre permitirem)",
+              "rationale": "O vocábulo sempre é advérbio temporal que modifica o verbo permitirem; a preposição para introduz a oração com valor de finalidade (a fim de permitirem sempre)."
+            },
+            {
+              "order": 5,
+              "action": "Ocorrências 2 e 3 (mas também para não restringirem... e sobretudo para manterem)",
+              "rationale": "Estão vinculadas por estrutura correlativa aditiva (não apenas... mas também... e sobretudo...). Pelo princípio do paralelismo sintático-semântico, todas as orações aditivamente conectadas compartilham a mesma função e o mesmo valor semântico de finalidade."
+            }
+          ],
+          "result": "Gabarito Oficial: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A02-G01-PREPOSICOES-008 — Questão Cebraspe: DPE-RS (Defensor Público) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A02-G01-PREPOSICOES-008 — Questão Cebraspe: DPE-RS (Defensor Público).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A02-G01-PREPOSICOES-008 — Questão Cebraspe: DPE-RS (Defensor Público).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Trecho da Prova: [...] todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça.",
+                "Item Julgado: No último período do texto, a preposição “para”, em suas três ocorrências, veicula uma ideia de finalidade.",
+                "Resolução:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Ocorrência 1 (para sempre permitirem): O vocábulo sempre é advérbio temporal que modifica o verbo permitirem; a preposição para introduz a oração com valor de finalidade (a fim de permitirem sempre).",
+                "Ocorrências 2 e 3 (mas também para não restringirem... e sobretudo para manterem): Estão vinculadas por estrutura correlativa aditiva (não apenas... mas também... e sobretudo...). Pelo princípio do paralelismo sintático-semântico, todas as orações aditivamente conectadas compartilham a mesma função e o mesmo valor semântico de finalidade."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gabarito Oficial: CERTO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao resolver questões sobre o valor nocional de uma preposição, nunca analise o conector isoladamente. A preposição é um elemento neutro que herda o traço semântico do termo regido (o que vem imediatamente depois dela). É o vocábulo posterior que define se o sentido é tempo (manhã), lugar (trabalho), matéria (madeira), destinatário (namorada) ou conformidade (político)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se uma expressão conetiva composta por duas ou mais palavras terminar pelo vocábulo \"que\" (a fim de que, apesar de que, visto que, posto que), classifique-a imediatamente como Locução Conjuntiva (exigindo verbo conjugado). Se terminar em preposição essencial (a fim de, apesar de, devido a), trata-se de Locução Prepositiva (exigindo verbo no infinitivo)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diante de orações com a preposição \"para\" seguida de verbo no infinitivo (para promover, para lecionar, para evitar), faça mentalmente a troca direta por \"a fim de\". Se o sentido de propósito ou meta for mantido com total fluidez, assinale finalidade sem hesitação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando a banca perguntar expressamente o \"valor semântico\", a \"noção\" ou a \"circunstância\" de uma preposição, abandone discussões sintáticas abstratas de regência. Assuma que a questão avalia interpretação semântica e concentre-se na relação lógica veiculada pelo conector no contexto."
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A02-G01-PREPOSICOES-001",
+          "title": "Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\")",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\") no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\").",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\").",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\") para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\").",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha do Sublinhado Parcial vs. Total (\"Após\" vs. \"Após o jantar\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Candidatos classificam a palavra após como \"advérbio de tempo\" devido ao sentido temporal que a expressão carrega.",
+                "Por que ocorre: Confusão entre a classe da palavra isolada e a função da locução como um todo.",
+                "Como evitar:",
+                "Se a banca sublinhar apenas após $\\rightarrow$ Preposição essencial (com valor semântico de tempo).",
+                "Se a banca sublinhar após o jantar $\\rightarrow$ Locução adverbial de tempo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A02-G01-PREPOSICOES-002",
+          "title": "Uso Incorreto de Crase Após Preposições Essenciais",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Uso Incorreto de Crase Após Preposições Essenciais no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Uso Incorreto de Crase Após Preposições Essenciais.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Uso Incorreto de Crase Após Preposições Essenciais.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Uso Incorreto de Crase Após Preposições Essenciais para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Uso Incorreto de Crase Após Preposições Essenciais.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Uso Incorreto de Crase Após Preposições Essenciais.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Inserir acento grave em expressões como ante à situação ou desde às 8h em redações discursivas e peças jurídicas.",
+                "Por que ocorre: Tentativa de hipercorreção formal (\"falar bonito\").",
+                "Regra Corrigida: As preposições essenciais ante e desde já exercem a função conectiva. O elemento seguinte é apenas o artigo definido feminino (ante a situação, desde as 8h). A única preposição essencial com crase facultativa é até (até a praça / até à praça)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A02-G01-PREPOSICOES-003",
+          "title": "Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade)",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade) no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade).",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade).",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade) para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade).",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Leitura Automatizada da Preposição \"PARA\" (Lugar vs. Finalidade).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Decorar que \"para\" sempre exprime finalidade e errar questões em que expressa lugar (\"saíram para o trabalho\").",
+                "Como detectar e evitar: Examine se o termo após para é um verbo no infinitivo (trabalhar = finalidade) ou um substantivo que designa ponto espacial de destino (o trabalho = lugar/direção)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A02-G01-PREPOSICOES-004",
+          "title": "Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\")",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\") no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\").",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\").",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\") para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\").",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falso Valor Temporal por Advérbio Adjacente (\"Para Sempre Permitirem\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Considerar que a preposição \"para\" indica tempo no trecho \"não apenas para sempre permitirem...\" pela atração visual da palavra sempre.",
+                "Como desarmar: Leia a oração inteira subordinada pelo conector. O vocábulo sempre é apenas um advérbio que modifica permitirem. A preposição \"para\" liga a oração com sentido de finalidade (\"a fim de permitirem perpetuamente\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A02-G01-PREPOSICOES-005",
+          "title": "Perda de Tempo com Classificação Sintática Exaustiva",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Perda de Tempo com Classificação Sintática Exaustiva no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Perda de Tempo com Classificação Sintática Exaustiva.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Perda de Tempo com Classificação Sintática Exaustiva.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Perda de Tempo com Classificação Sintática Exaustiva para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Perda de Tempo com Classificação Sintática Exaustiva.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Perda de Tempo com Classificação Sintática Exaustiva.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Ficar desmembrando períodos compostos e classificando orações em questões do Cebraspe que pedem apenas a \"circunstância de finalidade\".",
+                "Como evitar: Realize diretamente o teste de substituição do conector (para $\\rightarrow$ a fim de) e confirme a relação lógica contextual."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Candidatos classificam a palavra após como \"advérbio de tempo\" devido ao sentido temporal que a expressão carrega.",
+            "Por que ocorre: Confusão entre a classe da palavra isolada e a função da locução como um todo.",
+            "Como evitar:",
+            "Se a banca sublinhar apenas após $\\rightarrow$ Preposição essencial (com valor semântico de tempo).",
+            "Se a banca sublinhar após o jantar $\\rightarrow$ Locução adverbial de tempo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Inserir acento grave em expressões como ante à situação ou desde às 8h em redações discursivas e peças jurídicas.",
+            "Por que ocorre: Tentativa de hipercorreção formal (\"falar bonito\").",
+            "Regra Corrigida: As preposições essenciais ante e desde já exercem a função conectiva. O elemento seguinte é apenas o artigo definido feminino (ante a situação, desde as 8h). A única preposição essencial com crase facultativa é até (até a praça / até à praça)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Decorar que \"para\" sempre exprime finalidade e errar questões em que expressa lugar (\"saíram para o trabalho\").",
+            "Como detectar e evitar: Examine se o termo após para é um verbo no infinitivo (trabalhar = finalidade) ou um substantivo que designa ponto espacial de destino (o trabalho = lugar/direção)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Considerar que a preposição \"para\" indica tempo no trecho \"não apenas para sempre permitirem...\" pela atração visual da palavra sempre.",
+            "Como desarmar: Leia a oração inteira subordinada pelo conector. O vocábulo sempre é apenas um advérbio que modifica permitirem. A preposição \"para\" liga a oração com sentido de finalidade (\"a fim de permitirem perpetuamente\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Ficar desmembrando períodos compostos e classificando orações em questões do Cebraspe que pedem apenas a \"circunstância de finalidade\".",
+            "Como evitar: Realize diretamente o teste de substituição do conector (para $\\rightarrow$ a fim de) e confirme a relação lógica contextual."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vocábulo invariável pertencente à lista fixa e fechada da gramática normativa (a, ante, até, após, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás) cuja função primordial é atuar como ligame conector de palavras ou orações. (KB-A02-G01-PREPOSICOES-002)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunto de duas ou mais palavras com valor funcional de preposição única, terminando compulsoriamente em uma preposição essencial (a fim de, apesar de, devido a, em vez de) e regendo orações reduzidas com verbos no infinitivo. (KB-A02-G01-PREPOSICOES-004)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunto de duas ou mais palavras com valor funcional de conjunção, terminando compulsoriamente pela conjunção integrante \"que\" (a fim de que, apesar de que, visto que) e regendo orações desenvolvidas com verbos flexionados. (KB-A02-G01-PREPOSICOES-004)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Preposição cuja presença na frase é obrigatória e imposta por mecanismos formais de regência verbal ou nominal, funcionando como conectivo mecânico desprovido de valor semântico próprio e introduzindo Objeto Indireto ou Complemento Nominal. (KB-A02-G01-PREPOSICOES-005)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Preposição cuja presença não decorre de imposição obrigatória de regência, sendo inserida contextualmente para veicular noções de tempo, lugar, causa, matéria, posse, finalidade, destinatário, conformidade, instrumento, meio, companhia ou agente. (KB-A02-G01-PREPOSICOES-005)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valor semântico/nocional veiculado por conectores que expressam o objetivo, o propósito, a meta ou o intuito da ocorrência do fato principal, sendo validado pelo teste de substituição por \"a fim de\". (KB-A02-G01-PREPOSICOES-007)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Princípio linguístico segundo o qual elementos oracionais encadeados por conectores correlativos aditivos devem manter estrita equivalência gramatical e idêntica natureza semântico-circunstancial. (KB-A02-G01-PREPOSICOES-009)"
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo integrado do grupo temático G01 (Preposições), o estudante consolida os seguintes domínios teóricos e práticos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio Morfológico: Sabe que a preposição é palavra invariável conectiva e domina com precisão a lista das 18 preposições essenciais, não confundindo preposições isoladas (ex.: após) com advérbios ou locuções adverbiais (após o jantar), nem preposições (com) com conjunções (e).",
+            "Domínio Sintático e de Crase: Reconhece que preposições essenciais barram a ocorrência de crase (com exceção de até) e sabe mapear com exatidão a correlação funcional: preposição relacional introduz Objeto Indireto e Complemento Nominal; preposição nocional introduz Adjunto Adverbial, Adjunto Adnominal e Agente da Passiva.",
+            "Domínio de Reescrita Textual: Executa com precisão a conversão entre períodos construídos com locuções prepositivas (+ infinitivo) e locuções conjuntivas (+ subjuntivo), mantendo a integridade semântica e a correção gramatical do texto.",
+            "Domínio Semântico e Operacional da Preposição \"PARA\": Aplica com agilidade o método do \"termo posterior salva\" para categorizar os cinco valores polissêmicos de para (finalidade, direção/lugar, destinatário, conformidade e tempo) e desfaz armadilhas contextuais decorrentes de leitura apressada (como em para o trabalho vs. para trabalhar, ou para sempre permitirem).",
+            "Domínio de Estratégias para Concursos: Sabe aplicar testes pragmáticos de substituição (como para = a fim de) e empregar a regra do paralelismo sintático-semântico em estruturas correlativas aditivas para gabaritar itens de alto nível em bancas como Cebraspe, Instituto AOCP, Cesgranrio e FGV."
+          ]
+        }
+      ]
+    }
+  }
+}

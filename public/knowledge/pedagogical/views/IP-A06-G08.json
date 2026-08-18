@@ -1,0 +1,1612 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A06-G08",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.042Z"
+  },
+  "unit": {
+    "unitId": "IP-A06-G08",
+    "lessonId": "A06",
+    "groupId": "G08",
+    "title": "Predicativos versus Adjunto Adnominal",
+    "variant": "development",
+    "canonicalTopicId": "pt:a06:predicativos-versus-adjunto-adnominal",
+    "learningObjectives": [
+      "OBJ-IP-A06-G08-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Predicativo e adjunto adnominal são separados pela relação de atribuição construída na predicação, não pela simples proximidade do adjetivo ao substantivo.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio das Classes Gramaticais (Morfologia): Reconhecimento de substantivo, adjetivo, pronome pessoal reto/oblíquo, numeral, artigo, advérbio e preposição.",
+            "Estrutura Básica da Oração: Identificação do Sujeito e do Predicado; localização do núcleo nominal do sujeito.",
+            "Predicação Verbal Preliminar: Compreensão elementar da distinção entre verbos nocionais/de ação (intransitivos e transitivos) e verbos relacionais/de estado (verbos de ligação)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "TERMOS DA ORAÇÃO (Morfossintaxe: Classe vs. Função Sintática) │ ┌───────────────────────────────┴───────────────────────────────┐ ▼ ▼ ADJUNTO ADNOMINAL PREDICATIVO (Termo Acessório / Satélite) (Termo no Predicado / Atributo) │ │ ├─ Posição: Acoplado ao Substantivo (em qualquer termo) ├─ Posição: Sempre no PREDICADO ├─ Morfologia Fechada (5 classes): │ │ Artigo, Numeral, Pronome, Adjetivo, Locução Adjetiva ├────────────────────────┬────────────────────────┐ └─ Teste de Supressão: Retirada não corrompe a acepção ▼ ▼ ▼ do verbo regente (essência informativa preservada) PREDICATIVO DO SUJEITO PREDICATIVO DO OBJETO PREDICATIVO DO OBJ. INDIRETO │ │ │ ├─ Refere-se ao Sujeito ├─ Refere-se ao OD └─ Refere-se ao OI ├─ Ocorre com VL, VI, VT ├─ Extensão Semântica (ex.: \"Gosto de você alegre\") ├─ Morfologia Ampla: │ (Verbo pede o termo; │ Subst, Adj, Pron, Num │ supressão altera o └─ Diferenciação de Modo:│ sentido do verbo) Variável (Adjetivo) ├─ Pode vir preposicionado vs. Invariável (Adv) │ (ex.: \"de inquieto\") └─ Deslocamento: Permite ficar contíguo ao verbo"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A06-G08-001",
+          "title": "Mapa de conexão — Predicativos versus Adjunto Adnominal",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a06:predicativos-versus-adjunto-adnominal",
+              "label": "Predicativos versus Adjunto Adnominal",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a06:predicativos-versus-adjunto-adnominal",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A análise gramatical estruturada exige a separação categórica entre classe gramatical (identidade morfológica intrínseca da palavra isolada) e função sintática (papel relacional que a palavra desempenha dentro da arquitetura da oração)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A maior parte das inconsistências e armadilhas em provas decorre da fusão indevida entre a taxonomia morfológica e a função sintática. O exame morfossintático exige duas perguntas operacionais independentes:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Morfologia: A qual classe a palavra pertence por sua natureza? (substantivo, adjetivo, pronome, artigo, numeral, advérbio, verbo, etc.).",
+            "Sintaxe: Qual papel relacional o vocábulo desempenha na oração em função dos outros termos e do verbo regente? (sujeito, objeto direto, predicativo do sujeito, adjunto adnominal, adjunto adverbial, etc.)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Uma mesma classe morfológica pode desempenhar funções sintáticas diversas:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A palavra inteligente (adjetivo) atua como adjunto adnominal em O aluno inteligente chegou e como predicativo do sujeito em O aluno é inteligente.",
+            "A palavra dois (numeral) atua como adjunto adnominal em Dois alunos saíram e como predicativo do sujeito em Nós somos dois."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamenta: KB-A06-G08-002, KB-A06-G08-003, KB-A06-G08-005.",
+            "Termo no glossário: TERM-A06-G08-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O adjunto adnominal é o termo sintático acessório que se acopla diretamente a um substantivo para determinar, qualificar, limitar ou individualizar sua significação, funcionando como um satélite intra-sintagmático do núcleo nominal."
+        },
+        {
+          "type": "paragraph",
+          "text": "O adjunto adnominal é delimitado por três propriedades estruturais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Origem morfológica fechada: É desempenhado estritamente por 5 classes: artigo (definido/indefinido), numeral (adjetivo), pronome (adjetivo), adjetivo e locução adjetiva.",
+            "Posicionamento intra-sintagmático: Opera \"junto ao nome\" (ad-nominal). Onde houver substantivo (no sujeito, objeto direto, objeto indireto, agente da passiva ou adjunto adverbial), haverá espaço para adjuntos adnominais orbitando ao seu redor.",
+            "Status de termo acessório: Não é exigido pela predicação do verbo. Sua supressão acarreta perda de detalhamento ou restrição informativa, mas preserva intacta a essência estrutural da oração e a acepção original do verbo transitivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dois alunos $\\rightarrow$ Dois (numeral $\\rightarrow$ adjunto adnominal).",
+            "O aluno / Um aluno $\\rightarrow$ O / Um (artigos $\\rightarrow$ adjuntos adnominais).",
+            "Aluno inteligente $\\rightarrow$ inteligente (adjetivo $\\rightarrow$ adjunto adnominal).",
+            "Aluno de inteligência $\\rightarrow$ de inteligência (locução adjetiva $\\rightarrow$ adjunto adnominal).",
+            "Meu aluno $\\rightarrow$ Meu (pronome possessivo $\\rightarrow$ adjunto adnominal).",
+            "A nova geração de leitores não tem opiniões fortes $\\rightarrow$ de leitores (locução adjetiva $\\rightarrow$ adjunto adnominal do núcleo geração)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A06-G08-003 (Predicativo do Sujeito) e KB-A06-G08-005 (Predicativo do Objeto).",
+            "Alerta associado: WARN-A06-G08-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O predicativo do sujeito é o termo sintático localizado obrigatoriamente no predicado que expressa um atributo, qualidade, identificação ou estado do sujeito mediante a intermediação de um verbo qualquer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para neutralizar simplificações teóricas, a identificação do predicativo do sujeito baseia-se em um checklist de quatro condições objetivas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Critério 1 — Posição Estrutural no Predicado: O predicativo deve estar contido no predicado. Ele jamais se localiza dentro do sintagma do sujeito sintático. Se o adjetivo estiver inserido no bloco do sujeito qualificando diretamente o núcleo sem mediação verbal, será adjunto adnominal (A mulher cansada chegou $\\rightarrow$ cansada = AA).",
+            "Critério 2 — Referencial Semântico Bivalente (\"Manda Seta\"): O termo localiza-se no predicado, mas projeta uma relação atributiva de concordância e estado de volta para o núcleo do sujeito.",
+            "Critério 3 — Independência da Natureza Verbal: Não exige verbo de ligação; pode ocorrer com qualquer verbo (ligação, intransitivo ou transitivo).",
+            "Critério 4 — Pluralidade Morfológica: Não é privilégio exclusivo do adjetivo. Pode ser desempenhado por:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Adjetivo / Particípio adjetivado: O homem estava preocupado / O homem é viajado.",
+            "Substantivo: O mar virou sertão (sertão = substantivo comprovado pelo artigo o sertão $\\rightarrow$ predicativo do sujeito).",
+            "Pronome Pessoal Reto: Tu não és eu (eu = pronome reto $\\rightarrow$ predicativo do sujeito).",
+            "Numeral: Nós somos cinco (cinco = numeral $\\rightarrow$ predicativo do sujeito)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande-se em: PROC-A06-G08-001.",
+            "Contrasta com: WARN-A06-G08-001 (Mito do adjetivo exclusivo) e WARN-A06-G08-002 (Erro \"somos em cinco\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O predicativo do sujeito não depende exclusivamente de verbos de ligação, coexistindo legitimamente com verbos nocionais de ação (intransitivos e transitivos), configurando predicados verbo-nominais com duplo núcleo (verbal e nominal)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A crença de que todo predicativo exige verbo de ligação explícito é um mito gramatical. As orações estruturam-se em três configurações típicas de predicativo do sujeito:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Com Verbo de Ligação (Predicado Nominal): O verbo funciona como conector de estado puro (permanente, transitório, aparente, continuado ou mudança de estado)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbos clássicos: SER, ESTAR, FICAR, PARECER, PERMANECER, ANDAR, VIVER, CONTINUAR, VIRAR (transformar-se).",
+            "Exemplos: O homem estava preocupado (VL); Zeca parece alegre (VL); O mar parecia traiçoeiro (VL)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Com Verbo Intransitivo (Predicado Verbo-Nominal): Ocorre a fusão de um processo de ação verbal com um estado circunstancial concomitante do sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplos: A mulher chegou cansada (chegou = VI de ação; cansada = PS); O rapaz chegou gravemente ferido ao hospital (chegou = VI; ferido = PS); O velho viajou feliz (viajou = VI; feliz = PS)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Com Verbo Transitivo Direto (Predicado Verbo-Nominal): O predicativo qualifica o sujeito enquanto o verbo processa um complemento de objeto direto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: O homem comeu o bolo feliz (comeu = VTD; o bolo = OD; feliz = PS, pois a concordância e a referência apontam para homem)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Valida o procedimento: PROC-A06-G08-006 (Teste do \"e estava\").",
+            "Refuta o alerta: WARN-A06-G08-003 (Mito da exclusividade de VL)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O predicativo do objeto é o termo sintático que atribui uma característica, estado ou julgamento de valor ao núcleo do objeto (direto ou indireto), atuando como extensão semântica do verbo regente, sendo solicitado pela predicação verbal para a completude de seu sentido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diferentemente do adjunto adnominal (termo acessório intra-sintagmático), o predicativo do objeto \"tem conversa direta com o verbo\". Ele ocorre tipicamente com verbos de cognição, julgamento, opinião, declaração ou nomeação (achar, julgar, considerar, estimar, declarar, eleger, chamar, tornar)."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Princípio da Extensão Semântica (Teste de Supressão): O verbo requer a presença do predicativo para fixar sua acepção pretendida. Caso o termo seja suprimido:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Mutação radical de sentido do verbo:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Achar + OD + PO: Achei o menino inteligente / Achei-o competente $\\rightarrow$ sentido de julgar / opinar.",
+            "Achar + OD (sem PO): Achei o menino / Achei-o $\\rightarrow$ transmuta para o sentido de encontrar fisicamente o que estava perdido.",
+            "Considerar + OD + PO: Consideramos o candidato apto / O povo considerou os governantes incompetentes $\\rightarrow$ sentido de avaliar / julgar.",
+            "Considerar + OD (sem PO): Consideramos o candidato / O povo considerou os governantes $\\rightarrow$ transmuta para o sentido de levar em consideração / ter consideração ou apreço."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Incompletude ou descaracterização da mensagem:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Julguei as suas perguntas tolas $\\rightarrow$ a supressão de tolas destrói o julgamento discursivo emitido pelo interlocutor."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Origina os procedimentos: PROC-A06-G08-004 (Supressão) e PROC-A06-G08-005 (Deslocamento).",
+            "Contrasta com: KB-A06-G08-002 (Adjunto Adnominal)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de preposição antecedendo um atributo do objeto não transforma o termo em Objeto Indireto nem anula a função predicativa; predicativos podem vir preposicionados por atração de regência e podem incidir sobre Objeto Indireto."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Predicativo do Objeto Direto Preposicionado:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em estruturas com verbos de chamar, apelidar, tachar ou cognominar (Chamaram o delegado de inquieto / Chamaram o menino de mentiroso), a preposição de atua como elemento conectivo de valor relacional."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro clássico de banca: Classificar o verbo como VTDI e o termo de inquieto como Objeto Indireto.",
+            "Refutação categórica: Objeto (direto ou indireto) é função substantiva que complementa a ação verbal. O termo de inquieto tem núcleo adjetivo e sua função é qualificar o substantivo delegado (que já é o Objeto Direto). Portanto, trata-se de Predicativo do Objeto Direto Preposicionado."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Predicativo do Objeto Indireto (POI):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora o predicativo do objeto incida predominantemente sobre o objeto direto, ele pode vincular-se ao Objeto Indireto por extensão semântica."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo: Gosto de você alegre.",
+            "Análise: Gosto = VTI; de você = Objeto Indireto; alegre = Predicativo do Objeto Indireto. A semântica verbal expressa \"gosto de ver você alegre / aprecio o seu estado de alegria\". A supressão de alegre altera a intenção discursiva comunicativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A06-G08-005.",
+            "Apoiado por: PROC-A06-G08-006 (Teste do verbo implícito)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A diferenciação entre predicativo do sujeito e adjunto adverbial de modo fundamenta-se na natureza morfológica da flexão (variabilidade do adjetivo/estado vs. invariabilidade do advérbio/modo) e não na resposta à pergunta simplista \"como?\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "A aplicação puramente mecânica da pergunta \"como?\" (\"A mulher chegou como?\" $\\rightarrow$ \"cansada\") induz ao erro de rotular o estado como modo."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Advérbio / Adjunto Adverbial de Modo: Modifica o verbo, o adjetivo ou outro advérbio; exprime a maneira como a ação verbal ocorre e é morfologicamente invariável (A mulher chegou rapidamente / Os homens chegaram rapidamente).",
+            "Adjetivo / Predicativo do Sujeito: Expressa um estado/qualidade do núcleo substantivo; integra o predicado e é morfologicamente variável, concordando compulsoriamente em gênero e número com o sujeito."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Teste da Flexão: Ao flexionar o sujeito para o plural ou feminino, se o termo qualificador variar, descarta-se a hipótese de adjunto adverbial:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A mulher chegou cansada $\\rightarrow$ As mulheres chegaram cansadas (variou $\\rightarrow$ Predicativo do Sujeito).",
+            "O velho viajou feliz / contente $\\rightarrow$ Os velhos viajaram felizes / contentes (variou $\\rightarrow$ Predicativo do Sujeito)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande-se em: PROC-A06-G08-002.",
+            "Possui alerta: WARN-A06-G08-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando um adjetivo qualifica um substantivo que funciona como objeto direto, a diferenciação entre adjunto adnominal e predicativo do objeto resolve-se pela relação semântica com o verbo regente, comprovada pelos testes de supressão semântica e de deslocamento posicional."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estruturalmente, a sequência de superfície é idêntica: [Sujeito] + [Verbo] + [Artigo + Substantivo] + [Adjetivo]. A distinção processa-se em dois eixos:"
+        },
+        {
+          "type": "table_ref",
+          "tableId": "TABLE-IP-A06-G08-001",
+          "table": {
+            "tableId": "TABLE-IP-A06-G08-001",
+            "caption": "Explicação central",
+            "headers": [
+              "Critério de Análise",
+              "Adjunto Adnominal",
+              "Predicativo do Objeto"
+            ],
+            "rows": [
+              [
+                "Vínculo Sintático",
+                "Intra-sintagmático (satélite direto do substantivo).",
+                "Oracional (integrante da predicação; extensão do verbo)."
+              ],
+              [
+                "Teste de Supressão",
+                "A retirada mantém intacto o sentido da ação do verbo.",
+                "A retirada corrompe a mensagem ou transmuta o verbo."
+              ],
+              [
+                "Teste de Deslocamento",
+                "Não admite deslocamento para antes do objeto.",
+                "Admite perfeitamente deslocamento contíguo ao verbo."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Confronto do Par Mínimo (\"Carteira Cara\"):"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Comprei a carteira cara:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Retirada: Comprei a carteira (sentido do verbo comprar 100% íntegro).",
+            "Deslocamento: Comprei cara a carteira ❌ (agramatical/quebrado).",
+            "Classificação: Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Considero a carteira cara:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Retirada: Considero a carteira (muda o sentido para \"ter consideração/apreço\").",
+            "Deslocamento: Considero cara a carteira ✔️ (perfeita aceitabilidade e clareza).",
+            "Classificação: Predicativo do Objeto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Operacionalizado em: PROC-A06-G08-003, PROC-A06-G08-004, PROC-A06-G08-005."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A06-G08-001",
+          "title": "Quadro Síntese de Termos e Regras Estruturais",
+          "statement": "Quadro Síntese de Termos e Regras Estruturais",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Quadro Síntese de Termos e Regras Estruturais."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A06-G08-002",
+              "table": {
+                "tableId": "TABLE-IP-A06-G08-002",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Termo Sintático",
+                  "Posição Estrutural",
+                  "Classes Morfológicas Admitidas",
+                  "Natureza Relacional",
+                  "Verbos Admitidos",
+                  "ID Detalhado"
+                ],
+                "rows": [
+                  [
+                    "Adjunto Adnominal",
+                    "Junto ao substantivo (qualquer termo da oração).",
+                    "Artigo, Numeral, Pronome, Adjetivo, Locução Adjetiva.",
+                    "Termo Acessório (satélite nominal).",
+                    "Qualquer transitividade (não dialoga com a predicação).",
+                    "KB-A06-G08-002"
+                  ],
+                  [
+                    "Predicativo do Sujeito",
+                    "Obrigatoriamente no predicado.",
+                    "Substantivo, Adjetivo, Pronome Reto, Numeral.",
+                    "Termo Qualificador Bivalente (aponta para o sujeito).",
+                    "Verbos de Ligação, Intransitivos e Transitivos.",
+                    "KB-A06-G08-003"
+                  ],
+                  [
+                    "Predicativo do Objeto (Direto)",
+                    "Obrigatoriamente no predicado.",
+                    "Adjetivo / Locução Adjetiva (podendo vir preposicionado), Substantivo.",
+                    "Termo Integrante (Extensão Semântica do Verbo).",
+                    "Verbos Transitivos Diretos (cognitivos, opinativos, de qualificação).",
+                    "KB-A06-G08-005"
+                  ],
+                  [
+                    "Predicativo do Objeto Indireto",
+                    "Obrigatoriamente no predicado.",
+                    "Adjetivo.",
+                    "Extensão Semântica vinculada ao Objeto Indireto.",
+                    "Verbos Transitivos Indiretos (ex.:gostar).",
+                    "KB-A06-G08-006"
+                  ],
+                  [
+                    "Adjunto Adverbial de Modo",
+                    "No predicado ou deslocado.",
+                    "Advérbio / Locução Adverbial (invariáveis).",
+                    "Termo Acessório Circunstancial (modifica a ação verbal).",
+                    "Verbos Nocionais de Ação.",
+                    "KB-A06-G08-007"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A06-G08-001",
+          "title": "Checklist em 4 Passos para Identificação do Predicativo do Sujeito",
+          "objective": "Executar o algoritmo decisório para Checklist em 4 Passos para Identificação do Predicativo do Sujeito",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Checklist em 4 Passos para Identificação do Predicativo do Sujeito."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Segmentação Estrutural",
+              "explanation": "Delimitar os blocos do Sujeito e do Predicado. Confirmar se o termo sob análise encontra-se fisicamente no interior do Predicado.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 2 — Vetor de Referência (\"Traçar a Seta\")",
+              "explanation": "Lançar uma seta relacional a partir do termo. Se o termo expressar atributo ou estado concordando com o núcleo do Sujeito, pré-classifica-se como Predicativo do Sujeito.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 3 — Neutralidade da Transitividade Verbal",
+              "explanation": "Verificar a presença de um verbo qualquer. Não rejeitar a hipótese caso o verbo seja nocional de ação (intransitivo ou transitivo).",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 4 — Validação Morfossintática",
+              "explanation": "Identificar a classe (Substantivo, Adjetivo, Pronome Reto ou Numeral) e validar a função de Predicativo do Sujeito.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Checklist em 4 Passos para Identificação do Predicativo do Sujeito."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Proveniência consolidada:"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Roteiro de Execução"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Segmentação Estrutural: Delimitar os blocos do Sujeito e do Predicado. Confirmar se o termo sob análise encontra-se fisicamente no interior do Predicado.",
+                "Passo 2 — Vetor de Referência (\"Traçar a Seta\"): Lançar uma seta relacional a partir do termo. Se o termo expressar atributo ou estado concordando com o núcleo do Sujeito, pré-classifica-se como Predicativo do Sujeito.",
+                "Passo 3 — Neutralidade da Transitividade Verbal: Verificar a presença de um verbo qualquer. Não rejeitar a hipótese caso o verbo seja nocional de ação (intransitivo ou transitivo).",
+                "Passo 4 — Validação Morfossintática: Identificar a classe (Substantivo, Adjetivo, Pronome Reto ou Numeral) e validar a função de Predicativo do Sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G08-002",
+          "title": "Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo)",
+          "objective": "Executar o algoritmo decisório para Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo)."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localizar e isolar o segmento oracional em que opera Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo).",
+              "test": "Identificar o termo regente e os elementos subordinados."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os critérios de diferenciação e regras canônicas de Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo).",
+              "test": "Executar o teste de comutação ou análise categorial."
+            },
+            {
+              "order": 3,
+              "action": "Concluir o julgamento sintático-morfológico definitivo.",
+              "test": "Validar a concordância com o padrão culto."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Teste Morfológico de Flexão (Predicativo do Sujeito vs. Modo)."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Proveniência consolidada:"
+            },
+            {
+              "type": "paragraph",
+              "text": "[Dúvida Sintática: O termo é Predicativo do Sujeito ou Adjunto Adverbial de Modo?] │ ▼ [Etapa 1: Forçar a Flexão do Sujeito em Número ou Gênero] (Ex.: Singular ➔ Plural | Masculino ➔ Feminino) │ ┌────────────────────────┴────────────────────────┐ ▼ ▼ [O termo Permaneceu INVARIÁVEL] [O termo FLEXIONOU / CONCORDOU] (Ex.: \"rapidamente\", \"depressa\") (Ex.: cansada ➔ cansadas; feliz ➔ felizes) │ │ ▼ ▼ ==> ADJUNTO ADVERBIAL DE MODO ==> PREDICATIVO DO SUJEITO"
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G08-003",
+          "title": "Método Decisório em 3 Passos (Adjunto Adnominal vs. Predicativo do Objeto)",
+          "objective": "Executar o algoritmo decisório para Método Decisório em 3 Passos (Adjunto Adnominal vs. Predicativo do Objeto)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Método Decisório em 3 Passos (Adjunto Adnominal vs. Predicativo do Objeto)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1 — Vetorizar a Seta de Referência",
+              "explanation": "Identificar o termo adjetivo e conectar a seta ao substantivo que ele qualifica. Constatando que aponta para o Objeto Direto ou Indireto, passar ao Passo 2.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Passo 2 — Inspecionar a Predicação Verbal",
+              "explanation": "Olhar criticamente para a semântica do verbo regente (verificar se é verbo de opinião/julgamento como achar, considerar, julgar, chamar ou verbo de ação comum como comprar, comer, resolver).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Passo 3 — Teste de Supressão Semântica",
+              "explanation": "Omitir mentalmente o adjetivo da oração:",
+              "test": "Passo 3 — Teste de Supressão Semântica: Omitir mentalmente o adjetivo da oração:"
+            },
+            {
+              "order": 4,
+              "action": "Se o verbo mantiver a acepção original e a predicação estiver íntegra $\\rightarrow$ Adjunto Adnominal (KB-A06-G08-002).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se o verbo mudar de significado (achar de opinar para encontrar; considerar de avaliar para estimar) ou a mensagem for desvirtuada $\\rightarrow$ Predicativo do Objeto (KB-A06-G08-005).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Método Decisório em 3 Passos (Adjunto Adnominal vs. Predicativo do Objeto)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Proveniência consolidada:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1 — Vetorizar a Seta de Referência: Identificar o termo adjetivo e conectar a seta ao substantivo que ele qualifica. Constatando que aponta para o Objeto Direto ou Indireto, passar ao Passo 2.",
+                "Passo 2 — Inspecionar a Predicação Verbal: Olhar criticamente para a semântica do verbo regente (verificar se é verbo de opinião/julgamento como achar, considerar, julgar, chamar ou verbo de ação comum como comprar, comer, resolver).",
+                "Passo 3 — Teste de Supressão Semântica: Omitir mentalmente o adjetivo da oração:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se o verbo mantiver a acepção original e a predicação estiver íntegra $\\rightarrow$ Adjunto Adnominal (KB-A06-G08-002).",
+                "Se o verbo mudar de significado (achar de opinar para encontrar; considerar de avaliar para estimar) ou a mensagem for desvirtuada $\\rightarrow$ Predicativo do Objeto (KB-A06-G08-005)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G08-004",
+          "title": "Teste de Deslocamento Posicional do Predicativo do Objeto",
+          "objective": "Executar o algoritmo decisório para Teste de Deslocamento Posicional do Predicativo do Objeto",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Deslocamento Posicional do Predicativo do Objeto."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Frase 1",
+              "explanation": "Os candidatos consideraram a prova difícil. $\\rightarrow$ Deslocamento: Os candidatos consideraram difícil a prova. (Construção fluida e perfeitamente gramatical $\\rightarrow$ Predicativo do Objeto confirmado).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Frase 2",
+              "explanation": "Os candidatos resolveram uma questão difícil. $\\rightarrow$ Deslocamento: Os candidatos resolveram difícil uma questão. (Construção quebrada/agramatical $\\rightarrow$ Adjunto Adnominal confirmado).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Deslocamento Posicional do Predicativo do Objeto."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Proveniência consolidada:"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Aplicação"
+            },
+            {
+              "type": "paragraph",
+              "text": "Para confirmar que um termo é predicativo do objeto, desloque-o para a posição imediatamente contígua ao verbo regente (antepondo-o ao objeto direto):"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Frase 1: Os candidatos consideraram a prova difícil. $\\rightarrow$ Deslocamento: Os candidatos consideraram difícil a prova. (Construção fluida e perfeitamente gramatical $\\rightarrow$ Predicativo do Objeto confirmado).",
+                "Frase 2: Os candidatos resolveram uma questão difícil. $\\rightarrow$ Deslocamento: Os candidatos resolveram difícil uma questão. (Construção quebrada/agramatical $\\rightarrow$ Adjunto Adnominal confirmado)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A06-G08-005",
+          "title": "Teste da Inserção de Verbo de Ligação Implícito / Elíptico",
+          "objective": "Executar o algoritmo decisório para Teste da Inserção de Verbo de Ligação Implícito / Elíptico",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste da Inserção de Verbo de Ligação Implícito / Elíptico."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Em Predicativos do Sujeito com Verbo de Ação",
+              "explanation": "Insira a conjunção e acompanhada de verbo de ligação (e estava / e estavam):",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "A mulher chegou cansada $\\rightarrow$ A mulher chegou [e estava] cansada (Sentido pleno de estado $\\rightarrow$ Predicativo do Sujeito).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Em Predicativos do Objeto (Inclusive Preposicionados)",
+              "explanation": "Insira o verbo de ligação flexionado entre o objeto e a qualidade:",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Chamaram o menino de mentiroso $\\rightarrow$ O menino [é] mentiroso (Relação predicativa comprovada $\\rightarrow$ Predicativo do Objeto).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Acho aquela senhora muito simpática $\\rightarrow$ Aquela senhora [é] muito simpática (Relação comprovada $\\rightarrow$ Predicativo do Objeto).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste da Inserção de Verbo de Ligação Implícito / Elíptico."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Proveniência consolidada:"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Aplicação"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Em Predicativos do Sujeito com Verbo de Ação: Insira a conjunção e acompanhada de verbo de ligação (e estava / e estavam):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A mulher chegou cansada $\\rightarrow$ A mulher chegou [e estava] cansada (Sentido pleno de estado $\\rightarrow$ Predicativo do Sujeito)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Em Predicativos do Objeto (Inclusive Preposicionados): Insira o verbo de ligação flexionado entre o objeto e a qualidade:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Chamaram o menino de mentiroso $\\rightarrow$ O menino [é] mentiroso (Relação predicativa comprovada $\\rightarrow$ Predicativo do Objeto).",
+                "Acho aquela senhora muito simpática $\\rightarrow$ Aquela senhora [é] muito simpática (Relação comprovada $\\rightarrow$ Predicativo do Objeto)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A06-G08-001",
+          "title": "Matriz Comparativa de Desambiguação Sintática",
+          "contrastType": "mixed",
+          "conceptA": "Matriz Comparativa de Desambiguação Sintática",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A06-G08-003",
+              "table": {
+                "tableId": "TABLE-IP-A06-G08-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Par em Conflito",
+                  "Critério Diagnóstico Decisivo",
+                  "Comportamento do Termo A",
+                  "Comportamento do Termo B",
+                  "Exemplo Paradigmático"
+                ],
+                "rows": [
+                  [
+                    "Predicativo do Sujeito vs. Adjunto Adnominal",
+                    "Posição sintática estrutural",
+                    "PS: Localizado no predicado; qualifica o sujeito mediado por um verbo.",
+                    "AA: Localizado dentro do bloco do sujeito; acoplado diretamente ao substantivo.",
+                    "A mulher chegou cansada (PS) vs. A mulher cansada chegou (AA)."
+                  ],
+                  [
+                    "Predicativo do Sujeito vs. Adjunto Adverbial de Modo",
+                    "Flexão morfológica nominal",
+                    "PS: Variável em gênero e número (classe adjetiva; exprime estado).",
+                    "Adv. Modo: Invariável (classe adverbial; exprime modo do verbo).",
+                    "O velho viajou feliz / Os velhos viajaram felizes (PS) vs. O velho viajou rápido (Adv)."
+                  ],
+                  [
+                    "Predicativo do Objeto vs. Adjunto Adnominal do Objeto",
+                    "Extensão Semântica (Supressão e Deslocamento)",
+                    "PO: Integrante do verbo; supressão altera o verbo; admite deslocamento anteposto.",
+                    "AA: Acessório do nome; supressão preserva o verbo; não admite deslocamento.",
+                    "Considero a carteira cara (PO) vs. Comprei a carteira cara (AA)."
+                  ],
+                  [
+                    "Predicativo do Objeto Preposicionado vs. Objeto Indireto",
+                    "Natureza morfológica e papel funcional",
+                    "PO Prep: Núcleo adjetivo que qualifica o Objeto Direto existente.",
+                    "OI: Núcleo substantivo que complementa a regência de um verbo transitivo indireto.",
+                    "Chamaram o delegado de inquieto (PO) vs. Gosto de doces (OI)."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-001",
+          "title": "EX-A06-G08-001 — O Mar Virou Sertão (Substantivo como Predicativo do Sujeito)",
+          "prompt": "Análise Sintática: Sujeito: O mar; Verbo: virou (Verbo de Ligação expressando mudança de estado); Predicativo do Sujeito: sertão.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise Sintática",
+              "rationale": "Sujeito: O mar; Verbo: virou (Verbo de Ligação expressando mudança de estado); Predicativo do Sujeito: sertão."
+            },
+            {
+              "order": 2,
+              "action": "Análise Morfológica",
+              "rationale": "sertão é substantivo (validado pelo teste do artigo: o sertão)."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Demonstra que substantivos exercem regularmente a função de predicativo do sujeito."
+            }
+          ],
+          "result": "Conceito Consolidado: Demonstra que substantivos exercem regularmente a função de predicativo do sujeito.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-001 — O Mar Virou Sertão (Substantivo como Predicativo do Sujeito) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-001 — O Mar Virou Sertão (Substantivo como Predicativo do Sujeito).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-001 — O Mar Virou Sertão (Substantivo como Predicativo do Sujeito).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise Sintática: Sujeito: O mar; Verbo: virou (Verbo de Ligação expressando mudança de estado); Predicativo do Sujeito: sertão.",
+                "Análise Morfológica: sertão é substantivo (validado pelo teste do artigo: o sertão).",
+                "Conceito Consolidado: Demonstra que substantivos exercem regularmente a função de predicativo do sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-002",
+          "title": "EX-A06-G08-002 — Tu Não És Eu / Nós Somos Cinco (Pronome e Numeral como Predicativo)",
+          "prompt": "Análise 1: Tu não és eu. $\\rightarrow$ Tu (Sujeito), és (VL), eu (Pronome pessoal reto na morfologia $\\rightarrow$ Predicativo do Sujeito na sintaxe).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise 1",
+              "rationale": "Tu não és eu. $\\rightarrow$ Tu (Sujeito), és (VL), eu (Pronome pessoal reto na morfologia $\\rightarrow$ Predicativo do Sujeito na sintaxe)."
+            },
+            {
+              "order": 2,
+              "action": "Análise 2",
+              "rationale": "Nós somos cinco. $\\rightarrow$ Nós (Sujeito), somos (VL), cinco (Numeral cardinal na morfologia $\\rightarrow$ Predicativo do Sujeito na sintaxe)."
+            },
+            {
+              "order": 3,
+              "action": "Conceito Consolidado",
+              "rationale": "Desmistifica a exigência exclusiva de adjetivos para a composição do predicativo."
+            }
+          ],
+          "result": "Conceito Consolidado: Desmistifica a exigência exclusiva de adjetivos para a composição do predicativo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-002 — Tu Não És Eu / Nós Somos Cinco (Pronome e Numeral como Predicativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-002 — Tu Não És Eu / Nós Somos Cinco (Pronome e Numeral como Predicativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-002 — Tu Não És Eu / Nós Somos Cinco (Pronome e Numeral como Predicativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise 1: Tu não és eu. $\\rightarrow$ Tu (Sujeito), és (VL), eu (Pronome pessoal reto na morfologia $\\rightarrow$ Predicativo do Sujeito na sintaxe).",
+                "Análise 2: Nós somos cinco. $\\rightarrow$ Nós (Sujeito), somos (VL), cinco (Numeral cardinal na morfologia $\\rightarrow$ Predicativo do Sujeito na sintaxe).",
+                "Conceito Consolidado: Desmistifica a exigência exclusiva de adjetivos para a composição do predicativo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-003",
+          "title": "EX-A06-G08-003 — A Mulher Chegou Cansada / O Rapaz Chegou Ferido (PS com Verbo Intransitivo)",
+          "prompt": "Análise: A mulher (Sujeito), chegou (Verbo Intransitivo de ação), cansada (Adjetivo feminino singular $\\rightarrow$ Predicativo do Sujeito).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise",
+              "rationale": "A mulher (Sujeito), chegou (Verbo Intransitivo de ação), cansada (Adjetivo feminino singular $\\rightarrow$ Predicativo do Sujeito)."
+            },
+            {
+              "order": 2,
+              "action": "Validações Aplicadas",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "Flexão",
+              "rationale": "As mulheres chegaram cansadas (variou $\\rightarrow$ não é modo)."
+            },
+            {
+              "order": 4,
+              "action": "Teste do verbo implícito",
+              "rationale": "A mulher chegou [e estava] cansada (confirmado)."
+            }
+          ],
+          "result": "Teste do verbo implícito: A mulher chegou [e estava] cansada (confirmado).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-003 — A Mulher Chegou Cansada / O Rapaz Chegou Ferido (PS com Verbo Intransitivo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-003 — A Mulher Chegou Cansada / O Rapaz Chegou Ferido (PS com Verbo Intransitivo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-003 — A Mulher Chegou Cansada / O Rapaz Chegou Ferido (PS com Verbo Intransitivo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise: A mulher (Sujeito), chegou (Verbo Intransitivo de ação), cansada (Adjetivo feminino singular $\\rightarrow$ Predicativo do Sujeito).",
+                "Validações Aplicadas:",
+                "Flexão: As mulheres chegaram cansadas (variou $\\rightarrow$ não é modo).",
+                "Teste do verbo implícito: A mulher chegou [e estava] cansada (confirmado)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-004",
+          "title": "EX-A06-G08-004 — O Homem Comeu o Bolo Feliz (PS com Verbo Transitivo Direto)",
+          "prompt": "Análise: Sujeito: O homem; Verbo: comeu (VTD); Objeto Direto: o bolo; Predicativo do Sujeito: feliz.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise",
+              "rationale": "Sujeito: O homem; Verbo: comeu (VTD); Objeto Direto: o bolo; Predicativo do Sujeito: feliz."
+            },
+            {
+              "order": 2,
+              "action": "Conceito Consolidado",
+              "rationale": "O adjetivo feliz está no predicado, mas lança a seta atributiva para o sujeito homem, coexistindo com objeto direto."
+            }
+          ],
+          "result": "Conceito Consolidado: O adjetivo feliz está no predicado, mas lança a seta atributiva para o sujeito homem, coexistindo com objeto direto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-004 — O Homem Comeu o Bolo Feliz (PS com Verbo Transitivo Direto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-004 — O Homem Comeu o Bolo Feliz (PS com Verbo Transitivo Direto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-004 — O Homem Comeu o Bolo Feliz (PS com Verbo Transitivo Direto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise: Sujeito: O homem; Verbo: comeu (VTD); Objeto Direto: o bolo; Predicativo do Sujeito: feliz.",
+                "Conceito Consolidado: O adjetivo feliz está no predicado, mas lança a seta atributiva para o sujeito homem, coexistindo com objeto direto."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-005",
+          "title": "EX-A06-G08-005 — Achei-o Competente / Julguei as Suas Perguntas Tolas (Predicativo do Objeto)",
+          "prompt": "Análise 1: Achei (VTD) + -o (Objeto Direto) + competente (Predicativo do Objeto Direto).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Análise 1",
+              "rationale": "Achei (VTD) + -o (Objeto Direto) + competente (Predicativo do Objeto Direto)."
+            },
+            {
+              "order": 2,
+              "action": "Supressão",
+              "rationale": "Achei-o transmuta o verbo para o sentido de localização física (\"encontrei-o\")."
+            },
+            {
+              "order": 3,
+              "action": "Análise 2",
+              "rationale": "Julguei (VTD) + as suas perguntas (Objeto Direto) + tolas (Predicativo do Objeto Direto)."
+            }
+          ],
+          "result": "Análise 2: Julguei (VTD) + as suas perguntas (Objeto Direto) + tolas (Predicativo do Objeto Direto).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-005 — Achei-o Competente / Julguei as Suas Perguntas Tolas (Predicativo do Objeto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-005 — Achei-o Competente / Julguei as Suas Perguntas Tolas (Predicativo do Objeto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-005 — Achei-o Competente / Julguei as Suas Perguntas Tolas (Predicativo do Objeto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Análise 1: Achei (VTD) + -o (Objeto Direto) + competente (Predicativo do Objeto Direto).",
+                "Supressão: Achei-o transmuta o verbo para o sentido de localização física (\"encontrei-o\").",
+                "Análise 2: Julguei (VTD) + as suas perguntas (Objeto Direto) + tolas (Predicativo do Objeto Direto)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-006",
+          "title": "EX-A06-G08-006 — Chamaram o Delegado de Inquieto (Predicativo do Objeto Preposicionado)",
+          "prompt": "Estrutura: Chamaram (VTD com sujeito indeterminado) + o delegado (Objeto Direto) + de inquieto (Predicativo do Objeto Direto Preposicionado).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "Chamaram (VTD com sujeito indeterminado) + o delegado (Objeto Direto) + de inquieto (Predicativo do Objeto Direto Preposicionado)."
+            },
+            {
+              "order": 2,
+              "action": "Justificativa",
+              "rationale": "O termo qualifica o objeto direto pré-existente; a preposição de possui função conectiva e não transforma o atributo em objeto indireto."
+            }
+          ],
+          "result": "Justificativa: O termo qualifica o objeto direto pré-existente; a preposição de possui função conectiva e não transforma o atributo em objeto indireto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-006 — Chamaram o Delegado de Inquieto (Predicativo do Objeto Preposicionado) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-006 — Chamaram o Delegado de Inquieto (Predicativo do Objeto Preposicionado).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-006 — Chamaram o Delegado de Inquieto (Predicativo do Objeto Preposicionado).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: Chamaram (VTD com sujeito indeterminado) + o delegado (Objeto Direto) + de inquieto (Predicativo do Objeto Direto Preposicionado).",
+                "Justificativa: O termo qualifica o objeto direto pré-existente; a preposição de possui função conectiva e não transforma o atributo em objeto indireto."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-007",
+          "title": "EX-A06-G08-007 — Gosto de Você Alegre (Predicativo do Objeto Indireto)",
+          "prompt": "Estrutura: Gosto (VTI) + de você (Objeto Indireto) + alegre (Predicativo do Objeto Indireto).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Estrutura",
+              "rationale": "Gosto (VTI) + de você (Objeto Indireto) + alegre (Predicativo do Objeto Indireto)."
+            },
+            {
+              "order": 2,
+              "action": "Semântica",
+              "rationale": "O verbo assume a acepção de \"apreciar ver alguém em determinado estado\"."
+            }
+          ],
+          "result": "Semântica: O verbo assume a acepção de \"apreciar ver alguém em determinado estado\".",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-007 — Gosto de Você Alegre (Predicativo do Objeto Indireto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-007 — Gosto de Você Alegre (Predicativo do Objeto Indireto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-007 — Gosto de Você Alegre (Predicativo do Objeto Indireto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Estrutura: Gosto (VTI) + de você (Objeto Indireto) + alegre (Predicativo do Objeto Indireto).",
+                "Semântica: O verbo assume a acepção de \"apreciar ver alguém em determinado estado\"."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-008",
+          "title": "EX-A06-G08-008 — Bateria de Fixação 1 (material de origem — Itens A a E)",
+          "prompt": "Item a: Zeca parece alegre. $\\rightarrow$ alegre = Predicativo do Sujeito (com Verbo de Ligação parece).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item a",
+              "rationale": "Zeca parece alegre. $\\rightarrow$ alegre = Predicativo do Sujeito (com Verbo de Ligação parece)."
+            },
+            {
+              "order": 2,
+              "action": "Item b",
+              "rationale": "O rapaz chegou gravemente ferido ao hospital. $\\rightarrow$ ferido = Predicativo do Sujeito (com Verbo Intransitivo chegou)."
+            },
+            {
+              "order": 3,
+              "action": "Item c",
+              "rationale": "Chamaram o menino de mentiroso. $\\rightarrow$ de mentiroso = Predicativo do Objeto Direto (preposicionado)."
+            },
+            {
+              "order": 4,
+              "action": "Item d",
+              "rationale": "Consideramos o candidato apto. $\\rightarrow$ apto = Predicativo do Objeto Direto (extensão semântica de considerar)."
+            },
+            {
+              "order": 5,
+              "action": "Item e",
+              "rationale": "O mar parecia traiçoeiro naquela manhã. $\\rightarrow$ traiçoeiro = Predicativo do Sujeito (com Verbo de Ligação parecia)."
+            }
+          ],
+          "result": "Item e: O mar parecia traiçoeiro naquela manhã. $\\rightarrow$ traiçoeiro = Predicativo do Sujeito (com Verbo de Ligação parecia).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-008 — Bateria de Fixação 1 (material de origem — Itens A a E) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-008 — Bateria de Fixação 1 (material de origem — Itens A a E).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-008 — Bateria de Fixação 1 (material de origem — Itens A a E).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item a: Zeca parece alegre. $\\rightarrow$ alegre = Predicativo do Sujeito (com Verbo de Ligação parece).",
+                "Item b: O rapaz chegou gravemente ferido ao hospital. $\\rightarrow$ ferido = Predicativo do Sujeito (com Verbo Intransitivo chegou).",
+                "Item c: Chamaram o menino de mentiroso. $\\rightarrow$ de mentiroso = Predicativo do Objeto Direto (preposicionado).",
+                "Item d: Consideramos o candidato apto. $\\rightarrow$ apto = Predicativo do Objeto Direto (extensão semântica de considerar).",
+                "Item e: O mar parecia traiçoeiro naquela manhã. $\\rightarrow$ traiçoeiro = Predicativo do Sujeito (com Verbo de Ligação parecia)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A06-G08-009",
+          "title": "EX-A06-G08-009 — Bateria de Fixação 2 (material de origem — Itens A a D: AA vs. PO)",
+          "prompt": "Item a: Os candidatos resolveram uma questão difícil.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item a",
+              "rationale": "Os candidatos resolveram uma questão difícil."
+            },
+            {
+              "order": 2,
+              "action": "Análise",
+              "rationale": "difícil qualifica questão (OD). Supressão: Os candidatos resolveram uma questão (íntegro). Deslocamento: Resolveram difícil uma questão ❌. $\\rightarrow$ Adjunto Adnominal."
+            },
+            {
+              "order": 3,
+              "action": "Item b",
+              "rationale": "Os candidatos consideraram a prova difícil."
+            },
+            {
+              "order": 4,
+              "action": "Análise",
+              "rationale": "difícil qualifica prova (OD). Supressão: Consideraram a prova (muda sentido). Deslocamento: Consideraram difícil a prova ✔️. $\\rightarrow$ Predicativo do Objeto."
+            },
+            {
+              "order": 5,
+              "action": "Item c",
+              "rationale": "A pobre criança comeu aquela sopa horrorosa."
+            }
+          ],
+          "result": "Análise: muito simpática qualifica aquela senhora (OD). Supressão: Acho aquela senhora (muda para localizar/encontrar). $\\rightarrow$ Predicativo do Objeto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A06-G08-009 — Bateria de Fixação 2 (material de origem — Itens A a D: AA vs. PO) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A06-G08-009 — Bateria de Fixação 2 (material de origem — Itens A a D: AA vs. PO).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A06-G08-009 — Bateria de Fixação 2 (material de origem — Itens A a D: AA vs. PO).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item a: Os candidatos resolveram uma questão difícil.",
+                "Análise: difícil qualifica questão (OD). Supressão: Os candidatos resolveram uma questão (íntegro). Deslocamento: Resolveram difícil uma questão ❌. $\\rightarrow$ Adjunto Adnominal.",
+                "Item b: Os candidatos consideraram a prova difícil.",
+                "Análise: difícil qualifica prova (OD). Supressão: Consideraram a prova (muda sentido). Deslocamento: Consideraram difícil a prova ✔️. $\\rightarrow$ Predicativo do Objeto.",
+                "Item c: A pobre criança comeu aquela sopa horrorosa.",
+                "Análise: horrorosa qualifica sopa (OD). Supressão: Comeu aquela sopa (íntegro). $\\rightarrow$ Adjunto Adnominal.",
+                "Item d: Acho aquela senhora muito simpática.",
+                "Análise: muito simpática qualifica aquela senhora (OD). Supressão: Acho aquela senhora (muda para localizar/encontrar). $\\rightarrow$ Predicativo do Objeto."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proveniência: 021 - Predicativo do Sujeito - Parte 01 - 720p.md (ORAL-A06-V021-001), 023 - Adjunto Adnominal e Predicativo - Parte 01 - 720p.md (QUOTE-A06-V023-003, MARK-A06-V023-001) e 024 - Adjunto Adnominal e Predicativo - Parte 02 - 720p.md (TIP-A06-V024-002).",
+            "Aplicação: Nunca inicie a análise sintática de forma estática sobre nomes isolados. Localize o verbo principal e trace graficamente setas direcionais a partir dos termos adjetivos/qualificadores até o núcleo a que se referem:",
+            "Seta do predicado apontando para o Sujeito $\\rightarrow$ Predicativo do Sujeito.",
+            "Seta do predicado apontando para o Complemento Verbal $\\rightarrow$ Predicativo do Objeto.",
+            "Seta interna colada ao substantivo sem transitar pelo verbo $\\rightarrow$ Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proveniência: 022 - Predicativo do Sujeito - Parte 02 - 720p.md (TIP-A06-V022-001).",
+            "Aplicação: Diante de dúvida sobre adjunto adverbial de modo, altere o número ou gênero do sujeito. Se a palavra flexionar para concordar com o sujeito, trata-se de adjetivo $\\rightarrow$ Predicativo do Sujeito. Se for invariável, trata-se de advérbio $\\rightarrow$ Adjunto Adverbial."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proveniência: 024 - Adjunto Adnominal e Predicativo - Parte 02 - 720p.md (TIP-A06-V024-001, PROC-A06-V024-002).",
+            "Aplicação: Se houver dúvida entre Adjunto Adnominal e Predicativo do Objeto, tente antepor o termo ao objeto direto (aproximando-o do verbo). Se a construção mantiver harmonia e clareza (Acho simpática a senhora / Consideraram difícil a prova), o termo é Predicativo do Objeto. Se ficar agramatical (Resolveram difícil a questão), é Adjunto Adnominal."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proveniência: 021 - Predicativo do Sujeito - Parte 01 - 720p.md (TIP-A06-V021-002) e 023 - Adjunto Adnominal e Predicativo - Parte 01 - 720p.md (VIS-A06-V023-002).",
+            "Aplicação: Fixe a cadeia relacional de verbos de estado: SER, ESTAR, FICAR, PARECER, PERMANECER, ANDAR, VIVER, CONTINUAR, VIRAR (no sentido de transformar-se)."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A06-G08-001",
+          "title": "O Mito da Restrição do Predicativo ao Adjetivo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Mito da Restrição do Predicativo ao Adjetivo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Mito da Restrição do Predicativo ao Adjetivo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Mito da Restrição do Predicativo ao Adjetivo.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Mito da Restrição do Predicativo ao Adjetivo para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Mito da Restrição do Predicativo ao Adjetivo.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Mito da Restrição do Predicativo ao Adjetivo.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Assumir que predicativo precisa ser adjetivo, gerando confusão em frases com substantivos (O mar virou sertão) ou pronomes retos (Tu não és eu), tratando o pronome predicativo erroneamente como sujeito invertido.",
+                "Correção: Substantivos, pronomes retos e numerais funcionam regularmente como predicativo do sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G08-002",
+          "title": "O Erro Gramatical da Expressão \"Somos em Cinco\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro Gramatical da Expressão \"Somos em Cinco\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro Gramatical da Expressão \"Somos em Cinco\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro Gramatical da Expressão \"Somos em Cinco\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Erro Gramatical da Expressão \"Somos em Cinco\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro Gramatical da Expressão \"Somos em Cinco\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro Gramatical da Expressão \"Somos em Cinco\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Utilizar a fórmula coloquial \"Lá em casa nós somos em cinco\" ou \"Éramos em dez\".",
+                "Correção: O numeral cinco atua como predicativo do sujeito intermediado pelo verbo de ligação somos. O predicativo direto não aceita preposição espúria. A norma culta padrão exige: \"Lá em casa nós somos cinco\" / \"Éramos dez\"."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G08-003",
+          "title": "O Mito da Dependência Exclusiva de Verbo de Ligação",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Mito da Dependência Exclusiva de Verbo de Ligação no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Mito da Dependência Exclusiva de Verbo de Ligação.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Mito da Dependência Exclusiva de Verbo de Ligação.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Mito da Dependência Exclusiva de Verbo de Ligação para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Mito da Dependência Exclusiva de Verbo de Ligação.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Mito da Dependência Exclusiva de Verbo de Ligação.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Rejeitar a classificação de predicativo do sujeito porque o verbo da oração indica ação (como chegar, sair, comer), marcando erroneamente o adjetivo como adjunto adverbial de modo.",
+                "Correção: Verbos intransitivos e transitivos admitem predicativo do sujeito, constituindo predicados verbo-nominais (A mulher chegou cansada)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G08-004",
+          "title": "Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir \"Fazer Falta Contextual\" com \"Ser Termo Integrante\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Julgar que, por transmitir uma informação relevante para o texto (discussões intelectuais), o adjunto adnominal seria termo integrante insuprimível.",
+                "Correção: A análise sintática avalia a integridade da predicação do verbo, e não a perda de especificação discursiva. A supressão de um adjunto adnominal reduz o detalhe, mas preserva intacta a regência e o sentido original do verbo."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G08-005",
+          "title": "Falsa Identificação de Objeto Indireto no Predicativo Preposicionado",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falsa Identificação de Objeto Indireto no Predicativo Preposicionado no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falsa Identificação de Objeto Indireto no Predicativo Preposicionado.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falsa Identificação de Objeto Indireto no Predicativo Preposicionado.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falsa Identificação de Objeto Indireto no Predicativo Preposicionado para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falsa Identificação de Objeto Indireto no Predicativo Preposicionado.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falsa Identificação de Objeto Indireto no Predicativo Preposicionado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Em sentenças como Chamaram o delegado de inquieto, classificar o verbo como VTDI e de inquieto como Objeto Indireto.",
+                "Correção: De inquieto é adjetivo qualificador do objeto direto delegado. Trata-se de Predicativo do Objeto Direto Preposicionado."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A06-G08-006",
+          "title": "A Armadilha da Pergunta Interrogativa \"Como?\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da Pergunta Interrogativa \"Como?\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da Pergunta Interrogativa \"Como?\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da Pergunta Interrogativa \"Como?\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Armadilha da Pergunta Interrogativa \"Como?\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Armadilha da Pergunta Interrogativa \"Como?\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da Pergunta Interrogativa \"Como?\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Erro comum: Perguntar mecanicamente \"como?\" ao verbo e classificar qualquer resposta como adjunto adverbial de modo.",
+                "Correção: A pergunta \"como?\" identifica tanto modo quanto estado. A diferenciação é estritamente morfológica (invariabilidade vs. flexão)."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Assumir que predicativo precisa ser adjetivo, gerando confusão em frases com substantivos (O mar virou sertão) ou pronomes retos (Tu não és eu), tratando o pronome predicativo erroneamente como sujeito invertido.",
+            "Correção: Substantivos, pronomes retos e numerais funcionam regularmente como predicativo do sujeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Utilizar a fórmula coloquial \"Lá em casa nós somos em cinco\" ou \"Éramos em dez\".",
+            "Correção: O numeral cinco atua como predicativo do sujeito intermediado pelo verbo de ligação somos. O predicativo direto não aceita preposição espúria. A norma culta padrão exige: \"Lá em casa nós somos cinco\" / \"Éramos dez\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Rejeitar a classificação de predicativo do sujeito porque o verbo da oração indica ação (como chegar, sair, comer), marcando erroneamente o adjetivo como adjunto adverbial de modo.",
+            "Correção: Verbos intransitivos e transitivos admitem predicativo do sujeito, constituindo predicados verbo-nominais (A mulher chegou cansada)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Julgar que, por transmitir uma informação relevante para o texto (discussões intelectuais), o adjunto adnominal seria termo integrante insuprimível.",
+            "Correção: A análise sintática avalia a integridade da predicação do verbo, e não a perda de especificação discursiva. A supressão de um adjunto adnominal reduz o detalhe, mas preserva intacta a regência e o sentido original do verbo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Em sentenças como Chamaram o delegado de inquieto, classificar o verbo como VTDI e de inquieto como Objeto Indireto.",
+            "Correção: De inquieto é adjetivo qualificador do objeto direto delegado. Trata-se de Predicativo do Objeto Direto Preposicionado."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Erro comum: Perguntar mecanicamente \"como?\" ao verbo e classificar qualquer resposta como adjunto adverbial de modo.",
+            "Correção: A pergunta \"como?\" identifica tanto modo quanto estado. A diferenciação é estritamente morfológica (invariabilidade vs. flexão)."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Metodologia analítica integrada que examina a palavra sob dois prismas complementares: sua identidade morfológica de classe (natureza intrínseca) e sua função relacional na estrutura da oração (papel sintático).",
+            "Relações: KB-A06-G08-001."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Termo acessório da oração restrito morfologicamente a 5 classes (artigo, numeral, pronome, adjetivo e locução adjetiva) que opera colado a um núcleo substantivo para especificá-lo, cuja retirada preserva a predicação verbal.",
+            "Relações: KB-A06-G08-002, KB-A06-G08-008."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Função sintática exercida por termo localizado obrigatoriamente no predicado que atribui estado, atributo ou característica ao núcleo do sujeito, mediante intermediação de qualquer tipo de verbo.",
+            "Relações: KB-A06-G08-003, KB-A06-G08-004, KB-A06-G08-007."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Função sintática exercida por termo localizado no predicado que qualifica o objeto direto ou indireto em decorrência da dinâmica semântica exigida pelo verbo regente.",
+            "Relações: KB-A06-G08-005, KB-A06-G08-006, KB-A06-G08-008."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Propriedade sintático-semântica de certos verbos que solicitam um termo qualificador predicativo para além do complemento verbal, cuja ausência altera ou destrói a acepção original do predicado.",
+            "Relações: KB-A06-G08-005, PROC-A06-G08-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Definição: Estrutura de predicado complexo dotada de dois núcleos significativos simultâneos: um núcleo verbal (verbo nocional de ação) e um núcleo nominal (predicativo do sujeito ou predicativo do objeto).",
+            "Relações: KB-A06-G08-004, EX-A06-G08-003, EX-A06-G08-004."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir este grupo temático, o estudante deve dominar com precisão conceitual e segurança operacional a arquitetura dos termos qualificadores da oração:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Dominar o Checklist do Predicativo do Sujeito: Reconhecer que o predicativo do sujeito habita invariavelmente o predicado, refere-se ao sujeito (\"manda seta\"), independe da predicação verbal (coexiste com verbos de ligação, intransitivos e transitivos em predicados nominais ou verbo-nominais) e admite substantivos, pronomes e numerais além do adjetivo.",
+            "Diferenciar Estado de Modo sem Apoio em Perguntas Ingênuas: Rejeitar a pergunta \"como?\" e aplicar o teste da flexão morfológica: termos que concordam e flexionam com o sujeito são adjetivos exercendo a função de predicativo; termos estritamente invariáveis são advérbios exercendo a função de adjunto adverbial de modo.",
+            "Compreender a Extensão Semântica do Predicativo do Objeto: Identificar que o predicativo do objeto é exigido pela predicação de verbos cognitivos/opinativos (achar, considerar, julgar), de modo que sua supressão transfigura a acepção original do verbo regente.",
+            "Dominar a Desambiguação entre Adjunto Adnominal e Predicativo do Objeto: Diante de adjetivo vinculado ao objeto, aplicar o método em 3 passos: traçar a seta de referência, analisar o verbo regente e executar o teste de supressão semântica e o teste de deslocamento anteposto para contiguidade verbal."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2102 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A07-G07",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.056Z"
+  },
+  "unit": {
+    "unitId": "IP-A07-G07",
+    "lessonId": "A07",
+    "groupId": "G07",
+    "title": "Orações Reduzidas - Revisão e Reescrita",
+    "variant": "review",
+    "canonicalTopicId": "pt:a07:oracoes-reduzidas-e-reescrita",
+    "learningObjectives": [
+      "OBJ-IP-A07-G07-001",
+      "OBJ-IP-A07-G07-002",
+      "OBJ-IP-A07-G07-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "Revisão e reescrita de reduzidas usam mapas paralelos para verificar se desenvolvimento, conectivo, tempo e relação sintática foram preservados.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura do período simples e termos da oração (sujeito, complementos verbais, complementos nominais, aposto).",
+            "Conceito de período composto por subordinação (orações substantivas, adjetivas e adverbiais desenvolvidas).",
+            "Reconhecimento morfológico das formas nominais do verbo (infinitivo pessoal e impessoal, gerúndio, particípio regular e irregular).",
+            "Mecanismos de regência verbal e nominal (uso de preposições exigidas por regência)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "SINTAXE DAS ORAÇÕES REDUZIDAS ├── 1. Critérios Constitutivos Obrigatórios │ ├── Ausência de Conectivo Subordinativo (sem conjunção integrante, adverbial ou pronome relativo) │ ├── Presença de Preposição Funcional (permitida por regência ou valor adverbial) │ └── Núcleo Verbal em Forma Nominal (Infinitivo, Gerúndio ou Particípio) │ ├── 2. Distribuição Funcional das Formas Nominais │ ├── Infinitivo (Totalmente flexível) │ │ ├── Substantivas (Subjetiva, OD, OI, Predicativa, Compl. Nominal, Apositiva) -> Teste: \"isso / disso\" │ │ ├── Adjetivas (Restritivas ou Explicativas) -> Teste: \"que + verbo\" │ │ └── Adverbiais (Tempo [ao + inf.], Condição [a + inf.], Causa [por + inf.], Finalidade [para + inf.], etc.) │ ├── Gerúndio (Apenas 2 funções; NUNCA substantiva) │ │ ├── Adjetivas (Junto a substantivo; substituível por pronome relativo) │ │ └── Adverbiais (Causal, Consecutiva, Temporal, Condicional, Concessiva, Conformativa) │ └── Particípio (Apenas 2 funções; NUNCA substantiva) │ ├── Adjetivas (Valor passivo ligado a nome; \"que foi + particípio\") │ └── Adverbiais (Temporal, Condicional, Concessiva, Causal) │ ├── 3. Discriminação Semântica e Temporal │ ├── Método da Anterioridade Cronológica │ │ ├── 1º Evento no tempo real -> CAUSA (Teste: \"O fato de X...\") │ │ └── 2º Evento no tempo real -> EFEITO / CONSEQUÊNCIA (Teste: \"...fez com que Y\") │ ├── Distinção Causa vs. Explicação (Preposição \"por\" + Infinitivo -> Predominância Causal) │ └── Polissemia do Gerúndio (Tensão entre consequência, finalidade e tempo em textos formais) │ ├── 4. Oração Reduzida versus Locução Verbal │ ├── Locução Verbal: Período simples (1 oração); Sujeito comum indissolúvel; NÃO aceita \"que\" │ ├── Oração Reduzida: Período composto (2+ orações); Sujeitos iguais ou distintos; ACEITA desenvolvimento com \"que\" │ └── Regra da Locução Reduzida: O verbo AUXILIAR determina o nome da forma nominal da oração │ └── 5. Regras de Reescrita e Pontuação ├── \"Ao + Infinitivo\" -> Converte coordenação aditiva em subordinação temporal └── Ordem Direta (Principal + Adverbial ao final) -> Pontuação por vírgula é FACULTATIVA"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A07-G07-001",
+          "title": "Mapa de conexão — Orações Reduzidas - Revisão e Reescrita",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a07:oracoes-reduzidas-e-reescrita",
+              "label": "Orações Reduzidas - Revisão e Reescrita",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a07:oracoes-reduzidas-e-reescrita",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A oração subordinada reduzida é uma estrutura oracional que não é introduzida por conectivos subordinativos típicos (conjunções integrantes, conjunções subordinativas adverbiais ou pronomes relativos) e cujo núcleo verbal se apresenta obrigatoriamente sob uma forma nominal: infinitivo (pessoal ou impessoal), gerúndio ou particípio (regular ou irregular)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Uma oração subordinada pode se manifestar de forma desenvolvida (com conectivo explícito e verbo conjugado em tempo e modo finitos do indicativo ou subjuntivo) ou de forma reduzida. A denominação \"reduzida\" decorre da perda do conectivo subordinativo e da contração da flexão verbal em forma nominal."
+        },
+        {
+          "type": "paragraph",
+          "text": "A ausência de conectivo não impede a presença de preposições funcionais, as quais podem ser exigidas pela regência de verbos ou nomes da oração principal (ex.: gosto de sair) ou para marcar valores circunstanciais adverbiais (ex.: ao sair, a fim de sair, por sair)."
+        },
+        {
+          "type": "paragraph",
+          "text": "As formas nominais do verbo desdobram-se em:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Infinitivo: Terminações em -ar, -er, -ir; pode ser impessoal (forma não flexionada) ou pessoal (flexionado com desinências número-pessoais, como em por serem).",
+            "Gerúndio: Terminação invariável em -ndo (fazendo, estabelecendo).",
+            "Particípio: Terminações regulares em -do (falado, vencido) ou formas irregulares em -to / -so (dito, feito, escrito, preso)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verificar se a oração possui verbo em infinitivo, gerúndio ou particípio.",
+            "Confirmar a ausência de conjunção subordinativa ou pronome relativo no início da oração dependente.",
+            "Verificar se a oração pode ser desdobrada (desenvolvida) em uma forma finita iniciada por conectivo."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande-se em: KB-A07-G07-002, KB-A07-G07-003.",
+            "Contrasta com: KB-A07-G07-008 (Locução Verbal).",
+            "Termos associados: TERM-A07-G07-001, TERM-A07-G07-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As orações reduzidas de infinitivo possuem flexibilidade morfossintática total, sendo as únicas capazes de desempenhar todas as três grandes funções sintáticas do período composto: substantivas (todas as 6 subclasses), adjetivas (restritivas ou explicativas) e adverbiais (todas as circunstâncias)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A classificação das orações reduzidas de infinitivo distribui-se em três eixos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Substantivas (identificadas pela substituição por \"isso\" / \"disso\" / \"nisso\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Subjetiva: Exerce a função de sujeito da oração principal (Não convém proceder assim $\\rightarrow$ Isso não convém).",
+            "Objetiva Direta: Funciona como objeto direto de verbo transitivo direto (Acreditei ter lido isso $\\rightarrow$ Acreditei isso).",
+            "Objetiva Indireta: Funciona como objeto indireto com preposição regida por verbo transitivo indireto ou transitivo direto e indireto (Impossibilitam alguém de se registrar $\\rightarrow$ Impossibilitam alguém disso).",
+            "Predicativa: Atua como predicativo do sujeito após verbo de ligação (Seu sonho era morar em São Paulo $\\rightarrow$ Seu sonho era isso).",
+            "Completiva Nominal: Completa o sentido de um substantivo abstrato, adjetivo ou advérbio cognato com preposição (Tinha ânsia de retornar à sua pátria $\\rightarrow$ Tinha ânsia disso).",
+            "Apositiva: Esclarece termo nominal antecedente, delimitada por dois-pontos, travessão ou vírgula (Fez-lhe uma proposta: viajar pelo interior)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Adjetivas (ligadas a substantivo, equivalentes a \"que + verbo\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Modificam diretamente um substantivo sem mediação substantiva (Não era homem de inventar coisas $\\rightarrow$ homem que inventava coisas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Adverbiais (expressam circunstâncias semânticas):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Temporal: ao + infinitivo (Ao despedir-se, chorava muito $\\rightarrow$ Quando se despediu).",
+            "Final: para / a fim de / por + infinitivo (Chegou mais cedo para colaborar).",
+            "Concessiva: apesar de + infinitivo (Apesar de ser jovem, conquistou posições invejáveis).",
+            "Condicional: a + infinitivo (A ser eu rei, não faria outra coisa $\\rightarrow$ Se eu fosse rei).",
+            "Causal: por + infinitivo (Não veio por estar doente $\\rightarrow$ porque estava doente).",
+            "Consecutiva: a ponto de + infinitivo (Impressionou-o a ponto de tirar-lhe o sono)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A07-G07-003, EX-A07-G07-006, EX-A07-G07-007, EX-A07-G07-009, EX-A07-G07-012, EX-A07-G07-014.",
+            "Procedimento: PROC-A07-G07-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Diferentemente do infinitivo, as orações reduzidas de gerúndio e de particípio nunca exercem funções substantivas; limitam-se rigorosamente às funções adjetivas ou adverbiais."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Orações Reduzidas de Gerúndio:",
+            "Adjetivas: Posicionam-se junto a um substantivo antecedente, admitindo substituição por \"pronome relativo + verbo conjugado\" (Passaram os guardas conduzindo os presos $\\rightarrow$ guardas que conduziam os presos).",
+            "Adverbiais: Expressam circunstâncias adverbiais de tempo (Chegando lá, avise-me), causa (Estando adoentado, não saí), consequência (O tom participa da despretensão, despertando simpatia), condição (Estudando, você aprenderá), concessão (Mesmo correndo, não o alcançou) ou conformidade (Seguindo o velho hábito, iam juntos).",
+            "Orações Reduzidas de Particípio:",
+            "Adjetivas: Ligam-se a um substantivo com semântica passiva, substituíveis por \"que + verbo passivo\" (Esta é a notícia divulgada na imprensa $\\rightarrow$ notícia que foi divulgada).",
+            "Adverbiais: Expressam circunstâncias circunstanciais de tempo (Terminada a aula, retirou-se), condição (Reconhecido seu direito, teriam agido diferente), concessão (Mesmo oprimidos, não cederemos) ou causa (Surpreendidos pela chuva, correram)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A07-G07-002 (Infinitivo pleno).",
+            "Aplicado em: EX-A07-G07-001, EX-A07-G07-002, EX-A07-G07-004, EX-A07-G07-005, EX-A07-G07-008, EX-A07-G07-011, EX-A07-G07-013, EX-A07-G07-015."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando uma oração subordinada reduzida é constituída por uma locução verbal (verbo auxiliar + verbo principal), a classificação morfológica da oração reduzida (de infinitivo, gerúndio ou particípio) é determinada exclusivamente pela forma nominal do verbo auxiliar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na arquitetura das locuções verbais, há uma rígida divisão funcional entre os verbos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O verbo principal (último verbo da cadeia) detém o conteúdo semântico essencial e determina a regência e os complementos oracionais.",
+            "O verbo auxiliar (primeiro verbo da cadeia) assume as flexões gramaticais (tempo, modo, número, pessoa ou forma nominal) e estabelece a conexão morfossintática com a oração principal."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Assim, em uma locução como \"tendo alcançado\", o verbo auxiliar tendo está no gerúndio e o principal alcançado está no particípio. A oração subordinada deve ser classificada como reduzida de gerúndio, e nunca de particípio. Se a estrutura fosse \"ao ter alcançado\", seria reduzida de infinitivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"O principal manda; o auxiliar obedece e carrega tudo nas costas.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A07-G07-005 (Questão 38), EX-A07-G07-017 (Questão 50).",
+            "Alerta associado: WARN-A07-G07-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A identificação precisa das relações de causa e consequência em orações reduzidas fundamenta-se na ordem cronológica real dos fatos no mundo extralinguístico: o evento anterior no tempo é a causa (motivo gerador), enquanto o evento posterior é o efeito ou consequência."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para desvencilhar-se de ambiguidades em provas do CESPE/Cebraspe, o candidato deve aplicar dois passos diagnósticos integrados:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Linha do Tempo (Cronologia dos Fatos):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "1º evento no tempo real $\\rightarrow$ Causa (o motivo que impulsiona a ação).",
+            "2º evento no tempo real $\\rightarrow$ Efeito / Consequência (o resultado produzido)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Molde Semântico: Inserir os segmentos na fórmula mental:"
+          ]
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\"O fato de [Ação 1] fez com que [Ação 2]\"}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A oração que ocupa o espaço de [Ação 1] é a oração causal.",
+            "A oração que ocupa o espaço de [Ação 2] é a consequência (ou oração principal)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Essa relação independe da ordem sintática em que as orações aparecem no período (a causa pode vir anteposta ou posposta à consequência)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento: PROC-A07-G07-002.",
+            "Aplicado em: EX-A07-G07-005, EX-A07-G07-010, EX-A07-G07-011, EX-A07-G07-012, EX-A07-G07-015."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Devido à ausência de conectivos subordinativos específicos, as orações reduzidas — notadamente as de gerúndio e particípio — apresentam elevada plasticidade semântica, podendo acumular simultaneamente leituras de causa, consequência, finalidade, condição e tempo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Essa maleabilidade contextual gera frequentes polêmicas em bancas examinadoras:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Tensão Consequência versus Finalidade: Uma oração de gerúndio posposta pode sugerir tanto o objetivo pretendido quanto a consequência fática direta da ação anterior (como no caso da Questão 46 do STM, onde o gabarito preliminar \"finalidade\" foi alterado pós-recurso para \"consequência\").",
+            "Tensão Consequência versus Tempo: Em orações que descrevem ações concomitantes, a banca pode tentar impingir falso valor temporal a estruturas que são estritamente consecutivas (como na Questão 48 da FUB).",
+            "Impacto em Provas Discursivas: A professora recomenda enfaticamente evitar o uso recorrente de orações reduzidas em redações e provas discursivas, priorizando orações desenvolvidas com conjunções explícitas (a fim de que, de modo que, porque, quando) para eliminar ambiguidades que possam acarretar descontos de clareza textual."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A07-G07-008, EX-A07-G07-013, EX-A07-G07-015.",
+            "Oralidade associada: ORAL-A07-G07-002, ORAL-A07-G07-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A combinação prepositiva \"ao + infinitivo\" possui valor semântico fixo de tempo (simultaneidade ou tempo imediato). Quando posicionada após a oração principal (final do período / ordem direta), o emprego da vírgula delimitadora é estritamente facultativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em questões de reescrita e julgamento de itens:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Impacto Semântico: Substituir uma conjunção aditiva (e suprimir) pela estrutura ao suprimir preserva a correção gramatical, mas altera o sentido original, convertendo adição/soma em tempo/simultaneidade.",
+            "Regra de Pontuação na Ordem Direta: No período composto, a ordem canônica é Oração Principal + Oração Subordinada Adverbial. Nessa configuração posposta, o isolamento por vírgula é optativo. A ausência de vírgula não viola a norma-padrão."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A07-G07-009, EX-A07-G07-014.",
+            "Alerta: WARN-A07-G07-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A distinção sintática entre Locução Verbal (período simples / 1 oração) e Oração Subordinada Reduzida (período composto / 2 ou mais orações) não se baseia na identidade de sujeitos, mas sim na capacidade de desenvolvimento sintático por meio de conjunção integrante (\"que\") e flexão verbal finita."
+        },
+        {
+          "type": "paragraph",
+          "text": "Muitos estudantes erram questões de concurso ao assumir que verbos contíguos com o mesmo sujeito formam automaticamente locução verbal. Trata-se de uma premissa falsa: uma oração principal e sua subordinada reduzida podem perfeitamente compartilhar o mesmo sujeito."
+        },
+        {
+          "type": "paragraph",
+          "text": "O critério técnico discriminatório é:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Locução Verbal (Período Simples): Os verbos atuam como uma unidade sintático-semântica indissolúvel (auxiliar + principal). Forma uma única oração. É impossível desenvolver com \"que\" (\"A menina deve sair\" $\\rightarrow$ \"A menina deve que saia\" é agramatical/inválido).",
+            "Oração Reduzida (Período Composto): Há dois núcleos oracionais autônomos subordinados. É plenamente possível desenvolver com \"que\" (\"O professor finge entender o assunto\" $\\rightarrow$ \"O professor finge [que entende o assunto]\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Procedimento: PROC-A07-G07-003.",
+            "Aplicado em: EX-A07-G07-016, EX-A07-G07-017.",
+            "Alerta: WARN-A07-G07-006."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A07-G07-001",
+          "title": "Regras canônicas",
+          "statement": "Regras canônicas",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A07-G07-001",
+              "table": {
+                "tableId": "TABLE-IP-A07-G07-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Conceito / Regra",
+                  "Formulação Canônica",
+                  "Unidade de Referência"
+                ],
+                "rows": [
+                  [
+                    "Oração Reduzida",
+                    "Oração subordinada sem conectivo (conjunção/pronome relativo) cujo verbo se encontra em forma nominal (infinitivo, gerúndio ou particípio).",
+                    "KB-A07-G07-001"
+                  ],
+                  [
+                    "Universalidade do Infinitivo",
+                    "A forma nominal de infinitivo é a única capaz de exercer todas as funções: substantivas (6 tipos), adjetivas e adverbiais.",
+                    "KB-A07-G07-002"
+                  ],
+                  [
+                    "Restrição de Gerúndio e Particípio",
+                    "Orações reduzidas de gerúndio e particípio nunca exercem funções substantivas; limitam-se a valores adjetivos ou adverbiais.",
+                    "KB-A07-G07-003"
+                  ],
+                  [
+                    "Regra da Locução em Reduzida",
+                    "Em locução verbal reduzida, a classificação nominal da oração orienta-se pela forma doverbo auxiliar (o principal determina apenas a regência).",
+                    "KB-A07-G07-004"
+                  ],
+                  [
+                    "Critério Cronológico Causal",
+                    "O fato cronologicamente anterior no tempo real é a Causa; o fato subsequente desencadeado é a Consequência/Efeito.",
+                    "KB-A07-G07-005"
+                  ],
+                  [
+                    "Semântica de Ao + Infinitivo",
+                    "Estrutura fixa de valor temporal imediato/simultaneidade; na ordem direta posposta, a vírgula é facultativa.",
+                    "KB-A07-G07-007"
+                  ],
+                  [
+                    "Distinção Reduzida vs. Locução",
+                    "Locução verbal = período simples, rejeita \"que\"; Oração reduzida = período composto, admite desenvolvimento com \"que\".",
+                    "KB-A07-G07-008"
+                  ],
+                  [
+                    "Oração Adjetiva $\\neq$ Aposto",
+                    "Aposto possui natureza substantiva; particípios e adjetivos possuem natureza qualificadora/caracterizadora (adjetiva).",
+                    "WARN-A07-G07-001"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A07-G07-001",
+          "title": "Algoritmo de Identificação de Reduzidas Substantivas (Teste do \"Isso\")",
+          "objective": "Executar o algoritmo decisório para Algoritmo de Identificação de Reduzidas Substantivas (Teste do \"Isso\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo de Identificação de Reduzidas Substantivas (Teste do \"Isso\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole o segmento que contém o verbo no infinitivo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Substitua a oração inteira pelo pronome substantivo \"isso\" (ou \"disso\" / \"nisso\", caso haja preposição exigida).",
+              "explanation": null,
+              "test": "Substitua a oração inteira pelo pronome substantivo \"isso\" (ou \"disso\" / \"nisso\", caso haja preposição exigida)."
+            },
+            {
+              "order": 3,
+              "action": "Se a oração principal mantiver sentido gramatical completo com a substituição, a oração é Subordinada Substantiva.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Reorganize o período na ordem direta (Sujeito + Verbo + Complementos) para categorizar a subclasse",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Responde a \"O que é que + verbo?\"",
+              "explanation": "Subjetiva (Sujeito).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Completa VTD sem preposição",
+              "explanation": "Objetiva Direta.",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Completa VTI ou VTDI com preposição",
+              "explanation": "Objetiva Indireta.",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Posicionada após verbo de ligação (ser, etc.)",
+              "explanation": "Predicativa.",
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Completa nome (substantivo abstrato/adjetivo) com preposição",
+              "explanation": "Completiva Nominal.",
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Esclarece termo nominal isolada por pontuação enfática",
+              "explanation": "Apositiva.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo de Identificação de Reduzidas Substantivas (Teste do \"Isso\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos de execução:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole o segmento que contém o verbo no infinitivo.",
+                "Substitua a oração inteira pelo pronome substantivo \"isso\" (ou \"disso\" / \"nisso\", caso haja preposição exigida).",
+                "Se a oração principal mantiver sentido gramatical completo com a substituição, a oração é Subordinada Substantiva.",
+                "Reorganize o período na ordem direta (Sujeito + Verbo + Complementos) para categorizar a subclasse:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Responde a \"O que é que + verbo?\": Subjetiva (Sujeito).",
+                "Completa VTD sem preposição: Objetiva Direta.",
+                "Completa VTI ou VTDI com preposição: Objetiva Indireta.",
+                "Posicionada após verbo de ligação (ser, etc.): Predicativa.",
+                "Completa nome (substantivo abstrato/adjetivo) com preposição: Completiva Nominal.",
+                "Esclarece termo nominal isolada por pontuação enfática: Apositiva."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A07-G07-002",
+          "title": "Algoritmo Cronológico-Semântico de Causa e Consequência",
+          "objective": "Executar o algoritmo decisório para Algoritmo Cronológico-Semântico de Causa e Consequência",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Algoritmo Cronológico-Semântico de Causa e Consequência."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole o verbo da oração reduzida e o verbo da oração principal.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Avalie a linha do tempo no mundo real",
+              "explanation": "Qual ação ocorreu primeiro?",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "O evento 1º no tempo é a CAUSA (fato gerador).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "O evento 2º no tempo é o EFEITO / CONSEQUÊNCIA (desfecho).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Aplique a matriz",
+              "explanation": "\"O fato de [1º evento] fez com que [2º evento]\".",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se o encaixe for perfeito, a oração do 1º evento é Subordinada Adverbial Causal e a do 2º evento é a oração principal (ou consecutiva).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Valide desenvolvendo com conectivos causais (já que, visto que, como no início).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Algoritmo Cronológico-Semântico de Causa e Consequência."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos de execução:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole o verbo da oração reduzida e o verbo da oração principal.",
+                "Avalie a linha do tempo no mundo real: Qual ação ocorreu primeiro?"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O evento 1º no tempo é a CAUSA (fato gerador).",
+                "O evento 2º no tempo é o EFEITO / CONSEQUÊNCIA (desfecho)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplique a matriz: \"O fato de [1º evento] fez com que [2º evento]\".",
+                "Se o encaixe for perfeito, a oração do 1º evento é Subordinada Adverbial Causal e a do 2º evento é a oração principal (ou consecutiva).",
+                "Valide desenvolvendo com conectivos causais (já que, visto que, como no início)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A07-G07-003",
+          "title": "Teste Discriminatório Estrutural entre Oração Reduzida e Locução Verbal",
+          "objective": "Executar o algoritmo decisório para Teste Discriminatório Estrutural entre Oração Reduzida e Locução Verbal",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Discriminatório Estrutural entre Oração Reduzida e Locução Verbal."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize a sequência de dois verbos contíguos (ex.",
+              "explanation": "deve sair, finge entender, estamos garantindo).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Ignore a identidade de sujeitos (ter o mesmo sujeito não define se é locução ou oração reduzida).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Aplique o Teste de Desenvolvimento com \"Que\"",
+              "explanation": "",
+              "test": "Aplique o Teste de Desenvolvimento com \"Que\":"
+            },
+            {
+              "order": 4,
+              "action": "Tente inserir a conjunção \"que\" entre os dois verbos e conjugar o segundo verbo no indicativo ou subjuntivo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Resultado A (Agramatical / Rejeita \"que\")",
+              "explanation": "Ex.: \"estamos que garante\", \"deve que saia\". Trata-se de LOCUÇÃO VERBAL (1 única oração / período simples).",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Resultado B (Gramatical / Aceita \"que\")",
+              "explanation": "Ex.: \"finge [que entende]\", \"pensava [que estava certa]\". Trata-se de ORAÇÃO SUBORDINADA REDUZIDA (período composto).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Discriminatório Estrutural entre Oração Reduzida e Locução Verbal."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos de execução:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize a sequência de dois verbos contíguos (ex.: deve sair, finge entender, estamos garantindo).",
+                "Ignore a identidade de sujeitos (ter o mesmo sujeito não define se é locução ou oração reduzida).",
+                "Aplique o Teste de Desenvolvimento com \"Que\":"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Tente inserir a conjunção \"que\" entre os dois verbos e conjugar o segundo verbo no indicativo ou subjuntivo.",
+                "Resultado A (Agramatical / Rejeita \"que\"): Ex.: \"estamos que garante\", \"deve que saia\". Trata-se de LOCUÇÃO VERBAL (1 única oração / período simples).",
+                "Resultado B (Gramatical / Aceita \"que\"): Ex.: \"finge [que entende]\", \"pensava [que estava certa]\". Trata-se de ORAÇÃO SUBORDINADA REDUZIDA (período composto)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A07-G07-004",
+          "title": "Teste de Paráfrase Relativa para Gerúndio e Particípio Adjetivos",
+          "objective": "Executar o algoritmo decisório para Teste de Paráfrase Relativa para Gerúndio e Particípio Adjetivos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Paráfrase Relativa para Gerúndio e Particípio Adjetivos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Observe se a oração reduzida de gerúndio ou particípio está posicionada imediatamente após um termo substantivo.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Substitua a forma nominal pela estrutura \"pronome relativo + verbo conjugado em tempo finito\"",
+              "explanation": "",
+              "test": "Substitua a forma nominal pela estrutura \"pronome relativo + verbo conjugado em tempo finito\":"
+            },
+            {
+              "order": 3,
+              "action": "Guardas conduzindo os presos $\\rightarrow$ Guardas [que conduziam os presos].",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Notícia divulgada na imprensa $\\rightarrow$ Notícia [que foi divulgada na imprensa].",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Se a substituição for semanticamente equivalente, a oração é Subordinada Adjetiva (Restritiva se sem vírgulas; Explicativa se entre vírgulas).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Paráfrase Relativa para Gerúndio e Particípio Adjetivos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passos de execução:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Observe se a oração reduzida de gerúndio ou particípio está posicionada imediatamente após um termo substantivo.",
+                "Substitua a forma nominal pela estrutura \"pronome relativo + verbo conjugado em tempo finito\":"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Guardas conduzindo os presos $\\rightarrow$ Guardas [que conduziam os presos].",
+                "Notícia divulgada na imprensa $\\rightarrow$ Notícia [que foi divulgada na imprensa]."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Se a substituição for semanticamente equivalente, a oração é Subordinada Adjetiva (Restritiva se sem vírgulas; Explicativa se entre vírgulas)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A07-G07-001",
+          "title": "Tabela 1: Oração Subordinada Reduzida versus Locução Verbal",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 1: Oração Subordinada Reduzida versus Locução Verbal",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A07-G07-002",
+              "table": {
+                "tableId": "TABLE-IP-A07-G07-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Análise",
+                  "Locução Verbal",
+                  "Oração Subordinada Reduzida"
+                ],
+                "rows": [
+                  [
+                    "Classificação do Período",
+                    "Período Simples (apenas 1 oração)",
+                    "Período Composto (2 ou mais orações)"
+                  ],
+                  [
+                    "Relação entre Verbos",
+                    "Verbo Auxiliar + Verbo Principal em bloco unitário",
+                    "Verbo da Principal + Verbo da Subordinada dependente"
+                  ],
+                  [
+                    "Identidade de Sujeito",
+                    "Sujeito único compartilhado obrigatoriamente",
+                    "Sujeitos podem ser rigorosamente os mesmos ou distintos"
+                  ],
+                  [
+                    "Teste do Conectivo \"Que\"",
+                    "Impossível (\"deve que saia\" = agramatical)",
+                    "Possível (\"finge [que entende]\" = gramatical)"
+                  ],
+                  [
+                    "Exemplos Canônicos",
+                    "\"A menina deve sair\", \"Estamos garantindo\"",
+                    "\"O professor finge entender\", \"Pensava estar certa\""
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A07-G07-002",
+          "title": "Tabela 2: Oração Adjetiva Explicativa versus Aposto Explicativo",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 2: Oração Adjetiva Explicativa versus Aposto Explicativo",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A07-G07-003",
+              "table": {
+                "tableId": "TABLE-IP-A07-G07-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Análise",
+                  "Oração Subordinada Adjetiva Explicativa",
+                  "Aposto Explicativo"
+                ],
+                "rows": [
+                  [
+                    "Natureza Gramatical",
+                    "Adjetiva / Caracterizadora (núcleo verbal/particípio)",
+                    "Substantiva / Equivalente (núcleo substantivo/pronome)"
+                  ],
+                  [
+                    "Estrutura Típica",
+                    "Particípio isolado por vírgulas (\"percebidos cumulativamente\")",
+                    "Sintagma nominal explicativo (\"Machado de Assis, grande escritor\")"
+                  ],
+                  [
+                    "Pegadinha de Banca",
+                    "CESPE afirma que particípios funcionam como aposto",
+                    "O particípio qualifica substantivo, exercendo função adjetiva"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A07-G07-003",
+          "title": "Tabela 3: Relação Causal versus Consecutiva versus Explicativa",
+          "contrastType": "mixed",
+          "conceptA": "Tabela 3: Relação Causal versus Consecutiva versus Explicativa",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A07-G07-004",
+              "table": {
+                "tableId": "TABLE-IP-A07-G07-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Estrutura Semântica",
+                  "Posição Cronológica",
+                  "Papel Textual / Fórmula"
+                ],
+                "rows": [
+                  [
+                    "Causa",
+                    "1º no tempo real (fato gerador)",
+                    "Motivo determinante (\"O fato de X fez com que...\")"
+                  ],
+                  [
+                    "Consequência / Efeito",
+                    "2º no tempo real (desfecho)",
+                    "Resultado decorrente (\"...fez com que Y acontecesse\")"
+                  ],
+                  [
+                    "Explicação",
+                    "Justificativa do ato de fala",
+                    "Justifica ordem ou suposição anterior (\"Choveu, pois a rua está molhada\")"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-001",
+          "title": "EX-A07-G07-001 — Questão 34: CESPE / DETRAN-DF (Particípio Adjetivo Explicativo)",
+          "prompt": "Enunciado: No trecho \"...De acordo com a publicação Saúde Brasil 2007, divulgada pelo Ministério da Saúde, 35.155 pessoas morreram...\", a oração \"divulgada pelo Ministério da Saúde\" constitui oração subordinada adjetiva explicativa.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...De acordo com a publicação Saúde Brasil 2007, divulgada pelo Ministério da Saúde, 35.155 pessoas morreram...\", a oração \"divulgada pelo Ministério da Saúde\" constitui oração subordinada adjetiva explicativa."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O verbo no particípio divulgada qualifica o substantivo publicação (\"publicação que foi divulgada...\"). Por modificar um nome e vir isolada por vírgulas, é oração subordinada adjetiva explicativa reduzida de particípio."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-001 — Questão 34: CESPE / DETRAN-DF (Particípio Adjetivo Explicativo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-001 — Questão 34: CESPE / DETRAN-DF (Particípio Adjetivo Explicativo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-001 — Questão 34: CESPE / DETRAN-DF (Particípio Adjetivo Explicativo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...De acordo com a publicação Saúde Brasil 2007, divulgada pelo Ministério da Saúde, 35.155 pessoas morreram...\", a oração \"divulgada pelo Ministério da Saúde\" constitui oração subordinada adjetiva explicativa.",
+                "Resolução: O verbo no particípio divulgada qualifica o substantivo publicação (\"publicação que foi divulgada...\"). Por modificar um nome e vir isolada por vírgulas, é oração subordinada adjetiva explicativa reduzida de particípio.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-002",
+          "title": "EX-A07-G07-002 — Questão 35: CESPE / Instituto Rio Branco (Gerúndio Adjetivo Restritivo)",
+          "prompt": "Enunciado: No fragmento \"...Existe um elo secreto estabelecendo entre esses dois acontecimentos...\", a oração iniciada por \"estabelecendo\" restringe a referência de \"elo\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No fragmento \"...Existe um elo secreto estabelecendo entre esses dois acontecimentos...\", a oração iniciada por \"estabelecendo\" restringe a referência de \"elo\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O gerúndio estabelecendo associa-se ao substantivo elo (\"elo secreto que estabelece...\"). Por não estar delimitada por vírgulas, assume valor restritivo (adjetiva restritiva reduzida de gerúndio)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-002 — Questão 35: CESPE / Instituto Rio Branco (Gerúndio Adjetivo Restritivo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-002 — Questão 35: CESPE / Instituto Rio Branco (Gerúndio Adjetivo Restritivo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-002 — Questão 35: CESPE / Instituto Rio Branco (Gerúndio Adjetivo Restritivo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No fragmento \"...Existe um elo secreto estabelecendo entre esses dois acontecimentos...\", a oração iniciada por \"estabelecendo\" restringe a referência de \"elo\".",
+                "Resolução: O gerúndio estabelecendo associa-se ao substantivo elo (\"elo secreto que estabelece...\"). Por não estar delimitada por vírgulas, assume valor restritivo (adjetiva restritiva reduzida de gerúndio).",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-003",
+          "title": "EX-A07-G07-003 — Questão 36: CESPE / TRE-RS (Infinitivo Substantivo Objetiva Indireta vs. Adjetiva)",
+          "prompt": "Enunciado: No trecho \"...que impossibilitam alguém de se registrar como postulante...\", a oração iniciada por \"de se registrar...\" restringe o pronome \"alguém\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...que impossibilitam alguém de se registrar como postulante...\", a oração iniciada por \"de se registrar...\" restringe o pronome \"alguém\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O verbo impossibilitar é transitivo direto e indireto (impossibilita alguém [OD] de alguma coisa [OI]). A oração de se registrar completa o verbo regente, sendo oração subordinada substantiva objetiva indireta reduzida de infinitivo, e não adjetiva."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-003 — Questão 36: CESPE / TRE-RS (Infinitivo Substantivo Objetiva Indireta vs. Adjetiva) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-003 — Questão 36: CESPE / TRE-RS (Infinitivo Substantivo Objetiva Indireta vs. Adjetiva).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-003 — Questão 36: CESPE / TRE-RS (Infinitivo Substantivo Objetiva Indireta vs. Adjetiva).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...que impossibilitam alguém de se registrar como postulante...\", a oração iniciada por \"de se registrar...\" restringe o pronome \"alguém\".",
+                "Resolução: O verbo impossibilitar é transitivo direto e indireto (impossibilita alguém [OD] de alguma coisa [OI]). A oração de se registrar completa o verbo regente, sendo oração subordinada substantiva objetiva indireta reduzida de infinitivo, e não adjetiva.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-004",
+          "title": "EX-A07-G07-004 — Questão 37: CESPE / Câmara dos Deputados (Particípio Adjetivo vs. Aposto)",
+          "prompt": "Enunciado: No trecho \"...a remuneração e o subsídio [...] e os proventos, pensões ou outra espécie remuneratória, percebidos cumulativamente ou não...\", o segmento \"percebidos cumulativamente ou não\" funciona como aposto que qualifica apenas os três últimos núcleos da enumeração.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...a remuneração e o subsídio [...] e os proventos, pensões ou outra espécie remuneratória, percebidos cumulativamente ou não...\", o segmento \"percebidos cumulativamente ou não\" funciona como aposto que qualifica apenas os três últimos núcleos da enumeração."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "1) Percebidos é particípio adjetivo (não é aposto, pois aposto é substantivo); 2) O termo qualifica todos os cinco núcleos remuneratórios antecedentes da enumeração."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-004 — Questão 37: CESPE / Câmara dos Deputados (Particípio Adjetivo vs. Aposto) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-004 — Questão 37: CESPE / Câmara dos Deputados (Particípio Adjetivo vs. Aposto).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-004 — Questão 37: CESPE / Câmara dos Deputados (Particípio Adjetivo vs. Aposto).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...a remuneração e o subsídio [...] e os proventos, pensões ou outra espécie remuneratória, percebidos cumulativamente ou não...\", o segmento \"percebidos cumulativamente ou não\" funciona como aposto que qualifica apenas os três últimos núcleos da enumeração.",
+                "Resolução: 1) Percebidos é particípio adjetivo (não é aposto, pois aposto é substantivo); 2) O termo qualifica todos os cinco núcleos remuneratórios antecedentes da enumeração.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-005",
+          "title": "EX-A07-G07-005 — Questão 38: CESPE / Banco do Brasil (Locução de Gerúndio Causal)",
+          "prompt": "Enunciado: No trecho \"O número de mulheres no mercado de trabalho mundial é o maior da História, tendo alcançado, em 2007, a marca de 1,2 bilhão...\", a oração com \"tendo alcançado\" possui valor adjetivo correspondente a \"que tem alcançado\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"O número de mulheres no mercado de trabalho mundial é o maior da História, tendo alcançado, em 2007, a marca de 1,2 bilhão...\", a oração com \"tendo alcançado\" possui valor adjetivo correspondente a \"que tem alcançado\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O fato de ter alcançado 1,2 bilhão (causa cronológica) foi o que tornou o número o maior da História (efeito). Trata-se de oração subordinada adverbial causal reduzida de gerúndio."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-005 — Questão 38: CESPE / Banco do Brasil (Locução de Gerúndio Causal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-005 — Questão 38: CESPE / Banco do Brasil (Locução de Gerúndio Causal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-005 — Questão 38: CESPE / Banco do Brasil (Locução de Gerúndio Causal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"O número de mulheres no mercado de trabalho mundial é o maior da História, tendo alcançado, em 2007, a marca de 1,2 bilhão...\", a oração com \"tendo alcançado\" possui valor adjetivo correspondente a \"que tem alcançado\".",
+                "Resolução: O fato de ter alcançado 1,2 bilhão (causa cronológica) foi o que tornou o número o maior da História (efeito). Trata-se de oração subordinada adverbial causal reduzida de gerúndio.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-006",
+          "title": "EX-A07-G07-006 — Questão 39: CESPE / PGE-PE (Infinitivo Final com \"Para\")",
+          "prompt": "Enunciado: No trecho \"...não tenho intenção de condenar o passado para absolver o presente, nem de deplorar o presente para louvar os bons tempos...\", os trechos com \"para\" exprimem finalidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...não tenho intenção de condenar o passado para absolver o presente, nem de deplorar o presente para louvar os bons tempos...\", os trechos com \"para\" exprimem finalidade."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "A preposição para combinada ao infinitivo veicula circunstância adverbial de finalidade (a fim de absolver / a fim de louvar)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-006 — Questão 39: CESPE / PGE-PE (Infinitivo Final com \"Para\") sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-006 — Questão 39: CESPE / PGE-PE (Infinitivo Final com \"Para\").",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-006 — Questão 39: CESPE / PGE-PE (Infinitivo Final com \"Para\").",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...não tenho intenção de condenar o passado para absolver o presente, nem de deplorar o presente para louvar os bons tempos...\", os trechos com \"para\" exprimem finalidade.",
+                "Resolução: A preposição para combinada ao infinitivo veicula circunstância adverbial de finalidade (a fim de absolver / a fim de louvar).",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-007",
+          "title": "EX-A07-G07-007 — Questão 40: CESPE / FUNPRESP-JUD (Preposição \"Por\" com Valor Final)",
+          "prompt": "Enunciado: No trecho \"...uma mulher se esforçava por me fazer feliz...\", a oração \"por me fazer feliz\" expressa finalidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...uma mulher se esforçava por me fazer feliz...\", a oração \"por me fazer feliz\" expressa finalidade."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Diante de verbos de empenho/esforço (esforçar-se por), a preposição por assume valor semântico de finalidade (para me fazer feliz / a fim de me fazer feliz)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-007 — Questão 40: CESPE / FUNPRESP-JUD (Preposição \"Por\" com Valor Final) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-007 — Questão 40: CESPE / FUNPRESP-JUD (Preposição \"Por\" com Valor Final).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-007 — Questão 40: CESPE / FUNPRESP-JUD (Preposição \"Por\" com Valor Final).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...uma mulher se esforçava por me fazer feliz...\", a oração \"por me fazer feliz\" expressa finalidade.",
+                "Resolução: Diante de verbos de empenho/esforço (esforçar-se por), a preposição por assume valor semântico de finalidade (para me fazer feliz / a fim de me fazer feliz).",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-008",
+          "title": "EX-A07-G07-008 — Questão 41: CESPE / TRF 1ª Região (Particípio Adverbial Condicional)",
+          "prompt": "Enunciado: No trecho \"Isoladas de contexto ou situação, as palavras quase nada significam...\", a palavra \"Isoladas\" introduz oração reduzida de valor condicional.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"Isoladas de contexto ou situação, as palavras quase nada significam...\", a palavra \"Isoladas\" introduz oração reduzida de valor condicional."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "Desenvolvendo: \"Se forem isoladas de contexto / Caso estejam isoladas de contexto, quase nada significam\". A circunstância condicional é legítima."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-008 — Questão 41: CESPE / TRF 1ª Região (Particípio Adverbial Condicional) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-008 — Questão 41: CESPE / TRF 1ª Região (Particípio Adverbial Condicional).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-008 — Questão 41: CESPE / TRF 1ª Região (Particípio Adverbial Condicional).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"Isoladas de contexto ou situação, as palavras quase nada significam...\", a palavra \"Isoladas\" introduz oração reduzida de valor condicional.",
+                "Resolução: Desenvolvendo: \"Se forem isoladas de contexto / Caso estejam isoladas de contexto, quase nada significam\". A circunstância condicional é legítima.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-009",
+          "title": "EX-A07-G07-009 — Questão 42: CESPE / TJ-PA (Estrutura \"Ao + Infinitivo\": Tempo vs. Modo)",
+          "prompt": "Enunciado: No trecho \"Ao coletar um dado, as empresas deverão informar a finalidade...\", a oração \"Ao coletar um dado\" exprime circunstância de modo.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"Ao coletar um dado, as empresas deverão informar a finalidade...\", a oração \"Ao coletar um dado\" exprime circunstância de modo."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "A estrutura ao + infinitivo exprime rigorosamente valor temporal (Quando coletarem um dado), e não modo."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-009 — Questão 42: CESPE / TJ-PA (Estrutura \"Ao + Infinitivo\": Tempo vs. Modo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-009 — Questão 42: CESPE / TJ-PA (Estrutura \"Ao + Infinitivo\": Tempo vs. Modo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-009 — Questão 42: CESPE / TJ-PA (Estrutura \"Ao + Infinitivo\": Tempo vs. Modo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"Ao coletar um dado, as empresas deverão informar a finalidade...\", a oração \"Ao coletar um dado\" exprime circunstância de modo.",
+                "Resolução: A estrutura ao + infinitivo exprime rigorosamente valor temporal (Quando coletarem um dado), e não modo.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-010",
+          "title": "EX-A07-G07-010 — Questão 43: CESPE / MME (Oração Causal com \"Como\" e Cronologia)",
+          "prompt": "Enunciado: Em \"'Como é simples transportá-las, os custos logísticos são baixos' [...], a primeira oração expressa, em relação à segunda, circunstância de causa\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em \"'Como é simples transportá-las, os custos logísticos são baixos' [...], a primeira oração expressa, em relação à segunda, circunstância de causa\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "A conjunção Como no início expressa causa (Já que é simples...). O fato de ser simples transportá-las (1º no tempo) acarreta custos baixos (2º no tempo)."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-010 — Questão 43: CESPE / MME (Oração Causal com \"Como\" e Cronologia) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-010 — Questão 43: CESPE / MME (Oração Causal com \"Como\" e Cronologia).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-010 — Questão 43: CESPE / MME (Oração Causal com \"Como\" e Cronologia).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em \"'Como é simples transportá-las, os custos logísticos são baixos' [...], a primeira oração expressa, em relação à segunda, circunstância de causa\".",
+                "Resolução: A conjunção Como no início expressa causa (Já que é simples...). O fato de ser simples transportá-las (1º no tempo) acarreta custos baixos (2º no tempo).",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-011",
+          "title": "EX-A07-G07-011 — Questão 44: CESPE / PRF (Gerúndio Causal)",
+          "prompt": "Enunciado: Em \"Buscando implementar a temática do trânsito nas escolas [...], o DENATRAN implantou o projeto...\", o gerúndio \"Buscando\" introduz oração subordinada adverbial causal.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em \"Buscando implementar a temática do trânsito nas escolas [...], o DENATRAN implantou o projeto...\", o gerúndio \"Buscando\" introduz oração subordinada adverbial causal."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "1º A busca por implementar (causa geradora); 2º A implantação do projeto (efeito). Desenvolvimento: \"Como buscava implementar...\"."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-011 — Questão 44: CESPE / PRF (Gerúndio Causal) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-011 — Questão 44: CESPE / PRF (Gerúndio Causal).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-011 — Questão 44: CESPE / PRF (Gerúndio Causal).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em \"Buscando implementar a temática do trânsito nas escolas [...], o DENATRAN implantou o projeto...\", o gerúndio \"Buscando\" introduz oração subordinada adverbial causal.",
+                "Resolução: 1º A busca por implementar (causa geradora); 2º A implantação do projeto (efeito). Desenvolvimento: \"Como buscava implementar...\".",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-012",
+          "title": "EX-A07-G07-012 — Questão 45: CESPE / SEFAZ-RS (Infinitivo Flexionado: Causa vs. Explicação)",
+          "prompt": "Enunciado: A oração \"por serem mais seguros de portar do que o dinheiro vivo\" exprime uma explicação para que as pessoas passassem a usar recibos.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A oração \"por serem mais seguros de portar do que o dinheiro vivo\" exprime uma explicação para que as pessoas passassem a usar recibos."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "A estrutura preposição por + infinitivo flexionado serem expressa a causa real e fática determinante (motivo gerador), e não uma mera justificativa enunciativa/explicativa."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-012 — Questão 45: CESPE / SEFAZ-RS (Infinitivo Flexionado: Causa vs. Explicação) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-012 — Questão 45: CESPE / SEFAZ-RS (Infinitivo Flexionado: Causa vs. Explicação).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-012 — Questão 45: CESPE / SEFAZ-RS (Infinitivo Flexionado: Causa vs. Explicação).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A oração \"por serem mais seguros de portar do que o dinheiro vivo\" exprime uma explicação para que as pessoas passassem a usar recibos.",
+                "Resolução: A estrutura preposição por + infinitivo flexionado serem expressa a causa real e fática determinante (motivo gerador), e não uma mera justificativa enunciativa/explicativa.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-013",
+          "title": "EX-A07-G07-013 — Questão 46: CESPE / STM (Gerúndio Consecutivo vs. Finalidade e Recurso)",
+          "prompt": "Enunciado: No trecho \"...considerarem com maior atenção seus clientes [...], rompendo corporativismos...\", a oração \"rompendo corporativismos...\" possui sentido de finalidade.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...considerarem com maior atenção seus clientes [...], rompendo corporativismos...\", a oração \"rompendo corporativismos...\" possui sentido de finalidade."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O ato de considerar os clientes tem como decorrência direta/consequência o rompimento de privilégios. A banca alterou o gabarito de Certo para Errado fixando o valor consecutivo."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-013 — Questão 46: CESPE / STM (Gerúndio Consecutivo vs. Finalidade e Recurso) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-013 — Questão 46: CESPE / STM (Gerúndio Consecutivo vs. Finalidade e Recurso).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-013 — Questão 46: CESPE / STM (Gerúndio Consecutivo vs. Finalidade e Recurso).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...considerarem com maior atenção seus clientes [...], rompendo corporativismos...\", a oração \"rompendo corporativismos...\" possui sentido de finalidade.",
+                "Resolução: O ato de considerar os clientes tem como decorrência direta/consequência o rompimento de privilégios. A banca alterou o gabarito de Certo para Errado fixando o valor consecutivo.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-014",
+          "title": "EX-A07-G07-014 — Questão 47: CESPE / MPU (Reescrita: Adição $\\rightarrow$ Tempo e Pontuação)",
+          "prompt": "Enunciado: A substituição de \"e suprimir\" por \"ao suprimir\" não comprometeria a correção gramatical do período, mas alteraria seu sentido original.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "A substituição de \"e suprimir\" por \"ao suprimir\" não comprometeria a correção gramatical do período, mas alteraria seu sentido original."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "1) Sentido original: adição (e); novo sentido: tempo (ao + infinitivo). Há alteração semântica. 2) Na ordem direta (final do período), a vírgula antes da oração temporal é facultativa. A correção permanece intacta."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "CERTO."
+            }
+          ],
+          "result": "Gabarito: CERTO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-014 — Questão 47: CESPE / MPU (Reescrita: Adição $\\rightarrow$ Tempo e Pontuação) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-014 — Questão 47: CESPE / MPU (Reescrita: Adição $\\rightarrow$ Tempo e Pontuação).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-014 — Questão 47: CESPE / MPU (Reescrita: Adição $\\rightarrow$ Tempo e Pontuação).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: A substituição de \"e suprimir\" por \"ao suprimir\" não comprometeria a correção gramatical do período, mas alteraria seu sentido original.",
+                "Resolução: 1) Sentido original: adição (e); novo sentido: tempo (ao + infinitivo). Há alteração semântica. 2) Na ordem direta (final do período), a vírgula antes da oração temporal é facultativa. A correção permanece intacta.",
+                "Gabarito: CERTO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-015",
+          "title": "EX-A07-G07-015 — Questão 48: CESPE / FUB (Gerúndio Consecutivo vs. Tempo)",
+          "prompt": "Enunciado: Em \"O tom narrativo participa da mesma despretensão, despertando a simpatia do leitor...\", a oração de gerúndio reforça a consistência semântica temporal.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Em \"O tom narrativo participa da mesma despretensão, despertando a simpatia do leitor...\", a oração de gerúndio reforça a consistência semântica temporal."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "O fato de participar da despretensão (causa) gera o despertar da simpatia (consequência). Trata-se de oração subordinada adverbial consecutiva reduzida de gerúndio, e não temporal."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-015 — Questão 48: CESPE / FUB (Gerúndio Consecutivo vs. Tempo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-015 — Questão 48: CESPE / FUB (Gerúndio Consecutivo vs. Tempo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-015 — Questão 48: CESPE / FUB (Gerúndio Consecutivo vs. Tempo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Em \"O tom narrativo participa da mesma despretensão, despertando a simpatia do leitor...\", a oração de gerúndio reforça a consistência semântica temporal.",
+                "Resolução: O fato de participar da despretensão (causa) gera o despertar da simpatia (consequência). Trata-se de oração subordinada adverbial consecutiva reduzida de gerúndio, e não temporal.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-016",
+          "title": "EX-A07-G07-016 — Questão 49: CESPE / DPU (Locução Verbal vs. Oração Reduzida)",
+          "prompt": "Enunciado: No trecho \"...nós estamos garantindo seu acesso à justiça...\", a forma verbal \"garantindo\" introduz uma oração reduzida de gerúndio adverbial.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...nós estamos garantindo seu acesso à justiça...\", a forma verbal \"garantindo\" introduz uma oração reduzida de gerúndio adverbial."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "\"Estamos garantindo\" forma uma locução verbal (período simples). É impossível desenvolver com \"que\" (estamos que garanta). Não há oração subordinada reduzida."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-016 — Questão 49: CESPE / DPU (Locução Verbal vs. Oração Reduzida) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-016 — Questão 49: CESPE / DPU (Locução Verbal vs. Oração Reduzida).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-016 — Questão 49: CESPE / DPU (Locução Verbal vs. Oração Reduzida).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...nós estamos garantindo seu acesso à justiça...\", a forma verbal \"garantindo\" introduz uma oração reduzida de gerúndio adverbial.",
+                "Resolução: \"Estamos garantindo\" forma uma locução verbal (período simples). É impossível desenvolver com \"que\" (estamos que garanta). Não há oração subordinada reduzida.",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A07-G07-017",
+          "title": "EX-A07-G07-017 — Questão 50: CESPE / TRE-MS (Coordenação de Finais Reduzidas vs. Locução)",
+          "prompt": "Enunciado: No trecho \"...não pode retroagir para prejudicar o réu e ferir seu suposto direito...\", os verbos \"retroagir\", \"prejudicar\" e \"ferir\" estão coordenados entre si e subordinados à forma auxiliar \"pode\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "No trecho \"...não pode retroagir para prejudicar o réu e ferir seu suposto direito...\", os verbos \"retroagir\", \"prejudicar\" e \"ferir\" estão coordenados entre si e subordinados à forma auxiliar \"pode\"."
+            },
+            {
+              "order": 2,
+              "action": "Resolução",
+              "rationale": "\"Pode retroagir\" é a locução verbal principal. Os verbos prejudicar e ferir formam orações subordinadas adverbiais finais reduzidas coordenadas entre si introduzidas pela preposição para, não sendo verbos principais de \"pode\"."
+            },
+            {
+              "order": 3,
+              "action": "Gabarito",
+              "rationale": "ERRADO."
+            }
+          ],
+          "result": "Gabarito: ERRADO.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A07-G07-017 — Questão 50: CESPE / TRE-MS (Coordenação de Finais Reduzidas vs. Locução) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A07-G07-017 — Questão 50: CESPE / TRE-MS (Coordenação de Finais Reduzidas vs. Locução).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A07-G07-017 — Questão 50: CESPE / TRE-MS (Coordenação de Finais Reduzidas vs. Locução).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: No trecho \"...não pode retroagir para prejudicar o réu e ferir seu suposto direito...\", os verbos \"retroagir\", \"prejudicar\" e \"ferir\" estão coordenados entre si e subordinados à forma auxiliar \"pode\".",
+                "Resolução: \"Pode retroagir\" é a locução verbal principal. Os verbos prejudicar e ferir formam orações subordinadas adverbiais finais reduzidas coordenadas entre si introduzidas pela preposição para, não sendo verbos principais de \"pode\".",
+                "Gabarito: ERRADO."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ao + Infinitivo = Tempo (Ao sair, apague a luz = Quando sair...).",
+            "A + Infinitivo = Condição (A persistirem as dores, consulte um médico = Se persistirem...).",
+            "Apesar de + Infinitivo = Concessão (Apesar de treinar, cansou-se = Embora tenha treinado...).",
+            "A ponto de + Infinitivo = Consequência (Riu a ponto de chorar).",
+            "Por + Infinitivo = Causa (Foi multado por ultrapassar o limite = porque ultrapassou...)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Diante de dois verbos lado a lado, tente inserir o conector \"que\":"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Não deu para colocar \"que\"? $\\rightarrow$ Locução Verbal (1 único predicado / período simples).",
+            "Deu para colocar \"que\"? $\\rightarrow$ Oração Reduzida (2 orações autônomas / período composto)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao deparar-se com gerúndios pospostos ou orações com \"por/como\", encaixe na fórmula:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{\"O fato de [A] fez com que [B]\"}"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O segmento do [A] é a CAUSA (aconteceu 1º).",
+            "O segmento do [B] é o EFEITO (aconteceu 2º)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Para checar se a oração é adjetiva, troque a forma nominal por \"que + verbo conjugado\":"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Crianças brincando na rua $\\rightarrow$ Crianças [que brincavam na rua].",
+            "Relatório assinado ontem $\\rightarrow$ Relatório [que foi assinado ontem]."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A07-G07-001",
+          "title": "Pegadinha do Aposto versus Oração Adjetiva Explicativa",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pegadinha do Aposto versus Oração Adjetiva Explicativa no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pegadinha do Aposto versus Oração Adjetiva Explicativa.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pegadinha do Aposto versus Oração Adjetiva Explicativa.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pegadinha do Aposto versus Oração Adjetiva Explicativa para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pegadinha do Aposto versus Oração Adjetiva Explicativa.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pegadinha do Aposto versus Oração Adjetiva Explicativa.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: O CESPE costuma classificar orações adjetivas explicativas reduzidas de particípio (como \"percebidos cumulativamente\") como sendo \"aposto explicativo\".",
+                "Como Evitar: Lembre-se de que o aposto tem base substantiva; particípios e adjetivos possuem base qualificadora/caracterizadora, constituindo orações subordinadas adjetivas."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A07-G07-002",
+          "title": "Falsa Generalização da Preposição \"Por\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Falsa Generalização da Preposição \"Por\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Falsa Generalização da Preposição \"Por\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Falsa Generalização da Preposição \"Por\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Falsa Generalização da Preposição \"Por\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Falsa Generalização da Preposição \"Por\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Falsa Generalização da Preposição \"Por\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Memorizar que por + infinitivo sempre exprime causa.",
+                "A Exceção: Diante de verbos que indicam esforço, empenho ou luta (esforçar-se por, lutar por), a preposição por equivale a para (finalidade). A análise semântica contextual prevalece sobre tabelas mecânicas."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A07-G07-003",
+          "title": "Erro na Classificação de Locuções Verbais Reduzidas",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Erro na Classificação de Locuções Verbais Reduzidas no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Erro na Classificação de Locuções Verbais Reduzidas.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Erro na Classificação de Locuções Verbais Reduzidas.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Erro na Classificação de Locuções Verbais Reduzidas para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Erro na Classificação de Locuções Verbais Reduzidas.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Erro na Classificação de Locuções Verbais Reduzidas.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Em estruturas como \"tendo alcançado\", olhar para o último verbo (alcançado) e classificar a oração como reduzida de particípio.",
+                "A Regra: Quem dá o nome à forma nominal da oração reduzida é o verbo auxiliar (no caso, tendo = reduzida de gerúndio)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A07-G07-004",
+          "title": "Confusão entre Causa e Explicação",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confusão entre Causa e Explicação no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confusão entre Causa e Explicação.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confusão entre Causa e Explicação.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confusão entre Causa e Explicação para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confusão entre Causa e Explicação.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confusão entre Causa e Explicação.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Julgar que toda oração com conectivo causal expressa \"explicação\".",
+                "A Distinção: Causa é o motivo fático e cronologicamente anterior no mundo real (não viajou por estar chovendo); explicação é a justificativa do ato de fala (venha logo, pois está chovendo). Em orações reduzidas de infinitivo com preposição por, a causalidade é predominante."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A07-G07-005",
+          "title": "Armadilha da Vírgula na Ordem Direta",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Armadilha da Vírgula na Ordem Direta no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Armadilha da Vírgula na Ordem Direta.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Armadilha da Vírgula na Ordem Direta.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Armadilha da Vírgula na Ordem Direta para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Armadilha da Vírgula na Ordem Direta.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Armadilha da Vírgula na Ordem Direta.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Considerar incorreta uma oração adverbial posposta ao final do período sem vírgula.",
+                "A Regra: A oração subordinada adverbial posposta à oração principal está na ordem direta; nessa posição, a pontuação por vírgula é facultativa."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A07-G07-006",
+          "title": "Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Aplicação Indevida do Teste do \"Isso\" em Locuções Verbais.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Substituir o complemento de uma locução verbal por \"isso\" (estamos garantindo seu acesso $\\rightarrow$ estamos garantindo isso) e concluir que \"garantindo\" é oração substantiva.",
+                "A Correção: O pronome \"isso\" substitui apenas o sintagma nominal objeto direto (seu acesso), enquanto estamos garantindo permanece como locução verbal única."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: O CESPE costuma classificar orações adjetivas explicativas reduzidas de particípio (como \"percebidos cumulativamente\") como sendo \"aposto explicativo\".",
+            "Como Evitar: Lembre-se de que o aposto tem base substantiva; particípios e adjetivos possuem base qualificadora/caracterizadora, constituindo orações subordinadas adjetivas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Memorizar que por + infinitivo sempre exprime causa.",
+            "A Exceção: Diante de verbos que indicam esforço, empenho ou luta (esforçar-se por, lutar por), a preposição por equivale a para (finalidade). A análise semântica contextual prevalece sobre tabelas mecânicas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Em estruturas como \"tendo alcançado\", olhar para o último verbo (alcançado) e classificar a oração como reduzida de particípio.",
+            "A Regra: Quem dá o nome à forma nominal da oração reduzida é o verbo auxiliar (no caso, tendo = reduzida de gerúndio)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Julgar que toda oração com conectivo causal expressa \"explicação\".",
+            "A Distinção: Causa é o motivo fático e cronologicamente anterior no mundo real (não viajou por estar chovendo); explicação é a justificativa do ato de fala (venha logo, pois está chovendo). Em orações reduzidas de infinitivo com preposição por, a causalidade é predominante."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Considerar incorreta uma oração adverbial posposta ao final do período sem vírgula.",
+            "A Regra: A oração subordinada adverbial posposta à oração principal está na ordem direta; nessa posição, a pontuação por vírgula é facultativa."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Substituir o complemento de uma locução verbal por \"isso\" (estamos garantindo seu acesso $\\rightarrow$ estamos garantindo isso) e concluir que \"garantindo\" é oração substantiva.",
+            "A Correção: O pronome \"isso\" substitui apenas o sintagma nominal objeto direto (seu acesso), enquanto estamos garantindo permanece como locução verbal única."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oração subordinada articulada sem conectivo subordinativo introdutório (conjunção ou pronome relativo) e estruturada em torno de uma das três formas nominais do verbo (infinitivo, gerúndio ou particípio)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Formas verbais que não expressam flexões de tempo e modo finitos por desinências clássicas, desempenhando funções próximas a substantivos, adjetivos ou advérbios. Subdividem-se em Infinitivo (-ar, -er, -ir), Gerúndio (-ndo) e Particípio (-do, -to, -so)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Associação de dois ou mais verbos (um auxiliar flexionado e um principal em forma nominal) que desempenham papel sintático e semântico de um único verbo, constituindo predicado unitário em período simples (1 oração)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma nominal de infinitivo que recebe desinências número-pessoais para concordar com o sujeito gramatical da oração subordinada reduzida (ex.: por serem mais seguros)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Processo de conversão sintática no qual uma oração reduzida é reescrita com a introdução de uma conjunção subordinativa ou pronome relativo e a flexão do verbo em modo indicativo ou subjuntivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Princípio semântico e cronológico segundo o qual a oração que descreve o fato ocorrido em primeiro lugar na realidade temporal atua como causa determinante do fato subsequente."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo consolidado do grupo G07, o estudante domina com precisão teórica e prática:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A Identificação Estrutural: Reconhecer que uma oração subordinada reduzida exige cumulativamente a ausência de conectivo subordinativo e o verbo em forma nominal, distinguindo preposições funcionais de conjunções.",
+            "A Matriz Funcional Completa: Compreender que o infinitivo é universal (substantivo, adjetivo e adverbial), enquanto gerúndio e particípio restringem-se a valores adjetivos e adverbiais (sendo impossível a existência de reduzidas substantivas de gerúndio ou particípio).",
+            "A Operação dos Testes Diagnósticos:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Teste do \"isso/disso\" para identificar e classificar as seis subclasses de orações substantivas reduzidas de infinitivo.",
+            "Teste da paráfrase relativa (\"que + verbo\") para identificar orações adjetivas de gerúndio e particípio.",
+            "Teste cronológico-temporal (\"O fato de X fez com que Y\") para discriminar com exatidão causas de consequências."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O Domínio da Fronteira com a Locução Verbal: Compreender que sujeitos idênticos não comprovam locução verbal; o critério técnico absoluto é o teste do desenvolvimento oracional com \"que\" (a locução rejeita o conectivo; a oração reduzida o aceita).",
+            "A Regra de Regência em Locuções Reduzidas: Saber que em locuções verbais reduzidas quem determina o nome da forma nominal da oração é o verbo auxiliar, cabendo ao verbo principal governar a regência e os complementos.",
+            "A Resolução de Questões CESPE: Neutralizar as pegadinhas clássicas da banca (confundir adjetiva explicativa de particípio com aposto; confundir causa com explicação; confundir locução verbal com período composto; e tentar impor valor de modo à estrutura temporal ao + infinitivo)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula07.q0003",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "(CEBRASPE / INOVERSASUL / 2025) É importante não confundir a língua com o discurso. No último período do segundo parágrafo, a oração “não confundir a língua com o discurso” classifica-se como subordinada substantiva objetiva direta reduzida de infinitivo.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "A oração “não confundir a língua com o discurso” classifica-se como subordinada substantiva SUBJETIVA reduzida de infinitivo. Em suma, é um nome feio para o bom e velho “sujeito oracional” É importante [não confundir a língua com o discurso] [não confundir a língua com o discurso] É importante [ISSO] É importante Gabarito: Errado.",
+      "questionSha256": "58f1c7b96d88e2c09a2deff0c4dc96c46f0e986cbdd3651d19f5615f5eb9da47",
+      "answerSha256": "caf695214a7b235b3bff291b2783ebfc22d16f95d29ead3cfdebe540ea1d0d79",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula07.q0061",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "MP-CE",
+      "year": 2020,
+      "prompt": "(CEBRASPE / MP-CE / 2020) No trecho “Nem ela própria contava consigo, como o galo crê na sua crista” (2º parágrafo), existe uma relação de oposição entre as orações que compõem o período.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "“como” é conjunção comparativa: a galinha não contava consigo da mesma forma que o galo crê na sua crista. Questão incorreta.",
+      "questionSha256": "70550a52bd8da47d4eef00d132fd90d06e19c72458d13c6ffffdaeae8b700c02",
+      "answerSha256": "f0ab422a60bef27a4472237ca86c341406a20f00e5c0d861dddad9c8fb2ec349",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula07.q0022",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "IHBDF",
+      "year": 2018,
+      "role": "CARGOS DE NÍVEL MÉDIO TÉC.",
+      "prompt": "(CEBRASPE / IHBDF / CARGOS DE NÍVEL MÉDIO TÉC. / 2018) Servir a Deus significava, para ela, cuidar dos enfermos, e especialmente dos enfermos hospitalizados. Naquela época, os hospitais curavam tão pouco e eram tão perigosos (por causa da sujeira, do risco de infecção) que os ricos preferiam tratar-se em casa. O trecho “que os ricos preferiam tratar-se em casa” expressa uma consequência do que se afirma nas duas orações imediatamente anteriores, no mesmo período.",
+      "options": [],
+      "officialAnswer": "correct",
+      "explanation": "Observe que a conjunção “que”, correlacionada a termos como “tão, tanto, tal, tamanho”, introduz oração consecutiva: Como os hospitais curavam pouco e traziam perigo de infecção (causa), os ricos preferiam tratar-se em casa (consequência). Questão correta.",
+      "questionSha256": "ac97b959190b8bf9d37d8793770637a29ea98111b0eddbaf62a7846b5972f83d",
+      "answerSha256": "527a56e47c21a872968ef64a404b70718a57fd41b7bc556c7a92655d6687630c",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "correct",
+        "acceptedPedagogicalAnswers": [
+          "correct"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula07.q0077",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "IHBDF",
+      "year": 2018,
+      "role": "CARGOS DE NÍVEL MÉDIO TÉC.",
+      "prompt": "(CEBRASPE / IHBDF / CARGOS DE NÍVEL MÉDIO TÉC. / 2018) Servir a Deus significava, para ela, cuidar dos enfermos, e especialmente dos enfermos hospitalizados. Naquela época, os hospitais curavam tão pouco e eram tão perigosos (por causa da sujeira, do risco de infecção) que os ricos preferiam tratar-se em casa. O trecho “que os ricos preferiam tratar-se em casa” expressa uma consequência do que se afirma nas duas orações imediatamente anteriores, no mesmo período.",
+      "options": [],
+      "officialAnswer": "correct",
+      "questionSha256": "4c0ea64119abc12466374b43745c2c8cbb5342b3cd596049a29c35bd4e644953",
+      "answerSha256": "6b57a6755038ab3474d4200350392085a2aa85dbe0d4c04078a4cac8fd2c7344",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "correct",
+        "acceptedPedagogicalAnswers": [
+          "correct"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula07.q0065",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "(CEBRASPE / INOVERSASUL / 2025) É importante não confundir a língua com o discurso. No último período do segundo parágrafo, a oração “não confundir a língua com o discurso” classifica-se como subordinada substantiva objetiva direta reduzida de infinitivo.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "76359815bc084c44d80774f4458db62fb4ba57c67e88a96063d1fbd1b4ee7037",
+      "answerSha256": "148f9256683993219b2bcd70da4ce0a2bb2ab4c0c613d6d11031e2a077f8fc53",
+      "cognitiveDemand": "discriminacao_sintatica",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula07.q0113",
+      "questionType": "true_false_or_judgment",
+      "examBoard": "CEBRASPE",
+      "organization": "MP-CE",
+      "year": 2020,
+      "prompt": "(CEBRASPE / MP-CE / 2020) No trecho “Nem ela própria contava consigo, como o galo crê na sua crista” (2º parágrafo), existe uma relação de oposição entre as orações que compõem o período.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "11ec5e386b2b52f7c5b63eaea16ff549966ff99e1fac47a88c2227e2a700a976",
+      "answerSha256": "c963c3d076026d5a7f1aa8869162540f2aa01f1644ee71b0b9ec20b6ec72837e",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Orações Reduzidas - Revisão e Reescrita; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "pedagogicalEvaluation": {
+        "officialAnswer": "incorrect",
+        "acceptedPedagogicalAnswers": [
+          "incorrect"
+        ],
+        "anomalyType": "exam_board_divergence",
+        "editorialCaseRef": "CASE-IP-A07-G07-CONFLICT-001-66",
+        "explanation": "Em questões de prova, atente para as variações terminológicas e orientações específicas das bancas examinadoras quanto a source_reported_uncertainty."
+      },
+      "distractorAnalysis": []
+    }
+  ]
+}

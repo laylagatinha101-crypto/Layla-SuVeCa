@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "3.0.0",
+  "kind": "suveca-editorial-enrichments",
+  "reviewVersion": "semantic-review-v3",
+  "policy": "Implementação canônica dos reviews aceitos batch-009 a batch-024. A SuVeCA permanece como arquitetura de entendimento; fatos de fonte, convenções de banca e decisões pedagógicas derivadas permanecem separados.",
+  "operations": [
+    {
+      "moduleId": "mod0",
+      "sections": [
+        {
+          "title": "0.4 SuVeCA como arquitetura de entendimento",
+          "changeType": "correct",
+          "contentMarkdown": "A SuVeCA organiza o raciocínio; não cria regras gramaticais. Comece pelo **verbo e pelo limite da oração**, localize o sujeito, descreva a predicação e só então separe complementos e adjuntos. Quando o fenômeno ultrapassa a oração, suba de camada: período, semântica, texto e discurso.\n\n```text\nFORMA → CLASSE → ORAÇÃO/SuVeCA → PERÍODO → TEXTO → DISCURSO\n```\n\nPerguntas como *quem?*, *o quê?* e *onde?* são pistas. A decisão combina concordância, regência, constituição, escopo, sentido e, quando houver divergência, o perfil teórico exigido pela questão.",
+          "limitsAndExceptions": [
+            "Não invente verbo elíptico apenas para encaixar um sintagma em S + V + C + A.",
+            "Sujeito não é sinônimo de agente, complemento não é sinônimo de termo obrigatório e adjunto não é sinônimo de informação descartável.",
+            "Fenômenos de referenciação, inferência e argumentação usam a oração como base, mas não se reduzem às quatro etiquetas."
+          ],
+          "contrasts": [
+            "Heurística orienta a busca; teste estrutural sustenta a análise.",
+            "Regra gramatical vem das evidências; a SuVeCA torna a regra visível e ensinável."
+          ],
+          "examTraps": [
+            "Classificar por uma pergunta isolada.",
+            "Forçar sujeito agente em verbo impessoal ou em sujeito paciente.",
+            "Confundir a convenção terminológica de uma banca com verdade única da língua."
+          ],
+          "evidenceRefs": [
+            "source:4fffa686-4df3-4b97-a33f-86504944d945#0-9533",
+            "source:d43a4eb2-074c-4bcc-84e4-df75cf076dd6#0-3941",
+            "source:62819a22-3505-48fd-9379-74a1c06d7aa1#0-9564"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod1",
+      "sections": [
+        {
+          "title": "1.2 Recorrência, paráfrase e inferência",
+          "changeType": "correct",
+          "contentMarkdown": "**Recorrência** recupera informação expressa; **paráfrase** reformula preservando o núcleo; **inferência** acrescenta conclusão autorizada por pistas. Compare alternativa e texto em quatro eixos: referente, escopo, modalidade e relação lógica.\n\nUma inferência válida não precisa estar literalmente escrita, mas cada acréscimo precisa de licença textual. Tempo verbal, quantificadores e modalizadores não autorizam por si sós conclusões como *deixou de*, *era baixo* ou *certamente*.",
+          "limitsAndExceptions": [
+            "Conhecimento de mundo participa da interpretação, mas não pode contradizer nem completar arbitrariamente o texto.",
+            "Pretérito não implica cessação; elevar não implica nível anterior baixo; apressar não prova lentidão objetiva."
+          ],
+          "contrasts": [
+            "Explícito localizável × implícito licenciado.",
+            "Paráfrase de mesmo alcance × alternativa que generaliza, restringe ou inverte."
+          ],
+          "examTraps": [
+            "Extrapolação, contradição, redução, generalização e causa inventada.",
+            "Troca de possibilidade por certeza ou de parte por totalidade."
+          ],
+          "evidenceRefs": [
+            "source:103e26bc-2e0e-42c8-82b7-4ac21488e485#0-9283",
+            "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901",
+            "source:eff09682-e512-48fa-aeb0-835f56fceb68#18723-24541"
+          ]
+        },
+        {
+          "title": "1.4 Tipos, gêneros e modos de organização",
+          "changeType": "correct",
+          "contentMarkdown": "Tipo textual é uma organização linguística predominante; gênero é uma prática social situada. Narração encadeia eventos, descrição organiza propriedades ou estados, exposição explica, argumentação sustenta posições e injunção orienta ações. Um gênero combina sequências e não recebe tipo apenas por seu nome.\n\nUse a SuVeCA para observar recorrências verbais, participantes e circunstâncias; confirme a classificação pela finalidade, pelo suporte, pela circulação e pela predominância do texto completo.",
+          "limitsAndExceptions": [
+            "Tema não se restringe a texto dissertativo, e tese pode ser implícita.",
+            "Descrição não se define por ausência de ação nem por uma ordem espacial única."
+          ],
+          "contrasts": [
+            "Gênero responde a situação e finalidade; tipo descreve modo de organização.",
+            "Tema é o recorte semântico; tese é a posição sustentada."
+          ],
+          "examTraps": [
+            "Chamar notícia de narração apenas porque relata fatos.",
+            "Confundir semelhança temática com intertextualidade."
+          ],
+          "evidenceRefs": [
+            "source:618ceb0f-91b9-4d34-84ab-8eb05c1aefe9#36550-45963",
+            "source:6b26b853-5079-4bcb-a938-b074b666d399#0-9320",
+            "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod6",
+      "sections": [
+        {
+          "title": "6.1 Estrutura, flexão e locução verbal",
+          "changeType": "correct",
+          "contentMarkdown": "Separe **forma verbal**, **núcleo predicativo** e **cadeia auxiliar**. Uma sequência de verbos pode ser locução, construção de controle, causativa, sensitiva ou duas orações. Verifique quem fornece tempo/modo/aspecto, quem seleciona argumentos e se há sujeito próprio para a forma nominal.\n\nNa segmentação morfológica, declare a convenção usada para radical, vogal temática, desinências e morfema zero; análises de `-ia`, futuro e infinitivo podem variar entre gramáticas e bancas.",
+          "limitsAndExceptions": [
+            "Mais de uma forma verbal não implica automaticamente mais de uma oração, nem toda sequência forma locução.",
+            "A segmentação escolar é modelo descritivo; sincretismo e alomorfia impedem correspondência perfeita forma→morfema."
+          ],
+          "contrasts": ["Auxiliar + principal × verbo de controle + oração infinitiva.", "Tempo morfológico × localização temporal no contexto."],
+          "examTraps": ["Contar verbos sem agrupar a cadeia.", "Tratar o último verbo como fonte universal de regência."],
+          "evidenceRefs": [
+            "source:57ea903e-69f4-4f3e-8ea8-7c6b3a9a70d0#0-9542",
+            "source:4fffa686-4df3-4b97-a33f-86504944d945#27958-29575",
+            "source:11e6231c-6485-403b-9883-95b31c8a3ef4#28114-37429"
+          ]
+        },
+        {
+          "title": "6.2 Tempo, aspecto, modo e correlação",
+          "changeType": "correct",
+          "contentMarkdown": "Tempo verbal, referência temporal, aspecto e modalidade são camadas distintas. O presente pode narrar, generalizar ou projetar futuro; o futuro do pretérito pode marcar posterioridade passada, hipótese, conjectura ou polidez. Indicativo e subjuntivo expressam diferentes compromissos do enunciador, mas não equivalem mecanicamente a certeza e dúvida.\n\nEm correlação, preserve a arquitetura temporal e modal da frase; não aplique pares decorados sem reconstruir condição, consequência, anterioridade e aspecto.",
+          "limitsAndExceptions": ["Conjunção subordinativa não exige subjuntivo em todo contexto.", "Forma simples e composta não são sempre intercambiáveis."],
+          "contrasts": ["Tempo da flexão × tempo do evento.", "Hipótese aberta × contrafactual × relato futuro em relação ao passado."],
+          "examTraps": ["Escolher tempo apenas por advérbio-muleta.", "Trocar modo e preservar só a cronologia."],
+          "evidenceRefs": [
+            "source:1390ed0f-2078-4cfb-be7b-6296fa5c74ac#28239-37616",
+            "source:2a5ac396-5843-4935-bb5f-31b75bcf6453#37616-45509",
+            "source:9c30fcb6-a2ae-4286-8292-a2b6bde82082#19011-28591"
+          ]
+        },
+        {
+          "title": "6.4 Formas nominais: infinitivo, gerúndio e particípio",
+          "changeType": "correct",
+          "contentMarkdown": "Analise cada forma nominal por **sujeito**, **relação com a oração principal**, **aspecto** e **função**. O infinitivo flexionado pode tornar explícito seu sujeito; o não flexionado pode ser genérico ou controlado. O gerúndio não significa simultaneidade por definição: pode indicar processo, anterioridade, causa, modo ou resultado conforme a construção. O particípio integra tempos compostos, passivas ou predicações adjetivais.\n\nParticípios abundantes pedem consulta por verbo, auxiliar, registro e lexicalização; a fórmula regular com ter/haver e irregular com ser/estar é tendência, não regra sem exceções.",
+          "limitsAndExceptions": ["Sujeito comum não proíbe por si só flexão do infinitivo em todos os contextos.", "`Surgiu assobiando` não é automaticamente locução verbal."],
+          "contrasts": ["Oração reduzida × locução × predicação secundária.", "Particípio verbal × adjetivo lexicalizado."],
+          "examTraps": ["Inferir ordem temporal apenas da forma em gerúndio.", "Aceitar qualquer particípio com qualquer auxiliar."],
+          "evidenceRefs": [
+            "source:8ffa117e-f170-462c-837e-3d24c67ec03f#0-9276",
+            "source:d41dd648-5f65-420a-beea-83fae025b624#0-9546",
+            "source:769cec47-5625-453c-8ade-c39772f2ea86#18989-20198"
+          ]
+        },
+        {
+          "title": "6.5 Paradigmas irregulares e léxico versionado",
+          "changeType": "correct",
+          "contentMarkdown": "Use verbos-base como ferramenta de reconstrução, não como analogia cega. Derivados de **ter, vir, ver** e **pôr** preservam partes relevantes do paradigma, mas verbos parecidos podem pertencer a famílias diferentes. Mantenha uma ficha por lema com presente, pretérito perfeito, futuros do subjuntivo, particípios, defectividade, variante e fonte lexicográfica.\n\nFormas decisivas: *mantiver, propuser, contiver, provier*; plural *eles provêm/detêm* leva circunflexo.",
+          "limitsAndExceptions": ["Prover não segue ver em todo o paradigma.", "Uso efetivo, norma e tradição de banca devem ser datados e separados."],
+          "contrasts": ["Derivado real × falso amigo morfológico.", "Forma verbal × palavra homógrafa."],
+          "examTraps": ["`quando requereu` em lugar do futuro esperado.", "Confundir provêm com proveem."],
+          "evidenceRefs": [
+            "source:1390ed0f-2078-4cfb-be7b-6296fa5c74ac#79086-88653",
+            "source:7c7d11a9-eac9-475c-bc25-dbebb64baf5e#18808-23028",
+            "source:bfb74acf-7ac4-47ee-b412-64fd9f7d57ec#9477-18670"
+          ]
+        },
+        {
+          "title": "6.7 Predicação, valência e verbo de ligação em contexto",
+          "changeType": "correct",
+          "contentMarkdown": "Transitividade pertence ao uso do verbo na construção. Primeiro identifique a acepção; depois os participantes selecionados e, por fim, os modificadores. Verbos como *estar, ficar, permanecer* podem ligar sujeito e predicativo ou realizar predicação locativa; *virar* pode marcar mudança de estado ou deslocamento.\n\nA descrição canônica distingue objeto, complemento oblíquo, argumento locativo e adjunto, registrando quando a gramática tradicional ou a banca usa rótulo diferente.",
+          "limitsAndExceptions": ["Ação versus estado é triagem semântica, não definição de transitividade.", "Apagamento não separa sozinho argumento e adjunto."],
+          "contrasts": ["Cópula + predicativo × verbo pleno locativo.", "Predicativo selecionado × depictivo opcional."],
+          "examTraps": ["Chamar todo termo de lugar de adjunto.", "Decidir a regência pelo verbo fora da frase."],
+          "evidenceRefs": [
+            "source:c575c2bd-f987-4362-8474-0a6050dd9c17#0-9013",
+            "source:6529bf6c-4858-4391-bef7-9e20eb3bc256#0-9429",
+            "source:da55c529-1aa8-402f-95ed-6514622a7712#0-9428"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod7",
+      "sections": [
+        {
+          "title": "7.0 Frase, oração, período e núcleo predicativo",
+          "changeType": "new_section",
+          "contentMarkdown": "**Frase** é unidade comunicativa; **oração** organiza-se em torno de predicação verbal; **período** reúne uma ou mais orações até a pontuação conclusiva. Locuções e cadeias auxiliares podem conter várias formas com um núcleo predicativo; comparativas e elipses podem recuperar predicado não repetido.\n\nAntes de contar orações: marque formas, agrupe cadeias, teste sujeitos e regências e só então delimite os núcleos.",
+          "limitsAndExceptions": ["Frase nominal não deve receber verbo inventado.", "Número de palavras verbais não coincide necessariamente com número de orações."],
+          "contrasts": ["Forma verbal × núcleo predicativo.", "Oração reduzida × coordenação assindética."],
+          "examTraps": ["Chamar ausência de conjunção de oração reduzida.", "Equiparar frase e período."],
+          "evidenceRefs": ["source:4fffa686-4df3-4b97-a33f-86504944d945#0-9533", "source:acbe38cd-abf8-441c-8845-2177e5d93d88#0-8707"]
+        },
+        {
+          "title": "7.2 Sujeito, impessoalidade e controle",
+          "changeType": "correct",
+          "contentMarkdown": "Sujeito simples ou composto é definido pelo número de núcleos; sujeito oculto é recuperável; indeterminado tem referente humano não identificado; oração sem sujeito contém predicação impessoal. Inclua ainda sujeito oracional, sujeito de infinitivo e controle pelo argumento da oração principal.\n\nReconstrua a ordem e confirme pela concordância. *Haver* existencial e *fazer* temporal são impessoais; *existir* concorda com o sujeito posposto.",
+          "limitsAndExceptions": ["Sujeito não é necessariamente agente nem precisa vir antes do verbo.", "Termo preposicionado é pista, não proibição universal de sujeito em toda construção."],
+          "contrasts": ["Sujeito indeterminado × oração sem sujeito.", "Sujeito oculto recuperável × referente genérico."],
+          "examTraps": ["Fazer o verbo concordar com o complemento de haver.", "Tratar infinitivo não flexionado como sujeito indeterminado automaticamente."],
+          "evidenceRefs": ["source:1ea3de98-55ca-4ad6-9de0-604df92b6955#0-9081", "source:d43a4eb2-074c-4bcc-84e4-df75cf076dd6#0-3941", "source:62819a22-3505-48fd-9379-74a1c06d7aa1#0-9564"]
+        },
+        {
+          "title": "7.4 Predicado, predicativo e segunda predicação",
+          "changeType": "correct",
+          "contentMarkdown": "Predicativo atribui propriedade, estado ou resultado ao sujeito ou ao objeto. Além da cópula, ele pode ocorrer com verbo pleno: *O servidor saiu cansado* combina evento e estado do sujeito. Verifique concordância, paráfrase e vínculo; não confunda predicativo com adjunto adnominal interno ao sintagma.\n\nResultados e depictivos podem ser selecionados ou opcionais. Declare essa diferença em vez de usar apenas o teste de apagamento.",
+          "limitsAndExceptions": ["Verbo de ligação contribui com aspecto ou mudança de estado; não é semanticamente vazio.", "Adjetivo após nome não é adjunto automaticamente."],
+          "contrasts": ["Estado do participante durante o evento × característica interna do nome.", "Predicativo do objeto × complemento nominal."],
+          "examTraps": ["Classificar pela posição.", "Chamar `surgiu assobiando` de locução."],
+          "evidenceRefs": ["source:504d8a4f-b690-4cc6-9802-83ac5af4b523#0-9053", "source:1d3086e5-b3ac-46e2-a429-57002a075843#0-9539"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod8",
+      "sections": [
+        {
+          "title": "8.1 Objetos, dativos e complementos oblíquos",
+          "changeType": "correct",
+          "contentMarkdown": "Objeto direto, objeto indireto, dativo e complemento oblíquo devem ser reconhecidos pela construção completa. Combine regência, forma pronominal, papel semântico, passivização possível e comportamento na oração. Locativos e complementos preposicionados selecionados podem receber classificações diferentes na gramática tradicional e na análise valencial; registre o perfil em vez de ocultar a divergência.",
+          "limitsAndExceptions": ["Preposição não define sozinha objeto indireto.", "Pronome `me` pode exercer funções diferentes conforme a regência."],
+          "contrasts": ["OI/dativo substituível por `lhe` quando licenciado × complemento oblíquo com pronome tônico.", "Argumento locativo × adjunto locativo."],
+          "examTraps": ["Chamar todo termo com `a` de OI.", "Usar passiva como teste absoluto."],
+          "evidenceRefs": ["source:c575c2bd-f987-4362-8474-0a6050dd9c17#0-9013", "source:b3d07195-265e-4fa9-9fa0-c870f7c50968#0-6644", "source:e16cc507-c683-4202-9796-6cddb86f3255#9369-18776"]
+        },
+        {
+          "title": "8.2 Complemento nominal, adjunto adnominal e agente",
+          "changeType": "correct",
+          "contentMarkdown": "No grupo nominal, identifique primeiro o núcleo e depois a relação do termo preposicionado. Nominalizações favorecem leitura de agente, paciente/tema, conteúdo, alvo ou origem; nomes concretos também podem selecionar complementos. Posse, autoria, matéria e tipo favorecem adjunto adnominal, mas o contexto decide. Agente da passiva liga-se à ação da construção passiva, não a qualquer `por + nome`.",
+          "limitsAndExceptions": ["Agente/paciente é eixo importante, não algoritmo suficiente.", "Concreto/abstrato e removível/obrigatório não resolvem isoladamente."],
+          "contrasts": ["`abertura dos portos`: paciente/tema × `decreto de Dom João`: autoria.", "`por bandidos`: agente da ação × `responsáveis pelas agressões`: complemento do nome."],
+          "examTraps": ["Classificar pela preposição `de`.", "Confundir agente semântico com agente da passiva."],
+          "evidenceRefs": ["source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#9449-19014", "source:f918015c-ede7-43a5-9c7e-96bc1f8157a1#19014-25535", "source:c901c4d1-d9ac-49f5-980f-7e6816296093#28578-37433"]
+        },
+        {
+          "title": "8.3 Adjuntos, aposto, vocativo e escopo",
+          "changeType": "correct",
+          "contentMarkdown": "Adjunto adverbial pode incidir sobre verbo, adjetivo, advérbio, oração ou enunciação. Classifique pelo alvo e pelo sentido, não por uma lista fechada. Aposto explica, especifica, resume ou enumera outro termo; vocativo chama o interlocutor e fica fora da estrutura argumental. Pontuação e escopo ajudam a separar as funções.",
+          "limitsAndExceptions": ["Adjunto não é necessariamente dispensável.", "Locativo selecionado pode integrar a valência."],
+          "contrasts": ["Comentário do enunciador × circunstância do evento.", "Aposto explicativo × adjunto adnominal restritivo."],
+          "examTraps": ["Chamar `felizmente` de modo do verbo.", "Usar vírgula como único critério."],
+          "evidenceRefs": ["source:4885ce11-44ce-4d63-87d4-16eae3cde58d#0-9499", "source:b72f76ec-4bab-4fd8-acf3-b35fca181fa6#36846-40099"]
+        },
+        {
+          "title": "8.6 Pronomes átonos em função",
+          "changeType": "new_section",
+          "contentMarkdown": "Antes da colocação, determine a função do clítico: objeto direto, indireto/dativo, reflexivo, recíproco, parte de verbo pronominal, apassivador ou indeterminador. A forma não decide sozinha. Reconstrua o referente, a regência e os papéis; depois escolha `o/a`, `lhe`, pronome tônico ou `se`.",
+          "limitsAndExceptions": ["Verbo pronominal não é automaticamente transitivo indireto.", "Dativo possessivo admite divergência terminológica."],
+          "contrasts": ["`me` argumento do verbo × `me` experienciador/dativo.", "Reflexivo correferente × `se` apassivador sem função de objeto."],
+          "examTraps": ["Trocar todo termo com `a` por `lhe`.", "Analisar posição antes do emprego."],
+          "evidenceRefs": ["source:0bb75ac3-9bdd-498d-83c3-ed430b027e0b#28570-37729", "source:521faf00-d0a1-4b32-a8ae-d1a8a15ba017#18500-27962"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod9",
+      "sections": [
+        {
+          "title": "9.1 Concordância verbal: controlador antes da regra",
+          "changeType": "correct",
+          "contentMarkdown": "Para cada verbo, delimite a oração e localize o controlador: sujeito simples, composto, posposto, oracional, relativo ou expressão percentual/partitiva. Só depois aplique pessoa e número. Em percentuais, observe numeral, unidade, complemento e determinante; duas análises podem convergir na mesma forma.\n\nCom `se`, a concordância depende primeiro da função: passiva sintética tem sujeito paciente; indeterminação mantém terceira pessoa do singular.",
+          "limitsAndExceptions": ["Proximidade linear não define concordância.", "Coletivos, partitivos e percentuais licenciam variação em contextos específicos, não livremente."],
+          "contrasts": ["`ocorreram assaltos` × `houve assaltos`.", "Alternância estrutural × duas formas apenas aparentemente possíveis."],
+          "examTraps": ["Concordar com termo preposicionado por proximidade.", "Ignorar sujeito oracional."],
+          "evidenceRefs": ["source:156a005f-500d-4712-9342-02ee9b56026e#9492-14796", "source:0e900611-a753-4810-a38a-b392d344a13a#19128-21415", "source:593c58f5-555d-43f9-b67a-00c24b84fb98#0-9450"]
+        },
+        {
+          "title": "9.5 Concordância nominal por função e referente",
+          "changeType": "correct",
+          "contentMarkdown": "Concordância nominal segue o alvo real: substantivo dentro do grupo ou participante a que o predicativo se refere. Palavras multifuncionais — *alerta, anexo, incluso, mesmo, obrigado, bastante, meio, só, junto* — pedem classe e sentido antes da flexão. Em `tal... qual`, cada termo concorda com seu próprio referente.",
+          "limitsAndExceptions": ["Posição depois do verbo não torna palavra invariável.", "Locuções cristalizadas e usos adverbiais devem ser separados do adjetivo."],
+          "contrasts": ["`permaneceram alertas` predicativo × `em alerta` locução.", "`junto a` locução prepositiva × `os documentos seguem juntos`."],
+          "examTraps": ["Aplicar lista decorada sem localizar o alvo.", "Flexionar `menos`."],
+          "evidenceRefs": ["source:cedf00a5-c87b-4bed-8217-bea66697a6c1#0-9535", "source:752c81b8-1a04-43a7-8988-6422aae5c2ba#27782-30227"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod10",
+      "sections": [
+        {
+          "title": "10.1 Regência por acepção e construção",
+          "changeType": "correct",
+          "contentMarkdown": "Regência pertence à acepção e à construção. Registre cada verbo ou nome com complemento, preposição, pronominalidade, registro e perfil de banca. *Assistir, aspirar, visar, implicar, responder, perdoar, pedir, lembrar/esquecer, chegar* e *preferir* não admitem uma ficha única fora de contexto. Em grupos verbais, localize o predicado que contém a lacuna.",
+          "limitsAndExceptions": ["Variação de uso não significa permutabilidade total.", "O último verbo não fornece regência universalmente."],
+          "contrasts": ["Regência verbal × nominal.", "Construção pronominal × não pronominal com mudança de papéis."],
+          "examTraps": ["Rejeitar variante registrada só por soar incomum.", "Explicar `preferir` pela etimologia do prefixo."],
+          "evidenceRefs": ["source:088772d5-4571-4064-aac4-4f685b605c52#0-9385", "source:b3d07195-265e-4fa9-9fa0-c870f7c50968#0-6644", "source:0bb75ac3-9bdd-498d-83c3-ed430b027e0b#28570-37729"]
+        },
+        {
+          "title": "10.5 Crase como fusão, com casos especiais",
+          "changeType": "correct",
+          "contentMarkdown": "Crase resulta da presença de `a` preposição e `a/as` artigo ou início de demonstrativo. Faça dois diagnósticos separados e confirme por substituição equivalente, sem tornar o masculino decisão final. Depois trate artigo facultativo, possessivos, plural, topônimos, casa/terra, distância, horas e locuções.\n\nA ausência de artigo em uma paráfrase não resolve outra construção lexicalmente diferente.",
+          "limitsAndExceptions": ["Teste `ao` exige equivalente semântico adequado.", "Locuções femininas e horas não dependem apenas da regência de um verbo anterior."],
+          "contrasts": ["Preposição obrigatória × artigo admitido.", "Topônimo com artigo × topônimo sem artigo."],
+          "examTraps": ["Usar crase antes de verbo ou pronome pessoal.", "Ignorar número e determinação do nome."],
+          "evidenceRefs": ["source:bdff17d4-c1e4-4eef-9f08-f40ee648f5f1#9525-19039", "source:749bbb0c-ff5d-4476-8574-fdec330051dc#18017-26704"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod11",
+      "sections": [
+        {
+          "title": "11.0 Delimitação do período composto",
+          "changeType": "new_section",
+          "contentMarkdown": "Conte núcleos predicativos depois de agrupar locuções e recuperar elipses. Em seguida identifique conectivo, função interna e dependência. Coordenação e subordinação não se distinguem por possibilidade de apagar, independência de sentido ou presença isolada de conjunção.",
+          "limitsAndExceptions": ["Comparativas podem omitir o segundo verbo.", "Ausência de conectivo pode indicar coordenação assindética, justaposição ou elipse."],
+          "contrasts": ["Oração reduzida × desenvolvida.", "Coordenação × oração que exerce função sintática na matriz."],
+          "examTraps": ["Contar auxiliar como oração independente.", "Classificar de trás para frente sem testar relação."],
+          "evidenceRefs": ["source:acbe38cd-abf8-441c-8845-2177e5d93d88#0-8707", "source:42371ace-f431-452b-a8dd-f40ddb29b08b#0-7564"]
+        },
+        {
+          "title": "11.1 Conectores, coordenação e relação proposicional",
+          "changeType": "correct",
+          "contentMarkdown": "Nomeie o conector depois de formular a relação entre proposições. `E` pode adicionar, sequenciar ou contribuir para consequência; `ou` pode ser inclusivo, exclusivo ou organizar alternativas; adversativas orientam a argumentação, mas a ênfase depende da ordem e do contexto. Comutatividade não é propriedade geral da coordenação.",
+          "limitsAndExceptions": ["Trocar `e` por `ou` raramente preserva tudo.", "Adversativa não garante leitura positiva/negativa."],
+          "contrasts": ["Adição lógica × sequência narrativa.", "Oposição × concessão."],
+          "examTraps": ["Permutar membros coordenados sem testar tempo e causalidade.", "Classificar `ao passo que` sempre como proporcional."],
+          "evidenceRefs": ["source:7904a70f-f027-4990-bd17-7fc9a1aeac1a#28617-37850", "source:a1a251e5-d39f-4253-868a-f057e3546243#18738-28319"]
+        },
+        {
+          "title": "11.5 Redução, desenvolvimento e paralelismo",
+          "changeType": "correct",
+          "contentMarkdown": "Orações reduzidas usam infinitivo, gerúndio ou particípio sem o conectivo desenvolvido prototípico. Para desenvolver, preserve sujeito, tempo, aspecto, voz e relação semântica. Paralelismo melhora correspondência entre elementos coordenados, mas identidade formal não é obrigação absoluta: função, foco e interpretação podem licenciar assimetria.",
+          "limitsAndExceptions": ["Mistura de sintagma nominal e oração não é erro automático.", "Infinitivo, nominalização e oração com `que` não são equivalentes em todo contexto."],
+          "contrasts": ["Assimetria defeituosa × variação estilística funcional.", "Falha de regência compartilhada × zeugma aceitável."],
+          "examTraps": ["Corrigir só a aparência da lista e alterar o sentido.", "Declarar erro sem identificar a dependência rompida."],
+          "evidenceRefs": ["source:5ef17242-31ca-4412-84df-a89e3606604e#0-9151", "source:5ef17242-31ca-4412-84df-a89e3606604e#37326-46831"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod12",
+      "sections": [
+        {
+          "title": "12.1 Vírgula: constituição, deslocamento e escopo",
+          "changeType": "correct",
+          "contentMarkdown": "Reconstrua a sintaxe antes de pontuar. Não separe sujeito e verbo, verbo e complemento ou nome e complemento sem uma estrutura intercalada real. Orações adverbiais antepostas são delimitadas; adjuntos curtos admitem maior variação; termos longos não recebem vírgula por um corte mecânico de palavras. Pontuação também organiza foco e escopo.",
+          "limitsAndExceptions": ["Comprimento é fator de processamento, não regra de três palavras.", "Complementos deslocados exigem análise própria, não a regra automática dos adjuntos."],
+          "contrasts": ["Inciso removível × constituinte selecionado.", "Restritiva sem vírgulas × explicativa delimitada."],
+          "examTraps": ["Usar apenas pausa oral.", "Retirar uma só vírgula de trecho intercalado."],
+          "evidenceRefs": ["source:b72f76ec-4bab-4fd8-acf3-b35fca181fa6#36846-40099", "source:42371ace-f431-452b-a8dd-f40ddb29b08b#0-7564"]
+        },
+        {
+          "title": "12.4 Dois-pontos, travessão, parênteses e aspas",
+          "changeType": "expand",
+          "contentMarkdown": "Outros sinais explicitam relações discursivas: dois-pontos anunciam explicação, enumeração ou fala; travessões e parênteses delimitam inserções com efeitos de destaque diferentes; aspas marcam citação, uso mencionado, distanciamento ou valor especial. A escolha deve preservar hierarquia sintática, voz e finalidade do trecho.",
+          "limitsAndExceptions": ["Sinais não são intercambiáveis apenas porque delimitam.", "Aspas não provam ironia sem contexto."],
+          "contrasts": ["Explicação anunciada × conclusão.", "Citação de voz alheia × destaque metalinguístico."],
+          "examTraps": ["Trocar sinal e ignorar o vínculo discursivo.", "Pontuar enumeração como oração independente."],
+          "evidenceRefs": ["source:b72f76ec-4bab-4fd8-acf3-b35fca181fa6#36846-40099", "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod14",
+      "sections": [
+        {
+          "title": "14.2 Reescrita controlada por camadas",
+          "changeType": "correct",
+          "contentMarkdown": "Compare reescritas em camadas: estrutura argumental, referente, escopo, tempo/aspecto/modo, voz, conectores e foco. Preservar palavras ou a função geral não basta. Deslocamento pode manter o referente e alterar foco; coordenação final pode ampliar o escopo de um advérbio.",
+          "limitsAndExceptions": ["Mudança de posição não altera sempre o sentido, e posição final não garante escopo estreito.", "Ser não cria equivalência simétrica em toda construção."],
+          "contrasts": ["Mesmo referente × mesmo escopo.", "Voz equivalente × nominalização com perda de agente/aspecto."],
+          "examTraps": ["Permutar termos ligados por `ou`.", "Aceitar reescrita gramatical que muda modalidade."],
+          "evidenceRefs": ["source:cbfc67ef-5c42-4bf6-ae8f-9d80bc492eba#18626-25695", "source:22c649cb-fc67-4392-a519-68c96d634d01#0-9516", "source:a1a251e5-d39f-4253-868a-f057e3546243#18738-28319"]
+        },
+        {
+          "title": "14.3 Nominalização, voz e preservação de participantes",
+          "changeType": "new_section",
+          "contentMarkdown": "Ao nominalizar ou transformar a voz, inventarie participantes, agente expresso ou apagado, paciente/tema, tempo, aspecto e escopo. `Que se multiplica` não equivale automaticamente a `multiplicado`; propriedade, processo e estado resultante são leituras diferentes. A passiva sintética também exige distinguir `se` apassivador de usos reflexivos, médios e indeterminadores.",
+          "limitsAndExceptions": ["Objeto direto favorece passiva, mas há restrições lexicais e divergências de aceitabilidade.", "Nominalização pode apagar tempo e agente ou tornar relações ambíguas."],
+          "contrasts": ["Processo em curso × resultado.", "Agente omitido × sujeito indeterminado."],
+          "examTraps": ["Trocar oração por particípio e declarar equivalência.", "Preservar tempo, mas deslocar `também` para outro referente."],
+          "evidenceRefs": ["source:51bc2d4d-6098-494c-b2ba-b3991d310479#0-9491", "source:a1a251e5-d39f-4253-868a-f057e3546243#18738-28319", "source:1390ed0f-2078-4cfb-be7b-6296fa5c74ac#116421-123724"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod15",
+      "sections": [
+        {
+          "title": "15.2 Escada de diagnóstico da prova",
+          "changeType": "correct",
+          "contentMarkdown": "Resolva em ordem: (1) delimite o fenômeno e o trecho; (2) reconstrua forma, classe e SuVeCA; (3) aplique concordância/regência/pontuação; (4) compare referente, escopo e modalidade; (5) identifique a convenção da banca; (6) confronte todas as alternativas. Marque como ambíguo quando faltarem dados visuais ou contexto, sem converter a solução contingente em regra.",
+          "limitsAndExceptions": ["Estratégia vertical acelera comparação, mas não substitui a frase completa.", "Gabarito oficial é preservado; comentário derivado pode registrar análise concorrente."],
+          "contrasts": ["Regra canônica × jurisprudência de banca.", "Questão íntegra × transcrição incompleta."],
+          "examTraps": ["Generalizar um gabarito isolado.", "Usar estatística de incidência como regra linguística."],
+          "evidenceRefs": ["source:62819a22-3505-48fd-9379-74a1c06d7aa1#0-9564", "source:618ceb0f-91b9-4d34-84ab-8eb05c1aefe9#36550-45963", "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod16",
+      "sections": [
+        {
+          "title": "16.1 Cadeias referenciais e recategorização",
+          "changeType": "correct",
+          "contentMarkdown": "Referenciação introduz, mantém e recategoriza objetos de discurso. Artigo definido pode sinalizar identificabilidade textual, situacional, associativa ou compartilhada; não é sempre anafórico. Pronomes, elipse, repetição lexical e expressões nominais retomam entidades, eventos ou proposições. A cadeia deve preservar compatibilidade, mas pode mudar a descrição do referente para orientar a argumentação.",
+          "limitsAndExceptions": ["Referente não precisa ser uma palavra literal anterior.", "Dêixis e anáfora podem combinar-se; pessoa do discurso continua deítica em usos híbridos."],
+          "contrasts": ["Expressão referencial × representação discursiva acessada.", "Retomada correferencial × anáfora associativa."],
+          "examTraps": ["Exigir antecedente expresso para todo artigo definido.", "Escolher antecedente apenas por proximidade."],
+          "evidenceRefs": ["source:9516be8c-8b9d-4961-a3b4-9870fd5cba41#0-9555", "source:94be4e7d-c274-45ea-9c12-17a1aaf576b6#28669-30867", "source:103e26bc-2e0e-42c8-82b7-4ac21488e485#0-9283"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod17",
+      "sections": [
+        {
+          "title": "17.1 Pragmática, contexto e atos comunicativos",
+          "changeType": "correct",
+          "contentMarkdown": "Pragmática investiga como contexto, participantes, gênero e conhecimento compartilhado orientam o que se faz ao dizer. Conteúdo literal e força comunicativa podem divergir: pergunta pode realizar pedido; afirmação pode advertir. Inferência é parte do processo, não definição completa de pragmática.",
+          "limitsAndExceptions": ["Forma interrogativa não determina um único ato.", "Resposta literal não é inadequada fora de um contexto que imponha leitura indireta."],
+          "contrasts": ["Conteúdo proposicional × ato realizado.", "Implicatura contextual × pressuposto acionado linguisticamente."],
+          "examTraps": ["Reduzir pragmática a dedução.", "Ignorar relação entre interlocutores."],
+          "evidenceRefs": ["source:103e26bc-2e0e-42c8-82b7-4ac21488e485#0-9283", "source:6b26b853-5079-4bcb-a938-b074b666d399#0-9320"]
+        },
+        {
+          "title": "17.2 Modalização, vozes e compromisso",
+          "changeType": "correct",
+          "contentMarkdown": "Modalizadores graduam certeza, possibilidade, obrigação e avaliação. Tempo, modo, advérbios, verbos, adjetivos e construções impessoais podem contribuir. Voz citada, aspas e discurso relatado separam responsabilidades enunciativas; impessoalização pode afastar o autor sem tornar o texto neutro.",
+          "limitsAndExceptions": ["Tese pode ser implícita e não requer modalizador ostensivo.", "Primeira pessoa não torna todo trecho subjetivo; passiva ou `se` não garantem objetividade."],
+          "contrasts": ["Fato apresentado × grau de compromisso com ele.", "Voz do autor × voz citada ou ecoada."],
+          "examTraps": ["Confundir modalidade com polaridade positiva/negativa.", "Atribuir ao autor avaliação contida apenas na citação."],
+          "evidenceRefs": ["source:6b26b853-5079-4bcb-a938-b074b666d399#0-9320", "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901"]
+        }
+      ]
+    },
+    {
+      "moduleId": "mod18",
+      "sections": [
+        {
+          "title": "18.1 Tema, tese e orientação argumentativa",
+          "changeType": "correct",
+          "contentMarkdown": "Tema é o recorte semântico que organiza o texto; tese é a posição central sustentada. Para reconhecê-los, retire exemplos sem perder o denominador comum e verifique quais proposições funcionam como razões ou conclusões. A tese pode ser implícita, graduada e mais complexa que positivo versus negativo.",
+          "limitsAndExceptions": ["Narrativas e poemas também têm tema.", "Semelhança de assunto não demonstra intertextualidade."],
+          "contrasts": ["Assunto abrangente × posição discutível.", "Tese × argumento que a sustenta."],
+          "examTraps": ["Escolher alternativa que cobre só um dos textos.", "Acrescentar finalidade ou extensão não mencionada."],
+          "evidenceRefs": ["source:eff09682-e512-48fa-aeb0-835f56fceb68#18723-24541", "source:6b26b853-5079-4bcb-a938-b074b666d399#0-9320"]
+        },
+        {
+          "title": "18.2 Argumentos, refutação e qualidade da evidência",
+          "changeType": "correct",
+          "contentMarkdown": "Argumentos podem mobilizar dados, exemplos, autoridade, causa, analogia, comparação, definição ou contra-argumentação. Avalie pertinência, suficiência, confiabilidade e vínculo com a tese; citar autoridade não basta se ela for vaga ou irrelevante. Refutação pode atacar premissa, inferência, alcance ou evidência.",
+          "limitsAndExceptions": ["Estratégia retórica não garante argumento válido.", "Exemplo ilustra; sozinho, pode não generalizar."],
+          "contrasts": ["Fonte confiável × apelo genérico à autoridade.", "Objeção considerada × espantalho."],
+          "examTraps": ["Confundir explicação do tema com defesa de tese.", "Aceitar correlação como causa."],
+          "evidenceRefs": ["source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901", "source:eff09682-e512-48fa-aeb0-835f56fceb68#18723-24541"]
+        }
+      ]
+    },
+    {
+      "moduleId": "apendice-d",
+      "sections": [
+        {
+          "title": "D.3 Tese e estratégias de fundamentação",
+          "changeType": "correct",
+          "contentMarkdown": "Na escrita, formule tese delimitada e distribua cada parágrafo em afirmação, evidência, vínculo inferencial e retorno ao problema. Use a SuVeCA para controlar agentes, ações, negações e circunstâncias; depois verifique progressão, modalização e vozes. Dados e autoridades precisam de identificação suficiente, e contra-argumentos devem responder à posição real.",
+          "limitsAndExceptions": ["Modelo de parágrafo é ferramenta de revisão, não molde rígido.", "Correção gramatical não substitui coerência argumentativa."],
+          "contrasts": ["Exemplo concreto × evidência representativa.", "Conclusão derivada × slogan repetido."],
+          "examTraps": ["Introduzir certeza maior que a evidência.", "Mudar referente ou agente ao parafrasear a fonte."],
+          "evidenceRefs": ["source:6b26b853-5079-4bcb-a938-b074b666d399#0-9320", "source:94e208a6-91aa-44a3-af22-ab766531cbbf#101650-110901"]
+        }
+      ]
+    }
+  ]
+}

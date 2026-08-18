@@ -1,0 +1,2702 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A09-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.076Z"
+  },
+  "unit": {
+    "unitId": "IP-A09-G02",
+    "lessonId": "A09",
+    "groupId": "G02",
+    "title": "Concordância Verbal - Aprofundamento",
+    "variant": "foundation",
+    "canonicalTopicId": "pt:a09:concordancia-verbal",
+    "learningObjectives": [
+      "OBJ-IP-A09-G02-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "central",
+      "label": "Método central",
+      "summary": "O aprofundamento testa sujeito oracional, expressões quantitativas, relativos e outros controladores sem se deixar enganar pela proximidade linear.",
+      "steps": [
+        "Delimite as orações e preserve a ordem real do enunciado.",
+        "Reconstrua Sujeito, Verbo, Complementos, Adjuntos e Predicativos, registrando ausências, elipses e encaixes.",
+        "Aplique a regra específica do tema às relações reconstruídas e justifique a resposta."
+      ],
+      "limits": [
+        "O mapa representa relações sintáticas; não impõe ordem direta nem exige que todos os componentes estejam expressos."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Domínio dos conceitos de transitividade verbal (VTD, VTI, VI, VL, VTDI).",
+            "Identificação da ordem direta da oração (Sujeito + Verbo + Complementos + Adjuntos).",
+            "Compreensão básica da voz passiva analítica (verbo ser + particípio) e sintética (verbo + se).",
+            "Reconhecimento de classes gramaticais: pronomes relativos (que), pronomes oblíquos (lhes), conjunções integrantes (que, se) e artigos."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "MAPA CONCEITUAL DO CONHECIMENTO CONSOLIDADO (G02) │ ├── 1. ORAÇÃO SEM SUJEITO (VERBOS IMPESSOAIS) ─────────────────────── [KB-A09-G02-001] │ ├── Fenômenos Naturais (Literal = Impessoal vs. Figurado = Pessoal) [KB-A09-G02-002] │ ├── Verbo HAVER (= existir/ocorrer/acontecer) vs. EXISTIR/OCORRER ─ [KB-A09-G02-003] │ ├── Verbos de Tempo Decorrido (HAVER, FAZER, IR) ───────────────── [KB-A09-G02-004] │ └── Expressões Idiomáticas (CHEGA DE, BASTA DE, PASSA DE) ──────── [KB-A09-G02-005] │ ├── 2. SUJEITO ORACIONAL (ORAÇÃO SUBORDINADA SUBJETIVA) ─────────────── [KB-A09-G02-008] │ ├── Formas: Oração Desenvolvida (com C.I.) vs. Reduzida (Infinitivo)[KB-A09-G02-009] │ ├── Estruturas Típicas: Unipessoais, VL + Predicativo, Voz Passiva ─ [KB-A09-G02-010] │ └── Caso Específico: Verbo PARECER e Falso Sujeito Anteposto ───── [KB-A09-G02-011] │ ├── 3. SINTAXE DE LOCUÇÕES VERBAIS ────────────────────────────────── [KB-A09-G02-006] │ ├── Principal Impessoal (Haver/Fazer) → Auxiliar no SINGULAR │ ├── Principal Pessoal (Existir/Precipitar-se) → Auxiliar FLEXIONA │ └── Locução Modal \"Haver de + Infinitivo\" (Haver Pessoal Auxiliar)─ [KB-A09-G02-007] │ ├── 4. ESTRUTURAS DE VOZ PASSIVA E INDETERMINAÇÃO DO SUJEITO ───────── [KB-A09-G02-012] │ ├── VTD + SE = Partícula Apassivadora (PA) → Concorda com Sujeito Paciente │ ├── VTI + SE = Partícula de Indeterminação (PIS) → Verbo na 3ª pessoa do singular │ └── Estrutura \"Trata-se de\" (IIS invariável) ───────────────────── [KB-A09-G02-013] │ └── 5. MECANISMOS AVANÇADOS DE CONCORDÂNCIA E DESAMBIGUAÇÃO ├── Pronome Relativo \"Que\" como Sujeito (\"O que vem depois salva\") [KB-A09-G02-015] ├── Inversões Sintáticas, Núcleo Não Preposicionado e Pronome LHES ─ [KB-A09-G02-016] ├── Sujeito Composto Posposto (Concordância Total vs. Atrativa) ──── [KB-A09-G02-014] └── Acentuação Diferencial (têm/vêm, convém/convêm) e Particípios ── [KB-A09-G02-017]"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A09-G02-001",
+          "title": "Mapa de conexão — Concordância Verbal - Aprofundamento",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a09:concordancia-verbal",
+              "label": "Concordância Verbal - Aprofundamento",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a09:concordancia-verbal",
+              "relation": "central"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A oração sem sujeito estrutura-se compulsoriamente em torno de um verbo impessoal — aquele que não possui sujeito sintático e não se refere a nenhuma pessoa gramatical —, devendo permanecer fixo e invariável na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "A gramática moderna adota a denominação \"oração sem sujeito\" em substituição à nomenclatura tradicional \"sujeito inexistente\", visto que não se deve classificar ou nomear um elemento ontologicamente inexistente. A impessoalidade verbal anula a possibilidade de flexão numérica: tanto o verbo simples isolado quanto o verbo auxiliar de uma locução verbal regida por verbo impessoal ficam travados na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "A matéria organiza-se pedagogicamente em quatro blocos fundamentais:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbos indicadores de fenômenos naturais/meteorológicos;",
+            "Verbo haver com sentido de existir, ocorrer ou acontecer;",
+            "Verbos indicadores de tempo decorrido (haver, fazer, ir);",
+            "Expressões idiomáticas impessoais regidas por preposição (chega de, basta de, passa de)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O verbo não responde com um agente/substantivo à pergunta \"Quem é que [verbo]?\" ou \"O que é que [verbo]?\".",
+            "O verbo expressa evento natural puro, transcurso cronológico temporal, existência ou saturação quantitativa.",
+            "Ação: Manter o verbo na 3ª pessoa do singular."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande-se em: KB-A09-G02-002, KB-A09-G02-003, KB-A09-G02-004, KB-A09-G02-005.",
+            "Aplicado em: KB-A09-G02-006, EX-A09-G02-001, EX-A09-G02-002."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbos que exprimem processos meteorológicos (chover, nevar, relampejar, trovejar, anoitecer, amanhecer) são impessoais e invariáveis no singular quando empregados em sentido literal (denotativo). Contudo, ao serem utilizados em sentido figurado (conotativo/metafórico), adquirem pessoalidade e concordam regularmente com o sujeito explícito."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sentido Literal (Fenômeno da Natureza): O evento ocorre espontaneamente no ambiente físico, sem agente. A oração é sem sujeito e o verbo permanece na 3ª pessoa do singular.",
+            "Exemplo: Choveu bastante em alguns bairros ontem.",
+            "Sentido Figurado (Metafórico): O verbo passa a significar ocorrência ou incidência em abundância de elementos humanos ou materiais. O termo substantivo passa a funcionar como sujeito simples, exigindo flexão do verbo.",
+            "Exemplo: Choveram reclamações no grupo de mensagens. (\"reclamações\" = sujeito simples plural $\\rightarrow$ verbo no plural: choveram)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-001.",
+            "Possui procedimento: PROC-A09-G02-007.",
+            "Possui alerta: WARN-A09-G02-004.",
+            "Exemplificado por: EX-A09-G02-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo haver, quando expressa existência, ocorrência ou acontecimento, é impessoal, transitivo direto e invariável na 3ª pessoa do singular; o substantivo que o acompanha é seu objeto direto. Em oposição direta, os verbos existir, ocorrer e acontecer são pessoais, intransitivos e flexionam-se obrigatoriamente para concordar com o seu sujeito sintático."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura com HAVER: Havia [muitas dúvidas].",
+            "Sintaxe: Havia = VTD impessoal (singular fixo); muitas dúvidas = Objeto Direto (OD). A oração não possui sujeito. A forma \\*\"haviam dúvidas\" é erro grave na norma culta.",
+            "Estrutura com EXISTIR: Existiam [muitas dúvidas].",
+            "Sintaxe: Existiam = Verbo Intransitivo (VI) pessoal; muitas dúvidas = Sujeito Simples Plural. O verbo concorda com o sujeito. A forma \\*\"existe muitas dúvidas\" é erro de concordância."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "HAVER (= existir) ────────► IMPESSOAL (3ª sing.) ──► Termo associado = OBJETO DIRETO EXISTIR / OCORRER ────────► PESSOAL (Flexiona) ──► Termo associado = SUJEITO"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-006.",
+            "Possui alerta: WARN-A09-G02-001, WARN-A09-G02-002.",
+            "Exemplificado por: EX-A09-G02-002, EX-A09-G02-004, EX-A09-G02-007."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os verbos haver, fazer e ir, quando empregados para indicar tempo decorrido/transcorrido (tempo cronológico passado ou aproximado), atuam como verbos impessoais, permanecendo invariáveis na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verbo FAZER temporal: Permanece estritamente no singular (Faz dez meses que não o vejo, Faz três anos). A forma coloquial \\*\"fazem dez meses\" viola a norma culta, pois a expressão numérica atua como adjunto/extensão temporal, e não como sujeito.",
+            "Verbo HAVER temporal: Mantém-se invariável no singular (Havia dias que esperava). A professora ressalta que bancas minuciosas (como a FGV) exigem a fundamentação semântica correta: trata-se de tempo decorrido, e não de existência (\"existiam dias\" geraria absurdo semântico).",
+            "Verbo IR temporal: Quando indica transcurso temporal aproximado (Vai para dois anos que estudo, Vai para duas horas que cheguei), o verbo ir é impessoal e não admite plural (\"vão para...\")."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-001.",
+            "Possui alerta: WARN-A09-G02-002, WARN-A09-G02-005.",
+            "Exemplificado por: EX-A09-G02-003, EX-A09-G02-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As expressões verbais chega de, basta de e passa de são estruturas impessoais que formam oração sem sujeito, fixando o verbo na 3ª pessoa do singular. A presença obrigatória da preposição de impede formalmente que o substantivo posposto seja classificado como sujeito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na língua portuguesa padrão, o sujeito gramatical jamais pode vir introduzido por preposição. Como os substantivos em Chega de reclamações, Basta de problemas e Passa de duas horas estão regidos pela preposição de, eles não possuem capacidade sintática de comandar a flexão verbal. Logo, as formas \\*\"chegam de\", \\*\"bastam de\" e \\*\"passam de\" são incorretas."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-001.",
+            "Possui dica: TIP-A09-G02-003.",
+            "Exemplificado por: EX-A09-G02-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em qualquer locução verbal (verbo auxiliar + verbo principal), o verbo principal (último da cadeia verbal) é a autoridade sintática máxima (\"quem manda\"), definindo a predicação, a transitividade e a impessoalidade. O verbo auxiliar (primeiro da cadeia) atua como executor morfológico (\"quem obedece\"). Se o verbo principal for impessoal, ele transmite sua impessoalidade ao auxiliar, que se fixa na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mantra Pedagógico: \"Quem manda é o principal, quem obedece é o auxiliar.\" / \"O auxiliar carrega a impessoalidade do verbo principal.\"",
+            "Locução com Principal Impessoal (haver existencial / fazer temporal):",
+            "O verbo auxiliar absorve a impessoalidade e fica no singular.",
+            "Exemplos: Poderá haver novas rebeliões (e não poderão haver); Deve haver soluções; Vai fazer dois anos.",
+            "Locução com Principal Pessoal (existir, ocorrer, acontecer):",
+            "O verbo principal exige sujeito; logo, o verbo auxiliar flexiona-se obrigatoriamente para concordar com o sujeito sintático.",
+            "Exemplos: Poderão existir novas rebeliões; Devem existir soluções; Passaram a existir fortunas enormes."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "LOCUÇÃO VERBAL ──► Analisar o ÚLTIMO verbo (Principal) ├── Principal IMPESSOAL (Haver/Fazer) ──► Auxiliar FIXO no SINGULAR (\"Deve haver problemas\") └── Principal PESSOAL (Existir/Passar) ──► Auxiliar FLEXIONA com Sujeito (\"Devem existir problemas\")"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-003.",
+            "Possui alerta: WARN-A09-G02-003.",
+            "Exemplificado por: EX-A09-G02-002, EX-A09-G02-005, EX-A09-G02-008, EX-A09-G02-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na locução verbal modal formada pela perífrase haver de + infinitivo (ex.: haver de pesquisar, haver de precipitar-se), o verbo haver atua exclusivamente como verbo auxiliar pessoal (com valor modal de ter de, dever ou futuro), devendo flexionar-se normalmente em número e pessoa para concordar com o sujeito da oração."
+        },
+        {
+          "type": "paragraph",
+          "text": "É um erro clássico generalizar a impessoalidade de haver para todas as suas aparições. Na locução haver de + infinitivo:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Haver é o primeiro verbo (auxiliar), enquanto o verbo pleno no infinitivo é o principal.",
+            "Sendo o principal pessoal (pesquisar, precipitar-se), o auxiliar haver recebe as desinências pessoais de concordância com o sujeito.",
+            "Exemplos corretos: Aqueles que hão de pesquisar / haverão de pesquisar; Desavenças hão de precipitar-se."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A09-G02-003, KB-A09-G02-006.",
+            "Possui alerta: WARN-A09-G02-003.",
+            "Exemplificado por: EX-A09-G02-011, EX-A09-G02-012."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sujeito oracional é a função sintática de sujeito desempenhada por uma oração subordinada substantiva subjetiva. Por se tratar de uma oração inteira (desprovida de flexão morfológica de número plural), o verbo da oração principal permanece compulsoriamente na 3ª pessoa do singular (invariável)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mantra Pedagógico: \"Sujeito oracional é aquele que tem verbo.\"",
+            "Fundamentação: Se o termo que responde à pergunta \"O que é que [verbo]?\" possuir uma forma verbal em seu interior, ele é uma oração subordinada subjetiva. O verbo regente não pode flexionar no plural, mesmo que dentro da oração subordinada existam substantivos no plural.",
+            "Exemplo de Contraste:",
+            "Bastam amigos. $\\rightarrow$ Sujeito substantivo plural (amigos) $\\rightarrow$ Verbo no plural (bastam).",
+            "Basta que você tenha amigos. $\\rightarrow$ Sujeito oracional (que você tenha amigos) $\\rightarrow$ Verbo no singular (basta)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-002.",
+            "Possui alerta: WARN-A09-G02-001.",
+            "Exemplificado por: EX-A09-G02-010, EX-A09-G02-011, EX-A09-G02-012."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O sujeito oracional manifesta-se sob duas formas sintáticas equivalentes perante a regra de concordância da oração principal:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Oração Desenvolvida: introduzida por conjunção integrante (que, se) e estruturada com verbo flexionado em modo/tempo finito.",
+            "Oração Reduzida: desprovida de conjunção integrante, estruturada com o verbo em forma nominal (especialmente o infinitivo)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A ausência da conjunção que não transforma a estrutura em sujeito simples substantivo. A presença de um verbo no infinitivo basta para configurar oração reduzida subjetiva, impondo o verbo principal no singular:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Desenvolvida: Convém [que estejas aqui na hora marcada]. $\\rightarrow$ Isso convém.",
+            "Reduzida: Convém [mudar as regras]. $\\rightarrow$ Isso convém (o verbo não concorda com o substantivo plural interno regras).",
+            "Reduzida: [Ter um cérebro relaxado] é importante. $\\rightarrow$ Isso é importante.",
+            "Reduzida: [Reduzir as distâncias] convém. $\\rightarrow$ Isso convém."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-008.",
+            "Exemplificado por: EX-A09-G02-010, EX-A09-G02-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As bancas examinadoras cobram sujeito oracional estruturado em três matrizes sintáticas principais na oração regente:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "(A) Verbos Unipessoais: Verbos como convir, bastar, faltar, importar, parecer, cumprir, urgir, caber, constar.",
+            "(B) Verbo de Ligação + Predicativo do Sujeito: Estruturas como é bom, está claro, parece possível, é preciso, é necessário.",
+            "(C) Expressões na Voz Passiva (Pronominal ou Analítica): Estruturas como sabe-se, diz-se, conta-se, acredita-se, constata-se, é sabido, foi anunciado."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Todas as três matrizes regem orações subjetivas e devem manter suas formas no singular (e no gênero masculino neutro para os adjetivos predicativos):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Matriz A: Não deve caber aos sociólogos [definir a estrutura]; Nem ao sonho cabe [fazer restrições].",
+            "Matriz B: Está claro [que as reações não podem ser diferentes]; É necessário [valorizar a desconcentração].",
+            "Matriz C: Sabe-se [que o prazo expirou]; Constata-se [que as crianças têm dificuldades]."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A09-G02-008.",
+            "Exemplificado por: EX-A09-G02-010, EX-A09-G02-011, EX-A09-G02-012, EX-A09-G02-014."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o verbo parecer rege uma oração subordinada desenvolvida introduzida por que, toda a oração subsequente funciona como seu sujeito oracional, obrigando o verbo parecer a ficar na 3ª pessoa do singular. É incorreto flexionar parecer no plural concordando com um termo plural que pertença, na realidade, ao predicado da oração subordinada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na frase: \"Os dois parecia que haviam acabado de comer a maçã proibida\":"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "O termo Os dois é o sujeito da locução verbal subordinada haviam acabado de comer (o auxiliar haviam está corretamente no plural).",
+            "O sujeito do verbo parecer é a oração inteira: [que os dois haviam acabado de comer a maçã proibida].",
+            "Teste do ISSO: [Que os dois haviam acabado...] parecia $\\rightarrow$ Isso parecia.",
+            "É erro crasso escrever \\*\"Os dois pareciam que haviam acabado...\", pois Os dois não é sujeito de pareciam."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-008, KB-A09-G02-010.",
+            "Possui procedimento: PROC-A09-G02-001.",
+            "Possui alerta: WARN-A09-G02-007.",
+            "Exemplificado por: EX-A09-G02-010."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A presença de uma expressão temporal numérica associada a um Verbo Transitivo Direto (VTD) e ao pronome SE configura Voz Passiva Sintética com Sujeito Paciente, exigindo flexão do verbo no plural. Essa construção opõe-se diametralmente às orações sem sujeito temporais (fazer/haver) e às estruturas com Verbo Transitivo Indireto (VTI) com Índice de Indeterminação do Sujeito (PIS)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Voz Passiva Sintética Temporal (VTD + SE = PA):",
+            "Já se completaram dois anos $\\rightarrow$ Transposição analítica: Dois anos foram completados.",
+            "Contam-se uns dois anos $\\rightarrow$ Transposição analítica: Uns dois anos são contados.",
+            "O termo dois anos é o sujeito paciente da oração. Logo, o verbo concorda no plural.",
+            "Contraste com Tempo Decorrido Puro (Oração Sem Sujeito):",
+            "Faz dois anos / Há dois anos (sem pronome se; verbo impessoal invariável).",
+            "Contraste com Partícula de Indeterminação do Sujeito (VTI + SE = PIS):",
+            "Torce-se para as crianças (torcer é VTI regido pela preposição para; não admite voz passiva; verbo fixo na 3ª pessoa do singular)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-004.",
+            "Possui alerta: WARN-A09-G02-005, WARN-A09-G02-006.",
+            "Exemplificado por: EX-A09-G02-005, EX-A09-G02-014."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A construção formada pelo verbo tratar pronominal acompanhado da preposição de (tratar-se de) é uma estrutura sintática com Índice de Indeterminação do Sujeito (IIS), devendo permanecer sempre e obrigatoriamente na 3ª pessoa do singular."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesmo que o complemento preposicionado seguinte esteja no plural (ex.: Trata-se de novas tentativas, Trata-se de problemas graves), a flexão de plural \\*\"tratam-se de\" é terminantemente proibida pela norma-padrão."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A09-G02-012.",
+            "Exemplificado por: EX-A09-G02-008."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o sujeito composto se posiciona após o verbo (sujeito posposto), a norma culta admite duas modalidades de concordância:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Concordância Gramatical / Total: O verbo flexiona-se no plural, concordando com a soma de todos os núcleos.",
+            "Concordância Atrativa: O verbo flexiona-se concordando exclusivamente com o primeiro núcleo (o mais próximo)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na frase \"Historicamente, sempre existiram boatos e mentiras...\":"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O sujeito composto é boatos e mentiras.",
+            "Concordância total: existiram (com ambos os núcleos).",
+            "Concordância atrativa: como o núcleo mais próximo (boatos) é plural, o verbo também permanece no plural (existiram).",
+            "Se o primeiro núcleo fosse singular (ex.: o boato e as mentiras), seriam válidas as formas existia (atrativa) ou existiam (total).",
+            "Se substituído por haver, a pessoalidade é anulada: sempre houve boatos e mentiras."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A09-G02-003.",
+            "Exemplificado por: EX-A09-G02-008, EX-A09-G02-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando o pronome relativo \"que\" funciona como sujeito sintático da oração subordinada adjetiva, o verbo a ele associado deve concordar em número e pessoa com o seu termo antecedente (referente). Em caso de múltiplos antecedentes potenciais, aplica-se a técnica operacional \"o que vem depois salva\", inspecionando predicativos e complementos subsequentes para desambiguar o referente real."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Regra Geral: Em Funcionários que riem, o pronome que retoma funcionários (3ª do plural $\\rightarrow$ riem).",
+            "Desambiguação em Estruturas Complexas (Subst 1 + de + Subst 2 + que + Verbo):",
+            "Na frase: A validação dos critérios que se apresentam como parâmetros aceitáveis...",
+            "Dúvida: O \"que\" retoma o núcleo singular validação ou o adjunto plural critérios?",
+            "Solução: O predicativo subsequente como parâmetros aceitáveis (plural) refere-se semanticamente a critérios. Logo, o antecedente é critérios, impondo o verbo no plural: se apresentam.",
+            "Antecedente Pronominal Neutro (\"o que\"): Em ...o que lhes deve ser necessário, o pronome que retoma o pronome demonstrativo o (= aquilo), exigindo verbo no singular: deve."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-005.",
+            "Possui alerta: WARN-A09-G02-008.",
+            "Exemplificado por: EX-A09-G02-011, EX-A09-G02-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O verbo concorda estritamente com o núcleo não preposicionado do sujeito, não podendo ser atraído por termos preposicionados intercalados, por adjuntos antepostos ou pelo pronome oblíquo lhes (que jamais atua como sujeito)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Núcleo Não Preposicionado: Em A taxa de resolução dos testes cresce, o núcleo é taxa (singular); dos testes é adjunto adnominal preposicionado. O verbo permanece no singular. Em A distância entre os países ricos aumentasse, o núcleo é distância (singular).",
+            "Sujeito Posposto Invertido: Em Atingem uma proporção inaudita as desavenças, colocando na ordem direta (As desavenças atingem...), comprova-se o sujeito plural.",
+            "Impossibilidade de \"Lhes\" como Sujeito: O pronome lhes é intrinsecamente preposicionado (equivale a a eles / para eles). Portanto, jamais pode exercer a função de sujeito gramatical."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui procedimento: PROC-A09-G02-001.",
+            "Possui alerta: WARN-A09-G02-008.",
+            "Exemplificado por: EX-A09-G02-012, EX-A09-G02-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A correta concordância verbal depende frequentemente da aplicação rigorosa do acento circunflexo diferencial na 3ª pessoa do plural dos verbos ter, vir e derivados, bem como da concordância em gênero e número dos particípios passivos com o sujeito paciente."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Verbos TER e VIR (e derivados):",
+            "Ele tem / Ele vem (singular: sem acento).",
+            "Eles têm / Eles vêm (plural: acento circunflexo obrigatório).",
+            "Ele convém / Ele mantém (derivados no singular: acento agudo).",
+            "Eles convêm / Eles mantêm (derivados no plural: acento circunflexo).",
+            "Com sujeito oracional, usa-se estritamente a forma singular com agudo: Convém mudar as regras.",
+            "Particípios na Voz Passiva Analítica: O particípio flexiona-se como adjetivo em gênero e número com o sujeito paciente: Foi posta nas mãos de bilhões a conectividade (sujeito conectividade feminino $\\rightarrow$ posta, e não posto)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplicado em: EX-A09-G02-010, EX-A09-G02-013, EX-A09-G02-014."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A09-G02-001",
+          "title": "Regras canônicas",
+          "statement": "A tabela abaixo sintetiza o inventário canônico de regras consolidadas do Grupo G02, servindo de consulta rápida e remetendo aos seus respectivos detalhamentos técnicos:",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Regras canônicas."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A tabela abaixo sintetiza o inventário canônico de regras consolidadas do Grupo G02, servindo de consulta rápida e remetendo aos seus respectivos detalhamentos técnicos:"
+            },
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G02-001",
+              "table": {
+                "tableId": "TABLE-IP-A09-G02-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Estrutura Sintática",
+                  "Regra Canônica de Concordância",
+                  "Justificativa Sintática",
+                  "ID de Referência"
+                ],
+                "rows": [
+                  [
+                    "Verbos de Fenômenos Naturais (Literal)",
+                    "3ª pessoa do singular (Invariável)",
+                    "Oração sem sujeito",
+                    "KB-A09-G02-002"
+                  ],
+                  [
+                    "Verbos de Fenômenos Naturais (Figurado)",
+                    "Flexiona com o sujeito explícito",
+                    "Verbo pessoal transitivo/intransitivo",
+                    "KB-A09-G02-002"
+                  ],
+                  [
+                    "Haver (= existir, ocorrer, acontecer)",
+                    "3ª pessoa do singular (Invariável)",
+                    "VTD impessoal (termo posposto é Objeto Direto)",
+                    "KB-A09-G02-003"
+                  ],
+                  [
+                    "Existir / Ocorrer / Acontecer",
+                    "Flexiona com o sujeito",
+                    "Verbos pessoais (termo associado é Sujeito)",
+                    "KB-A09-G02-003"
+                  ],
+                  [
+                    "Haver / Fazer / Ir (Tempo decorrido)",
+                    "3ª pessoa do singular (Invariável)",
+                    "Verbos impessoais temporais",
+                    "KB-A09-G02-004"
+                  ],
+                  [
+                    "Chega de / Basta de / Passa de",
+                    "3ª pessoa do singular (Invariável)",
+                    "Expressão impessoal (preposição veda sujeito)",
+                    "KB-A09-G02-005"
+                  ],
+                  [
+                    "Locução com Principal Impessoal",
+                    "Verbo auxiliar na 3ª do singular",
+                    "O auxiliar assume a impessoalidade do principal",
+                    "KB-A09-G02-006"
+                  ],
+                  [
+                    "Locução com Principal Pessoal",
+                    "Verbo auxiliar flexiona com o sujeito",
+                    "O principal transmite a exigência de sujeito",
+                    "KB-A09-G02-006"
+                  ],
+                  [
+                    "Haver de + Infinitivo (Modal)",
+                    "Verbohaver flexiona no plural",
+                    "Haver atua como verbo auxiliar pessoal",
+                    "KB-A09-G02-007"
+                  ],
+                  [
+                    "Sujeito Oracional (Desenvolvido/Reduzido)",
+                    "3ª pessoa do singular (Invariável)",
+                    "Oração subjetiva equivale ao pronome neutro ISSO",
+                    "KB-A09-G02-008"
+                  ],
+                  [
+                    "Verbo Parecer + Oração Desenvolvida",
+                    "Parecer na 3ª pessoa do singular",
+                    "Oração inteira é o sujeito deparecer",
+                    "KB-A09-G02-011"
+                  ],
+                  [
+                    "VTD + SE + Expressão Temporal",
+                    "Verbo flexiona no plural",
+                    "Voz passiva sintética (tempo é Sujeito Paciente)",
+                    "KB-A09-G02-012"
+                  ],
+                  [
+                    "VTI + SE (ex: Trata-se de / Torce-se para)",
+                    "3ª pessoa do singular (Invariável)",
+                    "Índice de Indeterminação do Sujeito (PIS)",
+                    "KB-A09-G02-013"
+                  ],
+                  [
+                    "Pronome Relativo \"Que\" Sujeito",
+                    "Verbo concorda com o antecedente",
+                    "O \"que\" substitui sintaticamente o referente",
+                    "KB-A09-G02-015"
+                  ],
+                  [
+                    "Pronome Oblíquo \"Lhes\"",
+                    "Não altera a concordância do verbo",
+                    "Pronome preposicionado (nunca é sujeito)",
+                    "KB-A09-G02-016"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A09-G02-001",
+          "title": "O Método Operacional \"Viva Cada Verbo\" para Períodos Complexos",
+          "objective": "Executar o algoritmo decisório para O Método Operacional \"Viva Cada Verbo\" para Períodos Complexos",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de O Método Operacional \"Viva Cada Verbo\" para Períodos Complexos."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Varredura e Mapeamento",
+              "explanation": "Leia o período completo e sublinhe individualmente cada forma verbal simples e cada locução verbal.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Isolamento Oracional",
+              "explanation": "Isole a primeira oração e ignore momentaneamente as demais.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Interrogação Específica",
+              "explanation": "Formule a pergunta de localização: \"O que é que [verbo 1]?\" ou \"Quem é que [verbo 1]?\".",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Extração do Núcleo Não Preposicionado",
+              "explanation": "Localize a resposta. Descarte imediatamente todos os adjuntos introduzidos por preposição (de, com, em, entre, para, a).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Ajuste de Flexão",
+              "explanation": "Force a concordância estrita entre o núcleo não preposicionado e o Verbo 1.",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Iteração Subsequente",
+              "explanation": "Avance para o Verbo 2 e repita o processo. Jamais permita que o sujeito da Oração 2 interfira na concordância do Verbo 1.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de O Método Operacional \"Viva Cada Verbo\" para Períodos Complexos."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Evitar a perda de foco e eliminar erros induzidos por atração de palavras vizinhas, inversões sintáticas ou acúmulo de orações subordinadas."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Varredura e Mapeamento: Leia o período completo e sublinhe individualmente cada forma verbal simples e cada locução verbal.",
+                "Isolamento Oracional: Isole a primeira oração e ignore momentaneamente as demais.",
+                "Interrogação Específica: Formule a pergunta de localização: \"O que é que [verbo 1]?\" ou \"Quem é que [verbo 1]?\".",
+                "Extração do Núcleo Não Preposicionado: Localize a resposta. Descarte imediatamente todos os adjuntos introduzidos por preposição (de, com, em, entre, para, a).",
+                "Ajuste de Flexão: Force a concordância estrita entre o núcleo não preposicionado e o Verbo 1.",
+                "Iteração Subsequente: Avance para o Verbo 2 e repita o processo. Jamais permita que o sujeito da Oração 2 interfira na concordância do Verbo 1."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-002",
+          "title": "O Método do Pronome \"ISSO\" para Sujeito Oracional",
+          "objective": "Executar o algoritmo decisório para O Método do Pronome \"ISSO\" para Sujeito Oracional",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de O Método do Pronome \"ISSO\" para Sujeito Oracional."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize o verbo principal sob julgamento (ex.",
+              "explanation": "convém, basta, cabe, está claro, parece, sabe-se).",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Isole entre colchetes todo o segmento posterior que responde à pergunta do sujeito (que você venha, reduzir as despesas, mudar as regras).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Verifique se há verbo (conjugado ou no infinitivo) dentro do segmento isolado.",
+              "explanation": null,
+              "test": "Verifique se há verbo (conjugado ou no infinitivo) dentro do segmento isolado."
+            },
+            {
+              "order": 4,
+              "action": "Substitua o bloco inteiro pelo pronome demonstrativo neutro ISSO.",
+              "explanation": null,
+              "test": "Substitua o bloco inteiro pelo pronome demonstrativo neutro ISSO."
+            },
+            {
+              "order": 5,
+              "action": "Reorganize mentalmente na ordem direta",
+              "explanation": "ISSO + [verbo principal].",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Exemplo",
+              "explanation": "[Reduzir as distâncias] convém $\\rightarrow$ Isso convém.",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Exemplo",
+              "explanation": "[Que as coisas mudem] está claro $\\rightarrow$ Isso está claro.",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Como o pronome \"ISSO\" é singular neutro, fixe compulsoriamente o verbo principal na 3ª pessoa do singular.",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de O Método do Pronome \"ISSO\" para Sujeito Oracional."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identificar se o sujeito sob análise é oracional e travar com precisão o verbo principal na 3ª pessoa do singular."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize o verbo principal sob julgamento (ex.: convém, basta, cabe, está claro, parece, sabe-se).",
+                "Isole entre colchetes todo o segmento posterior que responde à pergunta do sujeito (que você venha, reduzir as despesas, mudar as regras).",
+                "Verifique se há verbo (conjugado ou no infinitivo) dentro do segmento isolado.",
+                "Substitua o bloco inteiro pelo pronome demonstrativo neutro ISSO.",
+                "Reorganize mentalmente na ordem direta: ISSO + [verbo principal]."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Exemplo: [Reduzir as distâncias] convém $\\rightarrow$ Isso convém.",
+                "Exemplo: [Que as coisas mudem] está claro $\\rightarrow$ Isso está claro."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Como o pronome \"ISSO\" é singular neutro, fixe compulsoriamente o verbo principal na 3ª pessoa do singular."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-003",
+          "title": "Regra Operacional das Locuções Verbais (\"Mantra Principal/Auxiliar\")",
+          "objective": "Executar o algoritmo decisório para Regra Operacional das Locuções Verbais (\"Mantra Principal/Auxiliar\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Regra Operacional das Locuções Verbais (\"Mantra Principal/Auxiliar\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize a cadeia verbal [Verbo Auxiliar] + [Verbo Principal].",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Ignore a flexão do auxiliar no primeiro momento e olhe exclusivamente para o último verbo (Principal).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Avalie a natureza do Verbo Principal",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Caso A — Principal Impessoal (haver no sentido de existir/tempo; fazer temporal)",
+              "explanation": "O principal não tem sujeito e transmite sua impessoalidade. O auxiliar fica travado na 3ª pessoa do singular (Deve haver motivos, Vai fazer dez anos).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Caso B — Principal Pessoal (existir, ocorrer, acontecer, precipitar-se)",
+              "explanation": "O principal exige sujeito. Localize o sujeito da oração e flexione o auxiliar no plural ou singular (Devem existir motivos, Hão de precipitar-se desavenças).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Regra Operacional das Locuções Verbais (\"Mantra Principal/Auxiliar\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Julgar e flexionar corretamente o verbo auxiliar em cadeias verbais."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize a cadeia verbal [Verbo Auxiliar] + [Verbo Principal].",
+                "Ignore a flexão do auxiliar no primeiro momento e olhe exclusivamente para o último verbo (Principal).",
+                "Avalie a natureza do Verbo Principal:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Caso A — Principal Impessoal (haver no sentido de existir/tempo; fazer temporal): O principal não tem sujeito e transmite sua impessoalidade. O auxiliar fica travado na 3ª pessoa do singular (Deve haver motivos, Vai fazer dez anos).",
+                "Caso B — Principal Pessoal (existir, ocorrer, acontecer, precipitar-se): O principal exige sujeito. Localize o sujeito da oração e flexione o auxiliar no plural ou singular (Devem existir motivos, Hão de precipitar-se desavenças)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-004",
+          "title": "Teste da Voz Passiva Analítica para Diferenciação entre PA e PIS",
+          "objective": "Executar o algoritmo decisório para Teste da Voz Passiva Analítica para Diferenciação entre PA e PIS",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste da Voz Passiva Analítica para Diferenciação entre PA e PIS."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identifique o verbo e examine sua predicação",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Se o verbo for Transitivo Direto (VTD) sem preposição",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Faça o teste de conversão para a voz passiva analítica (Sujeito + Verbo Ser + Particípio).",
+              "explanation": null,
+              "test": "Faça o teste de conversão para a voz passiva analítica (Sujeito + Verbo Ser + Particípio)."
+            },
+            {
+              "order": 4,
+              "action": "Exemplo",
+              "explanation": "Comentam-se assuntos tristes $\\rightarrow$ Assuntos tristes são comentados (Possível).",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Classificação",
+              "explanation": "O SE é Partícula Apassivadora (PA). O verbo concorda com o sujeito paciente.",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Se o verbo for Transitivo Indireto (VTI) com preposição regida",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Tente fazer a conversão analítica",
+              "explanation": "Torce-se para as crianças $\\rightarrow$ \\*\"Para as crianças é torcido\" (Impossível).",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Classificação",
+              "explanation": "O SE é Partícula de Indeterminação do Sujeito (PIS). O verbo fica fixo na 3ª pessoa do singular (Torce-se).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste da Voz Passiva Analítica para Diferenciação entre PA e PIS."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identificar se uma estrutura com SE exige flexão com o sujeito paciente ou se permanece travada no singular por indeterminação."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identifique o verbo e examine sua predicação:",
+                "Se o verbo for Transitivo Direto (VTD) sem preposição:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Faça o teste de conversão para a voz passiva analítica (Sujeito + Verbo Ser + Particípio).",
+                "Exemplo: Comentam-se assuntos tristes $\\rightarrow$ Assuntos tristes são comentados (Possível).",
+                "Classificação: O SE é Partícula Apassivadora (PA). O verbo concorda com o sujeito paciente."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Se o verbo for Transitivo Indireto (VTI) com preposição regida:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Tente fazer a conversão analítica: Torce-se para as crianças $\\rightarrow$ \\*\"Para as crianças é torcido\" (Impossível).",
+                "Classificação: O SE é Partícula de Indeterminação do Sujeito (PIS). O verbo fica fixo na 3ª pessoa do singular (Torce-se)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-005",
+          "title": "Desambiguação de Antecedente do Pronome \"Que\" (\"O Que Vem Depois Salva\")",
+          "objective": "Executar o algoritmo decisório para Desambiguação de Antecedente do Pronome \"Que\" (\"O Que Vem Depois Salva\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Desambiguação de Antecedente do Pronome \"Que\" (\"O Que Vem Depois Salva\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Isole a estrutura ambígua",
+              "explanation": "A validação [Subst 1 sing.] dos critérios [Subst 2 plur.] que se (apresentar)...",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Não tente adivinhar o antecedente olhando apenas para os termos que vêm antes.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Leia o predicativo, adjetivo ou complemento que vem DEPOIS do verbo subordinado.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Analise a quem o complemento pós-verbal qualifica semanticamente",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "No texto",
+              "explanation": "\"...que se apresentam como parâmetros aceitáveis\".",
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "O termo parâmetros aceitáveis (plural) qualifica os critérios (e não a validação).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Conclua com segurança que o antecedente é critérios, exigindo a flexão no plural",
+              "explanation": "se apresentam.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Desambiguação de Antecedente do Pronome \"Que\" (\"O Que Vem Depois Salva\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Definir o referente que governa a concordância do pronome relativo que em estruturas com duplo antecedente (Substantivo 1 + de + Substantivo 2)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isole a estrutura ambígua: A validação [Subst 1 sing.] dos critérios [Subst 2 plur.] que se (apresentar)...",
+                "Não tente adivinhar o antecedente olhando apenas para os termos que vêm antes.",
+                "Leia o predicativo, adjetivo ou complemento que vem DEPOIS do verbo subordinado.",
+                "Analise a quem o complemento pós-verbal qualifica semanticamente:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "No texto: \"...que se apresentam como parâmetros aceitáveis\".",
+                "O termo parâmetros aceitáveis (plural) qualifica os critérios (e não a validação)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Conclua com segurança que o antecedente é critérios, exigindo a flexão no plural: se apresentam."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-006",
+          "title": "Teste de Substituição HAVER vs. EXISTIR",
+          "objective": "Executar o algoritmo decisório para Teste de Substituição HAVER vs. EXISTIR",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste de Substituição HAVER vs. EXISTIR."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Verifique se o verbo expressa existência ou acontecimento.",
+              "explanation": null,
+              "test": "Verifique se o verbo expressa existência ou acontecimento."
+            },
+            {
+              "order": 2,
+              "action": "Ao usar HAVER",
+              "explanation": "Empregue estritamente na 3ª pessoa do singular (Havia / Houve / Há). O termo substantivo seguinte é objeto direto.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Ao trocar por EXISTIR",
+              "explanation": "Identifique o substantivo associado: ele passa a ser o sujeito sintático. Flexione o verbo existir no singular ou no plural concordando com ele (Existiam dúvidas / Existem problemas).",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste de Substituição HAVER vs. EXISTIR."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Realizar a correta transposição entre orações existenciais."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Verifique se o verbo expressa existência ou acontecimento.",
+                "Ao usar HAVER: Empregue estritamente na 3ª pessoa do singular (Havia / Houve / Há). O termo substantivo seguinte é objeto direto.",
+                "Ao trocar por EXISTIR: Identifique o substantivo associado: ele passa a ser o sujeito sintático. Flexione o verbo existir no singular ou no plural concordando com ele (Existiam dúvidas / Existem problemas)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A09-G02-007",
+          "title": "Teste Semântico para Verbos Meteorológicos (Literal vs. Figurado)",
+          "objective": "Executar o algoritmo decisório para Teste Semântico para Verbos Meteorológicos (Literal vs. Figurado)",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Teste Semântico para Verbos Meteorológicos (Literal vs. Figurado)."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Localize verbos como chover, nevar, relampejar, amanhecer.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Avalie o contexto",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Se tratar-se de evento climático físico da natureza $\\rightarrow$ Oração sem sujeito $\\rightarrow$ Verbo no singular invariável (Choveu torrencialmente).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Se tratar-se de uso metafórico/figurado indicando abundância $\\rightarrow$ Identifique o sujeito e flexione o verbo (Choveram ofertas de emprego).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Teste Semântico para Verbos Meteorológicos (Literal vs. Figurado)."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Objetivo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Definir a flexão de verbos que indicam processos climáticos."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Localize verbos como chover, nevar, relampejar, amanhecer.",
+                "Avalie o contexto:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Se tratar-se de evento climático físico da natureza $\\rightarrow$ Oração sem sujeito $\\rightarrow$ Verbo no singular invariável (Choveu torrencialmente).",
+                "Se tratar-se de uso metafórico/figurado indicando abundância $\\rightarrow$ Identifique o sujeito e flexione o verbo (Choveram ofertas de emprego)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A09-G02-001",
+          "title": "1. HAVER Existencial vs. EXISTIR Pessoal",
+          "contrastType": "mixed",
+          "conceptA": "1. HAVER Existencial vs. EXISTIR Pessoal",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G02-002",
+              "table": {
+                "tableId": "TABLE-IP-A09-G02-002",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Comparação",
+                  "Verbo HAVER (= existir/ocorrer)",
+                  "Verbo EXISTIR / OCORRER / ACONTECER"
+                ],
+                "rows": [
+                  [
+                    "Pessoalidade Sintática",
+                    "Impessoal (sem sujeito)",
+                    "Pessoal (possui sujeito expresso)"
+                  ],
+                  [
+                    "Regra de Concordância",
+                    "Invariável na 3ª pessoa do singular",
+                    "Flexiona regularmente com o sujeito"
+                  ],
+                  [
+                    "Função do Termo Associado",
+                    "Objeto Direto (OD)",
+                    "Sujeito Sintático da oração"
+                  ],
+                  [
+                    "Comportamento em Locuções",
+                    "Auxiliar fica no singular (Deve haver dúvidas)",
+                    "Auxiliar flexiona no plural (Devem existir dúvidas)"
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "Havia muitos candidatos na sala.",
+                    "Existiam muitos candidatos na sala."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A09-G02-002",
+          "title": "2. HAVER Impessoal vs. HAVER de Auxiliar Modal",
+          "contrastType": "mixed",
+          "conceptA": "2. HAVER Impessoal vs. HAVER de Auxiliar Modal",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G02-003",
+              "table": {
+                "tableId": "TABLE-IP-A09-G02-003",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Comparação",
+                  "HAVER Impessoal (Existência / Tempo)",
+                  "HAVER em \"Haver de + Infinitivo\""
+                ],
+                "rows": [
+                  [
+                    "Posição na Estrutura",
+                    "Verbo principal isolado ou último da locução",
+                    "Verbo auxiliar (primeiro verbo da locução)"
+                  ],
+                  [
+                    "Valor Semântico",
+                    "Existir, ocorrer, tempo decorrido",
+                    "Dever, ter de, destinar-se, futuro"
+                  ],
+                  [
+                    "Flexão Numérica",
+                    "Travado na 3ª pessoa do singular",
+                    "Flexiona normalmente (hão de, haviam de)"
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "Poderá haver novas reuniões.",
+                    "Aqueles que hão de pesquisar a matéria."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A09-G02-003",
+          "title": "3. Partícula Apassivadora (PA) vs. Índice de Indeterminação (PIS)",
+          "contrastType": "syntactic",
+          "conceptA": "3. Partícula Apassivadora (PA) vs. Índice de Indeterminação (PIS)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G02-004",
+              "table": {
+                "tableId": "TABLE-IP-A09-G02-004",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Comparação",
+                  "Partícula Apassivadora (PA)",
+                  "Índice de Indeterminação do Sujeito (PIS)"
+                ],
+                "rows": [
+                  [
+                    "Transitividade do Verbo",
+                    "VTD ou VTDI",
+                    "VTI, VI ou VL"
+                  ],
+                  [
+                    "Presença de Preposição",
+                    "Termo não preposicionado",
+                    "Termo obrigatoriamente preposicionado"
+                  ],
+                  [
+                    "Transposição Analítica",
+                    "Possível (verbo ser + particípio)",
+                    "Totalmente impossível"
+                  ],
+                  [
+                    "Regra de Flexão",
+                    "Verbo concorda com o sujeito paciente",
+                    "Verbo fixo na 3ª pessoa do singular"
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "Comentam-se assuntos tristes.",
+                    "Torce-se para as crianças."
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A09-G02-004",
+          "title": "4. Sujeito Simples Plural vs. Sujeito Oracional",
+          "contrastType": "syntactic",
+          "conceptA": "4. Sujeito Simples Plural vs. Sujeito Oracional",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A09-G02-005",
+              "table": {
+                "tableId": "TABLE-IP-A09-G02-005",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Parâmetro de Comparação",
+                  "Sujeito Simples Substantivo Plural",
+                  "Sujeito Oracional (Oração Subjetiva)"
+                ],
+                "rows": [
+                  [
+                    "Estrutura Interna",
+                    "Núcleo nominal (sem verbo)",
+                    "Possui forma verbal (desenvolvida ou reduzida)"
+                  ],
+                  [
+                    "Equivalência Prática",
+                    "Eles / Elas / Aqueles",
+                    "Pronome neutroISSO"
+                  ],
+                  [
+                    "Concordância do Verbo",
+                    "Verbo flexiona no plural",
+                    "Verbo permanece fixo na 3ª pessoa do singular"
+                  ],
+                  [
+                    "Exemplo de Contraste",
+                    "Bastam amigos verdadeiros.",
+                    "Basta que você tenha amigos verdadeiros."
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-001",
+          "title": "EX-A09-G02-001 — Exercício de Fixação 27: Choveu vs. Choveram",
+          "prompt": "Enunciado: 27)  bastante em alguns bairros. (Choveu/Choveram)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "27)  bastante em alguns bairros. (Choveu/Choveram)"
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "Choveu"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa Pedagógica",
+              "rationale": "O verbo exprime evento meteorológico real na natureza. Sendo impessoal, constitui oração sem sujeito e deve ser fixado na 3ª pessoa do singular."
+            },
+            {
+              "order": 4,
+              "action": "Contraste Didático",
+              "rationale": "\"Choveram reclamações no grupo\" (Sentido figurado $\\rightarrow$ reclamações é sujeito simples plural $\\rightarrow$ verbo flexionado no plural)."
+            }
+          ],
+          "result": "Contraste Didático: \"Choveram reclamações no grupo\" (Sentido figurado $\\rightarrow$ reclamações é sujeito simples plural $\\rightarrow$ verbo flexionado no plural).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-001 — Exercício de Fixação 27: Choveu vs. Choveram sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-001 — Exercício de Fixação 27: Choveu vs. Choveram.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-001 — Exercício de Fixação 27: Choveu vs. Choveram.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 27)  bastante em alguns bairros. (Choveu/Choveram)",
+                "Gabarito: Choveu",
+                "Justificativa Pedagógica: O verbo exprime evento meteorológico real na natureza. Sendo impessoal, constitui oração sem sujeito e deve ser fixado na 3ª pessoa do singular.",
+                "Contraste Didático: \"Choveram reclamações no grupo\" (Sentido figurado $\\rightarrow$ reclamações é sujeito simples plural $\\rightarrow$ verbo flexionado no plural)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-002",
+          "title": "EX-A09-G02-002 — Exercício de Fixação 28: Havia vs. Haviam",
+          "prompt": "Enunciado: 28)  dúvidas sobre aquele ponto da matéria. (Havia/Haviam)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "28)  dúvidas sobre aquele ponto da matéria. (Havia/Haviam)"
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "Havia"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa Pedagógica",
+              "rationale": "O verbo haver é empregado no sentido de existir. Sendo VTD impessoal, não possui sujeito; dúvidas é objeto direto. O verbo permanece na 3ª pessoa do singular."
+            },
+            {
+              "order": 4,
+              "action": "Contraste Didático",
+              "rationale": "\"Existiam dúvidas sobre aquele ponto\" (O verbo existir é pessoal e concorda com o sujeito plural dúvidas)."
+            }
+          ],
+          "result": "Contraste Didático: \"Existiam dúvidas sobre aquele ponto\" (O verbo existir é pessoal e concorda com o sujeito plural dúvidas).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-002 — Exercício de Fixação 28: Havia vs. Haviam sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-002 — Exercício de Fixação 28: Havia vs. Haviam.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-002 — Exercício de Fixação 28: Havia vs. Haviam.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 28)  dúvidas sobre aquele ponto da matéria. (Havia/Haviam)",
+                "Gabarito: Havia",
+                "Justificativa Pedagógica: O verbo haver é empregado no sentido de existir. Sendo VTD impessoal, não possui sujeito; dúvidas é objeto direto. O verbo permanece na 3ª pessoa do singular.",
+                "Contraste Didático: \"Existiam dúvidas sobre aquele ponto\" (O verbo existir é pessoal e concorda com o sujeito plural dúvidas)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-003",
+          "title": "EX-A09-G02-003 — Exercício de Fixação 29: Poderá vs. Poderão haver",
+          "prompt": "Enunciado: 29)  haver novas rebeliões. (Poderá/Poderão)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "29)  haver novas rebeliões. (Poderá/Poderão)"
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "Poderá"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa Pedagógica",
+              "rationale": "Na locução poderá haver, o verbo principal é haver (= existir). Sendo o principal impessoal, o verbo auxiliar poder absorve a impessoalidade e fica obrigatoriamente no singular."
+            },
+            {
+              "order": 4,
+              "action": "Contraste Didático",
+              "rationale": "\"Poderão existir novas rebeliões\" (Com o verbo principal pessoal existir, o auxiliar poderão flexiona-se no plural para concordar com o sujeito novas rebeliões)."
+            }
+          ],
+          "result": "Contraste Didático: \"Poderão existir novas rebeliões\" (Com o verbo principal pessoal existir, o auxiliar poderão flexiona-se no plural para concordar com o sujeito novas rebeliões).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-003 — Exercício de Fixação 29: Poderá vs. Poderão haver sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-003 — Exercício de Fixação 29: Poderá vs. Poderão haver.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-003 — Exercício de Fixação 29: Poderá vs. Poderão haver.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 29)  haver novas rebeliões. (Poderá/Poderão)",
+                "Gabarito: Poderá",
+                "Justificativa Pedagógica: Na locução poderá haver, o verbo principal é haver (= existir). Sendo o principal impessoal, o verbo auxiliar poder absorve a impessoalidade e fica obrigatoriamente no singular.",
+                "Contraste Didático: \"Poderão existir novas rebeliões\" (Com o verbo principal pessoal existir, o auxiliar poderão flexiona-se no plural para concordar com o sujeito novas rebeliões)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-004",
+          "title": "EX-A09-G02-004 — Exercício de Fixação 30: HAVER Temporal",
+          "prompt": "Enunciado: 30) Falei da angústia que  dias me devorava. (havia/haviam)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "30) Falei da angústia que  dias me devorava. (havia/haviam)"
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "havia"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa Pedagógica",
+              "rationale": "Trata-se do verbo haver indicando tempo decorrido. Por ser impessoal, não se flexiona no plural, ficando restrito à 3ª pessoa do singular (havia dias)."
+            }
+          ],
+          "result": "Justificativa Pedagógica: Trata-se do verbo haver indicando tempo decorrido. Por ser impessoal, não se flexiona no plural, ficando restrito à 3ª pessoa do singular (havia dias).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-004 — Exercício de Fixação 30: HAVER Temporal sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-004 — Exercício de Fixação 30: HAVER Temporal.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-004 — Exercício de Fixação 30: HAVER Temporal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 30) Falei da angústia que  dias me devorava. (havia/haviam)",
+                "Gabarito: havia",
+                "Justificativa Pedagógica: Trata-se do verbo haver indicando tempo decorrido. Por ser impessoal, não se flexiona no plural, ficando restrito à 3ª pessoa do singular (havia dias)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-005",
+          "title": "EX-A09-G02-005 — Exercício de Fixação 31: FAZER Temporal e Verbo IR",
+          "prompt": "Enunciado: 31)  dez meses que não recebo notícias dele. (Faz/Fazem)",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "31)  dez meses que não recebo notícias dele. (Faz/Fazem)"
+            },
+            {
+              "order": 2,
+              "action": "Gabarito",
+              "rationale": "Faz"
+            },
+            {
+              "order": 3,
+              "action": "Justificativa Pedagógica",
+              "rationale": "O verbo fazer na indicação de tempo transcorrido é impessoal e não admite plural."
+            },
+            {
+              "order": 4,
+              "action": "Exemplo Suplementar da Aula",
+              "rationale": "\"Vai para dois anos que o espero\" (O verbo ir temporal também atua como impessoal e invariável no singular)."
+            }
+          ],
+          "result": "Exemplo Suplementar da Aula: \"Vai para dois anos que o espero\" (O verbo ir temporal também atua como impessoal e invariável no singular).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-005 — Exercício de Fixação 31: FAZER Temporal e Verbo IR sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-005 — Exercício de Fixação 31: FAZER Temporal e Verbo IR.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-005 — Exercício de Fixação 31: FAZER Temporal e Verbo IR.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: 31)  dez meses que não recebo notícias dele. (Faz/Fazem)",
+                "Gabarito: Faz",
+                "Justificativa Pedagógica: O verbo fazer na indicação de tempo transcorrido é impessoal e não admite plural.",
+                "Exemplo Suplementar da Aula: \"Vai para dois anos que o espero\" (O verbo ir temporal também atua como impessoal e invariável no singular)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-006",
+          "title": "EX-A09-G02-006 — Exercícios de Fixação 32 e 33: Expressões CHEGA DE e PASSA DE",
+          "prompt": "Enunciados:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciados",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "2)  reclamações. (Chega de/Chegam de)",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "3)  duas horas. (Passa de/ Passam de)",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "Gabaritos",
+              "rationale": "32) Chega de | 33) Passa de"
+            },
+            {
+              "order": 5,
+              "action": "Justificativa Pedagógica",
+              "rationale": "As expressões verbais acompanhadas da preposição de são impessoais. Por serem preposicionados, os termos reclamações e duas horas não podem exercer função de sujeito."
+            }
+          ],
+          "result": "Justificativa Pedagógica: As expressões verbais acompanhadas da preposição de são impessoais. Por serem preposicionados, os termos reclamações e duas horas não podem exercer função de sujeito.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-006 — Exercícios de Fixação 32 e 33: Expressões CHEGA DE e PASSA DE sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-006 — Exercícios de Fixação 32 e 33: Expressões CHEGA DE e PASSA DE.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-006 — Exercícios de Fixação 32 e 33: Expressões CHEGA DE e PASSA DE.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciados:",
+                "32)  reclamações. (Chega de/Chegam de)",
+                "33)  duas horas. (Passa de/ Passam de)",
+                "Gabaritos: 32) Chega de | 33) Passa de",
+                "Justificativa Pedagógica: As expressões verbais acompanhadas da preposição de são impessoais. Por serem preposicionados, os termos reclamações e duas horas não podem exercer função de sujeito."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-007",
+          "title": "EX-A09-G02-007 — Questão 27 (VUNESP 2020 — Pref. Ilhabela/SP — Técnico em Enfermagem)",
+          "prompt": "Enunciado: O verbo há na frase – São Paulo revive mesmas enchentes há 91 anos – está corretamente alterado, de acordo com a norma-padrão da concordância, em:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "O verbo há na frase – São Paulo revive mesmas enchentes há 91 anos – está corretamente alterado, de acordo com a norma-padrão da concordância, em:"
+            },
+            {
+              "order": 2,
+              "action": "(A) Fazem. | (B) devem fazer. | (C) faz. | (D) podem fazer. | (E) farão.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "Gabarito Oficial",
+              "rationale": "C"
+            },
+            {
+              "order": 4,
+              "action": "Justificativa Pedagógica",
+              "rationale": "O verbo haver indica tempo decorrido. Ao ser substituído por fazer com idêntico valor semântico temporal, este herda a impessoalidade e deve fixar-se na 3ª pessoa do singular (faz)."
+            }
+          ],
+          "result": "Justificativa Pedagógica: O verbo haver indica tempo decorrido. Ao ser substituído por fazer com idêntico valor semântico temporal, este herda a impessoalidade e deve fixar-se na 3ª pessoa do singular (faz).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-007 — Questão 27 (VUNESP 2020 — Pref. Ilhabela/SP — Técnico em Enfermagem) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-007 — Questão 27 (VUNESP 2020 — Pref. Ilhabela/SP — Técnico em Enfermagem).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-007 — Questão 27 (VUNESP 2020 — Pref. Ilhabela/SP — Técnico em Enfermagem).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: O verbo há na frase – São Paulo revive mesmas enchentes há 91 anos – está corretamente alterado, de acordo com a norma-padrão da concordância, em:",
+                "(A) Fazem. | (B) devem fazer. | (C) faz. | (D) podem fazer. | (E) farão.",
+                "Gabarito Oficial: C",
+                "Justificativa Pedagógica: O verbo haver indica tempo decorrido. Ao ser substituído por fazer com idêntico valor semântico temporal, este herda a impessoalidade e deve fixar-se na 3ª pessoa do singular (faz)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-008",
+          "title": "EX-A09-G02-008 — Questão 28 (VUNESP 2020 — Pref. São Roque/SP — Advogado)",
+          "prompt": "Enunciado: Substituição de três trechos textuais:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Substituição de três trechos textuais:"
+            },
+            {
+              "order": 2,
+              "action": "Historicamente, sempre existiram boatos e mentiras... $\\rightarrow$ trocar por haver.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "..numa velocidade que há poucos anos era impensável. $\\rightarrow$ trocar por fazer.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "São tentativas de fazer com que... $\\rightarrow$ trocar por tratar-se de.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Opções",
+              "rationale": "(A) houve; fazem; Tratam-se de. | (B) houve; faz; Trata-se de. | (C) houve; fazem; Trata-se de. | (D) houveram; fazem; Tratam-se de. | (E) houveram; faz; Trata-se de."
+            }
+          ],
+          "result": "Justificativa Pedagógica: 1) Haver existencial é impessoal $\\rightarrow$ houve; 2) Fazer temporal é impessoal $\\rightarrow$ faz; 3) Tratar-se de com IIS é sempre singular $\\rightarrow$ Trata-se de.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-008 — Questão 28 (VUNESP 2020 — Pref. São Roque/SP — Advogado) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-008 — Questão 28 (VUNESP 2020 — Pref. São Roque/SP — Advogado).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-008 — Questão 28 (VUNESP 2020 — Pref. São Roque/SP — Advogado).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Substituição de três trechos textuais:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Historicamente, sempre existiram boatos e mentiras... $\\rightarrow$ trocar por haver.",
+                "...numa velocidade que há poucos anos era impensável. $\\rightarrow$ trocar por fazer.",
+                "São tentativas de fazer com que... $\\rightarrow$ trocar por tratar-se de."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Opções: (A) houve; fazem; Tratam-se de. | (B) houve; faz; Trata-se de. | (C) houve; fazem; Trata-se de. | (D) houveram; fazem; Tratam-se de. | (E) houveram; faz; Trata-se de.",
+                "Gabarito Oficial: B",
+                "Justificativa Pedagógica: 1) Haver existencial é impessoal $\\rightarrow$ houve; 2) Fazer temporal é impessoal $\\rightarrow$ faz; 3) Tratar-se de com IIS é sempre singular $\\rightarrow$ Trata-se de."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-009",
+          "title": "EX-A09-G02-009 — Questão 32 (FGV 2020 — Pref. Cuiabá/MT — Contador)",
+          "prompt": "Enunciado: \"Existem relatos e vestígios dessa arte desde o Império Romano\" — Assinale a opção que indica a forma de reescrever-se essa frase que mostra uma inadequação gramatical:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "\"Existem relatos e vestígios dessa arte desde o Império Romano\" — Assinale a opção que indica a forma de reescrever-se essa frase que mostra uma inadequação gramatical:"
+            },
+            {
+              "order": 2,
+              "action": "(A) Relatos e vestígios dessa arte devem existir desde o Império Romano.",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "(B) Desde o Império Romano existem relatos e vestígios dessa arte.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "(C) Há, desde o Império Romano, relatos e vestígios dessa arte.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "(D) Dessa arte existem relatos e vestígios desde o Império Romano.",
+              "rationale": null
+            }
+          ],
+          "result": "Justificativa Pedagógica: A opção E apresenta inadequação porque na locução verbal com haver existencial (haver como principal impessoal), o verbo auxiliar deve ficar no singular: Deve haver, e nunca Devem haver.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-009 — Questão 32 (FGV 2020 — Pref. Cuiabá/MT — Contador) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-009 — Questão 32 (FGV 2020 — Pref. Cuiabá/MT — Contador).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-009 — Questão 32 (FGV 2020 — Pref. Cuiabá/MT — Contador).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: \"Existem relatos e vestígios dessa arte desde o Império Romano\" — Assinale a opção que indica a forma de reescrever-se essa frase que mostra uma inadequação gramatical:",
+                "(A) Relatos e vestígios dessa arte devem existir desde o Império Romano.",
+                "(B) Desde o Império Romano existem relatos e vestígios dessa arte.",
+                "(C) Há, desde o Império Romano, relatos e vestígios dessa arte.",
+                "(D) Dessa arte existem relatos e vestígios desde o Império Romano.",
+                "(E) Devem haver, desde o Império Romano, relatos e vestígios dessa arte.",
+                "Gabarito Oficial: E",
+                "Justificativa Pedagógica: A opção E apresenta inadequação porque na locução verbal com haver existencial (haver como principal impessoal), o verbo auxiliar deve ficar no singular: Deve haver, e nunca Devem haver."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-010",
+          "title": "EX-A09-G02-010 — Exercícios de Fixação 34 a 37: Matrizes de Sujeito Oracional",
+          "prompt": "Item 34:  que estejas aqui na hora marcada. (Convém/Convêm) $\\rightarrow$ Gabarito: Convém (Oração desenvolvida; acento agudo no singular).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Item 34",
+              "rationale": "que estejas aqui na hora marcada. (Convém/Convêm) $\\rightarrow$ Gabarito: Convém (Oração desenvolvida; acento agudo no singular)."
+            },
+            {
+              "order": 2,
+              "action": "Item 35",
+              "rationale": "mudar as regras. (Convém/Convêm) $\\rightarrow$ Gabarito: Convém (Oração reduzida de infinitivo; acento agudo no singular)."
+            },
+            {
+              "order": 3,
+              "action": "Item 36",
+              "rationale": "que as reações não podem ser diferentes. (Está claro/Estão claros) $\\rightarrow$ Gabarito: Está claro (VL + Predicativo neutro singular)."
+            },
+            {
+              "order": 4,
+              "action": "Item 37",
+              "rationale": "Os dois  que haviam acabado de comer a maçã proibida. (parecia/pareciam) $\\rightarrow$ Gabarito: parecia (O sujeito de parecia é toda a oração subordinada; Os dois é sujeito exclusivo da locução haviam acabado de comer)."
+            }
+          ],
+          "result": "Item 37: Os dois  que haviam acabado de comer a maçã proibida. (parecia/pareciam) $\\rightarrow$ Gabarito: parecia (O sujeito de parecia é toda a oração subordinada; Os dois é sujeito exclusivo da locução haviam acabado de comer).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-010 — Exercícios de Fixação 34 a 37: Matrizes de Sujeito Oracional sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-010 — Exercícios de Fixação 34 a 37: Matrizes de Sujeito Oracional.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-010 — Exercícios de Fixação 34 a 37: Matrizes de Sujeito Oracional.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Item 34:  que estejas aqui na hora marcada. (Convém/Convêm) $\\rightarrow$ Gabarito: Convém (Oração desenvolvida; acento agudo no singular).",
+                "Item 35:  mudar as regras. (Convém/Convêm) $\\rightarrow$ Gabarito: Convém (Oração reduzida de infinitivo; acento agudo no singular).",
+                "Item 36:  que as reações não podem ser diferentes. (Está claro/Estão claros) $\\rightarrow$ Gabarito: Está claro (VL + Predicativo neutro singular).",
+                "Item 37: Os dois  que haviam acabado de comer a maçã proibida. (parecia/pareciam) $\\rightarrow$ Gabarito: parecia (O sujeito de parecia é toda a oração subordinada; Os dois é sujeito exclusivo da locução haviam acabado de comer)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-011",
+          "title": "EX-A09-G02-011 — Questão 35 (FCC 2019 — TRF 3ª Região — Analista Judiciário)",
+          "prompt": "Enunciado: O verbo indicado entre parênteses deverá flexionar-se numa forma do singular para integrar corretamente a frase:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "O verbo indicado entre parênteses deverá flexionar-se numa forma do singular para integrar corretamente a frase:"
+            },
+            {
+              "order": 2,
+              "action": "(A) As respostas que se (aguardar) para essa questão... [Gera",
+              "rationale": "aguardam - PA com sujeito plural respostas]"
+            },
+            {
+              "order": 3,
+              "action": "(B) A propósito dessa exata definição... com que se (afligir) os antropólogos... [Gera",
+              "rationale": "afligem - Sujeito posposto os antropólogos]"
+            },
+            {
+              "order": 4,
+              "action": "(C) Não (dever) caber aos sociólogos ou antropólogos definir açodadamente o que seja uma estrutura social.",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "(D) Àqueles que (haver) de pesquisar o funcionamento de uma sociedade... [Gera",
+              "rationale": "hão / haverão - Locução modal com sujeito aqueles]"
+            }
+          ],
+          "result": "Justificativa Pedagógica: Na locução não deve caber, o sujeito é a oração reduzida de infinitivo definir açodadamente o que seja uma estrutura social (Isso não deve caber). O sujeito oracional impõe a locução no singular (Não deve caber).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-011 — Questão 35 (FCC 2019 — TRF 3ª Região — Analista Judiciário) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-011 — Questão 35 (FCC 2019 — TRF 3ª Região — Analista Judiciário).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-011 — Questão 35 (FCC 2019 — TRF 3ª Região — Analista Judiciário).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: O verbo indicado entre parênteses deverá flexionar-se numa forma do singular para integrar corretamente a frase:",
+                "(A) As respostas que se (aguardar) para essa questão... [Gera: aguardam - PA com sujeito plural respostas]",
+                "(B) A propósito dessa exata definição... com que se (afligir) os antropólogos... [Gera: afligem - Sujeito posposto os antropólogos]",
+                "(C) Não (dever) caber aos sociólogos ou antropólogos definir açodadamente o que seja uma estrutura social.",
+                "(D) Àqueles que (haver) de pesquisar o funcionamento de uma sociedade... [Gera: hão / haverão - Locução modal com sujeito aqueles]",
+                "(E) A validação dos critérios que se (apresentar) como parâmetros aceitáveis... [Gera: apresentam - \"Que\" retoma critérios]",
+                "Gabarito Oficial: C",
+                "Justificativa Pedagógica: Na locução não deve caber, o sujeito é a oração reduzida de infinitivo definir açodadamente o que seja uma estrutura social (Isso não deve caber). O sujeito oracional impõe a locução no singular (Não deve caber)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-012",
+          "title": "EX-A09-G02-012 — Questão 36 (FCC 2019 — TRF 4ª Região — Oficial de Justiça Avaliador)",
+          "prompt": "Enunciado: O verbo indicado entre parênteses deverá flexionar-se numa forma do singular na frase:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "O verbo indicado entre parênteses deverá flexionar-se numa forma do singular na frase:"
+            },
+            {
+              "order": 2,
+              "action": "(A) Nem ao sonho, nem à realidade (caber) fazer restrições, uma vez que ambos sempre se compuseram...",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "(B) Sempre (haver) de precipitar-se desavenças inúteis... [Gera",
+              "rationale": "hão de precipitar-se - Sujeito desavenças]"
+            },
+            {
+              "order": 4,
+              "action": "(C) Não (constar) em nosso passado de civilizados incongruências fatais... [Gera",
+              "rationale": "constam - Sujeito posposto incongruências]"
+            },
+            {
+              "order": 5,
+              "action": "(D) É comum que mesmo numa relação familiar (atingir) uma proporção inaudita as desavenças... [Gera",
+              "rationale": "atingem - Sujeito posposto as desavenças]"
+            }
+          ],
+          "result": "Justificativa Pedagógica: Nem ao sonho, nem à realidade são termos preposicionados/craseados (objetos indiretos). O sujeito do verbo caber é a oração reduzida fazer restrições (Isso cabe). O sujeito oracional exige o verbo na 3ª pessoa do singular (cabe).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-012 — Questão 36 (FCC 2019 — TRF 4ª Região — Oficial de Justiça Avaliador) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-012 — Questão 36 (FCC 2019 — TRF 4ª Região — Oficial de Justiça Avaliador).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-012 — Questão 36 (FCC 2019 — TRF 4ª Região — Oficial de Justiça Avaliador).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: O verbo indicado entre parênteses deverá flexionar-se numa forma do singular na frase:",
+                "(A) Nem ao sonho, nem à realidade (caber) fazer restrições, uma vez que ambos sempre se compuseram...",
+                "(B) Sempre (haver) de precipitar-se desavenças inúteis... [Gera: hão de precipitar-se - Sujeito desavenças]",
+                "(C) Não (constar) em nosso passado de civilizados incongruências fatais... [Gera: constam - Sujeito posposto incongruências]",
+                "(D) É comum que mesmo numa relação familiar (atingir) uma proporção inaudita as desavenças... [Gera: atingem - Sujeito posposto as desavenças]",
+                "(E) Não deixa de ser uma ironia que a idealistas e realistas (poder) eventualmente contrapor-se os indiferentes... [Gera: possam / podem - Sujeito posposto os indiferentes]",
+                "Gabarito Oficial: A",
+                "Justificativa Pedagógica: Nem ao sonho, nem à realidade são termos preposicionados/craseados (objetos indiretos). O sujeito do verbo caber é a oração reduzida fazer restrições (Isso cabe). O sujeito oracional exige o verbo na 3ª pessoa do singular (cabe)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-013",
+          "title": "EX-A09-G02-013 — Questão 34 (VUNESP 2018 — Pref. São Bernardo do Campo/SP — Analista)",
+          "prompt": "Enunciado: Assinale a alternativa em que a concordância está de acordo com a norma-padrão:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa em que a concordância está de acordo com a norma-padrão:"
+            },
+            {
+              "order": 2,
+              "action": "(A) Muitas pesquisas vem demonstrando... [Incorreta",
+              "rationale": "falta acento circunflexo em vêm]."
+            },
+            {
+              "order": 3,
+              "action": "(B) A produtividade de funcionários que riem são comprovadamente maiores. [Incorreta",
+              "rationale": "sujeito é produtividade, exige é comprovadamente maior]."
+            },
+            {
+              "order": 4,
+              "action": "(C) São necessárias valorizar a desconcentração... [Incorreta",
+              "rationale": "sujeito oracional valorizar..., exige É necessário valorizar]."
+            },
+            {
+              "order": 5,
+              "action": "(D) Ter um cérebro relaxado é importante para desenvolver uma mente criativa.",
+              "rationale": null
+            }
+          ],
+          "result": "Justificativa Pedagógica: A oração Ter um cérebro relaxado atua como sujeito oracional de é importante (Isso é importante), justificando plenamente o singular.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-013 — Questão 34 (VUNESP 2018 — Pref. São Bernardo do Campo/SP — Analista) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-013 — Questão 34 (VUNESP 2018 — Pref. São Bernardo do Campo/SP — Analista).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-013 — Questão 34 (VUNESP 2018 — Pref. São Bernardo do Campo/SP — Analista).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa em que a concordância está de acordo com a norma-padrão:",
+                "(A) Muitas pesquisas vem demonstrando... [Incorreta: falta acento circunflexo em vêm].",
+                "(B) A produtividade de funcionários que riem são comprovadamente maiores. [Incorreta: sujeito é produtividade, exige é comprovadamente maior].",
+                "(C) São necessárias valorizar a desconcentração... [Incorreta: sujeito oracional valorizar..., exige É necessário valorizar].",
+                "(D) Ter um cérebro relaxado é importante para desenvolver uma mente criativa.",
+                "(E) A taxa de resolução dos testes crescem... [Incorreta: núcleo é taxa, exige cresce].",
+                "Gabarito Oficial: D",
+                "Justificativa Pedagógica: A oração Ter um cérebro relaxado atua como sujeito oracional de é importante (Isso é importante), justificando plenamente o singular."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A09-G02-014",
+          "title": "EX-A09-G02-014 — Questão 37 (VUNESP 2018 — Pref. Buritizal/SP — Agrônomo)",
+          "prompt": "Enunciado: Assinale a alternativa redigida de acordo com a norma-padrão de concordância:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Enunciado",
+              "rationale": "Assinale a alternativa redigida de acordo com a norma-padrão de concordância:"
+            },
+            {
+              "order": 2,
+              "action": "(A) Sabe-se que o adulto deve ter clareza ao falar a crianças que verdadeiramente o ouça. [Erro",
+              "rationale": "ouça $\\rightarrow$ ouçam]."
+            },
+            {
+              "order": 3,
+              "action": "(B) Acredita-se que se deveriam incluir os temas do luto e da morte no currículo escolar.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "(C) Quase não se comenta assuntos tristes e torcem-se para as crianças não fazer perguntas. [Três erros",
+              "rationale": "comentam-se assuntos; torce-se para; não fazerem]."
+            },
+            {
+              "order": 5,
+              "action": "(D) Quando chega certas datas especiais, fica complicado para algumas crianças a comemoração. [Erros",
+              "rationale": "chegam; complicada]."
+            }
+          ],
+          "result": "Justificativa Pedagógica: Acredita-se está no singular por ter sujeito oracional (Isso é acreditado). Na oração subordinada, se deveriam incluir os temas é voz passiva sintética legítima (os temas deveriam ser incluídos), justificando a flexão plural do verbo auxiliar deveriam.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A09-G02-014 — Questão 37 (VUNESP 2018 — Pref. Buritizal/SP — Agrônomo) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A09-G02-014 — Questão 37 (VUNESP 2018 — Pref. Buritizal/SP — Agrônomo).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A09-G02-014 — Questão 37 (VUNESP 2018 — Pref. Buritizal/SP — Agrônomo).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Enunciado: Assinale a alternativa redigida de acordo com a norma-padrão de concordância:",
+                "(A) Sabe-se que o adulto deve ter clareza ao falar a crianças que verdadeiramente o ouça. [Erro: ouça $\\rightarrow$ ouçam].",
+                "(B) Acredita-se que se deveriam incluir os temas do luto e da morte no currículo escolar.",
+                "(C) Quase não se comenta assuntos tristes e torcem-se para as crianças não fazer perguntas. [Três erros: comentam-se assuntos; torce-se para; não fazerem].",
+                "(D) Quando chega certas datas especiais, fica complicado para algumas crianças a comemoração. [Erros: chegam; complicada].",
+                "(E) Constatam-se que algumas crianças que perderam os pais tem dificuldade... [Erros: Constata-se que; têm dificuldade].",
+                "Gabarito Oficial: B",
+                "Justificativa Pedagógica: Acredita-se está no singular por ter sujeito oracional (Isso é acreditado). Na oração subordinada, se deveriam incluir os temas é voz passiva sintética legítima (os temas deveriam ser incluídos), justificando a flexão plural do verbo auxiliar deveriam."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "callout",
+          "text": "\"Quem manda é o principal, quem obedece é o auxiliar.\" Em qualquer questão envolvendo locução verbal, não olhe primeiro para o verbo auxiliar flexionado. Olhe diretamente para o último verbo da cadeia (o verbo principal). Se o principal for impessoal (haver existencial ou fazer temporal), trave o auxiliar no singular. Se o principal for pessoal (existir, ocorrer), faça o auxiliar concordar com o sujeito da oração.",
+          "kind": "note"
+        },
+        {
+          "type": "callout",
+          "text": "Diante de estruturas com verbos como convém, basta, cumpre, cabe, parece, está claro, é necessário, substitua toda a oração iniciada por que ou iniciada por verbo no infinitivo pelo pronome ISSO. A estrutura resultante (Isso convém, Isso cabe, Isso está claro) evidencia instantaneamente a necessidade inegociável da 3ª pessoa do singular.",
+          "kind": "note"
+        },
+        {
+          "type": "callout",
+          "text": "Em expressões idiomáticas como chega de, basta de, passa de, ou diante de pronomes como lhes e termos com crase (àqueles), lembre-se: sujeito preposicionado não existe na língua portuguesa. A presença da preposição anula qualquer possibilidade de o substantivo comandar a flexão do verbo.",
+          "kind": "note"
+        },
+        {
+          "type": "callout",
+          "text": "Em questões da Fundação Carlos Chagas (FCC) envolvendo o pronome relativo que precedido por expressões compostas (Substantivo 1 + de + Substantivo 2), nunca decida a concordância olhando apenas para os termos anteriores. Olhe para o predicativo, complemento ou particípio localizado DEPOIS do verbo. A terminação plural ou singular desse elemento revela com certeza matemática qual é o verdadeiro antecedente do pronome.",
+          "kind": "note"
+        },
+        {
+          "type": "callout",
+          "text": "Em provas da FGV, questões de concordância que solicitam a passagem de frases com haver para o plural costumam embutir armadilhas semânticas. Além de manter o verbo haver no singular, atente-se para não trocar artigos indefinidos (um/uma $\\rightarrow$ uns/umas) por artigos definidos (o/a $\\rightarrow$ os/as).",
+          "kind": "note"
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A09-G02-001",
+          "title": "Confundir Substantivo Plural Interno com Sujeito da Oração Principal",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Confundir Substantivo Plural Interno com Sujeito da Oração Principal no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Confundir Substantivo Plural Interno com Sujeito da Oração Principal.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Confundir Substantivo Plural Interno com Sujeito da Oração Principal.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Confundir Substantivo Plural Interno com Sujeito da Oração Principal para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Confundir Substantivo Plural Interno com Sujeito da Oração Principal.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Confundir Substantivo Plural Interno com Sujeito da Oração Principal.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Ler termos no plural posicionados logo após a oração principal e flexionar o verbo principal no plural (ex.: \\*\"Bastam mudar as regras\", \\*\"São necessárias valorizar as ações\").",
+                "Por que ocorre: O candidato sofre atração mecânica pelo substantivo plural mais próximo (regras, ações).",
+                "Como evitar: Aplique o princípio \"Viva Cada Verbo\". Se houver uma forma verbal (mudar, valorizar), o sujeito é oracional e o verbo regente deve ficar no singular: Basta mudar as regras, É necessário valorizar as ações."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-002",
+          "title": "O Erro Popular de Escrever \"Haviam\" ou \"Fazem\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro Popular de Escrever \"Haviam\" ou \"Fazem\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro Popular de Escrever \"Haviam\" ou \"Fazem\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro Popular de Escrever \"Haviam\" ou \"Fazem\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de O Erro Popular de Escrever \"Haviam\" ou \"Fazem\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro Popular de Escrever \"Haviam\" ou \"Fazem\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro Popular de Escrever \"Haviam\" ou \"Fazem\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Escrever ou aceitar formas como \\*\"Haviam muitas pessoas\", \\*\"Fazem dez meses\", \\*\"Houveram problemas\".",
+                "Por que ocorre: No cotidiano informal, o falante transfere a concordância de existir para o verbo haver e pluraliza fazer pelo valor numérico.",
+                "Como evitar: Haver (= existir) e fazer (tempo) são estritamente impessoais. Os substantivos associados são objetos diretos ou adjuntos. A flexão correta é sempre no singular: Havia muitas pessoas, Faz dez meses, Houve problemas."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-003",
+          "title": "Pluralizar o Auxiliar em Locuções com HAVER Existencial",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Pluralizar o Auxiliar em Locuções com HAVER Existencial no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Pluralizar o Auxiliar em Locuções com HAVER Existencial.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Pluralizar o Auxiliar em Locuções com HAVER Existencial.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Pluralizar o Auxiliar em Locuções com HAVER Existencial para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Pluralizar o Auxiliar em Locuções com HAVER Existencial.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Pluralizar o Auxiliar em Locuções com HAVER Existencial.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Escrever \\*\"Devem haver soluções\", \\*\"Podem haver dúvidas\", \\*\"Vão fazer dois anos\".",
+                "Por que ocorre: O candidato flexiona o verbo auxiliar concordando com o termo substantivo posposto (soluções, dúvidas).",
+                "Como evitar: O auxiliar absorve a impessoalidade do verbo principal. O correto é: Deve haver soluções, Pode haver dúvidas, Vai fazer dois anos. (Contraste: Devem existir soluções)."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-004",
+          "title": "Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Desconsiderar a Pessoalidade de Verbos Meteorológicos no Sentido Figurado.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Achar que verbos como chover nunca podem ir para o plural em nenhuma hipótese.",
+                "Por que ocorre: Memorização mecânica da regra de fenômenos da natureza sem checagem do contexto semântico.",
+                "Como evitar: Empregado figurativamente, o verbo é plenamente pessoal e concorda com o sujeito: Choveram críticas ao projeto."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-005",
+          "title": "A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Paranoia do \"Tempo Decorrido\" na Voz Passiva Sintética.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Julgar que qualquer frase contendo palavras temporais (anos, meses, dias) é oração sem sujeito e deve ficar no singular (ex.: aceitar \\*\"Já se completou dois anos\").",
+                "Por que ocorre: Confusão entre a impessoalidade de haver/fazer e a voz passiva sintética de verbos transitivos diretos (completar-se, contar-se).",
+                "Como evitar: Faça a transposição analítica: Dois anos foram completados. O termo temporal é o sujeito paciente; logo, o verbo flexiona no plural: Já se completaram dois anos, Contam-se dois anos."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-006",
+          "title": "A Inadmissibilidade Gramatical de \"Tratam-se de\"",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Inadmissibilidade Gramatical de \"Tratam-se de\" no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Inadmissibilidade Gramatical de \"Tratam-se de\".",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Inadmissibilidade Gramatical de \"Tratam-se de\".",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Inadmissibilidade Gramatical de \"Tratam-se de\" para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Inadmissibilidade Gramatical de \"Tratam-se de\".",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Inadmissibilidade Gramatical de \"Tratam-se de\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Flexionar a expressão no plural diante de complemento plural: \\*\"Tratam-se de questões complexas\".",
+                "Por que ocorre: O candidato confunde o pronome apassivador com o índice de indeterminação do sujeito.",
+                "Como evitar: O verbo tratar-se de é VTI com PIS e fica sempre no singular: Trata-se de questões complexas."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-007",
+          "title": "A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Pegadinha do Verbo PARECER com Falso Sujeito Anteposto.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Escrever \\*\"Os alunos pareciam que sabiam a lição\".",
+                "Por que ocorre: O candidato julga que Os alunos é sujeito de pareciam.",
+                "Como evitar: Os alunos é o sujeito da oração subordinada sabiam. O sujeito de parecer é a oração inteira (Isso parecia). A forma correta é: Parecia que os alunos sabiam a lição."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A09-G02-008",
+          "title": "Tratar o Pronome \"Lhes\" como Sujeito da Oração",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a Tratar o Pronome \"Lhes\" como Sujeito da Oração no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de Tratar o Pronome \"Lhes\" como Sujeito da Oração.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de Tratar o Pronome \"Lhes\" como Sujeito da Oração.",
+          "correctReasoning": "Aplicar os critérios canônicos normativos de Tratar o Pronome \"Lhes\" como Sujeito da Oração para desarmar a armadilha.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de Tratar o Pronome \"Lhes\" como Sujeito da Oração.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de Tratar o Pronome \"Lhes\" como Sujeito da Oração.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O Erro: Flexionar o verbo no plural para concordar com o pronome lhes (ex.: aceitar \\*\"o que lhes devem ser necessário\").",
+                "Por que ocorre: O candidato associa o plural morfológico de lhes à concordância verbal.",
+                "Como evitar: O pronome lhes é oblíquo preposicionado (a eles), atuando como objeto indireto ou complemento nominal. O sujeito deve ser buscado no pronome relativo: o que lhes deve ser necessário."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Ler termos no plural posicionados logo após a oração principal e flexionar o verbo principal no plural (ex.: \\*\"Bastam mudar as regras\", \\*\"São necessárias valorizar as ações\").",
+            "Por que ocorre: O candidato sofre atração mecânica pelo substantivo plural mais próximo (regras, ações).",
+            "Como evitar: Aplique o princípio \"Viva Cada Verbo\". Se houver uma forma verbal (mudar, valorizar), o sujeito é oracional e o verbo regente deve ficar no singular: Basta mudar as regras, É necessário valorizar as ações."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Escrever ou aceitar formas como \\*\"Haviam muitas pessoas\", \\*\"Fazem dez meses\", \\*\"Houveram problemas\".",
+            "Por que ocorre: No cotidiano informal, o falante transfere a concordância de existir para o verbo haver e pluraliza fazer pelo valor numérico.",
+            "Como evitar: Haver (= existir) e fazer (tempo) são estritamente impessoais. Os substantivos associados são objetos diretos ou adjuntos. A flexão correta é sempre no singular: Havia muitas pessoas, Faz dez meses, Houve problemas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Escrever \\*\"Devem haver soluções\", \\*\"Podem haver dúvidas\", \\*\"Vão fazer dois anos\".",
+            "Por que ocorre: O candidato flexiona o verbo auxiliar concordando com o termo substantivo posposto (soluções, dúvidas).",
+            "Como evitar: O auxiliar absorve a impessoalidade do verbo principal. O correto é: Deve haver soluções, Pode haver dúvidas, Vai fazer dois anos. (Contraste: Devem existir soluções)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Achar que verbos como chover nunca podem ir para o plural em nenhuma hipótese.",
+            "Por que ocorre: Memorização mecânica da regra de fenômenos da natureza sem checagem do contexto semântico.",
+            "Como evitar: Empregado figurativamente, o verbo é plenamente pessoal e concorda com o sujeito: Choveram críticas ao projeto."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Julgar que qualquer frase contendo palavras temporais (anos, meses, dias) é oração sem sujeito e deve ficar no singular (ex.: aceitar \\*\"Já se completou dois anos\").",
+            "Por que ocorre: Confusão entre a impessoalidade de haver/fazer e a voz passiva sintética de verbos transitivos diretos (completar-se, contar-se).",
+            "Como evitar: Faça a transposição analítica: Dois anos foram completados. O termo temporal é o sujeito paciente; logo, o verbo flexiona no plural: Já se completaram dois anos, Contam-se dois anos."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Flexionar a expressão no plural diante de complemento plural: \\*\"Tratam-se de questões complexas\".",
+            "Por que ocorre: O candidato confunde o pronome apassivador com o índice de indeterminação do sujeito.",
+            "Como evitar: O verbo tratar-se de é VTI com PIS e fica sempre no singular: Trata-se de questões complexas."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Escrever \\*\"Os alunos pareciam que sabiam a lição\".",
+            "Por que ocorre: O candidato julga que Os alunos é sujeito de pareciam.",
+            "Como evitar: Os alunos é o sujeito da oração subordinada sabiam. O sujeito de parecer é a oração inteira (Isso parecia). A forma correta é: Parecia que os alunos sabiam a lição."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro: Flexionar o verbo no plural para concordar com o pronome lhes (ex.: aceitar \\*\"o que lhes devem ser necessário\").",
+            "Por que ocorre: O candidato associa o plural morfológico de lhes à concordância verbal.",
+            "Como evitar: O pronome lhes é oblíquo preposicionado (a eles), atuando como objeto indireto ou complemento nominal. O sujeito deve ser buscado no pronome relativo: o que lhes deve ser necessário."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Estrutura oracional formada exclusivamente em torno de um verbo impessoal, cujo processo verbal não é atribuído a nenhuma pessoa ou entidade sintática. Exige conjugação na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo desprovido de sujeito gramatical, mantido fixo na 3ª pessoa do singular na norma-padrão (ex.: haver existencial/temporal, fazer temporal, fenômenos naturais literais e construções como basta de)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-001, KB-A09-G02-003, KB-A09-G02-004."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Estrutura constituída por um ou mais verbos auxiliares associados a um verbo principal (no infinitivo, gerúndio ou particípio), atuando como uma unidade sintático-semântica única. A predicação é regida pelo verbo principal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O último verbo de uma locução verbal; detém a carga semântica plena e determina a predicação, a transitividade e a impessoalidade da oração (\"o verbo que manda\")."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O primeiro verbo de uma locução verbal; recebe as desinências morfológicas de modo, tempo, número e pessoa, obedecendo às exigências sintáticas governadas pelo verbo principal (\"o verbo que obedece\")."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-006."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Oração subordinada substantiva subjetiva que exerce o papel sintático de sujeito do verbo da oração principal, impondo a neutralização deste na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-008."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Oração subordinada com função de sujeito introduzida expressamente por conjunção integrante (que, se) e com verbo em tempo finito flexionado."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Oração subordinada com função de sujeito desprovida de conjunção integrante, estruturada diretamente com o verbo em forma nominal (infinitivo)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-009."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbo que se conjuga exclusivamente nas terceiras pessoas gramaticais (frequentemente apenas na 3ª do singular quando associado a sujeito oracional, como convir, bastar, caber, urgir, parecer)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-010."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome SE associado a Verbo Transitivo Direto (VTD) ou Transitivo Direto e Indireto (VTDI), transformando o paciente da ação verbal em sujeito paciente da oração (Voz Passiva Sintética). Exige concordância do verbo em número e pessoa com o sujeito paciente."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-012."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pronome SE associado a Verbo Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL), indicando agente indeterminado. Mantém o verbo compulsoriamente na 3ª pessoa do singular."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-012, KB-A09-G02-013."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Estrutura perifrástica em que o verbo haver atua como auxiliar pessoal acompanhado de preposição de e verbo no infinitivo, expressando dever, necessidade ou futuro, devendo flexionar-se com o sujeito."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Referência: KB-A09-G02-007."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o estudo integrado do Grupo G02 (Concordância Verbal — Aprofundamento), o estudante deve ter desenvolvido competência analítica para:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reconhecer e conjugar verbos impessoais: Identificar orações sem sujeito estruturadas por fenômenos da natureza em sentido estrito (Choveu bastante), pelo verbo haver existencial (Havia dúvidas) ou temporal (Havia meses), pelos verbos fazer e ir temporais (Faz dez anos, Vai para duas horas) e pelas expressões idiomáticas preposicionadas (Chega de, Basta de, Passa de), mantendo todas na 3ª pessoa do singular.",
+            "Dominar a hierarquia sintática das locuções verbais: Aplicar o princípio de que o verbo principal rege as relações sintáticas e transmite sua impessoalidade para o verbo auxiliar (Deve haver soluções, Vai fazer dez anos), contrastando-o com locuções de verbos pessoais (Devem existir soluções, Passaram a existir fortunas).",
+            "Diferenciar o verbo \"Haver\" existencial do \"Haver de\" modal: Compreender que em perífrases como haver de pesquisar, o verbo haver é auxiliar pessoal e deve flexionar no plural com o sujeito (Eles hão de pesquisar).",
+            "Dominar o Sujeito Oracional: Identificar orações subordinadas subjetivas desenvolvidas (Convém que venhas) e reduzidas (Convém mudar as regras), aplicando o Macete do \"ISSO\" (Isso convém) para travar o verbo principal no singular e neutralizar a atração de substantivos plurais internos.",
+            "Aplicar o isolamento oracional (\"Viva Cada Verbo\"): Analisar períodos compostos fragmentando-os oração por oração, interrogando cada verbo isoladamente e desarmando falsos sujeitos antepostos (como na pegadinha de Parecia que os dois haviam acabado...).",
+            "Distinguir Voz Passiva Sintética de PIS e Tempo Puro: Reconhecer que VTD + SE com expressão temporal gera sujeito paciente no plural (Já se completaram dois anos), ao passo que VTI + SE gera sujeito indeterminado no singular (Torce-se para as crianças, Trata-se de problemas).",
+            "Desambiguar antecedentes com o pronome relativo \"Que\": Aplicar a regra \"o que vem depois salva\" para identificar com segurança o núcleo que rege a concordância em orações adjetivas complexas.",
+            "Identificar sujeitos pospostos e excluir termos preposicionados: Reconhecer que o núcleo do sujeito nunca vem regido de preposição, desconsiderar pronomes oblíquos preposicionados (lhes) na função de sujeito e ordenar períodos invertidos na ordem direta."
+          ]
+        }
+      ]
+    }
+  }
+}

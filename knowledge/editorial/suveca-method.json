@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0.0",
+  "methodId": "suveca-analysis-map-v1",
+  "name": "Método SuVeCA",
+  "equation": "Sujeito + Verbo + Complemento + Adjunto + Predicativo",
+  "definition": "A SuVeCA é um mapa de análise para reconstruir as relações sintáticas, e não um molde obrigatório. Em concursos, as frases frequentemente aparecem em ordem inversa, com termos omitidos ou sem sujeito.",
+  "authorityNote": "A SuVeCA é a camada metodológica do aplicativo. Ela organiza a aplicação do conteúdo, mas não cria regras gramaticais nem substitui a autoridade normativa do corpus_apostila.",
+  "principles": [
+    "Su–Ve–C–A–Pred representa funções e relações, não a ordem linear obrigatória da frase.",
+    "A análise preserva a ordem em que os termos aparecem e, em paralelo, reconstrói as relações entre eles.",
+    "Nenhum bloco é obrigatório: o sujeito pode estar expresso, posposto, oculto, indeterminado ou ser inexistente; complementos, adjuntos e predicativos aparecem conforme a estrutura real.",
+    "O verbo ou a locução verbal ancora a predicação, mas a primeira tarefa é delimitar corretamente as orações do período.",
+    "Perguntas como quem, o quê, a quem, onde e como são pistas iniciais; a decisão final depende de concordância, regência, constituição, escopo e sentido.",
+    "Forma, classe e função não se confundem: a mesma classe pode ocupar funções diferentes, e uma função pode ser realizada por estruturas diferentes.",
+    "Quando o fenômeno ultrapassa a oração, a análise sobe de camada: oração, período, texto e discurso."
+  ],
+  "workflow": [
+    {
+      "code": "OR",
+      "title": "Delimite as orações",
+      "instruction": "Localize verbos e locuções, conectores e limites de cada oração antes de classificar termos."
+    },
+    {
+      "code": "VE",
+      "title": "Encontre o núcleo verbal",
+      "instruction": "Determine predicação, voz, sentido contextual e exigências de regência de cada verbo."
+    },
+    {
+      "code": "SU",
+      "title": "Resolva o sujeito",
+      "instruction": "Use concordância e sentido para verificar se o sujeito é expresso, posposto, oculto, indeterminado ou inexistente."
+    },
+    {
+      "code": "C",
+      "title": "Complete a valência",
+      "instruction": "Identifique objetos e demais complementos exigidos pelo verbo ou por um nome, sem confundi-los com circunstâncias."
+    },
+    {
+      "code": "A",
+      "title": "Separe os adjuntos",
+      "instruction": "Localize circunstâncias e modificadores acessórios, verificando a qual núcleo ou oração cada um se liga."
+    },
+    {
+      "code": "PRED",
+      "title": "Teste os predicativos",
+      "instruction": "Verifique se uma característica ou estado é atribuído ao sujeito ou ao objeto por intermédio da predicação."
+    },
+    {
+      "code": "MAPA",
+      "title": "Reconstrua as relações",
+      "instruction": "Registre o padrão na ordem real da frase e explique os vínculos; não reorganize a frase como se a ordem direta fosse obrigatória."
+    },
+    {
+      "code": "PROVA",
+      "title": "Aplique o teste do tema",
+      "instruction": "Só depois do mapa básico, aplique o critério específico de concordância, regência, pontuação, reescrita, coesão ou interpretação."
+    }
+  ],
+  "components": [
+    {
+      "code": "Su",
+      "name": "Sujeito",
+      "question": "Com que termo o verbo concorda e de quem se declara algo?",
+      "warning": "Não presuma que o sujeito vem antes do verbo nem que toda oração possui sujeito."
+    },
+    {
+      "code": "Ve",
+      "name": "Verbo",
+      "question": "Qual é o núcleo da predicação e que relações ele exige neste contexto?",
+      "warning": "A transitividade pertence ao emprego contextual, não a uma etiqueta imutável do verbo."
+    },
+    {
+      "code": "C",
+      "name": "Complemento",
+      "question": "Que termo completa o sentido do verbo ou do nome e qual regência o introduz?",
+      "warning": "Preposição, sozinha, não decide entre complemento e adjunto."
+    },
+    {
+      "code": "A",
+      "name": "Adjunto",
+      "question": "Que circunstância ou modificação acessória incide sobre o verbo, o nome ou a oração?",
+      "warning": "Deslocamento e extensão alteram pontuação e escopo, mas não transformam automaticamente a função."
+    },
+    {
+      "code": "Pred",
+      "name": "Predicativo",
+      "question": "Que estado ou característica é atribuído ao sujeito ou ao objeto?",
+      "warning": "Predicativo não exige apenas verbo de ligação e pode coexistir com verbos transitivos."
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Ordem direta",
+      "surface": "Su + Ve + C + A",
+      "example": "Os servidores entregaram o relatório ontem."
+    },
+    {
+      "name": "Ordem inversa",
+      "surface": "A + Ve + Su",
+      "example": "Ontem chegaram os fiscais."
+    },
+    {
+      "name": "Sujeito oculto",
+      "surface": "(Su) + Ve + C",
+      "example": "Comprei um livro."
+    },
+    {
+      "name": "Oração sem sujeito",
+      "surface": "Ve + C + A",
+      "example": "Há vagas aqui."
+    },
+    {
+      "name": "Predicativo",
+      "surface": "Su + Ve + Pred",
+      "example": "Maria parece cansada."
+    }
+  ],
+  "lessonConnections": {
+    "A00": {
+      "level": "support",
+      "label": "Aplicação pontual",
+      "summary": "Ortografia e fonologia não devem ser forçadas para dentro da SuVeCA. Use o mapa somente quando a grafia dos porquês ou outra decisão depender da função e da relação entre termos.",
+      "steps": [
+        "Resolva primeiro a forma gráfica ou sonora pela regra própria do tema.",
+        "Quando houver dependência sintática, delimite a oração e identifique a função do termo.",
+        "Não use a posição linear da palavra como único critério."
+      ],
+      "limits": [
+        "A SuVeCA não decide, por si só, separação silábica, acentuação ou emprego do hífen."
+      ]
+    },
+    "A01": {
+      "level": "strong",
+      "label": "Ponte entre classe e função",
+      "summary": "Use a SuVeCA para observar onde cada classe atua na oração, sem confundir classificação morfológica com função sintática.",
+      "steps": [
+        "Identifique a classe pela forma e pelo comportamento contextual.",
+        "Localize o núcleo a que a palavra se liga.",
+        "Só então registre sua função no mapa da oração."
+      ],
+      "limits": [
+        "Uma classe não corresponde automaticamente a uma única função sintática."
+      ]
+    },
+    "A02": {
+      "level": "strong",
+      "label": "Aplicação central",
+      "summary": "Reconstrua a SuVeCA de cada oração e só depois determine o papel da preposição ou a relação lógico-semântica criada pela conjunção.",
+      "steps": [
+        "Delimite os segmentos conectados.",
+        "Monte o mapa interno de cada oração.",
+        "Classifique o conector pela relação efetivamente construída."
+      ],
+      "limits": [
+        "A forma isolada do conector não determina seu valor no contexto."
+      ]
+    },
+    "A03": {
+      "level": "central",
+      "label": "Aplicação central",
+      "summary": "Posicione o pronome no mapa para separar classe, função, referente e regência; em relativos, reconstrua a lacuna dentro da oração subordinada.",
+      "steps": [
+        "Identifique o referente ou antecedente.",
+        "Recoloque o antecedente na oração do relativo para descobrir a função.",
+        "Verifique a regência e, depois, a colocação pronominal."
+      ],
+      "limits": [
+        "Proximidade gráfica não garante antecedente nem função."
+      ]
+    },
+    "A04": {
+      "level": "strong",
+      "label": "Verbo como âncora",
+      "summary": "O verbo é o eixo da SuVeCA: modo, tempo, voz, correlação e formas nominais devem ser interpretados dentro da predicação e do período.",
+      "steps": [
+        "Localize verbos e locuções.",
+        "Separe forma verbal, valor temporal-modal e função no período.",
+        "Relacione cada verbo ao sujeito e aos termos que ele organiza."
+      ],
+      "limits": [
+        "A forma verbal isolada não basta para determinar seu valor discursivo."
+      ]
+    },
+    "A05": {
+      "level": "central",
+      "label": "Núcleo operacional da SuVeCA",
+      "summary": "Transitividade, complementos, vozes e predicação são resolvidos reconstruindo as relações que partem do verbo em cada emprego concreto.",
+      "steps": [
+        "Determine o sentido contextual do verbo.",
+        "Identifique sujeito, complementos exigidos e adjuntos.",
+        "Teste voz, partícula se e predicativos sem depender da ordem da frase."
+      ],
+      "limits": [
+        "Não memorize transitividade como propriedade imutável do verbo."
+      ]
+    },
+    "A06": {
+      "level": "central",
+      "label": "Mapa completo da oração",
+      "summary": "Esta aula explicita o centro do método: delimitar a oração, ancorar a análise no verbo e reconstruir Sujeito, Complementos, Adjuntos e Predicativos.",
+      "steps": [
+        "Preserve a ordem superficial da frase.",
+        "Monte as relações Su–Ve–C–A–Pred e registre ausências ou elipses.",
+        "Use concordância, regência, constituição e sentido para validar cada função."
+      ],
+      "limits": [
+        "Su–Ve–C–A–Pred não é uma sequência obrigatória nem exige que todos os blocos apareçam."
+      ]
+    },
+    "A07": {
+      "level": "central",
+      "label": "Uma SuVeCA por oração",
+      "summary": "No período composto, construa uma SuVeCA para cada oração e depois represente a relação de coordenação, subordinação ou encaixe entre elas.",
+      "steps": [
+        "Conte e delimite as orações pelos núcleos verbais.",
+        "Reconstrua o mapa interno de cada oração.",
+        "Determine a função ou a relação semântica da oração no período."
+      ],
+      "limits": [
+        "Uma única linha Su–Ve–C–A não representa adequadamente todo período composto."
+      ]
+    },
+    "A08": {
+      "level": "central",
+      "label": "Sintaxe antes da pontuação",
+      "summary": "Use a SuVeCA para enxergar sujeito, verbo, complementos, adjuntos, termos intercalados e limites oracionais antes de decidir a pontuação.",
+      "steps": [
+        "Delimite a estrutura sem se orientar primeiro pelas vírgulas existentes.",
+        "Identifique função, deslocamento, intercalação e escopo.",
+        "Aplique a regra de pontuação à relação reconstruída."
+      ],
+      "limits": [
+        "Pausa de leitura não substitui análise sintática."
+      ]
+    },
+    "A09": {
+      "level": "central",
+      "label": "Concordância guiada pelo mapa",
+      "summary": "Reconstrua o vínculo entre verbo e núcleo do sujeito ou entre nome e seus determinantes para impedir que distância e ordem inversa enganem a concordância.",
+      "steps": [
+        "Localize o verbo ou nome controlado.",
+        "Encontre o núcleo controlador, ainda que posposto ou distante.",
+        "Aplique a regra geral e depois verifique o caso especial."
+      ],
+      "limits": [
+        "O termo mais próximo nem sempre controla a concordância."
+      ]
+    },
+    "A10": {
+      "level": "central",
+      "label": "Regência e crase no mapa",
+      "summary": "Parta do sentido contextual do verbo ou nome, identifique o termo regido e só então decida preposição, pronome relativo ou possibilidade de crase.",
+      "steps": [
+        "Determine o regente e sua acepção.",
+        "Localize complemento e preposição exigida.",
+        "Na crase, teste separadamente a exigência do a e a admissão do artigo."
+      ],
+      "limits": [
+        "Não decida regência ou crase pela aparência isolada do termo posterior."
+      ]
+    },
+    "A11": {
+      "level": "strong",
+      "label": "Relações entre mapas",
+      "summary": "Use a SuVeCA para rastrear referentes e relações entre orações; depois suba ao texto para avaliar coesão, coerência e preservação de sentido.",
+      "steps": [
+        "Reconstrua os participantes e relações de cada oração relevante.",
+        "Acompanhe retomadas, substituições e conectores entre os mapas.",
+        "Confirme o efeito no texto completo."
+      ],
+      "limits": [
+        "Coesão e coerência não se esgotam na estrutura de uma oração isolada."
+      ]
+    },
+    "A12": {
+      "level": "support",
+      "label": "Mapa para comparar leituras",
+      "summary": "Em ambiguidade e polissemia, construa um mapa para cada leitura possível e explicite o que muda em sentido, função, encaixe ou referente.",
+      "steps": [
+        "Localize o elemento que admite leituras concorrentes.",
+        "Reconstrua as relações de cada interpretação.",
+        "Use o contexto para manter ou eliminar leituras."
+      ],
+      "limits": [
+        "Relações lexicais e figuras de linguagem também exigem análise semântica e discursiva."
+      ]
+    },
+    "A13": {
+      "level": "support",
+      "label": "Da oração ao texto",
+      "summary": "A SuVeCA ajuda a reconstruir quem faz o quê, a quem, em que circunstância e com que caracterização; a interpretação final depende também de inferência, gênero, finalidade e discurso.",
+      "steps": [
+        "Mapeie as relações sintáticas decisivas do trecho.",
+        "Conecte participantes, ações, estados e circunstâncias ao longo do texto.",
+        "Suba ao plano argumentativo e discursivo antes de concluir."
+      ],
+      "limits": [
+        "O mapa da oração apoia, mas não substitui, a leitura global do texto."
+      ]
+    },
+    "A14": {
+      "level": "review",
+      "label": "Revisão transversal",
+      "summary": "Use o mapa SuVeCA como protocolo de recuperação: identifique em cada questão se a decisão pertence à forma, à classe, à oração, ao período ou ao texto.",
+      "steps": [
+        "Nomeie a camada linguística cobrada.",
+        "Quando houver estrutura sintática, reconstrua Su–Ve–C–A–Pred sem impor ordem.",
+        "Aplique a regra específica e justifique a decisão."
+      ],
+      "limits": [
+        "Nem toda questão de língua portuguesa é resolvida apenas pela análise sintática."
+      ]
+    }
+  }
+}

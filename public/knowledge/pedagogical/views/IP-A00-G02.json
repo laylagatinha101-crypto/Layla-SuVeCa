@@ -1,0 +1,1368 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A00-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:53.896Z"
+  },
+  "unit": {
+    "unitId": "IP-A00-G02",
+    "lessonId": "A00",
+    "groupId": "G02",
+    "title": "Estudo da Sílaba - Teoria",
+    "variant": "foundation",
+    "canonicalTopicId": "pt:a00:estudo-da-silaba",
+    "learningObjectives": [
+      "OBJ-IP-A00-G02-01"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "outside_core",
+      "label": "Camada própria, fora do núcleo SuVeCA",
+      "summary": "Divisão, estrutura e classificação silábicas obedecem a critérios fonológicos próprios, independentemente das funções Su, Ve, C, A e Pred.",
+      "steps": [
+        "Aplique diretamente a regra fonológica, ortográfica, lexical ou discursiva pertinente.",
+        "Use frases completas como contexto de aplicação, sem obrigar sua decomposição sintática.",
+        "Recorra à SuVeCA apenas se uma questão específica introduzir uma dependência funcional real."
+      ],
+      "limits": [
+        "A SuVeCA não é fonte da regra deste grupo e sua ausência na resolução pode ser pedagogicamente correta."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conhecimento do alfabeto latino e distinção preliminar entre letras vogais e consoantes.",
+            "Noção elementar de emissão vocal e ritmo de fala na Língua Portuguesa."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ESTUDO DA SÍLABA E FONÉTICA │ ┌──────────────────────────────────────┼──────────────────────────────────────┐ ▼ ▼ ▼ ESTRUTURA DA SÍLABA ENCONTROS FONÉTICOS REPRESENTAÇÃO GRÁFICA (Vogal como Núcleo) │ vs. FONÊMICA │ │ │ ├─ Mantra da Vogal Única: ┌──────────────┴──────────────┐ ├─ Grafema (Letra Escrita) │ \"Ao menos e somente UMA ▼ ▼ ├─ Fonema (Som Articulado) │ vogal por sílaba\" ENCONTROS VOCÁLICOS ENCONTROS CONSONANTAIS ├─ Dígrafo (2L = 1F, subtrai 1) │ (Zero consoantes soltas) │ (Ambas Consoantes │ ├─ Consonantal (CH, RR, QU...) │ ├─ Ditongo soam na palavra) │ └─ Vocálico (AM, EN, IN...) ├─ Vogal (V): Pico de força │ ├─ DC (SV + V) │ └─ Dífono (1L = 2F, soma 1) │ (Letra \"A\" é sempre V) │ │ └─ DC = H ├─ Perfeito (Grafema X = /ks/) │ │ └─ DD (V + SV) │ (blu-sa) └─ Semivogal (SV): Som brando │ └─ DD ≠ H └─ Imperfeito de /i/ ou /u/ (E, I, O, U) ├─ Tritongo (SV+V+SV) (af-ta) └─ Hiato (V + V)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A00-G02-001",
+          "title": "Mapa de conexão — Estudo da Sílaba - Teoria",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a00:estudo-da-silaba",
+              "label": "Estudo da Sílaba - Teoria",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a00:estudo-da-silaba",
+              "relation": "outside_core"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A vogal é o fonema de máxima intensidade acústica que atua como o centro, ápice e núcleo indispensável de qualquer sílaba na Língua Portuguesa. Sintetizada pelo Mantra da Vogal Única: \"Em cada sílaba, há ao menos e somente UMA vogal\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na fonologia do português:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Não existe sílaba sem vogal: Consoantes isoladas não possuem capacidade de sustentação fonatória autônoma. Portanto, qualquer consoante desprovida de vogal no corpo da palavra deve ser obrigatoriamente vinculada à sílaba anterior.",
+            "Não existem duas vogais na mesma sílaba: Se duas ou três letras vocálicas compartilham a mesma partição silábica (ditongo ou tritongo), apenas uma delas ocupa o posto de Vogal (pico de intensidade); as demais reduzem-se à condição de Semivogais."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Soberania da Letra \"A\": A letra A é ontologicamente uma vogal absoluta. Em qualquer hipótese na língua portuguesa, se houver a letra A em um encontro vocálico, ela será a vogal.",
+            "Letras \"E, I, O, U\": Atuam como vogais quando formam sozinhas o núcleo da sílaba (ex.: ru-a, ju-iz), mas transformam-se em semivogais quando acompanham uma vogal dominante na mesma sílaba."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dignidade: Separação incorreta: di-g-ni-da-de. Como o g é consoante desprovida de vogal, recua para a sílaba antecedente: dig-ni-da-de.",
+            "Afta: Separação incorreta: a-f-ta. Forma correta: af-ta."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Não existem exceções no sistema ortográfico-fonético do português: toda sílaba possui exatamente 1 vogal."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fundamenta: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-002, KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-008, PROC-A00-G02-ESTUDO-DA-SILABA-TEORIA-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A Vogal é o fonema pronunciado com pleno escape de ar e intensidade dominante (som forte). A Semivogal é um fonema átono de apoio que possui valor acústico brando e reduzido, correspondendo foneticamente aos timbres de /i/ ou /u/."
+        },
+        {
+          "type": "paragraph",
+          "text": "A classificação de um segmento vocálico não decorre da letra escrita no papel, mas sim de sua dinâmica na pronúncia:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A semivogal não tem autonomia para compor sílaba sozinha; necessita apoiar-se em uma vogal.",
+            "A letra E vira semivogal quando assume som brando de /i/ (ex.: mãe $\\rightarrow$ som de \"mãi\"; área $\\rightarrow$ som de \"ária\").",
+            "A letra O vira semivogal quando assume som brando de /u/ (ex.: irmão $\\rightarrow$ som de \"irmãu\"; pão $\\rightarrow$ som de \"pãu\").",
+            "A letra I e a letra U podem ser tanto semivogais quanto vogais plenas, a depender de estarem acompanhadas ou isoladas na sílaba."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Se a letra vocálica estiver sozinha na sílaba $\\rightarrow$ é Vogal (ex.: u em ru-a, i em ju-iz).",
+            "Se estiver acompanhada da letra \"A\" na mesma sílaba $\\rightarrow$ o A é a Vogal e a outra letra é a Semivogal (ex.: pai, pau).",
+            "Se houver encontro de I e U na mesma sílaba $\\rightarrow$ a letra articulada com maior sustentação será a vogal e a outra será a semivogal (ex.: em fui $\\rightarrow U = V, I = SV$; em tranquilo $\\rightarrow U = SV, I = V$)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-001.",
+            "Aplica-se em: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003, KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-004, KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-005."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ditongo é a união de uma Vogal e uma Semivogal (ou vice-versa) na mesma sílaba. Classifica-se em Decrescente (Vogal + Semivogal) e Crescente (Semivogal + Vogal)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ditongo Decrescente ($DD = V + SV$): A curva de intensidade sonora parte do som forte (vogal) e decai para o brando (semivogal)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplos: pai, he-roi-co, noi-te, céu, pão, ór-fão, fui.",
+            "Regra de Inseparabilidade ($DD \\neq H$): O ditongo decrescente nunca se separa na divisão silábica. A hipótese de transformar um ditongo decrescente em hiato é estritamente incorreta (ór-fão jamais pode ser ór-fá-o)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ditongo Crescente ($DC = SV + V$): A curva de intensidade ascende do som brando (semivogal) para o ápice (vogal)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplos: lí-rio, quan-do, sé-rie, gê-nio, his-tó-ria, á-rea."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A Teoria do Divórcio e as Proparoxítonas Eventuais ($DC = H$):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "No Ditongo Crescente, como a semivogal inicial antecede a vogal, ela pode sofrer vocalização na emissão de voz, adquirindo força tônica suficiente para se desligar da sílaba e constituir um Hiato autônomo.",
+            "Consequência para provas (especialmente Cebraspe): Palavras paroxítonas terminadas em ditongo crescente admitem dupla classificação e separação:",
+            "Classificação Padrão / Tradicional: Paroxítona terminada em ditongo crescente (sé-rie, his-tó-ria).",
+            "Classificação Eventual / Relativa: Proparoxítona eventual/aparente por abertura em hiato (sé-ri-e, his-tó-ri-a)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-005 (Hiato).",
+            "Aplica-se em: PROC-A00-G02-ESTUDO-DA-SILABA-TEORIA-001, WARN-A00-G02-ESTUDO-DA-SILABA-TEORIA-001."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tritongo é o encontro fonético indissociável de três sons vocálicos articulados na mesma sílaba, dispostos obrigatoriamente na estrutura: Semivogal + Vogal + Semivogal ($SV + V + SV$)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em observância ao Mantra da Vogal Única, o tritongo não é a união de \"três vogais\", mas sim de uma única Vogal central (ápice) ladeada por duas Semivogais de apoio.",
+            "Afirmar em itens de concurso que o tritongo é composto por \"três vogais\" constitui erro teórico clássico explorado por bancas.",
+            "O tritongo pode ser oral (ex.: U-ru-guai, quais) ou nasal (ex.: quão, en-xá-guem)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Possui alerta: WARN-A00-G02-ESTUDO-DA-SILABA-TEORIA-002.",
+            "Exemplificado por: EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hiato é a sequência gráfica de duas Vogais plenas que, por possuírem intensidade sonora própria e autônoma, pertencem obrigatoriamente a sílabas separadas ($V + V$)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Inexistência de Semivogal no Hiato: Como cada elemento vocálico sustenta uma sílaba própria, não existe semivogal em um hiato. Ambos os elementos são classificados categoricamente como Vogais.",
+            "Vogais Idênticas Contíguas: Letras vocálicas dobradas (como oo em ál-co-ol ou ee em vê-em) constituem sempre hiato e devem ser separadas.",
+            "Contraste Canônico:",
+            "PAI $\\rightarrow$ Ditongo Decrescente ($A = V, I = SV$ na mesma sílaba pai).",
+            "JUIZ $\\rightarrow$ Hiato ($U = V$ na sílaba ju, $I = V$ na sílaba iz)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003 (Ditongo).",
+            "Exemplificado por: EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-001, EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O Encontro Consonantal (EC) é o agrupamento de duas ou mais consoantes em que todas são articuladas e ouvidas foneticamente. O Dígrafo Consonantal ocorre quando duas letras representam um único fonema consonantal."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Se há dígrafo, NÃO há encontro consonantal no mesmo grupo de letras.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Encontro Consonantal Perfeito: Consoantes ouvidas na mesma sílaba (ex.: BL em blu-sa, BR em que-bran-to).",
+            "Encontro Consonantal Imperfeito: Consoantes ouvidas em sílabas separadas (ex.: FT em af-ta, CT em pac-to).",
+            "Dígrafo Consonantal: Duas letras emitindo 1 só som (ex.: CH em cha-ve, NH em se-nhor, RR em car-ro, SC em des-cer). Como uma das letras não soa individualmente, inexiste encontro consonantal no par."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aplica-se em: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-007, WARN-A00-G02-ESTUDO-DA-SILABA-TEORIA-003."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O Dígrafo Vocálico ocorre quando uma vogal é seguida das letras M ou N no fechamento da mesma sílaba (AM, AN, EM, EN, IM, IN, OM, ON, UM, UN), indicando unicamente que a vogal é emitida por via nasalizada ($/\\tilde{a}/, /\\tilde{e}/, /\\tilde{i}/, /\\tilde{o}/, /\\tilde{u}/$)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "As letras M e N em posição pós-vocálica intra-silábica não funcionam como consoantes fonéticas; atuam como diacríticos gráficos de nasalidade (equivalentes a um til).",
+            "Armadilha de Concurso: O grupo NT em quebranto (que-bran-to) ou MP em tampa (tam-pa) NÃO forma encontro consonantal. O N e o M já estão absorvidos no dígrafo vocálico anterior (AN, AM) e não possuem fonema consonantal próprio para encontrar-se com o T ou P."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Relacionado a: KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009, WARN-A00-G02-ESTUDO-DA-SILABA-TEORIA-004."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Grupos QU e GU (Teste da Pronúncia do \"U\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "U pronunciado: O U atua como semivogal e forma fonema independente $\\rightarrow$ Gera Ditongo Crescente (ex.: quan-ti-da-de, a-guen-tar).",
+            "U mudo (áfono): O grupo QU/GU forma Dígrafo Consonantal $\\rightarrow$ Anula qualquer encontro vocálico ou tritongo (ex.: qui-lo $\\rightarrow$ sem ditongo; quei-jo $\\rightarrow$ QU é dígrafo e EI é ditongo; inexiste tritongo)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Letra H em Início de Palavra:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O H inicial (ho-ra, ho-je) é um grafema puramente etimológico desprovido de som $\\rightarrow$ Não é fonema (subtrai 1 no cômputo fonêmico: hora = 4 letras, 3 fonemas)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Letra L em Final de Palavra/Sílaba:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em vocábulos como bar-ril, pa-pel, Bra-sil, o L preserva sua identidade de grafema consonantal pleno $\\rightarrow$ Conta como 1 fonema consonantal (não é dígrafo nem forma ditongo para fins de concurso)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Grupo SC Diante de E/I:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Em palavras cultas como des-cer, cres-cer, des-cen-dên-cia, o grupo SC representa o som único $/s/$ $\\rightarrow$ Dígrafo Consonantal (subtrai 1 fonema). Diante de A, O, U (es-ca-da), atua como encontro consonantal imperfeito."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grafema ($L$): Letra física escrita no papel.",
+            "Fonema ($F$): Menor unidade sonora distintiva da língua."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Som de $/s/$: texto, contexto ($1L = 1F$).",
+            "Som de $/ch/$ ou $/x/$: xarope, enxofre, peixe, enxurrada ($1L = 1F$).",
+            "Som de $/ss/$: auxílio, máximo ($1L = 1F$).",
+            "Som de $/z/$: exagero, exame, exército ($1L = 1F$).",
+            "Som de $/ks/$ ou $/cs/$ (Dífono): sexo, tóxico, táxi, fixo, nexo. Ocorre quando 1 letra emite 2 fonemas, gerando $F > L$ ($+1$ fonema por dífono)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O número de fonemas SÓ É DIFERENTE do número de letras se houver dígrafos ou se o X for dífono:"
+        },
+        {
+          "type": "formula",
+          "text": "\\text{Fonemas } (F) = \\text{Letras } (L) - (\\text{Dígrafos Consonantais} + \\text{Dígrafos Vocálicos} + \\text{H inicial}) + (\\text{Dífonos } X_{/ks/})"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Consoante Desacompanhada (Muta): Nunca forma sílaba isolada; recua para a sílaba anterior (ex.: dig-ni-da-de, af-ta, sub-li-nhar, ap-to).",
+            "Dígrafos Separáveis: Ficam em sílabas distintas $\\rightarrow$ RR, SS, SC, SÇ, XC, XS (ex.: car-ro, pas-so, des-cer, nas-ça, ex-ce-ção).",
+            "Dígrafos Inseparáveis: Permanecem unidos na mesma sílaba $\\rightarrow$ CH, LH, NH, GU, QU (ex.: cha-ve, fi-lho, ni-nho, guer-ra, qui-lo).",
+            "Hiatos: Separam-se sempre (ex.: sa-ú-de, ál-co-ol, ra-iz).",
+            "Ditongos e Tritongos: Não se separam na partição padrão (ex.: pai, U-ru-guai)."
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A00-G02-001",
+          "title": "Regras canônicas",
+          "statement": "Vogal Canônica: Centro obrigatório da sílaba; 1 por sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-001).\nSemivogal Canônica: Som brando de /i/ ou /u/ em apoio a uma vogal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-002).\nDitongo Decrescente ($DD$): $V + SV$, inseparável ($DD \\neq H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).\nDitongo Crescente ($DC$): $SV + V$, passível de virar hiato / proparoxítona eventual ($DC = H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).\nTritongo Canônico: Estrutura fixa $SV + V + SV$ na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-004).\nHiato Canônico: $V + V$ em sílabas separadas; não possui semivogal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-005).\nEncontro Consonantal: Consoantes simultaneamente pronunciadas; divide-se em perfeito e imperfeito (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).\nDígrafo Consonantal: Duas letras gerando 1 fonema consonantal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).\nDígrafo Vocálico: Vogal nasalizada por $M/N$ na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-007).\nDífono: Uma letra ($X$) gerando 2 fonemas ($/ks/$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009).",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Vogal Canônica: Centro obrigatório da sílaba; 1 por sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-001).",
+            "Semivogal Canônica: Som brando de /i/ ou /u/ em apoio a uma vogal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-002).",
+            "Ditongo Decrescente ($DD$): $V + SV$, inseparável ($DD \\neq H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).",
+            "Ditongo Crescente ($DC$): $SV + V$, passível de virar hiato / proparoxítona eventual ($DC = H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003)."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Vogal Canônica: Centro obrigatório da sílaba; 1 por sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-001).",
+                "Semivogal Canônica: Som brando de /i/ ou /u/ em apoio a uma vogal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-002).",
+                "Ditongo Decrescente ($DD$): $V + SV$, inseparável ($DD \\neq H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).",
+                "Ditongo Crescente ($DC$): $SV + V$, passível de virar hiato / proparoxítona eventual ($DC = H$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).",
+                "Tritongo Canônico: Estrutura fixa $SV + V + SV$ na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-004).",
+                "Hiato Canônico: $V + V$ em sílabas separadas; não possui semivogal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-005).",
+                "Encontro Consonantal: Consoantes simultaneamente pronunciadas; divide-se em perfeito e imperfeito (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).",
+                "Dígrafo Consonantal: Duas letras gerando 1 fonema consonantal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).",
+                "Dígrafo Vocálico: Vogal nasalizada por $M/N$ na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-007).",
+                "Dífono: Uma letra ($X$) gerando 2 fonemas ($/ks/$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A00-G02-ESTUDO-DA-SILABA-TEORIA-001",
+          "title": "Protocolo Mestre de Análise Fonética e Silábica",
+          "objective": "Executar o algoritmo decisório para Protocolo Mestre de Análise Fonética e Silábica",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Protocolo Mestre de Análise Fonética e Silábica."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "ALGORITMO DE ANÁLISE FONÉTICA │ ┌────────────────────────────┴────────────────────────────┐ ▼ ▼ [1",
+              "explanation": "Procedimento operacional para Protocolo Mestre de Análise Fonética e Silábica.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Divisão Silábica Fonética] [2",
+              "explanation": "Procedimento operacional para Protocolo Mestre de Análise Fonética e Silábica.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Varredura de Dígrafos] • Falar pausadamente (Abertura de boca) • Dígrafos consonantais (CH, RR, SS, SC...) • Consoante sem vogal recua (af-ta) • Grupos QU/GU (U é mudo?) • Dígrafos separáveis vs",
+              "explanation": "Procedimento operacional para Protocolo Mestre de Análise Fonética e Silábica.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "inseparáveis • Dígrafos vocálicos (Vogal + M/N na sílaba) │ │ └────────────────────────────┬────────────────────────────┘ ▼ [3",
+              "explanation": "Procedimento operacional para Protocolo Mestre de Análise Fonética e Silábica.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Protocolo Mestre de Análise Fonética e Silábica."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ALGORITMO DE ANÁLISE FONÉTICA │ ┌────────────────────────────┴────────────────────────────┐ ▼ ▼ [1. Divisão Silábica Fonética] [2. Varredura de Dígrafos] • Falar pausadamente (Abertura de boca) • Dígrafos consonantais (CH, RR, SS, SC...) • Consoante sem vogal recua (af-ta) • Grupos QU/GU (U é mudo?) • Dígrafos separáveis vs. inseparáveis • Dígrafos vocálicos (Vogal + M/N na sílaba) │ │ └────────────────────────────┬────────────────────────────┘ ▼ [3. Encontros Vocálicos e Consonantais] • Letras mudas consom-se no dígrafo • V + SV = Ditongo Decrescente (DD) • SV + V = Ditongo Crescente (DC) • V | V = Hiato (H) • Consoantes audíveis = Encontro Consonantal (EC) │ ▼ [4. Cálculo de Grafemas vs. Fonemas] F = Letras - (Dígrafos + H inicial) + (X dífono)"
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A00-G02-001",
+          "title": "Tabela Comparativa de Fenômenos Fonéticos",
+          "contrastType": "mixed",
+          "conceptA": "Tabela Comparativa de Fenômenos Fonéticos",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A00-G02-001",
+              "table": {
+                "tableId": "TABLE-IP-A00-G02-001",
+                "caption": "Contrastes decisivos",
+                "headers": [
+                  "Critério",
+                  "Encontro Consonantal",
+                  "Dígrafo Consonantal",
+                  "Ditongo Crescente",
+                  "Ditongo Decrescente",
+                  "Hiato"
+                ],
+                "rows": [
+                  [
+                    "Composição Fonética",
+                    "Consoante + Consoante",
+                    "2 letras = 1 fonema",
+                    "$\\text{Semivogal} + \\text{Vogal}$",
+                    "$\\text{Vogal} + \\text{Semivogal}$",
+                    "$\\text{Vogal} + \\text{Vogal}$"
+                  ],
+                  [
+                    "Alocação Silábica",
+                    "Mesma ou separada",
+                    "Mesma ou separada",
+                    "Mesma sílaba",
+                    "Mesma sílaba",
+                    "Sílabas distintas"
+                  ],
+                  [
+                    "Comportamento ($= H$)",
+                    "Inaplicável",
+                    "Inaplicável",
+                    "Pode virar Hiato ($DC=H$)",
+                    "NUNCA vira Hiato ($DD \\neq H$)",
+                    "É o próprio Hiato"
+                  ],
+                  [
+                    "Presença de Semivogal",
+                    "Não",
+                    "Não",
+                    "Sim (1 semivogal)",
+                    "Sim (1 semivogal)",
+                    "NÃO possui semivogal"
+                  ],
+                  [
+                    "Exemplo Típico",
+                    "BLUSA, AFTA",
+                    "CHAVE, CARRO",
+                    "SÉRIE, LÍRIO",
+                    "PAI, ÓRFÃO",
+                    "JUIZ, SAÚDE"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-001",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-001 — Resolução Completa: \"Queijo\"",
+          "prompt": "Palavra: Queijo | Separação: quei-jo",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Palavra",
+              "rationale": "Queijo | Separação: quei-jo"
+            },
+            {
+              "order": 2,
+              "action": "Análise dos Fenômenos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "QU",
+              "rationale": "O U é mudo $\\rightarrow$ Dígrafo Consonantal (elimina a hipótese de tritongo)."
+            },
+            {
+              "order": 4,
+              "action": "EI",
+              "rationale": "$E$ (Vogal) + $I$ (Semivogal) na mesma sílaba $\\rightarrow$ Ditongo Decrescente."
+            },
+            {
+              "order": 5,
+              "action": "Cômputo",
+              "rationale": "6 Letras, 5 Fonemas ($6 - 1 = 5$)."
+            }
+          ],
+          "result": "Cômputo: 6 Letras, 5 Fonemas ($6 - 1 = 5$).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-001 — Resolução Completa: \"Queijo\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-001 — Resolução Completa: \"Queijo\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-001 — Resolução Completa: \"Queijo\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Palavra: Queijo | Separação: quei-jo",
+                "Análise dos Fenômenos:",
+                "QU: O U é mudo $\\rightarrow$ Dígrafo Consonantal (elimina a hipótese de tritongo).",
+                "EI: $E$ (Vogal) + $I$ (Semivogal) na mesma sílaba $\\rightarrow$ Ditongo Decrescente.",
+                "Cômputo: 6 Letras, 5 Fonemas ($6 - 1 = 5$)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-002",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-002 — Resolução Completa: \"Quebranto\"",
+          "prompt": "Palavra: Quebranto | Separação: que-bran-to",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Palavra",
+              "rationale": "Quebranto | Separação: que-bran-to"
+            },
+            {
+              "order": 2,
+              "action": "Análise dos Fenômenos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "QU",
+              "rationale": "O U é mudo $\\rightarrow$ Dígrafo Consonantal."
+            },
+            {
+              "order": 4,
+              "action": "BR",
+              "rationale": "$B$ e $R$ são ouvidos $\\rightarrow$ Encontro Consonantal Perfeito."
+            },
+            {
+              "order": 5,
+              "action": "AN",
+              "rationale": "$N$ nasaliza o $A$ $\\rightarrow$ Dígrafo Vocálico."
+            }
+          ],
+          "result": "Cômputo: 9 Letras, 7 Fonemas ($9 - 2 = 7$).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-002 — Resolução Completa: \"Quebranto\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-002 — Resolução Completa: \"Quebranto\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-002 — Resolução Completa: \"Quebranto\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Palavra: Quebranto | Separação: que-bran-to",
+                "Análise dos Fenômenos:",
+                "QU: O U é mudo $\\rightarrow$ Dígrafo Consonantal.",
+                "BR: $B$ e $R$ são ouvidos $\\rightarrow$ Encontro Consonantal Perfeito.",
+                "AN: $N$ nasaliza o $A$ $\\rightarrow$ Dígrafo Vocálico.",
+                "NT: Não forma encontro consonantal ($N$ faz parte do dígrafo anterior).",
+                "Cômputo: 9 Letras, 7 Fonemas ($9 - 2 = 7$)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-003",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-003 — Resolução Completa: \"Uruguai\" e \"Quais\"",
+          "prompt": "Uruguai: u-ru-guai $\\rightarrow$ Na sílaba guai, temos $U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Uruguai",
+              "rationale": "u-ru-guai $\\rightarrow$ Na sílaba guai, temos $U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral."
+            },
+            {
+              "order": 2,
+              "action": "Quais",
+              "rationale": "quais (Monossílabo) $\\rightarrow U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral."
+            }
+          ],
+          "result": "Quais: quais (Monossílabo) $\\rightarrow U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral.",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-003 — Resolução Completa: \"Uruguai\" e \"Quais\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-003 — Resolução Completa: \"Uruguai\" e \"Quais\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-003 — Resolução Completa: \"Uruguai\" e \"Quais\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Uruguai: u-ru-guai $\\rightarrow$ Na sílaba guai, temos $U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral.",
+                "Quais: quais (Monossílabo) $\\rightarrow U (SV) + A (V) + I (SV) \\rightarrow$ Tritongo Oral."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-004",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-004 — Resolução Completa: \"Enxurrada\"",
+          "prompt": "Palavra: Enxurrada | Separação: en-xur-ra-da",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Palavra",
+              "rationale": "Enxurrada | Separação: en-xur-ra-da"
+            },
+            {
+              "order": 2,
+              "action": "Análise dos Fenômenos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "EN",
+              "rationale": "Dígrafo Vocálico."
+            },
+            {
+              "order": 4,
+              "action": "X",
+              "rationale": "Fonema $/x/$."
+            },
+            {
+              "order": 5,
+              "action": "RR",
+              "rationale": "Dígrafo Consonantal Separável."
+            }
+          ],
+          "result": "Cômputo: 9 Letras, 7 Fonemas ($9 - 2 = 7$).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-004 — Resolução Completa: \"Enxurrada\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-004 — Resolução Completa: \"Enxurrada\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-004 — Resolução Completa: \"Enxurrada\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Palavra: Enxurrada | Separação: en-xur-ra-da",
+                "Análise dos Fenômenos:",
+                "EN: Dígrafo Vocálico.",
+                "X: Fonema $/x/$.",
+                "RR: Dígrafo Consonantal Separável.",
+                "Cômputo: 9 Letras, 7 Fonemas ($9 - 2 = 7$)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-005",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-005 — Resolução Completa: \"Aguento\"",
+          "prompt": "Palavra: Aguento | Separação: a-guen-to",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Palavra",
+              "rationale": "Aguento | Separação: a-guen-to"
+            },
+            {
+              "order": 2,
+              "action": "Análise dos Fenômenos",
+              "rationale": ""
+            },
+            {
+              "order": 3,
+              "action": "gue",
+              "rationale": "O U é pronunciado como semivogal $\\rightarrow$ Ditongo Crescente (ue)."
+            },
+            {
+              "order": 4,
+              "action": "en",
+              "rationale": "O N nasaliza a vogal $E \\rightarrow$ Dígrafo Vocálico."
+            },
+            {
+              "order": 5,
+              "action": "Cômputo",
+              "rationale": "7 Letras, 6 Fonemas ($7 - 1 = 6$)."
+            }
+          ],
+          "result": "Cômputo: 7 Letras, 6 Fonemas ($7 - 1 = 6$).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-005 — Resolução Completa: \"Aguento\" sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-005 — Resolução Completa: \"Aguento\".",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-005 — Resolução Completa: \"Aguento\".",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Palavra: Aguento | Separação: a-guen-to",
+                "Análise dos Fenômenos:",
+                "gue: O U é pronunciado como semivogal $\\rightarrow$ Ditongo Crescente (ue).",
+                "en: O N nasaliza a vogal $E \\rightarrow$ Dígrafo Vocálico.",
+                "Cômputo: 7 Letras, 6 Fonemas ($7 - 1 = 6$)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-006",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-006 — Resolução Completa: \"Sexo\" e \"Tóxico\" (Dífono)",
+          "prompt": "Sexo: se-xo $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 4 Letras, 5 Fonemas ($4 + 1 = 5$).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Sexo",
+              "rationale": "se-xo $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 4 Letras, 5 Fonemas ($4 + 1 = 5$)."
+            },
+            {
+              "order": 2,
+              "action": "Tóxico",
+              "rationale": "tó-xi-co $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 6 Letras, 7 Fonemas ($6 + 1 = 7$)."
+            }
+          ],
+          "result": "Tóxico: tó-xi-co $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 6 Letras, 7 Fonemas ($6 + 1 = 7$).",
+          "decisivePoint": "Aplicação estrita da regra canônica de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-006 — Resolução Completa: \"Sexo\" e \"Tóxico\" (Dífono) sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-006 — Resolução Completa: \"Sexo\" e \"Tóxico\" (Dífono).",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-006 — Resolução Completa: \"Sexo\" e \"Tóxico\" (Dífono).",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Sexo: se-xo $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 4 Letras, 5 Fonemas ($4 + 1 = 5$).",
+                "Tóxico: tó-xi-co $\\rightarrow$ O grafema X tem som de $/ks/ \\rightarrow$ Dífono. Contagem: 6 Letras, 7 Fonemas ($6 + 1 = 7$)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A00-G02-007",
+          "title": "EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação",
+          "prompt": "| Nº | Palavra | Divisão Silábica | Classificação Vocálica / Consonantal | Letras ($L$) | Fonemas ($F$) | |",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Identificar a estrutura frasal em: \"| Nº | Palavra | Divisão Silábica | Classificação Vocálica /\".",
+              "rationale": "Constatação do elemento sob exame de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação."
+            },
+            {
+              "order": 2,
+              "action": "Aplicar os preceitos normativos específicos de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação.",
+              "rationale": "Verificação das regras gramaticais e exceções."
+            },
+            {
+              "order": 3,
+              "action": "Definir a classificação e conformidade do segmento.",
+              "rationale": "Conclusão definitiva do exemplo."
+            }
+          ],
+          "result": "| 18 | Descer | des-cer | Dígrafo Consonantal Separável (SC) | 6 | 5 |",
+          "decisivePoint": "Critério decisório de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação aplicado a \"| Nº | Palavra | Divisão Silábica | Clas\".",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em EX-A00-G02-ESTUDO-DA-SILABA-TEORIA-007 — Bateria Sintética de Fixação.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "| Nº | Palavra | Divisão Silábica | Classificação Vocálica / Consonantal | Letras ($L$) | Fonemas ($F$) | |"
+            },
+            {
+              "type": "paragraph",
+              "text": "|:-: |:------------ |:----------------- |:------------------------------------------------------------------- |:------------------------------: |:-: |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 1 | Navio | na-vi-o | Hiato ($V+V$) | 5 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 2 | Heroico | he-roi-co | Ditongo Decrescente (ROI = $V+SV$) | 7 | 7 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 3 | Lua | lu-a | Hiato ($V+V$) | 3 | 3 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 4 | Tranquilo | tran-qui-lo | Dígrafo Vocálico (AN) + Ditongo Crescente (QUI = $SV+V$) | 9 | 8 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 5 | Álcool | ál-co-ol | Hiato ($O+O$) | 6 | 6 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 6 | Gênio | gê-nio | Ditongo Crescente (NIO = $SV+V$) | 5 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 7 | Noite | noi-te | Ditongo Decrescente (NOI = $V+SV$) | 5 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 8 | Raiz | ra-iz | Hiato ($V+V$) | 4 | 4 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 9 | Irmão | ir-mão | Ditongo Decrescente Nasal (ÃO = $V+SV$) | 5 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 10 | Senhor | se-nhor | Dígrafo Consonantal (NH) | 6 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 11 | Peixe | pei-xe | Ditongo Decrescente (EI) + $X=/x/$ | 5 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 12 | Cadeira | ca-dei-ra | Ditongo Decrescente (EI) | 7 | 7 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 13 | Juiz | ju-iz | Hiato ($V+V$) | 4 | 4 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 14 | Hora | ho-ra | $H$ inicial mudo (sem fonema) | 4 | 3 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 15 | Chave | cha-ve | Dígrafo Consonantal Inseparável (CH) | 5 | 4 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 16 | Tampa | tam-pa | Dígrafo Vocálico (AM) | 5 | 4 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 17 | Barril | bar-ril | Dígrafo Consonantal Separável (RR) + $L$ consonantal | 6 | 5 |"
+            },
+            {
+              "type": "paragraph",
+              "text": "| 18 | Descer | des-cer | Dígrafo Consonantal Separável (SC) | 6 | 5 |"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "TIP-A00-G02-001 — Macete da Vogal \"A\" Soberana: Se houver a letra A em qualquer encontro vocálico, não perca tempo avaliando tonicidade: ela é invariavelmente a VOGAL.",
+            "TIP-A00-G02-002 — Método da Articulação Natural (Abertura da Boca): Abandone a contagem por palmas. Pronuncie a palavra pausadamente e conte os impulsos de abertura mandibular para identificar a divisão silábica real.",
+            "TIP-A00-G02-003 — Notação Reduzida para Provas: Use as siglas DD (Ditongo Decrescente), DC (Ditongo Crescente), T (Tritongo) e H (Hiato) no rascunho da prova para ganhar agilidade.",
+            "TIP-A00-G02-004 — Teste Fonético de QU e GU: Se os lábios se projetarem arredondados para emitir som de U (qu-an-do), o U é fonema e forma ditongo. Se saltar direto para a vogal seguinte (ki-lo), é dígrafo."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [],
+      "supplementaryBlocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "WARN-A00-G02-001 — Pegadinha da Dupla Separação de Paroxítonas em Ditongo Crescente: Em bancas de alto nível (como Cebraspe), vocábulos como série, história, memória, área podem ser legitimamente classificados como proparoxítonas eventuais/relativas por abertura do ditongo em hiato (sé-ri-e). Ditongos decrescentes (órfão), contudo, nunca admitem divisão.",
+            "WARN-A00-G02-002 — Erro Conceitual no Tritongo: Dizer que tritongo são \"três vogais\" anula a questão. É rigorosamente $SV + V + SV$ (apenas 1 vogal).",
+            "WARN-A00-G02-003 — Pegadinha do Grupo QUEI/GUI (Dígrafo vs. Tritongo): Em queijo, o U não soa. Logo, QUEI não é tritongo; é dígrafo consonantal (QU) seguido de ditongo decrescente (EI).",
+            "WARN-A00-G02-004 — Falsa Consoante em Grupos NT, MP, ND: O M e o N pós-vocálicos pertencem ao dígrafo vocálico; não formam encontro consonantal com a consoante seguinte (que-bran-to tem dígrafo AN, e não encontro NT).",
+            "WARN-A00-G02-005 — Letra L Final não é Dígrafo: O L pós-vocálico em barril, Brasil conta integralmente como fonema consonantal."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "TERM-A00-G02-001 — Vogal: Fonema de máxima intensidade que constitui o núcleo obrigatório da sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-001).",
+            "TERM-A00-G02-002 — Semivogal: Fonema brando com timbre de /i/ ou /u/ que apoia a vogal na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-002).",
+            "TERM-A00-G02-003 — Ditongo: Encontro de Vogal e Semivogal na mesma sílaba; pode ser Crescente ($SV+V$) ou Decrescente ($V+SV$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).",
+            "TERM-A00-G02-004 — Tritongo: Encontro indivisível de $SV + V + SV$ na mesma sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-004).",
+            "TERM-A00-G02-005 — Hiato: Encontro de duas vogais plenas em sílabas separadas ($V+V$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-005).",
+            "TERM-A00-G02-006 — Proparoxítona Eventual: Paroxítona terminada em ditongo crescente reclassificada como proparoxítona por abertura do ditongo em hiato (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-003).",
+            "TERM-A00-G02-007 — Encontro Consonantal: Sequência de consoantes em que todas são pronunciadas (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).",
+            "TERM-A00-G02-008 — Dígrafo Consonantal: Duas letras representando um único fonema consonantal (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-006).",
+            "TERM-A00-G02-009 — Dígrafo Vocálico: Vogal nasalizada por $M/N$ em fechamento de sílaba (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-007).",
+            "TERM-A00-G02-010 — Dífono: Grafema único ($X$) que emite dois fonemas consonantais ($/ks/$) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009).",
+            "TERM-A00-G02-011 — Grafema: A unidade física da escrita (letra) (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009).",
+            "TERM-A00-G02-012 — Fonema: A unidade sonora distintiva mínima da fala (KB-A00-G02-ESTUDO-DA-SILABA-TEORIA-009)."
+          ]
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o grupo temático G02 (Estudo da Sílaba - Teoria), o estudante domina com total segurança:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A percepção da Vogal como pilar estruturante de qualquer sílaba em português.",
+            "A distinção precisa entre Vogais e Semivogais por meio do teste da tonicidade sonora e da soberania da letra A.",
+            "A identificação imediata e classificação de Ditongos (Crescentes e Decrescentes), Tritongos e Hiatos.",
+            "O domínio da regra do divórcio ($DC = H$), compreendendo por que palavras como série admitem dupla divisão silábica em bancas de concursos.",
+            "A separação categórica entre Encontros Consonantais (sons independentes) e Dígrafos (som único).",
+            "O teste prático de audibilidade do U nos grupos QU/GU e a identificação de dígrafos vocálicos com M/N.",
+            "As regras formais de partição silábica de dígrafos separáveis/inseparáveis e consoantes desacompanhadas.",
+            "O cálculo matemático exato de Letras vs. Fonemas, computando subtrações por dígrafos/H e acréscimos pelo dífono $X = /ks/$."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula00.q0089",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "SEED-PR",
+      "year": 2021,
+      "prompt": "Os vocábulos “países” e “línguas”, presentes no texto 15A2-I, possuem a mesma classificação quanto à tonicidade, porém um difere do outro quanto à regra empregada para a utilização do acento agudo. Assinale a opção que indica a correta classificação desses vocábulos quanto à tonicidade e que explica corretamente as regras de acentuação aplicadas a eles.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Ambos os vocábulos são paroxítonos, contudo “línguas” é acentuado porque sua última sílaba contém um ditongo crescente átono, ao passo que “países” é acentuado porque sua sílaba tônica forma um hiato com a vogal da sílaba anterior."
+        },
+        {
+          "label": "b",
+          "text": "Ambos os vocábulos são proparoxítonos, contudo “línguas” é acentuado porque sua última sílaba contém um ditongo decrescente átono, ao passo que “países” é acentuado porque sua última sílaba termina com “s”."
+        },
+        {
+          "label": "c",
+          "text": "Ambos os vocábulos são paroxítonos, contudo “línguas” é acentuado porque sua última sílaba termina com “s”, ao passo que “países” é acentuado porque sua sílaba tônica forma um hiato com a vogal da sílaba anterior."
+        },
+        {
+          "label": "d",
+          "text": "Ambos os vocábulos são oxítonos, contudo “línguas” é acentuado porque tem três sílabas, ao passo que “países” é acentuado porque sua sílaba tônica contém um ditongo crescente."
+        },
+        {
+          "label": "e",
+          "text": "Ambos os vocábulos são proparoxítonos, contudo “línguas” é acentuado porque tem duas sílabas, ao passo que “países” é acentuado porque tem três sílabas."
+        }
+      ],
+      "officialAnswer": "A",
+      "explanation": "Vejamos a separação das sílabas e classificação de cada palavra: PA - Í - SES - paroxítona acentuada por apresentar hiato na penúltima sílaba. LÍN - GUAS - paroxítona acentuada por terminar em ditongo crescente (semivogal + vogal). Portanto, as duas palavras são paroxítonas, mas são acentuadas por justificativas diferentes. Gabarito letra A.",
+      "questionSha256": "8ce52543f0329d423e413c1e95a76b68f6bfd1bda6adf5e98bbe7cc7d4683dd0",
+      "answerSha256": "0926d1e76da41988e4b855d002c98a64a37d4c5ffe9c0d7b50cfe03b9e26257b",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "correct",
+          "explanation": "Opção a: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "b",
+          "status": "incorrect",
+          "explanation": "Opção b: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "c",
+          "status": "incorrect",
+          "explanation": "Opção c: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "d",
+          "status": "incorrect",
+          "explanation": "Opção d: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "e",
+          "status": "incorrect",
+          "explanation": "Opção e: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        }
+      ]
+    },
+    {
+      "questionId": "aula00.q0180",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "SEED-PR",
+      "year": 2021,
+      "prompt": "Os vocábulos “países” e “línguas”, presentes no texto 15A2-I, possuem a mesma classificação quanto à tonicidade, porém um difere do outro quanto à regra empregada para a utilização do acento agudo. Assinale a opção que indica a correta classificação desses vocábulos quanto à tonicidade e que explica corretamente as regras de acentuação aplicadas a eles.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Ambos os vocábulos são paroxítonos, contudo “línguas” é acentuado porque sua última sílaba contém um ditongo crescente átono, ao passo que “países” é acentuado porque sua sílaba tônica forma um hiato com a vogal da sílaba anterior."
+        },
+        {
+          "label": "b",
+          "text": "Ambos os vocábulos são proparoxítonos, contudo “línguas” é acentuado porque sua última sílaba contém um ditongo decrescente átono, ao passo que “países” é acentuado porque sua última sílaba termina com “s”."
+        },
+        {
+          "label": "c",
+          "text": "Ambos os vocábulos são paroxítonos, contudo “línguas” é acentuado porque sua última sílaba termina com “s”, ao passo que “países” é acentuado porque sua sílaba tônica forma um hiato com a vogal da sílaba anterior."
+        },
+        {
+          "label": "d",
+          "text": "Ambos os vocábulos são oxítonos, contudo “línguas” é acentuado porque tem três sílabas, ao passo que “países” é acentuado porque sua sílaba tônica contém um ditongo crescente."
+        },
+        {
+          "label": "e",
+          "text": "Ambos os vocábulos são proparoxítonos, contudo “línguas” é acentuado porque tem duas sílabas, ao passo que “países” é acentuado porque tem três sílabas."
+        }
+      ],
+      "officialAnswer": "A",
+      "questionSha256": "0124c0f097492a04e98557b1926ff09203fa14af4197c18cb09cd7c744acf981",
+      "answerSha256": "f2330364324cfb3b4031b53c665e0d67488053af753e9184f5e1330fb4fd6721",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "correct",
+          "explanation": "Opção a: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "b",
+          "status": "incorrect",
+          "explanation": "Opção b: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "c",
+          "status": "incorrect",
+          "explanation": "Opção c: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "d",
+          "status": "incorrect",
+          "explanation": "Opção d: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "e",
+          "status": "incorrect",
+          "explanation": "Opção e: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        }
+      ]
+    },
+    {
+      "questionId": "aula00.q0113",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "PREFEITURA DE JOINVILLE - SC",
+      "year": 2024,
+      "prompt": "Assinale a opção em que as palavras apresentadas são acentuadas graficamente porque são paroxítonas em que a vogal i ou u tônica forma hiato com a vogal da sílaba anterior.",
+      "options": [
+        {
+          "label": "a",
+          "text": "“incluído” e “inúmeros”"
+        },
+        {
+          "label": "b",
+          "text": "“países” e “prejuízos”"
+        },
+        {
+          "label": "c",
+          "text": "“heróis” e “países”"
+        },
+        {
+          "label": "d",
+          "text": "“prejuízos” e “heróis”"
+        },
+        {
+          "label": "e",
+          "text": "“inúmeros” e “conteúdos”"
+        }
+      ],
+      "officialAnswer": "B",
+      "explanation": "“paÍses” e “prejuÍzos”, assim como \"conteúdo\", são acentuadas pela regra do hiato. \"inúmeros\" é acentuado pela regra da proparoxítona. \"heróis\" é acentuada por ser oxítona terminada em ditongo aberto. Gabarito letra B.",
+      "questionSha256": "c6799439af661b4e673bfcb693b70782b1b09c6d42b28cf9106693cdb2ea066b",
+      "answerSha256": "7733e834513d42829ac6ca8f8c243f098f9b8890dc61e47288358b0288960a82",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "incorrect",
+          "explanation": "Opção a: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "b",
+          "status": "correct",
+          "explanation": "Opção b: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "c",
+          "status": "incorrect",
+          "explanation": "Opção c: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "d",
+          "status": "incorrect",
+          "explanation": "Opção d: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "e",
+          "status": "incorrect",
+          "explanation": "Opção e: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        }
+      ]
+    },
+    {
+      "questionId": "aula00.q0204",
+      "questionType": "multiple_choice",
+      "examBoard": "CEBRASPE",
+      "organization": "PREFEITURA DE JOINVILLE - SC",
+      "year": 2024,
+      "prompt": "Assinale a opção em que as palavras apresentas são acentuadas graficamente porque são paroxítonas em que a vogal i ou u tônica forma hiato com a vogal da sílaba anterior.",
+      "options": [
+        {
+          "label": "a",
+          "text": "“incluído” e “inúmeros”"
+        },
+        {
+          "label": "b",
+          "text": "“países” e “prejuízos”"
+        },
+        {
+          "label": "c",
+          "text": "“heróis” e “países”"
+        },
+        {
+          "label": "d",
+          "text": "“prejuízos” e “heróis”"
+        },
+        {
+          "label": "e",
+          "text": "“inúmeros” e “conteúdos”"
+        }
+      ],
+      "officialAnswer": "B",
+      "questionSha256": "1e50450e114e22590c59d50b31bf42b2b43c1f49527bc6ee38d19cf29e779136",
+      "answerSha256": "be17e87315f034cd80dce36c86191155349b14372708bddbd7255a8606b472a2",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "incorrect",
+          "explanation": "Opção a: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "b",
+          "status": "correct",
+          "explanation": "Opção b: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "c",
+          "status": "incorrect",
+          "explanation": "Opção c: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "d",
+          "status": "incorrect",
+          "explanation": "Opção d: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "e",
+          "status": "incorrect",
+          "explanation": "Opção e: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        }
+      ]
+    },
+    {
+      "questionId": "aula00.q0007",
+      "questionType": "multiple_choice",
+      "examBoard": "UEPB",
+      "organization": "2017",
+      "year": 2017,
+      "prompt": "Sobre a palavra comprava, podemos afirmar que",
+      "options": [
+        {
+          "label": "a",
+          "text": "tem o mesmo número de letras e fonemas."
+        },
+        {
+          "label": "c",
+          "text": "apresenta encontro consonantal."
+        },
+        {
+          "label": "b",
+          "text": "apresenta dois dígrafos."
+        },
+        {
+          "label": "d",
+          "text": "é uma palavra proparoxítona."
+        }
+      ],
+      "officialAnswer": "C",
+      "explanation": "Em Com-pra-va, palavra paroxítona, temos encontro consonantal PR e dígrafo vocálico em OM. O dígrafo tem duas letras e representa só um fonema. Por isso, a palavra tem 8 letras e só 7 fonemas. Gabarito letra C. Dígrafo Nasal X Ditongo Nasal O dígrafo é a união de duas letras que formam um único som (UM SOM). Ocorre com M ou N após uma vogal antes de outra sílaba, em que o M ou N apenas nasaliza a vogal, funcionando exatamente como um til: ẽ - ENtre - O EN representa um único som, o som da vogal nasal ẽ ĩ - IMpor - O IM representa um único som, o som da vogal nasal ĩ ã - AMplo - O AM representa um único som, o som da vogal nasal ã O ditongo tem dois sons vocálicos, de uma vogal (+forte) e uma semivogal (+fraco) Então, o ditongo nasal tem DOIS SONS de vogal. Ocorre no final da palavra: ChegAM: chegÃU Portanto: Dígrafo, um som nasal (UM SOM): ã - AMplo X Ditongo, DOIS SONS: ChegAM: chegÃU DÍGRAFO NASAL DITONGO NASAL Duas letras que representam som vocálico nasal Duas letras (am / em) que representam dois sons, portanto dois fonemas. Ocorrem no final das palavras AM Ampola Falam Batem Cantam Alguém Cem Ninguém Ontem EM Emprego IM Limpeza OM Ombro UM Jejum AN Canto EN Venda IN Mingau ON Ontem UN Mundo",
+      "questionSha256": "4bd2aeeab2276e37eb3e02141fe96b2e91795e72048643423c3020674ea3c2bc",
+      "answerSha256": "bf2e9b122234b5537f7d29b8a29576e6fbdd0b75975e771a5f75c04943c26cec",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de UEPB; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": [
+        {
+          "optionLabel": "a",
+          "status": "incorrect",
+          "explanation": "Opção a: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "c",
+          "status": "correct",
+          "explanation": "Opção c: Gabarito oficial correto.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "b",
+          "status": "incorrect",
+          "explanation": "Opção b: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        },
+        {
+          "optionLabel": "d",
+          "status": "incorrect",
+          "explanation": "Opção d: Alternativa incorreta em conformidade com as regras gramaticais da unidade.",
+          "decisiveCriterion": "Aplicação das regras normativas de Estudo da Sílaba - Teoria."
+        }
+      ]
+    },
+    {
+      "questionId": "aula00.q0074",
+      "questionType": "true_false",
+      "examBoard": "CEBRASPE",
+      "organization": "INOVERSASUL",
+      "year": 2025,
+      "prompt": "A cada edição, o PISA escolhe um tema para fazer um aprofundamento — em 2022, o estudo se dedicou a entender como os alunos lidam com estratégias de aprendizado e quais suas posturas em relação à vida. No último parágrafo, o trecho introduzido pelo travessão permaneceria coerente e correto caso fosse reescrito da seguinte forma: no ano de 2022, estudo focou na compreensão das formas como os estudantes abordam as estratégias de aprendizagem e em como vêem a vida.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Há erro ortográfico. Hiatos com “ee” e “oo”, como “veem” e “doo”, não são acentuados. Gabarito: Errado.",
+      "questionSha256": "35948da9c208f32d12fab2ff610238ea7a916d9a835cf1aaa46abda1c6af2f66",
+      "answerSha256": "dd229a082bedb2f57ca7cd18318b63b233bc9e46a6b9774660174eb3ccbd13cc",
+      "cognitiveDemand": "analise_estrutural",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Estudo da Sílaba - Teoria; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}

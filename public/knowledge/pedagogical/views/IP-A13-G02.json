@@ -1,0 +1,2096 @@
+{
+  "viewSchemaVersion": "1.0.0",
+  "source": {
+    "unitId": "IP-A13-G02",
+    "canonicalSchemaVersion": "2.0.0",
+    "buildId": "v2.1-semantic-hardening",
+    "generatedAt": "2026-08-18T21:31:54.131Z"
+  },
+  "unit": {
+    "unitId": "IP-A13-G02",
+    "lessonId": "A13",
+    "groupId": "G02",
+    "title": "Inferência",
+    "variant": "development",
+    "canonicalTopicId": "pt:a13:inferencia",
+    "learningObjectives": [
+      "OBJ-IP-A13-G02-001",
+      "OBJ-IP-A13-G02-002",
+      "OBJ-IP-A13-G02-003"
+    ]
+  },
+  "sections": {
+    "suveca": {
+      "level": "support",
+      "label": "Apoio estrutural",
+      "summary": "A inferência pode usar pistas de sujeito, verbo, negação, quantificação e circunstância, mas a conclusão emerge da articulação textual e do conhecimento autorizado pelo enunciado.",
+      "steps": [
+        "Identifique primeiro a camada linguística efetivamente cobrada.",
+        "Use o mapa SuVeCA somente nos trechos em que função, referente, escopo ou encaixe sejam relevantes.",
+        "Conclua pela regra própria do tema e explicite o limite da análise sintática."
+      ],
+      "limits": [
+        "Não transforme uma pista sintática em explicação completa de um fenômeno morfológico, semântico ou textual."
+      ],
+      "decisiveTests": [],
+      "contrasts": [],
+      "examTraps": []
+    },
+    "prerequisites": {
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfossintaxe Básica: Reconhecimento funcional de classes gramaticais operadoras de sentido (verbos de mudança de estado, advérbios temporais/modais, adjetivos valorativos e pronomes relativos).",
+            "Mecanismos de Coesão Textual: Identificação de anáforas, catáforas e elos coesivos interparágrafos e intraparágrafos.",
+            "Noções de Lógica Proposicional: Compreensão da estrutura condicional básica ($p \\rightarrow q$) e relações de inclusão/exclusão em teoria dos conjuntos (quantificadores: todo, algum, nenhum, maioria)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "INFERÊNCIA TEXTUAL EM CONCURSOS PÚBLICOS ├── 1. Eixo Epistemológico e Histórico │ ├── Matriz NCE/UFRJ & FGV (Transição do Subjetivismo para a Linguística Formal) │ └── Princípio da Autonomia Textual Estrita (O texto como universo fechado) ├── 2. Tipologia de Operações Cognitivas de Leitura │ ├── Compreensão Textual (Recorrência) │ │ ├── Foco: Superfície Explícita │ │ ├── Mecanismo: Paráfrase, Equivalência Semântica e Reescritura │ │ ├── Comandos: \"O texto diz que\", \"De acordo com o texto\", \"Segundo o autor\" │ │ └── Frequência estatística: ~75% das questões de prova │ └── Interpretação Textual (Inferência) │ ├── Foco: Estrutura Implícita Autorizada │ ├── Mecanismo: Dedução Lógica e Pressuposição Semântica │ ├── Comandos Clássicos: \"Infere-se\", \"Deduz-se\", \"Depreende-se\", \"Conclui-se\" │ ├── Comandos Modernos: \"Entende-se do texto que\" (Síntese / Parágrafos Finais) │ └── Frequência estatística: ~25% das questões de prova ├── 3. Mecânica Linguística da Dedução Válida │ ├── Teoria das Pistas Textuais (Operadores Gramaticais: verbos, advérbios, adjetivos) │ ├── Mecanismo da Pressuposição (Dados implícitos incontestáveis) │ ├── Raciocínio Lógico Condicional: \"Se o texto afirma [Premissa X], então posso deduzir [Conclusão Y]\" │ └── Lógica de Quantificadores: Relação \"Maioria\" ➔ \"Não totalidade\" ├── 4. Desvios e Armadilhas Clássicas │ ├── Extrapolação por Falta de Pistas (Dedução além dos limites do texto) │ ├── Extrapolação por Conhecimento de Mundo / Repertório Acadêmico Prévio │ ├── Exigência Indevida de Literalidade (Rejeitar o implícito por não estar grafado) │ └── Descompasso Relacional / Pegadinha dos \"Termos Verdadeiros Mal Conectados\" └── 5. Metodologia Operacional de Resolução ├── Protocolo dos Quatro Passos (Leitura, Equivalência, Resíduo, Teste da Pista) ├── Gestão da Ansiedade (\"Desapego da Literalidade\" e Anotação de Ponto de Interrogação ?) ├── Decomposição em Blocos Semânticos Numerados (1, 2, 3, 4) └── Técnica das \"Setas Salvam\" (Mapeamento de pronomes, antecedentes e direcionalidade lógica)"
+        }
+      ],
+      "maps": [
+        {
+          "mapId": "MAP-IP-A13-G02-001",
+          "title": "Mapa de conexão — Inferência",
+          "mapType": "pedagogical_connection",
+          "nodes": [
+            {
+              "nodeId": "pt:a13:inferencia",
+              "label": "Inferência",
+              "nodeType": "topic"
+            },
+            {
+              "nodeId": "method:suveca",
+              "label": "SuVeCA",
+              "nodeType": "method"
+            }
+          ],
+          "edges": [
+            {
+              "from": "method:suveca",
+              "to": "pt:a13:inferencia",
+              "relation": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A introdução de parâmetros objetivos, formais e linguísticos para a cobrança de inferência em concursos públicos brasileiros teve origem metodológica no Núcleo de Computação Eletrônica da Universidade Federal do Rio de Janeiro (NCE/UFRJ), corpo docente que posteriormente estruturou a matriz de Língua Portuguesa da Fundação Getulio Vargas (FGV)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Historicamente, as avaliações de interpretação de textos em vestibulares e concursos tradicionais operavam sob viés acentuadamente subjetivo e impressionista, baseando-se em especulações extracientíficas sobre o pensamento psicológico do autor (\"o que o autor quis dizer\"). O modelo inaugurado pelo NCE/UFRJ e consolidado pela FGV rompeu com esse subjetivismo ao transformar a interpretação textual em um procedimento dedutivo formal, fundamentado em pistas gramaticais, semântica lexical, pressuposições linguísticas e relações lógicas internas ao texto."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Eliminar qualquer tentativa de adivinhação psicológica das intenções do autor.",
+            "Tratar o texto como um sistema formal autônomo, cujas conclusões válidas devem ser demonstráveis por operadores linguísticos presentes na superfície textual."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Expande: KB-A13-G02-002, KB-A13-G02-003",
+            "Evidenciado por: TERM-A13-G02-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A análise textual divide-se categoricamente em dois níveis cognitivos e operacionais distintos: a Compreensão Textual (Recorrência), restrita aos dados explícitos e resolvida por paráfrases diretas, e a Interpretação Textual (Inferência), que opera sobre dados implícitos por meio de deduções lógicas e pressuposições autorizadas por pistas textuais."
+        },
+        {
+          "type": "paragraph",
+          "text": "┌─────────────────────────────────────────────────────────────────────────────┐ │ OPERAÇÕES COGNITIVAS DE LEITURA │ ├──────────────────────────────────────┬──────────────────────────────────────┤ │ COMPREENSÃO (RECORRÊNCIA) │ INTERPRETAÇÃO (INFERÊNCIA) │ ├──────────────────────────────────────┼──────────────────────────────────────┤ │ • Objeto: Superfície EXPLÍCITA │ • Objeto: Estrutura IMPLÍCITA │ │ • Operação: Localização e Paráfrase │ • Operação: Dedução e Pressuposição │ │ • Relação: Equivalência sintática │ • Relação: Consequência lógica │ │ • Frequência estatística: ~75% (3/4) │ • Frequência estatística: ~25% (1/4) │ │ • Regra: \"Está escrito com outras │ • Regra: \"Não está escrito, mas é │ │ palavras\" │ autorizado por pistas do texto\" │ └──────────────────────────────────────┴──────────────────────────────────────┘"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Compreensão Textual (Recorrência = Explícito):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lida unicamente com informações grafadas no texto.",
+            "As assertivas corretas representam reescrituras fiéis, sinônimos contextuais ou equivalências sintático-semânticas.",
+            "Corresponde a aproximadamente 75% das questões de texto em concursos públicos (média de 3 em cada 4 itens)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Interpretação Textual (Inferência = Implícito):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lida com proposições que não estão literalmente grafadas, mas que decorrem logicamente das premissas textuais.",
+            "Exige autorização expressa no enunciado (\"infere-se\", \"deduz-se\", \"depreende-se\", \"conclui-se\", \"entende-se\").",
+            "Se o enunciado não contiver comando de inferência, o candidato deve restringir-se à compreensão/recorrência.",
+            "Corresponde a aproximadamente 25% das questões de texto (média de 1 em cada 4 itens)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O Erro Invertido: O candidato destreinado tenta deduzir nas 3 questões de compreensão (onde deveria apenas buscar paráfrases) e exige literalidade na única questão de inferência (onde deveria validar o implícito autorizado)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G02-001",
+            "Expande: KB-A13-G02-003, KB-A13-G02-004",
+            "Possui alerta: WARN-A13-G02-001",
+            "Dica associada: TIP-A13-G02-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A inferência válida não constitui suposição livre, intuição ou hipótese subjetiva; ela é uma dedução necessária ou formalmente autorizada, construída a partir de pressupostos semânticos gerados por pistas textuais (marcas gramaticais e lexicais explícitas)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Afirmar que uma inferência decorre \"a partir do texto\" significa que sua fundamentação repousa em marcadores linguísticos formais:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pistas Textuais: classes gramaticais operadoras de sentido, tais como:",
+            "Verbos aspectuais ou de mudança de estado (ex.: deixar de, passar a, tornar-se);",
+            "Advérbios temporais, modais e aspectuais (ex.: já, ainda, não mais, historicamente);",
+            "Adjetivos e modificadores valorativos;",
+            "Quantificadores lógicos (ex.: maioria, alguns, parte de);",
+            "Conectivos e operadores argumentativos.",
+            "Mecanismo da Pressuposição: informação implícita que se torna logicamente incontestável em razão da presença de uma pista textual.",
+            "Axioma da Não Literalidade: A inferência nunca estará expressa literalmente na superfície do texto. Rejeitar um item sob a justificativa de que \"isso não está escrito\" revela incompreensão da natureza da inferência textual. Se estivesse escrito, seria recorrência."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Exemplo Propedêutico: \"Ana não quer mais ser professora.\"",
+            "Pista textual: operador adverbial \"mais\" (marca de cessação de estado).",
+            "Pressuposto incontestável: \"Ana já quis ser professora no passado\".",
+            "Analogia Cotidiana: Na enunciação \"Eu não bebo mais\", o interlocutor deduz com certeza absoluta que o falante ingeria bebidas alcoólicas anteriormente, em virtude do operador de cessação \"não... mais\"."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G02-002",
+            "Exemplificado por: EX-A13-G02-001, EX-A13-G02-002, EX-A13-G02-004",
+            "Contrasta com: KB-A13-G02-006"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Os enunciados de provas de concurso público determinam o regime cognitivo de resolução aplicável à questão (compreensão vs. inferência) por meio de fórmulas canônicas e verbos de comando específicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "┌─────────────────────────────────────────────────────────────────────────────┐ │ TIPOLOGIA DE ENUNCIADOS │ ├───────────────────────────┬─────────────────────────────────────────────────┤ ├───────────────────────────┼─────────────────────────────────────────────────┤ │ Compreensão (Recorrência) │ • \"O texto afirma/diz que...\" │ │ │ • \"De acordo com o texto,...\" │ │ │ • \"Segundo o autor da passagem,...\" │ │ │ • \"Conforme explicitado no parágrafo X,...\" │ ├───────────────────────────┼─────────────────────────────────────────────────┤ │ Inferência Clássica │ • \"Infere-se do texto que...\" │ │ │ • \"Deduz-se das ideias do fragmento que...\" │ │ │ • \"Depreende-se do texto que...\" │ │ │ • \"Conclui-se da leitura do parágrafo X que...\" │ ├───────────────────────────┼─────────────────────────────────────────────────┤ │ Inferência Moderna │ • \"Entende-se do texto que...\" │ │ (Global / Síntese) │ • \"É possível subentender do raciocínio que...\" │ └───────────────────────────┴─────────────────────────────────────────────────┘"
+        },
+        {
+          "type": "paragraph",
+          "text": "O comando \"Entende-se do texto que...\" (amplamente difundido pela banca FGV e consolidado no Cebraspe) convida o candidato a uma leitura de síntese global, exigindo dedução autorizada a partir do encadeamento das ideias textuais. Em textos dissertativos, a ancoragem desse comando concentra-se predominantemente nos parágrafos finais (conclusão do autor)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G02-002",
+            "Aplicado em: PROC-A13-G02-001, PROC-A13-G02-002",
+            "Dica associada: TIP-A13-G02-003"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A validação de uma inferência opera segundo o modelo condicional do raciocínio lógico formal: \"Se o texto diz $X$, então posso deduzir $Y$\", em que $X$ representa a premissa textual explícita (pista) e $Y$ representa a conclusão implícita necessária ou probabilisticamente certa."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mecânica do Teste Condicional:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Localizar no fragmento textual a premissa explícita ($X$).",
+            "Testar se a proposição da assertiva ($Y$) decorre logicamente como implicação direta de $X$.",
+            "Se $X$ for condição suficiente para garantir $Y \\rightarrow$ Inferência Válida (Item CERTO).",
+            "Se $X$ for insuficiente para garantir $Y$ (sendo $Y$ mera suposição ou dependente de dados externos) $\\rightarrow$ Extrapolação (Item ERRADO)."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lógica dos Operadores Quantificadores (ex.: \"Maioria\"):"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "O quantificador \"a maioria\" define que uma parcela quantitativamente superior a 50% de um universo partilha de certa característica.",
+            "Consequência lógica imediata: o termo \"maioria\" exclui a totalidade (nem todos partilham daquela condição, existindo uma minoria distinta).",
+            "Se um fenômeno atinge toda a população de uma localidade e a \"maioria\" dessa localidade é do grupo $A$, infere-se obrigatoriamente que indivíduos que não pertencem ao grupo $A$ também são afetados."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G02-003",
+            "Aplicado em: EX-A13-G02-002, EX-A13-G02-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A Extrapolação Textual é o erro de interpretação consistente em validar uma assertiva que introduz causas, consequências, dados históricos ou julgamentos de valor que ultrapassam os limites informacionais do texto-base, decorrente da insuficiência de pistas linguísticas autorizadoras."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Estrutura da Pegadinha Contemporânea: As bancas examinadoras raramente constroem itens com erros grosseiros em toda a frase. Em regra, formulam assertivas com 90% a 95% de correspondência fidedigna com o texto, inserindo uma única palavra ou nexo causal residual desprovido de suporte textual.",
+            "A Armadilha do Conhecimento de Mundo / Repertório Acadêmico:",
+            "O examinador introduz fatos verídicos no mundo exterior (notícias, teses sociológicas, dados históricos consolidados).",
+            "O candidato especialista ou atento à atualidade reconhece a veracidade da afirmação no plano real e valida o item, esquecendo que o universo de validação da prova de Língua Portuguesa é estritamente autônomo e fechado nos limites do fragmento apresentado.",
+            "Informação verdadeira no mundo real, se desprovida de pista no texto, invalida a assertiva por extrapolação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Identificar se o item afirma relações de causa/efeito (\"a razão de\", \"decorre do fato de\").",
+            "Identificar se o item atribui autoria ou iniciativa (\"foram as responsáveis por propor\").",
+            "Verificar se o texto-base contém operador explícito que fundamente essa causalidade ou autoria. Na ausência de pista $\\rightarrow$ classificar como Extrapolação."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Contrasta com: KB-A13-G02-003, KB-A13-G02-005",
+            "Exemplificado por: EX-A13-G02-003, EX-A13-G02-005",
+            "Possui alerta: WARN-A13-G02-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "O descompasso sintático-relacional ocorre quando uma assertiva de prova reúne múltiplos termos e conceitos verídicos, extraídos do texto por paráfrases perfeitas, mas forja entre eles uma conexão predicativa, causal ou teleológica que inverte ou altera as relações lógicas sustentadas pelo autor."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morfologia da Armadilha:",
+            "O candidato decompõe a assertiva e encontra o Bloco 1 no texto (paráfrase válida), encontra o Bloco 2 (paráfrase válida) e encontra o Bloco 4 (paráfrase válida).",
+            "Em razão do reconhecimento de tantos elementos verdadeiros, o leitor tende a assumir a correção global do item por complacência.",
+            "No entanto, a banca adultera o Bloco 3 (\"O que sobrou\"): o verbo de ligação, o pronome ou o nexo relacional vincula o sujeito ao predicado incorreto.",
+            "Inversão de Vetores (Ponto de Partida vs. Ponto de Chegada):",
+            "Em textos dissertativos complexos, determinados conceitos representam o ponto de partida (o cenário fático consolidado, o ecossistema existente).",
+            "Outros conceitos representam o ponto de chegada (a ação exigida, o foco a ser redefinido para lidar com a nova realidade).",
+            "A assertiva falha ao predicar o cenário existente como se fosse o objeto da ação a ser redefinida, gerando contradição relacional."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Depende de: KB-A13-G02-002, KB-A13-G02-006",
+            "Aplicado em: PROC-A13-G02-004, EX-A13-G02-006",
+            "Possui alerta: WARN-A13-G02-003, WARN-A13-G02-004"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "items": [
+        {
+          "entityId": "RULE-IP-A13-G02-001",
+          "title": "Tabela canônica de regras e conceitos",
+          "statement": "Tabela canônica de regras e conceitos",
+          "scope": "syntax",
+          "modality": "mandatory",
+          "conditions": [
+            "Presença da estrutura-alvo de syntax no segmento oracional analisado.",
+            "Aplicação direta dos critérios normativos canônicos de Tabela canônica de regras e conceitos."
+          ],
+          "exceptions": [],
+          "blocks": [
+            {
+              "type": "table_ref",
+              "tableId": "TABLE-IP-A13-G02-001",
+              "table": {
+                "tableId": "TABLE-IP-A13-G02-001",
+                "caption": "Regras canônicas",
+                "headers": [
+                  "Código",
+                  "Conceito / Regra",
+                  "Formulação Canônica Compacta",
+                  "Referência Principal"
+                ],
+                "rows": [
+                  [
+                    "CANON-001",
+                    "Inferência Textual",
+                    "Dedução lógica de dado implícito fundamentada obrigatoriamente em pressupostos linguísticos e pistas formais do texto.",
+                    "KB-A13-G02-001, KB-A13-G02-003"
+                  ],
+                  [
+                    "CANON-002",
+                    "Recorrência (Compreensão)",
+                    "Reconhecimento e localização de dados explícitos na superfície textual por meio de paráfrases e equivalências semânticas.",
+                    "KB-A13-G02-002"
+                  ],
+                  [
+                    "CANON-003",
+                    "Regra de Ativação do Comando",
+                    "A interpretação dedutiva só deve ser executada se o enunciado contiver comando expresso (infere-se, deduz-se, depreende-se, conclui-se, entende-se).",
+                    "KB-A13-G02-004, TIP-A13-G02-001"
+                  ],
+                  [
+                    "CANON-004",
+                    "Axioma da Não Literalidade",
+                    "A inferência textual legítima nunca estará escrita de forma idêntica no texto; sua ausência literal é requisito de sua natureza implícita.",
+                    "KB-A13-G02-003, WARN-A13-G02-001"
+                  ],
+                  [
+                    "CANON-005",
+                    "Estrutura Condicional",
+                    "Validação lógica segundo a qual uma inferência$Y$ é verdadeira se, e somente se, a premissa textual $X$ for condição suficiente para garanti-la.",
+                    "KB-A13-G02-005"
+                  ],
+                  [
+                    "CANON-006",
+                    "Extrapolação Textual",
+                    "Erro interpretativo consistente em atribuir ao texto dados, causas ou juízos desprovidos de pistas textuais suficientes, motivado por conhecimento de mundo.",
+                    "KB-A13-G02-006, WARN-A13-G02-002"
+                  ],
+                  [
+                    "CANON-007",
+                    "Validação de Quantificadores",
+                    "O quantificador \"maioria\" exclui a totalidade, pressupondo necessariamente a existência de uma minoria não coincidente.",
+                    "KB-A13-G02-005, EX-A13-G02-004"
+                  ],
+                  [
+                    "CANON-008",
+                    "Critério da Conexão Relacional",
+                    "A veracidade de termos isolados em uma assertiva não garante o item; a relação sintático-semântica entre eles deve coincidir com os vetores do texto.",
+                    "KB-A13-G02-007, PROC-A13-G02-004"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "resolution": {
+      "procedures": [
+        {
+          "procedureId": "PROC-A13-G02-001",
+          "title": "Protocolo Geral de Quatro Passos para Inferência Textual",
+          "objective": "Executar o algoritmo decisório para Protocolo Geral de Quatro Passos para Inferência Textual",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Protocolo Geral de Quatro Passos para Inferência Textual."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Passo 1",
+              "explanation": "Leitura Analítica e Mapeamento Vetorial do Texto",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Ler o fragmento identificando referentes anafóricos, conectivos e modalizadores discursivos (\"infelizmente\", \"havia tempos\", \"durante todo\").",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Traçar setas relacionando termos de retomada aos seus respectivos antecedentes.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Passo 2",
+              "explanation": "Mapeamento de Equivalências (Assertiva vs. Texto)",
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Confrontar segmento por segmento da assertiva com o texto original.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Identificar sinônimos contextuais e paráfrases perfeitas.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 7,
+              "action": "Passo 3",
+              "explanation": "Isolamento dos Termos Residuais (\"O Que Sobrou\")",
+              "test": null
+            },
+            {
+              "order": 8,
+              "action": "Isolar os vocábulos ou nexos relacionais da assertiva que não possuem correspondente literal no texto-base.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 9,
+              "action": "Praticar o \"desapego\" da literalidade",
+              "explanation": "não rejeitar o item pela ausência de cópia direta.",
+              "test": null
+            },
+            {
+              "order": 10,
+              "action": "Passo 4",
+              "explanation": "Teste da Pista Textual e Ancoragem Condicional",
+              "test": "Passo 4: Teste da Pista Textual e Ancoragem Condicional"
+            },
+            {
+              "order": 11,
+              "action": "Formular a pergunta de validação",
+              "explanation": "Existe no texto uma pista lexical/gramatical suficiente para autorizar esse resíduo?",
+              "test": null
+            },
+            {
+              "order": 12,
+              "action": "Aplicar a fórmula",
+              "explanation": "\"Se o texto diz [Pista X], então posso deduzir [Resíduo Y]?\"",
+              "test": null
+            },
+            {
+              "order": 13,
+              "action": "Julgamento",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 14,
+              "action": "Com pista suficiente $\\rightarrow$ Inferência Válida (CERTO).",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 15,
+              "action": "Sem pista suficiente / dependente de conhecimento externo $\\rightarrow$ Extrapolação (ERRADO).",
+              "explanation": null,
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Protocolo Geral de Quatro Passos para Inferência Textual."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identificar sistematicamente se uma assertiva proposta pela banca examinadora constitui inferência legítima (Item CERTO) ou extrapolação indevida (Item ERRADO)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo estruturado"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 1: Leitura Analítica e Mapeamento Vetorial do Texto"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Ler o fragmento identificando referentes anafóricos, conectivos e modalizadores discursivos (\"infelizmente\", \"havia tempos\", \"durante todo\").",
+                "Traçar setas relacionando termos de retomada aos seus respectivos antecedentes."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 2: Mapeamento de Equivalências (Assertiva vs. Texto)"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Confrontar segmento por segmento da assertiva com o texto original.",
+                "Identificar sinônimos contextuais e paráfrases perfeitas."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 3: Isolamento dos Termos Residuais (\"O Que Sobrou\")"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Isolar os vocábulos ou nexos relacionais da assertiva que não possuem correspondente literal no texto-base.",
+                "Praticar o \"desapego\" da literalidade: não rejeitar o item pela ausência de cópia direta."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Passo 4: Teste da Pista Textual e Ancoragem Condicional"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Formular a pergunta de validação: Existe no texto uma pista lexical/gramatical suficiente para autorizar esse resíduo?",
+                "Aplicar a fórmula: \"Se o texto diz [Pista X], então posso deduzir [Resíduo Y]?\"",
+                "Julgamento:",
+                "Com pista suficiente $\\rightarrow$ Inferência Válida (CERTO).",
+                "Sem pista suficiente / dependente de conhecimento externo $\\rightarrow$ Extrapolação (ERRADO)."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A13-G02-002",
+          "title": "Estratégia de Leitura Focada para Enunciados Globais (\"Entende-se / Conclui-se\")",
+          "objective": "Executar o algoritmo decisório para Estratégia de Leitura Focada para Enunciados Globais (\"Entende-se / Conclui-se\")",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Estratégia de Leitura Focada para Enunciados Globais (\"Entende-se / Conclui-se\")."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Identificação do Comando Global",
+              "explanation": "Constatar a presença de fórmulas como \"Entende-se do texto que\" ou \"Conclui-se globalmente que\".",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Localização Prioritária dos Parágrafos Finais",
+              "explanation": "Em textos dissertativos de concurso, dirigir a atenção inicial para o último e o penúltimo parágrafo do texto, onde se concentram a conclusão e a síntese da tese do autor.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Mapeamento de Palavras-Âncora",
+              "explanation": "Localizar os substantivos e tópicos da assertiva no fragmento final.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Validação da Tese",
+              "explanation": "Verificar se a assertiva resume a conclusão legítima do raciocínio dissertativo ou se introduz distorção temática.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Estratégia de Leitura Focada para Enunciados Globais (\"Entende-se / Conclui-se\")."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Otimizar o tempo de prova e direcionar a checagem de itens formulados com comandos de síntese global (\"Entende-se do texto que\", \"Conclui-se do texto que\")."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo estruturado"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identificação do Comando Global: Constatar a presença de fórmulas como \"Entende-se do texto que\" ou \"Conclui-se globalmente que\".",
+                "Localização Prioritária dos Parágrafos Finais: Em textos dissertativos de concurso, dirigir a atenção inicial para o último e o penúltimo parágrafo do texto, onde se concentram a conclusão e a síntese da tese do autor.",
+                "Mapeamento de Palavras-Âncora: Localizar os substantivos e tópicos da assertiva no fragmento final.",
+                "Validação da Tese: Verificar se a assertiva resume a conclusão legítima do raciocínio dissertativo ou se introduz distorção temática."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A13-G02-003",
+          "title": "Decomposição Analítica em Blocos e Rastreamento de Paráfrases",
+          "objective": "Executar o algoritmo decisório para Decomposição Analítica em Blocos e Rastreamento de Paráfrases",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Oração, período ou vocábulo submetido à análise de Decomposição Analítica em Blocos e Rastreamento de Paráfrases."
+            },
+            {
+              "name": "contexto_linguistico",
+              "description": "Escopo oracional e relações sintático-semânticas imediatas."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Delimitação da Ancoragem Textual",
+              "explanation": "Confirmar a linha ou parágrafo indicado no enunciado (ex.: \"3º parágrafo\").",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "Segmentação Numérica da Assertiva",
+              "explanation": "Numerar os blocos conceituais autônomos da assertiva (Bloco 1, Bloco 2, Bloco 3, Bloco 4).",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "Rastreamento de Campos Semânticos no Texto",
+              "explanation": "",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "Buscar os equivalentes conceituais no texto para cada bloco numerado, sem exigir identidade gráfica.",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 5,
+              "action": "Associar expressões como \"todos produzem conteúdo\" ao conceito de \"democratização do acesso\"; \"mudaram os meios\" a \"avanço da tecnologia\".",
+              "explanation": null,
+              "test": null
+            },
+            {
+              "order": 6,
+              "action": "Confirmação Preliminar de Presença",
+              "explanation": "Marcar quais blocos conceituais têm presença atestada no texto de apoio.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Classificação gramatical precisa e justificada conforme o padrão de Decomposição Analítica em Blocos e Rastreamento de Paráfrases."
+            },
+            {
+              "name": "diagnostico_resolucao",
+              "description": "Julgamento objetivo para marcação ou eliminação de alternativa de concurso."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fragmentar assertivas longas e sintaticamente densas para neutralizar a ansiedade provocada por reformulações vocabulares complexas."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Passo a passo estruturado"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Delimitação da Ancoragem Textual: Confirmar a linha ou parágrafo indicado no enunciado (ex.: \"3º parágrafo\").",
+                "Segmentação Numérica da Assertiva: Numerar os blocos conceituais autônomos da assertiva (Bloco 1, Bloco 2, Bloco 3, Bloco 4).",
+                "Rastreamento de Campos Semânticos no Texto:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Buscar os equivalentes conceituais no texto para cada bloco numerado, sem exigir identidade gráfica.",
+                "Associar expressões como \"todos produzem conteúdo\" ao conceito de \"democratização do acesso\"; \"mudaram os meios\" a \"avanço da tecnologia\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Confirmação Preliminar de Presença: Marcar quais blocos conceituais têm presença atestada no texto de apoio."
+              ]
+            }
+          ]
+        },
+        {
+          "procedureId": "PROC-A13-G02-004",
+          "title": "Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional",
+          "objective": "Executar o algoritmo decisório para Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional",
+          "inputs": [
+            {
+              "name": "segmento_analisado",
+              "description": "Estrutura textual submetida ao roteiro de Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional."
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "action": "Evitar o falso positivo em itens cujos termos isolados são todos verdadeiros, mas cuja conexão sintático-semântica foi forjada ou invertida pela banca examinadora",
+              "explanation": "Procedimento operacional para Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional.",
+              "test": null
+            },
+            {
+              "order": 2,
+              "action": "[Início: Assertiva Segmentada em Blocos] │ ▼ [Passo 1: Resolução Sintática Interna na Assertiva] ➔ Desenhar setas conectando pronomes relativos (\"que\"), adjuntos e orações aos seus antecedentes",
+              "explanation": "Procedimento operacional para Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional.",
+              "test": null
+            },
+            {
+              "order": 3,
+              "action": "│ ▼ [Passo 2: Identificação do Núcleo Relacional (\"O Que Sobrou\")] ➔ Isolar verbos de ligação (\"são\"), conectivos de finalidade/causa ou termos como \"respectivamente\"",
+              "explanation": "Procedimento operacional para Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional.",
+              "test": null
+            },
+            {
+              "order": 4,
+              "action": "│ ▼ [Passo 3: Mapeamento do Vetor Relacional no Texto-Base] ➔ Localizar no texto o verbo de ação ou o predicado central do Bloco 3",
+              "explanation": "Procedimento operacional para Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional.",
+              "test": null
+            }
+          ],
+          "outputs": [
+            {
+              "name": "classificacao_normativa",
+              "description": "Diagnóstico definitivo conforme os preceitos de Técnica das \"Setas Salvam\" e Teste do Resíduo Relacional."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Finalidade"
+            },
+            {
+              "type": "paragraph",
+              "text": "Evitar o falso positivo em itens cujos termos isolados são todos verdadeiros, mas cuja conexão sintático-semântica foi forjada ou invertida pela banca examinadora."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Diagrama de fluxo operacional"
+            },
+            {
+              "type": "paragraph",
+              "text": "[Início: Assertiva Segmentada em Blocos] │ ▼ [Passo 1: Resolução Sintática Interna na Assertiva] ➔ Desenhar setas conectando pronomes relativos (\"que\"), adjuntos e orações aos seus antecedentes. │ ▼ [Passo 2: Identificação do Núcleo Relacional (\"O Que Sobrou\")] ➔ Isolar verbos de ligação (\"são\"), conectivos de finalidade/causa ou termos como \"respectivamente\". │ ▼ [Passo 3: Mapeamento do Vetor Relacional no Texto-Base] ➔ Localizar no texto o verbo de ação ou o predicado central do Bloco 3. ➔ Traçar a seta do texto: Para onde aponta a ação afirmada pelo autor? │ ▼ [Passo 4: Confronto de Direcionalidade dos Vetores] ├── A seta da assertiva aponta para o MESMO objeto que a seta do texto? │ └── SIM ➔ Item CERTO └── A seta da assertiva aponta para objeto DIFERENTE (ou inverte a ordem lógica)? └── NÃO ➔ Item ERRADO (Contradição / Descompasso Relacional)"
+            }
+          ]
+        }
+      ]
+    },
+    "contrasts": {
+      "items": [
+        {
+          "contrastId": "CONTRAST-IP-A13-G02-001",
+          "title": "1. Compreensão (Recorrência) vs. Interpretação (Inferência)",
+          "contrastType": "mixed",
+          "conceptA": "1. Compreensão (Recorrência) vs. Interpretação (Inferência)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério Decisivo: Localização da informação em relação à superfície do texto.",
+                "Recorrência: A informação está explícita na frase; a resposta resolve-se por paráfrase vocabular direta.",
+                "Inferência: A informação não está escrita expressamente; a resposta decorre de pressuposições autorizadas por pistas formais.",
+                "Limite Pedagógico: Não se deve inferir em questões de recorrência nem buscar cópias literais em questões de inferência."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A13-G02-002",
+          "title": "2. Inferência Válida vs. Extrapolação Textual",
+          "contrastType": "mixed",
+          "conceptA": "2. Inferência Válida vs. Extrapolação Textual",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério Decisivo: Suficiência de evidências linguísticas internas no texto.",
+                "Inferência Válida: Sustentada por operadores gramaticais que geram pressupostos lógicos incontestáveis ($Se\\ X \\rightarrow então\\ Y$).",
+                "Extrapolação: A conclusão avança além do que o texto autoriza, apoiando-se em juízos prévios, hipóteses não comprovadas ou conhecimento enciclopédico externo."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A13-G02-003",
+          "title": "3. Enunciado Clássico vs. Enunciado Moderno",
+          "contrastType": "mixed",
+          "conceptA": "3. Enunciado Clássico vs. Enunciado Moderno",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério Decisivo: Amplitude do escopo de análise.",
+                "Clássico (\"infere-se\", \"deduz-se\", \"depreende-se\"): Geralmente ancora-se em períodos, orações ou parágrafos delimitados.",
+                "Moderno (\"entende-se do texto que\"): Demanda interpretação global da tese do autor, orientando a checagem primordialmente para os parágrafos de fechamento."
+              ]
+            }
+          ]
+        },
+        {
+          "contrastId": "CONTRAST-IP-A13-G02-004",
+          "title": "4. Ponto de Partida (Cenário Estabelecido) vs. Ponto de Chegada (Ação / Objeto de Redefinição)",
+          "contrastType": "mixed",
+          "conceptA": "4. Ponto de Partida (Cenário Estabelecido) vs. Ponto de Chegada (Ação / Objeto de Redefinição)",
+          "conceptB": "Forma concorrente",
+          "sideA": {
+            "label": "Elemento A",
+            "criteria": [
+              "Critérios de identificação do primeiro elemento."
+            ]
+          },
+          "sideB": {
+            "label": "Elemento B",
+            "criteria": [
+              "Critérios de identificação do segundo elemento."
+            ]
+          },
+          "decisionCriterion": "Critério sintático-semântico e funcional de distinção em provas de concurso",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Critério Decisivo: Função discursiva dos conceitos no texto argumentativo.",
+                "Ponto de Partida: O ecossistema ou realidade fática consolidada (ex.: o avanço tecnológico e o acesso em rede).",
+                "Ponto de Chegada: A conduta ou estratégia exigida para operar nessa realidade (ex.: lidar com o provisório e o impermanente). A troca dessas funções pela banca torna a assertiva falsa."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "examples": {
+      "items": [
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-001",
+          "title": "Enunciado e dados",
+          "prompt": "Texto-base: \"Ana não quer mais ser professora.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "\"Ana não quer mais ser professora.\""
+            },
+            {
+              "order": 2,
+              "action": "Assertiva avaliada",
+              "rationale": "\"Infere-se do texto que Ana já quis ser professora.\""
+            }
+          ],
+          "result": "Assertiva avaliada: \"Infere-se do texto que Ana já quis ser professora.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: \"Ana não quer mais ser professora.\"",
+                "Assertiva avaliada: \"Infere-se do texto que Ana já quis ser professora.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-002",
+          "title": "Desenvolvimento analítico",
+          "prompt": "Confronto de termos: \"Ana\" $\\leftrightarrow$ \"Ana\"; \"professora\" $\\leftrightarrow$ \"professora\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Confronto de termos",
+              "rationale": "\"Ana\" $\\leftrightarrow$ \"Ana\"; \"professora\" $\\leftrightarrow$ \"professora\"."
+            },
+            {
+              "order": 2,
+              "action": "Isolamento do resíduo",
+              "rationale": "A assertiva afirma o estado pretérito (\"já quis\")."
+            },
+            {
+              "order": 3,
+              "action": "Busca de pista textual",
+              "rationale": "O advérbio temporal de cessação \"mais\" presente em \"não quer mais\"."
+            },
+            {
+              "order": 4,
+              "action": "Raciocínio lógico",
+              "rationale": "O ato de cessar um desejo pressupõe necessariamente a existência prévia desse desejo."
+            }
+          ],
+          "result": "Raciocínio lógico: O ato de cessar um desejo pressupõe necessariamente a existência prévia desse desejo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Confronto de termos: \"Ana\" $\\leftrightarrow$ \"Ana\"; \"professora\" $\\leftrightarrow$ \"professora\".",
+                "Isolamento do resíduo: A assertiva afirma o estado pretérito (\"já quis\").",
+                "Busca de pista textual: O advérbio temporal de cessação \"mais\" presente em \"não quer mais\".",
+                "Raciocínio lógico: O ato de cessar um desejo pressupõe necessariamente a existência prévia desse desejo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-003",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Inferência Válida (Item CERTO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Inferência Válida (Item CERTO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Pressuposição linguística gerada por operador adverbial temporal de cessação de estado."
+            }
+          ],
+          "result": "Conceito demonstrado: Pressuposição linguística gerada por operador adverbial temporal de cessação de estado.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Inferência Válida (Item CERTO).",
+                "Conceito demonstrado: Pressuposição linguística gerada por operador adverbial temporal de cessação de estado."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-004",
+          "title": "Enunciado e dados",
+          "prompt": "Texto-base: \"Durante todo o século XVI, os portugueses usaram muitos recursos financeiros para as pesquisas de minas no interior do Brasil. Mas, infelizmente, o que foi encontrado não estava à altura do que foi despendido.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "\"Durante todo o século XVI, os portugueses usaram muitos recursos financeiros para as pesquisas de minas no interior do Brasil. Mas, infelizmente, o que foi encontrado não estava à altura do que foi despendido.\""
+            },
+            {
+              "order": 2,
+              "action": "Assertiva avaliada",
+              "rationale": "\"INFERÊNCIA: Até o século XVI, ainda não se tinha confirmado a existência de minas abundantes no Brasil.\""
+            }
+          ],
+          "result": "Assertiva avaliada: \"INFERÊNCIA: Até o século XVI, ainda não se tinha confirmado a existência de minas abundantes no Brasil.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: \"Durante todo o século XVI, os portugueses usaram muitos recursos financeiros para as pesquisas de minas no interior do Brasil. Mas, infelizmente, o que foi encontrado não estava à altura do que foi despendido.\"",
+                "Assertiva avaliada: \"INFERÊNCIA: Até o século XVI, ainda não se tinha confirmado a existência de minas abundantes no Brasil.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-005",
+          "title": "Desenvolvimento analítico",
+          "prompt": "Mapeamento de equivalências:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Mapeamento de equivalências",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "\"século XVI\" $\\leftrightarrow$ \"século XVI\"; \"minas no Brasil\" $\\leftrightarrow$ \"minas no interior do Brasil\".",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "Isolamento dos resíduos",
+              "rationale": ""
+            },
+            {
+              "order": 4,
+              "action": "O uso de \"Até o século XVI\" e a proposição de que \"ainda não se tinha confirmado a existência de minas abundantes\".",
+              "rationale": null
+            },
+            {
+              "order": 5,
+              "action": "Ancoragem nas pistas textuais",
+              "rationale": ""
+            }
+          ],
+          "result": "Aplicação condicional: Se os portugueses pesquisaram durante todo o século XVI com volumosos recursos e o resultado foi frustrante, deduz-se logicamente que até aquele período a existência de minas abundantes permanecia não confirmada.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mapeamento de equivalências:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"século XVI\" $\\leftrightarrow$ \"século XVI\"; \"minas no Brasil\" $\\leftrightarrow$ \"minas no interior do Brasil\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isolamento dos resíduos:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O uso de \"Até o século XVI\" e a proposição de que \"ainda não se tinha confirmado a existência de minas abundantes\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Ancoragem nas pistas textuais:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pista 1: O vocábulo \"pesquisas\" (quem realiza pesquisas despende recursos em busca de comprovação de hipóteses ainda não confirmadas).",
+                "Pista 2: \"o que foi encontrado não estava à altura do que foi despendido\" (comprova a frustração da expectativa de abundância durante todo aquele século)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação condicional: Se os portugueses pesquisaram durante todo o século XVI com volumosos recursos e o resultado foi frustrante, deduz-se logicamente que até aquele período a existência de minas abundantes permanecia não confirmada."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-006",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Inferência Válida (Item CERTO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Inferência Válida (Item CERTO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Dedução lógica sustentada pela semântica do substantivo \"pesquisas\" e pela correlação custo-resultado."
+            }
+          ],
+          "result": "Conceito demonstrado: Dedução lógica sustentada pela semântica do substantivo \"pesquisas\" e pela correlação custo-resultado.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Inferência Válida (Item CERTO).",
+                "Conceito demonstrado: Dedução lógica sustentada pela semântica do substantivo \"pesquisas\" e pela correlação custo-resultado."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-007",
+          "title": "Enunciado e dados",
+          "prompt": "Texto-base: \"A criminalização do stalking era, havia tempos, uma das prioridades da bancada feminina da Câmara dos Deputados.\"",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Texto-base",
+              "rationale": "\"A criminalização do stalking era, havia tempos, uma das prioridades da bancada feminina da Câmara dos Deputados.\""
+            },
+            {
+              "order": 2,
+              "action": "Assertiva avaliada",
+              "rationale": "\"INFERÊNCIA: As deputadas federais foram as responsáveis por propor a tipificação do stalking.\""
+            }
+          ],
+          "result": "Assertiva avaliada: \"INFERÊNCIA: As deputadas federais foram as responsáveis por propor a tipificação do stalking.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Texto-base: \"A criminalização do stalking era, havia tempos, uma das prioridades da bancada feminina da Câmara dos Deputados.\"",
+                "Assertiva avaliada: \"INFERÊNCIA: As deputadas federais foram as responsáveis por propor a tipificação do stalking.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-008",
+          "title": "Desenvolvimento analítico",
+          "prompt": "Mapeamento de equivalências:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Mapeamento de equivalências",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "\"bancada feminina da Câmara dos Deputados\" $\\leftrightarrow$ \"As deputadas federais\".",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "\"criminalização do stalking\" $\\leftrightarrow$ \"tipificação do stalking\".",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "Isolamento do resíduo extrapolado",
+              "rationale": ""
+            },
+            {
+              "order": 5,
+              "action": "A assertiva afirma que elas \"foram as responsáveis por propor\" (atribuição de autoria/iniciativa do projeto de lei).",
+              "rationale": null
+            }
+          ],
+          "result": "Ter prioridade significa defender, apoiar ou priorizar politicamente uma pauta, mas não autoriza inferir iniciativa legislativa ou autoria de proposição. A proposta pode ter sido redigida por outro parlamentar, comissão ou poder.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mapeamento de equivalências:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"bancada feminina da Câmara dos Deputados\" $\\leftrightarrow$ \"As deputadas federais\".",
+                "\"criminalização do stalking\" $\\leftrightarrow$ \"tipificação do stalking\"."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Isolamento do resíduo extrapolado:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A assertiva afirma que elas \"foram as responsáveis por propor\" (atribuição de autoria/iniciativa do projeto de lei)."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Teste de ancoragem textual:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "O texto informa apenas que o tema era \"uma das prioridades\" da bancada.",
+                "Ter prioridade significa defender, apoiar ou priorizar politicamente uma pauta, mas não autoriza inferir iniciativa legislativa ou autoria de proposição. A proposta pode ter sido redigida por outro parlamentar, comissão ou poder."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-009",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Extrapolação Textual (Item ERRADO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Extrapolação Textual (Item ERRADO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Extrapolação por acréscimo de autoria não autorizada por pistas e risco de contaminação por conhecimento de mundo."
+            }
+          ],
+          "result": "Conceito demonstrado: Extrapolação por acréscimo de autoria não autorizada por pistas e risco de contaminação por conhecimento de mundo.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Extrapolação Textual (Item ERRADO).",
+                "Conceito demonstrado: Extrapolação por acréscimo de autoria não autorizada por pistas e risco de contaminação por conhecimento de mundo."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-010",
+          "title": "Enunciado e dados",
+          "prompt": "Concurso / Órgão: CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Concurso / Órgão",
+              "rationale": "CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista."
+            },
+            {
+              "order": 2,
+              "action": "Texto-base (3º Parágrafo)",
+              "rationale": "\"No Brasil, nas cidades e nos centros urbanos, o racismo ambiental tem um impacto significativo na população que vive em favelas e periferias, onde historicamente a maioria da população é negra. A falta de acesso a serviços básicos [...] afeta a saúde e a qualidade de vida dos moradores e agrava ainda mais os impactos das mudanças climáticas...\""
+            },
+            {
+              "order": 3,
+              "action": "Item avaliado",
+              "rationale": "\"Entende-se do texto que a população negra não é a única vítima do racismo ambiental.\""
+            }
+          ],
+          "result": "Item avaliado: \"Entende-se do texto que a população negra não é a única vítima do racismo ambiental.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Concurso / Órgão: CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista.",
+                "Texto-base (3º Parágrafo): \"No Brasil, nas cidades e nos centros urbanos, o racismo ambiental tem um impacto significativo na população que vive em favelas e periferias, onde historicamente a maioria da população é negra. A falta de acesso a serviços básicos [...] afeta a saúde e a qualidade de vida dos moradores e agrava ainda mais os impactos das mudanças climáticas...\"",
+                "Item avaliado: \"Entende-se do texto que a população negra não é a única vítima do racismo ambiental.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-011",
+          "title": "Desenvolvimento analítico",
+          "prompt": "O racismo ambiental atinge genericamente a população moradora de favelas e periferias.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "O racismo ambiental atinge genericamente a população moradora de favelas e periferias.",
+              "rationale": null
+            },
+            {
+              "order": 2,
+              "action": "Nestas localidades, o texto afirma que \"a maioria da população é negra\".",
+              "rationale": null
+            },
+            {
+              "order": 3,
+              "action": "O operador quantificador \"maioria\" exclui a totalidade, pressupondo a existência de uma parcela de moradores não negros.",
+              "rationale": null
+            },
+            {
+              "order": 4,
+              "action": "Como todos os moradores sofrem os impactos da falta de saneamento e enchentes, conclui-se formalmente que pessoas não negras também são vitimadas.",
+              "rationale": null
+            }
+          ],
+          "result": "Como todos os moradores sofrem os impactos da falta de saneamento e enchentes, conclui-se formalmente que pessoas não negras também são vitimadas.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "O racismo ambiental atinge genericamente a população moradora de favelas e periferias.",
+                "Nestas localidades, o texto afirma que \"a maioria da população é negra\".",
+                "O operador quantificador \"maioria\" exclui a totalidade, pressupondo a existência de uma parcela de moradores não negros.",
+                "Como todos os moradores sofrem os impactos da falta de saneamento e enchentes, conclui-se formalmente que pessoas não negras também são vitimadas."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-012",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Inferência Válida (Item CERTO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Inferência Válida (Item CERTO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Dedução lógica autorizada pela pressuposição de não totalidade contida no quantificador \"maioria\"."
+            }
+          ],
+          "result": "Conceito demonstrado: Dedução lógica autorizada pela pressuposição de não totalidade contida no quantificador \"maioria\".",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Inferência Válida (Item CERTO).",
+                "Conceito demonstrado: Dedução lógica autorizada pela pressuposição de não totalidade contida no quantificador \"maioria\"."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-013",
+          "title": "Enunciado e dados",
+          "prompt": "Concurso / Órgão: CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Concurso / Órgão",
+              "rationale": "CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista."
+            },
+            {
+              "order": 2,
+              "action": "Texto-base",
+              "rationale": "Mesmo 3º parágrafo sobre racismo ambiental."
+            },
+            {
+              "order": 3,
+              "action": "Item avaliado",
+              "rationale": "\"Conclui-se do texto que a razão de a maioria da população de favelas e periferias ser historicamente negra decorre do fato de esses terem sido os locais ocupados pela população negra após o fim do regime escravocrata.\""
+            }
+          ],
+          "result": "Item avaliado: \"Conclui-se do texto que a razão de a maioria da população de favelas e periferias ser historicamente negra decorre do fato de esses terem sido os locais ocupados pela população negra após o fim do regime escravocrata.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Concurso / Órgão: CESPE / CEBRASPE — 2024 — FNDE — Cargo: Arquiteto e Urbanista.",
+                "Texto-base: Mesmo 3º parágrafo sobre racismo ambiental.",
+                "Item avaliado: \"Conclui-se do texto que a razão de a maioria da população de favelas e periferias ser historicamente negra decorre do fato de esses terem sido os locais ocupados pela população negra após o fim do regime escravocrata.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-014",
+          "title": "Desenvolvimento analítico",
+          "prompt": "Mapeamento de correspondência: O texto menciona apenas o fato sociodemográfico: \"historicamente a maioria da população é negra\".",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Mapeamento de correspondência",
+              "rationale": "O texto menciona apenas o fato sociodemográfico: \"historicamente a maioria da população é negra\"."
+            },
+            {
+              "order": 2,
+              "action": "Detecção da extrapolação",
+              "rationale": "O item introduz a causa/razão dessa distribuição demográfica (\"decorre do fato de...\") e insere o evento histórico do \"fim do regime escravocrata\"."
+            },
+            {
+              "order": 3,
+              "action": "Ausência de pistas",
+              "rationale": "O fragmento textual em momento algum aborda o pós-abolição, o regime escravocrata ou a gênese histórica da ocupação territorial."
+            },
+            {
+              "order": 4,
+              "action": "Armadilha",
+              "rationale": "A assertiva reproduz uma explicação historiográfica verdadeira na realidade do Brasil, mas totalmente ausente do texto da prova."
+            }
+          ],
+          "result": "Armadilha: A assertiva reproduz uma explicação historiográfica verdadeira na realidade do Brasil, mas totalmente ausente do texto da prova.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mapeamento de correspondência: O texto menciona apenas o fato sociodemográfico: \"historicamente a maioria da população é negra\".",
+                "Detecção da extrapolação: O item introduz a causa/razão dessa distribuição demográfica (\"decorre do fato de...\") e insere o evento histórico do \"fim do regime escravocrata\".",
+                "Ausência de pistas: O fragmento textual em momento algum aborda o pós-abolição, o regime escravocrata ou a gênese histórica da ocupação territorial.",
+                "Armadilha: A assertiva reproduz uma explicação historiográfica verdadeira na realidade do Brasil, mas totalmente ausente do texto da prova."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-015",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Extrapolação Textual (Item ERRADO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Extrapolação Textual (Item ERRADO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Erro de validação baseado em conhecimento enciclopédico de mundo sem suporte no texto."
+            }
+          ],
+          "result": "Conceito demonstrado: Erro de validação baseado em conhecimento enciclopédico de mundo sem suporte no texto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Extrapolação Textual (Item ERRADO).",
+                "Conceito demonstrado: Erro de validação baseado em conhecimento enciclopédico de mundo sem suporte no texto."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-016",
+          "title": "Enunciado e dados",
+          "prompt": "Concurso / Órgão: CESPE / CEBRASPE — 2024 — ANATEL — Especialista em Regulação.",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Concurso / Órgão",
+              "rationale": "CESPE / CEBRASPE — 2024 — ANATEL — Especialista em Regulação."
+            },
+            {
+              "order": 2,
+              "action": "Texto-base (3º Parágrafo)",
+              "rationale": "\"A comunicação não mudou. Mudaram os meios. Todos têm acesso às redes. Nelas a produção de conteúdo é incessante. O conteúdo é produzido por todos. A estrutura não é mais regida por uma lógica de programação, mas por uma lógica de fluxo. Nesse novo ecossistema [...] Em uma sociedade que se comunica em fluxo, é preciso avaliar diariamente onde estão os impedimentos e o que deve ser priorizado, e redefinir foco e estratégia. A comunicação também passa a lidar com o provisório, com o possível e com o impermanente.\""
+            },
+            {
+              "order": 3,
+              "action": "Item avaliado",
+              "rationale": "\"Conclui-se da leitura do terceiro parágrafo do texto que o avanço da tecnologia no âmbito da comunicação e a democratização do acesso à informação são, respectivamente, o foco e a estratégia a serem redefinidos na sociedade do século XXI, que se comunica em fluxo permanente.\""
+            }
+          ],
+          "result": "Item avaliado: \"Conclui-se da leitura do terceiro parágrafo do texto que o avanço da tecnologia no âmbito da comunicação e a democratização do acesso à informação são, respectivamente, o foco e a estratégia a serem redefinidos na sociedade do século XXI, que se comunica em fluxo permanente.\"",
+          "decisivePoint": "Aplicação estrita da regra canônica de Enunciado e dados sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Enunciado e dados.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Enunciado e dados.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Concurso / Órgão: CESPE / CEBRASPE — 2024 — ANATEL — Especialista em Regulação.",
+                "Texto-base (3º Parágrafo): \"A comunicação não mudou. Mudaram os meios. Todos têm acesso às redes. Nelas a produção de conteúdo é incessante. O conteúdo é produzido por todos. A estrutura não é mais regida por uma lógica de programação, mas por uma lógica de fluxo. Nesse novo ecossistema [...] Em uma sociedade que se comunica em fluxo, é preciso avaliar diariamente onde estão os impedimentos e o que deve ser priorizado, e redefinir foco e estratégia. A comunicação também passa a lidar com o provisório, com o possível e com o impermanente.\"",
+                "Item avaliado: \"Conclui-se da leitura do terceiro parágrafo do texto que o avanço da tecnologia no âmbito da comunicação e a democratização do acesso à informação são, respectivamente, o foco e a estratégia a serem redefinidos na sociedade do século XXI, que se comunica em fluxo permanente.\""
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-017",
+          "title": "Desenvolvimento analítico",
+          "prompt": "Decomposição em 4 blocos e validação de paráfrases:",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Decomposição em 4 blocos e validação de paráfrases",
+              "rationale": ""
+            },
+            {
+              "order": 2,
+              "action": "Bloco 1 (\"avanço da tecnologia\")",
+              "rationale": "Presente (\"mudaram os meios\", \"acesso às redes\")."
+            },
+            {
+              "order": 3,
+              "action": "Bloco 2 (\"democratização do acesso à informação\")",
+              "rationale": "Presente (\"conteúdo é produzido por todos\")."
+            },
+            {
+              "order": 4,
+              "action": "Bloco 4 (\"sociedade do século XXI, que se comunica em fluxo permanente\")",
+              "rationale": "Presente (\"sociedade que se comunica em fluxo\", \"ecossistema em fluxo permanente\")."
+            },
+            {
+              "order": 5,
+              "action": "Aplicação das \"Setas Salvam\" no Bloco 3 (\"O Que Sobrou\")",
+              "rationale": ""
+            }
+          ],
+          "result": "O avanço tecnológico e a democratização constituem o cenário fático dado (ponto de partida), e não o objeto da redefinição estratégica (ponto de chegada).",
+          "decisivePoint": "Aplicação estrita da regra canônica de Desenvolvimento analítico sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Desenvolvimento analítico.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Desenvolvimento analítico.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Decomposição em 4 blocos e validação de paráfrases:"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Bloco 1 (\"avanço da tecnologia\"): Presente (\"mudaram os meios\", \"acesso às redes\").",
+                "Bloco 2 (\"democratização do acesso à informação\"): Presente (\"conteúdo é produzido por todos\").",
+                "Bloco 4 (\"sociedade do século XXI, que se comunica em fluxo permanente\"): Presente (\"sociedade que se comunica em fluxo\", \"ecossistema em fluxo permanente\")."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Aplicação das \"Setas Salvam\" no Bloco 3 (\"O Que Sobrou\"):"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A assertiva afirma que o Bloco 1 e o Bloco 2 SÃO o foco e a estratégia a serem redefinidos.",
+                "O texto aponta expressamente que a redefinição de foco e estratégia ocorre PARA lidar com o provisório, o possível e o impermanente.",
+                "O avanço tecnológico e a democratização constituem o cenário fático dado (ponto de partida), e não o objeto da redefinição estratégica (ponto de chegada)."
+              ]
+            }
+          ]
+        },
+        {
+          "exampleId": "WORKED_EXAMPLE-IP-A13-G02-018",
+          "title": "Conclusão e gabarito",
+          "prompt": "Classificação: Contradição Relacional (Item ERRADO).",
+          "analysisSteps": [
+            {
+              "order": 1,
+              "action": "Classificação",
+              "rationale": "Contradição Relacional (Item ERRADO)."
+            },
+            {
+              "order": 2,
+              "action": "Conceito demonstrado",
+              "rationale": "Falha lógica gerada por vinculação predicativa incorreta entre conceitos verdadeiros e isoladamente comprováveis no texto."
+            }
+          ],
+          "result": "Conceito demonstrado: Falha lógica gerada por vinculação predicativa incorreta entre conceitos verdadeiros e isoladamente comprováveis no texto.",
+          "decisivePoint": "Aplicação estrita da regra canônica de Conclusão e gabarito sobre o segmento analisado.",
+          "commonMistake": "Fazer leitura superficial da oração e ignorar o termo regente ou a concordância de Conclusão e gabarito.",
+          "examTip": "Nas provas de concurso, observe se a banca tentou induzir erro com deslocamento de termos ou ambiguidade em Conclusão e gabarito.",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Classificação: Contradição Relacional (Item ERRADO).",
+                "Conceito demonstrado: Falha lógica gerada por vinculação predicativa incorreta entre conceitos verdadeiros e isoladamente comprováveis no texto."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "blocks": [
+        {
+          "type": "callout",
+          "text": "\"Interpretar a gente só faz se a banca mandar!\"",
+          "kind": "note"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Verifique rigorosamente o verbo de comando no enunciado:"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se o comando for de compreensão (\"O texto diz\", \"Segundo o autor\"), procure paráfrases explícitas e não faça deduções.",
+            "Se o comando for de inferência (\"Infere-se\", \"Deduz-se\", \"Entende-se\"), busque conclusões implícitas ancoradas em pistas textuais."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ao realizar o batimento termo a termo entre a assertiva e o texto-base:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ao encontrar uma palavra ou ideia que não possui correspondente literal imediato, não elimine o item por impulso nem entre em pânico.",
+            "\"Desapegue\" da necessidade de literalidade, isole a expressão residual e marque-a com um ponto de interrogação ?.",
+            "Retorne ao texto para verificar se existe operador linguístico (pista) que autorize aquela dedução lógica."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Em questões iniciadas por \"Entende-se do texto que...\" ou \"Conclui-se do texto que...\", direcione a primeira leitura analítica para o fechamento do texto (último e penúltimo parágrafo). A síntese do raciocínio argumentativo e a tese final do autor costumam estar concentradas no desfecho da dissertação."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Em períodos subordinados na assertiva, trace setas físicas apontando de pronomes relativos (\"que\"), adjuntos e orações para os substantivos que eles qualificam.",
+            "Risque os blocos conceituais validados e concentre o julgamento exclusivamente sobre o verbo ou nexo relacional que conecta os blocos. A checagem da direção da seta no texto revelará se a vinculação é verdadeira ou fraudulenta."
+          ]
+        }
+      ]
+    },
+    "traps": {
+      "items": [
+        {
+          "trapId": "WARN-A13-G02-001",
+          "title": "O Erro de Exigir Literalidade em Itens de Inferência",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Erro de Exigir Literalidade em Itens de Inferência no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Erro de Exigir Literalidade em Itens de Inferência.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Erro de Exigir Literalidade em Itens de Inferência.",
+          "correctReasoning": "O candidato compreende a dedução lógica apresentada na assertiva, mas julga o item como ERRADO sob o protesto: \"Mas essa frase exata não está escrita no texto!\".",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Erro de Exigir Literalidade em Itens de Inferência.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Erro de Exigir Literalidade em Itens de Inferência.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Problema e manifestação"
+            },
+            {
+              "type": "paragraph",
+              "text": "O candidato compreende a dedução lógica apresentada na assertiva, mas julga o item como ERRADO sob o protesto: \"Mas essa frase exata não está escrita no texto!\"."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Consequência e prevenção"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Consequência: Erro sistemático de itens de inferência válidos e perda desnecessária de pontos em bancas exigentes.",
+                "Prevenção: Compreender que a não literalidade é a própria essência epistemológica da inferência. Se estivesse explicitamente grafada, seria uma questão de compreensão/recorrência."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G02-002",
+          "title": "A Armadilha da Extrapolação por Conhecimento Enciclopédico de Mundo",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a A Armadilha da Extrapolação por Conhecimento Enciclopédico de Mundo no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de A Armadilha da Extrapolação por Conhecimento Enciclopédico de Mundo.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de A Armadilha da Extrapolação por Conhecimento Enciclopédico de Mundo.",
+          "correctReasoning": "Validar itens de prova utilizando informações verídicas de reportagens jornalísticas, teses acadêmicas, leis ou conhecimentos históricos que não constam do fragmento apresentado.",
+          "decisiveTest": "Validar itens de prova utilizando informações verídicas de reportagens jornalísticas, teses acadêmicas, leis ou conhecimentos históricos que não constam do fragmento apresentado.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de A Armadilha da Extrapolação por Conhecimento Enciclopédico de Mundo.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Problema e manifestação"
+            },
+            {
+              "type": "paragraph",
+              "text": "Validar itens de prova utilizando informações verídicas de reportagens jornalísticas, teses acadêmicas, leis ou conhecimentos históricos que não constam do fragmento apresentado."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Consequência e prevenção"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Consequência: Queda direta nas armadilhas de extrapolação planejadas pelos examinadores para capturar candidatos experientes em temas específicos.",
+                "Prevenção: Aplicar o princípio da Autonomia Textual Estrita: durante a resolução da prova, a única realidade existente e válida é a contida no texto-base (\"Não vale o que você leu fora; vale apenas o que tem pista no texto\")."
+              ]
+            }
+          ]
+        },
+        {
+          "trapId": "WARN-A13-G02-003",
+          "title": "O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional",
+          "trigger": "Apresentação de estrutura ambígua ou atrativa referente a O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional no enunciado da questão.",
+          "misleadingReasoning": "Julgar a estrutura com base na intuição oral superficial sem aplicar os testes sintáticos de O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional.",
+          "expectedWrongConclusion": "Assinalar como correta a alternativa que explora o vício de indução de O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional.",
+          "correctReasoning": "A banca redige uma assertiva em que 90% dos termos são paráfrases exatas de expressões do texto (ex.: avanço tecnológico, democratização do acesso, ecossistema em fluxo), induzindo o leitor a uma validação complacente. No entanto, o verbo ou conectivo que une esses termos expressa uma relação que contraria a lógica do autor.",
+          "decisiveTest": "Executar o teste de substituição ou isolamento dos termos regentes de O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional.",
+          "studentCaveat": "Não resolva a questão apenas pela sonoridade; verifique a regência e a função categorial de O Golpe da \"Assertiva 90% Verdadeira\" com Descompasso Relacional.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Problema e manifestação"
+            },
+            {
+              "type": "paragraph",
+              "text": "A banca redige uma assertiva em que 90% dos termos são paráfrases exatas de expressões do texto (ex.: avanço tecnológico, democratização do acesso, ecossistema em fluxo), induzindo o leitor a uma validação complacente. No entanto, o verbo ou conectivo que une esses termos expressa uma relação que contraria a lógica do autor."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Consequência e prevenção"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Consequência: Marcar como CERTO um item falso em virtude do reconhecimento superficial de palavras familiares.",
+                "Prevenção: Jamais julgar a assertiva pelo mero somatório de suas palavras; rastrear obrigatoriamente se o predicado atribuído coincide com a direção dos vetores do texto de apoio."
+              ]
+            }
+          ]
+        }
+      ],
+      "supplementaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "O candidato compreende a dedução lógica apresentada na assertiva, mas julga o item como ERRADO sob o protesto: \"Mas essa frase exata não está escrita no texto!\"."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Consequência: Erro sistemático de itens de inferência válidos e perda desnecessária de pontos em bancas exigentes.",
+            "Prevenção: Compreender que a não literalidade é a própria essência epistemológica da inferência. Se estivesse explicitamente grafada, seria uma questão de compreensão/recorrência."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Validar itens de prova utilizando informações verídicas de reportagens jornalísticas, teses acadêmicas, leis ou conhecimentos históricos que não constam do fragmento apresentado."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Consequência: Queda direta nas armadilhas de extrapolação planejadas pelos examinadores para capturar candidatos experientes em temas específicos.",
+            "Prevenção: Aplicar o princípio da Autonomia Textual Estrita: durante a resolução da prova, a única realidade existente e válida é a contida no texto-base (\"Não vale o que você leu fora; vale apenas o que tem pista no texto\")."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A banca redige uma assertiva em que 90% dos termos são paráfrases exatas de expressões do texto (ex.: avanço tecnológico, democratização do acesso, ecossistema em fluxo), induzindo o leitor a uma validação complacente. No entanto, o verbo ou conectivo que une esses termos expressa uma relação que contraria a lógica do autor."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Consequência: Marcar como CERTO um item falso em virtude do reconhecimento superficial de palavras familiares.",
+            "Prevenção: Jamais julgar a assertiva pelo mero somatório de suas palavras; rastrear obrigatoriamente se o predicado atribuído coincide com a direção dos vetores do texto de apoio."
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Operação lógico-cognitiva pela qual se extrai uma conclusão implícita a partir de premissas e marcas gramaticais presentes no texto. Exige comando autorizador no enunciado. (Origem: TERM-A13-V003-001, TERM-A13-V004-001, TERM-A13-V005-001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operação de localização e reconhecimento de dados explícitos grafados no texto, resolvida por paráfrases, equivalências lexicais e reescrituras fiéis. (Origem: TERM-A13-V003-002, TERM-A13-V004-004)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operador formal presente na superfície do texto (verbos aspectuais, advérbios, adjetivos, quantificadores, conectivos) que ancora e autoriza a dedução de um implícito. (Origem: TERM-A13-V003-004, TERM-A13-V004-002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informação implícita que decorre de modo necessário e incontestável do sentido de determinados operadores gramaticais ou lexicais presentes na oração. (Origem: TERM-A13-V003-003, TERM-A13-V004-002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Erro interpretativo consistente em formular uma conclusão que ultrapassa as evidências do texto, frequentemente motivado pelo uso indevido de repertório ou conhecimento de mundo prévio. (Origem: TERM-A13-V003-005, TERM-A13-V004-003)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reescritura de um trecho textual que preserva rigorosamente o conteúdo semântico original por meio de estruturas sintáticas e vocabulário sinônimo. (Origem: TERM-A13-V003-006, TERM-A13-V005-002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Procedimento de verificação analítica consistente em traçar vetores gráficos de referenciação sintática (pronomes relativos) e de conexão predicativa para validar a direcionalidade das relações lógicas. (Origem: KB-A13-V005-003, PROC-A13-V005-001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metáfora conceitual presente na questão ANATEL 2024 que descreve a comunicação digital contemporânea, marcada pela produção descentralizada, velocidade instantânea de circulação e necessidade de respostas imediatas à impermanência. (Origem: TERM-A13-V005-003)."
+        }
+      ]
+    },
+    "recall": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao concluir o grupo temático G02 (Inferência), o estudante desenvolve competências teóricas e operacionais decisivas para a resolução de provas de Língua Portuguesa de alto rendimento:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Domínio do Regime de Leitura: Sabe diferenciar com precisão se a questão exige Compreensão (Recorrência = Explícito = Paráfrase) ou Interpretação (Inferência = Implícito = Dedução) através da leitura atenta do verbo de comando (Mantra: \"Interpretar a gente só faz se a banca mandar\").",
+            "Desmistificação da Não Literalidade: Abandona o bloqueio psicológico de exigir que a resposta de inferência esteja escrita literalmente na folha de prova, compreendendo que a inferência válida opera com base em pressupostos semânticos gerados por pistas textuais (verbos, advérbios, quantificadores).",
+            "Blindagem contra Extrapolação: Neutraliza a tentação de validar assertivas com base em seu repertório pessoal de mundo, notícias da imprensa ou teses sociológicas/históricas, restringindo o julgamento estritamente ao universo de informações delimitado pelo texto-base (Princípio da Autonomia Textual Estrita).",
+            "Habilidade de Decomposição Analítica: Diante de assertivas longas e multifacetadas (padrão Cebraspe/FGV), sabe segmentar a frase em blocos semânticos numerados, isolar as paráfrases já comprovadas no texto e focar o julgamento no termo residual (\"o que sobrou\").",
+            "Aplicação do Método \"Setas Salvam\": Domina a técnica de traçar vetores gráficos de conexão sintática e predicativa, tornando-se imune às pegadinhas da \"assertiva 90% verdadeira\", identificando inversões de vetores relacionais entre cenário fático dado (ponto de partida) e ação estratégica exigida (ponto de chegada)."
+          ]
+        }
+      ]
+    }
+  },
+  "officialQuestions": [
+    {
+      "questionId": "aula13.q0171",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PRF",
+      "year": 2019,
+      "prompt": "Infere-se que o autor do texto é espanhol.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Não se pode afirmar isso. Apenas foi dito que o nome é hispânico. Garcia é um nome hispânico e\nnem todo Garcia é espanhol. Questão incorreta.",
+      "questionSha256": "0cfcac50ab0abc062263022aacaeb1d9d0630254fa35200b8a18e83c6f850c43",
+      "answerSha256": "a4ce290ef30e3140ed1698dc91667978b6d10e29b11e1dcc6a0294a55a5964e4",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0317",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PRF",
+      "year": 2019,
+      "prompt": "Infere-se que o autor do texto é espanhol.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "40453e848403d9ac8e4e44c12f00e93bfaa9fc6611ee616e36bc4a4fe875ebcb",
+      "answerSha256": "77f8a3660840d4bcb0ae359002cd74f1ba8ed88858de1ba704e92ac9a97b4f17",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0184",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "MPU",
+      "year": 2018,
+      "prompt": "Utilize o texto da questão anterior.\nUm dos principais desencadeadores do etnocentrismo é a xenofobia.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Houve inversão, é o etnocentrismo que causa xenofobia. Veja:\nO etnocentrismo, dessa forma, representa uma visão de mundo que toma a cultura do outro\n(alheia ao observador) como algo menor, sem valor, errado, primitivo. Ou seja, a visão\netnocêntrica desconsidera a lógica de funcionamento de outra cultura, o que faz o indivíduo\nlimitar-se à visão que possui como referência cultural. Questão incorreta.",
+      "questionSha256": "cad4fe1669937edfb5f11216d06bd8e4545dd0ee13439d6333001bc68adcb1c8",
+      "answerSha256": "bdfaf3acf611f352881c9ae3e93daead160a7ffe096641e0c97d574a763afd3c",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0330",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "MPU",
+      "year": 2018,
+      "prompt": "Utilize o texto da questão anterior.\nUm dos principais desencadeadores do etnocentrismo é a xenofobia.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "5d3e28e3dc176fd80c6f750adffd2145e62861e6dc85e0f6e7aab97c1b4dfea7",
+      "answerSha256": "121599a9eaa446f74e401fddd3c1181227b3cb62c3fdf88587748a9f76ac75f2",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0194",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PF",
+      "year": 2018,
+      "prompt": "Utilize o texto da questão\nanterior\nConclui-se do texto que a varredura do Nudetective é restrita a dispositivos conectados à\nInternet.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "explanation": "Não. O texto diz que foi feito um teste um HD físico, o que nos permite inferir que não precisa de\num dispositivo ligado à internet.\nPara o teste, pegaram um HD com conteúdo já periciado e rodaram o programa. Questão\nincorreta.",
+      "questionSha256": "59d60555eeef63492f8679a9ca340c0cf9b195d6c5a18232808feabb5c94ab1f",
+      "answerSha256": "f18948db7cac454d2cac536b4300fafcee8ac326cf32d35a094cd704e5d379aa",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    },
+    {
+      "questionId": "aula13.q0340",
+      "questionType": "open_or_other",
+      "examBoard": "CEBRASPE",
+      "organization": "PF",
+      "year": 2018,
+      "prompt": "Utilize o texto da questão\nanterior\nConclui-se do texto que a varredura do Nudetective é restrita a dispositivos conectados à\nInternet.",
+      "options": [],
+      "officialAnswer": "incorrect",
+      "questionSha256": "276174489abfe2b8d95563bfb05e86e41734d45532852dd5779f90f6b81df07d",
+      "answerSha256": "9636ff814b0221074f9dc09937b2a38e0a92395c3005be7859e73d8ecfb3c48c",
+      "cognitiveDemand": "interpretacao_contextual",
+      "solutionStrategy": "1. Ler atentamente o enunciado de CEBRASPE; 2. Identificar a regra central de Inferência; 3. Eliminar os distratores inconsistentes com o padrão culto.",
+      "distractorAnalysis": []
+    }
+  ]
+}
